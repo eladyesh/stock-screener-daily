@@ -1,6 +1,6 @@
 # Intelligent Stock Screener
 
-> **Daily Telegram fork:** This independent copy runs a daily **07:17 UTC** GitHub Actions scan and sends a Hebrew summary with the complete report to your private Telegram chat. See [setup, schedule, and verification](docs/DAILY_TELEGRAM.md). Configure `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets. Email delivery is no longer part of the daily workflow. The original documentation below describes the upstream project; this guide defines the automation in this fork.
+> **Daily Telegram fork:** This independent copy runs a daily **10:17 Asia/Jerusalem** GitHub Actions scan and sends an English summary with the complete English report to your private Telegram chat. See [setup, schedule, and verification](docs/DAILY_TELEGRAM.md). Configure `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets. Email delivery is no longer part of the daily workflow. The original documentation below describes the upstream project; this guide defines the automation in this fork.
 
 > **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
 

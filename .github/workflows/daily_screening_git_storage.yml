@@ -2,8 +2,9 @@ name: Daily Stock Scan and Telegram
 
 on:
   schedule:
-    # Every day, 07:17 UTC (10:17 Israel summer / 09:17 winter).
-    - cron: '17 7 * * *'
+    # Every day at 10:17 Israel local time, including daylight-saving changes.
+    - cron: '17 10 * * *'
+      timezone: 'Asia/Jerusalem'
   workflow_dispatch:
     inputs:
       scan_mode:

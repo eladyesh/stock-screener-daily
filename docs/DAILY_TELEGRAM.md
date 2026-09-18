@@ -4,7 +4,7 @@ This independent fork of [RyanJHamby/stock-screener](https://github.com/RyanJHam
 
 ## What you receive
 
-One Telegram message containing a short Hebrew summary and the complete English report as a UTF-8 `.txt` attachment. The summary includes coverage, buy/sell signal counts, leading tickers, data dates and the GitHub run link. The same message carries both the summary and file. Days with no signals still produce a report. No email is sent by this workflow.
+One Telegram message containing a short English summary and the complete English report as a UTF-8 `.txt` attachment. The summary includes coverage, buy/sell signal counts, leading tickers, data dates and the GitHub run link. The same message carries both the summary and file. Days with no signals still produce a report. No email is sent by this workflow.
 
 The scan calls `run_optimized_scan.py --conservative --git-storage`. It downloads Nasdaq Trader directories over HTTPS, fetches Yahoo Finance data through yfinance and uses upstream trend, relative-strength and fundamental scoring. Symbol/name heuristics and liquidity/history filters mean this is not literally every listed stock. Fundamentals can be cached for 7 or 90 days under upstream rules. Missing values remain unknown; they are not treated as zero growth.
 
@@ -26,10 +26,21 @@ The previous `EMAIL_*` secrets are not used. No Gmail connection is needed. A bo
 
 ## Schedule
 
-- Every calendar day at **07:17 UTC** (`17 7 * * *`): **10:17 Israel summer / 09:17 winter**.
+- Every calendar day at **10:17 Israel local time**, using `cron: '17 10 * * *'` with `timezone: 'Asia/Jerusalem'`. GitHub adjusts for daylight saving automatically: 07:17 UTC in summer and 08:17 UTC in winter.
 - Delivery follows the scan. Full scans can take tens of minutes or longer; the scan step is capped at 160 minutes.
 - Weekends/US market holidays can repeat the last trading session's prices. A newly generated report does not imply fresh fundamentals.
 - GitHub schedules may be delayed. The workflow runs from `main` without a local computer staying on. See [GitHub schedule behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+
+The schedule is stored in `.github/workflows/daily_screening_git_storage.yml`:
+
+```yaml
+on:
+  schedule:
+    - cron: '17 10 * * *'
+      timezone: 'Asia/Jerusalem'
+```
+
+The five cron fields are minute, hour, day of month, month and day of week. `17 10 * * *` means minute 17 of hour 10 on every day of every month, including weekends. Minute 17 avoids the busiest start-of-hour scheduling window. This is the scan start time; the Telegram report follows completion. The job's `TZ: UTC` setting controls report/log timestamps and does not override the scheduler's explicit timezone.
 
 ## Verify the connection
 

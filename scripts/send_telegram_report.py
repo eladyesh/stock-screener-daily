@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Send the current scan as one Telegram document with a Hebrew summary."""
+"""Send the current scan as one Telegram document with an English summary."""
 
 import argparse
 import os
@@ -90,24 +90,24 @@ def verify_connection(config: TelegramConfig) -> None:
 
 def make_caption(report: str, manifest: dict, run_url: str) -> str:
     """Keep the summary inside Telegram's document-caption limit."""
-    prefix = '[TEST] בדיקת חמש מניות' if os.getenv('SCAN_MODE') == 'smoke' else 'דוח מניות יומי'
+    prefix = '[TEST] Five-stock scan' if os.getenv('SCAN_MODE') == 'smoke' else 'Daily stock scan'
     errors = float(manifest.get('error_rate', 0))
     lines = [
         f"{prefix} — {manifest['generated_at'][:10]}",
-        f"נותחו {manifest['analyzed']:,} מתוך {manifest['universe']:,} מניות ברשימת הסריקה.",
-        f"איתותי קנייה: {manifest['buy_signals']} | איתותי מכירה: {manifest['sell_signals']}",
-        f"שיעור שגיאות: {errors:.1%}",
-        'תאריכי נתוני המחיר: ' + ', '.join(manifest.get('price_dates', [])),
+        f"Analyzed: {manifest['analyzed']:,} / {manifest['universe']:,} universe entries.",
+        f"Buy signals: {manifest['buy_signals']} | Sell signals: {manifest['sell_signals']}",
+        f"Processing error rate: {errors:.1%}",
+        'Price data dates: ' + ', '.join(manifest.get('price_dates', [])),
     ]
     if errors >= 0.1:
-        lines.append('דוח חלקי: שיעור שגיאות גבוה.')
-    for side, label in (('BUY', 'איתותי קנייה מובילים'), ('SELL', 'איתותי מכירה מובילים')):
+        lines.append('PARTIAL REPORT: elevated error rate.')
+    for side, label in (('BUY', 'Top buy signals'), ('SELL', 'Top sell signals')):
         tickers = re.findall(r'\b' + side + r' #\d+: ([A-Z0-9.^-]{1,16})\s+\|', report)
         if tickers:
             lines.append(label + ': ' + ', '.join(tickers[:5]))
     lines.extend([
-        'הקובץ המצורף מכיל את הדוח המלא באנגלית.',
-        'אלו איתותי הסורק; נתוני יסוד עשויים להיות שמורים מהרצות קודמות.',
+        'Full report attached.',
+        'Scanner signals; fundamental data may be cached.',
         run_url,
     ])
     # UTF-16 bounding is conservative for Telegram, including supplementary emoji.

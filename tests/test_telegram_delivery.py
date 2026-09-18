@@ -18,7 +18,7 @@ def scan(monkeypatch):
     monkeypatch.setenv('TELEGRAM_BOT_TOKEN', '123456:test_token_only')
     monkeypatch.setenv('TELEGRAM_CHAT_ID', '987654321')
     monkeypatch.setenv('SCAN_MODE', 'smoke')
-    report = 'BUY #1: AAPL | Score: 80\nאפס טעויות\nEND OF SCAN'
+    report = 'BUY #1: AAPL | Score: 80\nUnicode check: €\nEND OF SCAN'
     manifest = {
         'generated_at': datetime.now(timezone.utc).isoformat(),
         'analyzed': 5, 'universe': 5, 'error_rate': 0,
@@ -57,8 +57,8 @@ def test_complete_report_is_one_message_to_explicit_chat(scan, monkeypatch):
 def test_no_signal_caption_is_valid_and_bounded(scan):
     scan[1].update(buy_signals=0, error_rate=0.2)
     caption = make_caption('END OF SCAN', scan[1], 'https://example.com/' + '📈' * 2000)
-    assert 'קנייה: 0' in caption
-    assert 'דוח חלקי' in caption
+    assert 'Buy signals: 0' in caption
+    assert 'PARTIAL REPORT' in caption
     assert len(caption.encode('utf-16-le')) <= 2048
 
 

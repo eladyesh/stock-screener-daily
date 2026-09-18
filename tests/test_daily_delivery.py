@@ -18,7 +18,7 @@ class DailyDeliveryTests(unittest.TestCase):
         self.addCleanup(self.directory.cleanup)
         self.report_path = Path(self.directory.name) / 'report.txt'
         self.manifest_path = Path(self.directory.name) / 'manifest.json'
-        self.report = '<script>untrusted company name</script>\nאפס איתותים\nEND OF SCAN'
+        self.report = '<script>untrusted company name</script>\nZero signals — €\nEND OF SCAN'
         self.report_path.write_text(self.report, encoding='utf-8')
         self.manifest = {
             'generated_at': datetime.now(timezone.utc).isoformat(),
@@ -68,7 +68,7 @@ class DailyDeliveryTests(unittest.TestCase):
         body = msg.get_body(preferencelist=('html',)).get_content()
         self.assertNotIn('<script>', body)
         self.assertIn('&lt;script&gt;', body)
-        self.assertIn('אפס איתותים', body)
+        self.assertIn('Zero signals — €', body)
 
     def test_stale_report_is_rejected(self):
         self.manifest['generated_at'] = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
