@@ -1,4 +1,4 @@
-name: Daily Stock Scan and Email
+name: Daily Stock Scan and Telegram
 
 on:
   schedule:
@@ -11,8 +11,8 @@ on:
         type: choice
         options: [full, smoke]
         default: full
-      send_email:
-        description: 'Send the report using the configured SMTP secrets'
+      send_telegram:
+        description: 'Send the report to your private Telegram chat'
         type: boolean
         default: true
 
@@ -33,7 +33,7 @@ jobs:
       PYTHONUTF8: '1'
       PYTHONUNBUFFERED: '1'
       SCAN_MODE: ${{ inputs.scan_mode || 'full' }}
-      SEND_EMAIL: ${{ github.event_name != 'workflow_dispatch' || inputs.send_email }}
+      SEND_TELEGRAM: ${{ github.event_name != 'workflow_dispatch' || inputs.send_telegram }}
     steps:
       - name: Check out this fork
         uses: actions/checkout@v7
@@ -45,16 +45,6 @@ jobs:
           mkdir -p data/daily_scans data/logs
           rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json
 
-      - name: Check email configuration
-        if: env.SEND_EMAIL == 'true'
-        env:
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_SMTP_SERVER: ${{ vars.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
-          EMAIL_SMTP_PORT: ${{ vars.EMAIL_SMTP_PORT || '587' }}
-        run: python3 scripts/send_daily_report.py --check-config
-
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
@@ -63,6 +53,13 @@ jobs:
 
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
+
+      - name: Check Telegram configuration
+        if: env.SEND_TELEGRAM == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m scripts.send_telegram_report --check-config
 
       - name: Run the scanner
         id: scan
@@ -75,7 +72,7 @@ jobs:
             args+=(--tickers AAPL,MSFT,NVDA,AMZN,GOOGL)
           fi
           python run_optimized_scan.py "${args[@]}" 2>&1 | tee data/logs/daily-scan.log
-          python -c "from pathlib import Path; from scripts.send_daily_report import load_current_report; load_current_report(Path('data/daily_scans/latest_optimized_scan.txt'), Path('data/daily_scans/latest_scan_manifest.json'))"
+          python -c "from pathlib import Path; from scripts.report_utils import load_current_report; load_current_report(Path('data/daily_scans/latest_optimized_scan.txt'), Path('data/daily_scans/latest_scan_manifest.json'))"
 
       - name: Publish scan summary
         if: steps.scan.outcome == 'success'
@@ -91,8 +88,8 @@ jobs:
               out.write(f"Buy: **{data['buy_signals']}**; sell: **{data['sell_signals']}**.\n\n")
               out.write(f"Request errors: {data['error_rate']:.1%}. Price-bar dates: {', '.join(data['price_dates'])}.\n\n")
               out.write('The full report is an artifact. A smoke check is not a market-wide scan.\n\n')
-              if os.environ['SEND_EMAIL'] != 'true':
-                  out.write('**Email was disabled for this manual verification run.**\n')
+              if os.environ['SEND_TELEGRAM'] != 'true':
+                  out.write('**Telegram delivery was disabled for this manual verification run.**\n')
           PY
 
       - name: Preserve this scan and fundamental cache
@@ -107,17 +104,14 @@ jobs:
             git push origin HEAD:main
           fi
 
-      - name: Email the complete report
-        if: always() && steps.scan.outcome == 'success' && env.SEND_EMAIL == 'true'
+      - name: Send the complete report to Telegram
+        if: always() && steps.scan.outcome == 'success' && env.SEND_TELEGRAM == 'true'
         env:
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_SMTP_SERVER: ${{ vars.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
-          EMAIL_SMTP_PORT: ${{ vars.EMAIL_SMTP_PORT || '587' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python scripts/send_daily_report.py
-          echo 'SMTP accepted the report. Inbox placement is controlled by the mail provider.' >> "$GITHUB_STEP_SUMMARY"
+          python -m scripts.send_telegram_report
+          echo 'Telegram confirmed the report in the configured private chat.' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload this attempt's report and logs
         if: always()

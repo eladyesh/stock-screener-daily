@@ -1,13 +1,13 @@
 # Intelligent Stock Screener
 
-> **Daily email fork:** This independent copy adds a daily **07:17 UTC** GitHub Actions scan and explicit SMTP report delivery. See [setup, schedule, and verification](docs/DAILY_EMAIL.md). Configure `EMAIL_FROM`, `EMAIL_TO`, and `EMAIL_PASSWORD` as repository secrets. The original documentation follows; this fork's workflow and linked guide define its actual automation behavior.
+> **Daily Telegram fork:** This independent copy runs a daily **07:17 UTC** GitHub Actions scan and sends a Hebrew summary with the complete report to your private Telegram chat. See [setup, schedule, and verification](docs/DAILY_TELEGRAM.md). Configure `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets. Email delivery is no longer part of the daily workflow. The original documentation below describes the upstream project; this guide defines the automation in this fork.
 
 > **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
 
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://github.com/psf/black)
-[![Daily Scan](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml/badge.svg)](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml)
+[![Daily Scan](https://github.com/eladyesh/stock-screener-daily/actions/workflows/daily_screening_git_storage.yml/badge.svg)](https://github.com/eladyesh/stock-screener-daily/actions/workflows/daily_screening_git_storage.yml)
 
 ---
 
