@@ -6,6 +6,7 @@ and maintains a daily-updated universe for screening.
 
 import logging
 import pickle
+from io import StringIO
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Set
@@ -50,8 +51,10 @@ class USStockUniverseFetcher:
             DataFrame with NASDAQ stocks
         """
         try:
-            url = "ftp://ftp.nasdaqtrader.com/symboldirectory/nasdaqlisted.txt"
-            df = pd.read_csv(url, sep='|')
+            url = "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"
+            response = requests.get(url, timeout=45)
+            response.raise_for_status()
+            df = pd.read_csv(StringIO(response.text), sep='|')
             df = df[df['Symbol'].notna()]
             df = df[df['Test Issue'] == 'N']  # Exclude test issues
             df = df[['Symbol', 'Security Name']].copy()
@@ -69,8 +72,10 @@ class USStockUniverseFetcher:
             DataFrame with other exchange stocks
         """
         try:
-            url = "ftp://ftp.nasdaqtrader.com/symboldirectory/otherlisted.txt"
-            df = pd.read_csv(url, sep='|')
+            url = "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
+            response = requests.get(url, timeout=45)
+            response.raise_for_status()
+            df = pd.read_csv(StringIO(response.text), sep='|')
             df = df[df['ACT Symbol'].notna()]
             df = df[df['Test Issue'] == 'N']  # Exclude test issues
             df = df[['ACT Symbol', 'Security Name']].copy()

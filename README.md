@@ -1,5 +1,7 @@
 # Intelligent Stock Screener
 
+> **Daily email fork:** This independent copy adds a daily **07:17 UTC** GitHub Actions scan and explicit SMTP report delivery. See [setup, schedule, and verification](docs/DAILY_EMAIL.md). Configure `EMAIL_FROM`, `EMAIL_TO`, and `EMAIL_PASSWORD` as repository secrets. The original documentation follows; this fork's workflow and linked guide define its actual automation behavior.
+
 > **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
 
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)

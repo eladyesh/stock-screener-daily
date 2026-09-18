@@ -1,179 +1,132 @@
-name: Daily Stock Screening (Git-Based Storage)
+name: Daily Stock Scan and Email
 
 on:
   schedule:
-    # Run at 7am EST (12:00 UTC) on weekdays
-    - cron: '0 12 * * 1-5'
-
-  # Allow manual triggering
+    # Every day, 07:17 UTC (10:17 Israel summer / 09:17 winter).
+    - cron: '17 7 * * *'
   workflow_dispatch:
     inputs:
-      force_full_refresh:
-        description: 'Force refresh all fundamentals (ignore cache)'
-        required: false
+      scan_mode:
+        description: 'Full universe or a five-stock smoke check'
+        type: choice
+        options: [full, smoke]
+        default: full
+      send_email:
+        description: 'Send the report using the configured SMTP secrets'
         type: boolean
-        default: false
+        default: true
+
+concurrency:
+  group: daily-stock-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write # Persist the original scanner's cache and dated reports.
 
 jobs:
-  screen-stocks:
+  scan:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write  # Required to commit fundamental cache
-
+    timeout-minutes: 180
+    env:
+      TZ: UTC
+      PYTHONUTF8: '1'
+      PYTHONUNBUFFERED: '1'
+      SCAN_MODE: ${{ inputs.scan_mode || 'full' }}
+      SEND_EMAIL: ${{ github.event_name != 'workflow_dispatch' || inputs.send_email }}
     steps:
-      - name: Checkout code
+      - name: Check out this fork
         uses: actions/checkout@v7
         with:
-          fetch-depth: 1  # Shallow clone for speed
+          ref: main
 
-      - name: Get current date
-        id: date
+      - name: Remove previous report before this attempt
         run: |
-          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-          echo "time=$(date +'%H:%M:%S')" >> $GITHUB_OUTPUT
+          mkdir -p data/daily_scans data/logs
+          rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json
 
-      - name: Check existing fundamental cache
-        id: cache-check
-        run: |
-          if [ -d "data/fundamentals_cache" ]; then
-            CACHE_COUNT=$(ls data/fundamentals_cache/*_fundamentals.json 2>/dev/null | wc -l | tr -d ' ')
-            echo "✓ Found existing fundamental cache"
-            echo "cached_stocks=$CACHE_COUNT" >> $GITHUB_OUTPUT
-            echo "  Cached stocks: $CACHE_COUNT"
-
-            # Show cache age distribution
-            echo "  Cache age distribution:"
-            find data/fundamentals_cache -name "*_fundamentals.json" -mtime -7 -type f | wc -l | xargs echo "    <7 days:"
-            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +7 -mtime -30 -type f | wc -l | xargs echo "    7-30 days:"
-            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +30 -mtime -90 -type f | wc -l | xargs echo "    30-90 days:"
-            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +90 -type f | wc -l | xargs echo "    >90 days (stale):"
-          else
-            echo "⚠ No existing cache, will create"
-            mkdir -p data/fundamentals_cache
-            echo "cached_stocks=0" >> $GITHUB_OUTPUT
-          fi
+      - name: Check email configuration
+        if: env.SEND_EMAIL == 'true'
+        env:
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_SMTP_SERVER: ${{ vars.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
+          EMAIL_SMTP_PORT: ${{ vars.EMAIL_SMTP_PORT || '587' }}
+        run: python3 scripts/send_daily_report.py --check-config
 
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-          cache: 'pip'
+          cache: pip
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt
 
-      - name: Run optimized stock screening
+      - name: Run the scanner
+        id: scan
+        timeout-minutes: 160
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=(--conservative --git-storage)
+          if [[ "$SCAN_MODE" == 'smoke' ]]; then
+            args+=(--tickers AAPL,MSFT,NVDA,AMZN,GOOGL)
+          fi
+          python run_optimized_scan.py "${args[@]}" 2>&1 | tee data/logs/daily-scan.log
+          python -c "from pathlib import Path; from scripts.send_daily_report import load_current_report; load_current_report(Path('data/daily_scans/latest_optimized_scan.txt'), Path('data/daily_scans/latest_scan_manifest.json'))"
+
+      - name: Publish scan summary
+        if: steps.scan.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          data = json.loads(Path('data/daily_scans/latest_scan_manifest.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write('# Stock screening report\n\n')
+              out.write(f"Mode: {os.environ['SCAN_MODE']}. Generated UTC: {data['generated_at']}\n\n")
+              out.write(f"Analyzed **{data['analyzed']} / {data['universe']}** universe entries. ")
+              out.write(f"Buy: **{data['buy_signals']}**; sell: **{data['sell_signals']}**.\n\n")
+              out.write(f"Request errors: {data['error_rate']:.1%}. Price-bar dates: {', '.join(data['price_dates'])}.\n\n")
+              out.write('The full report is an artifact. A smoke check is not a market-wide scan.\n\n')
+              if os.environ['SEND_EMAIL'] != 'true':
+                  out.write('**Email was disabled for this manual verification run.**\n')
+          PY
+
+      - name: Preserve this scan and fundamental cache
+        if: steps.scan.outcome == 'success' && env.SCAN_MODE == 'full'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fundamentals_cache/ data/daily_scans/
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily scan $(date -u +%F) [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Email the complete report
+        if: always() && steps.scan.outcome == 'success' && env.SEND_EMAIL == 'true'
         env:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_SMTP_SERVER: ${{ secrets.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
-          EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT || '587' }}
-          FORCE_FULL_REFRESH: ${{ github.event.inputs.force_full_refresh || 'false' }}
-          CACHED_STOCKS: ${{ steps.cache-check.outputs.cached_stocks }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_SMTP_SERVER: ${{ vars.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
+          EMAIL_SMTP_PORT: ${{ vars.EMAIL_SMTP_PORT || '587' }}
         run: |
-          echo "Starting screening with:"
-          echo "  - Fresh price data for all stocks (1 year history)"
-          echo "  - Smart fundamental refresh (earnings-aware)"
-          echo "  - Cached fundamentals: $CACHED_STOCKS stocks"
-          echo ""
+          python scripts/send_daily_report.py
+          echo 'SMTP accepted the report. Inbox placement is controlled by the mail provider.' >> "$GITHUB_STEP_SUMMARY"
 
-          # Create output directories
-          mkdir -p data/daily_scans
-          mkdir -p data/logs
-
-          # Conservative mode to avoid rate limits
-          # --git-storage flag enables Git-based fundamental storage
-          python run_optimized_scan.py --conservative --git-storage
-
-      - name: Show fundamental refresh stats
-        if: always()
-        run: |
-          echo "=== Fundamental Cache Statistics ==="
-          if [ -f "data/fundamentals_cache/metadata.json" ]; then
-            echo "Latest updates:"
-            python3 << 'PYTHON_SCRIPT'
-          import json
-          from datetime import datetime
-
-          try:
-              with open("data/fundamentals_cache/metadata.json", "r") as f:
-                  metadata = json.load(f)
-
-              # Show last 10 updated stocks
-              updates = [(ticker, data["last_updated"]) for ticker, data in metadata.items()]
-              updates.sort(key=lambda x: x[1], reverse=True)
-
-              print(f"Total tracked: {len(updates)} stocks")
-              print("\nLast 10 updates:")
-              for ticker, timestamp in updates[:10]:
-                  dt = datetime.fromisoformat(timestamp)
-                  formatted = dt.strftime("%Y-%m-%d %H:%M")
-                  print(f"  {ticker}: {formatted}")
-          except Exception as e:
-              print(f"Could not read metadata: {e}")
-          PYTHON_SCRIPT
-          else
-            echo "No metadata file found"
-          fi
-
-      - name: Commit updated fundamental cache and scan results
-        id: commit
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          # Add fundamental cache directory and daily scan reports
-          git add data/fundamentals_cache/
-          git add data/daily_scans/
-
-          # Check if there are changes
-          if git diff --staged --quiet; then
-            echo "No fundamental cache or scan changes to commit"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            CHANGED_FILES=$(git diff --staged --name-only | wc -l)
-            echo "Committing $CHANGED_FILES updated files"
-            git commit -m "chore: update fundamental cache and daily scan - ${{ steps.date.outputs.date }}"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Push changes
-        if: steps.commit.outputs.has_changes == 'true'
-        uses: ad-m/github-push-action@v1.3.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-
-      - name: Upload screening results
+      - name: Upload this attempt's report and logs
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: screening-results-${{ steps.date.outputs.date }}
+          name: stock-scan-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            data/daily_scans/
-            data/logs/
-          if-no-files-found: warn  # Don't fail if no files found
-          retention-days: 90  # Keep screening results for 90 days
-
-      - name: Cache size report
-        if: always()
-        run: |
-          echo "=== Git Repository Impact ==="
-          if [ -d "data/fundamentals_cache" ]; then
-            CACHE_SIZE=$(du -sh data/fundamentals_cache | cut -f1)
-            CACHE_FILES=$(find data/fundamentals_cache -name "*.json" | wc -l | tr -d ' ')
-
-            echo "Fundamental cache directory size: $CACHE_SIZE"
-            echo "Total files: $CACHE_FILES"
-            echo ""
-            echo "Today's commit impact:"
-            if [ "${{ steps.commit.outputs.has_changes }}" == "true" ]; then
-              git show --stat | tail -5
-            else
-              echo "  No changes committed"
-            fi
-          fi
+            data/daily_scans/latest_optimized_scan.txt
+            data/daily_scans/latest_scan_manifest.json
+            data/logs/daily-scan.log
+          if-no-files-found: warn
+          retention-days: 30

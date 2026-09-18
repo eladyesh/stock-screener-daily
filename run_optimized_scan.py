@@ -17,9 +17,12 @@ Usage:
 """
 
 import argparse
+import hashlib
+import json
 import logging
+import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from src.data.universe_fetcher import USStockUniverseFetcher
@@ -62,6 +65,14 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     output.append(f"Analyzed: {results['total_analyzed']:,} stocks")
     output.append(f"Processing Time: {results['processing_time_seconds']/60:.1f} minutes")
     output.append(f"Actual TPS: {results['actual_tps']:.2f}")
+    price_dates = sorted({
+        str(analysis['price_data'].index[-1].date())
+        for analysis in results.get('analyses', [])
+        if not analysis['price_data'].empty
+    })
+    if price_dates:
+        output.append(f"Latest price-bar dates across analyzed stocks: {price_dates[0]} to {price_dates[-1]}")
+    output.append("Coverage: successfully analyzed stocks after the upstream universe and liquidity filters.")
 
     error_rate = results['error_rate'] * 100
     if error_rate < 1:
@@ -267,12 +278,29 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Save
     filepath = Path(output_dir) / f"optimized_scan_{timestamp}.txt"
-    with open(filepath, 'w') as f:
+    with open(filepath, 'w', encoding='utf-8') as f:
         f.write(report_text)
 
     latest_path = Path(output_dir) / "latest_optimized_scan.txt"
-    with open(latest_path, 'w') as f:
+    with open(latest_path, 'w', encoding='utf-8') as f:
         f.write(report_text)
+
+    # Bind delivery to this run and these exact report bytes, never a checked-in report.
+    manifest = {
+        'generated_at': datetime.now(timezone.utc).isoformat(),
+        'github_run_id': os.getenv('GITHUB_RUN_ID', ''),
+        'github_run_attempt': os.getenv('GITHUB_RUN_ATTEMPT', ''),
+        'report_sha256': hashlib.sha256(latest_path.read_bytes()).hexdigest(),
+        'universe': results['total_processed'],
+        'analyzed': results['total_analyzed'],
+        'error_rate': results['error_rate'],
+        'buy_signals': len(buy_signals),
+        'sell_signals': len(sell_signals),
+        'price_dates': price_dates,
+    }
+    (Path(output_dir) / 'latest_scan_manifest.json').write_text(
+        json.dumps(manifest, indent=2), encoding='utf-8'
+    )
 
     logger.info(f"Report saved: {filepath}")
     print(report_text)
@@ -289,6 +317,7 @@ def main():
     parser.add_argument('--resume', action='store_true', help='Resume from progress')
     parser.add_argument('--clear-progress', action='store_true', help='Clear progress')
     parser.add_argument('--test-mode', action='store_true', help='Test with 100 stocks')
+    parser.add_argument('--tickers', help='Explicit comma-separated tickers for a small manual check')
     parser.add_argument('--min-price', type=float, default=5.0, help='Min price')
     parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
     parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
@@ -320,7 +349,13 @@ def main():
         # Fetch universe
         universe_fetcher = USStockUniverseFetcher()
         logger.info("Fetching stock universe...")
-        tickers = universe_fetcher.fetch_universe()
+        if args.tickers:
+            import re
+            tickers = list(dict.fromkeys(t.strip().upper() for t in args.tickers.split(',') if t.strip()))
+            if not all(re.fullmatch(r'[A-Z][A-Z0-9.-]{0,9}', t) for t in tickers):
+                raise ValueError('Invalid ticker list')
+        else:
+            tickers = universe_fetcher.fetch_universe()
 
         if not tickers:
             logger.error("Failed to fetch universe")
@@ -356,6 +391,8 @@ def main():
         if 'error' in results:
             logger.error(results['error'])
             sys.exit(1)
+        if results.get('total_analyzed', 0) == 0:
+            raise RuntimeError('No stocks were successfully analyzed; refusing to publish a misleading empty report')
 
         # Analysis
         logger.info("Generating signals...")
