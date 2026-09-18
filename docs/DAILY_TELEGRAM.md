@@ -44,7 +44,7 @@ Scheduled runs always use `full` with Telegram delivery enabled. Manual settings
 
 The sender validates a fresh report, checksum, run ID/attempt, and a positive analyzed-stock count. Old reports and incomplete scans cannot be delivered. A valid scan with zero signals is delivered. Error rates of at least 10% mark the summary as partial.
 
-Missing secrets fail configuration checking by name. Invalid tokens, an incorrect chat ID, or a blocked bot fail delivery. Press Start in the **new bot**, not only in BotFather. Neither HTTP error text nor token-bearing URLs are logged.
+Missing secrets fail configuration checking by name. Before scanning, read-only `getMe` and `getChat` checks verify the token and private chat. Invalid tokens, an incorrect chat ID, or a blocked bot stop the run. Press Start in the **new bot**, not only in BotFather. Known errors such as `chat not found` are mapped to safe instructions; arbitrary HTTP response text and token-bearing URLs are never logged. Connection verification sends no message and does not replace the final delivery check.
 
 Only explicit Telegram rate-limit rejections are retried, at most twice with bounded waits. Network timeouts have uncertain delivery status and are not retried automatically; inspect the chat before manually re-running to avoid duplicates. A Telegram success response confirms message creation, not that it was read.
 

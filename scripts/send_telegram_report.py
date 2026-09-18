@@ -41,6 +41,53 @@ class TelegramConfig:
         return cls(token, chat_id)
 
 
+def api_error(status: int, payload: dict) -> DeliveryError:
+    """Translate known API errors without logging arbitrary response text or URLs."""
+    code = payload.get('error_code', status)
+    description = str(payload.get('description', '')).lower()
+    if status in (401, 404) or code in (401, 404):
+        reason = 'Telegram rejected TELEGRAM_BOT_TOKEN; check the token from BotFather'
+    elif 'chat not found' in description:
+        reason = 'Telegram reports chat not found; press Start in YOUR new bot and verify TELEGRAM_CHAT_ID is your user ID, not the bot ID'
+    elif status == 403 or code == 403 or "can't initiate conversation" in description:
+        reason = 'Telegram blocked delivery; open your bot, press Start and ensure it is not blocked'
+    elif status == 429 or code == 429:
+        reason = 'Telegram rate limit reached; retry later'
+    elif 'caption is too long' in description:
+        reason = 'Telegram rejected the document caption length'
+    else:
+        reason = 'Telegram rejected the request; no delivery was confirmed'
+    return DeliveryError(f'{reason} (HTTP {status})')
+
+
+def verify_connection(config: TelegramConfig) -> None:
+    """Read-only token and recipient checks before spending time on a full scan."""
+    for method, data in (('getMe', {}), ('getChat', {'chat_id': config.chat_id})):
+        try:
+            response = requests.post(
+                f'https://api.telegram.org/bot{config.token}/{method}',
+                data=data, timeout=(10, 30), allow_redirects=False,
+            )
+        except requests.RequestException:
+            raise DeliveryError('Telegram connection check failed; no message was sent') from None
+        try:
+            payload = response.json()
+        except ValueError:
+            raise DeliveryError('Telegram connection check returned invalid JSON') from None
+        if not isinstance(payload, dict):
+            raise DeliveryError('Telegram connection check returned an unexpected response')
+        if response.status_code != 200 or payload.get('ok') is not True:
+            raise api_error(response.status_code, payload)
+        result = payload.get('result', {})
+        if method == 'getMe':
+            if result.get('is_bot') is not True:
+                raise DeliveryError('Telegram did not authenticate a bot')
+            print('Telegram bot token authenticated successfully.')
+        elif str(result.get('id')) != config.chat_id or result.get('type') != 'private':
+            raise DeliveryError('Telegram did not verify the configured private chat')
+    print('Telegram verified the configured private chat; no message was sent by this check.')
+
+
 def make_caption(report: str, manifest: dict, run_url: str) -> str:
     """Keep the summary inside Telegram's document-caption limit."""
     prefix = '[TEST] בדיקת חמש מניות' if os.getenv('SCAN_MODE') == 'smoke' else 'דוח מניות יומי'
@@ -97,12 +144,8 @@ def deliver(config: TelegramConfig, report: str, manifest: dict, run_url: str) -
                 time.sleep(delay)
                 continue
             raise DeliveryError('Telegram rate limit reached; retry later')
-        if response.status_code in (401, 404) or payload.get('error_code') in (401, 404):
-            raise DeliveryError('Telegram rejected TELEGRAM_BOT_TOKEN; check the token from BotFather')
-        if response.status_code == 403 or payload.get('error_code') == 403:
-            raise DeliveryError('Telegram blocked delivery; open your bot, press Start and ensure it is not blocked')
         if response.status_code != 200 or payload.get('ok') is not True:
-            raise DeliveryError('Telegram rejected the report; check TELEGRAM_CHAT_ID and press Start in your bot')
+            raise api_error(response.status_code, payload)
         result = payload.get('result', {})
         chat = result.get('chat', {})
         if (str(chat.get('id')) != config.chat_id or chat.get('type') != 'private'
@@ -115,11 +158,15 @@ def deliver(config: TelegramConfig, report: str, manifest: dict, run_url: str) -
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check-config', action='store_true')
+    parser.add_argument('--verify-connection', action='store_true')
     parser.add_argument('--report', type=Path, default=Path('data/daily_scans/latest_optimized_scan.txt'))
     parser.add_argument('--manifest', type=Path, default=Path('data/daily_scans/latest_scan_manifest.json'))
     args = parser.parse_args()
     try:
         config = TelegramConfig.from_env()
+        if args.verify_connection:
+            verify_connection(config)
+            return 0
         if args.check_config:
             print('Telegram configuration is present; token and chat access are verified during delivery.')
             return 0

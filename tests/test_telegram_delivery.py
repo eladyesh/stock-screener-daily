@@ -9,7 +9,7 @@ import pytest
 import requests
 
 from scripts.send_telegram_report import (
-    DeliveryError, TelegramConfig, deliver, main, make_caption,
+    DeliveryError, TelegramConfig, deliver, main, make_caption, verify_connection,
 )
 
 
@@ -124,3 +124,35 @@ def test_stale_report_never_reaches_telegram(scan, monkeypatch, tmp_path, capsys
     assert main() == 1
     post.assert_not_called()
     assert 'stale' in capsys.readouterr().err
+
+
+def test_connection_check_only_reads_bot_and_exact_private_chat(scan, monkeypatch):
+    post = Mock(side_effect=[
+        response(ok=True, result={'id': 123456, 'is_bot': True}),
+        response(ok=True, result={'id': 987654321, 'type': 'private'}),
+    ])
+    monkeypatch.setattr('scripts.send_telegram_report.requests.post', post)
+    verify_connection(TelegramConfig.from_env())
+    assert [call.args[0].rsplit('/', 1)[1] for call in post.call_args_list] == ['getMe', 'getChat']
+    assert post.call_args.kwargs['data'] == {'chat_id': '987654321'}
+
+
+def test_chat_not_found_is_diagnosed_without_exposing_server_text(scan, monkeypatch, capsys):
+    token = TelegramConfig.from_env().token
+    post = Mock(side_effect=[
+        response(ok=True, result={'is_bot': True}),
+        response(400, ok=False, error_code=400, description=f'Bad Request: chat not found {token}'),
+    ])
+    monkeypatch.setattr('scripts.send_telegram_report.requests.post', post)
+    with pytest.raises(DeliveryError, match='chat not found') as exc:
+        verify_connection(TelegramConfig.from_env())
+    assert token not in str(exc.value)
+    assert 'authenticated successfully' in capsys.readouterr().out
+
+
+def test_bad_bot_token_stops_before_chat_lookup(scan, monkeypatch):
+    post = Mock(return_value=response(401, ok=False, error_code=401))
+    monkeypatch.setattr('scripts.send_telegram_report.requests.post', post)
+    with pytest.raises(DeliveryError, match='TELEGRAM_BOT_TOKEN'):
+        verify_connection(TelegramConfig.from_env())
+    post.assert_called_once()

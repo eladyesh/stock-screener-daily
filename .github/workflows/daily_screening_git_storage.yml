@@ -59,7 +59,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m scripts.send_telegram_report --check-config
+        run: python -m scripts.send_telegram_report --verify-connection
 
       - name: Run the scanner
         id: scan
