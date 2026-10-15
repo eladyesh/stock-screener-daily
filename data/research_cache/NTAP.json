@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "ticker": "NTAP",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 29.890955740859514,
+    "revenue_qoq_change": 3.952772073921973,
+    "eps_yoy_change": 63.478260869565226,
+    "eps_qoq_change": -7.389162561576345,
+    "latest_eps": 1.88,
+    "gross_margin": 70.07407407407408,
+    "operating_margin": 26.666666666666668,
+    "net_margin": 18.51851851851852,
+    "inventory_yoy_change": 181.95488721804512,
+    "inventory_qoq_change": 89.3939393939394,
+    "shares_yoy_change": -1.4778325123152691,
+    "free_cash_flow_ttm": 1650000000.0,
+    "operating_cash_flow_ttm": 1897000000.0,
+    "revenue_ttm": 7391000000.0,
+    "net_income_ttm": 1418000000.0,
+    "ebitda_ttm": 2119000000.0,
+    "total_debt": 2534000000.0,
+    "cash": 3576000000.0,
+    "total_assets": 10955000000.0,
+    "margin_change": 0.0022054909118480737,
+    "operating_margin_yoy_change": 6.717981612144538,
+    "inventory_to_sales_ratio": 0.18518518518518517,
+    "fcf_margin": 22.324448653768098,
+    "net_debt": -1042000000.0,
+    "net_debt_to_ebitda": -0.49174138744690893,
+    "debt_to_assets": 23.130990415335464,
+    "market_cap": 42283122688.0,
+    "enterprise_value": 42602303488.0,
+    "forward_pe": 19.296898,
+    "trailing_pe": 32.66616,
+    "ev_ebitda": 20.335,
+    "fcf_yield": 3.902266188273441,
+    "eps_fy0": 10.00569,
+    "revenue_fy0": 8181324000.0,
+    "analysts_fy0": 19.0,
+    "eps_fy1": 11.15568,
+    "revenue_fy1": 8654720990.0,
+    "analysts_fy1": 19.0,
+    "forward_eps_growth": 11.49336027800183,
+    "forward_revenue_growth": 5.786312704398466,
+    "eps_revision_30d": 0.9958644465528632,
+    "eps_revision_90d": 13.327888237373674,
+    "eps_surprise_pct": 21.538736939296577,
+    "days_to_earnings": 47.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/financials/",
+      "retrieved_at": "2026-10-15T13:43:54.802169+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTAP/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Is SMCI Stock A Real Bargain?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/smci-stock-real-bargain-125207460.html",
+      "published_at": "2026-10-15T12:52:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "Here is What to Know Beyond Why NetApp, Inc. (NTAP) is a Trending Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-netapp-inc-120002520.html",
+      "published_at": "2026-10-15T12:00:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Barclays Downgrades Dell Technologies Stock After Massive Rally",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-downgrades-dell-technologies-stock-113201796.html",
+      "published_at": "2026-10-15T11:32:01+00:00",
+      "categories": []
+    },
+    {
+      "title": "What\u2019s Really Driving Dell\u2019s Boom? Barclays Has a Different Answer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/really-driving-dell-boom-barclays-065253449.html",
+      "published_at": "2026-10-15T06:52:53+00:00",
+      "categories": []
+    },
+    {
+      "title": "Dell Just Found Out What Gravity Feels Like",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-just-found-gravity-feels-212158568.html",
+      "published_at": "2026-10-14T21:21:58+00:00",
+      "categories": []
+    },
+    {
+      "title": "NetApp (NTAP) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-ntap-registers-bigger-fall-210004708.html",
+      "published_at": "2026-10-14T21:00:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Cogent, Flex, Mirion, NetApp, and Viasat Shares Plummet, What You Need To Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cogent-flex-mirion-netapp-viasat-200407412.html",
+      "published_at": "2026-10-14T20:04:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "Dell, HPE and NetApp Stocks Slump After Downgrades on Worries About AI Spending",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-hpe-netapp-stocks-slump-194925588.html",
+      "published_at": "2026-10-14T19:49:25+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-11",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NTAP/0001193125-26-389273_1002047"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "S-8",
+      "url": "https://finance.yahoo.com/sec-filing/NTAP/0001193125-26-380236_1002047"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "DEF 14A",
+      "url": "https://finance.yahoo.com/sec-filing/NTAP/0001193125-26-321210_1002047"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:54.802169+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 29.890955740859514,
+    "revenue_qoq_change": 3.952772073921973,
+    "eps_yoy_change": 63.478260869565226,
+    "eps_qoq_change": -7.389162561576345,
+    "latest_eps": 1.88,
+    "gross_margin": 70.07407407407408,
+    "operating_margin": 26.666666666666668,
+    "net_margin": 18.51851851851852,
+    "inventory_yoy_change": 181.95488721804512,
+    "inventory_qoq_change": 89.3939393939394,
+    "shares_yoy_change": -1.4778325123152691,
+    "free_cash_flow_ttm": 1650000000.0,
+    "operating_cash_flow_ttm": 1897000000.0,
+    "revenue_ttm": 7391000000.0,
+    "net_income_ttm": 1418000000.0,
+    "ebitda_ttm": 2119000000.0,
+    "total_debt": 2534000000.0,
+    "cash": 3576000000.0,
+    "total_assets": 10955000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-07-31": 1559000000.0,
+      "2025-10-31": 1705000000.0,
+      "2026-01-31": 1713000000.0,
+      "2026-04-30": 1948000000.0,
+      "2026-07-31": 2025000000.0
+    },
+    "quarterly_eps": {
+      "2025-07-31": 1.15,
+      "2025-10-31": 1.51,
+      "2026-01-31": 1.67,
+      "2026-04-30": 2.03,
+      "2026-07-31": 1.88
+    },
+    "quarterly_inventory": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 133000000.0,
+      "2025-10-31": 127000000.0,
+      "2026-01-31": 109000000.0,
+      "2026-04-30": 198000000.0,
+      "2026-07-31": 375000000.0
+    },
+    "margin_change": 0.0022054909118480737,
+    "operating_margin_yoy_change": 6.717981612144538,
+    "inventory_to_sales_ratio": 0.18518518518518517,
+    "fcf_margin": 22.324448653768098,
+    "net_debt": -1042000000.0,
+    "net_debt_to_ebitda": -0.49174138744690893,
+    "debt_to_assets": 23.130990415335464
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-12-01"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/NTAP/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "ticker": "AMD",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 50.11060507482108,
+    "revenue_qoq_change": 12.513410709060757,
+    "eps_yoy_change": 155.55555555555554,
+    "eps_qoq_change": 64.28571428571428,
+    "latest_eps": 1.38,
+    "gross_margin": 53.77080443828016,
+    "operating_margin": 17.250346740638005,
+    "net_margin": 19.91158113730929,
+    "inventory_yoy_change": 26.823423693275416,
+    "inventory_qoq_change": 5.257924176507145,
+    "shares_yoy_change": 1.7791411042944683,
+    "free_cash_flow_ttm": 8403000000.0,
+    "operating_cash_flow_ttm": 10080000000.0,
+    "revenue_ttm": 41305000000.0,
+    "net_income_ttm": 6434000000.0,
+    "ebitda_ttm": 10718000000.0,
+    "total_debt": 4276000000.0,
+    "cash": 13111000000.0,
+    "total_assets": 84464000000.0,
+    "margin_change": 0.9472406033050262,
+    "operating_margin_yoy_change": 18.99400321428797,
+    "inventory_to_sales_ratio": 0.7340499306518724,
+    "fcf_margin": 20.343784045515072,
+    "net_debt": -8835000000.0,
+    "net_debt_to_ebitda": -0.8243142377309199,
+    "debt_to_assets": 5.062511839363515,
+    "market_cap": 892384313344.0,
+    "enterprise_value": 923014397952.0,
+    "forward_pe": 34.69597,
+    "trailing_pe": 147.7419,
+    "ev_ebitda": 96.529,
+    "fcf_yield": 0.9416346605770934,
+    "eps_fy0": 7.5868,
+    "revenue_fy0": 50948325430.0,
+    "analysts_fy0": 49.0,
+    "eps_fy1": 15.75529,
+    "revenue_fy1": 89053930960.0,
+    "analysts_fy1": 50.0,
+    "forward_eps_growth": 107.6671323878315,
+    "forward_revenue_growth": 74.79265551594008,
+    "eps_revision_30d": 1.185560819719611,
+    "eps_revision_90d": 17.01146847246957,
+    "eps_surprise_pct": 3.207515496670621,
+    "days_to_earnings": 19.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/financials/",
+      "retrieved_at": "2026-10-15T13:43:14.514679+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMD/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Nvidia stock sinks amid concerns over AI financing",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-amid-concerns-over-ai-financing-134237567.html",
+      "published_at": "2026-10-15T13:42:37+00:00",
+      "categories": []
+    },
+    {
+      "title": "TSMC posts record profit amid 'extremely robust demand' for AI chips",
+      "url": "https://finance.yahoo.com/markets/stocks/article/tsmc-posts-record-profit-amid-extremely-robust-demand-for-ai-chips-104536579.html",
+      "published_at": "2026-10-15T13:42:22+00:00",
+      "categories": []
+    },
+    {
+      "title": "Stock Market Today: Dow Rises, Nasdaq Tumbles As AI Worries Hit Major Players (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/27f9f9ee-5b06-3a78-a91a-ddc2a33bd2d2/stock-market-today%3A-dow.html",
+      "published_at": "2026-10-15T13:14:42+00:00",
+      "categories": []
+    },
+    {
+      "title": "Taiwan Semiconductor Falls 3% Despite Record Quarterly Profit; Intel Drops 4%, AMD Slides 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-falls-3-despite-130847369.html",
+      "published_at": "2026-10-15T13:08:47+00:00",
+      "categories": []
+    },
+    {
+      "title": "Jensen Huang Is Giving $250 Million to AI Safety and Says He\u2019d Cut Off Reckless Customers",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-giving-250-million-124335926.html",
+      "published_at": "2026-10-15T12:43:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Advanced Micro Devices vs. Arm: Which Tech Stock Is a Better Buy in 2026?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-arm-124302523.html",
+      "published_at": "2026-10-15T12:43:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Global chip sell-off deepens as South Korean market plunges",
+      "url": "https://finance.yahoo.com/markets/stocks/article/global-chip-sell-off-deepens-as-south-korean-market-plunges-024927049.html",
+      "published_at": "2026-10-15T12:32:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "Premarket movers: CoreWeave tumbles; Penske Automotive surges",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-tumbles-penske-121441461.html",
+      "published_at": "2026-10-15T12:14:41+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000182_2488"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000163_2488"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AMD/0001193125-26-354029_2488"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000123_2488"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000121_2488"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:14.514679+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 50.11060507482108,
+    "revenue_qoq_change": 12.513410709060757,
+    "eps_yoy_change": 155.55555555555554,
+    "eps_qoq_change": 64.28571428571428,
+    "latest_eps": 1.38,
+    "gross_margin": 53.77080443828016,
+    "operating_margin": 17.250346740638005,
+    "net_margin": 19.91158113730929,
+    "inventory_yoy_change": 26.823423693275416,
+    "inventory_qoq_change": 5.257924176507145,
+    "shares_yoy_change": 1.7791411042944683,
+    "free_cash_flow_ttm": 8403000000.0,
+    "operating_cash_flow_ttm": 10080000000.0,
+    "revenue_ttm": 41305000000.0,
+    "net_income_ttm": 6434000000.0,
+    "ebitda_ttm": 10718000000.0,
+    "total_debt": 4276000000.0,
+    "cash": 13111000000.0,
+    "total_assets": 84464000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 7685000000.0,
+      "2025-09-30": 9246000000.0,
+      "2025-12-31": 10270000000.0,
+      "2026-03-31": 10253000000.0,
+      "2026-06-30": 11536000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.54,
+      "2025-09-30": 0.75,
+      "2025-12-31": 0.92,
+      "2026-03-31": 0.84,
+      "2026-06-30": 1.38
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 6677000000.0,
+      "2025-09-30": 7313000000.0,
+      "2025-12-31": 7920000000.0,
+      "2026-03-31": 8045000000.0,
+      "2026-06-30": 8468000000.0
+    },
+    "margin_change": 0.9472406033050262,
+    "operating_margin_yoy_change": 18.99400321428797,
+    "inventory_to_sales_ratio": 0.7340499306518724,
+    "fcf_margin": 20.343784045515072,
+    "net_debt": -8835000000.0,
+    "net_debt_to_ebitda": -0.8243142377309199,
+    "debt_to_assets": 5.062511839363515
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/AMD/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

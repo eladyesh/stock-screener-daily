@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "ticker": "LSCC",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 62.198417371804695,
+    "revenue_qoq_change": 17.66093026793918,
+    "eps_yoy_change": 600.0000000000001,
+    "eps_qoq_change": -12.49999999999999,
+    "latest_eps": 0.14,
+    "gross_margin": 70.28680269943654,
+    "operating_margin": 13.330084195763853,
+    "net_margin": 9.627559317482183,
+    "inventory_yoy_change": 7.107383408645229,
+    "inventory_qoq_change": 13.906676791603868,
+    "shares_yoy_change": 1.9157533649234004,
+    "free_cash_flow_ttm": 163018000.0,
+    "operating_cash_flow_ttm": 243241000.0,
+    "revenue_ttm": 651117000.0,
+    "net_income_ttm": 36325000.0,
+    "ebitda_ttm": 98707000.0,
+    "total_debt": 38082000.0,
+    "cash": 173305000.0,
+    "total_assets": 976181000.0,
+    "margin_change": 1.4546991516855456,
+    "operating_margin_yoy_change": 8.170006435642534,
+    "inventory_to_sales_ratio": 0.49980853296465566,
+    "fcf_margin": 25.03666775710049,
+    "net_debt": -135223000.0,
+    "net_debt_to_ebitda": -1.3699433677449422,
+    "debt_to_assets": 3.901120796245778,
+    "market_cap": 15466257408.0,
+    "enterprise_value": 16198258688.0,
+    "forward_pe": 33.940006,
+    "trailing_pe": 454.625,
+    "ev_ebitda": 175.806,
+    "fcf_yield": 1.054023579846008,
+    "eps_fy0": 2.13437,
+    "revenue_fy0": 919745840.0,
+    "analysts_fy0": 14.0,
+    "eps_fy1": 3.21479,
+    "revenue_fy1": 1334848990.0,
+    "analysts_fy1": 14.0,
+    "forward_eps_growth": 50.620089300355595,
+    "forward_revenue_growth": 45.132375918112345,
+    "eps_revision_30d": 0.06038252641735742,
+    "eps_revision_90d": 37.887418184313695,
+    "eps_surprise_pct": 19.058316111061192,
+    "days_to_earnings": 18.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/financials/",
+      "retrieved_at": "2026-10-15T13:43:56.263084+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LSCC/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "1 Cash-Producing Stock with Solid Fundamentals and 2 We Ignore",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-solid-083447669.html",
+      "published_at": "2026-10-14T08:34:47+00:00",
+      "categories": []
+    },
+    {
+      "title": "Industry Leaders Formally Launch SCMP OCP Workstream for Open, Secure AI Infrastructure Management and Control",
+      "url": "https://finance.yahoo.com/technology/ai/articles/industry-leaders-formally-launch-scmp-171500804.html",
+      "published_at": "2026-10-13T17:15:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Lattice Semiconductor, Amkor, Himax, Teradyne, and Kulicke and Soffa Shares Plummet, What You Need To Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-amkor-himax-teradyne-003103146.html",
+      "published_at": "2026-10-13T00:31:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Lattice Semiconductor Launches Quantum-Resistant Security Stack for AI Infrastructure",
+      "url": "https://finance.yahoo.com/technology/ai/articles/lattice-semiconductor-launches-quantum-resistant-215402537.html",
+      "published_at": "2026-10-12T21:54:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Lattice Delivers Industry-First PQC-Enabled Platform Firmware Resilience for AI Infrastructure with Lattice Sentry Solution Stack",
+      "url": "https://finance.yahoo.com/technology/ai/articles/lattice-delivers-industry-first-pqc-200000371.html",
+      "published_at": "2026-10-12T20:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Lattice Semiconductor Schedules Third Quarter 2026 Results Conference Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-schedules-third-quarter-110000390.html",
+      "published_at": "2026-10-12T11:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "3 Stocks For The US Post Quantum Cybersecurity Upgrade Cycle",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-us-post-quantum-111457552.html",
+      "published_at": "2026-10-10T11:14:57+00:00",
+      "categories": []
+    },
+    {
+      "title": "Lattice Semiconductor (LSCC) vs Microchip (MCHP): Which is a Better Stock to Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-vs-microchip-153728249.html",
+      "published_at": "2026-10-09T15:37:28+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-14",
+      "type": "S-3ASR",
+      "url": "https://finance.yahoo.com/sec-filing/LSCC/0001193125-26-420827_855658"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "8-K/A",
+      "url": "https://finance.yahoo.com/sec-filing/LSCC/0001193125-26-420671_855658"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/LSCC/0001437749-26-025657_855658"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "S-8",
+      "url": "https://finance.yahoo.com/sec-filing/LSCC/0001437749-26-024538_855658"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LSCC/0001437749-26-024519_855658"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:56.263084+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 62.198417371804695,
+    "revenue_qoq_change": 17.66093026793918,
+    "eps_yoy_change": 600.0000000000001,
+    "eps_qoq_change": -12.49999999999999,
+    "latest_eps": 0.14,
+    "gross_margin": 70.28680269943654,
+    "operating_margin": 13.330084195763853,
+    "net_margin": 9.627559317482183,
+    "inventory_yoy_change": 7.107383408645229,
+    "inventory_qoq_change": 13.906676791603868,
+    "shares_yoy_change": 1.9157533649234004,
+    "free_cash_flow_ttm": 163018000.0,
+    "operating_cash_flow_ttm": 243241000.0,
+    "revenue_ttm": 651117000.0,
+    "net_income_ttm": 36325000.0,
+    "ebitda_ttm": 98707000.0,
+    "total_debt": 38082000.0,
+    "cash": 173305000.0,
+    "total_assets": 976181000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 123971000.0,
+      "2025-09-30": 133349000.0,
+      "2025-12-31": 145792000.0,
+      "2026-03-31": 170897000.0,
+      "2026-06-30": 201079000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.02,
+      "2025-09-30": 0.02,
+      "2025-12-31": -0.06,
+      "2026-03-31": 0.16,
+      "2026-06-30": 0.14
+    },
+    "quarterly_inventory": {
+      "2025-06-30": 93832000.0,
+      "2025-09-30": 90716000.0,
+      "2025-12-31": 89202000.0,
+      "2026-03-31": 88231000.0,
+      "2026-06-30": 100501000.0
+    },
+    "margin_change": 1.4546991516855456,
+    "operating_margin_yoy_change": 8.170006435642534,
+    "inventory_to_sales_ratio": 0.49980853296465566,
+    "fcf_margin": 25.03666775710049,
+    "net_debt": -135223000.0,
+    "net_debt_to_ebitda": -1.3699433677449422,
+    "debt_to_assets": 3.901120796245778
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-02"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/LSCC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

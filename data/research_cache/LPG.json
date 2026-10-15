@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "ticker": "LPG",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 123.10944266519081,
+    "revenue_qoq_change": 22.58366288749707,
+    "eps_yoy_change": 1250.0000000000002,
+    "eps_qoq_change": 70.5263157894737,
+    "latest_eps": 3.24,
+    "gross_margin": 67.62436798522465,
+    "operating_margin": 60.795201537486406,
+    "net_margin": 73.60094412722414,
+    "inventory_yoy_change": 7.093133338145696,
+    "inventory_qoq_change": 5.728139752242201,
+    "shares_yoy_change": 0.4531582829081504,
+    "free_cash_flow_ttm": 148832301.0,
+    "operating_cash_flow_ttm": 239800989.0,
+    "revenue_ttm": 585184124.0,
+    "net_income_ttm": 321868854.0,
+    "ebitda_ttm": 420578201.0,
+    "total_debt": 646238026.0,
+    "cash": 342141482.0,
+    "total_assets": 1901829367.0,
+    "margin_change": 3.9441917313249206,
+    "operating_margin_yoy_change": 42.28024488631405,
+    "inventory_to_sales_ratio": 0.013739452795043908,
+    "fcf_margin": 25.433414013808754,
+    "net_debt": 304096544.0,
+    "net_debt_to_ebitda": 0.723043998183824,
+    "debt_to_assets": 33.979811081547986,
+    "market_cap": 2341068288.0,
+    "enterprise_value": 2665700608.0,
+    "forward_pe": 13.324665,
+    "trailing_pe": 7.6105704,
+    "ev_ebitda": 7.216,
+    "fcf_yield": 6.357452354674756,
+    "eps_fy0": 7.7525,
+    "revenue_fy0": 629875340.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 4.10667,
+    "revenue_fy1": 415659670.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": -47.02779748468235,
+    "forward_revenue_growth": -34.009216807884556,
+    "eps_revision_30d": -4.217609329446049,
+    "eps_revision_90d": 36.43421926910302,
+    "eps_surprise_pct": 21.153846153846146,
+    "days_to_earnings": 21.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/financials/",
+      "retrieved_at": "2026-10-15T13:43:41.913455+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LPG/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-14",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LPG/0001596993-26-000046_1596993"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LPG/0001596993-26-000041_1596993"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/LPG/0001596993-26-000035_1596993"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LPG/0001104659-26-088672_1596993"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "DEF 14A",
+      "url": "https://finance.yahoo.com/sec-filing/LPG/0001104659-26-087088_1596993"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:41.913455+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 123.10944266519081,
+    "revenue_qoq_change": 22.58366288749707,
+    "eps_yoy_change": 1250.0000000000002,
+    "eps_qoq_change": 70.5263157894737,
+    "latest_eps": 3.24,
+    "gross_margin": 67.62436798522465,
+    "operating_margin": 60.795201537486406,
+    "net_margin": 73.60094412722414,
+    "inventory_yoy_change": 7.093133338145696,
+    "inventory_qoq_change": 5.728139752242201,
+    "shares_yoy_change": 0.4531582829081504,
+    "free_cash_flow_ttm": 148832301.0,
+    "operating_cash_flow_ttm": 239800989.0,
+    "revenue_ttm": 585184124.0,
+    "net_income_ttm": 321868854.0,
+    "ebitda_ttm": 420578201.0,
+    "total_debt": 646238026.0,
+    "cash": 342141482.0,
+    "total_assets": 1901829367.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 84211966.0,
+      "2025-09-30": 124064281.0,
+      "2025-12-31": 119964287.0,
+      "2026-03-31": 153270708.0,
+      "2026-06-30": 187884848.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.24,
+      "2025-09-30": 1.3,
+      "2025-12-31": 1.11,
+      "2026-03-31": 1.9,
+      "2026-06-30": 3.24
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 2410458.0,
+      "2025-09-30": 2387957.0,
+      "2025-12-31": 2250656.0,
+      "2026-03-31": 2441578.0,
+      "2026-06-30": 2581435.0
+    },
+    "margin_change": 3.9441917313249206,
+    "operating_margin_yoy_change": 42.28024488631405,
+    "inventory_to_sales_ratio": 0.013739452795043908,
+    "fcf_margin": 25.433414013808754,
+    "net_debt": 304096544.0,
+    "net_debt_to_ebitda": 0.723043998183824,
+    "debt_to_assets": 33.979811081547986
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/LPG/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

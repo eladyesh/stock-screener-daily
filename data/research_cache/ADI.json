@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "ticker": "ADI",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 39.63239858517096,
+    "revenue_qoq_change": 10.995938970019026,
+    "eps_yoy_change": 163.46153846153845,
+    "eps_qoq_change": 14.166666666666682,
+    "latest_eps": 2.74,
+    "gross_margin": 67.32003961312802,
+    "operating_margin": 39.50255836857166,
+    "net_margin": 33.319832248398086,
+    "inventory_yoy_change": 20.956406131309514,
+    "inventory_qoq_change": 4.495281066649359,
+    "shares_yoy_change": -1.58819953052588,
+    "free_cash_flow_ttm": 4937495000.0,
+    "operating_cash_flow_ttm": 5545325000.0,
+    "revenue_ttm": 13881744000.0,
+    "net_income_ttm": 4135004000.0,
+    "ebitda_ttm": 7025615000.0,
+    "total_debt": 9121583000.0,
+    "cash": 2324934000.0,
+    "total_assets": 48424417000.0,
+    "margin_change": -0.013244963927363074,
+    "operating_margin_yoy_change": 10.951286091749559,
+    "inventory_to_sales_ratio": 0.48024477989129016,
+    "fcf_margin": 35.56826145187521,
+    "net_debt": 6796649000.0,
+    "net_debt_to_ebitda": 0.9674098281787431,
+    "debt_to_assets": 18.836743042254902,
+    "market_cap": 198587334656.0,
+    "enterprise_value": 202395205632.0,
+    "forward_pe": 25.02886,
+    "trailing_pe": 50.039757,
+    "ev_ebitda": 29.236,
+    "fcf_yield": 2.486309113596244,
+    "eps_fy0": 12.85188,
+    "revenue_fy0": 15092525040.0,
+    "analysts_fy0": 29.0,
+    "eps_fy1": 16.37412,
+    "revenue_fy1": 18239040550.0,
+    "analysts_fy1": 30.0,
+    "forward_eps_growth": 27.406418360582286,
+    "forward_revenue_growth": 20.848171539624616,
+    "eps_revision_30d": 0.22856401322659536,
+    "eps_revision_90d": 9.17215390400603,
+    "eps_surprise_pct": 3.321563659559934,
+    "days_to_earnings": 40.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/financials/",
+      "retrieved_at": "2026-10-15T13:43:11.342998+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ADI/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Quantum XChange Strengthens Advisory Board with Former BlackRock Chief Innovation Officer Kfir Godrich and Longtime Cisco Senior Executive Chris White",
+      "url": "https://finance.yahoo.com/technology/ai/articles/quantum-xchange-strengthens-advisory-board-110000396.html",
+      "published_at": "2026-10-15T11:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Analog Devices (ADI) Ascends While Market Falls: Some Facts to Note",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-ascends-while-210003173.html",
+      "published_at": "2026-10-13T21:00:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "All You Need to Know About Analog Devices (ADI) Rating Upgrade to Strong Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/know-analog-devices-adi-rating-150004940.html",
+      "published_at": "2026-10-13T15:00:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Mo\u00ebt Hennessy, Analog Devices and UC Davis Join Forces to Advance Wine Production Through Breakthrough Chemical Signature Detection Technology Leveraging AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mo-t-hennessy-analog-devices-095500439.html",
+      "published_at": "2026-10-13T09:55:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 AI Infrastructure Stocks With Real Revenue Tied To Data Center Spending",
+      "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-real-061003058.html",
+      "published_at": "2026-10-13T06:10:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Analog Devices (ADI) vs. TXN and ON: Can AI Infrastructure and Acquisitions Drive Its Next Growth Phase?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-vs-txn-174427336.html",
+      "published_at": "2026-10-12T17:44:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Analog Devices Insider Sold Shares Worth $2,163,365, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-insider-sold-shares-203534729.html",
+      "published_at": "2026-10-09T20:35:34+00:00",
+      "categories": []
+    },
+    {
+      "title": "Reasons Why Investors Can Consider Buying ADP Stock Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reasons-why-investors-consider-buying-133400689.html",
+      "published_at": "2026-10-09T13:34:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-17",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ADI/0001193125-26-394361_6281"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ADI/0001193125-26-385938_6281"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ADI/0000006281-26-000072_6281"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ADI/0001193125-26-324223_6281"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:11.342998+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 39.63239858517096,
+    "revenue_qoq_change": 10.995938970019026,
+    "eps_yoy_change": 163.46153846153845,
+    "eps_qoq_change": 14.166666666666682,
+    "latest_eps": 2.74,
+    "gross_margin": 67.32003961312802,
+    "operating_margin": 39.50255836857166,
+    "net_margin": 33.319832248398086,
+    "inventory_yoy_change": 20.956406131309514,
+    "inventory_qoq_change": 4.495281066649359,
+    "shares_yoy_change": -1.58819953052588,
+    "free_cash_flow_ttm": 4937495000.0,
+    "operating_cash_flow_ttm": 5545325000.0,
+    "revenue_ttm": 13881744000.0,
+    "net_income_ttm": 4135004000.0,
+    "ebitda_ttm": 7025615000.0,
+    "total_debt": 9121583000.0,
+    "cash": 2324934000.0,
+    "total_assets": 48424417000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 2880348000.0,
+      "2025-10-31": 3076117000.0,
+      "2026-01-31": 3160263000.0,
+      "2026-04-30": 3623465000.0,
+      "2026-07-31": 4021899000.0
+    },
+    "quarterly_eps": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 1.04,
+      "2025-10-31": 1.6,
+      "2026-01-31": 1.69,
+      "2026-04-30": 2.4,
+      "2026-07-31": 2.74
+    },
+    "quarterly_inventory": {
+      "2025-01-31": null,
+      "2025-07-31": 1596853000.0,
+      "2025-10-31": 1656323000.0,
+      "2026-01-31": 1767104000.0,
+      "2026-04-30": 1848405000.0,
+      "2026-07-31": 1931496000.0
+    },
+    "margin_change": -0.013244963927363074,
+    "operating_margin_yoy_change": 10.951286091749559,
+    "inventory_to_sales_ratio": 0.48024477989129016,
+    "fcf_margin": 35.56826145187521,
+    "net_debt": 6796649000.0,
+    "net_debt_to_ebitda": 0.9674098281787431,
+    "debt_to_assets": 18.836743042254902
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-24"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/ADI/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

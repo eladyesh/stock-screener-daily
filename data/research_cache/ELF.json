@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "ticker": "ELF",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 35.51601604572863,
+    "revenue_qoq_change": 6.6952004487059735,
+    "eps_yoy_change": 93.10344827586209,
+    "latest_eps": 1.12,
+    "gross_margin": 83.20034712009229,
+    "operating_margin": 24.724170948301218,
+    "net_margin": 13.892939318651656,
+    "inventory_yoy_change": 44.861749393998096,
+    "inventory_qoq_change": 12.062875148697373,
+    "shares_yoy_change": 3.5588014814381896,
+    "free_cash_flow_ttm": 280158000.0,
+    "operating_cash_flow_ttm": 296943000.0,
+    "revenue_ttm": 1762106000.0,
+    "net_income_ttm": 59606000.0,
+    "ebitda_ttm": 221874000.0,
+    "total_debt": 929300000.0,
+    "cash": 344241000.0,
+    "total_assets": 2460649000.0,
+    "margin_change": 10.540918507964761,
+    "operating_margin_yoy_change": 10.95441415020997,
+    "inventory_to_sales_ratio": 0.5148683801549107,
+    "fcf_margin": 15.899043530865908,
+    "net_debt": 585059000.0,
+    "net_debt_to_ebitda": 2.6368975184113506,
+    "debt_to_assets": 37.76645917398215,
+    "market_cap": 6444263424.0,
+    "enterprise_value": 6965593600.0,
+    "forward_pe": 27.99675,
+    "trailing_pe": 111.438774,
+    "ev_ebitda": 33.255,
+    "fcf_yield": 4.3474014261525005,
+    "eps_fy0": 3.63895,
+    "revenue_fy0": 1975011880.0,
+    "analysts_fy0": 19.0,
+    "eps_fy1": 3.90081,
+    "revenue_fy1": 2145481490.0,
+    "analysts_fy1": 18.0,
+    "forward_eps_growth": 7.196031822366344,
+    "forward_revenue_growth": 8.631320739194749,
+    "eps_revision_30d": 1.4446357333444126,
+    "eps_revision_90d": 6.316041939783101,
+    "eps_surprise_pct": 143.9092378881641,
+    "days_to_earnings": 20.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/financials/",
+      "retrieved_at": "2026-10-15T13:43:27.217986+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ELF/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Can Coty's New Product Launches Accelerate Its Growth Momentum?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cotys-product-launches-accelerate-growth-142000798.html",
+      "published_at": "2026-10-14T14:20:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "e.l.f. Beauty (ELF) Suffers a Larger Drop Than the General Market: Key Insights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/e-l-f-beauty-elf-204503610.html",
+      "published_at": "2026-10-13T20:45:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "e.l.f. Brands Hits the Pitch for Year Two with Tottenham Hotspur Women",
+      "url": "https://finance.yahoo.com/media-advertising/articles/e-l-f-brands-hits-193000724.html",
+      "published_at": "2026-10-13T19:30:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "e.l.f. Beauty vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy in 2026?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/e-l-f-beauty-vs-101413384.html",
+      "published_at": "2026-10-13T10:14:13+00:00",
+      "categories": []
+    },
+    {
+      "title": "e.l.f. Beauty Launches First Virtual Styling Experience on Zepeto",
+      "url": "https://finance.yahoo.com/media-advertising/articles/e-l-f-beauty-launches-074524450.html",
+      "published_at": "2026-10-12T07:45:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "e.l.f. Cosmetics Launches its First Virtual Styling Experience on ZEPETO: \"Express Your e.l.f.\"",
+      "url": "https://finance.yahoo.com/media-advertising/articles/e-l-f-cosmetics-launches-040100389.html",
+      "published_at": "2026-10-12T04:01:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can Estee Lauder's Innovation Push Unlock the Next Growth Wave?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/estee-lauders-innovation-push-unlock-141200747.html",
+      "published_at": "2026-10-09T14:12:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "HELE Q2 Earnings Top Estimates on Margin Gains, Guidance Raised",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hele-q2-earnings-top-estimates-115500171.html",
+      "published_at": "2026-10-09T11:55:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-24",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ELF/0001600033-26-000044_1600033"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/ELF/0001600033-26-000040_1600033"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ELF/0001600033-26-000036_1600033"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:27.217986+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 35.51601604572863,
+    "revenue_qoq_change": 6.6952004487059735,
+    "eps_yoy_change": 93.10344827586209,
+    "eps_qoq_change": null,
+    "latest_eps": 1.12,
+    "gross_margin": 83.20034712009229,
+    "operating_margin": 24.724170948301218,
+    "net_margin": 13.892939318651656,
+    "inventory_yoy_change": 44.861749393998096,
+    "inventory_qoq_change": 12.062875148697373,
+    "shares_yoy_change": 3.5588014814381896,
+    "free_cash_flow_ttm": 280158000.0,
+    "operating_cash_flow_ttm": 296943000.0,
+    "revenue_ttm": 1762106000.0,
+    "net_income_ttm": 59606000.0,
+    "ebitda_ttm": 221874000.0,
+    "total_debt": 929300000.0,
+    "cash": 344241000.0,
+    "total_assets": 2460649000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 353739000.0,
+      "2025-09-30": 343936000.0,
+      "2025-12-31": 489505000.0,
+      "2026-03-31": 449292000.0,
+      "2026-06-30": 479373000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.58,
+      "2025-09-30": 0.05,
+      "2025-12-31": 0.65,
+      "2026-03-31": -0.84,
+      "2026-06-30": 1.12
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 170379000.0,
+      "2025-09-30": 247390000.0,
+      "2025-12-31": 220622000.0,
+      "2026-03-31": 220246000.0,
+      "2026-06-30": 246814000.0
+    },
+    "margin_change": 10.540918507964761,
+    "operating_margin_yoy_change": 10.95441415020997,
+    "inventory_to_sales_ratio": 0.5148683801549107,
+    "fcf_margin": 15.899043530865908,
+    "net_debt": 585059000.0,
+    "net_debt_to_ebitda": 2.6368975184113506,
+    "debt_to_assets": 37.76645917398215
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-04"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/ELF/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

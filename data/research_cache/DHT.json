@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "ticker": "DHT",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 122.11727298232486,
+    "revenue_qoq_change": 52.841116283060565,
+    "eps_yoy_change": 251.42857142857147,
+    "eps_qoq_change": 20.58823529411764,
+    "latest_eps": 1.23,
+    "gross_margin": 73.26884482056896,
+    "operating_margin": 71.30612044405147,
+    "net_margin": 69.58899976141355,
+    "inventory_yoy_change": -12.52974347273379,
+    "inventory_qoq_change": -11.262855064316657,
+    "shares_yoy_change": 0.33589344228697193,
+    "free_cash_flow_ttm": 35732000.0,
+    "operating_cash_flow_ttm": 452135000.0,
+    "revenue_ttm": 722999000.0,
+    "net_income_ttm": 473733000.0,
+    "ebitda_ttm": 596293000.0,
+    "total_debt": 434804000.0,
+    "cash": 161683000.0,
+    "total_assets": 1807977000.0,
+    "margin_change": 12.875013979066566,
+    "operating_margin_yoy_change": 37.908882375533125,
+    "inventory_to_sales_ratio": 0.0941539303608269,
+    "fcf_margin": 4.94219217453966,
+    "net_debt": 273121000.0,
+    "net_debt_to_ebitda": 0.4580315381867639,
+    "debt_to_assets": 24.049199740925907,
+    "market_cap": 4001060608.0,
+    "enterprise_value": 4302157312.0,
+    "forward_pe": 9.912796,
+    "trailing_pe": 8.990942,
+    "ev_ebitda": 7.383,
+    "fcf_yield": 0.8930632025057292,
+    "eps_fy0": 4.72833,
+    "revenue_fy0": 987950000.0,
+    "analysts_fy0": 6.0,
+    "eps_fy1": 2.50333,
+    "revenue_fy1": 630050000.0,
+    "analysts_fy1": 6.0,
+    "forward_eps_growth": -47.056783261743576,
+    "forward_revenue_growth": -36.226529682676244,
+    "eps_revision_30d": 33.12044668971019,
+    "eps_revision_90d": 44.31825388132064,
+    "eps_surprise_pct": 6.891246962571884,
+    "days_to_earnings": 13.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/financials/",
+      "retrieved_at": "2026-10-15T13:43:34.580071+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DHT/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "DHT Holdings (DHT) Is Up 10.1% After Surging VLCC TCEs And Q4 Bookings Strength - Has The Bull Case Changed?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-10-1-232534376.html",
+      "published_at": "2026-10-12T23:25:34+00:00",
+      "categories": []
+    },
+    {
+      "title": "Why DHT Holdings (DHT) Stock Is Up Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-dht-holdings-dht-stock-231903253.html",
+      "published_at": "2026-10-12T23:19:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "DHT Holdings Reports Q3 Fleet Earnings of $141,300 Per Day as Fourth-Quarter Tanker Rates Rise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-reports-q3-fleet-110506405.html",
+      "published_at": "2026-10-12T11:05:06+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "2 Growth Stocks Set to Flourish and 1 Facing Headwinds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-growth-stocks-set-flourish-103903722.html",
+      "published_at": "2026-10-12T10:39:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "DHT Holdings, Inc. Business Update",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-inc-business-083300780.html",
+      "published_at": "2026-10-12T08:33:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Diamondback Energy, DHT Holdings, Kosmos Energy, SM Energy, and Chord Energy Stocks Trade Up, What You Need To Know",
+      "url": "https://finance.yahoo.com/energy/articles/diamondback-energy-dht-holdings-kosmos-225609108.html",
+      "published_at": "2026-10-08T22:56:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "$285 million, 10.3%, and 0.163: One of These Numbers Is the Real Reason This Energy Stock Is a Screaming Buy Right Now.",
+      "url": "https://finance.yahoo.com/energy/articles/285-million-10-3-0-150500896.html",
+      "published_at": "2026-10-08T15:05:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Our Pick Of The Best Dividend Stocks In October 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pick-best-dividend-stocks-october-171201634.html",
+      "published_at": "2026-10-03T17:12:01+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/DHT/0000950157-26-001092_1331284"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/DHT/0000950157-26-000847_1331284"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/DHT/0000950157-26-000813_1331284"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:34.580071+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 122.11727298232486,
+    "revenue_qoq_change": 52.841116283060565,
+    "eps_yoy_change": 251.42857142857147,
+    "eps_qoq_change": 20.58823529411764,
+    "latest_eps": 1.23,
+    "gross_margin": 73.26884482056896,
+    "operating_margin": 71.30612044405147,
+    "net_margin": 69.58899976141355,
+    "inventory_yoy_change": -12.52974347273379,
+    "inventory_qoq_change": -11.262855064316657,
+    "shares_yoy_change": 0.33589344228697193,
+    "free_cash_flow_ttm": 35732000.0,
+    "operating_cash_flow_ttm": 452135000.0,
+    "revenue_ttm": 722999000.0,
+    "net_income_ttm": 473733000.0,
+    "ebitda_ttm": 596293000.0,
+    "total_debt": 434804000.0,
+    "cash": 161683000.0,
+    "total_assets": 1807977000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 128316000.0,
+      "2025-09-30": 107348000.0,
+      "2025-12-31": 144163000.0,
+      "2026-03-31": 186476000.0,
+      "2026-06-30": 285012000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.35,
+      "2025-09-30": 0.28,
+      "2025-12-31": 0.41,
+      "2026-03-31": 1.02,
+      "2026-06-30": 1.23
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 30679000.0,
+      "2025-09-30": 23498000.0,
+      "2025-12-31": 24682000.0,
+      "2026-03-31": 30241000.0,
+      "2026-06-30": 26835000.0
+    },
+    "margin_change": 12.875013979066566,
+    "operating_margin_yoy_change": 37.908882375533125,
+    "inventory_to_sales_ratio": 0.0941539303608269,
+    "fcf_margin": 4.94219217453966,
+    "net_debt": 273121000.0,
+    "net_debt_to_ebitda": 0.4580315381867639,
+    "debt_to_assets": 24.049199740925907
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-28"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/DHT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

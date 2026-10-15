@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "ticker": "CVX",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 51.43436619718309,
+    "revenue_qoq_change": 41.3049878038523,
+    "eps_yoy_change": 321.3793103448277,
+    "eps_qoq_change": 450.4504504504505,
+    "latest_eps": 6.11,
+    "gross_margin": 36.4737570499561,
+    "operating_margin": 21.244363755413026,
+    "net_margin": 17.964553043944107,
+    "inventory_yoy_change": 19.391807557018037,
+    "inventory_qoq_change": -0.303202577221906,
+    "shares_yoy_change": 14.537835544831035,
+    "free_cash_flow_ttm": 27012000000.0,
+    "operating_cash_flow_ttm": 45321000000.0,
+    "revenue_ttm": 208711000000.0,
+    "net_income_ttm": 20591000000.0,
+    "ebitda_ttm": 55951000000.0,
+    "total_debt": 37075000000.0,
+    "cash": 8530000000.0,
+    "total_assets": 330135000000.0,
+    "margin_change": 8.121919216664821,
+    "operating_margin_yoy_change": 12.101828544145421,
+    "inventory_to_sales_ratio": 0.1565797110076043,
+    "fcf_margin": 12.94229820181974,
+    "net_debt": 28545000000.0,
+    "net_debt_to_ebitda": 0.5101785490875945,
+    "debt_to_assets": 11.230254289911702,
+    "market_cap": 435662290944.0,
+    "enterprise_value": 469774401536.0,
+    "forward_pe": 15.045293,
+    "trailing_pe": 21.375841,
+    "ev_ebitda": 9.273,
+    "fcf_yield": 6.200215295537736,
+    "eps_fy0": 17.22283,
+    "revenue_fy0": 239512591900.0,
+    "analysts_fy0": 24.0,
+    "eps_fy1": 15.23023,
+    "revenue_fy1": 224987820900.0,
+    "analysts_fy1": 25.0,
+    "forward_eps_growth": -11.569527191524266,
+    "forward_revenue_growth": -6.0643037114575975,
+    "eps_revision_30d": 13.05233731992066,
+    "eps_revision_90d": 21.502410865007526,
+    "eps_surprise_pct": 8.837966130918051,
+    "days_to_earnings": 15.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/financials/",
+      "retrieved_at": "2026-10-15T13:43:31.658799+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CVX/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Halliburton Q3 Earnings Preview: Here's What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/halliburton-q3-earnings-preview-heres-121800850.html",
+      "published_at": "2026-10-15T12:18:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chevron Corporation (CVX) Hits Fresh High: Is There Still Room to Run?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-hits-fresh-121528627.html",
+      "published_at": "2026-10-15T12:15:28+00:00",
+      "categories": []
+    },
+    {
+      "title": "JERA acquires JOGMEC\u2019s shares in Wheatstone LNG project vehicle",
+      "url": "https://finance.yahoo.com/news/jera-acquires-jogmec-shares-wheatstone-112858335.html",
+      "published_at": "2026-10-15T11:28:58+00:00",
+      "categories": []
+    },
+    {
+      "title": "State Street Energy Select Sector SPDR (XLE) Adds XOM and CVX on Oct. 13",
+      "url": "https://finance.yahoo.com/energy/articles/state-street-energy-select-sector-110527039.html",
+      "published_at": "2026-10-15T11:05:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chevron CEO warns oil buffers that cushioned the Iran war shock have been \u2018drained\u2019\u2014and diesel relief may not come until 2027",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-warns-oil-buffers-070200650.html",
+      "published_at": "2026-10-15T07:02:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is ETF Innovation Inviting a Regulatory Sledgehammer?",
+      "url": "https://finance.yahoo.com/markets/options/articles/etf-innovation-inviting-regulatory-sledgehammer-234052019.html",
+      "published_at": "2026-10-14T23:40:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "Should You Buy Occidental Petroleum Stock For Its Cash?",
+      "url": "https://finance.yahoo.com/energy/articles/buy-occidental-petroleum-stock-cash-212543958.html",
+      "published_at": "2026-10-14T21:25:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chevron (CVX) Stock Looks Reasonable With Cash Flow Value Above Price",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-stock-looks-reasonable-161327586.html",
+      "published_at": "2026-10-14T16:13:27+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-06",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000093410-26-000192_93410"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000093410-26-000188_93410"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "SD",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000093410-26-000186_93410"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "N-PX",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000950142-26-002332_93410"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000093410-26-000167_93410"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CVX/0000093410-26-000162_93410"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:31.658799+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 51.43436619718309,
+    "revenue_qoq_change": 41.3049878038523,
+    "eps_yoy_change": 321.3793103448277,
+    "eps_qoq_change": 450.4504504504505,
+    "latest_eps": 6.11,
+    "gross_margin": 36.4737570499561,
+    "operating_margin": 21.244363755413026,
+    "net_margin": 17.964553043944107,
+    "inventory_yoy_change": 19.391807557018037,
+    "inventory_qoq_change": -0.303202577221906,
+    "shares_yoy_change": 14.537835544831035,
+    "free_cash_flow_ttm": 27012000000.0,
+    "operating_cash_flow_ttm": 45321000000.0,
+    "revenue_ttm": 208711000000.0,
+    "net_income_ttm": 20591000000.0,
+    "ebitda_ttm": 55951000000.0,
+    "total_debt": 37075000000.0,
+    "cash": 8530000000.0,
+    "total_assets": 330135000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 44375000000.0,
+      "2025-09-30": 48169000000.0,
+      "2025-12-31": 45787000000.0,
+      "2026-03-31": 47556000000.0,
+      "2026-06-30": 67199000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.45,
+      "2025-09-30": 1.82,
+      "2025-12-31": 1.39,
+      "2026-03-31": 1.11,
+      "2026-06-30": 6.11
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 8813000000.0,
+      "2025-09-30": 10436000000.0,
+      "2025-12-31": 9711000000.0,
+      "2026-03-31": 10554000000.0,
+      "2026-06-30": 10522000000.0
+    },
+    "margin_change": 8.121919216664821,
+    "operating_margin_yoy_change": 12.101828544145421,
+    "inventory_to_sales_ratio": 0.1565797110076043,
+    "fcf_margin": 12.94229820181974,
+    "net_debt": 28545000000.0,
+    "net_debt_to_ebitda": 0.5101785490875945,
+    "debt_to_assets": 11.230254289911702
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-30"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/CVX/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

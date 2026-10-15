@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "ticker": "HRMY",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 30.321364264373596,
+    "revenue_qoq_change": 21.307228384257183,
+    "eps_yoy_change": 88.23529411764706,
+    "eps_qoq_change": 132.72727272727272,
+    "latest_eps": 1.28,
+    "gross_margin": 75.81215554194733,
+    "operating_margin": 34.184017146356396,
+    "net_margin": 28.86979485609308,
+    "inventory_yoy_change": 4.2622950819672045,
+    "inventory_qoq_change": 20.431736413558042,
+    "shares_yoy_change": 0.5617680990479545,
+    "free_cash_flow_ttm": 354899000.0,
+    "operating_cash_flow_ttm": 355077000.0,
+    "revenue_ttm": 959898000.0,
+    "net_income_ttm": 181270000.0,
+    "ebitda_ttm": 280009000.0,
+    "total_debt": 153961000.0,
+    "cash": 667791000.0,
+    "total_assets": 1373084000.0,
+    "margin_change": -3.5217875465398976,
+    "operating_margin_yoy_change": 10.152773536981318,
+    "inventory_to_sales_ratio": 0.024341702388242497,
+    "fcf_margin": 36.97257416933882,
+    "net_debt": -513830000.0,
+    "net_debt_to_ebitda": -1.8350481591663126,
+    "debt_to_assets": 11.212788146974257,
+    "market_cap": 2229288960.0,
+    "enterprise_value": 1676847104.0,
+    "forward_pe": 5.465027,
+    "trailing_pe": 12.191082,
+    "ev_ebitda": 6.551,
+    "fcf_yield": 15.91982943296862,
+    "eps_fy0": 5.22166,
+    "revenue_fy0": 1031187750.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": 7.00454,
+    "revenue_fy1": 1165071570.0,
+    "analysts_fy1": 2.0,
+    "forward_eps_growth": 34.14393124025694,
+    "forward_revenue_growth": 12.983457183233615,
+    "eps_revision_30d": 4.758642968670568,
+    "eps_revision_90d": 16.362410064472833,
+    "eps_surprise_pct": 30.625255841904963,
+    "days_to_earnings": 19.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/financials/",
+      "retrieved_at": "2026-10-15T13:43:49.128075+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HRMY/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Why Harmony Biosciences Stock Got Mashed on Monday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-harmony-biosciences-stock-got-233632120.html",
+      "published_at": "2026-10-12T23:36:32+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony Bio CEO Plans His Exit, And Shares Take An Unharmonious Hit",
+      "url": "https://finance.yahoo.com/m/8e580a51-f1f1-3cd8-9063-56e3dff45021/harmony-bio-ceo-plans-his.html",
+      "published_at": "2026-10-12T20:11:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony Biosciences Promotes COO Peter Anastasiou to President, CEO",
+      "url": "https://finance.yahoo.com/healthcare/articles/harmony-biosciences-promotes-coo-peter-113846452.html",
+      "published_at": "2026-10-12T11:38:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony Biosciences Announces Planned CEO Transition to Support Next Phase of Growth",
+      "url": "https://finance.yahoo.com/healthcare/articles/harmony-biosciences-announces-planned-ceo-110000859.html",
+      "published_at": "2026-10-12T11:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony Biosciences (HRMY) Heads To European Narcolepsy Days With New Phase 3 Data",
+      "url": "https://finance.yahoo.com/healthcare/articles/harmony-biosciences-hrmy-heads-european-201043117.html",
+      "published_at": "2026-10-08T20:10:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony Biosciences (HRMY) Stock Looks Below Fair Value As Shares Rose 48%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/harmony-biosciences-hrmy-stock-looks-181602756.html",
+      "published_at": "2026-10-08T18:16:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harmony BioSciences' Wakix Franchise, Pipeline Offer Multiple Value Drivers, Oppenheimer Says",
+      "url": "https://finance.yahoo.com/healthcare/articles/harmony-biosciences-apos-wakix-franchise-154507022.html",
+      "published_at": "2026-10-08T15:45:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "HRMY vs. CSLLY: Which Stock Is the Better Value Option?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hrmy-vs-cslly-stock-better-144004149.html",
+      "published_at": "2026-10-06T14:40:04+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-13",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HRMY/0001104659-26-115282_1802665"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/HRMY/0001104659-26-090090_1802665"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:49.128075+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 30.321364264373596,
+    "revenue_qoq_change": 21.307228384257183,
+    "eps_yoy_change": 88.23529411764706,
+    "eps_qoq_change": 132.72727272727272,
+    "latest_eps": 1.28,
+    "gross_margin": 75.81215554194733,
+    "operating_margin": 34.184017146356396,
+    "net_margin": 28.86979485609308,
+    "inventory_yoy_change": 4.2622950819672045,
+    "inventory_qoq_change": 20.431736413558042,
+    "shares_yoy_change": 0.5617680990479545,
+    "free_cash_flow_ttm": 354899000.0,
+    "operating_cash_flow_ttm": 355077000.0,
+    "revenue_ttm": 959898000.0,
+    "net_income_ttm": 181270000.0,
+    "ebitda_ttm": 280009000.0,
+    "total_debt": 153961000.0,
+    "cash": 667791000.0,
+    "total_assets": 1373084000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 200489000.0,
+      "2025-09-30": 239455000.0,
+      "2025-12-31": 243776000.0,
+      "2026-03-31": 215387000.0,
+      "2026-06-30": 261280000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.68,
+      "2025-09-30": 0.87,
+      "2025-12-31": 0.38,
+      "2026-03-31": 0.55,
+      "2026-06-30": 1.28
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 6100000.0,
+      "2025-09-30": 6882000.0,
+      "2025-12-31": 5357000.0,
+      "2026-03-31": 5281000.0,
+      "2026-06-30": 6360000.0
+    },
+    "margin_change": -3.5217875465398976,
+    "operating_margin_yoy_change": 10.152773536981318,
+    "inventory_to_sales_ratio": 0.024341702388242497,
+    "fcf_margin": 36.97257416933882,
+    "net_debt": -513830000.0,
+    "net_debt_to_ebitda": -1.8350481591663126,
+    "debt_to_assets": 11.212788146974257
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/HRMY/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

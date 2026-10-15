@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "ticker": "THC",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 14.608233731739716,
+    "revenue_qoq_change": 4.4974917834284645,
+    "eps_yoy_change": 213.37579617834393,
+    "eps_qoq_change": 22.846441947565555,
+    "latest_eps": 9.84,
+    "gross_margin": 83.71130607515312,
+    "operating_margin": 23.787452408541633,
+    "net_margin": 13.673232908458866,
+    "inventory_yoy_change": 0.0,
+    "inventory_qoq_change": -1.4577259475218707,
+    "shares_yoy_change": -8.526979769258425,
+    "free_cash_flow_ttm": 3023000000.0,
+    "operating_cash_flow_ttm": 4015000000.0,
+    "revenue_ttm": 22638000000.0,
+    "net_income_ttm": 2241000000.0,
+    "ebitda_ttm": 5578000000.0,
+    "total_debt": 13248000000.0,
+    "cash": 2170000000.0,
+    "total_assets": 30676000000.0,
+    "margin_change": 0.33472762851758375,
+    "operating_margin_yoy_change": 7.623536643032242,
+    "inventory_to_sales_ratio": 0.05595100148981957,
+    "fcf_margin": 13.353653149571517,
+    "net_debt": 11078000000.0,
+    "net_debt_to_ebitda": 1.986016493366798,
+    "debt_to_assets": 43.18685617420785,
+    "market_cap": 22114543616.0,
+    "enterprise_value": 36988960768.0,
+    "forward_pe": 13.026181,
+    "trailing_pe": 10.612442,
+    "ev_ebitda": 7.636,
+    "fcf_yield": 13.66973722131368,
+    "eps_fy0": 21.22417,
+    "revenue_fy0": 22429196260.0,
+    "analysts_fy0": 21.0,
+    "eps_fy1": 21.08303,
+    "revenue_fy1": 22520251020.0,
+    "analysts_fy1": 21.0,
+    "forward_eps_growth": -0.6649965581692951,
+    "forward_revenue_growth": 0.40596532726580037,
+    "eps_revision_30d": 0.006403664224108319,
+    "eps_revision_90d": 18.520960803757937,
+    "eps_surprise_pct": 43.54201653078648,
+    "days_to_earnings": 14.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/financials/",
+      "retrieved_at": "2026-10-15T13:43:20.458241+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THC/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Tenet Healthcare (THC) Beats Stock Market Upswing: What Investors Need to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tenet-healthcare-thc-beats-stock-210005302.html",
+      "published_at": "2026-10-09T21:00:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Market-Beating Stocks Worth Investigating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-worth-120009054.html",
+      "published_at": "2026-10-08T12:00:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "Tenet Healthcare Corporation (THC) is Attracting Investor Attention: Here is What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tenet-healthcare-corporation-thc-attracting-120005514.html",
+      "published_at": "2026-10-08T12:00:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "Tenet Upgrades Full Year 2026 Revenue Guidance Following Latest Operating Results and Developments",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tenet-upgrades-full-2026-revenue-122000921.html",
+      "published_at": "2026-10-06T12:20:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Tenet Healthcare (THC) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tenet-healthcare-thc-outpaces-stock-210004556.html",
+      "published_at": "2026-10-02T21:00:04+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/THC/0001193125-26-397901_70318"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/THC/0000070318-26-000040_70318"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/THC/0000070318-26-000037_70318"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/THC/0000070318-26-000032_70318"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:20.458241+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.608233731739716,
+    "revenue_qoq_change": 4.4974917834284645,
+    "eps_yoy_change": 213.37579617834393,
+    "eps_qoq_change": 22.846441947565555,
+    "latest_eps": 9.84,
+    "gross_margin": 83.71130607515312,
+    "operating_margin": 23.787452408541633,
+    "net_margin": 13.673232908458866,
+    "inventory_yoy_change": 0.0,
+    "inventory_qoq_change": -1.4577259475218707,
+    "shares_yoy_change": -8.526979769258425,
+    "free_cash_flow_ttm": 3023000000.0,
+    "operating_cash_flow_ttm": 4015000000.0,
+    "revenue_ttm": 22638000000.0,
+    "net_income_ttm": 2241000000.0,
+    "ebitda_ttm": 5578000000.0,
+    "total_debt": 13248000000.0,
+    "cash": 2170000000.0,
+    "total_assets": 30676000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 5271000000.0,
+      "2025-09-30": 5289000000.0,
+      "2025-12-31": 5527000000.0,
+      "2026-03-31": 5781000000.0,
+      "2026-06-30": 6041000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 3.14,
+      "2025-09-30": 3.86,
+      "2025-12-31": 4.22,
+      "2026-03-31": 8.01,
+      "2026-06-30": 9.84
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 338000000.0,
+      "2025-09-30": 346000000.0,
+      "2025-12-31": 348000000.0,
+      "2026-03-31": 343000000.0,
+      "2026-06-30": 338000000.0
+    },
+    "margin_change": 0.33472762851758375,
+    "operating_margin_yoy_change": 7.623536643032242,
+    "inventory_to_sales_ratio": 0.05595100148981957,
+    "fcf_margin": 13.353653149571517,
+    "net_debt": 11078000000.0,
+    "net_debt_to_ebitda": 1.986016493366798,
+    "debt_to_assets": 43.18685617420785
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-29"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/THC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "ticker": "ZBRA",
+  "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+  "metrics": {
+    "revenue_yoy_change": 20.417633410672863,
+    "revenue_qoq_change": 4.147157190635453,
+    "eps_yoy_change": 121.46118721461185,
+    "eps_qoq_change": 78.30882352941173,
+    "latest_eps": 4.85,
+    "gross_margin": 52.98651252408478,
+    "operating_margin": 21.25883108542068,
+    "net_margin": 14.964675658317278,
+    "inventory_yoy_change": 6.851311953352779,
+    "inventory_qoq_change": 5.924855491329484,
+    "shares_yoy_change": -6.148339017656257,
+    "free_cash_flow_ttm": 904000000.0,
+    "operating_cash_flow_ttm": 979000000.0,
+    "revenue_ttm": 5847000000.0,
+    "net_income_ttm": 539000000.0,
+    "ebitda_ttm": 1055000000.0,
+    "total_debt": 2962000000.0,
+    "cash": 157000000.0,
+    "total_assets": 8637000000.0,
+    "margin_change": 3.3544055006734084,
+    "operating_margin_yoy_change": 6.796340752860743,
+    "inventory_to_sales_ratio": 0.4707771355170199,
+    "fcf_margin": 15.460920129981186,
+    "net_debt": 2805000000.0,
+    "net_debt_to_ebitda": 2.6587677725118484,
+    "debt_to_assets": 34.29431515572537,
+    "market_cap": 17755346944.0,
+    "enterprise_value": 20635441152.0,
+    "forward_pe": 16.730927,
+    "trailing_pe": 35.032894,
+    "ev_ebitda": 17.429,
+    "fcf_yield": 5.091424024837123,
+    "eps_fy0": 21.05933,
+    "revenue_fy0": 6226648520.0,
+    "analysts_fy0": 15.0,
+    "eps_fy1": 22.2791,
+    "revenue_fy1": 6619779350.0,
+    "analysts_fy1": 15.0,
+    "forward_eps_growth": 5.792064609842762,
+    "forward_revenue_growth": 6.313682693623446,
+    "eps_revision_30d": 0.44023271697746225,
+    "eps_revision_90d": 7.53966530064536,
+    "eps_surprise_pct": 45.104052173475885,
+    "days_to_earnings": 19.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/financials/",
+      "retrieved_at": "2026-10-15T13:43:53.486294+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/key-statistics/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/analysis/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ZBRA/calendar/",
+      "retrieved_at": "2026-10-15T13:43:08.805799+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "BNP Paribas Adjusts Price Target on Zebra Technologies to $460 From $455",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-price-target-105241691.html",
+      "published_at": "2026-10-15T10:52:41+00:00",
+      "categories": []
+    },
+    {
+      "title": "Zebra Technologies (ZBRA) Stock Could Be 28% Undervalued On Cash Flow",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zebra-technologies-zbra-stock-could-232223244.html",
+      "published_at": "2026-10-12T23:22:23+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Zebra Technologies (ZBRA) Fairly Valued After Its Automation Fueled Rally?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zebra-technologies-zbra-fairly-valued-221626794.html",
+      "published_at": "2026-10-12T22:16:26+00:00",
+      "categories": []
+    },
+    {
+      "title": "Specialized Technology Stocks Q2 Highlights: Zebra (NASDAQ:ZBRA)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/specialized-technology-stocks-q2-highlights-200703152.html",
+      "published_at": "2026-10-12T20:07:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Should You Buy Zebra Technologies Stock After a 71% Rally in 6 Months?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-zebra-technologies-stock-71-132100858.html",
+      "published_at": "2026-10-12T13:21:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Has Stanley Black & Decker (SWK) Outpaced Other Industrial Products Stocks This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-black-decker-swk-outpaced-124004634.html",
+      "published_at": "2026-10-12T12:40:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Barclays Adjusts Price Target on Zebra Technologies to $416 From $410",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-zebra-101449635.html",
+      "published_at": "2026-10-12T10:14:49+00:00",
+      "categories": []
+    },
+    {
+      "title": "Citigroup Adjusts Price Target on Zebra Technologies to $400 From $396",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-zebra-093648930.html",
+      "published_at": "2026-10-12T09:36:48+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ZBRA/0001628280-26-052158_877212"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T13:43:53.486294+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 20.417633410672863,
+    "revenue_qoq_change": 4.147157190635453,
+    "eps_yoy_change": 121.46118721461185,
+    "eps_qoq_change": 78.30882352941173,
+    "latest_eps": 4.85,
+    "gross_margin": 52.98651252408478,
+    "operating_margin": 21.25883108542068,
+    "net_margin": 14.964675658317278,
+    "inventory_yoy_change": 6.851311953352779,
+    "inventory_qoq_change": 5.924855491329484,
+    "shares_yoy_change": -6.148339017656257,
+    "free_cash_flow_ttm": 904000000.0,
+    "operating_cash_flow_ttm": 979000000.0,
+    "revenue_ttm": 5847000000.0,
+    "net_income_ttm": 539000000.0,
+    "ebitda_ttm": 1055000000.0,
+    "total_debt": 2962000000.0,
+    "cash": 157000000.0,
+    "total_assets": 8637000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1293000000.0,
+      "2025-09-30": 1320000000.0,
+      "2025-12-31": 1475000000.0,
+      "2026-03-31": 1495000000.0,
+      "2026-06-30": 1557000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 2.19,
+      "2025-09-30": 1.97,
+      "2025-12-31": 1.39,
+      "2026-03-31": 2.72,
+      "2026-06-30": 4.85
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 686000000.0,
+      "2025-09-30": 663000000.0,
+      "2025-12-31": 729000000.0,
+      "2026-03-31": 692000000.0,
+      "2026-06-30": 733000000.0
+    },
+    "margin_change": 3.3544055006734084,
+    "operating_margin_yoy_change": 6.796340752860743,
+    "inventory_to_sales_ratio": 0.4707771355170199,
+    "fcf_margin": 15.460920129981186,
+    "net_debt": 2805000000.0,
+    "net_debt_to_ebitda": 2.6587677725118484,
+    "debt_to_assets": 34.29431515572537
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/ZBRA/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
