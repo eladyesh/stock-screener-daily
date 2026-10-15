@@ -1,0 +1,42 @@
+name: Research live smoke
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/data/research_fetcher.py'
+      - 'src/data/financial_metrics.py'
+      - 'src/screening/research_engine.py'
+      - 'run_optimized_scan.py'
+      - 'research.yaml'
+      - '.github/workflows/research_smoke.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Live five-stock scan without notifications
+        run: |
+          set -o pipefail
+          python run_optimized_scan.py --conservative --tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5 --output-dir data/smoke 2>&1 | tee research-smoke.log
+          python -m scripts.validate_research_smoke data/smoke/latest_research.json
+      - name: Keep evidence even if a provider fails
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: research-live-smoke
+          path: |
+            data/smoke/
+            research-smoke.log
+          retention-days: 14

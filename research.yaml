@@ -1,0 +1,23 @@
+# Heuristic weights, not calibrated return probabilities. Two holding horizons.
+shortlist_limit: 40
+top_n: 10
+minimum_score: 60
+minimum_coverage: 0.70
+earnings_caution_days: 7
+max_price_age_days: 5
+max_statement_age_days: 180
+profiles:
+  weeks_to_months:
+    technical: 35
+    growth: 15
+    quality: 15
+    valuation: 10
+    revisions: 20
+    catalysts: 5
+  months_to_18m:
+    technical: 15
+    growth: 25
+    quality: 30
+    valuation: 20
+    revisions: 10
+    catalysts: 0

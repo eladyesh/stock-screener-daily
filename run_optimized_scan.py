@@ -31,50 +31,66 @@ from src.screening.benchmark import (
     analyze_spy_trend,
     calculate_market_breadth,
     format_benchmark_summary,
-    should_generate_signals
+    should_generate_signals,
 )
 from src.screening.signal_engine import score_buy_signal, score_sell_signal
 from src.data.enhanced_fundamentals import EnhancedFundamentalsFetcher
+from src.screening.research_engine import build_research, format_research, save_research
 
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
 
-def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, output_dir="./data/daily_scans"):
+def save_report(
+    results,
+    buy_signals,
+    sell_signals,
+    spy_analysis,
+    breadth,
+    output_dir="./data/daily_scans",
+    research=None,
+):
     """Save comprehensive report."""
     Path(output_dir).mkdir(parents=True, exist_ok=True)
 
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    date_str = datetime.now().strftime('%Y-%m-%d')
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    date_str = datetime.now().strftime("%Y-%m-%d")
 
     output = []
-    output.append("="*80)
+    output.append("=" * 80)
     output.append("OPTIMIZED FULL MARKET SCAN - ALL US STOCKS")
     output.append(f"Scan Date: {date_str}")
     output.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    output.append("="*80)
+    output.append("=" * 80)
     output.append("")
 
     # Stats
     output.append("SCANNING STATISTICS")
-    output.append("-"*80)
+    output.append("-" * 80)
     output.append(f"Total Universe: {results['total_processed']:,} stocks")
     output.append(f"Analyzed: {results['total_analyzed']:,} stocks")
-    output.append(f"Processing Time: {results['processing_time_seconds']/60:.1f} minutes")
+    output.append(
+        f"Processing Time: {results['processing_time_seconds']/60:.1f} minutes"
+    )
     output.append(f"Actual TPS: {results['actual_tps']:.2f}")
-    price_dates = sorted({
-        str(analysis['price_data'].index[-1].date())
-        for analysis in results.get('analyses', [])
-        if not analysis['price_data'].empty
-    })
+    price_dates = sorted(
+        {
+            str(analysis["price_data"].index[-1].date())
+            for analysis in results.get("analyses", [])
+            if not analysis["price_data"].empty
+        }
+    )
     if price_dates:
-        output.append(f"Latest price-bar dates across analyzed stocks: {price_dates[0]} to {price_dates[-1]}")
-    output.append("Coverage: successfully analyzed stocks after the upstream universe and liquidity filters.")
+        output.append(
+            f"Latest price-bar dates across analyzed stocks: {price_dates[0]} to {price_dates[-1]}"
+        )
+    output.append(
+        "Coverage: successfully analyzed stocks after the upstream universe and liquidity filters."
+    )
 
-    error_rate = results['error_rate'] * 100
+    error_rate = results["error_rate"] * 100
     if error_rate < 1:
         error_emoji = "🟢"
     elif error_rate < 5:
@@ -99,15 +115,22 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     output.append(format_benchmark_summary(spy_analysis, breadth))
     output.append("")
 
+    if research is not None:
+        output.append(format_research(research))
+        output.append(
+            "\nLEGACY TECHNICAL/GROWTH SIGNALS — see research ranks above for horizon-specific candidates\n"
+        )
+        save_research(research, output_dir)
+
     # Buy signals
-    output.append("="*80)
+    output.append("=" * 80)
     output.append(f"🟢 TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
-    output.append("="*80)
+    output.append("=" * 80)
     output.append("")
 
     if buy_signals:
         for i, signal in enumerate(buy_signals[:50], 1):
-            score = signal['score']
+            score = signal["score"]
             # Score-based emoji (green/yellow with star for exceptional)
             if score >= 90:
                 score_emoji = "⭐"  # Exceptional - star
@@ -119,26 +142,28 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 score_emoji = "🟡"  # Borderline - yellow
 
             output.append(f"\n{'#'*80}")
-            output.append(f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/125")
+            output.append(
+                f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/125"
+            )
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
 
             # Entry quality with emoji
-            entry_quality = signal.get('entry_quality', 'Unknown')
-            if entry_quality == 'Good':
+            entry_quality = signal.get("entry_quality", "Unknown")
+            if entry_quality == "Good":
                 output.append(f"🟢 Entry Quality: {entry_quality}")
-            elif entry_quality == 'Extended':
+            elif entry_quality == "Extended":
                 output.append(f"🟡 Entry Quality: {entry_quality}")
             else:
                 output.append(f"🔴 Entry Quality: {entry_quality}")
 
             # CRITICAL: Stop loss and R/R ratio
-            if signal.get('stop_loss'):
+            if signal.get("stop_loss"):
                 output.append(f"Stop Loss: ${signal['stop_loss']:.2f}")
-                details = signal.get('details', {})
-                risk_amt = details.get('risk_amount', 0)
-                reward_amt = details.get('reward_amount', 0)
-                rr_ratio = signal.get('risk_reward_ratio', 0)
+                details = signal.get("details", {})
+                risk_amt = details.get("risk_amount", 0)
+                reward_amt = details.get("reward_amount", 0)
+                rr_ratio = signal.get("risk_reward_ratio", 0)
                 # R/R ratio emoji
                 if rr_ratio >= 3:
                     rr_emoji = "🟢"  # Excellent R/R
@@ -146,14 +171,16 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                     rr_emoji = "🟢"  # Good R/R
                 else:
                     rr_emoji = "🟡"  # Poor R/R
-                output.append(f"{rr_emoji} Risk/Reward: {rr_ratio:.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})")
+                output.append(
+                    f"{rr_emoji} Risk/Reward: {rr_ratio:.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})"
+                )
 
-            if signal.get('breakout_price'):
+            if signal.get("breakout_price"):
                 output.append(f"Breakout: ${signal['breakout_price']:.2f}")
 
-            details = signal.get('details', {})
-            if 'rs_slope' in details:
-                rs_slope = details['rs_slope']
+            details = signal.get("details", {})
+            if "rs_slope" in details:
+                rs_slope = details["rs_slope"]
                 # RS emoji (green = good, yellow = ok, red = bad)
                 if rs_slope > 0.5:
                     rs_emoji = "🟢"  # Strong RS
@@ -162,8 +189,8 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 else:
                     rs_emoji = "🔴"  # Weak RS
                 output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
-            if 'volume_ratio' in details:
-                vol_ratio = details['volume_ratio']
+            if "volume_ratio" in details:
+                vol_ratio = details["volume_ratio"]
                 # Volume emoji
                 if vol_ratio > 1.5:
                     vol_emoji = "🟢"  # High volume
@@ -174,11 +201,11 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 output.append(f"{vol_emoji} Volume: {vol_ratio:.1f}x")
 
             # VCP pattern details if detected
-            vcp_data = details.get('vcp_data')
+            vcp_data = details.get("vcp_data")
             if vcp_data:
-                vcp_quality = vcp_data.get('quality', 0)
-                contractions = vcp_data.get('contractions', 0)
-                pattern = vcp_data.get('pattern', 'N/A')
+                vcp_quality = vcp_data.get("quality", 0)
+                contractions = vcp_data.get("contractions", 0)
+                pattern = vcp_data.get("pattern", "N/A")
 
                 if vcp_quality >= 80:
                     vcp_emoji = "⭐"  # Exceptional VCP
@@ -190,22 +217,24 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                     vcp_emoji = "🟡"  # Partial pattern
 
                 if vcp_quality >= 50:
-                    output.append(f"{vcp_emoji} VCP: {pattern} (quality: {vcp_quality:.0f}/100)")
+                    output.append(
+                        f"{vcp_emoji} VCP: {pattern} (quality: {vcp_quality:.0f}/100)"
+                    )
 
             output.append("\nKey Reasons:")
-            for reason in signal['reasons'][:7]:  # Show 7 instead of 5
+            for reason in signal["reasons"][:7]:  # Show 7 instead of 5
                 output.append(f"  • {reason}")
 
-            if signal.get('fundamental_snapshot'):
-                output.append(signal['fundamental_snapshot'])
+            if signal.get("fundamental_snapshot"):
+                output.append(signal["fundamental_snapshot"])
 
         if len(buy_signals) > 50:
             output.append(f"\n{'='*80}")
             output.append(f"ADDITIONAL BUYS ({len(buy_signals)-50} more)")
             output.append(f"{'='*80}\n")
-            remaining = [s['ticker'] for s in buy_signals[50:]]
+            remaining = [s["ticker"] for s in buy_signals[50:]]
             for i in range(0, len(remaining), 10):
-                output.append(", ".join(remaining[i:i+10]))
+                output.append(", ".join(remaining[i : i + 10]))
     else:
         output.append("✗ NO BUY SIGNALS TODAY")
 
@@ -217,13 +246,13 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     if sell_signals:
         for i, signal in enumerate(sell_signals[:30], 1):
-            score = signal['score']
-            severity = signal['severity']
+            score = signal["score"]
+            severity = signal["severity"]
 
             # Severity emoji (red/yellow with alarm for critical)
-            if severity == 'critical':
+            if severity == "critical":
                 severity_emoji = "🚨"  # Critical - alarm
-            elif severity == 'high':
+            elif severity == "high":
                 severity_emoji = "🔴"  # High - red
             else:
                 severity_emoji = "🟡"  # Moderate - yellow
@@ -237,14 +266,18 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 score_emoji = "🟡"  # Warning - yellow
 
             output.append(f"\n{'#'*80}")
-            output.append(f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110")
+            output.append(
+                f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110"
+            )
             output.append(f"{'#'*80}")
-            output.append(f"Phase: {signal['phase']} | {severity_emoji} Severity: {severity.upper()}")
-            if signal.get('breakdown_level'):
+            output.append(
+                f"Phase: {signal['phase']} | {severity_emoji} Severity: {severity.upper()}"
+            )
+            if signal.get("breakdown_level"):
                 output.append(f"Breakdown: ${signal['breakdown_level']:.2f}")
-            details = signal.get('details', {})
-            if 'rs_slope' in details:
-                rs_slope = details['rs_slope']
+            details = signal.get("details", {})
+            if "rs_slope" in details:
+                rs_slope = details["rs_slope"]
                 # RS emoji for sell signals (negative is expected)
                 if rs_slope < -0.5:
                     rs_emoji = "🔴"  # Very weak RS
@@ -254,19 +287,19 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                     rs_emoji = "🟢"  # Still positive RS (unusual for sell)
                 output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
             output.append("\nSell Reasons:")
-            for reason in signal['reasons'][:5]:
+            for reason in signal["reasons"][:5]:
                 output.append(f"  • {reason}")
 
-            if signal.get('fundamental_snapshot'):
-                output.append(signal['fundamental_snapshot'])
+            if signal.get("fundamental_snapshot"):
+                output.append(signal["fundamental_snapshot"])
 
         if len(sell_signals) > 30:
             output.append(f"\n{'='*80}")
             output.append(f"ADDITIONAL SELLS ({len(sell_signals)-30} more)")
             output.append(f"{'='*80}\n")
-            remaining = [s['ticker'] for s in sell_signals[30:]]
+            remaining = [s["ticker"] for s in sell_signals[30:]]
             for i in range(0, len(remaining), 10):
-                output.append(", ".join(remaining[i:i+10]))
+                output.append(", ".join(remaining[i : i + 10]))
     else:
         output.append("✗ NO SELL SIGNALS TODAY")
 
@@ -278,28 +311,32 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Save
     filepath = Path(output_dir) / f"optimized_scan_{timestamp}.txt"
-    with open(filepath, 'w', encoding='utf-8') as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(report_text)
 
     latest_path = Path(output_dir) / "latest_optimized_scan.txt"
-    with open(latest_path, 'w', encoding='utf-8') as f:
+    with open(latest_path, "w", encoding="utf-8") as f:
         f.write(report_text)
 
     # Bind delivery to this run and these exact report bytes, never a checked-in report.
     manifest = {
-        'generated_at': datetime.now(timezone.utc).isoformat(),
-        'github_run_id': os.getenv('GITHUB_RUN_ID', ''),
-        'github_run_attempt': os.getenv('GITHUB_RUN_ATTEMPT', ''),
-        'report_sha256': hashlib.sha256(latest_path.read_bytes()).hexdigest(),
-        'universe': results['total_processed'],
-        'analyzed': results['total_analyzed'],
-        'error_rate': results['error_rate'],
-        'buy_signals': len(buy_signals),
-        'sell_signals': len(sell_signals),
-        'price_dates': price_dates,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
+        "github_run_attempt": os.getenv("GITHUB_RUN_ATTEMPT", ""),
+        "report_sha256": hashlib.sha256(latest_path.read_bytes()).hexdigest(),
+        "universe": results["total_processed"],
+        "analyzed": results["total_analyzed"],
+        "error_rate": results["error_rate"],
+        "buy_signals": len(buy_signals),
+        "sell_signals": len(sell_signals),
+        "price_dates": price_dates,
     }
-    (Path(output_dir) / 'latest_scan_manifest.json').write_text(
-        json.dumps(manifest, indent=2), encoding='utf-8'
+    if research is not None:
+        manifest["research_enriched"] = research["enriched"]
+        manifest["research_rankings"] = research["rankings"]
+        manifest["strategy_version"] = research["strategy_version"]
+    (Path(output_dir) / "latest_scan_manifest.json").write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
     )
 
     logger.info(f"Report saved: {filepath}")
@@ -309,19 +346,52 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Optimized Full Market Scanner')
-    parser.add_argument('--workers', type=int, default=3, help='Parallel workers (default: 3)')
-    parser.add_argument('--delay', type=float, default=0.5, help='Delay per worker (default: 0.5s)')
-    parser.add_argument('--conservative', action='store_true', help='Ultra-conservative mode (2 workers, 1.0s delay)')
-    parser.add_argument('--aggressive', action='store_true', help='Faster mode (5 workers, 0.3s delay) - MAY HIT RATE LIMITS!')
-    parser.add_argument('--resume', action='store_true', help='Resume from progress')
-    parser.add_argument('--clear-progress', action='store_true', help='Clear progress')
-    parser.add_argument('--test-mode', action='store_true', help='Test with 100 stocks')
-    parser.add_argument('--tickers', help='Explicit comma-separated tickers for a small manual check')
-    parser.add_argument('--min-price', type=float, default=5.0, help='Min price')
-    parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
-    parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
-    parser.add_argument('--git-storage', action='store_true', help='Use Git-based storage for fundamentals (recommended)')
+    parser = argparse.ArgumentParser(description="Optimized Full Market Scanner")
+    parser.add_argument(
+        "--workers", type=int, default=3, help="Parallel workers (default: 3)"
+    )
+    parser.add_argument(
+        "--delay", type=float, default=0.5, help="Delay per worker (default: 0.5s)"
+    )
+    parser.add_argument(
+        "--conservative",
+        action="store_true",
+        help="Ultra-conservative mode (2 workers, 1.0s delay)",
+    )
+    parser.add_argument(
+        "--aggressive",
+        action="store_true",
+        help="Faster mode (5 workers, 0.3s delay) - MAY HIT RATE LIMITS!",
+    )
+    parser.add_argument("--resume", action="store_true", help="Resume from progress")
+    parser.add_argument("--clear-progress", action="store_true", help="Clear progress")
+    parser.add_argument("--test-mode", action="store_true", help="Test with 100 stocks")
+    parser.add_argument(
+        "--tickers", help="Explicit comma-separated tickers for a small manual check"
+    )
+    parser.add_argument("--min-price", type=float, default=5.0, help="Min price")
+    parser.add_argument("--min-volume", type=int, default=100000, help="Min volume")
+    parser.add_argument(
+        "--use-fmp",
+        action="store_true",
+        help="Use FMP for enhanced fundamentals on buy signals",
+    )
+    parser.add_argument(
+        "--git-storage",
+        action="store_true",
+        help="Use Git-based storage for fundamentals (recommended)",
+    )
+    parser.add_argument(
+        "--research-limit",
+        type=int,
+        default=None,
+        help="Enrich 1..100 candidates; default from research.yaml",
+    )
+    parser.add_argument("--research-config", default="research.yaml")
+    parser.add_argument(
+        "--skip-research", action="store_true", help="Legacy scanner only"
+    )
+    parser.add_argument("--output-dir", default="./data/daily_scans")
 
     args = parser.parse_args()
 
@@ -333,17 +403,23 @@ def main():
     elif args.aggressive:
         args.workers = 5
         args.delay = 0.3
-        logger.warning("Aggressive mode: 5 workers, 0.3s delay (~17 TPS) - MAY HIT RATE LIMITS!")
+        logger.warning(
+            "Aggressive mode: 5 workers, 0.3s delay (~17 TPS) - MAY HIT RATE LIMITS!"
+        )
 
     effective_tps = args.workers / args.delay
-    logger.info(f"Configuration: {args.workers} workers × {1/args.delay:.1f} TPS = ~{effective_tps:.1f} TPS effective")
+    logger.info(
+        f"Configuration: {args.workers} workers × {1/args.delay:.1f} TPS = ~{effective_tps:.1f} TPS effective"
+    )
 
     # Initialize enhanced fundamentals fetcher
     fundamentals_fetcher = EnhancedFundamentalsFetcher()
     if args.use_fmp and fundamentals_fetcher.fmp_available:
         logger.info("FMP enabled - will use for buy signal fundamentals")
     elif args.use_fmp:
-        logger.warning("--use-fmp specified but FMP_API_KEY not set. Using yfinance only.")
+        logger.warning(
+            "--use-fmp specified but FMP_API_KEY not set. Using yfinance only."
+        )
 
     try:
         # Fetch universe
@@ -351,9 +427,14 @@ def main():
         logger.info("Fetching stock universe...")
         if args.tickers:
             import re
-            tickers = list(dict.fromkeys(t.strip().upper() for t in args.tickers.split(',') if t.strip()))
-            if not all(re.fullmatch(r'[A-Z][A-Z0-9.-]{0,9}', t) for t in tickers):
-                raise ValueError('Invalid ticker list')
+
+            tickers = list(
+                dict.fromkeys(
+                    t.strip().upper() for t in args.tickers.split(",") if t.strip()
+                )
+            )
+            if not all(re.fullmatch(r"[A-Z][A-Z0-9.-]{0,9}", t) for t in tickers):
+                raise ValueError("Invalid ticker list")
         else:
             tickers = universe_fetcher.fetch_universe()
 
@@ -371,11 +452,13 @@ def main():
         processor = OptimizedBatchProcessor(
             max_workers=args.workers,
             rate_limit_delay=args.delay,
-            use_git_storage=args.git_storage
+            use_git_storage=args.git_storage,
         )
 
         if args.git_storage:
-            logger.info("Git-based fundamental storage enabled - 74% API call reduction!")
+            logger.info(
+                "Git-based fundamental storage enabled - 74% API call reduction!"
+            )
 
         if args.clear_progress:
             processor.clear_progress()
@@ -385,92 +468,126 @@ def main():
             tickers,
             resume=args.resume,
             min_price=args.min_price,
-            min_volume=args.min_volume
+            min_volume=args.min_volume,
         )
 
-        if 'error' in results:
-            logger.error(results['error'])
+        if "error" in results:
+            logger.error(results["error"])
             sys.exit(1)
-        if results.get('total_analyzed', 0) == 0:
-            raise RuntimeError('No stocks were successfully analyzed; refusing to publish a misleading empty report')
+        if results.get("total_analyzed", 0) == 0:
+            raise RuntimeError(
+                "No stocks were successfully analyzed; refusing to publish a misleading empty report"
+            )
 
         # Analysis
         logger.info("Generating signals...")
         spy_analysis = analyze_spy_trend(processor.spy_data, processor.spy_price)
-        breadth = calculate_market_breadth(results['phase_results'])
+        breadth = calculate_market_breadth(results["phase_results"])
         signal_rec = should_generate_signals(spy_analysis, breadth)
 
         # Buy signals
         buy_signals = []
-        if signal_rec['should_generate_buys']:
-            for analysis in results['analyses']:
-                if analysis['phase_info']['phase'] in [1, 2]:
+        if signal_rec["should_generate_buys"]:
+            for analysis in results["analyses"]:
+                if analysis["phase_info"]["phase"] in [1, 2]:
                     signal = score_buy_signal(
-                        ticker=analysis['ticker'],
-                        price_data=analysis['price_data'],
-                        current_price=analysis['current_price'],
-                        phase_info=analysis['phase_info'],
-                        rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('quarterly_data'),  # Pass raw quarterly data, not analyzed
-                        vcp_data=analysis.get('vcp_data')  # Added VCP data
+                        ticker=analysis["ticker"],
+                        price_data=analysis["price_data"],
+                        current_price=analysis["current_price"],
+                        phase_info=analysis["phase_info"],
+                        rs_series=analysis["rs_series"],
+                        fundamentals=analysis.get(
+                            "quarterly_data"
+                        ),  # Pass raw quarterly data, not analyzed
+                        vcp_data=analysis.get("vcp_data"),  # Added VCP data
                     )
-                    if signal['is_buy']:
+                    if signal["is_buy"]:
                         # Use FMP for enhanced snapshot if requested and available
-                        signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
-                            analysis['ticker'],
-                            quarterly_data=analysis.get('quarterly_data', {}),
-                            use_fmp=args.use_fmp
+                        signal["fundamental_snapshot"] = (
+                            fundamentals_fetcher.create_snapshot(
+                                analysis["ticker"],
+                                quarterly_data=analysis.get("quarterly_data", {}),
+                                use_fmp=args.use_fmp,
+                            )
                         )
                         buy_signals.append(signal)
 
-        buy_signals = sorted(buy_signals, key=lambda x: x['score'], reverse=True)
+        buy_signals = sorted(buy_signals, key=lambda x: x["score"], reverse=True)
 
         # Sell signals
         sell_signals = []
-        if signal_rec['should_generate_sells']:
-            for analysis in results['analyses']:
-                if analysis['phase_info']['phase'] in [3, 4]:
+        if signal_rec["should_generate_sells"]:
+            for analysis in results["analyses"]:
+                if analysis["phase_info"]["phase"] in [3, 4]:
                     signal = score_sell_signal(
-                        ticker=analysis['ticker'],
-                        price_data=analysis['price_data'],
-                        current_price=analysis['current_price'],
-                        phase_info=analysis['phase_info'],
-                        rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('quarterly_data')  # Pass raw quarterly data, not analyzed
+                        ticker=analysis["ticker"],
+                        price_data=analysis["price_data"],
+                        current_price=analysis["current_price"],
+                        phase_info=analysis["phase_info"],
+                        rs_series=analysis["rs_series"],
+                        fundamentals=analysis.get(
+                            "quarterly_data"
+                        ),  # Pass raw quarterly data, not analyzed
                     )
-                    if signal['is_sell']:
+                    if signal["is_sell"]:
                         # Add fundamental snapshot
-                        signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
-                            analysis['ticker'],
-                            quarterly_data=analysis.get('quarterly_data', {}),
-                            use_fmp=args.use_fmp
+                        signal["fundamental_snapshot"] = (
+                            fundamentals_fetcher.create_snapshot(
+                                analysis["ticker"],
+                                quarterly_data=analysis.get("quarterly_data", {}),
+                                use_fmp=args.use_fmp,
+                            )
                         )
                         sell_signals.append(signal)
 
-        sell_signals = sorted(sell_signals, key=lambda x: x['score'], reverse=True)
+        sell_signals = sorted(sell_signals, key=lambda x: x["score"], reverse=True)
 
-        # Report
-        save_report(results, buy_signals, sell_signals, spy_analysis, breadth)
+        research = None
+        if not args.skip_research:
+            logger.info("Enriching the shortlist for both holding horizons...")
+            research = build_research(
+                results["analyses"],
+                buy_signals,
+                allow_buys=signal_rec["should_generate_buys"],
+                config_path=args.research_config,
+                limit=args.research_limit,
+            )
+        # Report (no delivery occurs here; the existing workflow owns delivery).
+        save_report(
+            results,
+            buy_signals,
+            sell_signals,
+            spy_analysis,
+            breadth,
+            output_dir=args.output_dir,
+            research=research,
+        )
 
         # Show FMP usage if enabled
         if args.use_fmp:
             usage = fundamentals_fetcher.get_api_usage()
-            logger.info("="*60)
+            logger.info("=" * 60)
             logger.info("FMP API USAGE")
-            logger.info(f"Calls used: {usage['fmp_calls_used']}/{usage['fmp_daily_limit']}")
+            logger.info(
+                f"Calls used: {usage['fmp_calls_used']}/{usage['fmp_daily_limit']}"
+            )
             logger.info(f"Calls remaining: {usage['fmp_calls_remaining']}")
-            if 'bandwidth_used_mb' in usage:
-                logger.info(f"Bandwidth used: {usage['bandwidth_used_mb']:.1f} MB / {usage['bandwidth_limit_gb']:.1f} GB ({usage['bandwidth_pct_used']:.1f}%)")
-                logger.info(f"Earnings season: {'Yes' if usage['is_earnings_season'] else 'No'} (cache: {usage['cache_hours']}h)")
-            logger.info("="*60)
+            if "bandwidth_used_mb" in usage:
+                logger.info(
+                    f"Bandwidth used: {usage['bandwidth_used_mb']:.1f} MB / {usage['bandwidth_limit_gb']:.1f} GB ({usage['bandwidth_pct_used']:.1f}%)"
+                )
+                logger.info(
+                    f"Earnings season: {'Yes' if usage['is_earnings_season'] else 'No'} (cache: {usage['cache_hours']}h)"
+                )
+            logger.info("=" * 60)
 
-        logger.info("="*60)
+        logger.info("=" * 60)
         logger.info("SCAN COMPLETE")
         logger.info(f"Time: {results['processing_time_seconds']/60:.1f} minutes")
         logger.info(f"Actual TPS: {results['actual_tps']:.2f}")
         logger.info(f"Buy signals: {len(buy_signals)}")
         logger.info(f"Sell signals: {len(sell_signals)}")
-        logger.info("="*60)
+        logger.info("=" * 60)
 
     except KeyboardInterrupt:
         logger.info("\nInterrupted - progress saved")
@@ -480,5 +597,5 @@ def main():
         sys.exit(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

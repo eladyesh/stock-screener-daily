@@ -20,13 +20,20 @@ import pandas as pd
 import yfinance as yf
 
 from src.data.fetcher import YahooFinanceFetcher
-from src.data.fundamentals_fetcher import fetch_quarterly_financials, analyze_fundamentals_for_signal
+from src.data.fundamentals_fetcher import (
+    fetch_quarterly_financials,
+    analyze_fundamentals_for_signal,
+)
+from src.data.financial_metrics import completed_daily_bars
 from src.data.git_storage_fetcher import GitStorageFetcher
-from ..screening.phase_indicators import classify_phase, calculate_relative_strength, detect_vcp_pattern
+from ..screening.phase_indicators import (
+    classify_phase,
+    calculate_relative_strength,
+    detect_vcp_pattern,
+)
 
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -41,7 +48,7 @@ class OptimizedBatchProcessor:
         max_workers: int = 3,  # Conservative: 3 workers
         rate_limit_delay: float = 0.5,  # 0.5 sec = 2 TPS per worker
         batch_size: int = 100,
-        use_git_storage: bool = False  # Use Git-based fundamental storage
+        use_git_storage: bool = False,  # Use Git-based fundamental storage
     ):
         """Initialize optimized processor.
 
@@ -102,7 +109,7 @@ class OptimizedBatchProcessor:
             return None
 
         try:
-            with open(self.progress_file, 'rb') as f:
+            with open(self.progress_file, "rb") as f:
                 progress = pickle.load(f)
             logger.info(f"Loaded progress: {len(progress['processed'])} stocks done")
             return progress
@@ -114,15 +121,15 @@ class OptimizedBatchProcessor:
         """Save current progress."""
         try:
             progress = {
-                'timestamp': datetime.now().isoformat(),
-                'total_tickers': len(tickers_list),
-                'processed': list(self.processed_tickers),
-                'results': results,
-                'batch_size': self.batch_size,
-                'error_rate': self.error_count / max(self.total_requests, 1)
+                "timestamp": datetime.now().isoformat(),
+                "total_tickers": len(tickers_list),
+                "processed": list(self.processed_tickers),
+                "results": results,
+                "batch_size": self.batch_size,
+                "error_rate": self.error_count / max(self.total_requests, 1),
             }
 
-            with open(self.progress_file, 'wb') as f:
+            with open(self.progress_file, "wb") as f:
                 pickle.dump(progress, f)
 
         except Exception as e:
@@ -157,10 +164,11 @@ class OptimizedBatchProcessor:
             # Use 1 year for price data (not 2 years - 50% less data)
             # Use same fetcher as stocks for consistency
             if self.use_git_storage and self.git_fetcher:
-                spy_hist = self.git_fetcher.fetch_price_fresh('SPY')
+                spy_hist = self.git_fetcher.fetch_price_fresh("SPY")
             else:
-                spy_hist = self.fetcher.fetch_price_history('SPY', period='1y')
+                spy_hist = self.fetcher.fetch_price_history("SPY", period="1y")
 
+            spy_hist = completed_daily_bars(spy_hist)
             if spy_hist.empty:
                 logger.error("Failed to fetch SPY data")
                 return False
@@ -172,7 +180,7 @@ class OptimizedBatchProcessor:
                 return False
 
             self.spy_data = spy_hist
-            self.spy_price = spy_hist['Close'].iloc[-1]
+            self.spy_price = spy_hist["Close"].iloc[-1]
             logger.info(f"SPY ready: {len(spy_hist)} days, ${self.spy_price:.2f}")
             return True
 
@@ -181,11 +189,7 @@ class OptimizedBatchProcessor:
             return False
 
     def analyze_single_stock(
-        self,
-        ticker: str,
-        min_price: float,
-        max_price: float,
-        min_volume: int
+        self, ticker: str, min_price: float, max_price: float, min_volume: int
     ) -> Optional[Dict]:
         """Analyze one stock with adaptive rate limiting.
 
@@ -209,84 +213,104 @@ class OptimizedBatchProcessor:
             if self.use_git_storage and self.git_fetcher:
                 # Git fetcher only does 1y, fetch 5y for drawdown check first
                 import yfinance as yf
-                long_hist = yf.Ticker(ticker).history(period='5y', interval='1d')
+
+                long_hist = yf.Ticker(ticker).history(period="5y", interval="1d")
 
                 if not long_hist.empty:
                     # Use last 1 year for technical analysis
-                    price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                    price_data = (
+                        long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                    )
                 else:
                     # Fallback to git fetcher if 5y fails
                     price_data = self.git_fetcher.fetch_price_fresh(ticker)
                     long_hist = price_data
             else:
                 # Regular fetcher - fetch 5y once
-                long_hist = self.fetcher.fetch_price_history(ticker, period='5y')
+                long_hist = self.fetcher.fetch_price_history(ticker, period="5y")
                 if not long_hist.empty:
                     # Use last 1 year for technical analysis
-                    price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                    price_data = (
+                        long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                    )
                 else:
                     price_data = pd.DataFrame()
 
+            price_data = completed_daily_bars(price_data)
             if price_data.empty or len(price_data) < 200:
                 self.filtered_count += 1
-                self.filter_reasons['insufficient_data'] = self.filter_reasons.get('insufficient_data', 0) + 1
+                self.filter_reasons["insufficient_data"] = (
+                    self.filter_reasons.get("insufficient_data", 0) + 1
+                )
                 return None
 
-            current_price = price_data['Close'].iloc[-1]
+            current_price = price_data["Close"].iloc[-1]
 
             # Historical drawdown filter (using 5y data we already fetched)
             # Exclude stocks that dropped >90% from any high in past 5 years
             if not long_hist.empty and len(long_hist) >= 252:  # At least 1 year
-                closes = long_hist['Close']
+                closes = long_hist["Close"]
                 # Calculate max drawdown from any previous high
                 running_max = closes.expanding().max()
                 drawdown = (closes - running_max) / running_max
                 max_drawdown = drawdown.min()  # Most negative value
 
                 # Check for valid drawdown value before comparison
-                if pd.notna(max_drawdown) and max_drawdown < -0.90:  # Dropped more than 90%
+                if (
+                    pd.notna(max_drawdown) and max_drawdown < -0.90
+                ):  # Dropped more than 90%
                     self.filtered_count += 1
-                    self.filter_reasons['severe_drawdown_90pct'] = self.filter_reasons.get('severe_drawdown_90pct', 0) + 1
-                    logger.debug(f"{ticker}: Filtered - {max_drawdown*100:.1f}% max drawdown in 5y")
+                    self.filter_reasons["severe_drawdown_90pct"] = (
+                        self.filter_reasons.get("severe_drawdown_90pct", 0) + 1
+                    )
+                    logger.debug(
+                        f"{ticker}: Filtered - {max_drawdown*100:.1f}% max drawdown in 5y"
+                    )
                     return None
 
             # Price filter
             if current_price < min_price or current_price > max_price:
                 self.filtered_count += 1
-                self.filter_reasons['price_range'] = self.filter_reasons.get('price_range', 0) + 1
+                self.filter_reasons["price_range"] = (
+                    self.filter_reasons.get("price_range", 0) + 1
+                )
                 return None
 
             # Volume filter
-            if 'Volume' in price_data.columns:
-                avg_volume = price_data['Volume'].iloc[-20:].mean()
+            if "Volume" in price_data.columns:
+                avg_volume = price_data["Volume"].iloc[-20:].mean()
                 if avg_volume < min_volume:
                     self.filtered_count += 1
-                    self.filter_reasons['low_volume'] = self.filter_reasons.get('low_volume', 0) + 1
+                    self.filter_reasons["low_volume"] = (
+                        self.filter_reasons.get("low_volume", 0) + 1
+                    )
                     return None
             else:
                 avg_volume = 0
 
             # Phase classification
             phase_info = classify_phase(price_data, current_price)
-            phase = phase_info['phase']
+            phase = phase_info["phase"]
 
             if phase not in [1, 2, 3, 4]:
                 self.filtered_count += 1
-                self.filter_reasons['invalid_phase'] = self.filter_reasons.get('invalid_phase', 0) + 1
+                self.filter_reasons["invalid_phase"] = (
+                    self.filter_reasons.get("invalid_phase", 0) + 1
+                )
                 return None
 
             # RS calculation
             rs_series = calculate_relative_strength(
-                price_data['Close'],
-                self.spy_data['Close'],
-                period=63
+                price_data["Close"], self.spy_data["Close"], period=63
             )
 
             # VCP pattern detection (only for Phase 1/2 - base building or breakout)
             vcp_data = {}
             if phase in [1, 2]:
                 vcp_data = detect_vcp_pattern(price_data, current_price, phase_info)
-                logger.debug(f"{ticker}: VCP analysis - {vcp_data.get('pattern_details', 'N/A')}")
+                logger.debug(
+                    f"{ticker}: VCP analysis - {vcp_data.get('pattern_details', 'N/A')}"
+                )
 
             # Fundamentals (only for Phase 1/2)
             quarterly_data = {}
@@ -301,15 +325,15 @@ class OptimizedBatchProcessor:
                 fundamental_analysis = analyze_fundamentals_for_signal(quarterly_data)
 
             return {
-                'ticker': ticker,
-                'price_data': price_data,
-                'current_price': current_price,
-                'avg_volume': avg_volume,
-                'phase_info': phase_info,
-                'rs_series': rs_series,
-                'vcp_data': vcp_data,  # Added VCP analysis
-                'quarterly_data': quarterly_data,
-                'fundamental_analysis': fundamental_analysis
+                "ticker": ticker,
+                "price_data": price_data,
+                "current_price": current_price,
+                "avg_volume": avg_volume,
+                "phase_info": phase_info,
+                "rs_series": rs_series,
+                "vcp_data": vcp_data,  # Added VCP analysis
+                "quarterly_data": quarterly_data,
+                "fundamental_analysis": fundamental_analysis,
             }
 
         except Exception as e:
@@ -329,22 +353,36 @@ class OptimizedBatchProcessor:
 
             # Log first 5 occurrences of each error type for debugging
             if self.error_types[error_type] <= 5:
-                logger.error(f"[ERROR #{self.error_types[error_type]}] {error_type} on {ticker}: {error_msg}")
+                logger.error(
+                    f"[ERROR #{self.error_types[error_type]}] {error_type} on {ticker}: {error_msg}"
+                )
             elif self.error_types[error_type] == 6:
-                logger.info(f"  ({error_type} will now be suppressed, {self.error_types[error_type]} total so far)")
+                logger.info(
+                    f"  ({error_type} will now be suppressed, {self.error_types[error_type]} total so far)"
+                )
 
             # Check if it's a rate limit error
-            if '429' in error_msg.lower() or 'rate limit' in error_msg.lower() or 'too many requests' in error_msg.lower():
+            if (
+                "429" in error_msg.lower()
+                or "rate limit" in error_msg.lower()
+                or "too many requests" in error_msg.lower()
+            ):
                 logger.warning(f"Rate limit hit on {ticker}: {e}")
 
                 # Adaptive backoff - increase delay
-                self.backoff_delay = min(self.backoff_delay + 0.5, 5.0)  # Max 5 sec extra
-                logger.warning(f"Increasing backoff delay to +{self.backoff_delay:.1f}s")
+                self.backoff_delay = min(
+                    self.backoff_delay + 0.5, 5.0
+                )  # Max 5 sec extra
+                logger.warning(
+                    f"Increasing backoff delay to +{self.backoff_delay:.1f}s"
+                )
 
                 # If we hit multiple rate limits, sleep longer immediately
                 if self.consecutive_errors >= 3:
                     sleep_time = 30
-                    logger.warning(f"Multiple rate limits detected! Sleeping {sleep_time}s...")
+                    logger.warning(
+                        f"Multiple rate limits detected! Sleeping {sleep_time}s..."
+                    )
                     time.sleep(sleep_time)
                     self.consecutive_errors = 0
             else:
@@ -358,7 +396,7 @@ class OptimizedBatchProcessor:
         resume: bool = True,
         min_price: float = 5.0,
         max_price: float = 10000.0,
-        min_volume: int = 100000
+        min_volume: int = 100000,
     ) -> Dict:
         """Process batch with parallel workers.
 
@@ -372,24 +410,26 @@ class OptimizedBatchProcessor:
         Returns:
             Results dict
         """
-        logger.info("="*60)
+        logger.info("=" * 60)
         logger.info("OPTIMIZED BATCH PROCESSING STARTED")
         logger.info(f"Tickers: {len(tickers)}")
         logger.info(f"Workers: {self.max_workers}")
         logger.info(f"Rate: ~{self.max_workers / self.rate_limit_delay:.1f} TPS")
-        logger.info(f"Est. time: {len(tickers) * self.rate_limit_delay / self.max_workers / 3600:.1f} hours")
-        logger.info("="*60)
+        logger.info(
+            f"Est. time: {len(tickers) * self.rate_limit_delay / self.max_workers / 3600:.1f} hours"
+        )
+        logger.info("=" * 60)
 
         # Fetch SPY
         if not self.fetch_spy_data():
-            return {'error': 'Failed to fetch SPY'}
+            return {"error": "Failed to fetch SPY"}
 
         # Load progress
         if resume:
             progress = self.load_progress()
             if progress:
-                self.processed_tickers = set(progress['processed'])
-                self.current_results = progress['results']
+                self.processed_tickers = set(progress["processed"])
+                self.current_results = progress["results"]
 
         remaining = [t for t in tickers if t not in self.processed_tickers]
         logger.info(f"Processing {len(remaining)} remaining tickers")
@@ -403,11 +443,7 @@ class OptimizedBatchProcessor:
             # Submit all tasks
             future_to_ticker = {
                 executor.submit(
-                    self.analyze_single_stock,
-                    ticker,
-                    min_price,
-                    max_price,
-                    min_volume
+                    self.analyze_single_stock, ticker, min_price, max_price, min_volume
                 ): ticker
                 for ticker in remaining
             }
@@ -423,15 +459,16 @@ class OptimizedBatchProcessor:
 
                     if analysis:
                         all_analyses.append(analysis)
-                        phase_results.append({
-                            'ticker': ticker,
-                            'phase': analysis['phase_info']['phase']
-                        })
+                        phase_results.append(
+                            {"ticker": ticker, "phase": analysis["phase_info"]["phase"]}
+                        )
 
                         # Success - reset consecutive errors and reduce backoff
                         self.consecutive_errors = 0
                         if self.backoff_delay > 0:
-                            self.backoff_delay = max(0, self.backoff_delay - 0.1)  # Slowly reduce
+                            self.backoff_delay = max(
+                                0, self.backoff_delay - 0.1
+                            )  # Slowly reduce
 
                     self.processed_tickers.add(ticker)
 
@@ -443,8 +480,12 @@ class OptimizedBatchProcessor:
                         eta_seconds = remaining_count / rate if rate > 0 else 0
                         eta = str(timedelta(seconds=int(eta_seconds)))
 
-                        error_rate = self.error_count / max(self.total_requests, 1) * 100
-                        filter_rate = self.filtered_count / max(self.total_requests, 1) * 100
+                        error_rate = (
+                            self.error_count / max(self.total_requests, 1) * 100
+                        )
+                        filter_rate = (
+                            self.filtered_count / max(self.total_requests, 1) * 100
+                        )
 
                         logger.info(
                             f"Progress: {len(self.processed_tickers)}/{len(tickers)} "
@@ -467,45 +508,57 @@ class OptimizedBatchProcessor:
         total_time = time.time() - start_time
         actual_rate = len(tickers) / total_time if total_time > 0 else 0
 
-        logger.info("="*60)
+        logger.info("=" * 60)
         logger.info("OPTIMIZED BATCH PROCESSING COMPLETE")
         logger.info(f"Time: {str(timedelta(seconds=int(total_time)))}")
         logger.info(f"Processed: {len(tickers)} tickers")
         logger.info(f"Analyzed: {len(all_analyses)} stocks")
-        logger.info(f"Filtered: {self.filtered_count} ({self.filtered_count / max(self.total_requests, 1) * 100:.1f}%)")
+        logger.info(
+            f"Filtered: {self.filtered_count} ({self.filtered_count / max(self.total_requests, 1) * 100:.1f}%)"
+        )
         logger.info(f"Actual rate: {actual_rate:.2f} TPS")
-        logger.info(f"Error rate: {self.error_count / max(self.total_requests, 1) * 100:.1f}%")
+        logger.info(
+            f"Error rate: {self.error_count / max(self.total_requests, 1) * 100:.1f}%"
+        )
 
         # Log filter breakdown
         if self.filter_reasons:
-            logger.info("-"*60)
+            logger.info("-" * 60)
             logger.info("FILTER BREAKDOWN:")
-            sorted_filters = sorted(self.filter_reasons.items(), key=lambda x: x[1], reverse=True)
+            sorted_filters = sorted(
+                self.filter_reasons.items(), key=lambda x: x[1], reverse=True
+            )
             for reason, count in sorted_filters:
-                pct = (count / self.filtered_count * 100) if self.filtered_count > 0 else 0
+                pct = (
+                    (count / self.filtered_count * 100)
+                    if self.filtered_count > 0
+                    else 0
+                )
                 logger.info(f"  {reason}: {count} ({pct:.1f}%)")
 
         # Log error breakdown
         if self.error_types:
-            logger.info("-"*60)
+            logger.info("-" * 60)
             logger.info("ERROR BREAKDOWN:")
-            sorted_errors = sorted(self.error_types.items(), key=lambda x: x[1], reverse=True)
+            sorted_errors = sorted(
+                self.error_types.items(), key=lambda x: x[1], reverse=True
+            )
             for error_type, count in sorted_errors:
                 pct = (count / self.error_count * 100) if self.error_count > 0 else 0
                 example_ticker, example_msg = self.error_examples[error_type]
                 logger.info(f"  {error_type}: {count} ({pct:.1f}%)")
                 logger.info(f"    Example: {example_ticker} - {example_msg[:100]}")
 
-        logger.info("="*60)
+        logger.info("=" * 60)
 
         return {
-            'analyses': all_analyses,
-            'phase_results': phase_results,
-            'total_processed': len(tickers),
-            'total_analyzed': len(all_analyses),
-            'processing_time_seconds': total_time,
-            'actual_tps': actual_rate,
-            'error_rate': self.error_count / max(self.total_requests, 1)
+            "analyses": all_analyses,
+            "phase_results": phase_results,
+            "total_processed": len(tickers),
+            "total_analyzed": len(all_analyses),
+            "processing_time_seconds": total_time,
+            "actual_tps": actual_rate,
+            "error_rate": self.error_count / max(self.total_requests, 1),
         }
 
     def clear_progress(self):
