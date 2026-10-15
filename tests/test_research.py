@@ -25,6 +25,7 @@ from src.screening.research_engine import (
     select_candidates,
 )
 from scripts.evaluate_research import cohort_returns
+import requests
 
 NOW = datetime(2026, 10, 15, 8, tzinfo=timezone.utc)
 
@@ -388,3 +389,127 @@ def test_evaluation_never_enters_at_the_signal_days_close():
         ]
         == "not_mature"
     )
+
+
+def test_fmp_uses_consecutive_same_provider_fiscal_pairs_without_leaking_key(
+    tmp_path, statements, monkeypatch
+):
+    monkeypatch.setenv("FMP_API_KEY", "test-secret-key")
+    stock = fake_stock(statements)
+    stock.get_earnings_estimate.return_value = pd.DataFrame()
+    response = Mock(status_code=200)
+    response.json.return_value = [
+        {"date": "2027-12-31", "epsAvg": 3, "revenueAvg": 150, "numAnalystsEps": 5},
+        {"date": "2026-12-31", "epsAvg": 2, "revenueAvg": 100, "numAnalystsEps": 5},
+    ]
+    monkeypatch.setattr(
+        "src.data.research_fetcher.requests.get", Mock(return_value=response)
+    )
+    fetcher = ResearchFetcher(tmp_path, now=NOW, ticker_factory=lambda t: stock)
+    r = fetcher.fetch("TEST")
+    assert r["metrics"]["forward_eps_growth"] == 50
+    assert r["metrics"]["forward_revenue_growth"] == 50
+    assert r["sources"]["eps_fy1"]["provider"] == "FMP"
+    assert r["sources"]["eps_fy1"]["period"] == "2027-12-31"
+    assert "test-secret-key" not in json.dumps(r)
+    assert fetcher.fmp_calls == 1
+    response.json.return_value = [{"date": "2026-12-31", "epsAvg": 2}]
+    r = fetcher.fetch("TEST", refresh=True)
+    assert r["status"]["fmp_estimates"] == "incomplete_fiscal_pair"
+    assert r["metrics"]["eps_fy1"] is None
+
+
+def test_fmp_authorization_failure_stops_further_requests(
+    tmp_path, statements, monkeypatch
+):
+    monkeypatch.setenv("FMP_API_KEY", "test-key")
+    stock = fake_stock(statements)
+    stock.get_earnings_estimate.return_value = pd.DataFrame()
+    response = Mock(status_code=403)
+    response.raise_for_status.side_effect = requests.HTTPError("secret-bearing URL")
+    request = Mock(return_value=response)
+    monkeypatch.setattr("src.data.research_fetcher.requests.get", request)
+    fetcher = ResearchFetcher(tmp_path, now=NOW, ticker_factory=lambda t: stock)
+    assert fetcher.fetch("TEST")["status"]["fmp_estimates"] == "unavailable"
+    assert (
+        fetcher.fetch("NEXT")["status"]["fmp_estimates"] == "budget_or_provider_limit"
+    )
+    assert request.call_count == 1
+
+
+def test_invalid_optional_schema_is_isolated(tmp_path, statements):
+    stock = fake_stock(statements)
+    stock.get_calendar.return_value = []
+    r = ResearchFetcher(
+        tmp_path, use_fmp=False, now=NOW, ticker_factory=lambda t: stock
+    ).fetch("TEST")
+    assert r["status"]["calendar"] == "invalid_schema"
+    assert r["metrics"]["eps_fy1"] == 3
+
+
+def test_old_nan_cache_is_json_safe_and_remains_undated(tmp_path, statements):
+    stock = fake_stock(statements)
+    stock.quarterly_income_stmt = pd.DataFrame()
+    r = ResearchFetcher(
+        tmp_path, use_fmp=False, now=NOW, ticker_factory=lambda t: stock
+    ).fetch(
+        "TEST",
+        fallback={"quarterly_eps": {"2026-06-30": float("nan")}, "eps_yoy_change": 10},
+    )
+    assert r["statements"]["quarterly_eps"]["2026-06-30"] is None
+    assert r["sources"]["eps_yoy_change"]["retrieved_at"] == "unknown"
+    json.dumps(r, allow_nan=False)
+
+
+def test_numeric_price_index_is_rejected_instead_of_becoming_1970():
+    with pytest.raises(ValueError, match="DatetimeIndex"):
+        completed_daily_bars(pd.DataFrame({"Close": [10, 11]}), NOW)
+
+
+@pytest.mark.parametrize("dated", [False, True])
+def test_checkout_mtime_does_not_validate_undated_or_old_price_cache(
+    tmp_path, monkeypatch, dated
+):
+    from src.data.fetcher import YahooFinanceFetcher
+
+    fetcher = YahooFinanceFetcher(cache_dir=str(tmp_path))
+    cached = pd.DataFrame({"Close": [10, 11]})
+    if dated:
+        cached.index = pd.to_datetime(["2020-01-01", "2020-01-02"])
+    fetcher._save_to_cache(cached, fetcher._get_cache_path("TEST", "prices_5y_1d"))
+    stock = Mock()
+    stock.info = {"symbol": "TEST"}
+    fresh = pd.DataFrame(
+        {"Close": [20, 21]},
+        index=pd.date_range(end=pd.Timestamp.now().normalize(), periods=2),
+    )
+    stock.history.return_value = fresh
+    factory = Mock(return_value=stock)
+    monkeypatch.setattr("src.data.fetcher.yf.Ticker", factory)
+    result = fetcher.fetch_price_history("TEST")
+    assert result.Close.iloc[-1] == 21
+    factory.assert_called_once()
+
+
+def test_valuation_history_requires_prior_dates_and_does_not_double_count(
+    tmp_path, statements
+):
+    from datetime import timedelta
+
+    stock = fake_stock(statements)
+    fetcher = ResearchFetcher(
+        tmp_path, use_fmp=False, now=NOW, ticker_factory=lambda t: stock
+    )
+    first = fetcher.fetch("TEST")
+    assert first["valuation_history"]["forward_pe"]["prior_observations"] == 0
+    assert "forward_pe_historical_relative" not in first["metrics"]
+    history_path = tmp_path / "valuation_history/TEST.json"
+    rows = [
+        {"date": (NOW.date() - timedelta(days=i)).isoformat(), "forward_pe": 10}
+        for i in range(1, 21)
+    ]
+    history_path.write_text(json.dumps(rows))
+    r = fetcher.fetch("TEST", refresh=True)
+    assert r["metrics"]["forward_pe_historical_relative"] == 2
+    fetcher.fetch("TEST", refresh=True)
+    assert len(json.loads(history_path.read_text())) == 21

@@ -11,6 +11,10 @@ def completed_daily_bars(frame, now=None):
     """Exclude partial US sessions and future rows; conservative on early closes."""
     if frame.empty:
         return frame
+    if not isinstance(frame.index, pd.DatetimeIndex):
+        raise ValueError(
+            "Daily price data requires a DatetimeIndex; numeric row IDs are not dates"
+        )
     now = (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("America/New_York"))
     complete_today = (now.hour, now.minute) >= (16, 15)
     dates = pd.DatetimeIndex(frame.index).date

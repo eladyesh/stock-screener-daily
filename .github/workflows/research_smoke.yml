@@ -29,7 +29,7 @@ jobs:
       - name: Live five-stock scan without notifications
         run: |
           set -o pipefail
-          python run_optimized_scan.py --conservative --tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5 --output-dir data/smoke 2>&1 | tee research-smoke.log
+          python run_optimized_scan.py --conservative --git-storage --tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5 --output-dir data/smoke 2>&1 | tee research-smoke.log
           python -m scripts.validate_research_smoke data/smoke/latest_research.json
       - name: Keep evidence even if a provider fails
         if: always()

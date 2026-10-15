@@ -67,8 +67,10 @@ price, drawdown and Stage 1/2 filters. The longer horizon can include basing
 stocks without a legacy buy signal, but is not a whole-market value screen.
 Peer valuations require at least five other same-industry/sector names in this
 shortlist and are explicitly labelled as a selection-biased cohort comparison,
-not a full-sector fair value. Historical valuation context accumulates through
-saved daily snapshots; this version does not claim an existing long history.
+not a full-sector fair value. Historical valuation comparison activates after
+20 prior daily observations of that multiple; it then compares with their median.
+The cache keeps up to 400 daily observations. The first deployment explicitly
+reports insufficient history instead of fabricating a historical benchmark.
 
 Candidate gates require fresh dated statements/prices, sufficient data coverage
 and the existing market-regime gate. Swing candidates additionally require a
@@ -89,7 +91,7 @@ refreshes; report dates and status are provided for review.
 ```bash
 python -m pip install -r requirements.txt
 python -m pytest tests/ --ignore=tests/test_email_full.py -q
-python run_optimized_scan.py --conservative --tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5 --output-dir data/smoke
+python run_optimized_scan.py --conservative --git-storage --tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5 --output-dir data/smoke
 python -m scripts.validate_research_smoke data/smoke/latest_research.json
 ```
 

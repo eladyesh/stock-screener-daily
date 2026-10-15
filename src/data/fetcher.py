@@ -17,8 +17,7 @@ import yfinance as yf
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -48,7 +47,7 @@ class YahooFinanceFetcher:
         cache_dir: str = "./data/cache",
         cache_expiry_hours: int = 24,
         max_retries: int = 3,
-        retry_delay: int = 2
+        retry_delay: int = 2,
     ) -> None:
         """Initialize the YahooFinanceFetcher.
 
@@ -110,7 +109,7 @@ class YahooFinanceFetcher:
             Cached data if successful, None otherwise.
         """
         try:
-            with open(cache_path, 'rb') as f:
+            with open(cache_path, "rb") as f:
                 data = pickle.load(f)
             logger.info(f"Loaded data from cache: {cache_path.name}")
             return data
@@ -126,7 +125,7 @@ class YahooFinanceFetcher:
             cache_path: Path to save the cache file.
         """
         try:
-            with open(cache_path, 'wb') as f:
+            with open(cache_path, "wb") as f:
                 pickle.dump(data, f)
             logger.info(f"Saved data to cache: {cache_path.name}")
         except Exception as e:
@@ -154,7 +153,9 @@ class YahooFinanceFetcher:
                 if attempt < self.max_retries - 1:
                     time.sleep(self.retry_delay)
                 else:
-                    logger.error(f"Failed to fetch {ticker} after {self.max_retries} attempts")
+                    logger.error(
+                        f"Failed to fetch {ticker} after {self.max_retries} attempts"
+                    )
                     return None
 
     def fetch_fundamentals(self, ticker: str) -> Dict[str, any]:
@@ -174,7 +175,7 @@ class YahooFinanceFetcher:
             >>> data = fetcher.fetch_fundamentals("AAPL")
             >>> print(data['pe_ratio'])
         """
-        cache_path = self._get_cache_path(ticker, 'fundamentals')
+        cache_path = self._get_cache_path(ticker, "fundamentals")
 
         # Check cache first
         if self._is_cache_valid(cache_path):
@@ -195,27 +196,34 @@ class YahooFinanceFetcher:
 
             # Extract fundamental metrics with safe defaults
             fundamentals = {
-                'ticker': ticker,
-                'name': info.get('longName', ticker),
-                'sector': info.get('sector', 'Unknown'),
-                'current_price': info.get('currentPrice') or info.get('regularMarketPrice'),
-                'week_52_high': info.get('fiftyTwoWeekHigh'),
-                'week_52_low': info.get('fiftyTwoWeekLow'),
-                'pe_ratio': info.get('trailingPE') or info.get('forwardPE'),
-                'pb_ratio': info.get('priceToBook'),
-                'debt_to_equity': info.get('debtToEquity'),
-                'free_cash_flow': info.get('freeCashflow'),
-                'market_cap': info.get('marketCap'),
-                'trailing_eps': info.get('trailingEps'),
-                'forward_eps': info.get('forwardEps'),
-                'dividend_yield': info.get('dividendYield'),
-                'fetch_date': datetime.now().isoformat()
+                "ticker": ticker,
+                "name": info.get("longName", ticker),
+                "sector": info.get("sector", "Unknown"),
+                "current_price": info.get("currentPrice")
+                or info.get("regularMarketPrice"),
+                "week_52_high": info.get("fiftyTwoWeekHigh"),
+                "week_52_low": info.get("fiftyTwoWeekLow"),
+                "pe_ratio": info.get("trailingPE") or info.get("forwardPE"),
+                "pb_ratio": info.get("priceToBook"),
+                "debt_to_equity": info.get("debtToEquity"),
+                "free_cash_flow": info.get("freeCashflow"),
+                "market_cap": info.get("marketCap"),
+                "trailing_eps": info.get("trailingEps"),
+                "forward_eps": info.get("forwardEps"),
+                "dividend_yield": info.get("dividendYield"),
+                "fetch_date": datetime.now().isoformat(),
             }
 
             # Log warnings for missing data
-            missing_fields = [k for k, v in fundamentals.items() if v is None and k not in ['ticker', 'name', 'sector', 'fetch_date']]
+            missing_fields = [
+                k
+                for k, v in fundamentals.items()
+                if v is None and k not in ["ticker", "name", "sector", "fetch_date"]
+            ]
             if missing_fields:
-                logger.warning(f"Missing data for {ticker}: {', '.join(missing_fields)}")
+                logger.warning(
+                    f"Missing data for {ticker}: {', '.join(missing_fields)}"
+                )
 
             # Cache the results
             self._save_to_cache(fundamentals, cache_path)
@@ -228,10 +236,7 @@ class YahooFinanceFetcher:
             return {}
 
     def fetch_price_history(
-        self,
-        ticker: str,
-        period: str = "5y",
-        interval: str = "1d"
+        self, ticker: str, period: str = "5y", interval: str = "1d"
     ) -> pd.DataFrame:
         """Fetch historical price data for a stock.
 
@@ -253,16 +258,27 @@ class YahooFinanceFetcher:
             >>> prices = fetcher.fetch_price_history("AAPL", period="1y")
             >>> print(prices.head())
         """
-        cache_path = self._get_cache_path(ticker, f'prices_{period}_{interval}')
+        cache_path = self._get_cache_path(ticker, f"prices_{period}_{interval}")
 
         # Check cache first
         if self._is_cache_valid(cache_path):
             cached_data = self._load_from_cache(cache_path)
-            if cached_data is not None and isinstance(cached_data, pd.DataFrame):
-                return cached_data
+            if (
+                isinstance(cached_data, pd.DataFrame)
+                and not cached_data.empty
+                and isinstance(cached_data.index, pd.DatetimeIndex)
+                and "Close" in cached_data.columns
+            ):
+                # Git checkout refreshes mtime, not the dates inside a checked-in cache.
+                age = (datetime.now().date() - cached_data.index[-1].date()).days
+                if 0 <= age <= 5:
+                    return cached_data
+            logger.warning("Ignoring stale or undated price cache for %s", ticker)
 
         # Fetch from API
-        logger.info(f"Fetching price history for {ticker} (period={period}, interval={interval})")
+        logger.info(
+            f"Fetching price history for {ticker} (period={period}, interval={interval})"
+        )
         stock = self._fetch_with_retry(ticker)
 
         if stock is None:
@@ -283,11 +299,13 @@ class YahooFinanceFetcher:
 
             # Ensure index is DatetimeIndex (yfinance should provide this)
             if not isinstance(hist.index, pd.DatetimeIndex):
-                logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(hist.index)}")
+                logger.warning(
+                    f"{ticker}: yfinance returned non-DatetimeIndex: {type(hist.index)}"
+                )
                 return pd.DataFrame()
 
             # Select only OHLCV columns (no 'Date' column - it's the index)
-            available_cols = ['Open', 'High', 'Low', 'Close', 'Volume']
+            available_cols = ["Open", "High", "Low", "Close", "Volume"]
             hist = hist[[col for col in available_cols if col in hist.columns]]
 
             # Cache the results
@@ -301,9 +319,7 @@ class YahooFinanceFetcher:
             return pd.DataFrame()
 
     def fetch_multiple(
-        self,
-        tickers: List[str],
-        period: str = "5y"
+        self, tickers: List[str], period: str = "5y"
     ) -> Tuple[pd.DataFrame, pd.DataFrame]:
         """Fetch fundamentals and price history for multiple stocks.
 
@@ -335,12 +351,16 @@ class YahooFinanceFetcher:
             # Fetch price history
             prices = self.fetch_price_history(ticker, period=period)
             if not prices.empty:
-                prices['ticker'] = ticker
+                prices["ticker"] = ticker
                 all_prices.append(prices)
 
         # Combine all data
-        fundamentals_df = pd.DataFrame(all_fundamentals) if all_fundamentals else pd.DataFrame()
-        prices_df = pd.concat(all_prices, ignore_index=True) if all_prices else pd.DataFrame()
+        fundamentals_df = (
+            pd.DataFrame(all_fundamentals) if all_fundamentals else pd.DataFrame()
+        )
+        prices_df = (
+            pd.concat(all_prices, ignore_index=True) if all_prices else pd.DataFrame()
+        )
 
         logger.info(
             f"Fetched {len(all_fundamentals)}/{len(tickers)} fundamentals, "

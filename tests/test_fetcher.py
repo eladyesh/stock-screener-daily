@@ -44,10 +44,7 @@ def fetcher(temp_cache_dir):
         YahooFinanceFetcher instance configured for testing.
     """
     return YahooFinanceFetcher(
-        cache_dir=temp_cache_dir,
-        cache_expiry_hours=24,
-        max_retries=3,
-        retry_delay=1
+        cache_dir=temp_cache_dir, cache_expiry_hours=24, max_retries=3, retry_delay=1
     )
 
 
@@ -59,22 +56,22 @@ def mock_stock_info():
         Dictionary simulating yfinance Ticker.info response.
     """
     return {
-        'symbol': 'AAPL',
-        'longName': 'Apple Inc.',
-        'sector': 'Technology',
-        'currentPrice': 175.50,
-        'regularMarketPrice': 175.50,
-        'fiftyTwoWeekHigh': 199.62,
-        'fiftyTwoWeekLow': 164.08,
-        'trailingPE': 28.5,
-        'forwardPE': 26.2,
-        'priceToBook': 45.3,
-        'debtToEquity': 173.0,
-        'freeCashflow': 99000000000,
-        'marketCap': 2750000000000,
-        'trailingEps': 6.16,
-        'forwardEps': 6.70,
-        'dividendYield': 0.0051
+        "symbol": "AAPL",
+        "longName": "Apple Inc.",
+        "sector": "Technology",
+        "currentPrice": 175.50,
+        "regularMarketPrice": 175.50,
+        "fiftyTwoWeekHigh": 199.62,
+        "fiftyTwoWeekLow": 164.08,
+        "trailingPE": 28.5,
+        "forwardPE": 26.2,
+        "priceToBook": 45.3,
+        "debtToEquity": 173.0,
+        "freeCashflow": 99000000000,
+        "marketCap": 2750000000000,
+        "trailingEps": 6.16,
+        "forwardEps": 6.70,
+        "dividendYield": 0.0051,
     }
 
 
@@ -85,16 +82,16 @@ def mock_price_history():
     Returns:
         DataFrame simulating yfinance Ticker.history() response.
     """
-    dates = pd.date_range(start='2020-01-01', end='2024-12-31', freq='D')
+    dates = pd.date_range(start="2020-01-01", end="2024-12-31", freq="D")
     data = {
-        'Open': [150.0 + i * 0.1 for i in range(len(dates))],
-        'High': [152.0 + i * 0.1 for i in range(len(dates))],
-        'Low': [149.0 + i * 0.1 for i in range(len(dates))],
-        'Close': [151.0 + i * 0.1 for i in range(len(dates))],
-        'Volume': [1000000 + i * 1000 for i in range(len(dates))]
+        "Open": [150.0 + i * 0.1 for i in range(len(dates))],
+        "High": [152.0 + i * 0.1 for i in range(len(dates))],
+        "Low": [149.0 + i * 0.1 for i in range(len(dates))],
+        "Close": [151.0 + i * 0.1 for i in range(len(dates))],
+        "Volume": [1000000 + i * 1000 for i in range(len(dates))],
     }
     df = pd.DataFrame(data, index=dates)
-    df.index.name = 'Date'
+    df.index.name = "Date"
     return df
 
 
@@ -124,7 +121,7 @@ class TestYahooFinanceFetcherInit:
             cache_dir=temp_cache_dir,
             cache_expiry_hours=12,
             max_retries=5,
-            retry_delay=3
+            retry_delay=3,
         )
 
         assert fetcher.cache_expiry_hours == 12
@@ -137,48 +134,48 @@ class TestFetchFundamentals:
 
     def test_fetch_fundamentals_success(self, fetcher, mock_stock_info):
         """Test successful fetching of fundamental data."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
 
             result = fetcher.fetch_fundamentals("AAPL")
 
-            assert result['ticker'] == 'AAPL'
-            assert result['name'] == 'Apple Inc.'
-            assert result['sector'] == 'Technology'
-            assert result['current_price'] == 175.50
-            assert result['pe_ratio'] == 28.5
-            assert result['pb_ratio'] == 45.3
-            assert result['debt_to_equity'] == 173.0
-            assert result['free_cash_flow'] == 99000000000
-            assert 'fetch_date' in result
+            assert result["ticker"] == "AAPL"
+            assert result["name"] == "Apple Inc."
+            assert result["sector"] == "Technology"
+            assert result["current_price"] == 175.50
+            assert result["pe_ratio"] == 28.5
+            assert result["pb_ratio"] == 45.3
+            assert result["debt_to_equity"] == 173.0
+            assert result["free_cash_flow"] == 99000000000
+            assert "fetch_date" in result
 
     def test_fetch_fundamentals_with_missing_data(self, fetcher):
         """Test fetching fundamentals with incomplete data."""
         incomplete_info = {
-            'symbol': 'TEST',
-            'longName': 'Test Company',
-            'sector': 'Technology',
-            'currentPrice': 100.0,
+            "symbol": "TEST",
+            "longName": "Test Company",
+            "sector": "Technology",
+            "currentPrice": 100.0,
             # Missing P/E, P/B, etc.
         }
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = incomplete_info
             mock_ticker.return_value = mock_instance
 
             result = fetcher.fetch_fundamentals("TEST")
 
-            assert result['ticker'] == 'TEST'
-            assert result['current_price'] == 100.0
-            assert result['pe_ratio'] is None
-            assert result['pb_ratio'] is None
+            assert result["ticker"] == "TEST"
+            assert result["current_price"] == 100.0
+            assert result["pe_ratio"] is None
+            assert result["pb_ratio"] is None
 
     def test_fetch_fundamentals_uses_cache(self, fetcher, mock_stock_info):
         """Test that fundamentals are cached and reused."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
@@ -196,11 +193,10 @@ class TestFetchFundamentals:
     def test_fetch_fundamentals_cache_expiry(self, temp_cache_dir, mock_stock_info):
         """Test that expired cache is refreshed."""
         fetcher = YahooFinanceFetcher(
-            cache_dir=temp_cache_dir,
-            cache_expiry_hours=0  # Immediate expiry
+            cache_dir=temp_cache_dir, cache_expiry_hours=0  # Immediate expiry
         )
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
@@ -209,7 +205,7 @@ class TestFetchFundamentals:
             fetcher.fetch_fundamentals("AAPL")
 
             # Modify cache file timestamp to be old
-            cache_path = fetcher._get_cache_path("AAPL", 'fundamentals')
+            cache_path = fetcher._get_cache_path("AAPL", "fundamentals")
             old_time = time.time() - 3600  # 1 hour ago
             os.utime(cache_path, (old_time, old_time))
 
@@ -221,23 +217,29 @@ class TestFetchFundamentals:
 
     def test_fetch_fundamentals_network_error_with_retry(self, fetcher):
         """Test retry logic on network failures."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             # First two calls fail, third succeeds
             mock_ticker.side_effect = [
                 Exception("Network error"),
                 Exception("Network error"),
-                Mock(info={'symbol': 'AAPL', 'longName': 'Apple Inc.', 'sector': 'Technology'})
+                Mock(
+                    info={
+                        "symbol": "AAPL",
+                        "longName": "Apple Inc.",
+                        "sector": "Technology",
+                    }
+                ),
             ]
 
             result = fetcher.fetch_fundamentals("AAPL")
 
             # Should retry and eventually succeed
             assert mock_ticker.call_count == 3
-            assert result['ticker'] == 'AAPL'
+            assert result["ticker"] == "AAPL"
 
     def test_fetch_fundamentals_complete_failure(self, fetcher):
         """Test behavior when all retry attempts fail."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_ticker.side_effect = Exception("Persistent network error")
 
             result = fetcher.fetch_fundamentals("AAPL")
@@ -252,9 +254,9 @@ class TestFetchPriceHistory:
 
     def test_fetch_price_history_success(self, fetcher, mock_price_history):
         """Test successful fetching of price history."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
-            mock_instance.info = {'symbol': 'AAPL'}
+            mock_instance.info = {"symbol": "AAPL"}
             mock_instance.history.return_value = mock_price_history
             mock_ticker.return_value = mock_instance
 
@@ -262,18 +264,18 @@ class TestFetchPriceHistory:
 
             assert not result.empty
             assert len(result) == len(mock_price_history)
-            assert result.index.name == 'Date'
-            assert 'Open' in result.columns
-            assert 'High' in result.columns
-            assert 'Low' in result.columns
-            assert 'Close' in result.columns
-            assert 'Volume' in result.columns
+            assert result.index.name == "Date"
+            assert "Open" in result.columns
+            assert "High" in result.columns
+            assert "Low" in result.columns
+            assert "Close" in result.columns
+            assert "Volume" in result.columns
 
     def test_fetch_price_history_different_periods(self, fetcher, mock_price_history):
         """Test fetching price history with different time periods."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
-            mock_instance.info = {'symbol': 'AAPL'}
+            mock_instance.info = {"symbol": "AAPL"}
             mock_instance.history.return_value = mock_price_history
             mock_ticker.return_value = mock_instance
 
@@ -286,9 +288,13 @@ class TestFetchPriceHistory:
 
     def test_fetch_price_history_uses_cache(self, fetcher, mock_price_history):
         """Test that price history is cached."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        mock_price_history = mock_price_history.copy()
+        mock_price_history.index = pd.date_range(
+            end=pd.Timestamp.now().normalize(), periods=len(mock_price_history)
+        )
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
-            mock_instance.info = {'symbol': 'AAPL'}
+            mock_instance.info = {"symbol": "AAPL"}
             mock_instance.history.return_value = mock_price_history
             mock_ticker.return_value = mock_instance
 
@@ -304,9 +310,9 @@ class TestFetchPriceHistory:
 
     def test_fetch_price_history_empty_data(self, fetcher):
         """Test handling of empty price history."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
-            mock_instance.info = {'symbol': 'INVALID'}
+            mock_instance.info = {"symbol": "INVALID"}
             mock_instance.history.return_value = pd.DataFrame()
             mock_ticker.return_value = mock_instance
 
@@ -316,7 +322,7 @@ class TestFetchPriceHistory:
 
     def test_fetch_price_history_network_error(self, fetcher):
         """Test handling of network errors during price fetch."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_ticker.side_effect = Exception("Network error")
 
             result = fetcher.fetch_price_history("AAPL")
@@ -331,7 +337,7 @@ class TestFetchMultiple:
         """Test fetching data for multiple stocks."""
         tickers = ["AAPL", "MSFT", "GOOGL"]
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_instance.history.return_value = mock_price_history
@@ -341,18 +347,21 @@ class TestFetchMultiple:
 
             # Check fundamentals
             assert len(fundamentals_df) == len(tickers)
-            assert 'ticker' in fundamentals_df.columns
+            assert "ticker" in fundamentals_df.columns
 
             # Check prices
             assert not prices_df.empty
-            assert 'ticker' in prices_df.columns
-            assert set(prices_df['ticker'].unique()) == set(tickers)
+            assert "ticker" in prices_df.columns
+            assert set(prices_df["ticker"].unique()) == set(tickers)
 
-    def test_fetch_multiple_partial_failure(self, fetcher, mock_stock_info, mock_price_history):
+    def test_fetch_multiple_partial_failure(
+        self, fetcher, mock_stock_info, mock_price_history
+    ):
         """Test fetch_multiple when some tickers fail."""
         tickers = ["AAPL", "INVALID", "GOOGL"]
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
+
             def side_effect(ticker):
                 if ticker == "INVALID":
                     raise Exception("Invalid ticker")
@@ -367,7 +376,7 @@ class TestFetchMultiple:
 
             # Should have data for valid tickers only
             assert len(fundamentals_df) == 2  # AAPL and GOOGL
-            assert 'INVALID' not in fundamentals_df['ticker'].values
+            assert "INVALID" not in fundamentals_df["ticker"].values
 
     def test_fetch_multiple_empty_list(self, fetcher):
         """Test fetch_multiple with empty ticker list."""
@@ -376,11 +385,13 @@ class TestFetchMultiple:
         assert fundamentals_df.empty
         assert prices_df.empty
 
-    def test_fetch_multiple_custom_period(self, fetcher, mock_stock_info, mock_price_history):
+    def test_fetch_multiple_custom_period(
+        self, fetcher, mock_stock_info, mock_price_history
+    ):
         """Test fetch_multiple with custom period."""
         tickers = ["AAPL", "MSFT"]
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_instance.history.return_value = mock_price_history
@@ -398,7 +409,7 @@ class TestCacheManagement:
 
     def test_clear_cache_specific_ticker(self, fetcher, mock_stock_info):
         """Test clearing cache for a specific ticker."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
@@ -411,15 +422,15 @@ class TestCacheManagement:
             fetcher.clear_cache("AAPL")
 
             # AAPL cache should be gone, MSFT should remain
-            aapl_cache = fetcher._get_cache_path("AAPL", 'fundamentals')
-            msft_cache = fetcher._get_cache_path("MSFT", 'fundamentals')
+            aapl_cache = fetcher._get_cache_path("AAPL", "fundamentals")
+            msft_cache = fetcher._get_cache_path("MSFT", "fundamentals")
 
             assert not aapl_cache.exists()
             assert msft_cache.exists()
 
     def test_clear_cache_all(self, fetcher, mock_stock_info):
         """Test clearing all cache."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
@@ -449,8 +460,8 @@ class TestCacheManagement:
         assert not fetcher._is_cache_valid(cache_path)
 
         # Create a fresh cache file
-        with open(cache_path, 'wb') as f:
-            pickle.dump({'test': 'data'}, f)
+        with open(cache_path, "wb") as f:
+            pickle.dump({"test": "data"}, f)
 
         # Fresh cache should be valid
         assert fetcher._is_cache_valid(cache_path)
@@ -469,11 +480,11 @@ class TestErrorHandling:
     def test_fetch_with_corrupted_cache(self, fetcher, mock_stock_info, temp_cache_dir):
         """Test handling of corrupted cache files."""
         # Create corrupted cache file
-        cache_path = fetcher._get_cache_path("AAPL", 'fundamentals')
-        with open(cache_path, 'wb') as f:
-            f.write(b'corrupted data')
+        cache_path = fetcher._get_cache_path("AAPL", "fundamentals")
+        with open(cache_path, "wb") as f:
+            f.write(b"corrupted data")
 
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
@@ -481,24 +492,24 @@ class TestErrorHandling:
             # Should handle corrupted cache and fetch fresh data
             result = fetcher.fetch_fundamentals("AAPL")
 
-            assert result['ticker'] == 'AAPL'
+            assert result["ticker"] == "AAPL"
             assert mock_ticker.call_count == 1
 
     def test_fetch_with_permission_error(self, fetcher, mock_stock_info):
         """Test handling of cache write permission errors."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_instance = Mock()
             mock_instance.info = mock_stock_info
             mock_ticker.return_value = mock_instance
 
-            with patch('builtins.open', side_effect=PermissionError):
+            with patch("builtins.open", side_effect=PermissionError):
                 # Should still return data even if cache write fails
                 result = fetcher.fetch_fundamentals("AAPL")
-                assert result['ticker'] == 'AAPL'
+                assert result["ticker"] == "AAPL"
 
     def test_fetch_fundamentals_exception_handling(self, fetcher):
         """Test that exceptions are properly caught and logged."""
-        with patch('yfinance.Ticker') as mock_ticker:
+        with patch("yfinance.Ticker") as mock_ticker:
             mock_ticker.side_effect = Exception("Unexpected error")
 
             # Should return empty dict, not raise exception

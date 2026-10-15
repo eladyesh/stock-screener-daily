@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import re
+import statistics
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -14,6 +15,17 @@ import yfinance as yf
 from .financial_metrics import growth, number, statement_metrics
 
 logger = logging.getLogger(__name__)
+
+
+def json_safe(value):
+    """Replace non-finite cached numbers recursively before strict JSON storage."""
+    if isinstance(value, dict):
+        return {str(k): json_safe(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [json_safe(v) for v in value]
+    if isinstance(value, float):
+        return number(value)
+    return value
 
 
 def utc_date(value):
@@ -46,6 +58,8 @@ def parse_news(items, today):
         "corporate/regulatory": r"\b(acquisition|merger|contract|approval|lawsuit|investigation)\b",
     }
     for item in items if isinstance(items, list) else []:
+        if not isinstance(item, dict):
+            continue
         item = item.get("content", item)
         if not isinstance(item, dict):
             continue
@@ -174,6 +188,10 @@ class ResearchFetcher:
                 return default
             try:
                 value = method()
+                expected = (dict, list) if name == "filings" else type(default)
+                if value is not None and not isinstance(value, expected):
+                    result["status"][name] = "invalid_schema"
+                    return default
                 empty = (
                     value is None
                     or (hasattr(value, "empty") and value.empty)
@@ -338,6 +356,8 @@ class ResearchFetcher:
         if isinstance(filings, dict):
             filings = filings.get("filings", [])
         for item in filings if isinstance(filings, list) else []:
+            if not isinstance(item, dict):
+                continue
             day = utc_date(item.get("date"))
             url = item.get("edgarUrl") or item.get("url", "")
             if (
@@ -351,10 +371,61 @@ class ResearchFetcher:
         if result["metrics"].get("eps_fy1") is None:
             self._fmp_estimates(ticker, result)
         result["fmp_configured"] = bool(self.fmp_key)
+        self._valuation_history(ticker, result)
+        result = json_safe(result)
         temp = path.with_suffix(".tmp")
         temp.write_text(json.dumps(result, indent=2, allow_nan=False, default=str))
         temp.replace(path)
         return result
+
+    def _valuation_history(self, ticker, result):
+        """Compare only previously observed daily multiples; do not invent history."""
+        folder = self.cache_dir / "valuation_history"
+        folder.mkdir(exist_ok=True)
+        path = folder / f"{ticker}.json"
+        try:
+            history = json.loads(path.read_text()) if path.exists() else []
+            if not isinstance(history, list):
+                history = []
+        except (ValueError, OSError):
+            history = []
+        today = self.now.date().isoformat()
+        # One observation per date; ignore future/invalid entries if a clock changes.
+        prior = {
+            r["date"]: r
+            for r in history
+            if isinstance(r, dict) and utc_date(r.get("date")) and r["date"] < today
+        }
+        record = {"date": today}
+        for key in ("forward_pe", "ev_ebitda"):
+            current = number(result["metrics"].get(key))
+            if current is None or current <= 0:
+                continue
+            record[key] = current
+            values = [number(r.get(key)) for r in prior.values()]
+            values = [v for v in values if v is not None and v > 0]
+            result.setdefault("valuation_history", {})[key] = {
+                "prior_observations": len(values),
+                "required": 20,
+            }
+            if len(values) >= 20:
+                median = statistics.median(values)
+                derived = key + "_historical_relative"
+                result["metrics"][derived] = current / median
+                result["valuation_history"][key]["median"] = median
+                result["sources"][derived] = {
+                    "provider": "Derived from archived daily Yahoo observations",
+                    "url": f"https://finance.yahoo.com/quote/{ticker}/key-statistics/",
+                    "retrieved_at": self.now.isoformat(),
+                    "period": [min(prior), max(prior)],
+                }
+        if len(record) > 1:
+            prior[today] = record
+            temp = path.with_suffix(".tmp")
+            temp.write_text(
+                json.dumps([prior[d] for d in sorted(prior)[-400:]], allow_nan=False)
+            )
+            temp.replace(path)
 
     def _fmp_estimates(self, ticker, result):
         """Optional stable API fallback; never imply access from an API key alone."""
@@ -388,11 +459,22 @@ class ResearchFetcher:
                 [
                     r
                     for r in rows
-                    if utc_date(r.get("date"))
+                    if isinstance(r, dict)
+                    and utc_date(r.get("date"))
                     and utc_date(r["date"]) >= self.now.date()
                 ],
                 key=lambda r: r["date"],
             )
+            # Only complete same-provider consecutive fiscal-year pairs enter growth.
+            # Do not combine a Yahoo year with a different FMP fiscal-year definition.
+            if (
+                len(rows) < 2
+                or not 330
+                <= (utc_date(rows[1]["date"]) - utc_date(rows[0]["date"])).days
+                <= 400
+            ):
+                result["status"]["fmp_estimates"] = "incomplete_fiscal_pair"
+                return
             for row, label in zip(rows[:2], ("fy0", "fy1")):
                 for metric, field in (
                     ("eps", "epsAvg"),
@@ -400,6 +482,7 @@ class ResearchFetcher:
                     ("analysts", "numAnalystsEps"),
                 ):
                     key = f"{metric}_{label}"
+                    result["sources"].pop(key, None)
                     result["metrics"][key] = number(row.get(field))
                     if result["metrics"][key] is not None:
                         result["sources"][key] = {
@@ -410,6 +493,7 @@ class ResearchFetcher:
                         }
             for metric in ("eps", "revenue"):
                 key = f"forward_{metric}_growth"
+                result["sources"].pop(key, None)
                 result["metrics"][key] = growth(
                     result["metrics"].get(f"{metric}_fy1"),
                     result["metrics"].get(f"{metric}_fy0"),

@@ -180,6 +180,9 @@ def score_record(analysis, record, signal, config, now, allow_buys=True):
         relative = metric(key + "_relative", 1.75, 0.75)
         if key in valuation and valuation[key] is not None and relative is not None:
             valuation[key] = (valuation[key] + relative) / 2
+        historical = metric(key + "_historical_relative", 1.75, 0.75)
+        if key in valuation and valuation[key] is not None and historical is not None:
+            valuation[key] = (valuation[key] + historical) / 2
     groups = {
         "technical": technical_score(analysis),
         "growth": group_score(
@@ -388,6 +391,10 @@ def format_research(report):
             "  Provider status: "
             + ", ".join(f"{k}={v}" for k, v in record["status"].items())
         )
+        for key, context in record.get("valuation_history", {}).items():
+            lines.append(
+                f"  {key} history: {context['prior_observations']} prior daily observations (20 required)"
+            )
         for item in record.get("news", [])[:3]:
             lines.append(
                 f"  News ({item['published_at']}): {item['title']} | {item['url']}"
