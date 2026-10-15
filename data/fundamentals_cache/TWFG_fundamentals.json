@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "TWFG",
-    "fetch_date": "2026-08-14T14:18:50.588939",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 57891000.0,
-      "2025-09-30 00:00:00": 61736000.0,
-      "2025-12-31 00:00:00": 62537000.0,
-      "2026-03-31 00:00:00": 70399000.0,
-      "2026-06-30 00:00:00": 84808000.0
-    },
-    "revenue_qoq_change": 20.46762027869714,
-    "revenue_yoy_change": 46.496001105525906,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.13,
-      "2025-09-30 00:00:00": 0.11,
-      "2025-12-31 00:00:00": 0.18,
-      "2026-03-31 00:00:00": 0.12,
-      "2026-06-30 00:00:00": 0.18
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:03.569401+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 46.4960011055259,
+    "revenue_qoq_change": 20.46762027869713,
+    "eps_yoy_change": 38.46153846153846,
     "eps_qoq_change": 50.0,
-    "eps_yoy_change": 38.46153846153845,
-    "gross_margin": 36.01,
-    "margin_change": 2.67,
-    "operating_margin": 18.18,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.18,
+    "gross_margin": 36.00603716630506,
+    "operating_margin": 18.182246957834167,
+    "net_margin": 2.7957268182246957,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -76.72947194443442,
+    "free_cash_flow_ttm": -8236000.0,
+    "operating_cash_flow_ttm": 60778000.0,
+    "revenue_ttm": 279480000.0,
+    "net_income_ttm": 8796000.0,
+    "ebitda_ttm": 84392000.0,
+    "total_debt": 7641000.0,
+    "cash": 73745000.0,
+    "total_assets": 358354000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 57891000.0,
+      "2025-09-30": 61736000.0,
+      "2025-12-31": 62537000.0,
+      "2026-03-31": 70399000.0,
+      "2026-06-30": 84808000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.13,
+      "2025-09-30": 0.11,
+      "2025-12-31": 0.18,
+      "2026-03-31": 0.12,
+      "2026-06-30": 0.18
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.6703363751006464,
+    "operating_margin_yoy_change": 8.975289054187659,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -2.9469013882925434,
+    "net_debt": -66104000.0,
+    "net_debt_to_ebitda": -0.783296994975827,
+    "debt_to_assets": 2.132249116795124,
+    "ticker": "TWFG"
   },
-  "fetched_at": "2026-08-14T14:18:50.590311"
+  "fetched_at": "2026-10-15T10:54:03.574270"
 }

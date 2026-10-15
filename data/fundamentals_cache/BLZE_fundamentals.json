@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BLZE",
-    "fetch_date": "2026-08-13T13:35:20.838560",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 36298000.0,
-      "2025-09-30 00:00:00": 37162000.0,
-      "2025-12-31 00:00:00": 37762000.0,
-      "2026-03-31 00:00:00": 38666000.0,
-      "2026-06-30 00:00:00": 42713000.0
-    },
-    "revenue_qoq_change": 10.466559768271868,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:26.849350+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 17.673150035814643,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.13,
-      "2025-09-30 00:00:00": -0.07,
-      "2025-12-31 00:00:00": -0.09,
-      "2026-03-31 00:00:00": -0.1,
-      "2026-06-30 00:00:00": -0.08
+    "revenue_qoq_change": 10.466559768271866,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.08,
+    "gross_margin": 62.82396460094116,
+    "operating_margin": -9.772200501018427,
+    "net_margin": -11.91440545033128,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 9.288153456687587,
+    "free_cash_flow_ttm": 15441000.0,
+    "operating_cash_flow_ttm": 28843000.0,
+    "revenue_ttm": 156303000.0,
+    "net_income_ttm": -20427000.0,
+    "ebitda_ttm": 10356000.0,
+    "total_debt": 82437000.0,
+    "cash": 49882000.0,
+    "total_assets": 223840000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 36298000.0,
+      "2025-09-30": 37162000.0,
+      "2025-12-31": 37762000.0,
+      "2026-03-31": 38666000.0,
+      "2026-06-30": 42713000.0
     },
-    "eps_qoq_change": 20.000000000000004,
-    "eps_yoy_change": 38.46153846153847,
-    "gross_margin": 62.82,
-    "margin_change": 1.97,
-    "operating_margin": -9.77,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.13,
+      "2025-09-30": -0.07,
+      "2025-12-31": -0.09,
+      "2026-03-31": -0.1,
+      "2026-06-30": -0.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.9720533610921933,
+    "operating_margin_yoy_change": 7.418829307786465,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 9.878889080823784,
+    "net_debt": 32555000.0,
+    "net_debt_to_ebitda": 3.1435882580146775,
+    "debt_to_assets": 36.828538241601144,
+    "ticker": "BLZE"
   },
-  "fetched_at": "2026-08-13T13:35:20.839875"
+  "fetched_at": "2026-10-15T10:05:26.854051"
 }

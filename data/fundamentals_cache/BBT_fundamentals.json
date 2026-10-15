@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "BBT",
-    "fetch_date": "2026-08-13T13:33:42.964711",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 94652000.0,
-      "2025-09-30 00:00:00": 144919000.0,
-      "2025-12-31 00:00:00": 221938000.0,
-      "2026-03-31 00:00:00": 214674000.0,
-      "2026-06-30 00:00:00": 219280000.0
-    },
-    "revenue_qoq_change": 2.1455788777402014,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:50.880857+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 131.66969530490638,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.595238,
-      "2025-09-30 00:00:00": -0.57,
-      "2025-12-31 00:00:00": 0.64,
-      "2026-03-31 00:00:00": 1.309524,
-      "2026-06-30 00:00:00": 1.833333
+    "revenue_qoq_change": 2.1455788777402063,
+    "eps_yoy_change": 29.360020697603307,
+    "eps_qoq_change": 39.99999999999999,
+    "latest_eps": 0.77,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.380700474279458,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 123.02151946437911,
+    "free_cash_flow_ttm": 216002000.0,
+    "operating_cash_flow_ttm": 233093000.0,
+    "revenue_ttm": 800811000.0,
+    "net_income_ttm": 159788000.0,
+    "ebitda_ttm": null,
+    "total_debt": 979528000.0,
+    "cash": 1216103000.0,
+    "total_assets": 22250964000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 94652000.0,
+      "2025-09-30": 144919000.0,
+      "2025-12-31": 221938000.0,
+      "2026-03-31": 214674000.0,
+      "2026-06-30": 219280000.0
     },
-    "eps_qoq_change": 39.99995418182486,
-    "eps_yoy_change": 207.99999327999893,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.595238,
+      "2025-09-30": -0.57,
+      "2025-12-31": 0.64,
+      "2026-03-31": 0.55,
+      "2026-06-30": 0.77
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.9729062163232,
+    "net_debt": -236575000.0,
+    "debt_to_assets": 4.402182305449777,
+    "ticker": "BBT"
   },
-  "fetched_at": "2026-08-13T13:33:42.965354"
+  "fetched_at": "2026-10-15T10:03:50.884636"
 }

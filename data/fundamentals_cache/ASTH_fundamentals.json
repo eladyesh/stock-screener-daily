@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "ASTH",
-    "fetch_date": "2026-08-14T13:26:43.834767",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 620390000.0,
-      "2025-06-30 00:00:00": 654808000.0,
-      "2025-09-30 00:00:00": 956048000.0,
-      "2025-12-31 00:00:00": 950526000.0,
-      "2026-03-31 00:00:00": 965100000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.19,
-      "2025-09-30 00:00:00": 0.01,
-      "2025-12-31 00:00:00": 0.12,
-      "2026-03-31 00:00:00": 0.29,
-      "2026-06-30 00:00:00": 0.4
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:02:18.783827+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 48.519871473775524,
+    "revenue_qoq_change": 0.7688322453631713,
+    "eps_yoy_change": 110.52631578947367,
     "eps_qoq_change": 37.93103448275863,
-    "eps_yoy_change": 110.5263157894737,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.4,
+    "gross_margin": 10.696129642578045,
+    "operating_margin": 3.5291819191379097,
+    "net_margin": 2.029675482252293,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.6212791468368284,
+    "free_cash_flow_ttm": 94379000.0,
+    "operating_cash_flow_ttm": 107873000.0,
+    "revenue_ttm": 3844194000.0,
+    "net_income_ttm": 40547000.0,
+    "ebitda_ttm": 190458000.0,
+    "total_debt": 979411000.0,
+    "cash": 400792000.0,
+    "total_assets": 2282080000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 654808000.0,
+      "2025-09-30": 956048000.0,
+      "2025-12-31": 950526000.0,
+      "2026-03-31": 965100000.0,
+      "2026-06-30": 972520000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.01,
+      "2025-12-31": 0.12,
+      "2026-03-31": 0.29,
+      "2026-06-30": 0.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.2606623996973667,
+    "operating_margin_yoy_change": 0.42292787215009,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.4551050233156806,
+    "net_debt": 578619000.0,
+    "net_debt_to_ebitda": 3.038039882808808,
+    "debt_to_assets": 42.91747002734348,
+    "ticker": "ASTH"
   },
-  "fetched_at": "2026-08-14T13:26:43.836119"
+  "fetched_at": "2026-10-15T10:02:18.788729"
 }

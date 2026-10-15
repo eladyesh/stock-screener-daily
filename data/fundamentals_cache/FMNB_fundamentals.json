@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "FMNB",
-    "fetch_date": "2026-08-14T13:43:46.187650",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 47043000.0,
-      "2025-09-30 00:00:00": 47737000.0,
-      "2025-12-31 00:00:00": 49117000.0,
-      "2026-03-31 00:00:00": 56256000.0,
-      "2026-06-30 00:00:00": 70445000.0
-    },
-    "revenue_qoq_change": 25.222198521046646,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:13.008753+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 49.74597708479476,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.37,
-      "2025-09-30 00:00:00": 0.33,
-      "2025-12-31 00:00:00": 0.39,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": 0.39
+    "revenue_qoq_change": 25.222198521046636,
+    "eps_yoy_change": 5.405405405405417,
+    "eps_qoq_change": 8.333333333333348,
+    "latest_eps": 0.39,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.699268933210305,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 57.41587369092551,
+    "free_cash_flow_ttm": 60610000.0,
+    "operating_cash_flow_ttm": 64454000.0,
+    "revenue_ttm": 223555000.0,
+    "net_income_ttm": 66397000.0,
+    "ebitda_ttm": null,
+    "total_debt": 455374000.0,
+    "cash": 42562000.0,
+    "total_assets": 7140884000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 47043000.0,
+      "2025-09-30": 47737000.0,
+      "2025-12-31": 49117000.0,
+      "2026-03-31": 56256000.0,
+      "2026-06-30": 70445000.0
     },
-    "eps_qoq_change": 8.333333333333341,
-    "eps_yoy_change": 5.405405405405411,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.37,
+      "2025-09-30": 0.33,
+      "2025-12-31": 0.39,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.39
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 27.11189640133301,
+    "net_debt": 412812000.0,
+    "debt_to_assets": 6.376997581812,
+    "ticker": "FMNB"
   },
-  "fetched_at": "2026-08-14T13:43:46.188349"
+  "fetched_at": "2026-10-15T10:19:13.012560"
 }

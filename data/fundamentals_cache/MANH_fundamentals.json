@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "MANH",
-    "fetch_date": "2026-08-12T14:00:08.356617",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 272421000.0,
-      "2025-09-30 00:00:00": 275795000.0,
-      "2025-12-31 00:00:00": 270389000.0,
-      "2026-03-31 00:00:00": 282215000.0,
-      "2026-06-30 00:00:00": 297794000.0
-    },
-    "revenue_qoq_change": 5.520259376716333,
-    "revenue_yoy_change": 9.313892834987024,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.93,
-      "2025-09-30 00:00:00": 0.96,
-      "2025-12-31 00:00:00": 0.86,
-      "2026-03-31 00:00:00": 0.82,
-      "2026-06-30 00:00:00": 0.85
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:31:46.207217+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.313892834987026,
+    "revenue_qoq_change": 5.520259376716341,
+    "eps_yoy_change": -8.602150537634412,
     "eps_qoq_change": 3.658536585365857,
-    "eps_yoy_change": -8.602150537634417,
-    "gross_margin": 56.53,
-    "margin_change": 1.4,
-    "operating_margin": 25.02,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.85,
+    "gross_margin": 56.52598776335319,
+    "operating_margin": 25.015279018381836,
+    "net_margin": 16.90833260576103,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.400792481252246,
+    "free_cash_flow_ttm": 399191000.0,
+    "operating_cash_flow_ttm": 414885000.0,
+    "revenue_ttm": 1126193000.0,
+    "net_income_ttm": 210233000.0,
+    "ebitda_ttm": 288928000.0,
+    "total_debt": 53882000.0,
+    "cash": 186110000.0,
+    "total_assets": 698646000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 272421000.0,
+      "2025-09-30": 275795000.0,
+      "2025-12-31": 270389000.0,
+      "2026-03-31": 282215000.0,
+      "2026-06-30": 297794000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.93,
+      "2025-09-30": 0.96,
+      "2025-12-31": 0.86,
+      "2026-03-31": 0.82,
+      "2026-06-30": 0.85
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.3999313878947603,
+    "operating_margin_yoy_change": -2.07367521055059,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.44605587141813,
+    "net_debt": -132228000.0,
+    "net_debt_to_ebitda": -0.4576503488758445,
+    "debt_to_assets": 7.712346452996225,
+    "ticker": "MANH"
   },
-  "fetched_at": "2026-08-12T14:00:08.357953"
+  "fetched_at": "2026-10-15T10:31:46.212081"
 }

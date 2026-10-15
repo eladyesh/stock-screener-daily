@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "AIG",
-    "fetch_date": "2026-08-14T13:23:31.953492",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 7041000000.0,
-      "2025-09-30 00:00:00": 6402000000.0,
-      "2025-12-31 00:00:00": 6557000000.0,
-      "2026-03-31 00:00:00": 6616000000.0,
-      "2026-06-30 00:00:00": 7086000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:59:12.017727+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.6391137622496768,
     "revenue_qoq_change": 7.103990326481258,
-    "revenue_yoy_change": 0.6391137622496805,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.16,
-      "2025-06-30 00:00:00": 1.98,
-      "2025-09-30 00:00:00": 0.93,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 1.41,
-      "2026-06-30 00:00:00": 1.78
-    },
-    "eps_qoq_change": 26.24113475177306,
     "eps_yoy_change": -10.1010101010101,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 26.241134751773053,
+    "latest_eps": 1.78,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 13.378492802709568,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.676679140276321,
+    "free_cash_flow_ttm": 3850000000.0,
+    "operating_cash_flow_ttm": 3850000000.0,
+    "revenue_ttm": 26661000000.0,
+    "net_income_ttm": 2965000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 9127000000.0,
+    "cash": 36535000000.0,
+    "total_assets": 163464000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 7041000000.0,
+      "2025-09-30": 6402000000.0,
+      "2025-12-31": 6557000000.0,
+      "2026-03-31": 6616000000.0,
+      "2026-06-30": 7086000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.16,
+      "2025-06-30": 1.98,
+      "2025-09-30": 0.93,
+      "2025-12-31": null,
+      "2026-03-31": 1.41,
+      "2026-06-30": 1.78
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 14.440568620831925,
+    "net_debt": -27408000000.0,
+    "debt_to_assets": 5.58349238976166,
+    "ticker": "AIG"
   },
-  "fetched_at": "2026-08-14T13:23:31.954156"
+  "fetched_at": "2026-10-15T09:59:12.021561"
 }

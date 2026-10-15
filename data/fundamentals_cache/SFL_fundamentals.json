@@ -1,39 +1,59 @@
 {
   "data": {
-    "ticker": "SFL",
-    "fetch_date": "2026-08-14T14:12:17.621778",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 185295000.0,
-      "2025-06-30 00:00:00": 187607000.0,
-      "2025-09-30 00:00:00": 175208000.0,
-      "2025-12-31 00:00:00": 170689000.0,
-      "2026-03-31 00:00:00": 172897000.0
-    },
-    "revenue_qoq_change": 1.2935807228350977,
-    "revenue_yoy_change": -6.690952265306673,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.24,
-      "2025-06-30 00:00:00": 0.01,
-      "2025-09-30 00:00:00": 0.07,
-      "2025-12-31 00:00:00": -0.04,
-      "2026-03-31 00:00:00": 0.2
-    },
-    "eps_qoq_change": 600.0,
-    "eps_yoy_change": 183.33333333333334,
-    "gross_margin": 29.42,
-    "margin_change": 3.97,
-    "operating_margin": 25.94,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 17386000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 13788000.0,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:47:27.219142+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.1597968092875073,
+    "revenue_qoq_change": 11.936586522611737,
+    "eps_yoy_change": 2400.0,
+    "eps_qoq_change": 25.0,
+    "latest_eps": 0.25,
+    "gross_margin": 33.54587025602604,
+    "operating_margin": 33.699330870385204,
+    "net_margin": 17.46092438060299,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 1.3386354213277496,
+    "free_cash_flow_ttm": 217750000.0,
+    "operating_cash_flow_ttm": 263808000.0,
+    "revenue_ttm": 712329000.0,
+    "net_income_ttm": 63850000.0,
+    "ebitda_ttm": 457437000.0,
+    "total_debt": 2384416000.0,
+    "cash": 118117000.0,
+    "total_assets": 3515759000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 187607000.0,
+      "2025-09-30": 175208000.0,
+      "2025-12-31": 170689000.0,
+      "2026-03-31": 172897000.0,
+      "2026-06-30": 193535000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.01,
+      "2025-09-30": 0.07,
+      "2025-12-31": -0.04,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.25
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 13788000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 4.12893416112561,
+    "operating_margin_yoy_change": 12.086597870017414,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 30.568740006373456,
+    "net_debt": 2266299000.0,
+    "net_debt_to_ebitda": 4.954341253549669,
+    "debt_to_assets": 67.82080341684399,
+    "ticker": "SFL"
   },
-  "fetched_at": "2026-08-14T14:12:17.623621"
+  "fetched_at": "2026-10-15T10:47:27.224621"
 }

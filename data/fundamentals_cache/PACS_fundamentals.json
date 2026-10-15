@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PACS",
-    "fetch_date": "2026-08-14T14:04:33.503746",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1309236000.0,
-      "2025-09-30 00:00:00": 1344567000.0,
-      "2025-12-31 00:00:00": 1357979000.0,
-      "2026-03-31 00:00:00": 1420494000.0,
-      "2026-06-30 00:00:00": 1427998000.0
-    },
-    "revenue_qoq_change": 0.5282669268578396,
-    "revenue_yoy_change": 9.071091842876305,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.17,
-      "2025-06-30 00:00:00": 0.31,
-      "2025-09-30 00:00:00": 0.32,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.5,
-      "2026-06-30 00:00:00": 0.47
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:39:49.291232+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.07109184287631,
+    "revenue_qoq_change": 0.5282669268578344,
+    "eps_yoy_change": 51.61290322580645,
     "eps_qoq_change": -6.000000000000005,
-    "eps_yoy_change": 51.61290322580644,
-    "gross_margin": 17.07,
-    "margin_change": -0.56,
-    "operating_margin": 7.66,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.47,
+    "gross_margin": 17.070051918840225,
+    "operating_margin": 7.656243216026913,
+    "net_margin": 5.348046705947768,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.107524563975205,
+    "free_cash_flow_ttm": 121470000.0,
+    "operating_cash_flow_ttm": 573248000.0,
+    "revenue_ttm": 5551038000.0,
+    "net_income_ttm": 269173000.0,
+    "ebitda_ttm": 480230000.0,
+    "total_debt": 3251069000.0,
+    "cash": 164451000.0,
+    "total_assets": 5656321000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1309236000.0,
+      "2025-09-30": 1344567000.0,
+      "2025-12-31": 1357979000.0,
+      "2026-03-31": 1420494000.0,
+      "2026-06-30": 1427998000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.17,
+      "2025-06-30": 0.31,
+      "2025-09-30": 0.32,
+      "2025-12-31": null,
+      "2026-03-31": 0.5,
+      "2026-06-30": 0.47
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.5595192021923161,
+    "operating_margin_yoy_change": 1.5076955133972874,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.188239388741349,
+    "net_debt": 3086618000.0,
+    "net_debt_to_ebitda": 6.427374383108094,
+    "debt_to_assets": 57.47674150742152,
+    "ticker": "PACS"
   },
-  "fetched_at": "2026-08-14T14:04:33.505096"
+  "fetched_at": "2026-10-15T10:39:49.296064"
 }

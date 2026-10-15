@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "CGEM",
-    "fetch_date": "2026-08-13T13:38:49.880031",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:58.009099+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -1.07,
-      "2025-09-30 00:00:00": -0.77,
-      "2025-12-31 00:00:00": -0.77,
-      "2026-03-31 00:00:00": -0.75,
-      "2026-06-30 00:00:00": -0.81
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.81,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.198932474794548,
+    "free_cash_flow_ttm": -159299000.0,
+    "operating_cash_flow_ttm": -159250000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -204688000.0,
+    "ebitda_ttm": -221489000.0,
+    "total_debt": 2071000.0,
+    "cash": 334538000.0,
+    "total_assets": 363787000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -8.000000000000007,
-    "eps_yoy_change": 24.299065420560748,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -1.07,
+      "2025-09-30": -0.77,
+      "2025-12-31": -0.77,
+      "2026-03-31": -0.75,
+      "2026-06-30": -0.81
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -332467000.0,
+    "debt_to_assets": 0.5692891719605153,
+    "ticker": "CGEM"
   },
-  "fetched_at": "2026-08-13T13:38:49.880985"
+  "fetched_at": "2026-10-15T10:08:58.013947"
 }

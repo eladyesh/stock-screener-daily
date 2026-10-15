@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "ALRS",
-    "fetch_date": "2026-08-14T13:24:23.980413",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:00:01.152398+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.378579649312833,
+    "revenue_qoq_change": 6.654319178136947,
+    "eps_yoy_change": 3.8461538461538547,
+    "eps_qoq_change": -8.98876404494382,
+    "latest_eps": 0.81,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.06723885911323,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.2405693396593254,
+    "free_cash_flow_ttm": 89311000.0,
+    "operating_cash_flow_ttm": 95538000.0,
+    "revenue_ttm": 233703000.0,
+    "net_income_ttm": 27708000.0,
+    "ebitda_ttm": null,
+    "total_debt": 446991000.0,
+    "cash": 109012000.0,
+    "total_assets": 5288718000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 73855000.0,
-      "2025-09-30 00:00:00": 71541000.0,
-      "2025-12-31 00:00:00": 7070000.0,
-      "2026-03-31 00:00:00": 75049000.0,
-      "2026-06-30 00:00:00": 80043000.0
+      "2025-06-30": 73855000.0,
+      "2025-09-30": 71541000.0,
+      "2025-12-31": 7070000.0,
+      "2026-03-31": 75049000.0,
+      "2026-06-30": 80043000.0
     },
-    "revenue_qoq_change": 6.65431917813695,
-    "revenue_yoy_change": 8.378579649312842,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.78,
-      "2025-09-30 00:00:00": 0.65,
-      "2025-12-31 00:00:00": -1.28,
-      "2026-03-31 00:00:00": 0.89,
-      "2026-06-30 00:00:00": 0.81
+      "2025-06-30": 0.78,
+      "2025-09-30": 0.65,
+      "2025-12-31": -1.28,
+      "2026-03-31": 0.89,
+      "2026-06-30": 0.81
     },
-    "eps_qoq_change": -8.988764044943816,
-    "eps_yoy_change": 3.8461538461538494,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 38.21559843048656,
+    "net_debt": 337979000.0,
+    "debt_to_assets": 8.45178358914202,
+    "ticker": "ALRS"
   },
-  "fetched_at": "2026-08-14T13:24:23.981070"
+  "fetched_at": "2026-10-15T10:00:01.156228"
 }

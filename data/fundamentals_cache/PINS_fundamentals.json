@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "PINS",
-    "fetch_date": "2026-08-14T14:05:58.509097",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 998227000.0,
-      "2025-09-30 00:00:00": 1049205000.0,
-      "2025-12-31 00:00:00": 1319347000.0,
-      "2026-03-31 00:00:00": 1007514000.0,
-      "2026-06-30 00:00:00": 1179654000.0
-    },
-    "revenue_qoq_change": 17.0856186613784,
-    "revenue_yoy_change": 18.17492414050111,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.06,
-      "2025-09-30 00:00:00": 0.13,
-      "2025-12-31 00:00:00": 0.41,
-      "2026-03-31 00:00:00": -0.12,
-      "2026-06-30 00:00:00": -0.08
-    },
-    "eps_qoq_change": 33.33333333333333,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:41:13.136215+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.174924140501105,
+    "revenue_qoq_change": 17.085618661378412,
     "eps_yoy_change": -233.33333333333334,
-    "gross_margin": 78.18,
-    "margin_change": 1.86,
-    "operating_margin": -3.46,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.08,
+    "gross_margin": 78.18394207114969,
+    "operating_margin": -3.463981811615948,
+    "net_margin": -3.9561600265840666,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -18.39912906962079,
+    "free_cash_flow_ttm": 1280404000.0,
+    "operating_cash_flow_ttm": 1333773000.0,
+    "revenue_ttm": 4555720000.0,
+    "net_income_ttm": 248922000.0,
+    "ebitda_ttm": 319456000.0,
+    "total_debt": 1196635000.0,
+    "cash": 1274901000.0,
+    "total_assets": 4759378000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 998227000.0,
+      "2025-09-30": 1049205000.0,
+      "2025-12-31": 1319347000.0,
+      "2026-03-31": 1007514000.0,
+      "2026-06-30": 1179654000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.06,
+      "2025-09-30": 0.13,
+      "2025-12-31": 0.41,
+      "2026-03-31": -0.12,
+      "2026-06-30": -0.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.8612309227190025,
+    "operating_margin_yoy_change": -3.030212739050289,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.105414731370672,
+    "net_debt": -78266000.0,
+    "net_debt_to_ebitda": -0.24499774616848644,
+    "debt_to_assets": 25.14267620684888,
+    "ticker": "PINS"
   },
-  "fetched_at": "2026-08-14T14:05:58.510447"
+  "fetched_at": "2026-10-15T10:41:13.141151"
 }

@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "ATLC",
-    "fetch_date": "2026-08-13T13:32:19.693143",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 89617000.0,
-      "2025-09-30 00:00:00": 103337000.0,
-      "2025-12-31 00:00:00": 122502000.0,
-      "2026-03-31 00:00:00": 146386000.0,
-      "2026-06-30 00:00:00": 166749000.0
-    },
-    "revenue_qoq_change": 13.910483242933067,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:02:29.927659+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 86.06849146925248,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.49,
-      "2025-06-30 00:00:00": 1.51,
-      "2025-09-30 00:00:00": 1.21,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 2.23,
-      "2026-06-30 00:00:00": 2.5
-    },
-    "eps_qoq_change": 12.10762331838565,
+    "revenue_qoq_change": 13.910483242933068,
     "eps_yoy_change": 65.56291390728477,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 12.107623318385642,
+    "latest_eps": 2.5,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.816670564741017,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.0938135195705403,
+    "free_cash_flow_ttm": 936455000.0,
+    "operating_cash_flow_ttm": 936975000.0,
+    "revenue_ttm": 538974000.0,
+    "net_income_ttm": 154005000.0,
+    "ebitda_ttm": null,
+    "total_debt": 6294567000.0,
+    "cash": 555215000.0,
+    "total_assets": 7491770000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 89617000.0,
+      "2025-09-30": 103337000.0,
+      "2025-12-31": 122502000.0,
+      "2026-03-31": 146386000.0,
+      "2026-06-30": 166749000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.49,
+      "2025-06-30": 1.51,
+      "2025-09-30": 1.21,
+      "2025-12-31": null,
+      "2026-03-31": 2.23,
+      "2026-06-30": 2.5
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 173.74771324776336,
+    "net_debt": 5739352000.0,
+    "debt_to_assets": 84.01975768076169,
+    "ticker": "ATLC"
   },
-  "fetched_at": "2026-08-13T13:32:19.693847"
+  "fetched_at": "2026-10-15T10:02:29.931407"
 }

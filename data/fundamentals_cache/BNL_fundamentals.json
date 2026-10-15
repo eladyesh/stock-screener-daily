@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BNL",
-    "fetch_date": "2026-08-13T13:35:37.820945",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 112986000.0,
-      "2025-09-30 00:00:00": 114167000.0,
-      "2025-12-31 00:00:00": 118294000.0,
-      "2026-03-31 00:00:00": 121401000.0,
-      "2026-06-30 00:00:00": 122309000.0
-    },
-    "revenue_qoq_change": 0.7479345310170427,
-    "revenue_yoy_change": 8.251464783247481,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.1,
-      "2025-09-30 00:00:00": 0.14,
-      "2025-12-31 00:00:00": 0.17,
-      "2026-03-31 00:00:00": 0.24,
-      "2026-06-30 00:00:00": 0.21
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:43.885437+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.251464783247474,
+    "revenue_qoq_change": 0.7479345310170471,
+    "eps_yoy_change": 109.99999999999997,
     "eps_qoq_change": -12.5,
-    "eps_yoy_change": 109.99999999999999,
-    "gross_margin": 95.24,
-    "margin_change": 0.33,
-    "operating_margin": 45.37,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.21,
+    "gross_margin": 95.24401311432518,
+    "operating_margin": 45.37115011977859,
+    "net_margin": 32.53971498417941,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.5841694650447824,
+    "free_cash_flow_ttm": 257107000.0,
+    "operating_cash_flow_ttm": 283018000.0,
+    "revenue_ttm": 476171000.0,
+    "net_income_ttm": 145756000.0,
+    "ebitda_ttm": 426963000.0,
+    "total_debt": 2674991000.0,
+    "cash": 11095000.0,
+    "total_assets": 5865290000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 112986000.0,
+      "2025-09-30": 114167000.0,
+      "2025-12-31": 118294000.0,
+      "2026-03-31": 121401000.0,
+      "2026-06-30": 122309000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.1,
+      "2025-09-30": 0.14,
+      "2025-12-31": 0.17,
+      "2026-03-31": 0.24,
+      "2026-06-30": 0.21
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.3345807373266467,
+    "operating_margin_yoy_change": -4.048246973666615,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 53.99467838234584,
+    "net_debt": 2663896000.0,
+    "net_debt_to_ebitda": 6.239172949412478,
+    "debt_to_assets": 45.60713962992452,
+    "ticker": "BNL"
   },
-  "fetched_at": "2026-08-13T13:35:37.822185"
+  "fetched_at": "2026-10-15T10:05:43.890249"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "FHN",
-    "fetch_date": "2026-08-14T13:43:05.095316",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 807000000.0,
-      "2025-09-30 00:00:00": 865000000.0,
-      "2025-12-31 00:00:00": 863000000.0,
-      "2026-03-31 00:00:00": 837000000.0,
-      "2026-06-30 00:00:00": 861000000.0
-    },
-    "revenue_qoq_change": 2.867383512544803,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:18:33.235426+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 6.691449814126393,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.45,
-      "2025-09-30 00:00:00": 0.5,
-      "2025-12-31 00:00:00": 0.52,
-      "2026-03-31 00:00:00": 0.53,
-      "2026-06-30 00:00:00": 0.54
+    "revenue_qoq_change": 2.8673835125448077,
+    "eps_yoy_change": 19.999999999999996,
+    "eps_qoq_change": 1.8867924528301883,
+    "latest_eps": 0.54,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.3588850174216,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.6147859922178975,
+    "free_cash_flow_ttm": 1017000000.0,
+    "operating_cash_flow_ttm": 1059000000.0,
+    "revenue_ttm": 3426000000.0,
+    "net_income_ttm": 1056000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2163000000.0,
+    "cash": 2192000000.0,
+    "total_assets": 84437000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 807000000.0,
+      "2025-09-30": 865000000.0,
+      "2025-12-31": 863000000.0,
+      "2026-03-31": 837000000.0,
+      "2026-06-30": 861000000.0
     },
-    "eps_qoq_change": 1.8867924528301903,
-    "eps_yoy_change": 20.000000000000004,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.45,
+      "2025-09-30": 0.5,
+      "2025-12-31": 0.52,
+      "2026-03-31": 0.53,
+      "2026-06-30": 0.54
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 29.68476357267951,
+    "net_debt": -29000000.0,
+    "debt_to_assets": 2.5616732001373808,
+    "ticker": "FHN"
   },
-  "fetched_at": "2026-08-14T13:43:05.096001"
+  "fetched_at": "2026-10-15T10:18:33.239215"
 }

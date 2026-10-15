@@ -1,44 +1,60 @@
 {
   "data": {
-    "ticker": "DNLI",
-    "fetch_date": "2026-08-13T13:44:07.208246",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 3604000.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:14:12.848228+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.72,
-      "2025-09-30 00:00:00": -0.74,
-      "2025-12-31 00:00:00": -0.73,
-      "2026-03-31 00:00:00": -0.69,
-      "2026-06-30 00:00:00": -0.68
-    },
-    "eps_qoq_change": 1.449275362318826,
-    "eps_yoy_change": 5.555555555555546,
-    "gross_margin": 97.42,
-    "margin_change": 97.42,
-    "operating_margin": -3622.11,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": 4139000.0
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.68,
+    "gross_margin": 97.41953385127637,
+    "operating_margin": -3622.1143174250833,
+    "net_margin": -3539.206437291898,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": 1.148,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 9.253233104372494,
+    "free_cash_flow_ttm": -466257000.0,
+    "operating_cash_flow_ttm": -434040000.0,
+    "revenue_ttm": 3604000.0,
+    "net_income_ttm": -511451000.0,
+    "ebitda_ttm": -526808000.0,
+    "total_debt": 32207000.0,
+    "cash": 710471000.0,
+    "total_assets": 1157955000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 3604000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.72,
+      "2025-09-30": -0.74,
+      "2025-12-31": -0.73,
+      "2026-03-31": -0.69,
+      "2026-06-30": -0.68
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": 4139000.0
+    },
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": 1.1484461709211986,
+    "fcf_margin": -12937.208657047726,
+    "net_debt": -678264000.0,
+    "debt_to_assets": 2.781368878756083,
+    "ticker": "DNLI"
   },
-  "fetched_at": "2026-08-13T13:44:07.209878"
+  "fetched_at": "2026-10-15T10:14:12.853321"
 }

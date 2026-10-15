@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "PRVA",
-    "fetch_date": "2026-08-14T14:07:18.578072",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 521153000.0,
-      "2025-09-30 00:00:00": 580419000.0,
-      "2025-12-31 00:00:00": 541173000.0,
-      "2026-03-31 00:00:00": 603847000.0,
-      "2026-06-30 00:00:00": 632630000.0
-    },
-    "revenue_qoq_change": 4.766604785649345,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:33.413281+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 21.39045539409732,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.02,
-      "2025-09-30 00:00:00": 0.05,
-      "2025-12-31 00:00:00": 0.07,
-      "2026-03-31 00:00:00": 0.02,
-      "2026-06-30 00:00:00": 0.07
+    "revenue_qoq_change": 4.766604785649342,
+    "eps_yoy_change": 250.00000000000006,
+    "eps_qoq_change": 250.00000000000006,
+    "latest_eps": 0.07,
+    "gross_margin": 9.925074688206378,
+    "operating_margin": 1.8609613834310736,
+    "net_margin": 1.4302198757567615,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.6315617992030527,
+    "free_cash_flow_ttm": 131129000.0,
+    "operating_cash_flow_ttm": 131129000.0,
+    "revenue_ttm": 2358069000.0,
+    "net_income_ttm": 28124000.0,
+    "ebitda_ttm": 56936000.0,
+    "total_debt": 8733000.0,
+    "cash": 412200000.0,
+    "total_assets": 1488581000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 521153000.0,
+      "2025-09-30": 580419000.0,
+      "2025-12-31": 541173000.0,
+      "2026-03-31": 603847000.0,
+      "2026-06-30": 632630000.0
     },
-    "eps_qoq_change": 250.0,
-    "eps_yoy_change": 250.0,
-    "gross_margin": 9.93,
-    "margin_change": -0.06,
-    "operating_margin": 1.86,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.02,
+      "2025-09-30": 0.05,
+      "2025-12-31": 0.07,
+      "2026-03-31": 0.02,
+      "2026-06-30": 0.07
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.06255462849139448,
+    "operating_margin_yoy_change": 1.2208422629424647,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.560863570998134,
+    "net_debt": -403467000.0,
+    "net_debt_to_ebitda": -7.086324996487284,
+    "debt_to_assets": 0.5866660934137947,
+    "ticker": "PRVA"
   },
-  "fetched_at": "2026-08-14T14:07:18.579421"
+  "fetched_at": "2026-10-15T10:42:33.418140"
 }

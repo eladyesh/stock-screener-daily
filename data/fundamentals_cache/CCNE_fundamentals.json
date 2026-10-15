@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "CCNE",
-    "fetch_date": "2026-08-13T13:38:11.990301",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 59952000.0,
-      "2025-09-30 00:00:00": 76395000.0,
-      "2025-12-31 00:00:00": 84893000.0,
-      "2026-03-31 00:00:00": 81814000.0,
-      "2026-06-30 00:00:00": 86176000.0
-    },
-    "revenue_qoq_change": 5.3316058376317015,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:20.976685+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 43.7416599946624,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.61,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": 1.1,
-      "2026-03-31 00:00:00": 0.88,
-      "2026-06-30 00:00:00": 0.91
+    "revenue_qoq_change": 5.331605837631703,
+    "eps_yoy_change": 49.20503230862816,
+    "eps_qoq_change": 3.8644420653273226,
+    "latest_eps": 0.91,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.84441143705904,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 40.256381021609286,
+    "free_cash_flow_ttm": 85718000.0,
+    "operating_cash_flow_ttm": 89247000.0,
+    "revenue_ttm": 329278000.0,
+    "net_income_ttm": 96034000.0,
+    "ebitda_ttm": null,
+    "total_debt": 262307000.0,
+    "cash": 458439000.0,
+    "total_assets": 8432169000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 59952000.0,
+      "2025-09-30": 76395000.0,
+      "2025-12-31": 84893000.0,
+      "2026-03-31": 81814000.0,
+      "2026-06-30": 86176000.0
     },
-    "eps_qoq_change": 3.4090909090909123,
-    "eps_yoy_change": 49.18032786885247,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.609899,
+      "2025-09-30": 0.202494,
+      "2025-12-31": 1.1,
+      "2026-03-31": 0.876142,
+      "2026-06-30": 0.91
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.032106609005158,
+    "net_debt": -196132000.0,
+    "debt_to_assets": 3.1107891694295975,
+    "ticker": "CCNE"
   },
-  "fetched_at": "2026-08-13T13:38:11.990959"
+  "fetched_at": "2026-10-15T10:08:20.980487"
 }

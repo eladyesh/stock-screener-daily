@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "DDOG",
-    "fetch_date": "2026-08-13T13:43:17.098875",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 826760000.0,
-      "2025-09-30 00:00:00": 885651000.0,
-      "2025-12-31 00:00:00": 953194000.0,
-      "2026-03-31 00:00:00": 1006426000.0,
-      "2026-06-30 00:00:00": 1121454000.0
-    },
-    "revenue_qoq_change": 11.429354964994943,
-    "revenue_yoy_change": 35.644443369297015,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.01,
-      "2025-09-30 00:00:00": 0.1,
-      "2025-12-31 00:00:00": 0.13,
-      "2026-03-31 00:00:00": 0.15,
-      "2026-06-30 00:00:00": 0.12
-    },
-    "eps_qoq_change": -20.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:22.929545+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 35.64444336929702,
+    "revenue_qoq_change": 11.429354964994953,
     "eps_yoy_change": 1100.0,
-    "gross_margin": 78.59,
-    "margin_change": -0.62,
-    "operating_margin": 0.67,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -19.999999999999996,
+    "latest_eps": 0.12,
+    "gross_margin": 78.5891351762979,
+    "operating_margin": 0.6656536960053644,
+    "net_margin": 3.9732347470337617,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.428252839919166,
+    "free_cash_flow_ttm": 1072769000.0,
+    "operating_cash_flow_ttm": 1229034000.0,
+    "revenue_ttm": 3966725000.0,
+    "net_income_ttm": 177584000.0,
+    "ebitda_ttm": 281700000.0,
+    "total_debt": 1277801000.0,
+    "cash": 4985438000.0,
+    "total_assets": 7547675000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 826760000.0,
+      "2025-09-30": 885651000.0,
+      "2025-12-31": 953194000.0,
+      "2026-03-31": 1006426000.0,
+      "2026-06-30": 1121454000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.01,
+      "2025-09-30": 0.1,
+      "2025-12-31": 0.13,
+      "2026-03-31": 0.15,
+      "2026-06-30": 0.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.621656277817948,
+    "operating_margin_yoy_change": 4.793453783092306,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 27.044198929847667,
+    "net_debt": -3707637000.0,
+    "net_debt_to_ebitda": -13.161650692225772,
+    "debt_to_assets": 16.92973001619704,
+    "ticker": "DDOG"
   },
-  "fetched_at": "2026-08-13T13:43:17.100157"
+  "fetched_at": "2026-10-15T10:13:22.934530"
 }

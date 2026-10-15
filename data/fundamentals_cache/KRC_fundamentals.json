@@ -1,41 +1,58 @@
 {
   "data": {
-    "ticker": "KRC",
-    "fetch_date": "2026-08-14T13:53:31.586007",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 270844000.0,
-      "2025-06-30 00:00:00": 289892000.0,
-      "2025-09-30 00:00:00": 279744000.0,
-      "2025-12-31 00:00:00": 272187000.0,
-      "2026-03-31 00:00:00": 270053000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.57,
-      "2025-09-30 00:00:00": 1.31,
-      "2025-12-31 00:00:00": 0.1,
-      "2026-03-31 00:00:00": -0.16,
-      "2026-06-30 00:00:00": 0.17
-    },
-    "eps_qoq_change": 206.25,
-    "eps_yoy_change": -70.17543859649122,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 255795000.0,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:52.231636+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": -0.29205003618318903,
+    "revenue_qoq_change": -0.784019809910097,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -259.99999999999994,
+    "latest_eps": -0.16,
+    "gross_margin": 65.09499987039581,
+    "operating_margin": 22.49484360477388,
+    "net_margin": -7.13452544500524,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -163808000.0,
+    "operating_cash_flow_ttm": 580087000.0,
+    "revenue_ttm": 1111876000.0,
+    "net_income_ttm": 217846000.0,
+    "ebitda_ttm": 741135000.0,
+    "total_debt": 4716805000.0,
+    "cash": 224321000.0,
+    "total_assets": 10774858000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 270844000.0,
+      "2025-06-30": 289892000.0,
+      "2025-09-30": 279744000.0,
+      "2025-12-31": 272187000.0,
+      "2026-03-31": 270053000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.57,
+      "2025-09-30": 1.31,
+      "2025-12-31": 0.1,
+      "2026-03-31": -0.16
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 255795000.0,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null
+    },
+    "margin_change": 0.6631937958955518,
+    "operating_margin_yoy_change": -4.772513250094605,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -14.732578093240614,
+    "net_debt": 4492484000.0,
+    "net_debt_to_ebitda": 6.06162709897657,
+    "debt_to_assets": 43.77602934535193,
+    "ticker": "KRC"
   },
-  "fetched_at": "2026-08-14T13:53:31.587955"
+  "fetched_at": "2026-10-15T10:28:52.236826"
 }

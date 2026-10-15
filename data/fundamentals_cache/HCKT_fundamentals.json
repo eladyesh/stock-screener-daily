@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "HCKT",
-    "fetch_date": "2026-08-12T13:51:29.221240",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 78899000.0,
-      "2025-09-30 00:00:00": 73111000.0,
-      "2025-12-31 00:00:00": 75751000.0,
-      "2026-03-31 00:00:00": 68797000.0,
-      "2026-06-30 00:00:00": 69328000.0
-    },
-    "revenue_qoq_change": 0.7718359812201114,
-    "revenue_yoy_change": -12.130698741428915,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.06,
-      "2025-09-30 00:00:00": 0.09,
-      "2025-12-31 00:00:00": 0.21,
-      "2026-03-31 00:00:00": 0.17,
-      "2026-06-30 00:00:00": 0.18
-    },
-    "eps_qoq_change": 5.8823529411764595,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:23:11.115179+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -12.130698741428914,
+    "revenue_qoq_change": 0.7718359812201037,
     "eps_yoy_change": 200.0,
-    "gross_margin": 39.97,
-    "margin_change": -2.67,
-    "operating_margin": 11.83,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 5.88235294117645,
+    "latest_eps": 0.18,
+    "gross_margin": 39.96942072467113,
+    "operating_margin": 11.833602584814216,
+    "net_margin": 6.3596238172167086,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.64244083982866,
+    "free_cash_flow_ttm": 31152000.0,
+    "operating_cash_flow_ttm": 40555000.0,
+    "revenue_ttm": 286987000.0,
+    "net_income_ttm": 16829000.0,
+    "ebitda_ttm": 36856000.0,
+    "total_debt": 83025000.0,
+    "cash": 14162000.0,
+    "total_assets": 208609000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 78899000.0,
+      "2025-09-30": 73111000.0,
+      "2025-12-31": 75751000.0,
+      "2026-03-31": 68797000.0,
+      "2026-06-30": 69328000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.06,
+      "2025-09-30": 0.09,
+      "2025-12-31": 0.21,
+      "2026-03-31": 0.17,
+      "2026-06-30": 0.18
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.6748806256784476,
+    "operating_margin_yoy_change": 6.009701141196426,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.854847083665812,
+    "net_debt": 68863000.0,
+    "net_debt_to_ebitda": 1.8684339049272847,
+    "debt_to_assets": 39.79933751659804,
+    "ticker": "HCKT"
   },
-  "fetched_at": "2026-08-12T13:51:29.222637"
+  "fetched_at": "2026-10-15T10:23:11.120150"
 }

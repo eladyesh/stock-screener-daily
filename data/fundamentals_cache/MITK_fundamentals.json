@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "MITK",
-    "fetch_date": "2026-08-14T13:57:55.299247",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 45729000.0,
-      "2025-09-30 00:00:00": 44779000.0,
-      "2025-12-31 00:00:00": 44244000.0,
-      "2026-03-31 00:00:00": 54841000.0,
-      "2026-06-30 00:00:00": 54038000.0
-    },
-    "revenue_qoq_change": -1.464232964387958,
-    "revenue_yoy_change": 18.17008900260229,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.2,
-      "2025-06-30 00:00:00": 0.05,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 0.06,
-      "2026-03-31 00:00:00": 0.2,
-      "2026-06-30 00:00:00": 0.17
-    },
-    "eps_qoq_change": -15.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:33:13.294168+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.170089002602285,
+    "revenue_qoq_change": -1.464232964387957,
     "eps_yoy_change": 240.0,
-    "gross_margin": 84.86,
-    "margin_change": 0.47,
-    "operating_margin": 21.36,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -15.000000000000002,
+    "latest_eps": 0.17,
+    "gross_margin": 84.86435471334987,
+    "operating_margin": 21.36274473518635,
+    "net_margin": 15.48354861393834,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.9724214480874265,
+    "free_cash_flow_ttm": 48613000.0,
+    "operating_cash_flow_ttm": 53690000.0,
+    "revenue_ttm": 197902000.0,
+    "net_income_ttm": 22535000.0,
+    "ebitda_ttm": 53495000.0,
+    "total_debt": 51675000.0,
+    "cash": 99711000.0,
+    "total_assets": 368055000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 45729000.0,
+      "2025-09-30": 44779000.0,
+      "2025-12-31": 44244000.0,
+      "2026-03-31": 54841000.0,
+      "2026-06-30": 54038000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.2,
+      "2025-06-30": 0.05,
+      "2025-09-30": null,
+      "2025-12-31": 0.06,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.17
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.46946767627905217,
+    "operating_margin_yoy_change": 13.033238295071762,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.564178229628805,
+    "net_debt": -48036000.0,
+    "net_debt_to_ebitda": -0.8979530797270773,
+    "debt_to_assets": 14.040021192484819,
+    "ticker": "MITK"
   },
-  "fetched_at": "2026-08-14T13:57:55.300598"
+  "fetched_at": "2026-10-15T10:33:13.299060"
 }

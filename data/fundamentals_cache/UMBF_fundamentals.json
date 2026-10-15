@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "UMBF",
-    "fetch_date": "2026-08-14T14:19:37.818152",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:49.653222+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.193756238076594,
+    "revenue_qoq_change": 5.519810757684329,
+    "eps_yoy_change": 26.241134751773053,
+    "eps_qoq_change": 6.26865671641792,
+    "latest_eps": 3.56,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 38.386964723323985,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.19731302769119274,
+    "free_cash_flow_ttm": 1040681000.0,
+    "operating_cash_flow_ttm": 1088816000.0,
+    "revenue_ttm": 2694849000.0,
+    "net_income_ttm": 942679000.0,
+    "ebitda_ttm": null,
+    "total_debt": 257781000.0,
+    "cash": 5730886000.0,
+    "total_assets": 72255560000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 633208000.0,
-      "2025-09-30 00:00:00": 621557000.0,
-      "2025-12-31 00:00:00": 664949000.0,
-      "2026-03-31 00:00:00": 685259000.0,
-      "2026-06-30 00:00:00": 723084000.0
+      "2025-06-30": 633208000.0,
+      "2025-09-30": 621557000.0,
+      "2025-12-31": 664949000.0,
+      "2026-03-31": 685259000.0,
+      "2026-06-30": 723084000.0
     },
-    "revenue_qoq_change": 5.519810757684321,
-    "revenue_yoy_change": 14.193756238076588,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.82,
-      "2025-09-30 00:00:00": 2.36,
-      "2025-12-31 00:00:00": 2.74,
-      "2026-03-31 00:00:00": 3.35,
-      "2026-06-30 00:00:00": 3.56
+      "2025-06-30": 2.82,
+      "2025-09-30": 2.36,
+      "2025-12-31": 2.74,
+      "2026-03-31": 3.35,
+      "2026-06-30": 3.56
     },
-    "eps_qoq_change": 6.268656716417908,
-    "eps_yoy_change": 26.24113475177306,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 38.617414185358804,
+    "net_debt": -5473105000.0,
+    "debt_to_assets": 0.35676285672687336,
+    "ticker": "UMBF"
   },
-  "fetched_at": "2026-08-14T14:19:37.818821"
+  "fetched_at": "2026-10-15T10:54:49.657077"
 }

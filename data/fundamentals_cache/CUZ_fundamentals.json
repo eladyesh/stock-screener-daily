@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "CUZ",
-    "fetch_date": "2026-08-13T13:42:16.394100",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 240128000.0,
-      "2025-09-30 00:00:00": 248326000.0,
-      "2025-12-31 00:00:00": 255034000.0,
-      "2026-03-31 00:00:00": 263109000.0,
-      "2026-06-30 00:00:00": 268528000.0
-    },
-    "revenue_qoq_change": 2.0596026741768623,
-    "revenue_yoy_change": 11.827025586353944,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.09,
-      "2025-09-30 00:00:00": 0.05,
-      "2025-12-31 00:00:00": -0.02,
-      "2026-03-31 00:00:00": -0.15,
-      "2026-06-30 00:00:00": 0.16
-    },
-    "eps_qoq_change": 206.66666666666669,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:12:24.093700+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.827025586353933,
+    "revenue_qoq_change": 2.0596026741768636,
     "eps_yoy_change": 77.77777777777779,
-    "gross_margin": 68.47,
-    "margin_change": -0.14,
-    "operating_margin": 24.91,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.16,
+    "gross_margin": 68.47032711672526,
+    "operating_margin": 24.91434785199309,
+    "net_margin": 9.741256032890425,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.057891150416258,
+    "free_cash_flow_ttm": 157355000.0,
+    "operating_cash_flow_ttm": 431948000.0,
+    "revenue_ttm": 1034997000.0,
+    "net_income_ttm": 6425000.0,
+    "ebitda_ttm": 608789000.0,
+    "total_debt": 3782269000.0,
+    "cash": 6699000.0,
+    "total_assets": 9040873000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 240128000.0,
+      "2025-09-30": 248326000.0,
+      "2025-12-31": 255034000.0,
+      "2026-03-31": 263109000.0,
+      "2026-06-30": 268528000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.09,
+      "2025-09-30": 0.05,
+      "2025-12-31": -0.02,
+      "2026-03-31": -0.15,
+      "2026-06-30": 0.16
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.14154096836495,
+    "operating_margin_yoy_change": 1.8762181878139828,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 15.203425710412688,
+    "net_debt": 3775570000.0,
+    "net_debt_to_ebitda": 6.201771056967193,
+    "debt_to_assets": 41.835218789158965,
+    "ticker": "CUZ"
   },
-  "fetched_at": "2026-08-13T13:42:16.395414"
+  "fetched_at": "2026-10-15T10:12:24.099088"
 }

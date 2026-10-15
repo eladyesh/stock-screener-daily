@@ -1,40 +1,58 @@
 {
   "data": {
-    "ticker": "EGP",
-    "fetch_date": "2026-08-13T13:45:38.327214",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 177286000.0,
-      "2025-09-30 00:00:00": 182136000.0,
-      "2025-12-31 00:00:00": 187465000.0,
-      "2026-03-31 00:00:00": 190256000.0,
-      "2026-06-30 00:00:00": 193331000.0
-    },
-    "revenue_qoq_change": 1.61624337734421,
-    "revenue_yoy_change": 9.050348025224778,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.2,
-      "2025-09-30 00:00:00": 1.26,
-      "2025-12-31 00:00:00": 1.27,
-      "2026-03-31 00:00:00": 1.77,
-      "2026-06-30 00:00:00": 1.4
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:15:42.923804+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.050348025224775,
+    "revenue_qoq_change": 1.6162433773442064,
+    "eps_yoy_change": 16.666666666666675,
     "eps_qoq_change": -20.903954802259893,
-    "eps_yoy_change": 16.666666666666664,
-    "gross_margin": 73.78,
-    "margin_change": 0.34,
-    "operating_margin": 40.76,
-    "quarterly_inventory": {
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 1352000.0,
-      "2026-06-30 00:00:00": NaN
-    },
+    "latest_eps": 1.4,
+    "gross_margin": 73.78382152888052,
+    "operating_margin": 40.76066435284564,
+    "net_margin": 39.064092152836324,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 2.2898875977101163,
+    "free_cash_flow_ttm": 505593000.0,
+    "operating_cash_flow_ttm": 505593000.0,
+    "revenue_ttm": 753188000.0,
+    "net_income_ttm": 304827000.0,
+    "ebitda_ttm": 559439000.0,
+    "total_debt": 1647681000.0,
+    "cash": 33382000.0,
+    "total_assets": 5522866000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 177286000.0,
+      "2025-09-30": 182136000.0,
+      "2025-12-31": 187465000.0,
+      "2026-03-31": 190256000.0,
+      "2026-06-30": 193331000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.2,
+      "2025-09-30": 1.26,
+      "2025-12-31": 1.27,
+      "2026-03-31": 1.77,
+      "2026-06-30": 1.4
+    },
+    "quarterly_inventory": {
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": 1352000.0,
+      "2026-06-30": null
+    },
+    "margin_change": 0.3390944243476923,
+    "operating_margin_yoy_change": 1.022613970976792,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 67.1270652214321,
+    "net_debt": 1614299000.0,
+    "net_debt_to_ebitda": 2.8855675060194232,
+    "debt_to_assets": 29.833803680914944,
+    "ticker": "EGP"
   },
-  "fetched_at": "2026-08-13T13:45:38.328905"
+  "fetched_at": "2026-10-15T10:15:42.928884"
 }

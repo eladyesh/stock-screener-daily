@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "MS",
-    "fetch_date": "2026-08-14T13:58:54.510633",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:34:13.245891+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 27.42886439374519,
+    "revenue_qoq_change": 2.8979507348375178,
+    "eps_yoy_change": 62.44131455399062,
+    "eps_qoq_change": 0.8746355685131046,
+    "latest_eps": 3.46,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.06779320056327,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.5065913370998163,
+    "free_cash_flow_ttm": -18582000000.0,
+    "operating_cash_flow_ttm": -15587000000.0,
+    "revenue_ttm": 73053000000.0,
+    "net_income_ttm": 20155000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 422375000000.0,
+    "cash": 123037000000.0,
+    "total_assets": 1675057000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 15604000000.0,
-      "2025-09-30 00:00:00": 17083000000.0,
-      "2025-12-31 00:00:00": 16762000000.0,
-      "2026-03-31 00:00:00": 19324000000.0,
-      "2026-06-30 00:00:00": 19884000000.0
+      "2025-03-31": null,
+      "2025-06-30": 15604000000.0,
+      "2025-09-30": 17083000000.0,
+      "2025-12-31": 16762000000.0,
+      "2026-03-31": 19324000000.0,
+      "2026-06-30": 19884000000.0
     },
-    "revenue_qoq_change": 2.8979507348375075,
-    "revenue_yoy_change": 27.428864393745194,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.13,
-      "2025-09-30 00:00:00": 2.8,
-      "2025-12-31 00:00:00": 2.68,
-      "2026-03-31 00:00:00": 3.43,
-      "2026-06-30 00:00:00": 3.46
+      "2025-03-31": null,
+      "2025-06-30": 2.13,
+      "2025-09-30": 2.8,
+      "2025-12-31": 2.68,
+      "2026-03-31": 3.43,
+      "2026-06-30": 3.46
     },
-    "eps_qoq_change": 0.8746355685131139,
-    "eps_yoy_change": 62.441314553990615,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -25.436327050223813,
+    "net_debt": 299338000000.0,
+    "debt_to_assets": 25.215559828710305,
+    "ticker": "MS"
   },
-  "fetched_at": "2026-08-14T13:58:54.511344"
+  "fetched_at": "2026-10-15T10:34:13.249643"
 }

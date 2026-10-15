@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BOX",
-    "fetch_date": "2026-08-13T13:35:52.828433",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:58.846166+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 9.234045013758552,
+    "revenue_qoq_change": 4.9702393598765715,
+    "eps_yoy_change": 79.99999999999999,
+    "eps_qoq_change": 12.5,
+    "latest_eps": 0.09,
+    "gross_margin": 79.08060794589393,
+    "operating_margin": 10.162013034529359,
+    "net_margin": 5.985109622696148,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.533321862053444,
+    "free_cash_flow_ttm": 349663000.0,
+    "operating_cash_flow_ttm": 394463000.0,
+    "revenue_ttm": 1234070000.0,
+    "net_income_ttm": 130691000.0,
+    "ebitda_ttm": 168805000.0,
+    "total_debt": 525358000.0,
+    "cash": 444136000.0,
+    "total_assets": 1404234000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 276272000.0,
-      "2025-07-31 00:00:00": 293999000.0,
-      "2025-10-31 00:00:00": 301107000.0,
-      "2026-01-31 00:00:00": 305875000.0,
-      "2026-04-30 00:00:00": 305941000.0
+      "2025-07-31": 293999000.0,
+      "2025-10-31": 301107000.0,
+      "2026-01-31": 305875000.0,
+      "2026-04-30": 305941000.0,
+      "2026-07-31": 321147000.0
     },
-    "revenue_qoq_change": 0.021577441765427054,
-    "revenue_yoy_change": 10.739054265361672,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": 0.02,
-      "2025-07-31 00:00:00": 0.05,
-      "2025-10-31 00:00:00": 0.05,
-      "2026-01-31 00:00:00": 0.47,
-      "2026-04-30 00:00:00": 0.08
+      "2025-07-31": 0.05,
+      "2025-10-31": 0.05,
+      "2026-01-31": 0.47,
+      "2026-04-30": 0.08,
+      "2026-07-31": 0.09
     },
-    "eps_qoq_change": -82.97872340425532,
-    "eps_yoy_change": 300.0,
-    "gross_margin": 79.49,
-    "margin_change": -0.6,
-    "operating_margin": 8.97,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.41380437543600124,
+    "operating_margin_yoy_change": 3.162669499347266,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.33413015469139,
+    "net_debt": 81222000.0,
+    "net_debt_to_ebitda": 0.48115873344983856,
+    "debt_to_assets": 37.41242556440024,
+    "ticker": "BOX"
   },
-  "fetched_at": "2026-08-13T13:35:52.829771"
+  "fetched_at": "2026-10-15T10:05:58.851016"
 }

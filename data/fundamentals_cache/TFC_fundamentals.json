@@ -1,30 +1,51 @@
 {
   "data": {
-    "ticker": "TFC",
-    "fetch_date": "2026-08-14T14:16:44.650897",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:56.261555+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 5.164319248826299,
+    "revenue_qoq_change": -1.7918414029736929,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 9.000000000000007,
+    "latest_eps": 1.09,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.74611801242236,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 5672000000.0,
+    "operating_cash_flow_ttm": 5672000000.0,
+    "revenue_ttm": 20572000000.0,
+    "net_income_ttm": 5527000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 69063000000.0,
+    "cash": 36197000000.0,
+    "total_assets": 548975000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 4899000000.0,
-      "2025-06-30 00:00:00": 4987000000.0,
-      "2025-09-30 00:00:00": 5187000000.0,
-      "2025-12-31 00:00:00": 5246000000.0,
-      "2026-03-31 00:00:00": 5152000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 4899000000.0,
+      "2025-06-30": 4987000000.0,
+      "2025-09-30": 5187000000.0,
+      "2025-12-31": 5246000000.0,
+      "2026-03-31": 5152000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.9,
-      "2025-09-30 00:00:00": 1.04,
-      "2025-12-31 00:00:00": 1.0,
-      "2026-03-31 00:00:00": 1.09,
-      "2026-06-30 00:00:00": 1.23
+      "2025-03-31": null,
+      "2025-06-30": 0.9,
+      "2025-09-30": 1.04,
+      "2025-12-31": 1.0,
+      "2026-03-31": 1.09
     },
-    "eps_qoq_change": 12.844036697247695,
-    "eps_yoy_change": 36.666666666666664,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 27.571456348434765,
+    "net_debt": 32866000000.0,
+    "debt_to_assets": 12.580354296643744,
+    "ticker": "TFC"
   },
-  "fetched_at": "2026-08-14T14:16:44.651593"
+  "fetched_at": "2026-10-15T10:51:56.265506"
 }

@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "ICE",
-    "fetch_date": "2026-08-10T13:52:41.987789",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3262000000.0,
-      "2025-09-30 00:00:00": 3007000000.0,
-      "2025-12-31 00:00:00": 3142000000.0,
-      "2026-03-31 00:00:00": 3666000000.0,
-      "2026-06-30 00:00:00": 3611000000.0
-    },
-    "revenue_qoq_change": -1.5002727768685216,
-    "revenue_yoy_change": 10.698957694665848,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 1.38,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 1.42,
-      "2025-12-31 00:00:00": 1.49,
-      "2026-03-31 00:00:00": 2.48,
-      "2026-06-30 00:00:00": 1.69
-    },
-    "eps_qoq_change": -31.85483870967742,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:20.125754+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.698957694665845,
+    "revenue_qoq_change": -1.5002727768685165,
     "eps_yoy_change": null,
-    "gross_margin": 53.03,
-    "margin_change": -7.91,
-    "operating_margin": 38.85,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -31.854838709677423,
+    "latest_eps": 1.69,
+    "gross_margin": 53.032400996953754,
+    "operating_margin": 38.853503184713375,
+    "net_margin": 26.530047078371645,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.5652173913043521,
+    "free_cash_flow_ttm": 4641000000.0,
+    "operating_cash_flow_ttm": 5514000000.0,
+    "revenue_ttm": 13426000000.0,
+    "net_income_ttm": 4038000000.0,
+    "ebitda_ttm": 7684000000.0,
+    "total_debt": 20527000000.0,
+    "cash": 2623000000.0,
+    "total_assets": 174247000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 3262000000.0,
+      "2025-09-30": 3007000000.0,
+      "2025-12-31": 3142000000.0,
+      "2026-03-31": 3666000000.0,
+      "2026-06-30": 3611000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.38,
+      "2025-06-30": null,
+      "2025-09-30": 1.42,
+      "2025-12-31": 1.49,
+      "2026-03-31": 2.48,
+      "2026-06-30": 1.69
+    },
+    "quarterly_inventory": {},
+    "margin_change": -7.905951430760375,
+    "operating_margin_yoy_change": -1.2139401016140354,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.56725755995829,
+    "net_debt": 17904000000.0,
+    "net_debt_to_ebitda": 2.3300364393545028,
+    "debt_to_assets": 11.7804036798338,
+    "ticker": "ICE"
   },
-  "fetched_at": "2026-08-10T13:52:41.988982"
+  "fetched_at": "2026-10-15T10:25:20.130606"
 }

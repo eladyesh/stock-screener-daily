@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "SM",
-    "fetch_date": "2026-08-14T14:13:29.787397",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 785000000.0,
-      "2025-09-30 00:00:00": 811009000.0,
-      "2025-12-31 00:00:00": 702295000.0,
-      "2026-03-31 00:00:00": 1477000000.0,
-      "2026-06-30 00:00:00": 2156000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:48:40.304696+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 174.6496815286624,
     "revenue_qoq_change": 45.97156398104265,
-    "revenue_yoy_change": 174.64968152866243,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.76,
-      "2025-09-30 00:00:00": 1.35,
-      "2025-12-31 00:00:00": 0.95,
-      "2026-03-31 00:00:00": -1.68,
-      "2026-06-30 00:00:00": 4.46
-    },
-    "eps_qoq_change": 365.4761904761905,
     "eps_yoy_change": 153.4090909090909,
-    "gross_margin": 46.75,
-    "margin_change": 4.98,
-    "operating_margin": 44.62,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 4.46,
+    "gross_margin": 46.75324675324675,
+    "operating_margin": 44.61966604823748,
+    "net_margin": 49.67532467532468,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 109.08108861553471,
+    "free_cash_flow_ttm": 743000000.0,
+    "operating_cash_flow_ttm": 2700000000.0,
+    "revenue_ttm": 5146304000.0,
+    "net_income_ttm": 1000066000.0,
+    "ebitda_ttm": 3302563000.0,
+    "total_debt": 7036000000.0,
+    "cash": 620000000.0,
+    "total_assets": 18858000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 785000000.0,
+      "2025-09-30": 811009000.0,
+      "2025-12-31": 702295000.0,
+      "2026-03-31": 1477000000.0,
+      "2026-06-30": 2156000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.76,
+      "2025-09-30": 1.35,
+      "2025-12-31": 0.95,
+      "2026-03-31": -1.68,
+      "2026-06-30": 4.46
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.979380808764688,
+    "operating_margin_yoy_change": 16.97635394632665,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 14.437545858153737,
+    "net_debt": 6416000000.0,
+    "net_debt_to_ebitda": 1.94273356783807,
+    "debt_to_assets": 37.310425283699225,
+    "ticker": "SM"
   },
-  "fetched_at": "2026-08-14T14:13:29.788740"
+  "fetched_at": "2026-10-15T10:48:40.309708"
 }

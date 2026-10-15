@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "CNOB",
-    "fetch_date": "2026-08-13T13:40:23.167030",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:10:32.899159+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 44.60436789265832,
+    "revenue_qoq_change": 5.160899653979234,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 11.111111111111116,
+    "latest_eps": 0.8,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.27603112712436,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 19.516733604816537,
+    "free_cash_flow_ttm": 127697000.0,
+    "operating_cash_flow_ttm": 134836000.0,
+    "revenue_ttm": 461098000.0,
+    "net_income_ttm": 159984000.0,
+    "ebitda_ttm": null,
+    "total_debt": 950581000.0,
+    "cash": 362276000.0,
+    "total_assets": 14411864000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 70207000.0,
-      "2025-06-30 00:00:00": 84068000.0,
-      "2025-09-30 00:00:00": 111317000.0,
-      "2025-12-31 00:00:00": 112615000.0,
-      "2026-03-31 00:00:00": 115600000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-06-30": 84068000.0,
+      "2025-09-30": 111317000.0,
+      "2025-12-31": 112615000.0,
+      "2026-03-31": 115600000.0,
+      "2026-06-30": 121566000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.52,
-      "2025-09-30 00:00:00": 0.78,
-      "2025-12-31 00:00:00": 0.75,
-      "2026-03-31 00:00:00": 0.72,
-      "2026-06-30 00:00:00": 0.8
+      "2025-06-30": -0.52,
+      "2025-09-30": 0.78,
+      "2025-12-31": 0.75,
+      "2026-03-31": 0.72,
+      "2026-06-30": 0.8
     },
-    "eps_qoq_change": 11.111111111111121,
-    "eps_yoy_change": 253.84615384615384,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 27.694112748266097,
+    "net_debt": 588305000.0,
+    "debt_to_assets": 6.5958227193928565,
+    "ticker": "CNOB"
   },
-  "fetched_at": "2026-08-13T13:40:23.168147"
+  "fetched_at": "2026-10-15T10:10:32.902847"
 }

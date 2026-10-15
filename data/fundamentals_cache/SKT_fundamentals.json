@@ -1,42 +1,61 @@
 {
   "data": {
-    "ticker": "SKT",
-    "fetch_date": "2026-08-14T14:13:01.798658",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 140694000.0,
-      "2025-09-30 00:00:00": 145208000.0,
-      "2025-12-31 00:00:00": 160297000.0,
-      "2026-03-31 00:00:00": 150417000.0,
-      "2026-06-30 00:00:00": 156388000.0
-    },
-    "revenue_qoq_change": 3.9696310922302662,
-    "revenue_yoy_change": 11.154704536085406,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.26,
-      "2025-09-30 00:00:00": 0.28,
-      "2025-12-31 00:00:00": 0.29,
-      "2026-03-31 00:00:00": 0.24,
-      "2026-06-30 00:00:00": 0.29
-    },
-    "eps_qoq_change": 20.83333333333333,
-    "eps_yoy_change": 11.538461538461526,
-    "gross_margin": 70.92,
-    "margin_change": 1.99,
-    "operating_margin": 30.98,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 16628000.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:48:12.389726+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.154704536085402,
+    "revenue_qoq_change": 3.9696310922302747,
+    "eps_yoy_change": 11.538461538461519,
+    "eps_qoq_change": 20.833333333333325,
+    "latest_eps": 0.29,
+    "gross_margin": 70.92296084098524,
+    "operating_margin": 30.982556206358545,
+    "net_margin": 21.255467171394223,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 1.410758567510495,
+    "free_cash_flow_ttm": 301722000.0,
+    "operating_cash_flow_ttm": 301722000.0,
+    "revenue_ttm": 612310000.0,
+    "net_income_ttm": 126991000.0,
+    "ebitda_ttm": 364029000.0,
+    "total_debt": 1951740000.0,
+    "cash": 196878000.0,
+    "total_assets": 2859693000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 140694000.0,
+      "2025-09-30": 145208000.0,
+      "2025-12-31": 160297000.0,
+      "2026-03-31": 150417000.0,
+      "2026-06-30": 156388000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.26,
+      "2025-09-30": 0.28,
+      "2025-12-31": 0.29,
+      "2026-03-31": 0.24,
+      "2026-06-30": 0.29
+    },
+    "quarterly_inventory": {
+      "2025-03-31": 16628000.0,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 1.9919224610148945,
+    "operating_margin_yoy_change": -0.8034474611752529,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 49.27602031650635,
+    "net_debt": 1754862000.0,
+    "net_debt_to_ebitda": 4.820665386548874,
+    "debt_to_assets": 68.24998347724738,
+    "ticker": "SKT"
   },
-  "fetched_at": "2026-08-14T14:13:01.800422"
+  "fetched_at": "2026-10-15T10:48:12.394893"
 }

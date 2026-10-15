@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "NRIM",
-    "fetch_date": "2026-08-14T14:01:26.603275",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:36:41.220195+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.248367574454528,
+    "revenue_qoq_change": 8.746467501009292,
+    "eps_yoy_change": 30.14354066985647,
+    "eps_qoq_change": 11.475409836065587,
+    "latest_eps": 0.68,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.47808735359085,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.43756119067110966,
+    "free_cash_flow_ttm": 186092000.0,
+    "operating_cash_flow_ttm": 194511000.0,
+    "revenue_ttm": 221655000.0,
+    "net_income_ttm": 68523000.0,
+    "ebitda_ttm": null,
+    "total_debt": 93033000.0,
+    "cash": 172213000.0,
+    "total_assets": 3415386000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 50232000.0,
-      "2025-09-30 00:00:00": 52374000.0,
-      "2025-12-31 00:00:00": 65868000.0,
-      "2026-03-31 00:00:00": 49540000.0,
-      "2026-06-30 00:00:00": 53873000.0
+      "2025-06-30": 50232000.0,
+      "2025-09-30": 52374000.0,
+      "2025-12-31": 65868000.0,
+      "2026-03-31": 49540000.0,
+      "2026-06-30": 53873000.0
     },
-    "revenue_qoq_change": 8.746467501009285,
-    "revenue_yoy_change": 7.248367574454531,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 1.2,
-      "2025-12-31 00:00:00": 0.55,
-      "2026-03-31 00:00:00": 0.61,
-      "2026-06-30 00:00:00": 0.68
+      "2025-06-30": 0.5225,
+      "2025-09-30": 1.2,
+      "2025-12-31": 0.55,
+      "2026-03-31": 0.61,
+      "2026-06-30": 0.68
     },
-    "eps_qoq_change": 11.475409836065584,
-    "eps_yoy_change": 30.769230769230777,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 83.95569691637905,
+    "net_debt": -79180000.0,
+    "debt_to_assets": 2.7239380848899657,
+    "ticker": "NRIM"
   },
-  "fetched_at": "2026-08-14T14:01:26.603939"
+  "fetched_at": "2026-10-15T10:36:41.223925"
 }

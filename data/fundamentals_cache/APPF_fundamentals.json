@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "APPF",
-    "fetch_date": "2026-08-10T13:28:31.851601",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 235575000.0,
-      "2025-09-30 00:00:00": 249353000.0,
-      "2025-12-31 00:00:00": 248192000.0,
-      "2026-03-31 00:00:00": 262214000.0,
-      "2026-06-30 00:00:00": 281124000.0
-    },
-    "revenue_qoq_change": 7.21166680650156,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:01:19.901445+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 19.335243553008596,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.99,
-      "2025-09-30 00:00:00": 0.93,
-      "2025-12-31 00:00:00": 1.1,
-      "2026-03-31 00:00:00": 1.18,
-      "2026-06-30 00:00:00": 1.17
+    "revenue_qoq_change": 7.21166680650156,
+    "eps_yoy_change": 18.181818181818166,
+    "eps_qoq_change": -0.8474576271186418,
+    "latest_eps": 1.17,
+    "gross_margin": 63.50542820961569,
+    "operating_margin": 18.844709096341827,
+    "net_margin": 14.777820463567679,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.0522594188487453,
+    "free_cash_flow_ttm": 265505000.0,
+    "operating_cash_flow_ttm": 272899000.0,
+    "revenue_ttm": 1040883000.0,
+    "net_income_ttm": 157528000.0,
+    "ebitda_ttm": 205237000.0,
+    "total_debt": 35775000.0,
+    "cash": 221685000.0,
+    "total_assets": 648371000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 235575000.0,
+      "2025-09-30": 249353000.0,
+      "2025-12-31": 248192000.0,
+      "2026-03-31": 262214000.0,
+      "2026-06-30": 281124000.0
     },
-    "eps_qoq_change": -0.8474576271186449,
-    "eps_yoy_change": 18.181818181818176,
-    "gross_margin": 63.51,
-    "margin_change": -0.27,
-    "operating_margin": 18.84,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.99,
+      "2025-09-30": 0.93,
+      "2025-12-31": 1.1,
+      "2026-03-31": 1.18,
+      "2026-06-30": 1.17
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.2741564044781484,
+    "operating_margin_yoy_change": 1.6476380998438955,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.50766993024192,
+    "net_debt": -185910000.0,
+    "net_debt_to_ebitda": -0.9058308199788537,
+    "debt_to_assets": 5.517674294501142,
+    "ticker": "APPF"
   },
-  "fetched_at": "2026-08-10T13:28:31.852789"
+  "fetched_at": "2026-10-15T10:01:19.906296"
 }

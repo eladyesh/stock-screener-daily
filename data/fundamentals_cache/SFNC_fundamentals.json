@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "SFNC",
-    "fetch_date": "2026-08-14T14:12:19.753002",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:47:29.261241+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.407172005858172,
+    "revenue_qoq_change": 3.083212316060746,
+    "eps_yoy_change": 6.976744186046524,
+    "eps_qoq_change": -2.127659574468077,
+    "latest_eps": 0.46,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 27.1538737154118,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 14.087783809380937,
+    "free_cash_flow_ttm": 481969000.0,
+    "operating_cash_flow_ttm": 523924000.0,
+    "revenue_ttm": 160236000.0,
+    "net_income_ttm": -349479000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1253284000.0,
+    "cash": 589584000.0,
+    "total_assets": 24776816000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 210987000.0,
-      "2025-09-30 00:00:00": -572743000.0,
-      "2025-12-31 00:00:00": 249117000.0,
-      "2026-03-31 00:00:00": 238258000.0,
-      "2026-06-30 00:00:00": 245604000.0
+      "2025-03-31": null,
+      "2025-06-30": 210987000.0,
+      "2025-09-30": -572743000.0,
+      "2025-12-31": 249117000.0,
+      "2026-03-31": 238258000.0,
+      "2026-06-30": 245604000.0
     },
-    "revenue_qoq_change": 3.0832123160607408,
-    "revenue_yoy_change": 16.407172005858182,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.43,
-      "2025-09-30 00:00:00": -4.01,
-      "2025-12-31 00:00:00": 0.54,
-      "2026-03-31 00:00:00": 0.47,
-      "2026-06-30 00:00:00": 0.46
+      "2025-03-31": null,
+      "2025-06-30": 0.43,
+      "2025-09-30": -4.01,
+      "2025-12-31": 0.54,
+      "2026-03-31": 0.47,
+      "2026-06-30": 0.46
     },
-    "eps_qoq_change": -2.1276595744680753,
-    "eps_yoy_change": 6.976744186046519,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 300.78696422776403,
+    "net_debt": 663700000.0,
+    "debt_to_assets": 5.058293204421424,
+    "ticker": "SFNC"
   },
-  "fetched_at": "2026-08-14T14:12:19.753691"
+  "fetched_at": "2026-10-15T10:47:29.265059"
 }

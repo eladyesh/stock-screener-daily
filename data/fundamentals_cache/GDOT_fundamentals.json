@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "GDOT",
-    "fetch_date": "2026-08-14T13:45:19.062839",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:20:44.062538+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.189481450921896,
+    "revenue_qoq_change": -9.198365859196311,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -104.3010752688172,
+    "latest_eps": -0.04,
+    "gross_margin": 23.596410704786006,
+    "operating_margin": -0.3769196301958606,
+    "net_margin": -0.3502365397234021,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.9713207684074927,
+    "free_cash_flow_ttm": 83035000.0,
+    "operating_cash_flow_ttm": 155541000.0,
+    "revenue_ttm": 2269571000.0,
+    "net_income_ttm": -25948000.0,
+    "ebitda_ttm": 114738000.0,
+    "total_debt": 65511000.0,
+    "cash": 1143395000.0,
+    "total_assets": 6192055000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 558874000.0,
-      "2025-06-30 00:00:00": 504176000.0,
-      "2025-09-30 00:00:00": 494826000.0,
-      "2025-12-31 00:00:00": 522615000.0,
-      "2026-03-31 00:00:00": 656247000.0
+      "2025-06-30": 504176000.0,
+      "2025-09-30": 494826000.0,
+      "2025-12-31": 522615000.0,
+      "2026-03-31": 656247000.0,
+      "2026-06-30": 595883000.0
     },
-    "revenue_qoq_change": 25.569874573060474,
-    "revenue_yoy_change": 17.423068527074083,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.47,
-      "2025-06-30 00:00:00": -0.85,
-      "2025-09-30 00:00:00": -0.56,
-      "2025-12-31 00:00:00": -0.84,
-      "2026-03-31 00:00:00": 0.93
+      "2025-06-30": -0.85,
+      "2025-09-30": -0.56,
+      "2025-12-31": -0.84,
+      "2026-03-31": 0.93,
+      "2026-06-30": -0.04
     },
-    "eps_qoq_change": 210.71428571428572,
-    "eps_yoy_change": 97.87234042553193,
-    "gross_margin": 33.57,
-    "margin_change": 11.08,
-    "operating_margin": 10.29,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -9.974180856013515,
+    "operating_margin_yoy_change": -2.711025180638563,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 3.658620946425558,
+    "net_debt": -1077884000.0,
+    "net_debt_to_ebitda": -9.394307029929056,
+    "debt_to_assets": 1.057984788571807,
+    "ticker": "GDOT"
   },
-  "fetched_at": "2026-08-14T13:45:19.064201"
+  "fetched_at": "2026-10-15T10:20:44.067483"
 }

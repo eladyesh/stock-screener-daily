@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "SAP",
-    "fetch_date": "2026-08-11T14:11:07.161189",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 9027000000.0,
-      "2025-09-30 00:00:00": 9076000000.0,
-      "2025-12-31 00:00:00": 9684000000.0,
-      "2026-03-31 00:00:00": 9555000000.0,
-      "2026-06-30 00:00:00": 9878000000.0
-    },
-    "revenue_qoq_change": 3.380429094714809,
-    "revenue_yoy_change": 9.427273734352498,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.44,
-      "2025-09-30 00:00:00": 1.71,
-      "2025-12-31 00:00:00": 1.57,
-      "2026-03-31 00:00:00": 1.65,
-      "2026-06-30 00:00:00": 1.88
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:29.280142+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.427273734352504,
+    "revenue_qoq_change": 3.3804290947148097,
+    "eps_yoy_change": 30.555555555555557,
     "eps_qoq_change": 13.939393939393941,
-    "eps_yoy_change": 30.555555555555554,
-    "gross_margin": 73.17,
-    "margin_change": 0.2,
-    "operating_margin": 26.84,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.88,
+    "gross_margin": 73.1727070257137,
+    "operating_margin": 26.83741648106904,
+    "net_margin": 22.06924478639401,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.4468085106382977,
+    "free_cash_flow_ttm": 8730000000.0,
+    "operating_cash_flow_ttm": 9465000000.0,
+    "revenue_ttm": 38193000000.0,
+    "net_income_ttm": 7796000000.0,
+    "ebitda_ttm": 12876000000.0,
+    "total_debt": 10507000000.0,
+    "cash": 11625000000.0,
+    "total_assets": 75609000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 9027000000.0,
+      "2025-09-30": 9076000000.0,
+      "2025-12-31": 9684000000.0,
+      "2026-03-31": 9555000000.0,
+      "2026-06-30": 9878000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.44,
+      "2025-09-30": 1.71,
+      "2025-12-31": 1.57,
+      "2026-03-31": 1.65,
+      "2026-06-30": 1.88
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.19520833392930115,
+    "operating_margin_yoy_change": -0.5692524011731201,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 22.85759170528631,
+    "net_debt": -1118000000.0,
+    "net_debt_to_ebitda": -0.08682820751786269,
+    "debt_to_assets": 13.896493803647713,
+    "ticker": "SAP"
   },
-  "fetched_at": "2026-08-11T14:11:07.162156"
+  "fetched_at": "2026-10-15T10:46:29.285172"
 }

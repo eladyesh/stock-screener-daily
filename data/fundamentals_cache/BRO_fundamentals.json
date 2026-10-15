@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "BRO",
-    "fetch_date": "2026-08-13T13:36:13.080234",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1249000000.0,
-      "2025-09-30 00:00:00": 1550000000.0,
-      "2025-12-31 00:00:00": 1580000000.0,
-      "2026-03-31 00:00:00": 1880000000.0,
-      "2026-06-30 00:00:00": 1654000000.0
-    },
-    "revenue_qoq_change": -12.02127659574468,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:06:18.953800+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 32.42594075260208,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.78,
-      "2025-09-30 00:00:00": 0.68,
-      "2025-12-31 00:00:00": 0.59,
-      "2026-03-31 00:00:00": 1.06,
-      "2026-06-30 00:00:00": 0.84
-    },
+    "revenue_qoq_change": -12.021276595744679,
+    "eps_yoy_change": 7.692307692307687,
     "eps_qoq_change": -20.75471698113208,
-    "eps_yoy_change": 7.6923076923076845,
-    "gross_margin": 49.33,
-    "margin_change": -2.42,
-    "operating_margin": 25.21,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.84,
+    "gross_margin": 49.334945586457074,
+    "operating_margin": 25.211608222490934,
+    "net_margin": 17.412333736396615,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 13.993174061433455,
+    "free_cash_flow_ttm": 1446000000.0,
+    "operating_cash_flow_ttm": 1520000000.0,
+    "revenue_ttm": 6664000000.0,
+    "net_income_ttm": 1205000000.0,
+    "ebitda_ttm": 2468000000.0,
+    "total_debt": 8007000000.0,
+    "cash": 918000000.0,
+    "total_assets": 29887000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1249000000.0,
+      "2025-09-30": 1550000000.0,
+      "2025-12-31": 1580000000.0,
+      "2026-03-31": 1880000000.0,
+      "2026-06-30": 1654000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.78,
+      "2025-09-30": 0.68,
+      "2025-12-31": 0.59,
+      "2026-03-31": 1.06,
+      "2026-06-30": 0.84
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.4203735624790994,
+    "operating_margin_yoy_change": -1.7699770457236355,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.698679471788715,
+    "net_debt": 7089000000.0,
+    "net_debt_to_ebitda": 2.8723662884927066,
+    "debt_to_assets": 26.79091243684545,
+    "ticker": "BRO"
   },
-  "fetched_at": "2026-08-13T13:36:13.081592"
+  "fetched_at": "2026-10-15T10:06:18.958885"
 }

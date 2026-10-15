@@ -1,40 +1,58 @@
 {
   "data": {
-    "ticker": "MDLN",
-    "fetch_date": "2026-10-05T16:37:13.782127",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 6644000000.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 7787000000.0,
-      "2026-03-31 00:00:00": 7352000000.0,
-      "2026-06-30 00:00:00": 7685000000.0
-    },
-    "revenue_qoq_change": 4.529379760609358,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:31.145097+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.416354,
-      "2025-09-30 00:00:00": 0.176184,
-      "2025-12-31 00:00:00": -0.01,
-      "2026-03-31 00:00:00": 0.16,
-      "2026-06-30 00:00:00": 0.07
-    },
-    "eps_qoq_change": -56.25,
+    "revenue_qoq_change": 4.529379760609364,
     "eps_yoy_change": -83.18738381281314,
-    "gross_margin": 28.82,
-    "margin_change": 3.78,
-    "operating_margin": 5.14,
-    "quarterly_inventory": {
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 4769000000.0,
-      "2026-03-31 00:00:00": 4807000000.0,
-      "2026-06-30 00:00:00": 4665000000.0
+    "eps_qoq_change": -56.25,
+    "latest_eps": 0.07,
+    "gross_margin": 28.822381262199087,
+    "operating_margin": 5.139882888744307,
+    "net_margin": 0.7807417046193884,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": -2.954025379654668,
+    "shares_yoy_change": 7.65193935956503,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 12640000000.0,
+    "cash": 2677000000.0,
+    "total_assets": 39350000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 6644000000.0,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 7787000000.0,
+      "2026-03-31": 7352000000.0,
+      "2026-06-30": 7685000000.0
     },
-    "inventory_qoq_change": -2.95,
-    "inventory_to_sales_ratio": 0.607,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.416354,
+      "2025-09-30": 0.176184,
+      "2025-12-31": -0.01,
+      "2026-03-31": 0.16,
+      "2026-06-30": 0.07
+    },
+    "quarterly_inventory": {
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 4769000000.0,
+      "2026-03-31": 4807000000.0,
+      "2026-06-30": 4665000000.0
+    },
+    "margin_change": 3.7815760391305346,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": 0.6070266753415745,
+    "net_debt": 9963000000.0,
+    "debt_to_assets": 32.12198221092758,
+    "ticker": "MDLN"
   },
-  "fetched_at": "2026-10-05T16:37:13.784096"
+  "fetched_at": "2026-10-15T10:32:31.147047"
 }

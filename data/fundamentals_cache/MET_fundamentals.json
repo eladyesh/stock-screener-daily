@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "MET",
-    "fetch_date": "2026-08-14T13:57:24.177540",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:42.089524+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.903353516534708,
+    "revenue_qoq_change": 1.4020197679415647,
+    "eps_yoy_change": 6.515145631067942,
+    "eps_qoq_change": -36.897158633383185,
+    "latest_eps": 1.097106,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 3.898924617259098,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.162962962962968,
+    "free_cash_flow_ttm": 15558000000.0,
+    "operating_cash_flow_ttm": 15558000000.0,
+    "revenue_ttm": 77665000000.0,
+    "net_income_ttm": 3626000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 21345000000.0,
+    "cash": 122037000000.0,
+    "total_assets": 759372000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 17176000000.0,
-      "2025-09-30 00:00:00": 16881000000.0,
-      "2025-12-31 00:00:00": 23291000000.0,
-      "2026-03-31 00:00:00": 18616000000.0,
-      "2026-06-30 00:00:00": 18877000000.0
+      "2025-06-30": 17176000000.0,
+      "2025-09-30": 16881000000.0,
+      "2025-12-31": 23291000000.0,
+      "2026-03-31": 18616000000.0,
+      "2026-06-30": 18877000000.0
     },
-    "revenue_qoq_change": 1.4020197679415556,
-    "revenue_yoy_change": 9.903353516534699,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.03,
-      "2025-09-30 00:00:00": 1.22,
-      "2025-12-31 00:00:00": 1.17,
-      "2026-03-31 00:00:00": 1.7386,
-      "2026-06-30 00:00:00": 1.097106
+      "2025-06-30": 1.03,
+      "2025-09-30": 1.22,
+      "2025-12-31": 1.17,
+      "2026-03-31": 1.7386,
+      "2026-06-30": 1.097106
     },
-    "eps_qoq_change": -36.89715863338318,
-    "eps_yoy_change": 6.51514563106795,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.032189531964207,
+    "net_debt": -100692000000.0,
+    "debt_to_assets": 2.8108753022234163,
+    "ticker": "MET"
   },
-  "fetched_at": "2026-08-14T13:57:24.178248"
+  "fetched_at": "2026-10-15T10:32:42.093301"
 }

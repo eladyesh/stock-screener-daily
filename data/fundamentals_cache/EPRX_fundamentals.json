@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "EPRX",
-    "fetch_date": "2026-08-10T13:43:57.871086",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:16:38.863911+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.21,
-      "2025-06-30 00:00:00": -0.26,
-      "2025-09-30 00:00:00": -0.19,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.23
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -9.523809523809533,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.23,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 84.39832700556993,
+    "free_cash_flow_ttm": -38227512.0,
+    "operating_cash_flow_ttm": -37473789.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -50213005.0,
+    "ebitda_ttm": -56914251.0,
+    "total_debt": 1842903.0,
+    "cash": 133660855.0,
+    "total_assets": 139907536.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.21,
+      "2025-06-30": -0.26,
+      "2025-09-30": -0.19,
+      "2025-12-31": null,
+      "2026-03-31": -0.23,
+      "2026-06-30": -0.23
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -131817952.0,
+    "debt_to_assets": 1.3172292591872965,
+    "ticker": "EPRX"
   },
-  "fetched_at": "2026-08-10T13:43:57.871958"
+  "fetched_at": "2026-10-15T10:16:38.869038"
 }

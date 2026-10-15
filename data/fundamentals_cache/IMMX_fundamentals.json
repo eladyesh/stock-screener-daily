@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "IMMX",
-    "fetch_date": "2026-08-13T13:55:49.409940",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:49.016368+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.15,
-      "2025-06-30 00:00:00": -0.22,
-      "2025-09-30 00:00:00": -0.24,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.18,
-      "2026-06-30 00:00:00": -0.18
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.18,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 112.68636252606576,
+    "free_cash_flow_ttm": -39089192.0,
+    "operating_cash_flow_ttm": -38498081.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -39917211.0,
+    "ebitda_ttm": -41328847.0,
+    "total_debt": 1001752.0,
+    "cash": 232107153.0,
+    "total_assets": 239108896.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": 0.0,
-    "eps_yoy_change": 18.181818181818183,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": -0.15,
+      "2025-06-30": -0.22,
+      "2025-09-30": -0.24,
+      "2025-12-31": null,
+      "2026-03-31": -0.18,
+      "2026-06-30": -0.18
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -231105401.0,
+    "debt_to_assets": 0.4189522082858849,
+    "ticker": "IMMX"
   },
-  "fetched_at": "2026-08-13T13:55:49.410892"
+  "fetched_at": "2026-10-15T10:25:49.021251"
 }

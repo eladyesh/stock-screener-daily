@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "PAYX",
-    "fetch_date": "2026-08-14T14:04:52.671586",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:08.361652+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 12.485111749457012,
+    "revenue_qoq_change": -11.244402675659238,
+    "eps_yoy_change": 42.68292682926828,
+    "eps_qoq_change": -25.00000000000001,
+    "latest_eps": 1.17,
+    "gross_margin": 74.0080971659919,
+    "operating_margin": 37.66427904079726,
+    "net_margin": 26.197446278417942,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.1316588462600086,
+    "free_cash_flow_ttm": 2321800000.0,
+    "operating_cash_flow_ttm": 2556700000.0,
+    "revenue_ttm": 6512000000.0,
+    "net_income_ttm": 1760100000.0,
+    "ebitda_ttm": 3023000000.0,
+    "total_debt": 4608300000.0,
+    "cash": 1124500000.0,
+    "total_assets": 16174500000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-05-31 00:00:00": 1427300000.0,
-      "2025-08-31 00:00:00": 1540000000.0,
-      "2025-11-30 00:00:00": 1557600000.0,
-      "2026-02-28 00:00:00": 1808900000.0,
-      "2026-05-31 00:00:00": 1605500000.0
+      "2025-05-31": 1427300000.0,
+      "2025-08-31": 1540000000.0,
+      "2025-11-30": 1557600000.0,
+      "2026-02-28": 1808900000.0,
+      "2026-05-31": 1605500000.0
     },
-    "revenue_qoq_change": -11.24440267565924,
-    "revenue_yoy_change": 12.485111749457017,
     "quarterly_eps": {
-      "2025-05-31 00:00:00": 0.82,
-      "2025-08-31 00:00:00": 1.06,
-      "2025-11-30 00:00:00": 1.1,
-      "2026-02-28 00:00:00": 1.56,
-      "2026-05-31 00:00:00": 1.17
+      "2025-05-31": 0.82,
+      "2025-08-31": 1.06,
+      "2025-11-30": 1.1,
+      "2026-02-28": 1.56,
+      "2026-05-31": 1.17
     },
-    "eps_qoq_change": -25.000000000000007,
-    "eps_yoy_change": 42.68292682926829,
-    "gross_margin": 74.01,
-    "margin_change": -2.15,
-    "operating_margin": 37.66,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -2.1542114193361925,
+    "operating_margin_yoy_change": 7.460397586302758,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.65417690417691,
+    "net_debt": 3483800000.0,
+    "net_debt_to_ebitda": 1.1524313595765796,
+    "debt_to_assets": 28.49114346656775,
+    "ticker": "PAYX"
   },
-  "fetched_at": "2026-08-14T14:04:52.672901"
+  "fetched_at": "2026-10-15T10:40:08.366404"
 }

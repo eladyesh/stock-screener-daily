@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "WLTH",
-    "fetch_date": "2026-10-01T15:30:07.515008",
-    "quarterly_revenue": {
-      "2025-07-31 00:00:00": 91123000.0,
-      "2025-10-31 00:00:00": 93220000.0,
-      "2026-01-31 00:00:00": 96136000.0,
-      "2026-04-30 00:00:00": 90484000.0,
-      "2026-07-31 00:00:00": 91874000.0
-    },
-    "revenue_qoq_change": 1.536183192608638,
-    "revenue_yoy_change": 0.8241607497558247,
-    "quarterly_eps": {
-      "2025-07-31 00:00:00": 0.237515,
-      "2025-10-31 00:00:00": 0.209019,
-      "2026-01-31 00:00:00": -1.31,
-      "2026-04-30 00:00:00": 0.07,
-      "2026-07-31 00:00:00": 0.1
-    },
-    "eps_qoq_change": 42.85714285714285,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:57:58.571300+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 0.8241607497558201,
+    "revenue_qoq_change": 1.5361831926086422,
     "eps_yoy_change": -57.89739595393974,
-    "gross_margin": 88.28,
-    "margin_change": -0.7,
-    "operating_margin": 18.27,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 42.85714285714286,
+    "latest_eps": 0.1,
+    "gross_margin": 88.28395411106516,
+    "operating_margin": 18.27176350218778,
+    "net_margin": 19.32102662341903,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 18.99439161813026,
+    "free_cash_flow_ttm": 143017000.0,
+    "operating_cash_flow_ttm": 144776000.0,
+    "revenue_ttm": 371714000.0,
+    "net_income_ttm": -72169000.0,
+    "ebitda_ttm": -129811000.0,
+    "total_debt": 8487000.0,
+    "cash": 453308000.0,
+    "total_assets": 1782772000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-07-31": 91123000.0,
+      "2025-10-31": 93220000.0,
+      "2026-01-31": 96136000.0,
+      "2026-04-30": 90484000.0,
+      "2026-07-31": 91874000.0
+    },
+    "quarterly_eps": {
+      "2025-07-31": 0.237515,
+      "2025-10-31": 0.209019,
+      "2026-01-31": -1.31,
+      "2026-04-30": 0.07,
+      "2026-07-31": 0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.7041542837891797,
+    "operating_margin_yoy_change": -24.834806738036967,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 38.47501035742533,
+    "net_debt": -444821000.0,
+    "debt_to_assets": 0.47605638859035254,
+    "ticker": "WLTH"
   },
-  "fetched_at": "2026-10-01T15:30:07.516572"
+  "fetched_at": "2026-10-15T10:57:58.576278"
 }

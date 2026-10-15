@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "CION",
-    "fetch_date": "2026-08-14T13:34:00.931776",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:09:34.866948+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.722714357345822,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 19.23076923076923,
+    "eps_qoq_change": null,
+    "latest_eps": 0.62,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 91.87153405889505,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.639387374027105,
+    "free_cash_flow_ttm": 44324000.0,
+    "operating_cash_flow_ttm": 44324000.0,
+    "revenue_ttm": 14590000.0,
+    "net_income_ttm": 2707000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1159941000.0,
+    "cash": 7664000.0,
+    "total_assets": 1846688000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": -39590000.0,
-      "2025-06-30 00:00:00": 29915000.0,
-      "2025-09-30 00:00:00": 38657000.0,
-      "2025-12-31 00:00:00": -38184000.0,
-      "2026-03-31 00:00:00": -19604000.0
+      "2025-06-30": 29915000.0,
+      "2025-09-30": 38657000.0,
+      "2025-12-31": -38184000.0,
+      "2026-03-31": -19604000.0,
+      "2026-06-30": 33721000.0
     },
-    "revenue_qoq_change": -48.65912424051959,
-    "revenue_yoy_change": -50.48244506188432,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.8,
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 0.69,
-      "2025-12-31 00:00:00": -0.8,
-      "2026-03-31 00:00:00": -0.45
+      "2025-06-30": 0.52,
+      "2025-09-30": 0.69,
+      "2025-12-31": -0.8,
+      "2026-03-31": -0.45,
+      "2026-06-30": 0.62
     },
-    "eps_qoq_change": 43.75,
-    "eps_yoy_change": 43.75,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 303.79712131596983,
+    "net_debt": 1152277000.0,
+    "debt_to_assets": 62.811963905110126,
+    "ticker": "CION"
   },
-  "fetched_at": "2026-08-14T13:34:00.932450"
+  "fetched_at": "2026-10-15T10:09:34.870752"
 }

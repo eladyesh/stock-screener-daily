@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "UFCS",
-    "fetch_date": "2026-08-14T14:19:21.805472",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:33.474998+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.007112743219263,
+    "revenue_qoq_change": 3.8658300897028486,
+    "eps_yoy_change": 48.27586206896552,
+    "eps_qoq_change": 12.17391304347828,
+    "latest_eps": 1.29,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 8.695051651707999,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.9393527309173875,
+    "free_cash_flow_ttm": 268441000.0,
+    "operating_cash_flow_ttm": 271554000.0,
+    "revenue_ttm": 1473370000.0,
+    "net_income_ttm": 140961000.0,
+    "ebitda_ttm": null,
+    "total_debt": 146350000.0,
+    "cash": 1369495000.0,
+    "total_assets": 4014366000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 336579000.0,
-      "2025-09-30 00:00:00": 354018000.0,
-      "2025-12-31 00:00:00": 366186000.0,
-      "2026-03-31 00:00:00": 369442000.0,
-      "2026-06-30 00:00:00": 383724000.0
+      "2025-06-30": 336579000.0,
+      "2025-09-30": 354018000.0,
+      "2025-12-31": 366186000.0,
+      "2026-03-31": 369442000.0,
+      "2026-06-30": 383724000.0
     },
-    "revenue_qoq_change": 3.8658300897028495,
-    "revenue_yoy_change": 14.007112743219274,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.87,
-      "2025-09-30 00:00:00": 1.49,
-      "2025-12-31 00:00:00": 1.45,
-      "2026-03-31 00:00:00": 1.15,
-      "2026-06-30 00:00:00": 1.29
+      "2025-06-30": 0.87,
+      "2025-09-30": 1.49,
+      "2025-12-31": 1.45,
+      "2026-03-31": 1.15,
+      "2026-06-30": 1.29
     },
-    "eps_qoq_change": 12.173913043478272,
-    "eps_yoy_change": 48.275862068965516,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 18.21952394849902,
+    "net_debt": -1223145000.0,
+    "debt_to_assets": 3.645656624234064,
+    "ticker": "UFCS"
   },
-  "fetched_at": "2026-08-14T14:19:21.806127"
+  "fetched_at": "2026-10-15T10:54:33.478792"
 }

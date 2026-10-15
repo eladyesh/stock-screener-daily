@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "PFG",
-    "fetch_date": "2026-08-14T14:05:35.471373",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:51.308454+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.387383215754627,
+    "revenue_qoq_change": 10.674109546343269,
+    "eps_yoy_change": 2.7932960893854775,
+    "eps_qoq_change": -4.663212435233155,
+    "latest_eps": 1.84,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 10.328229812074351,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.0098461599838524,
+    "free_cash_flow_ttm": 4852200000.0,
+    "operating_cash_flow_ttm": 5012000000.0,
+    "revenue_ttm": 15693200000.0,
+    "net_income_ttm": 1558800000.0,
+    "ebitda_ttm": null,
+    "total_debt": 4340600000.0,
+    "cash": 33095100000.0,
+    "total_assets": 352752300000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3671300000.0,
-      "2025-09-30 00:00:00": 3681600000.0,
-      "2025-12-31 00:00:00": 4576700000.0,
-      "2026-03-31 00:00:00": 3529100000.0,
-      "2026-06-30 00:00:00": 3905800000.0
+      "2025-03-31": null,
+      "2025-06-30": 3671300000.0,
+      "2025-09-30": 3681600000.0,
+      "2025-12-31": 4576700000.0,
+      "2026-03-31": 3529100000.0,
+      "2026-06-30": 3905800000.0
     },
-    "revenue_qoq_change": 10.67410954634326,
-    "revenue_yoy_change": 6.387383215754637,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.21,
-      "2025-06-30 00:00:00": 1.79,
-      "2025-09-30 00:00:00": 0.95,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 1.93,
-      "2026-06-30 00:00:00": 1.84
+      "2025-03-31": 0.21,
+      "2025-06-30": 1.79,
+      "2025-09-30": 0.95,
+      "2025-12-31": null,
+      "2026-03-31": 1.93,
+      "2026-06-30": 1.84
     },
-    "eps_qoq_change": -4.663212435233153,
-    "eps_yoy_change": 2.793296089385477,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 30.919124206662758,
+    "net_debt": -28754500000.0,
+    "debt_to_assets": 1.2304951661548345,
+    "ticker": "PFG"
   },
-  "fetched_at": "2026-08-14T14:05:35.472041"
+  "fetched_at": "2026-10-15T10:40:51.312217"
 }

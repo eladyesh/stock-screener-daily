@@ -1,31 +1,50 @@
 {
   "data": {
-    "ticker": "CCC",
-    "fetch_date": "2026-08-12T13:36:21.155961",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:12.823053+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.783030205297738,
+    "revenue_qoq_change": 1.655319527153143,
+    "eps_yoy_change": 100.0,
+    "eps_qoq_change": 33.33333333333335,
+    "latest_eps": 0.04,
+    "gross_margin": 73.66707352473149,
+    "operating_margin": 16.658914213569005,
+    "net_margin": 7.269935753730795,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.459150080102532,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 1356478000.0,
+    "cash": 115857000.0,
+    "total_assets": 3531928000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 251565000.0,
-      "2025-06-30 00:00:00": 260451000.0,
-      "2025-12-31 00:00:00": 277865000.0,
-      "2026-03-31 00:00:00": 281275000.0,
-      "2026-06-30 00:00:00": 285931000.0
+      "2025-03-31": 251565000.0,
+      "2025-06-30": 260451000.0,
+      "2025-12-31": 277865000.0,
+      "2026-03-31": 281275000.0,
+      "2026-06-30": 285931000.0
     },
-    "revenue_qoq_change": 1.6553195271531418,
-    "revenue_yoy_change": 13.660882873213682,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.03,
-      "2025-06-30 00:00:00": 0.02,
-      "2025-12-31 00:00:00": 0.01,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.04
+      "2025-03-31": -0.03,
+      "2025-06-30": 0.02,
+      "2025-12-31": 0.01,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.04
     },
-    "eps_qoq_change": 33.33333333333334,
-    "eps_yoy_change": 233.33333333333334,
-    "gross_margin": 73.67,
-    "margin_change": -0.59,
-    "operating_margin": 16.66,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.5944143430135966,
+    "operating_margin_yoy_change": 7.263672882186134,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 1240621000.0,
+    "debt_to_assets": 38.406162300024235,
+    "ticker": "CCC"
   },
-  "fetched_at": "2026-08-12T13:36:21.157335"
+  "fetched_at": "2026-10-15T10:08:12.827683"
 }

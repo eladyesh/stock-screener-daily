@@ -1,30 +1,51 @@
 {
   "data": {
-    "ticker": "CSWC",
-    "fetch_date": "2026-08-13T13:41:51.184017",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 38436000.0,
-      "2025-09-30 00:00:00": 36379000.0,
-      "2025-12-31 00:00:00": 43887000.0,
-      "2026-03-31 00:00:00": 32639000.0,
-      "2026-06-30 00:00:00": 32691000.0
-    },
-    "revenue_qoq_change": 0.15931860657495633,
-    "revenue_yoy_change": -14.946924758039337,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 0.34,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.48,
-      "2025-09-30 00:00:00": 0.44,
-      "2025-12-31 00:00:00": 0.54,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": 0.39
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:11:59.010761+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 5.943261490521934,
+    "revenue_qoq_change": -25.629457470321505,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -18.749999999999993,
-    "inventory_breakdown_available": false
+    "latest_eps": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 84.1906921167928,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -193790000.0,
+    "operating_cash_flow_ttm": -193504000.0,
+    "revenue_ttm": 151341000.0,
+    "net_income_ttm": 112995000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1131225000.0,
+    "cash": 29045000.0,
+    "total_assets": 2177518000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 30808000.0,
+      "2025-06-30": 38436000.0,
+      "2025-09-30": 36379000.0,
+      "2025-12-31": 43887000.0,
+      "2026-03-31": 32639000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.48,
+      "2025-09-30": 0.44,
+      "2025-12-31": 0.54,
+      "2026-03-31": null
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -128.04857903674483,
+    "net_debt": 1102180000.0,
+    "debt_to_assets": 51.95020201899594,
+    "ticker": "CSWC"
   },
-  "fetched_at": "2026-08-13T13:41:51.184641"
+  "fetched_at": "2026-10-15T10:11:59.014800"
 }

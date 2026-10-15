@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "ONB",
-    "fetch_date": "2026-08-14T14:03:21.566652",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:38:36.221216+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.169176295019213,
+    "revenue_qoq_change": 5.4154512972015345,
+    "eps_yoy_change": 90.20913450125816,
+    "eps_qoq_change": 8.647457627118648,
+    "latest_eps": 0.64102,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.59331214712403,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 8.040150953419145,
+    "free_cash_flow_ttm": 940031000.0,
+    "operating_cash_flow_ttm": 986756000.0,
+    "revenue_ttm": 2823132000.0,
+    "net_income_ttm": 886276000.0,
+    "ebitda_ttm": null,
+    "total_debt": 7908293000.0,
+    "cash": 1768180000.0,
+    "total_assets": 74189417000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 647307000.0,
-      "2025-09-30 00:00:00": 705070000.0,
-      "2025-12-31 00:00:00": 690591000.0,
-      "2026-03-31 00:00:00": 694919000.0,
-      "2026-06-30 00:00:00": 732552000.0
+      "2025-06-30": 647307000.0,
+      "2025-09-30": 705070000.0,
+      "2025-12-31": 690591000.0,
+      "2026-03-31": 694919000.0,
+      "2026-06-30": 732552000.0
     },
-    "revenue_qoq_change": 5.415451297201544,
-    "revenue_yoy_change": 13.169176295019211,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.337008,
-      "2025-09-30 00:00:00": 0.458909,
-      "2025-12-31 00:00:00": 0.548105,
-      "2026-03-31 00:00:00": 0.59,
-      "2026-06-30 00:00:00": 0.65
+      "2025-06-30": 0.337008,
+      "2025-09-30": 0.458909,
+      "2025-12-31": 0.548105,
+      "2026-03-31": 0.59,
+      "2026-06-30": 0.64102
     },
-    "eps_qoq_change": 10.169491525423737,
-    "eps_yoy_change": 92.8737596733609,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.29745119958968,
+    "net_debt": 6140113000.0,
+    "debt_to_assets": 10.659597176777922,
+    "ticker": "ONB"
   },
-  "fetched_at": "2026-08-14T14:03:21.567325"
+  "fetched_at": "2026-10-15T10:38:36.225090"
 }

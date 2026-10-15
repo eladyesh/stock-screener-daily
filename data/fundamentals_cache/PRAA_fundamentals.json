@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "PRAA",
-    "fetch_date": "2026-08-14T14:06:52.550421",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:07.366318+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 29.140726574807218,
+    "revenue_qoq_change": 18.28627056862826,
+    "eps_yoy_change": 39.81481481481482,
+    "eps_qoq_change": 106.84931506849318,
+    "latest_eps": 1.51,
+    "gross_margin": 71.84703400664792,
+    "operating_margin": 32.29113398107901,
+    "net_margin": 15.425775590215633,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.747238796496132,
+    "free_cash_flow_ttm": -37848000.0,
+    "operating_cash_flow_ttm": -31395000.0,
+    "revenue_ttm": 1343432000.0,
+    "net_income_ttm": -265048000.0,
+    "ebitda_ttm": -62454000.0,
+    "total_debt": 3790034000.0,
+    "cash": 276549000.0,
+    "total_assets": 5238767000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 290734000.0,
-      "2025-09-30 00:00:00": 314147000.0,
-      "2025-12-31 00:00:00": 336416000.0,
-      "2026-03-31 00:00:00": 317413000.0,
-      "2026-06-30 00:00:00": 375456000.0
+      "2025-06-30": 290734000.0,
+      "2025-09-30": 314147000.0,
+      "2025-12-31": 336416000.0,
+      "2026-03-31": 317413000.0,
+      "2026-06-30": 375456000.0
     },
-    "revenue_qoq_change": 18.286270568628254,
-    "revenue_yoy_change": 29.140726574807214,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.08,
-      "2025-09-30 00:00:00": -10.43,
-      "2025-12-31 00:00:00": 1.46,
-      "2026-03-31 00:00:00": 0.73,
-      "2026-06-30 00:00:00": 1.51
+      "2025-06-30": 1.08,
+      "2025-09-30": -10.43,
+      "2025-12-31": 1.46,
+      "2026-03-31": 0.73,
+      "2026-06-30": 1.51
     },
-    "eps_qoq_change": 106.84931506849315,
-    "eps_yoy_change": 39.81481481481481,
-    "gross_margin": 71.85,
-    "margin_change": 4.84,
-    "operating_margin": 32.29,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 4.837491234297701,
+    "operating_margin_yoy_change": 15.222954820746882,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -2.817262057178927,
+    "net_debt": 3513485000.0,
+    "debt_to_assets": 72.34591651050715,
+    "ticker": "PRAA"
   },
-  "fetched_at": "2026-08-14T14:06:52.551734"
+  "fetched_at": "2026-10-15T10:42:07.371292"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BATRK",
-    "fetch_date": "2026-08-13T13:33:29.915834",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 312440000.0,
-      "2025-09-30 00:00:00": 311538000.0,
-      "2025-12-31 00:00:00": 61303000.0,
-      "2026-03-31 00:00:00": 72007000.0,
-      "2026-06-30 00:00:00": 305119000.0
-    },
-    "revenue_qoq_change": 323.7351924118488,
-    "revenue_yoy_change": -2.3431698886186147,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.46,
-      "2025-09-30 00:00:00": 0.47,
-      "2025-12-31 00:00:00": -0.66,
-      "2026-03-31 00:00:00": -0.63,
-      "2026-06-30 00:00:00": -0.19
-    },
-    "eps_qoq_change": 69.84126984126983,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:38.792812+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -2.3431698886186125,
+    "revenue_qoq_change": 323.73519241184886,
     "eps_yoy_change": -141.30434782608697,
-    "gross_margin": 15.9,
-    "margin_change": 0.44,
-    "operating_margin": -6.08,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.19,
+    "gross_margin": 15.903303301334889,
+    "operating_margin": -6.077300987483572,
+    "net_margin": -4.0095831462478575,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.4243513277076394,
+    "free_cash_flow_ttm": -94859000.0,
+    "operating_cash_flow_ttm": -64051000.0,
+    "revenue_ttm": 749967000.0,
+    "net_income_ttm": -64187000.0,
+    "ebitda_ttm": 53015000.0,
+    "total_debt": 889837000.0,
+    "cash": 116278000.0,
+    "total_assets": 1740383000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 312440000.0,
+      "2025-09-30": 311538000.0,
+      "2025-12-31": 61303000.0,
+      "2026-03-31": 72007000.0,
+      "2026-06-30": 305119000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.46,
+      "2025-09-30": 0.47,
+      "2025-12-31": -0.66,
+      "2026-03-31": -0.63,
+      "2026-06-30": -0.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.44230645380617517,
+    "operating_margin_yoy_change": -19.451708873797745,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -12.648423197287348,
+    "net_debt": 773559000.0,
+    "net_debt_to_ebitda": 14.591323210412147,
+    "debt_to_assets": 51.12880325767374,
+    "ticker": "BATRK"
   },
-  "fetched_at": "2026-08-13T13:33:29.918002"
+  "fetched_at": "2026-10-15T10:03:38.797686"
 }

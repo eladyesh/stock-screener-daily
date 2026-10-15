@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "AMG",
-    "fetch_date": "2026-08-14T13:24:42.877142",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 493200000.0,
-      "2025-09-30 00:00:00": 528000000.0,
-      "2025-12-31 00:00:00": 556600000.0,
-      "2026-03-31 00:00:00": 544900000.0,
-      "2026-06-30 00:00:00": 640700000.0
-    },
-    "revenue_qoq_change": 17.58120756102037,
-    "revenue_yoy_change": 29.906731549067317,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.8,
-      "2025-09-30 00:00:00": 6.87,
-      "2025-12-31 00:00:00": 11.21,
-      "2026-03-31 00:00:00": 3.84,
-      "2026-06-30 00:00:00": 6.95
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:00:19.846355+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 29.90673154906731,
+    "revenue_qoq_change": 17.581207561020374,
+    "eps_yoy_change": 148.21428571428572,
     "eps_qoq_change": 80.98958333333334,
-    "eps_yoy_change": 148.21428571428575,
-    "gross_margin": 50.66,
-    "margin_change": 3.35,
-    "operating_margin": 32.43,
-    "inventory_breakdown_available": false
+    "latest_eps": 6.95,
+    "gross_margin": 50.66333697518339,
+    "operating_margin": 32.43327610426097,
+    "net_margin": 29.01513969096301,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -14.3312101910828,
+    "free_cash_flow_ttm": 1064900000.0,
+    "operating_cash_flow_ttm": 1071800000.0,
+    "revenue_ttm": 2270200000.0,
+    "net_income_ttm": 856300000.0,
+    "ebitda_ttm": 1672100000.0,
+    "total_debt": 3004000000.0,
+    "cash": 411000000.0,
+    "total_assets": 9403500000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 493200000.0,
+      "2025-09-30": 528000000.0,
+      "2025-12-31": 556600000.0,
+      "2026-03-31": 544900000.0,
+      "2026-06-30": 640700000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.8,
+      "2025-09-30": 6.87,
+      "2025-12-31": 11.21,
+      "2026-03-31": 3.84,
+      "2026-06-30": 6.95
+    },
+    "quarterly_inventory": {},
+    "margin_change": 3.3519036846713703,
+    "operating_margin_yoy_change": 7.088588350814092,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 46.90776143071095,
+    "net_debt": 2593000000.0,
+    "net_debt_to_ebitda": 1.5507445726930207,
+    "debt_to_assets": 31.945552188015103,
+    "ticker": "AMG"
   },
-  "fetched_at": "2026-08-14T13:24:42.878477"
+  "fetched_at": "2026-10-15T10:00:19.851209"
 }

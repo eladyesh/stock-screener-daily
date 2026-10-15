@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "WRB",
-    "fetch_date": "2026-08-14T14:23:05.137070",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 3615412000.0,
-      "2025-09-30 00:00:00": 3780245000.0,
-      "2025-12-31 00:00:00": 3716172000.0,
-      "2026-03-31 00:00:00": 3707345000.0,
-      "2026-06-30 00:00:00": 3714145000.0
-    },
-    "revenue_qoq_change": 0.18341967095050501,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:58:14.684188+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 2.730892080902536,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.0,
-      "2025-09-30 00:00:00": 1.28,
-      "2025-12-31 00:00:00": 1.13,
-      "2026-03-31 00:00:00": 1.31,
-      "2026-06-30 00:00:00": 1.15
-    },
-    "eps_qoq_change": -12.213740458015279,
+    "revenue_qoq_change": 0.18341967095050205,
     "eps_yoy_change": 14.999999999999991,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -12.213740458015277,
+    "latest_eps": 1.15,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 12.176719002623754,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.139032090476767,
+    "free_cash_flow_ttm": 3469696000.0,
+    "operating_cash_flow_ttm": 3602896000.0,
+    "revenue_ttm": 14917907000.0,
+    "net_income_ttm": 1928020000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2840332000.0,
+    "cash": 28490539000.0,
+    "total_assets": 45677113000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 3615412000.0,
+      "2025-09-30": 3780245000.0,
+      "2025-12-31": 3716172000.0,
+      "2026-03-31": 3707345000.0,
+      "2026-06-30": 3714145000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.0,
+      "2025-09-30": 1.28,
+      "2025-12-31": 1.13,
+      "2026-03-31": 1.31,
+      "2026-06-30": 1.15
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 23.25859787167194,
+    "net_debt": -25650207000.0,
+    "debt_to_assets": 6.2182826659819765,
+    "ticker": "WRB"
   },
-  "fetched_at": "2026-08-14T14:23:05.137981"
+  "fetched_at": "2026-10-15T10:58:14.688043"
 }

@@ -1,28 +1,50 @@
 {
   "data": {
-    "ticker": "HSBC",
-    "fetch_date": "2026-08-13T13:54:28.496455",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 17657000000.0,
-      "2025-09-30 00:00:00": 17900000000.0,
-      "2025-12-31 00:00:00": 17723000000.0,
-      "2026-03-31 00:00:00": 19125000000.0,
-      "2026-06-30 00:00:00": 19043000000.0
-    },
-    "revenue_qoq_change": -0.4287581699346405,
-    "revenue_yoy_change": 7.849578071019991,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 1.95,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 1.4,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 2.0,
-      "2026-06-30 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:27.060946+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 7.8072153325817295,
+    "revenue_qoq_change": 7.910624612085981,
+    "eps_yoy_change": 2.564102564102577,
     "eps_qoq_change": null,
-    "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "latest_eps": 2.0,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 38.40522875816993,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.3861781754741407,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 72405000000.0,
+    "net_income_ttm": 22306000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 101742000000.0,
+    "cash": 214707000000.0,
+    "total_assets": 3306011000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 17740000000.0,
+      "2025-06-30": 17657000000.0,
+      "2025-09-30": 17900000000.0,
+      "2025-12-31": 17723000000.0,
+      "2026-03-31": 19125000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.95,
+      "2025-06-30": null,
+      "2025-09-30": 1.4,
+      "2025-12-31": null,
+      "2026-03-31": 2.0
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -112965000000.0,
+    "debt_to_assets": 3.077485223128417,
+    "ticker": "HSBC"
   },
-  "fetched_at": "2026-08-13T13:54:28.497097"
+  "fetched_at": "2026-10-15T10:24:27.063257"
 }

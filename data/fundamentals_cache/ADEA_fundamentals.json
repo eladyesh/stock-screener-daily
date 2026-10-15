@@ -1,27 +1,52 @@
 {
   "data": {
-    "ticker": "ADEA",
-    "fetch_date": "2026-08-13T13:27:54.784500",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 85735000.0,
-      "2025-09-30 00:00:00": 87339000.0,
-      "2025-12-31 00:00:00": 182642000.0,
-      "2026-03-31 00:00:00": 104772000.0,
-      "2026-06-30 00:00:00": 96117000.0
-    },
-    "revenue_qoq_change": -8.260794868858092,
-    "revenue_yoy_change": 12.10940689333411,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.15,
-      "2025-09-30 00:00:00": 0.08,
-      "2025-12-31 00:00:00": 0.65,
-      "2026-03-31 00:00:00": 0.2,
-      "2026-06-30 00:00:00": 0.15
-    },
-    "eps_qoq_change": -25.000000000000007,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:58:09.928874+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.109406893334107,
+    "revenue_qoq_change": -8.26079486885809,
     "eps_yoy_change": 0.0,
-    "operating_margin": 31.95,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -25.00000000000001,
+    "latest_eps": 0.15,
+    "gross_margin": null,
+    "operating_margin": 31.947522290541734,
+    "net_margin": 18.067563490329494,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.9780885905561707,
+    "free_cash_flow_ttm": 171979000.0,
+    "operating_cash_flow_ttm": 190952000.0,
+    "revenue_ttm": 470870000.0,
+    "net_income_ttm": 122678000.0,
+    "ebitda_ttm": 264784000.0,
+    "total_debt": 395262000.0,
+    "cash": 137081000.0,
+    "total_assets": 1013499000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 85735000.0,
+      "2025-09-30": 87339000.0,
+      "2025-12-31": 182642000.0,
+      "2026-03-31": 104772000.0,
+      "2026-06-30": 96117000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.15,
+      "2025-09-30": 0.08,
+      "2025-12-31": 0.65,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.15
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 4.4453353190598435,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.52366895321426,
+    "net_debt": 258181000.0,
+    "net_debt_to_ebitda": 0.9750626926098254,
+    "debt_to_assets": 38.999742476312264,
+    "ticker": "ADEA"
   },
-  "fetched_at": "2026-08-13T13:27:54.786435"
+  "fetched_at": "2026-10-15T09:58:09.934196"
 }

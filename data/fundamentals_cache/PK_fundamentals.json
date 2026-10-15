@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PK",
-    "fetch_date": "2026-08-14T14:06:00.660391",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 672000000.0,
-      "2025-09-30 00:00:00": 610000000.0,
-      "2025-12-31 00:00:00": 629000000.0,
-      "2026-03-31 00:00:00": 622000000.0,
-      "2026-06-30 00:00:00": 680000000.0
-    },
-    "revenue_qoq_change": 9.32475884244373,
-    "revenue_yoy_change": 1.1904761904761905,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.02,
-      "2025-09-30 00:00:00": -0.08,
-      "2025-12-31 00:00:00": -1.04,
-      "2026-03-31 00:00:00": 0.05,
-      "2026-06-30 00:00:00": 0.24
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:41:15.324445+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.1904761904761862,
+    "revenue_qoq_change": 9.324758842443725,
+    "eps_yoy_change": null,
     "eps_qoq_change": 380.0,
-    "eps_yoy_change": 1300.0,
-    "gross_margin": 33.38,
-    "margin_change": 5.41,
+    "latest_eps": 0.24,
+    "gross_margin": 33.38235294117647,
     "operating_margin": 17.5,
-    "inventory_breakdown_available": false
+    "net_margin": 6.911764705882353,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.5025125628140614,
+    "free_cash_flow_ttm": 81000000.0,
+    "operating_cash_flow_ttm": 404000000.0,
+    "revenue_ttm": 2541000000.0,
+    "net_income_ttm": -163000000.0,
+    "ebitda_ttm": 363000000.0,
+    "total_debt": 4102000000.0,
+    "cash": 264000000.0,
+    "total_assets": 7702000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 672000000.0,
+      "2025-09-30": 610000000.0,
+      "2025-12-31": 629000000.0,
+      "2026-03-31": 622000000.0,
+      "2026-06-30": 680000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.02,
+      "2025-09-30": -0.08,
+      "2025-12-31": -1.04,
+      "2026-03-31": 0.05,
+      "2026-06-30": 0.24
+    },
+    "quarterly_inventory": {},
+    "margin_change": 5.408076413845283,
+    "operating_margin_yoy_change": 10.357142857142858,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 3.187721369539551,
+    "net_debt": 3838000000.0,
+    "net_debt_to_ebitda": 10.573002754820937,
+    "debt_to_assets": 53.25889379381978,
+    "ticker": "PK"
   },
-  "fetched_at": "2026-08-14T14:06:00.661755"
+  "fetched_at": "2026-10-15T10:41:15.329410"
 }

@@ -1,27 +1,51 @@
 {
   "data": {
-    "ticker": "JANX",
-    "fetch_date": "2026-08-14T13:52:00.173560",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 10000000.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 3733000.0,
-      "2026-06-30 00:00:00": 10267000.0
-    },
-    "revenue_qoq_change": 175.03348513260113,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:27:21.178802+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.55,
-      "2025-09-30 00:00:00": -0.39,
-      "2025-12-31 00:00:00": -0.51,
-      "2026-03-31 00:00:00": -0.39,
-      "2026-06-30 00:00:00": -0.35
+    "revenue_qoq_change": 175.0334851326011,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.35,
+    "gross_margin": null,
+    "operating_margin": -308.6588097789033,
+    "net_margin": -214.00603876497516,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.6717991808105737,
+    "free_cash_flow_ttm": -41925000.0,
+    "operating_cash_flow_ttm": -41251000.0,
+    "revenue_ttm": 24000000.0,
+    "net_income_ttm": -102592000.0,
+    "ebitda_ttm": -141654000.0,
+    "total_debt": 20990000.0,
+    "cash": 970913000.0,
+    "total_assets": 1007653000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 0.0,
+      "2025-09-30": 10000000.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 3733000.0,
+      "2026-06-30": 10267000.0
     },
-    "eps_qoq_change": 10.256410256410266,
-    "eps_yoy_change": 36.36363636363637,
-    "operating_margin": -308.66,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.55,
+      "2025-09-30": -0.39,
+      "2025-12-31": -0.51,
+      "2026-03-31": -0.39,
+      "2026-06-30": -0.35
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -174.6875,
+    "net_debt": -949923000.0,
+    "debt_to_assets": 2.083058354413672,
+    "ticker": "JANX"
   },
-  "fetched_at": "2026-08-14T13:52:00.174546"
+  "fetched_at": "2026-10-15T10:27:21.183727"
 }

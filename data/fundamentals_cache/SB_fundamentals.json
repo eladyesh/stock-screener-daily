@@ -1,42 +1,61 @@
 {
   "data": {
-    "ticker": "SB",
-    "fetch_date": "2026-08-14T14:11:22.509427",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 65745000.0,
-      "2025-09-30 00:00:00": 73076000.0,
-      "2025-12-31 00:00:00": 72568000.0,
-      "2026-03-31 00:00:00": 74390000.0,
-      "2026-06-30 00:00:00": 87465000.0
-    },
-    "revenue_qoq_change": 17.576287135367657,
-    "revenue_yoy_change": 33.03673283139402,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.15,
-      "2025-12-31 00:00:00": 0.1,
-      "2026-03-31 00:00:00": 0.2,
-      "2026-06-30 00:00:00": 0.33
-    },
-    "eps_qoq_change": 65.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:34.403141+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 33.03673283139403,
+    "revenue_qoq_change": 17.57628713536765,
     "eps_yoy_change": null,
-    "gross_margin": 49.21,
-    "margin_change": 3.92,
-    "operating_margin": 41.06,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 14883000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 19005000.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "eps_qoq_change": 64.99999999999999,
+    "latest_eps": 0.33,
+    "gross_margin": 49.208254730463615,
+    "operating_margin": 41.05756588349625,
+    "net_margin": 40.19550677413823,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": -0.6379068109686581,
+    "free_cash_flow_ttm": 61285000.0,
+    "operating_cash_flow_ttm": 131150000.0,
+    "revenue_ttm": 307499000.0,
+    "net_income_ttm": 86984000.0,
+    "ebitda_ttm": 114702000.0,
+    "total_debt": 511448000.0,
+    "cash": 134537000.0,
+    "total_assets": 1429161000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 65745000.0,
+      "2025-09-30": 73076000.0,
+      "2025-12-31": 72568000.0,
+      "2026-03-31": 74390000.0,
+      "2026-06-30": 87465000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.15,
+      "2025-12-31": 0.1,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.33
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 19005000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 3.915876722666866,
+    "operating_margin_yoy_change": 25.09893785094625,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.930146114296306,
+    "net_debt": 376911000.0,
+    "net_debt_to_ebitda": 3.286001987759586,
+    "debt_to_assets": 35.786590873946324,
+    "ticker": "SB"
   },
-  "fetched_at": "2026-08-14T14:11:22.511144"
+  "fetched_at": "2026-10-15T10:46:34.408102"
 }

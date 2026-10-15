@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "GSBD",
-    "fetch_date": "2026-08-14T13:47:01.260045",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 35161000.0,
-      "2025-06-30 00:00:00": 42456000.0,
-      "2025-09-30 00:00:00": 27731000.0,
-      "2025-12-31 00:00:00": 26769000.0,
-      "2026-03-31 00:00:00": -10347000.0
-    },
-    "revenue_qoq_change": -138.65291942171916,
-    "revenue_yoy_change": -129.4274906857029,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.27,
-      "2025-06-30 00:00:00": 0.34,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.12
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:22:23.995184+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -36.65206331260599,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": -38.235294117647065,
     "eps_qoq_change": null,
-    "eps_yoy_change": -144.44444444444443,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.21,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 88.05725971370143,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.9553661521059325,
+    "free_cash_flow_ttm": 81421000.0,
+    "operating_cash_flow_ttm": 81421000.0,
+    "revenue_ttm": 71048000.0,
+    "net_income_ttm": 58477000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1852669000.0,
+    "cash": 14430000.0,
+    "total_assets": 3287804000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 42456000.0,
+      "2025-09-30": 27731000.0,
+      "2025-12-31": 26769000.0,
+      "2026-03-31": -10347000.0,
+      "2026-06-30": 26895000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.27,
+      "2025-06-30": 0.34,
+      "2025-09-30": 0.22,
+      "2025-12-31": null,
+      "2026-03-31": -0.12,
+      "2026-06-30": 0.21
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 114.59998874000676,
+    "net_debt": 1838239000.0,
+    "debt_to_assets": 56.34973982634002,
+    "ticker": "GSBD"
   },
-  "fetched_at": "2026-08-14T13:47:01.260778"
+  "fetched_at": "2026-10-15T10:22:23.998897"
 }

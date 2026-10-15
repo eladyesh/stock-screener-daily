@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "BLX",
-    "fetch_date": "2026-08-13T13:35:19.974524",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 90042000.0,
-      "2025-09-30 00:00:00": 82777000.0,
-      "2025-12-31 00:00:00": 64988000.0,
-      "2026-03-31 00:00:00": 82799000.0,
-      "2026-06-30 00:00:00": 98902000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:25.925854+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.839852513271573,
     "revenue_qoq_change": 19.448302515730866,
-    "revenue_yoy_change": 9.839852513271584,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.73,
-      "2025-09-30 00:00:00": 1.48,
-      "2025-12-31 00:00:00": 1.5,
-      "2026-03-31 00:00:00": 1.31,
-      "2026-06-30 00:00:00": 1.77
+    "eps_yoy_change": 2.3121387283236983,
+    "eps_qoq_change": 35.114503816793885,
+    "latest_eps": 1.77,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 67.19176558613576,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.0106711824315218,
+    "free_cash_flow_ttm": -227613000.0,
+    "operating_cash_flow_ttm": -226324000.0,
+    "revenue_ttm": 329466000.0,
+    "net_income_ttm": 233775000.0,
+    "ebitda_ttm": null,
+    "total_debt": 4168213000.0,
+    "cash": 1860971000.0,
+    "total_assets": 14436845000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 90042000.0,
+      "2025-09-30": 82777000.0,
+      "2025-12-31": 64988000.0,
+      "2026-03-31": 82799000.0,
+      "2026-06-30": 98902000.0
     },
-    "eps_qoq_change": 35.11450381679389,
-    "eps_yoy_change": 2.3121387283237014,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.73,
+      "2025-09-30": 1.48,
+      "2025-12-31": 1.5,
+      "2026-03-31": 1.31,
+      "2026-06-30": 1.77
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -69.08542914898655,
+    "net_debt": 2307242000.0,
+    "debt_to_assets": 28.872049260070327,
+    "ticker": "BLX"
   },
-  "fetched_at": "2026-08-13T13:35:19.975139"
+  "fetched_at": "2026-10-15T10:05:25.929611"
 }

@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "IBTA",
-    "fetch_date": "2026-08-13T13:55:18.442722",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 86029000.0,
-      "2025-09-30 00:00:00": 83260000.0,
-      "2025-12-31 00:00:00": 88526000.0,
-      "2026-03-31 00:00:00": 82483000.0,
-      "2026-06-30 00:00:00": 88905000.0
-    },
-    "revenue_qoq_change": 7.785846780548719,
-    "revenue_yoy_change": 3.343058736007625,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.08,
-      "2025-09-30 00:00:00": 0.05,
-      "2025-12-31 00:00:00": -0.04,
-      "2026-03-31 00:00:00": -0.43,
-      "2026-06-30 00:00:00": -0.05
-    },
-    "eps_qoq_change": 88.37209302325581,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:18.103361+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.3430587360076203,
+    "revenue_qoq_change": 7.785846780548722,
     "eps_yoy_change": -162.5,
-    "gross_margin": 78.42,
-    "margin_change": 2.0,
-    "operating_margin": -2.11,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.05,
+    "gross_margin": 78.41966143636466,
+    "operating_margin": -2.1112423373263596,
+    "net_margin": -1.3823744446319104,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -23.50325310720722,
+    "free_cash_flow_ttm": 58564000.0,
+    "operating_cash_flow_ttm": 93191000.0,
+    "revenue_ttm": 343174000.0,
+    "net_income_ttm": -11021000.0,
+    "ebitda_ttm": -2030000.0,
+    "total_debt": 25134000.0,
+    "cash": 148173000.0,
+    "total_assets": 485399000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 86029000.0,
+      "2025-09-30": 83260000.0,
+      "2025-12-31": 88526000.0,
+      "2026-03-31": 82483000.0,
+      "2026-06-30": 88905000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.08,
+      "2025-09-30": 0.05,
+      "2025-12-31": -0.04,
+      "2026-03-31": -0.43,
+      "2026-06-30": -0.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.000278048272577,
+    "operating_margin_yoy_change": -3.550291960127973,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.06539539708719,
+    "net_debt": -123039000.0,
+    "debt_to_assets": 5.178008195319727,
+    "ticker": "IBTA"
   },
-  "fetched_at": "2026-08-13T13:55:18.444079"
+  "fetched_at": "2026-10-15T10:25:18.108536"
 }

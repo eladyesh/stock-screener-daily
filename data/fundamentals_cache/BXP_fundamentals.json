@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BXP",
-    "fetch_date": "2026-08-13T13:37:00.062745",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 868457000.0,
-      "2025-09-30 00:00:00": 871510000.0,
-      "2025-12-31 00:00:00": 877097000.0,
-      "2026-03-31 00:00:00": 872148000.0,
-      "2026-06-30 00:00:00": 895699000.0
-    },
-    "revenue_qoq_change": 2.700344436953361,
-    "revenue_yoy_change": 3.136827730100627,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.56,
-      "2025-09-30 00:00:00": -0.77,
-      "2025-12-31 00:00:00": 1.56,
-      "2026-03-31 00:00:00": 0.64,
-      "2026-06-30 00:00:00": 0.43
-    },
-    "eps_qoq_change": -32.8125,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:07:07.909525+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.136827730100622,
+    "revenue_qoq_change": 2.7003444369533502,
     "eps_yoy_change": -23.214285714285722,
-    "gross_margin": 61.43,
-    "margin_change": 1.79,
-    "operating_margin": 28.9,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -32.8125,
+    "latest_eps": 0.43,
+    "gross_margin": 61.425657503246065,
+    "operating_margin": 28.90111521839368,
+    "net_margin": 7.654803678467878,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.46668240106992886,
+    "free_cash_flow_ttm": 1284500000.0,
+    "operating_cash_flow_ttm": 1284500000.0,
+    "revenue_ttm": 3516454000.0,
+    "net_income_ttm": 296778000.0,
+    "ebitda_ttm": 1979044000.0,
+    "total_debt": 16358486000.0,
+    "cash": 493949000.0,
+    "total_assets": 25173869000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 868457000.0,
+      "2025-09-30": 871510000.0,
+      "2025-12-31": 877097000.0,
+      "2026-03-31": 872148000.0,
+      "2026-06-30": 895699000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.56,
+      "2025-09-30": -0.77,
+      "2025-12-31": 1.56,
+      "2026-03-31": 0.64,
+      "2026-06-30": 0.43
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.7931180718651518,
+    "operating_margin_yoy_change": -0.6445041962693345,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.5282753592113,
+    "net_debt": 15864537000.0,
+    "net_debt_to_ebitda": 8.016262902694432,
+    "debt_to_assets": 64.982009718093,
+    "ticker": "BXP"
   },
-  "fetched_at": "2026-08-13T13:37:00.064698"
+  "fetched_at": "2026-10-15T10:07:07.914311"
 }

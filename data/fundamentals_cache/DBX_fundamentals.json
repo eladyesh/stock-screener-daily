@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "DBX",
-    "fetch_date": "2026-08-13T13:43:07.082980",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 625700000.0,
-      "2025-09-30 00:00:00": 634400000.0,
-      "2025-12-31 00:00:00": 636200000.0,
-      "2026-03-31 00:00:00": 629500000.0,
-      "2026-06-30 00:00:00": 631500000.0
-    },
-    "revenue_qoq_change": 0.3177124702144559,
-    "revenue_yoy_change": 0.9269618027808855,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.45,
-      "2025-09-30 00:00:00": 0.47,
-      "2025-12-31 00:00:00": 0.43,
-      "2026-03-31 00:00:00": 0.48,
-      "2026-06-30 00:00:00": 0.42
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:13.056482+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.9269618027808901,
+    "revenue_qoq_change": 0.3177124702144596,
+    "eps_yoy_change": -6.666666666666677,
     "eps_qoq_change": -12.5,
-    "eps_yoy_change": -6.666666666666672,
-    "gross_margin": 80.21,
-    "margin_change": 0.56,
-    "operating_margin": 26.1,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.42,
+    "gross_margin": 80.20585906571654,
+    "operating_margin": 26.096595407759303,
+    "net_margin": 15.170229612034838,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -18.033971810625225,
+    "free_cash_flow_ttm": 953800000.0,
+    "operating_cash_flow_ttm": 980500000.0,
+    "revenue_ttm": 2531600000.0,
+    "net_income_ttm": 442800000.0,
+    "ebitda_ttm": 834800000.0,
+    "total_debt": 3975400000.0,
+    "cash": 1113800000.0,
+    "total_assets": 2826300000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 625700000.0,
+      "2025-09-30": 634400000.0,
+      "2025-12-31": 636200000.0,
+      "2026-03-31": 629500000.0,
+      "2026-06-30": 631500000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.45,
+      "2025-09-30": 0.47,
+      "2025-12-31": 0.43,
+      "2026-03-31": 0.48,
+      "2026-06-30": 0.42
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.5553427829524367,
+    "operating_margin_yoy_change": -1.2327956742288713,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 37.67577816400695,
+    "net_debt": 2861600000.0,
+    "net_debt_to_ebitda": 3.4278869190225203,
+    "debt_to_assets": 140.6573965962566,
+    "ticker": "DBX"
   },
-  "fetched_at": "2026-08-13T13:43:07.084280"
+  "fetched_at": "2026-10-15T10:13:13.061572"
 }

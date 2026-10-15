@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "DT",
-    "fetch_date": "2026-08-13T13:44:33.140699",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 477349000.0,
-      "2025-09-30 00:00:00": 493849000.0,
-      "2025-12-31 00:00:00": 515473000.0,
-      "2026-03-31 00:00:00": 531716000.0,
-      "2026-06-30 00:00:00": 554548000.0
-    },
-    "revenue_qoq_change": 4.2940216205643615,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:14:36.988916+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 16.17244406084437,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.16,
-      "2025-09-30 00:00:00": 0.19,
-      "2025-12-31 00:00:00": 0.13,
-      "2026-03-31 00:00:00": 0.06,
-      "2026-06-30 00:00:00": 0.12
-    },
+    "revenue_qoq_change": 4.294021620564359,
+    "eps_yoy_change": -25.0,
     "eps_qoq_change": 100.0,
-    "eps_yoy_change": -25.000000000000007,
-    "gross_margin": 81.34,
-    "margin_change": 0.41,
-    "operating_margin": 12.89,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.12,
+    "gross_margin": 81.34462661482866,
+    "operating_margin": 12.889055591220236,
+    "net_margin": 6.609166384154302,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.424513413992636,
+    "free_cash_flow_ttm": 570556000.0,
+    "operating_cash_flow_ttm": 598398000.0,
+    "revenue_ttm": 2095586000.0,
+    "net_income_ttm": 151365000.0,
+    "ebitda_ttm": 298302000.0,
+    "total_debt": 159273000.0,
+    "cash": 1108864000.0,
+    "total_assets": 4109494000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 477349000.0,
+      "2025-09-30": 493849000.0,
+      "2025-12-31": 515473000.0,
+      "2026-03-31": 531716000.0,
+      "2026-06-30": 554548000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.16,
+      "2025-09-30": 0.19,
+      "2025-12-31": 0.13,
+      "2026-03-31": 0.06,
+      "2026-06-30": 0.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.41401704129692973,
+    "operating_margin_yoy_change": -0.1701526610228825,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 27.2265609714896,
+    "net_debt": -949591000.0,
+    "net_debt_to_ebitda": -3.1833209297959786,
+    "debt_to_assets": 3.8757326327766872,
+    "ticker": "DT"
   },
-  "fetched_at": "2026-08-13T13:44:33.142023"
+  "fetched_at": "2026-10-15T10:14:36.994158"
 }

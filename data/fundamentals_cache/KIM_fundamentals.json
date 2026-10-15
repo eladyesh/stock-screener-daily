@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "KIM",
-    "fetch_date": "2026-08-14T13:53:01.285425",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": 550801000.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:22.235558+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.23,
-      "2025-09-30 00:00:00": 0.19,
-      "2025-12-31 00:00:00": 0.21,
-      "2026-03-31 00:00:00": 0.23,
-      "2026-06-30 00:00:00": 0.22
+    "revenue_qoq_change": null,
+    "eps_yoy_change": -4.34782608695653,
+    "eps_qoq_change": -4.34782608695653,
+    "latest_eps": 0.22,
+    "gross_margin": 69.05506707504162,
+    "operating_margin": 36.56456687624024,
+    "net_margin": 27.831104155584324,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.46187186981079265,
+    "free_cash_flow_ttm": 1179106000.0,
+    "operating_cash_flow_ttm": 1179106000.0,
+    "revenue_ttm": null,
+    "net_income_ttm": 607130000.0,
+    "ebitda_ttm": 1466145000.0,
+    "total_debt": 8858822000.0,
+    "cash": 699242000.0,
+    "total_assets": 20030952000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": 550801000.0
     },
-    "eps_qoq_change": -4.347826086956525,
-    "eps_yoy_change": -4.347826086956525,
-    "gross_margin": 69.06,
-    "margin_change": NaN,
-    "operating_margin": 36.56,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.23,
+      "2025-09-30": 0.19,
+      "2025-12-31": 0.21,
+      "2026-03-31": 0.23,
+      "2026-06-30": 0.22
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 8159580000.0,
+    "net_debt_to_ebitda": 5.565329486510543,
+    "debt_to_assets": 44.22566635874321,
+    "ticker": "KIM"
   },
-  "fetched_at": "2026-08-14T13:53:01.286768"
+  "fetched_at": "2026-10-15T10:28:22.239993"
 }

@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "HBT",
-    "fetch_date": "2026-08-13T13:53:07.382700",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 58438000.0,
-      "2025-09-30 00:00:00": 59571000.0,
-      "2025-12-31 00:00:00": 60099000.0,
-      "2026-03-31 00:00:00": 66635000.0,
-      "2026-06-30 00:00:00": 80342000.0
-    },
-    "revenue_qoq_change": 20.57027087866737,
-    "revenue_yoy_change": 37.48246004312262,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.61,
-      "2025-09-30 00:00:00": 0.63,
-      "2025-12-31 00:00:00": 0.6,
-      "2026-03-31 00:00:00": 0.34,
-      "2026-06-30 00:00:00": 0.76
-    },
-    "eps_qoq_change": 123.52941176470587,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:23:06.095609+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 37.482460043122636,
+    "revenue_qoq_change": 20.570270878667362,
     "eps_yoy_change": 24.590163934426236,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 123.52941176470588,
+    "latest_eps": 0.76,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.65684200044809,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 15.44277401099341,
+    "free_cash_flow_ttm": 75679000.0,
+    "operating_cash_flow_ttm": 86814000.0,
+    "revenue_ttm": 266647000.0,
+    "net_income_ttm": 77747000.0,
+    "ebitda_ttm": null,
+    "total_debt": 149328000.0,
+    "cash": 132495000.0,
+    "total_assets": 6727646000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 58438000.0,
+      "2025-09-30": 59571000.0,
+      "2025-12-31": 60099000.0,
+      "2026-03-31": 66635000.0,
+      "2026-06-30": 80342000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.61,
+      "2025-09-30": 0.63,
+      "2025-12-31": 0.6,
+      "2026-03-31": 0.34,
+      "2026-06-30": 0.76
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.381718151713685,
+    "net_debt": 16833000.0,
+    "debt_to_assets": 2.2196173817706817,
+    "ticker": "HBT"
   },
-  "fetched_at": "2026-08-13T13:53:07.383347"
+  "fetched_at": "2026-10-15T10:23:06.099398"
 }

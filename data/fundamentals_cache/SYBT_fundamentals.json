@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "SYBT",
-    "fetch_date": "2026-08-14T14:15:59.814911",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 95839000.0,
-      "2025-09-30 00:00:00": 99529000.0,
-      "2025-12-31 00:00:00": 102478000.0,
-      "2026-03-31 00:00:00": 100614000.0,
-      "2026-06-30 00:00:00": 112483000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:11.396074+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 17.366625277809653,
     "revenue_qoq_change": 11.79656906593516,
-    "revenue_yoy_change": 17.36662527780966,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.15,
-      "2025-09-30 00:00:00": 1.23,
-      "2025-12-31 00:00:00": 1.24,
-      "2026-03-31 00:00:00": 1.24,
-      "2026-06-30 00:00:00": 1.31
+    "eps_yoy_change": 13.913043478260878,
+    "eps_qoq_change": 5.645161290322576,
+    "latest_eps": 1.31,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 35.61160353120027,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.6027791899678085,
+    "free_cash_flow_ttm": 147332000.0,
+    "operating_cash_flow_ttm": 160568000.0,
+    "revenue_ttm": 415104000.0,
+    "net_income_ttm": 149507000.0,
+    "ebitda_ttm": null,
+    "total_debt": 326806000.0,
+    "cash": 89258000.0,
+    "total_assets": 10368564000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 95839000.0,
+      "2025-09-30": 99529000.0,
+      "2025-12-31": 102478000.0,
+      "2026-03-31": 100614000.0,
+      "2026-06-30": 112483000.0
     },
-    "eps_qoq_change": 5.645161290322586,
-    "eps_yoy_change": 13.913043478260883,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.15,
+      "2025-09-30": 1.23,
+      "2025-12-31": 1.24,
+      "2026-03-31": 1.24,
+      "2026-06-30": 1.31
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.49279216774591,
+    "net_debt": 237548000.0,
+    "debt_to_assets": 3.1518925860900313,
+    "ticker": "SYBT"
   },
-  "fetched_at": "2026-08-14T14:15:59.815601"
+  "fetched_at": "2026-10-15T10:51:11.399774"
 }

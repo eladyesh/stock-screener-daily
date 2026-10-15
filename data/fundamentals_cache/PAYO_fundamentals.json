@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PAYO",
-    "fetch_date": "2026-08-14T14:04:50.439839",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 202280000.0,
-      "2025-09-30 00:00:00": 211319000.0,
-      "2025-12-31 00:00:00": 218916000.0,
-      "2026-03-31 00:00:00": 210058000.0,
-      "2026-06-30 00:00:00": 222153000.0
-    },
-    "revenue_qoq_change": 5.757933523122185,
-    "revenue_yoy_change": 9.824500692109947,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.05,
-      "2025-06-30 00:00:00": 0.05,
-      "2025-09-30 00:00:00": 0.04,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.06,
-      "2026-06-30 00:00:00": -0.01
-    },
-    "eps_qoq_change": -116.66666666666666,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:06.369384+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.82450069210994,
+    "revenue_qoq_change": 5.757933523122194,
     "eps_yoy_change": -120.0,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": -15.83,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -116.66666666666667,
+    "latest_eps": -0.01,
+    "gross_margin": null,
+    "operating_margin": -15.832331771346775,
+    "net_margin": -1.096541572699896,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.340907627377316,
+    "free_cash_flow_ttm": 115808000.0,
+    "operating_cash_flow_ttm": 222098000.0,
+    "revenue_ttm": 862446000.0,
+    "net_income_ttm": 50267000.0,
+    "ebitda_ttm": 188047000.0,
+    "total_debt": 86162000.0,
+    "cash": 346320000.0,
+    "total_assets": 8764946000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 202280000.0,
+      "2025-09-30": 211319000.0,
+      "2025-12-31": 218916000.0,
+      "2026-03-31": 210058000.0,
+      "2026-06-30": 222153000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.05,
+      "2025-06-30": 0.05,
+      "2025-09-30": 0.04,
+      "2025-12-31": null,
+      "2026-03-31": 0.06,
+      "2026-06-30": -0.01
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": -1.8630812275461004,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.42785519325268,
+    "net_debt": -260158000.0,
+    "net_debt_to_ebitda": -1.3834732806160162,
+    "debt_to_assets": 0.9830294447906467,
+    "ticker": "PAYO"
   },
-  "fetched_at": "2026-08-14T14:04:50.441166"
+  "fetched_at": "2026-10-15T10:40:06.374254"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "DASH",
-    "fetch_date": "2026-08-13T13:43:00.125293",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 3284000000.0,
-      "2025-09-30 00:00:00": 3446000000.0,
-      "2025-12-31 00:00:00": 3955000000.0,
-      "2026-03-31 00:00:00": 4036000000.0,
-      "2026-06-30 00:00:00": 4454000000.0
-    },
-    "revenue_qoq_change": 10.356788899900891,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:06.869848+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 35.6272838002436,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.65,
-      "2025-09-30 00:00:00": 0.55,
-      "2025-12-31 00:00:00": 0.48,
-      "2026-03-31 00:00:00": 0.42,
-      "2026-06-30 00:00:00": 0.46
+    "revenue_qoq_change": 10.35678889990088,
+    "eps_yoy_change": -29.230769230769226,
+    "eps_qoq_change": 9.523809523809534,
+    "latest_eps": 0.46,
+    "gross_margin": 52.69420745397395,
+    "operating_margin": 3.547373147732375,
+    "net_margin": 4.4903457566232605,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.22081450441058248,
+    "free_cash_flow_ttm": 2139000000.0,
+    "operating_cash_flow_ttm": 2830000000.0,
+    "revenue_ttm": 15891000000.0,
+    "net_income_ttm": 841000000.0,
+    "ebitda_ttm": 1763000000.0,
+    "total_debt": 3305000000.0,
+    "cash": 5347000000.0,
+    "total_assets": 19561000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 3284000000.0,
+      "2025-09-30": 3446000000.0,
+      "2025-12-31": 3955000000.0,
+      "2026-03-31": 4036000000.0,
+      "2026-06-30": 4454000000.0
     },
-    "eps_qoq_change": 9.523809523809533,
-    "eps_yoy_change": -29.230769230769234,
-    "gross_margin": 52.69,
-    "margin_change": 2.05,
-    "operating_margin": 3.55,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.65,
+      "2025-09-30": 0.55,
+      "2025-12-31": 0.48,
+      "2026-03-31": 0.42,
+      "2026-06-30": 0.46
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.0500052735973426,
+    "operating_margin_yoy_change": -1.4160860483699391,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.460449310930716,
+    "net_debt": -2042000000.0,
+    "net_debt_to_ebitda": -1.158252977878616,
+    "debt_to_assets": 16.895864219620673,
+    "ticker": "DASH"
   },
-  "fetched_at": "2026-08-13T13:43:00.126566"
+  "fetched_at": "2026-10-15T10:13:06.874837"
 }

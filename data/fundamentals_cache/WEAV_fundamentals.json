@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "WEAV",
-    "fetch_date": "2026-08-10T14:25:02.165495",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:57:26.533615+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.515649050795277,
+    "revenue_qoq_change": 3.117557251908387,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.05,
+    "gross_margin": 72.03369755115335,
+    "operating_margin": -6.245003109176513,
+    "net_margin": -6.302744958692369,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.996598756597392,
+    "free_cash_flow_ttm": 11022000.0,
+    "operating_cash_flow_ttm": 16850000.0,
+    "revenue_ttm": 257787000.0,
+    "net_income_ttm": -20543000.0,
+    "ebitda_ttm": -818000.0,
+    "total_debt": 51381000.0,
+    "cash": 78469000.0,
+    "total_assets": 208587000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 58470000.0,
-      "2025-09-30 00:00:00": 61342000.0,
-      "2025-12-31 00:00:00": 63403000.0,
-      "2026-03-31 00:00:00": 65500000.0,
-      "2026-06-30 00:00:00": 67542000.0
+      "2025-06-30": 58470000.0,
+      "2025-09-30": 61342000.0,
+      "2025-12-31": 63403000.0,
+      "2026-03-31": 65500000.0,
+      "2026-06-30": 67542000.0
     },
-    "revenue_qoq_change": 3.117557251908397,
-    "revenue_yoy_change": 15.51564905079528,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.11,
-      "2025-09-30 00:00:00": -0.11,
-      "2025-12-31 00:00:00": -0.02,
-      "2026-03-31 00:00:00": -0.07,
-      "2026-06-30 00:00:00": -0.05
+      "2025-06-30": -0.11,
+      "2025-09-30": -0.11,
+      "2025-12-31": -0.02,
+      "2026-03-31": -0.07,
+      "2026-06-30": -0.05
     },
-    "eps_qoq_change": 28.571428571428577,
-    "eps_yoy_change": 54.54545454545454,
-    "gross_margin": 72.03,
-    "margin_change": -0.54,
-    "operating_margin": -6.25,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.5449284030451196,
+    "operating_margin_yoy_change": 9.886346300777308,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 4.275622897973909,
+    "net_debt": -27088000.0,
+    "debt_to_assets": 24.632886996792706,
+    "ticker": "WEAV"
   },
-  "fetched_at": "2026-08-10T14:25:02.166673"
+  "fetched_at": "2026-10-15T10:57:26.538552"
 }

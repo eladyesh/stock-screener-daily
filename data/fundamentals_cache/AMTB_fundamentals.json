@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "AMTB",
-    "fetch_date": "2026-08-14T13:25:03.803587",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 110257000.0,
-      "2025-09-30 00:00:00": 108728000.0,
-      "2025-12-31 00:00:00": 96388000.0,
-      "2026-03-31 00:00:00": 94797000.0,
-      "2026-06-30 00:00:00": 99565000.0
-    },
-    "revenue_qoq_change": 5.0296950325432235,
-    "revenue_yoy_change": -9.697343479325577,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.55,
-      "2025-09-30 00:00:00": 0.35,
-      "2025-12-31 00:00:00": 0.07,
-      "2026-03-31 00:00:00": 0.44,
-      "2026-06-30 00:00:00": 0.53
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:00:40.830338+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -9.697343479325571,
+    "revenue_qoq_change": 5.029695032543224,
+    "eps_yoy_change": -3.6363636363636376,
     "eps_qoq_change": 20.45454545454546,
-    "eps_yoy_change": -3.636363636363639,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.53,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 21.134936975844926,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.645492067295654,
+    "free_cash_flow_ttm": 104488000.0,
+    "operating_cash_flow_ttm": 109460000.0,
+    "revenue_ttm": 399478000.0,
+    "net_income_ttm": 56373000.0,
+    "ebitda_ttm": null,
+    "total_debt": 911976000.0,
+    "cash": 293132000.0,
+    "total_assets": 10294247000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 110257000.0,
+      "2025-09-30": 108728000.0,
+      "2025-12-31": 96388000.0,
+      "2026-03-31": 94797000.0,
+      "2026-06-30": 99565000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.55,
+      "2025-09-30": 0.35,
+      "2025-12-31": 0.07,
+      "2026-03-31": 0.44,
+      "2026-06-30": 0.53
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.15613375454969,
+    "net_debt": 618844000.0,
+    "debt_to_assets": 8.859084107851697,
+    "ticker": "AMTB"
   },
-  "fetched_at": "2026-08-14T13:25:03.804275"
+  "fetched_at": "2026-10-15T10:00:40.834044"
 }

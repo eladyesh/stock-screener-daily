@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "VRSK",
-    "fetch_date": "2026-08-07T14:18:54.237188",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 772600000.0,
-      "2025-09-30 00:00:00": 768300000.0,
-      "2025-12-31 00:00:00": 778800000.0,
-      "2026-03-31 00:00:00": 782600000.0,
-      "2026-06-30 00:00:00": 806300000.0
-    },
-    "revenue_qoq_change": 3.028366981855354,
-    "revenue_yoy_change": 4.361894900336527,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.81,
-      "2025-09-30 00:00:00": 1.61,
-      "2025-12-31 00:00:00": 1.42,
-      "2026-03-31 00:00:00": 1.73,
-      "2026-06-30 00:00:00": 1.75
-    },
-    "eps_qoq_change": 1.1560693641618507,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:41.673434+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 4.361894900336516,
+    "revenue_qoq_change": 3.028366981855357,
     "eps_yoy_change": -3.314917127071826,
-    "gross_margin": 71.05,
-    "margin_change": 1.29,
-    "operating_margin": 45.11,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 1.1560693641618602,
+    "latest_eps": 1.75,
+    "gross_margin": 71.05295795609574,
+    "operating_margin": 45.10728016867171,
+    "net_margin": 28.35173012526355,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.761459434464867,
+    "free_cash_flow_ttm": 1236500000.0,
+    "operating_cash_flow_ttm": 1503200000.0,
+    "revenue_ttm": 3136000000.0,
+    "net_income_ttm": 885500000.0,
+    "ebitda_ttm": 1680100000.0,
+    "total_debt": 4617100000.0,
+    "cash": 551400000.0,
+    "total_assets": 4495900000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 772600000.0,
+      "2025-09-30": 768300000.0,
+      "2025-12-31": 778800000.0,
+      "2026-03-31": 782600000.0,
+      "2026-06-30": 806300000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.81,
+      "2025-09-30": 1.61,
+      "2025-12-31": 1.42,
+      "2026-03-31": 1.73,
+      "2026-06-30": 1.75
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.2855160956306264,
+    "operating_margin_yoy_change": -0.7508611722550285,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 39.42920918367347,
+    "net_debt": 4065700000.0,
+    "net_debt_to_ebitda": 2.4199154812213557,
+    "debt_to_assets": 102.69578949709735,
+    "ticker": "VRSK"
   },
-  "fetched_at": "2026-08-07T14:18:54.238445"
+  "fetched_at": "2026-10-15T10:56:41.678433"
 }

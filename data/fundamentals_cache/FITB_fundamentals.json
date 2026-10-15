@@ -1,30 +1,50 @@
 {
   "data": {
-    "ticker": "FITB",
-    "fetch_date": "2026-08-14T13:43:20.119242",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 2110000000.0,
-      "2025-06-30 00:00:00": 2223000000.0,
-      "2025-09-30 00:00:00": 2279000000.0,
-      "2025-12-31 00:00:00": 2209000000.0,
-      "2026-03-31 00:00:00": 2772000000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.88,
-      "2025-09-30 00:00:00": 0.91,
-      "2025-12-31 00:00:00": 1.04,
-      "2026-03-31 00:00:00": 0.15,
-      "2026-06-30 00:00:00": 0.83
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:18:47.966406+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 44.3544759334233,
+    "revenue_qoq_change": 14.812164579606435,
+    "eps_yoy_change": -5.681818181818188,
     "eps_qoq_change": 453.3333333333333,
-    "eps_yoy_change": -5.681818181818187,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.83,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 35.892162264811574,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 10492000000.0,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": null,
+    "cash": null,
+    "total_assets": null,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 2223000000.0,
+      "2025-09-30": 2279000000.0,
+      "2025-12-31": 2209000000.0,
+      "2026-03-31": 2795000000.0,
+      "2026-06-30": 3209000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.88,
+      "2025-09-30": 0.91,
+      "2025-12-31": 1.04,
+      "2026-03-31": 0.15,
+      "2026-06-30": 0.83
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "ticker": "FITB"
   },
-  "fetched_at": "2026-08-14T13:43:20.119933"
+  "fetched_at": "2026-10-15T10:18:47.968258"
 }

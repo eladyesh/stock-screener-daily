@@ -1,34 +1,53 @@
 {
   "data": {
-    "ticker": "DEC",
-    "fetch_date": "2026-08-10T13:40:42.927840",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 62515000.0,
-      "2025-06-30 00:00:00": 417626000.0,
-      "2026-03-31 00:00:00": 27144000.0,
-      "2026-06-30 00:00:00": 520874000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:27.016564+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 24.72259868877895,
     "revenue_qoq_change": 1818.9286766872974,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -5.52,
-      "2025-06-30 00:00:00": 3.67,
-      "2026-03-31 00:00:00": -2.13,
-      "2026-06-30 00:00:00": 3.31
-    },
-    "eps_qoq_change": 255.39906103286384,
-    "gross_margin": 43.41,
-    "margin_change": 1020.11,
-    "operating_margin": 27.78,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 9591000.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 27801000.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "eps_yoy_change": -9.809264305177113,
+    "eps_qoq_change": null,
+    "latest_eps": 3.31,
+    "gross_margin": 43.40646682307045,
+    "operating_margin": 27.778887024501124,
+    "net_margin": 47.410506187676866,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": -7.92931849713624,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 2962074000.0,
+    "cash": 8238000.0,
+    "total_assets": 6109679000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 62515000.0,
+      "2025-06-30": 417626000.0,
+      "2026-03-31": 27144000.0,
+      "2026-06-30": 520874000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -5.52,
+      "2025-06-30": 3.67,
+      "2026-03-31": -2.13,
+      "2026-06-30": 3.31
+    },
+    "quarterly_inventory": {
+      "2025-06-30": null,
+      "2025-12-31": 27801000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 1020.1085004216558,
+    "operating_margin_yoy_change": 13.401908579672499,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 2953836000.0,
+    "debt_to_assets": 48.48166327559926,
+    "ticker": "DEC"
   },
-  "fetched_at": "2026-08-10T13:40:42.929334"
+  "fetched_at": "2026-10-15T10:13:27.021579"
 }

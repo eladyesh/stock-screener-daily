@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "KRP",
-    "fetch_date": "2026-08-14T13:53:37.363846",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 77209000.0,
-      "2025-09-30 00:00:00": 77186000.0,
-      "2025-12-31 00:00:00": 77082000.0,
-      "2026-03-31 00:00:00": 84222000.0,
-      "2026-06-30 00:00:00": 106365000.0
-    },
-    "revenue_qoq_change": 26.29123031986892,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:58.207921+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 37.76243702159074,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.02,
-      "2025-09-30 00:00:00": 0.19,
-      "2025-12-31 00:00:00": 0.21,
-      "2026-03-31 00:00:00": 0.04,
-      "2026-06-30 00:00:00": 0.4
-    },
-    "eps_qoq_change": 900.0,
+    "revenue_qoq_change": 26.29123031986891,
     "eps_yoy_change": 1900.0,
-    "gross_margin": 63.89,
-    "margin_change": 5.67,
-    "operating_margin": 50.36,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 900.0,
+    "latest_eps": 0.4,
+    "gross_margin": 63.885676679358816,
+    "operating_margin": 50.363371409768256,
+    "net_margin": 38.58318055751422,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.2932812658163946,
+    "free_cash_flow_ttm": 193174000.0,
+    "operating_cash_flow_ttm": 237722000.0,
+    "revenue_ttm": 344855000.0,
+    "net_income_ttm": 89086000.0,
+    "ebitda_ttm": 259788000.0,
+    "total_debt": 482938000.0,
+    "cash": 44931000.0,
+    "total_assets": 1326217000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 77209000.0,
+      "2025-09-30": 77186000.0,
+      "2025-12-31": 77082000.0,
+      "2026-03-31": 84222000.0,
+      "2026-06-30": 106365000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.02,
+      "2025-09-30": 0.19,
+      "2025-12-31": 0.21,
+      "2026-03-31": 0.04,
+      "2026-06-30": 0.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": 5.665734146528912,
+    "operating_margin_yoy_change": 13.519221116408673,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 56.01600672746516,
+    "net_debt": 438007000.0,
+    "net_debt_to_ebitda": 1.6860170600643603,
+    "debt_to_assets": 36.41470438095726,
+    "ticker": "KRP"
   },
-  "fetched_at": "2026-08-14T13:53:37.365176"
+  "fetched_at": "2026-10-15T10:28:58.212805"
 }

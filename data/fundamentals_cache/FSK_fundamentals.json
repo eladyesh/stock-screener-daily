@@ -1,28 +1,52 @@
 {
   "data": {
-    "ticker": "FSK",
-    "fetch_date": "2026-08-14T13:44:24.977034",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:50.962454+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": null,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.13,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.06032854354951489,
+    "free_cash_flow_ttm": 1923000000.0,
+    "operating_cash_flow_ttm": 1923000000.0,
+    "revenue_ttm": -307000000.0,
+    "net_income_ttm": -375000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 6471000000.0,
+    "cash": 109000000.0,
+    "total_assets": 11994000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -184000000.0,
-      "2025-09-30 00:00:00": 228000000.0,
-      "2025-12-31 00:00:00": -76000000.0,
-      "2026-03-31 00:00:00": -427000000.0,
-      "2026-06-30 00:00:00": -32000000.0
+      "2025-03-31": null,
+      "2025-06-30": -184000000.0,
+      "2025-09-30": 228000000.0,
+      "2025-12-31": -76000000.0,
+      "2026-03-31": -427000000.0,
+      "2026-06-30": -32000000.0
     },
-    "revenue_qoq_change": -92.50585480093677,
-    "revenue_yoy_change": -82.6086956521739,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.43,
-      "2025-06-30 00:00:00": -0.75,
-      "2025-09-30 00:00:00": 0.76,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -1.57,
-      "2026-06-30 00:00:00": -0.13
+      "2025-03-31": 0.43,
+      "2025-06-30": -0.75,
+      "2025-09-30": 0.76,
+      "2025-12-31": null,
+      "2026-03-31": -1.57,
+      "2026-06-30": -0.13
     },
-    "eps_qoq_change": 91.71974522292993,
-    "eps_yoy_change": 82.66666666666667,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 6362000000.0,
+    "debt_to_assets": 53.951975987994,
+    "ticker": "FSK"
   },
-  "fetched_at": "2026-08-14T13:44:24.977712"
+  "fetched_at": "2026-10-15T10:19:50.966219"
 }

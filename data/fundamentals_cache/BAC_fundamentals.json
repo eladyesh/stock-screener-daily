@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "BAC",
-    "fetch_date": "2026-08-13T13:33:16.729372",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:25.875644+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 7.168902892342555,
+    "revenue_qoq_change": -2.9121231558691507,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 13.265306122448983,
+    "latest_eps": 1.11,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.356236786469346,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 56567000000.0,
+    "operating_cash_flow_ttm": 56567000000.0,
+    "revenue_ttm": 116983000000.0,
+    "net_income_ttm": 31751000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 383594000000.0,
+    "cash": 249865000000.0,
+    "total_assets": 3496186000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 28247000000.0,
-      "2025-06-30 00:00:00": 26463000000.0,
-      "2025-09-30 00:00:00": 28088000000.0,
-      "2025-12-31 00:00:00": 31180000000.0,
-      "2026-03-31 00:00:00": 30272000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 28247000000.0,
+      "2025-06-30": 27443000000.0,
+      "2025-09-30": 28088000000.0,
+      "2025-12-31": 31180000000.0,
+      "2026-03-31": 30272000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.9,
-      "2025-09-30 00:00:00": 1.06,
-      "2025-12-31 00:00:00": 0.98,
-      "2026-03-31 00:00:00": 1.11,
-      "2026-06-30 00:00:00": 1.21
+      "2025-03-31": null,
+      "2025-06-30": 0.89,
+      "2025-09-30": 1.06,
+      "2025-12-31": 0.98,
+      "2026-03-31": 1.11
     },
-    "eps_qoq_change": 9.009009009008997,
-    "eps_yoy_change": 34.444444444444436,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 48.354889171930964,
+    "net_debt": 133729000000.0,
+    "debt_to_assets": 10.971784681936258,
+    "ticker": "BAC"
   },
-  "fetched_at": "2026-08-13T13:33:16.730104"
+  "fetched_at": "2026-10-15T10:03:25.879499"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "GWRE",
-    "fetch_date": "2026-08-06T14:54:02.363144",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:22:42.057647+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 15.289564461396088,
+    "revenue_qoq_change": 10.347049049634816,
+    "eps_yoy_change": -36.66666666666666,
+    "eps_qoq_change": 100.0,
+    "latest_eps": 0.38,
+    "gross_margin": 65.60128245047288,
+    "operating_margin": 15.159284630054879,
+    "net_margin": 7.637050947728953,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.068860406526863,
+    "free_cash_flow_ttm": 358657000.0,
+    "operating_cash_flow_ttm": 389716000.0,
+    "revenue_ttm": 1475363000.0,
+    "net_income_ttm": 139284000.0,
+    "ebitda_ttm": 205392000.0,
+    "total_debt": 714987000.0,
+    "cash": 753062000.0,
+    "total_assets": 2576946000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 293508000.0,
-      "2025-07-31 00:00:00": 356570000.0,
-      "2025-10-31 00:00:00": 332639000.0,
-      "2026-01-31 00:00:00": 359095000.0,
-      "2026-04-30 00:00:00": 372541000.0
+      "2025-07-31": 356570000.0,
+      "2025-10-31": 332639000.0,
+      "2026-01-31": 359095000.0,
+      "2026-04-30": 372541000.0,
+      "2026-07-31": 411088000.0
     },
-    "revenue_qoq_change": 3.7444130383324747,
-    "revenue_yoy_change": 26.927034356814804,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": 0.54,
-      "2025-07-31 00:00:00": 0.6,
-      "2025-10-31 00:00:00": 0.36,
-      "2026-01-31 00:00:00": 0.7,
-      "2026-04-30 00:00:00": 0.19
+      "2025-07-31": 0.6,
+      "2025-10-31": 0.36,
+      "2026-01-31": 0.7,
+      "2026-04-30": 0.19,
+      "2026-07-31": 0.38
     },
-    "eps_qoq_change": -72.85714285714286,
-    "eps_yoy_change": -64.81481481481481,
-    "gross_margin": 63.52,
-    "margin_change": -0.95,
-    "operating_margin": 8.22,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 2.079415058695872,
+    "operating_margin_yoy_change": 6.858810669822665,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.309746143830367,
+    "net_debt": -38075000.0,
+    "net_debt_to_ebitda": -0.18537722988237126,
+    "debt_to_assets": 27.745517368233557,
+    "ticker": "GWRE"
   },
-  "fetched_at": "2026-08-06T14:54:02.364205"
+  "fetched_at": "2026-10-15T10:22:42.062617"
 }

@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "LYFT",
-    "fetch_date": "2026-08-14T13:56:11.374173",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1588183000.0,
-      "2025-09-30 00:00:00": 1685195000.0,
-      "2025-12-31 00:00:00": 1592711000.0,
-      "2026-03-31 00:00:00": 1650489000.0,
-      "2026-06-30 00:00:00": 1843544000.0
-    },
-    "revenue_qoq_change": 11.696836513299997,
-    "revenue_yoy_change": 16.078814595043518,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.01,
-      "2025-06-30 00:00:00": 0.1,
-      "2025-09-30 00:00:00": 0.11,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.04,
-      "2026-06-30 00:00:00": 0.13
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:31:28.114682+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.07881459504352,
+    "revenue_qoq_change": 11.696836513300003,
+    "eps_yoy_change": 30.000000000000004,
     "eps_qoq_change": 225.0,
-    "eps_yoy_change": 30.0,
-    "gross_margin": 49.75,
-    "margin_change": 2.1,
-    "operating_margin": 2.58,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.13,
+    "gross_margin": 49.74782267198396,
+    "operating_margin": 2.580139123340696,
+    "net_margin": 2.7281149785413312,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.657935988159437,
+    "free_cash_flow_ttm": 1112326000.0,
+    "operating_cash_flow_ttm": 1195080000.0,
+    "revenue_ttm": 6771939000.0,
+    "net_income_ttm": 2865671000.0,
+    "ebitda_ttm": 161298000.0,
+    "total_debt": 1261604000.0,
+    "cash": 1794515000.0,
+    "total_assets": 9107486000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1588183000.0,
+      "2025-09-30": 1685195000.0,
+      "2025-12-31": 1592711000.0,
+      "2026-03-31": 1650489000.0,
+      "2026-06-30": 1843544000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.01,
+      "2025-06-30": 0.1,
+      "2025-09-30": 0.11,
+      "2025-12-31": null,
+      "2026-03-31": 0.04,
+      "2026-06-30": 0.13
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.104669642790796,
+    "operating_margin_yoy_change": 2.427134085508154,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 16.425517122939233,
+    "net_debt": -532911000.0,
+    "net_debt_to_ebitda": -3.3038909347915038,
+    "debt_to_assets": 13.852384730539253,
+    "ticker": "LYFT"
   },
-  "fetched_at": "2026-08-14T13:56:11.375527"
+  "fetched_at": "2026-10-15T10:31:28.119581"
 }

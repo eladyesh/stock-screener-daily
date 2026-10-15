@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "CARS",
-    "fetch_date": "2026-08-13T13:37:31.894949",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 178739000.0,
-      "2025-09-30 00:00:00": 181573000.0,
-      "2025-12-31 00:00:00": 183903000.0,
-      "2026-03-31 00:00:00": 180223000.0,
-      "2026-06-30 00:00:00": 179934000.0
-    },
-    "revenue_qoq_change": -0.16035689118480992,
-    "revenue_yoy_change": 0.6685726114614046,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.11,
-      "2025-09-30 00:00:00": 0.12,
-      "2025-12-31 00:00:00": 0.12,
-      "2026-03-31 00:00:00": 0.08,
-      "2026-06-30 00:00:00": 0.25
-    },
-    "eps_qoq_change": 212.49999999999994,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:07:39.960087+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.6685726114614043,
+    "revenue_qoq_change": -0.16035689118480967,
     "eps_yoy_change": 127.2727272727273,
-    "gross_margin": 83.17,
-    "margin_change": 0.78,
-    "operating_margin": 15.49,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 212.5,
+    "latest_eps": 0.25,
+    "gross_margin": 83.16882857047584,
+    "operating_margin": 15.492347193971124,
+    "net_margin": 7.926795380528416,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.26217850317972,
+    "free_cash_flow_ttm": 127384000.0,
+    "operating_cash_flow_ttm": 151576000.0,
+    "revenue_ttm": 725633000.0,
+    "net_income_ttm": 34297000.0,
+    "ebitda_ttm": 157502000.0,
+    "total_debt": 447125000.0,
+    "cash": 33287000.0,
+    "total_assets": 1012438000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 178739000.0,
+      "2025-09-30": 181573000.0,
+      "2025-12-31": 183903000.0,
+      "2026-03-31": 180223000.0,
+      "2026-06-30": 179934000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.11,
+      "2025-09-30": 0.12,
+      "2025-12-31": 0.12,
+      "2026-03-31": 0.08,
+      "2026-06-30": 0.25
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.7808980621611425,
+    "operating_margin_yoy_change": 6.9625915166986765,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.554879670577275,
+    "net_debt": 413838000.0,
+    "net_debt_to_ebitda": 2.6275094919429596,
+    "debt_to_assets": 44.16319814151583,
+    "ticker": "CARS"
   },
-  "fetched_at": "2026-08-13T13:37:31.896352"
+  "fetched_at": "2026-10-15T10:07:39.964909"
 }

@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "AII",
-    "fetch_date": "2026-08-13T13:28:57.800255",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:59:12.716725+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 54.59402139626035,
+    "revenue_qoq_change": 26.657575524298636,
+    "eps_yoy_change": 7.407407407407396,
+    "eps_qoq_change": 70.58823529411764,
+    "latest_eps": 1.74,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.648088494499486,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 15.495586477479906,
+    "free_cash_flow_ttm": 163641000.0,
+    "operating_cash_flow_ttm": 172554000.0,
+    "revenue_ttm": 336202000.0,
+    "net_income_ttm": 88087000.0,
+    "ebitda_ttm": null,
+    "total_debt": 33477000.0,
+    "cash": 519009000.0,
+    "total_assets": 1612281000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 71886000.0,
-      "2025-06-30 00:00:00": 74499000.0,
-      "2025-09-30 00:00:00": 62026000.0,
-      "2025-12-31 00:00:00": 68074000.0,
-      "2026-03-31 00:00:00": 90931000.0
+      "2025-03-31": null,
+      "2025-06-30": 74499000.0,
+      "2025-09-30": 62026000.0,
+      "2025-12-31": 68074000.0,
+      "2026-03-31": 90931000.0,
+      "2026-06-30": 115171000.0
     },
-    "revenue_qoq_change": 33.576695948526606,
-    "revenue_yoy_change": 26.493336671952818,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.945477,
-      "2025-06-30 00:00:00": 1.62,
-      "2025-09-30 00:00:00": 0.67,
-      "2025-12-31 00:00:00": 1.07,
-      "2026-03-31 00:00:00": 1.02
+      "2025-03-31": null,
+      "2025-06-30": 1.62,
+      "2025-09-30": 0.67,
+      "2025-12-31": 1.07,
+      "2026-03-31": 1.02,
+      "2026-06-30": 1.74
     },
-    "eps_qoq_change": -4.672897196261686,
-    "eps_yoy_change": -47.57069859988064,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 48.67341657693886,
+    "net_debt": -485532000.0,
+    "debt_to_assets": 2.076375023956742,
+    "ticker": "AII"
   },
-  "fetched_at": "2026-08-13T13:28:57.801059"
+  "fetched_at": "2026-10-15T09:59:12.720494"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "FNB",
-    "fetch_date": "2026-08-14T13:43:48.174002",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:15.443069+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 5.46697038724373,
+    "revenue_qoq_change": 2.8888888888888964,
+    "eps_yoy_change": 16.666666666666675,
+    "eps_qoq_change": 10.526315789473673,
+    "latest_eps": 0.42,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.18142548596112,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.5313240692010899,
+    "free_cash_flow_ttm": 622000000.0,
+    "operating_cash_flow_ttm": 704000000.0,
+    "revenue_ttm": 1828000000.0,
+    "net_income_ttm": 604000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 4033000000.0,
+    "cash": 2375000000.0,
+    "total_assets": 50999000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 439000000.0,
-      "2025-09-30 00:00:00": 457000000.0,
-      "2025-12-31 00:00:00": 458000000.0,
-      "2026-03-31 00:00:00": 450000000.0,
-      "2026-06-30 00:00:00": 463000000.0
+      "2025-06-30": 439000000.0,
+      "2025-09-30": 457000000.0,
+      "2025-12-31": 458000000.0,
+      "2026-03-31": 450000000.0,
+      "2026-06-30": 463000000.0
     },
-    "revenue_qoq_change": 2.888888888888889,
-    "revenue_yoy_change": 5.466970387243736,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.36,
-      "2025-09-30 00:00:00": 0.41,
-      "2025-12-31 00:00:00": 0.47,
-      "2026-03-31 00:00:00": 0.38,
-      "2026-06-30 00:00:00": 0.42
+      "2025-06-30": 0.36,
+      "2025-09-30": 0.41,
+      "2025-12-31": 0.47,
+      "2026-03-31": 0.38,
+      "2026-06-30": 0.42
     },
-    "eps_qoq_change": 10.52631578947368,
-    "eps_yoy_change": 16.666666666666664,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.02625820568928,
+    "net_debt": 1658000000.0,
+    "debt_to_assets": 7.907998196043059,
+    "ticker": "FNB"
   },
-  "fetched_at": "2026-08-14T13:43:48.174738"
+  "fetched_at": "2026-10-15T10:19:15.447128"
 }

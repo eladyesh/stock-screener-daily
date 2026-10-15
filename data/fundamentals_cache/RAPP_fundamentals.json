@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "RAPP",
-    "fetch_date": "2026-08-14T14:08:32.539513",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 20000000.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:43.179232+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.75,
-      "2025-09-30 00:00:00": -0.71,
-      "2025-12-31 00:00:00": -0.72,
-      "2026-03-31 00:00:00": -0.42,
-      "2026-06-30 00:00:00": -1.19
+    "revenue_qoq_change": -100.0,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.19,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 33.936134481283275,
+    "free_cash_flow_ttm": -97149000.0,
+    "operating_cash_flow_ttm": -96682000.0,
+    "revenue_ttm": 20000000.0,
+    "net_income_ttm": -137160000.0,
+    "ebitda_ttm": -152556000.0,
+    "total_debt": 10105000.0,
+    "cash": 436077000.0,
+    "total_assets": 458982000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 20000000.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -183.33333333333334,
-    "eps_yoy_change": -58.66666666666666,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.75,
+      "2025-09-30": -0.71,
+      "2025-12-31": -0.72,
+      "2026-03-31": -0.42,
+      "2026-06-30": -1.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -485.745,
+    "net_debt": -425972000.0,
+    "debt_to_assets": 2.2016113921678846,
+    "ticker": "RAPP"
   },
-  "fetched_at": "2026-08-14T14:08:32.540489"
+  "fetched_at": "2026-10-15T10:43:43.184073"
 }

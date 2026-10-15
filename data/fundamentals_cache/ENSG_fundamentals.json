@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ENSG",
-    "fetch_date": "2026-08-10T13:43:42.970479",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:16:23.982614+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 17.325083138603436,
+    "revenue_qoq_change": 3.6917036904799527,
+    "eps_yoy_change": 16.666666666666675,
+    "eps_qoq_change": 0.5988023952095745,
+    "latest_eps": 1.68,
+    "gross_margin": 16.649438625014838,
+    "operating_margin": 8.504381522560866,
+    "net_margin": 6.923937212639389,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.5033616600115929,
+    "free_cash_flow_ttm": 419091000.0,
+    "operating_cash_flow_ttm": 608428000.0,
+    "revenue_ttm": 5486708000.0,
+    "net_income_ttm": 378704000.0,
+    "ebitda_ttm": 621282000.0,
+    "total_debt": 2250346000.0,
+    "cash": 320844000.0,
+    "total_assets": 5749396000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1227769000.0,
-      "2025-09-30 00:00:00": 1296405000.0,
-      "2025-12-31 00:00:00": 1360626000.0,
-      "2026-03-31 00:00:00": 1389196000.0,
-      "2026-06-30 00:00:00": 1440481000.0
+      "2025-06-30": 1227769000.0,
+      "2025-09-30": 1296405000.0,
+      "2025-12-31": 1360626000.0,
+      "2026-03-31": 1389196000.0,
+      "2026-06-30": 1440481000.0
     },
-    "revenue_qoq_change": 3.691703690479961,
-    "revenue_yoy_change": 17.325083138603432,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.44,
-      "2025-09-30 00:00:00": 1.42,
-      "2025-12-31 00:00:00": 1.61,
-      "2026-03-31 00:00:00": 1.67,
-      "2026-06-30 00:00:00": 1.68
+      "2025-06-30": 1.44,
+      "2025-09-30": 1.42,
+      "2025-12-31": 1.61,
+      "2026-03-31": 1.67,
+      "2026-06-30": 1.68
     },
-    "eps_qoq_change": 0.5988023952095813,
-    "eps_yoy_change": 16.666666666666664,
-    "gross_margin": 16.65,
-    "margin_change": 0.25,
-    "operating_margin": 8.5,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.2468575637391055,
+    "operating_margin_yoy_change": 0.0417146853952417,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.638296041998226,
+    "net_debt": 1929502000.0,
+    "net_debt_to_ebitda": 3.1056782588261047,
+    "debt_to_assets": 39.14056363485834,
+    "ticker": "ENSG"
   },
-  "fetched_at": "2026-08-10T13:43:42.971627"
+  "fetched_at": "2026-10-15T10:16:23.987625"
 }

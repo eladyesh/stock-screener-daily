@@ -1,27 +1,52 @@
 {
   "data": {
-    "ticker": "PTGX",
-    "fetch_date": "2026-08-14T14:07:34.592916",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 5546000.0,
-      "2025-09-30 00:00:00": 4712000.0,
-      "2025-12-31 00:00:00": 7437000.0,
-      "2026-03-31 00:00:00": 56368000.0,
-      "2026-06-30 00:00:00": 213475000.0
-    },
-    "revenue_qoq_change": 278.71664774340053,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:48.103096+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 3749.170573386224,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.55,
-      "2025-09-30 00:00:00": -0.62,
-      "2025-12-31 00:00:00": -0.69,
-      "2026-03-31 00:00:00": 0.05,
-      "2026-06-30 00:00:00": 2.29
-    },
+    "revenue_qoq_change": 278.71664774340053,
+    "eps_yoy_change": null,
     "eps_qoq_change": 4480.0,
-    "eps_yoy_change": 516.3636363636363,
-    "operating_margin": 74.37,
-    "inventory_breakdown_available": false
+    "latest_eps": 2.29,
+    "gross_margin": null,
+    "operating_margin": 74.37217472771988,
+    "net_margin": 76.28481086778311,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 11.803512226640445,
+    "free_cash_flow_ttm": 130582000.0,
+    "operating_cash_flow_ttm": 131197000.0,
+    "revenue_ttm": 281992000.0,
+    "net_income_ttm": 82909000.0,
+    "ebitda_ttm": 59883000.0,
+    "total_debt": 9216000.0,
+    "cash": 782576000.0,
+    "total_assets": 885544000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 5546000.0,
+      "2025-09-30": 4712000.0,
+      "2025-12-31": 7437000.0,
+      "2026-03-31": 56368000.0,
+      "2026-06-30": 213475000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": -0.55,
+      "2025-09-30": -0.62,
+      "2025-12-31": -0.69,
+      "2026-03-31": 0.05,
+      "2026-06-30": 2.29
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 832.4140066786755,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 46.30698743226758,
+    "net_debt": -773360000.0,
+    "net_debt_to_ebitda": -12.91451664078286,
+    "debt_to_assets": 1.0407162151174871,
+    "ticker": "PTGX"
   },
-  "fetched_at": "2026-08-14T14:07:34.593902"
+  "fetched_at": "2026-10-15T10:42:48.107959"
 }

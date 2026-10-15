@@ -1,29 +1,53 @@
 {
   "data": {
-    "ticker": "ASMB",
-    "fetch_date": "2026-08-13T13:31:57.668245",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 9419000.0,
-      "2025-06-30 00:00:00": 9626000.0,
-      "2025-09-30 00:00:00": 10789000.0,
-      "2025-12-31 00:00:00": 42469000.0,
-      "2026-03-31 00:00:00": 8213000.0
-    },
-    "revenue_qoq_change": -80.66118816077609,
-    "revenue_yoy_change": -12.803906996496444,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -1.17,
-      "2025-06-30 00:00:00": -1.33,
-      "2025-09-30 00:00:00": -0.72,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.54
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:02:08.759757+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 38.93621441928112,
+    "revenue_qoq_change": 62.83940094971388,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": 53.84615384615385,
-    "operating_margin": -138.44,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.2,
+    "gross_margin": null,
+    "operating_margin": -47.43532226708539,
+    "net_margin": -28.839539404815312,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 146.26444025708955,
+    "free_cash_flow_ttm": -38566000.0,
+    "operating_cash_flow_ttm": -38481000.0,
+    "revenue_ttm": 74845000.0,
+    "net_income_ttm": -42000.0,
+    "ebitda_ttm": -8688000.0,
+    "total_debt": 2350000.0,
+    "cash": 320361000.0,
+    "total_assets": 330832000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 9626000.0,
+      "2025-09-30": 10789000.0,
+      "2025-12-31": 42469000.0,
+      "2026-03-31": 8213000.0,
+      "2026-06-30": 13374000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -1.17,
+      "2025-06-30": -1.33,
+      "2025-09-30": -0.72,
+      "2025-12-31": null,
+      "2026-03-31": -0.54,
+      "2026-06-30": -0.2
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 67.80465280044007,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -51.52782416995123,
+    "net_debt": -318011000.0,
+    "debt_to_assets": 0.7103303187116119,
+    "ticker": "ASMB"
   },
-  "fetched_at": "2026-08-13T13:31:57.669276"
+  "fetched_at": "2026-10-15T10:02:08.764861"
 }

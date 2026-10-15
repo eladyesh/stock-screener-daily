@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "OPLN",
-    "fetch_date": "2026-08-14T14:03:43.525414",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 481700000.0,
-      "2025-09-30 00:00:00": 498400000.0,
-      "2025-12-31 00:00:00": 494300000.0,
-      "2026-03-31 00:00:00": 527900000.0,
-      "2026-06-30 00:00:00": 554600000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:38:59.248823+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.133900768112941,
     "revenue_qoq_change": 5.057776093957189,
-    "revenue_yoy_change": 15.133900768112934,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.15,
-      "2025-09-30 00:00:00": 0.25,
-      "2025-12-31 00:00:00": -1.77,
-      "2026-03-31 00:00:00": 0.35,
-      "2026-06-30 00:00:00": 0.32
-    },
+    "eps_yoy_change": 113.33333333333333,
     "eps_qoq_change": -8.571428571428562,
-    "eps_yoy_change": 113.33333333333336,
-    "gross_margin": 40.12,
-    "margin_change": -3.72,
-    "operating_margin": 12.17,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.32,
+    "gross_margin": 40.11900468806347,
+    "operating_margin": 12.170934006491164,
+    "net_margin": 7.987738910926794,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 17.375801403577597,
+    "free_cash_flow_ttm": 353900000.0,
+    "operating_cash_flow_ttm": 410100000.0,
+    "revenue_ttm": 2075200000.0,
+    "net_income_ttm": 200600000.0,
+    "ebitda_ttm": 336500000.0,
+    "total_debt": 585500000.0,
+    "cash": 189700000.0,
+    "total_assets": 5006400000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 481700000.0,
+      "2025-09-30": 498400000.0,
+      "2025-12-31": 494300000.0,
+      "2026-03-31": 527900000.0,
+      "2026-06-30": 554600000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.15,
+      "2025-09-30": 0.25,
+      "2025-12-31": -1.77,
+      "2026-03-31": 0.35,
+      "2026-06-30": 0.32
+    },
+    "quarterly_inventory": {},
+    "margin_change": -3.715054792898833,
+    "operating_margin_yoy_change": 0.877597905183297,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.05377794911334,
+    "net_debt": 395800000.0,
+    "net_debt_to_ebitda": 1.1762258543833581,
+    "debt_to_assets": 11.695030361137745,
+    "ticker": "OPLN"
   },
-  "fetched_at": "2026-08-14T14:03:43.526733"
+  "fetched_at": "2026-10-15T10:38:59.253681"
 }

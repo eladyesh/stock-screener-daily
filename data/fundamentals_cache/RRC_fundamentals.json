@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "RRC",
-    "fetch_date": "2026-08-14T14:10:30.693353",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 699647000.0,
-      "2025-09-30 00:00:00": 655298000.0,
-      "2025-12-31 00:00:00": 786891000.0,
-      "2026-03-31 00:00:00": 1067481000.0,
-      "2026-06-30 00:00:00": 759583000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:45:41.342187+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.56660573117587,
     "revenue_qoq_change": -28.84341735356414,
-    "revenue_yoy_change": 8.566605731175866,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.99,
-      "2025-09-30 00:00:00": 0.6,
-      "2025-12-31 00:00:00": 0.75,
-      "2026-03-31 00:00:00": 1.44,
-      "2026-06-30 00:00:00": 0.83
-    },
-    "eps_qoq_change": -42.36111111111111,
     "eps_yoy_change": -16.161616161616166,
-    "gross_margin": 34.57,
-    "margin_change": -18.72,
-    "operating_margin": 26.52,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -42.361111111111114,
+    "latest_eps": 0.83,
+    "gross_margin": 34.56646607414858,
+    "operating_margin": 26.51849764936814,
+    "net_margin": 25.714503879102086,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.4629750914620154,
+    "free_cash_flow_ttm": 689935000.0,
+    "operating_cash_flow_ttm": 1359202000.0,
+    "revenue_ttm": 3269253000.0,
+    "net_income_ttm": 860347000.0,
+    "ebitda_ttm": 1554474000.0,
+    "total_debt": 1016557000.0,
+    "cash": 247000.0,
+    "total_assets": 7561943000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 699647000.0,
+      "2025-09-30": 655298000.0,
+      "2025-12-31": 786891000.0,
+      "2026-03-31": 1067481000.0,
+      "2026-06-30": 759583000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.99,
+      "2025-09-30": 0.6,
+      "2025-12-31": 0.75,
+      "2026-03-31": 1.44,
+      "2026-06-30": 0.83
+    },
+    "quarterly_inventory": {},
+    "margin_change": -18.72057135321547,
+    "operating_margin_yoy_change": -0.267152828658638,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.103750612142896,
+    "net_debt": 1016310000.0,
+    "net_debt_to_ebitda": 0.6537967183754763,
+    "debt_to_assets": 13.44306615376498,
+    "ticker": "RRC"
   },
-  "fetched_at": "2026-08-14T14:10:30.694707"
+  "fetched_at": "2026-10-15T10:45:41.347212"
 }

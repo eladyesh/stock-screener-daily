@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "BBDC",
-    "fetch_date": "2026-08-13T13:33:35.823460",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 23661000.0,
-      "2025-09-30 00:00:00": 26784000.0,
-      "2025-12-31 00:00:00": 28503000.0,
-      "2026-03-31 00:00:00": 22706000.0,
-      "2026-06-30 00:00:00": 21762000.0
-    },
-    "revenue_qoq_change": -4.157491411961596,
-    "revenue_yoy_change": -8.02586534804108,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.2,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": 0.24,
-      "2026-03-31 00:00:00": 0.19,
-      "2026-06-30 00:00:00": 0.18
-    },
-    "eps_qoq_change": -5.263157894736847,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:43.990744+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -8.025865348041084,
+    "revenue_qoq_change": -4.1574914119616,
     "eps_yoy_change": -10.000000000000009,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -5.263157894736848,
+    "latest_eps": 0.18,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 84.23398584688907,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.4990220894278252,
+    "free_cash_flow_ttm": 304742000.0,
+    "operating_cash_flow_ttm": 304742000.0,
+    "revenue_ttm": 99755000.0,
+    "net_income_ttm": 87110000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1394715000.0,
+    "cash": 51543000.0,
+    "total_assets": 2584211000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 23661000.0,
+      "2025-09-30": 26784000.0,
+      "2025-12-31": 28503000.0,
+      "2026-03-31": 22706000.0,
+      "2026-06-30": 21762000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.2,
+      "2025-09-30": 0.22,
+      "2025-12-31": 0.24,
+      "2026-03-31": 0.19,
+      "2026-06-30": 0.18
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 305.4904516064357,
+    "net_debt": 1343172000.0,
+    "debt_to_assets": 53.9706316550777,
+    "ticker": "BBDC"
   },
-  "fetched_at": "2026-08-13T13:33:35.824147"
+  "fetched_at": "2026-10-15T10:03:43.994751"
 }

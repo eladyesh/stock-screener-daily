@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "RMBI",
-    "fetch_date": "2026-09-18T21:02:58.181166",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:45:12.314799+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.201160718265182,
+    "revenue_qoq_change": 7.085990566011735,
+    "eps_yoy_change": -15.384615384615385,
+    "eps_qoq_change": -21.42857142857143,
+    "latest_eps": 0.22,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 16.378801244251193,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.6907059421025874,
+    "free_cash_flow_ttm": 13486084.0,
+    "operating_cash_flow_ttm": 14759295.0,
+    "revenue_ttm": 51874478.0,
+    "net_income_ttm": 12018554.0,
+    "ebitda_ttm": null,
+    "total_debt": 244000000.0,
+    "cash": 37570571.0,
+    "total_assets": 1552029350.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 11801658.0,
-      "2025-09-30 00:00:00": 12555811.0,
-      "2025-12-31 00:00:00": 13027011.0,
-      "2026-03-31 00:00:00": 12696009.0,
-      "2026-06-30 00:00:00": 13595647.0
+      "2025-06-30": 11801658.0,
+      "2025-09-30": 12555811.0,
+      "2025-12-31": 13027011.0,
+      "2026-03-31": 12696009.0,
+      "2026-06-30": 13595647.0
     },
-    "revenue_qoq_change": 7.085990566011728,
-    "revenue_yoy_change": 15.20116071826518,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.26,
-      "2025-09-30 00:00:00": 0.36,
-      "2025-12-31 00:00:00": 0.35,
-      "2026-03-31 00:00:00": 0.28,
-      "2026-06-30 00:00:00": 0.22
+      "2025-06-30": 0.26,
+      "2025-09-30": 0.36,
+      "2025-12-31": 0.35,
+      "2026-03-31": 0.28,
+      "2026-06-30": 0.22
     },
-    "eps_qoq_change": -21.428571428571434,
-    "eps_yoy_change": -15.384615384615389,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.997531965526477,
+    "net_debt": 206429429.0,
+    "debt_to_assets": 15.721352176748463,
+    "ticker": "RMBI"
   },
-  "fetched_at": "2026-09-18T21:02:58.181963"
+  "fetched_at": "2026-10-15T10:45:12.318816"
 }

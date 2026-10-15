@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "DGICA",
-    "fetch_date": "2026-08-13T13:43:35.119593",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:41.014679+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -2.439689489099295,
+    "revenue_qoq_change": 2.170547772385212,
+    "eps_yoy_change": 30.43478260869563,
+    "eps_qoq_change": 93.54838709677418,
+    "latest_eps": 0.6,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 9.250943244144393,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.502217188731625,
+    "free_cash_flow_ttm": 58391217.0,
+    "operating_cash_flow_ttm": 58391542.0,
+    "revenue_ttm": 963176164.0,
+    "net_income_ttm": 71085799.0,
+    "ebitda_ttm": null,
+    "total_debt": 35000000.0,
+    "cash": 492612441.0,
+    "total_assets": 2482085857.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 247148296.0,
-      "2025-09-30 00:00:00": 245918841.0,
-      "2025-12-31 00:00:00": 240142444.0,
-      "2026-03-31 00:00:00": 235996234.0,
-      "2026-06-30 00:00:00": 241118645.0
+      "2025-03-31": null,
+      "2025-06-30": 247148296.0,
+      "2025-09-30": 245918841.0,
+      "2025-12-31": 240142444.0,
+      "2026-03-31": 235996234.0,
+      "2026-06-30": 241118645.0
     },
-    "revenue_qoq_change": 2.1705477723852153,
-    "revenue_yoy_change": -2.4396894890992895,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.46,
-      "2025-09-30 00:00:00": 0.55,
-      "2025-12-31 00:00:00": 0.47,
-      "2026-03-31 00:00:00": 0.31,
-      "2026-06-30 00:00:00": 0.6
+      "2025-03-31": null,
+      "2025-06-30": 0.46,
+      "2025-09-30": 0.55,
+      "2025-12-31": 0.47,
+      "2026-03-31": 0.31,
+      "2026-06-30": 0.6
     },
-    "eps_qoq_change": 93.54838709677419,
-    "eps_yoy_change": 30.43478260869564,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.062361090572005,
+    "net_debt": -457612441.0,
+    "debt_to_assets": 1.4101043242034796,
+    "ticker": "DGICA"
   },
-  "fetched_at": "2026-08-13T13:43:35.120274"
+  "fetched_at": "2026-10-15T10:13:41.018655"
 }

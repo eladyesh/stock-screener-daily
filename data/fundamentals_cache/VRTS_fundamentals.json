@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "VRTS",
-    "fetch_date": "2026-08-14T14:21:32.788559",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 209492000.0,
-      "2025-09-30 00:00:00": 215148000.0,
-      "2025-12-31 00:00:00": 206402000.0,
-      "2026-03-31 00:00:00": 198077000.0,
-      "2026-06-30 00:00:00": 199948000.0
-    },
-    "revenue_qoq_change": 0.9445821574438222,
-    "revenue_yoy_change": -4.555782559715884,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 6.12,
-      "2025-09-30 00:00:00": 4.65,
-      "2025-12-31 00:00:00": 5.17,
-      "2026-03-31 00:00:00": 1.05,
-      "2026-06-30 00:00:00": 6.68
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:44.625825+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -4.555782559715881,
+    "revenue_qoq_change": 0.9445821574438185,
+    "eps_yoy_change": 9.15032679738561,
     "eps_qoq_change": 536.1904761904761,
-    "eps_yoy_change": 9.150326797385615,
-    "gross_margin": 48.75,
-    "margin_change": 1.87,
-    "operating_margin": 11.87,
-    "inventory_breakdown_available": false
+    "latest_eps": 6.68,
+    "gross_margin": 48.750675175545645,
+    "operating_margin": 11.874087262688299,
+    "net_margin": 22.65889131174105,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.080323605894252,
+    "free_cash_flow_ttm": -51895000.0,
+    "operating_cash_flow_ttm": -45844000.0,
+    "revenue_ttm": 819575000.0,
+    "net_income_ttm": 119807000.0,
+    "ebitda_ttm": 396605000.0,
+    "total_debt": 2824135000.0,
+    "cash": 285850000.0,
+    "total_assets": 4536350000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 209492000.0,
+      "2025-09-30": 215148000.0,
+      "2025-12-31": 206402000.0,
+      "2026-03-31": 198077000.0,
+      "2026-06-30": 199948000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 6.12,
+      "2025-09-30": 4.65,
+      "2025-12-31": 5.17,
+      "2026-03-31": 1.05,
+      "2026-06-30": 6.68
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.8678972659448334,
+    "operating_margin_yoy_change": -8.267970667924804,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -6.33194033492969,
+    "net_debt": 2538285000.0,
+    "net_debt_to_ebitda": 6.4000327782050155,
+    "debt_to_assets": 62.25566810321072,
+    "ticker": "VRTS"
   },
-  "fetched_at": "2026-08-14T14:21:32.789869"
+  "fetched_at": "2026-10-15T10:56:44.630737"
 }

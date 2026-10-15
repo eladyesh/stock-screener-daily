@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "SKWD",
-    "fetch_date": "2026-08-14T14:13:02.547193",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:48:13.173742+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 52.926580652803445,
+    "revenue_qoq_change": 2.813707656067943,
+    "eps_yoy_change": 15.053763440860223,
+    "eps_qoq_change": -1.834862385321101,
+    "latest_eps": 1.07,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 9.995719439858131,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 9.125886020408736,
+    "free_cash_flow_ttm": 99136000.0,
+    "operating_cash_flow_ttm": 407303000.0,
+    "revenue_ttm": 1735662000.0,
+    "net_income_ttm": 187900000.0,
+    "ebitda_ttm": null,
+    "total_debt": 437205000.0,
+    "cash": 1830071000.0,
+    "total_assets": 6781139000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 320801000.0,
-      "2025-09-30 00:00:00": 382181000.0,
-      "2025-12-31 00:00:00": 385727000.0,
-      "2026-03-31 00:00:00": 477164000.0,
-      "2026-06-30 00:00:00": 490590000.0
+      "2025-06-30": 320801000.0,
+      "2025-09-30": 382181000.0,
+      "2025-12-31": 385727000.0,
+      "2026-03-31": 477164000.0,
+      "2026-06-30": 490590000.0
     },
-    "revenue_qoq_change": 2.8137076560679346,
-    "revenue_yoy_change": 52.92658065280346,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.93,
-      "2025-09-30 00:00:00": 1.1,
-      "2025-12-31 00:00:00": 1.03,
-      "2026-03-31 00:00:00": 1.09,
-      "2026-06-30 00:00:00": 1.07
+      "2025-06-30": 0.93,
+      "2025-09-30": 1.1,
+      "2025-12-31": 1.03,
+      "2026-03-31": 1.09,
+      "2026-06-30": 1.07
     },
-    "eps_qoq_change": -1.8348623853211024,
-    "eps_yoy_change": 15.053763440860216,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.711711151134264,
+    "net_debt": -1392866000.0,
+    "debt_to_assets": 6.447368207612319,
+    "ticker": "SKWD"
   },
-  "fetched_at": "2026-08-14T14:13:02.547871"
+  "fetched_at": "2026-10-15T10:48:13.177588"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "IRON",
-    "fetch_date": "2026-08-10T13:54:18.185902",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:26:57.289868+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -1.02,
-      "2025-06-30 00:00:00": -1.58,
-      "2025-09-30 00:00:00": -1.77,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -1.65,
-      "2026-06-30 00:00:00": -1.54
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.54,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 10.452578576789694,
+    "free_cash_flow_ttm": -197582000.0,
+    "operating_cash_flow_ttm": -197536000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -245888000.0,
+    "ebitda_ttm": -241671000.0,
+    "total_debt": 60862000.0,
+    "cash": 717746000.0,
+    "total_assets": 735071000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": 6.66666666666666,
-    "eps_yoy_change": 2.531645569620255,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": -1.02,
+      "2025-06-30": -1.58,
+      "2025-09-30": -1.77,
+      "2025-12-31": null,
+      "2026-03-31": -1.65,
+      "2026-06-30": -1.54
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -656884000.0,
+    "debt_to_assets": 8.279744405642449,
+    "ticker": "IRON"
   },
-  "fetched_at": "2026-08-10T13:54:18.186896"
+  "fetched_at": "2026-10-15T10:26:57.294664"
 }

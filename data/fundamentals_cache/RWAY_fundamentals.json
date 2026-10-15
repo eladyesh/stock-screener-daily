@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "RWAY",
-    "fetch_date": "2026-08-14T14:10:49.771504",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 20486000.0,
-      "2025-09-30 00:00:00": 11644000.0,
-      "2025-12-31 00:00:00": 10386000.0,
-      "2026-03-31 00:00:00": -30006000.0,
-      "2026-06-30 00:00:00": 30494000.0
-    },
-    "revenue_qoq_change": -201.62634139838698,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:01.270799+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 48.85287513423802,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.45,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": 0.2,
-      "2026-03-31 00:00:00": -0.96,
-      "2026-06-30 00:00:00": 0.65
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 44.44444444444444,
+    "eps_qoq_change": null,
+    "latest_eps": 0.65,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 89.17491965632584,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 13.399730011494192,
+    "free_cash_flow_ttm": -75366000.0,
+    "operating_cash_flow_ttm": -75366000.0,
+    "revenue_ttm": 22518000.0,
+    "net_income_ttm": 7762000.0,
+    "ebitda_ttm": null,
+    "total_debt": 693848000.0,
+    "cash": 10831000.0,
+    "total_assets": 1222357000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 20486000.0,
+      "2025-09-30": 11644000.0,
+      "2025-12-31": 10386000.0,
+      "2026-03-31": -30006000.0,
+      "2026-06-30": 30494000.0
     },
-    "eps_qoq_change": 167.70833333333331,
-    "eps_yoy_change": 44.44444444444445,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.45,
+      "2025-09-30": 0.22,
+      "2025-12-31": 0.2,
+      "2026-03-31": -0.96,
+      "2026-06-30": 0.65
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -334.6922462030376,
+    "net_debt": 683017000.0,
+    "debt_to_assets": 56.76312239386693,
+    "ticker": "RWAY"
   },
-  "fetched_at": "2026-08-14T14:10:49.772163"
+  "fetched_at": "2026-10-15T10:46:01.274745"
 }

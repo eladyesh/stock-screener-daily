@@ -1,28 +1,50 @@
 {
   "data": {
-    "ticker": "PBAM",
-    "fetch_date": "2026-09-16T17:22:46.843531",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:09.250852+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.488521810130955,
+    "revenue_qoq_change": 0.005789717461790467,
+    "eps_yoy_change": 28.248587570621474,
+    "eps_qoq_change": 9.661835748792269,
+    "latest_eps": 2.27,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 37.9725583280264,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.6615279205207223,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 26000000.0,
+    "cash": 304699000.0,
+    "total_assets": 2708302000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 29345000.0,
-      "2025-06-30 00:00:00": 31843000.0,
-      "2025-12-31 00:00:00": 32466000.0,
-      "2026-03-31 00:00:00": 34544000.0,
-      "2026-06-30 00:00:00": 34546000.0
+      "2025-03-31": 29345000.0,
+      "2025-06-30": 31843000.0,
+      "2025-12-31": 32466000.0,
+      "2026-03-31": 34544000.0,
+      "2026-06-30": 34546000.0
     },
-    "revenue_qoq_change": 0.005789717461787865,
-    "revenue_yoy_change": 17.723632646106662,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.8,
-      "2025-06-30 00:00:00": 1.77,
-      "2025-12-31 00:00:00": 1.71,
-      "2026-03-31 00:00:00": 2.07,
-      "2026-06-30 00:00:00": 2.27
+      "2025-03-31": 1.8,
+      "2025-06-30": 1.77,
+      "2025-12-31": 1.71,
+      "2026-03-31": 2.07,
+      "2026-06-30": 2.27
     },
-    "eps_qoq_change": 9.66183574879228,
-    "eps_yoy_change": 26.111111111111107,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -278699000.0,
+    "debt_to_assets": 0.9600111065900332,
+    "ticker": "PBAM"
   },
-  "fetched_at": "2026-09-16T17:22:46.844537"
+  "fetched_at": "2026-10-15T10:40:09.253062"
 }

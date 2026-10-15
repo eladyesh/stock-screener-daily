@@ -1,25 +1,51 @@
 {
   "data": {
-    "ticker": "NVRI",
-    "fetch_date": "2026-08-14T14:02:05.463403",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:37:18.175282+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -40.70930335599356,
+    "revenue_qoq_change": -65.92561335605663,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -14.21,
+    "gross_margin": -84.45676890392971,
+    "operating_margin": -130.46887510542217,
+    "net_margin": -211.37545238120657,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": -18.486368195495572,
+    "shares_yoy_change": -0.8430422223963507,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 420264000.0,
+    "cash": 253427000.0,
+    "total_assets": 1722786000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 547907000.0,
-      "2026-03-31 00:00:00": 549803000.0
+      "2025-03-31": 547907000.0,
+      "2025-06-30": 315972000.0,
+      "2026-03-31": 549803000.0,
+      "2026-06-30": 187342000.0
     },
-    "revenue_qoq_change": 0.3460441279268197,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.320587,
-      "2026-03-31 00:00:00": -0.379348
+      "2025-03-31": -0.320587,
+      "2025-06-30": -1.700682,
+      "2026-03-31": -0.379348,
+      "2026-06-30": -14.21
     },
-    "eps_qoq_change": -18.329189892291332,
-    "gross_margin": 19.2,
-    "margin_change": -3.27,
-    "operating_margin": 2.48,
     "quarterly_inventory": {
-      "2026-03-31 00:00:00": 164505000.0
+      "2026-03-31": 164505000.0,
+      "2026-06-30": 134094000.0
     },
-    "inventory_to_sales_ratio": 0.299,
-    "inventory_breakdown_available": false
+    "margin_change": -103.65910137574235,
+    "operating_margin_yoy_change": -122.81091807125459,
+    "inventory_to_sales_ratio": 0.7157711564945394,
+    "net_debt": 166837000.0,
+    "debt_to_assets": 24.394440168424865,
+    "ticker": "NVRI"
   },
-  "fetched_at": "2026-08-14T14:02:05.464977"
+  "fetched_at": "2026-10-15T10:37:18.180344"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "QLYS",
-    "fetch_date": "2026-08-11T14:07:54.908063",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:18.289751+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.040338408650396,
+    "revenue_qoq_change": 3.721859734226074,
+    "eps_yoy_change": 16.279069767441868,
+    "eps_qoq_change": 5.633802816901423,
+    "latest_eps": 1.5,
+    "gross_margin": 83.39838067791958,
+    "operating_margin": 33.97941539728283,
+    "net_margin": 28.766296143817762,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.077329609244506,
+    "free_cash_flow_ttm": 313957000.0,
+    "operating_cash_flow_ttm": 320949000.0,
+    "revenue_ttm": 702977000.0,
+    "net_income_ttm": 206544000.0,
+    "ebitda_ttm": 254018000.0,
+    "total_debt": 53399000.0,
+    "cash": 426294000.0,
+    "total_assets": 1074173000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 164062000.0,
-      "2025-09-30 00:00:00": 169882000.0,
-      "2025-12-31 00:00:00": 175282000.0,
-      "2026-03-31 00:00:00": 175638000.0,
-      "2026-06-30 00:00:00": 182175000.0
+      "2025-06-30": 164062000.0,
+      "2025-09-30": 169882000.0,
+      "2025-12-31": 175282000.0,
+      "2026-03-31": 175638000.0,
+      "2026-06-30": 182175000.0
     },
-    "revenue_qoq_change": 3.721859734226079,
-    "revenue_yoy_change": 11.040338408650388,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.29,
-      "2025-09-30 00:00:00": 1.39,
-      "2025-12-31 00:00:00": 1.47,
-      "2026-03-31 00:00:00": 1.42,
-      "2026-06-30 00:00:00": 1.5
+      "2025-06-30": 1.29,
+      "2025-09-30": 1.39,
+      "2025-12-31": 1.47,
+      "2026-03-31": 1.42,
+      "2026-06-30": 1.5
     },
-    "eps_qoq_change": 5.633802816901413,
-    "eps_yoy_change": 16.279069767441857,
-    "gross_margin": 83.4,
-    "margin_change": 0.47,
-    "operating_margin": 33.98,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.4732733549029149,
+    "operating_margin_yoy_change": 2.6455294273446306,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 44.66106287972437,
+    "net_debt": -372895000.0,
+    "net_debt_to_ebitda": -1.4679865206402696,
+    "debt_to_assets": 4.971173172291614,
+    "ticker": "QLYS"
   },
-  "fetched_at": "2026-08-11T14:07:54.908992"
+  "fetched_at": "2026-10-15T10:43:18.294706"
 }

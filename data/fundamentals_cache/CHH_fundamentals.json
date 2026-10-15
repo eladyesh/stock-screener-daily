@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "CHH",
-    "fetch_date": "2026-08-13T13:39:01.972724",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 426443000.0,
-      "2025-09-30 00:00:00": 447340000.0,
-      "2025-12-31 00:00:00": 390150000.0,
-      "2026-03-31 00:00:00": 340575000.0,
-      "2026-06-30 00:00:00": 440762000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:09:10.971847+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.3577758340505026,
     "revenue_qoq_change": 29.417015341701536,
-    "revenue_yoy_change": 3.357775834050506,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.75,
-      "2025-09-30 00:00:00": 3.86,
-      "2025-12-31 00:00:00": 1.37,
-      "2026-03-31 00:00:00": 0.44,
-      "2026-06-30 00:00:00": 1.41
+    "eps_yoy_change": -19.428571428571427,
+    "eps_qoq_change": 220.4545454545454,
+    "latest_eps": 1.41,
+    "gross_margin": 49.378122433422114,
+    "operating_margin": 23.748417513306503,
+    "net_margin": 14.596993388722257,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.3024359437246567,
+    "free_cash_flow_ttm": 114761000.0,
+    "operating_cash_flow_ttm": 221739000.0,
+    "revenue_ttm": 1618827000.0,
+    "net_income_ttm": 328320000.0,
+    "ebitda_ttm": 587634000.0,
+    "total_debt": 2106688000.0,
+    "cash": 42826000.0,
+    "total_assets": 2988816000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 426443000.0,
+      "2025-09-30": 447340000.0,
+      "2025-12-31": 390150000.0,
+      "2026-03-31": 340575000.0,
+      "2026-06-30": 440762000.0
     },
-    "eps_qoq_change": 220.45454545454547,
-    "eps_yoy_change": -19.428571428571434,
-    "gross_margin": 49.38,
-    "margin_change": 3.83,
-    "operating_margin": 23.75,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.75,
+      "2025-09-30": 3.86,
+      "2025-12-31": 1.37,
+      "2026-03-31": 0.44,
+      "2026-06-30": 1.41
+    },
+    "quarterly_inventory": {},
+    "margin_change": 3.82662863616747,
+    "operating_margin_yoy_change": -5.550691629064225,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.089145412079239,
+    "net_debt": 2063862000.0,
+    "net_debt_to_ebitda": 3.5121555253780414,
+    "debt_to_assets": 70.48570403798695,
+    "ticker": "CHH"
   },
-  "fetched_at": "2026-08-13T13:39:01.974061"
+  "fetched_at": "2026-10-15T10:09:10.977237"
 }

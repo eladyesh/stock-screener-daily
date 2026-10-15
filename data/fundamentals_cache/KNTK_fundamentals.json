@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "KNTK",
-    "fetch_date": "2026-08-14T13:53:20.260297",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 426738000.0,
-      "2025-09-30 00:00:00": 463969000.0,
-      "2025-12-31 00:00:00": 430419000.0,
-      "2026-03-31 00:00:00": 409976000.0,
-      "2026-06-30 00:00:00": 581440000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:41.222185+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 36.252220331913264,
     "revenue_qoq_change": 41.8229359767401,
-    "revenue_yoy_change": 36.25222033191326,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.33,
-      "2025-09-30 00:00:00": 0.03,
-      "2025-12-31 00:00:00": 2.16,
-      "2026-03-31 00:00:00": -0.07,
-      "2026-06-30 00:00:00": 0.64
-    },
-    "eps_qoq_change": 1014.2857142857141,
     "eps_yoy_change": 93.93939393939394,
-    "gross_margin": 41.37,
-    "margin_change": 12.24,
-    "operating_margin": 23.04,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.64,
+    "gross_margin": 41.3657471106219,
+    "operating_margin": 23.036082828838744,
+    "net_margin": 21.173809851403412,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 21.82940155556985,
+    "free_cash_flow_ttm": 123110000.0,
+    "operating_cash_flow_ttm": 639733000.0,
+    "revenue_ttm": 1885804000.0,
+    "net_income_ttm": 550238000.0,
+    "ebitda_ttm": 1226977000.0,
+    "total_debt": 3977086000.0,
+    "cash": 7830000.0,
+    "total_assets": 7202470000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 426738000.0,
+      "2025-09-30": 463969000.0,
+      "2025-12-31": 430419000.0,
+      "2026-03-31": 409976000.0,
+      "2026-06-30": 581440000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.33,
+      "2025-09-30": 0.03,
+      "2025-12-31": 2.16,
+      "2026-03-31": -0.07,
+      "2026-06-30": 0.64
+    },
+    "quarterly_inventory": {},
+    "margin_change": 12.23745667410855,
+    "operating_margin_yoy_change": 4.8914601329457135,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.528250019620279,
+    "net_debt": 3969256000.0,
+    "net_debt_to_ebitda": 3.234988104911502,
+    "debt_to_assets": 55.21836258950054,
+    "ticker": "KNTK"
   },
-  "fetched_at": "2026-08-14T13:53:20.261606"
+  "fetched_at": "2026-10-15T10:28:41.227189"
 }

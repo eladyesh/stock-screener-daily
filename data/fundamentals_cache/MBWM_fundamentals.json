@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "MBWM",
-    "fetch_date": "2026-08-14T13:56:49.293291",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:07.214407+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.823878833625969,
+    "revenue_qoq_change": 1.7266123185725402,
+    "eps_yoy_change": 7.913669064748219,
+    "eps_qoq_change": 13.636363636363624,
+    "latest_eps": 1.5,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 37.708709058118565,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 6.392507253268942,
+    "free_cash_flow_ttm": 68200000.0,
+    "operating_cash_flow_ttm": 72332000.0,
+    "revenue_ttm": 260806000.0,
+    "net_income_ttm": 95210000.0,
+    "ebitda_ttm": null,
+    "total_debt": 471509000.0,
+    "cash": 340931000.0,
+    "total_assets": 6819490000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 60941000.0,
-      "2025-09-30 00:00:00": 62390000.0,
-      "2025-12-31 00:00:00": 62071000.0,
-      "2026-03-31 00:00:00": 67589000.0,
-      "2026-06-30 00:00:00": 68756000.0
+      "2025-03-31": null,
+      "2025-06-30": 60941000.0,
+      "2025-09-30": 62390000.0,
+      "2025-12-31": 62071000.0,
+      "2026-03-31": 67589000.0,
+      "2026-06-30": 68756000.0
     },
-    "revenue_qoq_change": 1.7266123185725488,
-    "revenue_yoy_change": 12.823878833625965,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.39,
-      "2025-09-30 00:00:00": 1.46,
-      "2025-12-31 00:00:00": 1.4,
-      "2026-03-31 00:00:00": 1.32,
-      "2026-06-30 00:00:00": 1.5
+      "2025-03-31": null,
+      "2025-06-30": 1.39,
+      "2025-09-30": 1.46,
+      "2025-12-31": 1.4,
+      "2026-03-31": 1.32,
+      "2026-06-30": 1.5
     },
-    "eps_qoq_change": 13.63636363636363,
-    "eps_yoy_change": 7.913669064748209,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.149705144820288,
+    "net_debt": 130578000.0,
+    "debt_to_assets": 6.914138740580307,
+    "ticker": "MBWM"
   },
-  "fetched_at": "2026-08-14T13:56:49.293955"
+  "fetched_at": "2026-10-15T10:32:07.218235"
 }

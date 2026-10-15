@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "RITM",
-    "fetch_date": "2026-08-14T14:09:45.566120",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 770150000.0,
-      "2025-09-30 00:00:00": 707244000.0,
-      "2025-12-31 00:00:00": 901173000.0,
-      "2026-03-31 00:00:00": 891789000.0,
-      "2026-06-30 00:00:00": 835297000.0
-    },
-    "revenue_qoq_change": -6.334682307137675,
-    "revenue_yoy_change": 8.459001493215608,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.53,
-      "2025-09-30 00:00:00": 0.35,
-      "2025-12-31 00:00:00": 0.09,
-      "2026-03-31 00:00:00": 0.12,
-      "2026-06-30 00:00:00": 0.04
-    },
-    "eps_qoq_change": -66.66666666666666,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:44:57.329261+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.459001493215613,
+    "revenue_qoq_change": -6.334682307137673,
     "eps_yoy_change": -92.45283018867924,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -66.66666666666666,
+    "latest_eps": 0.04,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 6.7390401258474535,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 5.753189229245792,
+    "free_cash_flow_ttm": -1885511000.0,
+    "operating_cash_flow_ttm": -1881464000.0,
+    "revenue_ttm": 3335503000.0,
+    "net_income_ttm": 465498000.0,
+    "ebitda_ttm": null,
+    "total_debt": 36159001000.0,
+    "cash": 1664498000.0,
+    "total_assets": 54108868000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 770150000.0,
+      "2025-09-30": 707244000.0,
+      "2025-12-31": 901173000.0,
+      "2026-03-31": 891789000.0,
+      "2026-06-30": 835297000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.53,
+      "2025-09-30": 0.35,
+      "2025-12-31": 0.09,
+      "2026-03-31": 0.12,
+      "2026-06-30": 0.04
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -56.52853557619345,
+    "net_debt": 34494503000.0,
+    "debt_to_assets": 66.8263860186467,
+    "ticker": "RITM"
   },
-  "fetched_at": "2026-08-14T14:09:45.566807"
+  "fetched_at": "2026-10-15T10:44:57.333144"
 }

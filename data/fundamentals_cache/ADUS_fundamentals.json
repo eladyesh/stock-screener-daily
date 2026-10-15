@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ADUS",
-    "fetch_date": "2026-08-13T13:28:06.749731",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 349443000.0,
-      "2025-09-30 00:00:00": 362301000.0,
-      "2025-12-31 00:00:00": 373078000.0,
-      "2026-03-31 00:00:00": 363611000.0,
-      "2026-06-30 00:00:00": 377417000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:58:22.855619+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.005311309712893,
     "revenue_qoq_change": 3.796914834809728,
-    "revenue_yoy_change": 8.005311309712885,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.198022,
-      "2025-09-30 00:00:00": 1.236163,
-      "2025-12-31 00:00:00": 1.608273,
-      "2026-03-31 00:00:00": 1.343118,
-      "2026-06-30 00:00:00": 1.478366
+    "eps_yoy_change": 23.400571942752315,
+    "eps_qoq_change": 10.069703481004645,
+    "latest_eps": 1.478366,
+    "gross_margin": 32.208406086636266,
+    "operating_margin": 10.318030189419131,
+    "net_margin": 7.314720852531815,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.4505351225077456,
+    "free_cash_flow_ttm": 154772000.0,
+    "operating_cash_flow_ttm": 162405000.0,
+    "revenue_ttm": 1476407000.0,
+    "net_income_ttm": 105306000.0,
+    "ebitda_ttm": 167372000.0,
+    "total_debt": 108820000.0,
+    "cash": 99566000.0,
+    "total_assets": 1456486000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 349443000.0,
+      "2025-09-30": 362301000.0,
+      "2025-12-31": 373078000.0,
+      "2026-03-31": 363611000.0,
+      "2026-06-30": 377417000.0
     },
-    "eps_qoq_change": 10.06970348100465,
-    "eps_yoy_change": 23.400571942752318,
-    "gross_margin": 32.21,
-    "margin_change": 0.34,
-    "operating_margin": 10.32,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.198022,
+      "2025-09-30": 1.236163,
+      "2025-12-31": 1.608273,
+      "2026-03-31": 1.343118,
+      "2026-06-30": 1.478366
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.3411083426186181,
+    "operating_margin_yoy_change": 0.9067671221950064,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.483017216797265,
+    "net_debt": 9254000.0,
+    "net_debt_to_ebitda": 0.05529001266639581,
+    "debt_to_assets": 7.471407208857483,
+    "ticker": "ADUS"
   },
-  "fetched_at": "2026-08-13T13:28:06.751025"
+  "fetched_at": "2026-10-15T09:58:22.860684"
 }

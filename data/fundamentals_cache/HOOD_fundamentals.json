@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "HOOD",
-    "fetch_date": "2026-08-14T13:48:45.099378",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 989000000.0,
-      "2025-09-30 00:00:00": 1274000000.0,
-      "2025-12-31 00:00:00": 1283000000.0,
-      "2026-03-31 00:00:00": 1067000000.0,
-      "2026-06-30 00:00:00": 1308000000.0
-    },
-    "revenue_qoq_change": 22.58669165885661,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:04.990554+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 32.25480283114257,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.42,
-      "2025-09-30 00:00:00": 0.61,
-      "2025-12-31 00:00:00": 0.66,
-      "2026-03-31 00:00:00": 0.38,
-      "2026-06-30 00:00:00": 0.62
-    },
+    "revenue_qoq_change": 22.586691658856605,
+    "eps_yoy_change": 47.61904761904763,
     "eps_qoq_change": 63.1578947368421,
-    "eps_yoy_change": 47.61904761904762,
-    "gross_margin": 81.96,
-    "margin_change": 1.36,
-    "operating_margin": 43.88,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.62,
+    "gross_margin": 81.9571865443425,
+    "operating_margin": 43.883792048929664,
+    "net_margin": 42.88990825688073,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.3159448483086358,
+    "free_cash_flow_ttm": 178000000.0,
+    "operating_cash_flow_ttm": 245000000.0,
+    "revenue_ttm": 4932000000.0,
+    "net_income_ttm": 2072000000.0,
+    "ebitda_ttm": 2361000000.0,
+    "total_debt": 22706000000.0,
+    "cash": 16162000000.0,
+    "total_assets": 56550000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 989000000.0,
+      "2025-09-30": 1274000000.0,
+      "2025-12-31": 1283000000.0,
+      "2026-03-31": 1067000000.0,
+      "2026-06-30": 1308000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.42,
+      "2025-09-30": 0.61,
+      "2025-12-31": 0.66,
+      "2026-03-31": 0.38,
+      "2026-06-30": 0.62
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.3573739857670546,
+    "operating_margin_yoy_change": -0.5044789318590119,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 3.6090835360908353,
+    "net_debt": 6544000000.0,
+    "net_debt_to_ebitda": 2.771706903854299,
+    "debt_to_assets": 40.15207780725022,
+    "ticker": "HOOD"
   },
-  "fetched_at": "2026-08-14T13:48:45.100736"
+  "fetched_at": "2026-10-15T10:24:04.995889"
 }

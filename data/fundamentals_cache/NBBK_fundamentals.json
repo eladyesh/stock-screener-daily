@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "NBBK",
-    "fetch_date": "2026-08-14T13:59:59.413148",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 51285000.0,
-      "2025-09-30 00:00:00": 51726000.0,
-      "2025-12-31 00:00:00": 63360000.0,
-      "2026-03-31 00:00:00": 69381000.0,
-      "2026-06-30 00:00:00": 74704000.0
-    },
-    "revenue_qoq_change": 7.67212925728946,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:35:17.057229+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 45.664424295603,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.39,
-      "2025-09-30 00:00:00": 0.43,
-      "2025-12-31 00:00:00": 0.19,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": 0.53
+    "revenue_qoq_change": 7.672129257289462,
+    "eps_yoy_change": 35.897435897435905,
+    "eps_qoq_change": 47.22222222222223,
+    "latest_eps": 0.53,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.2755943456843,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 6.5242857940641885,
+    "free_cash_flow_ttm": 78033000.0,
+    "operating_cash_flow_ttm": 85315000.0,
+    "revenue_ttm": 259171000.0,
+    "net_income_ttm": 59175000.0,
+    "ebitda_ttm": null,
+    "total_debt": 181247000.0,
+    "cash": 372522000.0,
+    "total_assets": 7446880000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 51285000.0,
+      "2025-09-30": 51726000.0,
+      "2025-12-31": 63360000.0,
+      "2026-03-31": 69381000.0,
+      "2026-06-30": 74704000.0
     },
-    "eps_qoq_change": 47.222222222222236,
-    "eps_yoy_change": 35.8974358974359,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.39,
+      "2025-09-30": 0.43,
+      "2025-12-31": 0.19,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.53
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 30.108692716391882,
+    "net_debt": -191275000.0,
+    "debt_to_assets": 2.433864920611048,
+    "ticker": "NBBK"
   },
-  "fetched_at": "2026-08-14T13:59:59.413840"
+  "fetched_at": "2026-10-15T10:35:17.061086"
 }

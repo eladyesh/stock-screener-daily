@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "HURN",
-    "fetch_date": "2026-07-22T14:50:10.493939",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 404141000.0,
-      "2025-06-30 00:00:00": 411755000.0,
-      "2025-09-30 00:00:00": 441284000.0,
-      "2025-12-31 00:00:00": 441963000.0,
-      "2026-03-31 00:00:00": 451767000.0
-    },
-    "revenue_qoq_change": 2.2182852410722163,
-    "revenue_yoy_change": 11.784500953875009,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.33,
-      "2025-06-30 00:00:00": 1.09,
-      "2025-09-30 00:00:00": 1.71,
-      "2025-12-31 00:00:00": 1.72,
-      "2026-03-31 00:00:00": 1.34
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:51.026285+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 11.784500953875,
+    "revenue_qoq_change": 2.2182852410722154,
+    "eps_yoy_change": null,
     "eps_qoq_change": -22.093023255813947,
-    "eps_yoy_change": 0.7518796992481209,
-    "gross_margin": 30.0,
-    "margin_change": -2.97,
-    "operating_margin": 8.24,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.34,
+    "gross_margin": 29.99732162818444,
+    "operating_margin": 8.244515424986774,
+    "net_margin": 5.145794181513922,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 103641000.0,
+    "operating_cash_flow_ttm": 138053000.0,
+    "revenue_ttm": 1746769000.0,
+    "net_income_ttm": 103751000.0,
+    "ebitda_ttm": 226083000.0,
+    "total_debt": 887433000.0,
+    "cash": 26459000.0,
+    "total_assets": 1589125000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 404141000.0,
+      "2025-06-30": 411755000.0,
+      "2025-09-30": 441284000.0,
+      "2025-12-31": 441963000.0,
+      "2026-03-31": 451767000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.09,
+      "2025-09-30": 1.71,
+      "2025-12-31": 1.72,
+      "2026-03-31": 1.34
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.9748955031138813,
+    "operating_margin_yoy_change": -0.18571065947384646,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.933297419406917,
+    "net_debt": 860974000.0,
+    "net_debt_to_ebitda": 3.8082208746345367,
+    "debt_to_assets": 55.84412805789349,
+    "ticker": "HURN"
   },
-  "fetched_at": "2026-07-22T14:50:10.495437"
+  "fetched_at": "2026-10-15T10:24:51.031159"
 }

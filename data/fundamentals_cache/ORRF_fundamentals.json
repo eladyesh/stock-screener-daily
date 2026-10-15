@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "ORRF",
-    "fetch_date": "2026-08-14T14:04:01.388155",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 61812000.0,
-      "2025-09-30 00:00:00": 63478000.0,
-      "2025-12-31 00:00:00": 63913000.0,
-      "2026-03-31 00:00:00": 63443000.0,
-      "2026-06-30 00:00:00": 61500000.0
-    },
-    "revenue_qoq_change": -3.0625916176725565,
-    "revenue_yoy_change": -0.5047563579887401,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.01,
-      "2025-09-30 00:00:00": 1.13,
-      "2025-12-31 00:00:00": 1.11,
-      "2026-03-31 00:00:00": 1.12,
-      "2026-06-30 00:00:00": 1.09
-    },
-    "eps_qoq_change": -2.678571428571431,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:39:17.260209+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -0.5047563579887449,
+    "revenue_qoq_change": -3.062591617672561,
     "eps_yoy_change": 7.920792079207928,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -2.67857142857143,
+    "latest_eps": 1.09,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.40325203252033,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.46530865474097016,
+    "free_cash_flow_ttm": 85691000.0,
+    "operating_cash_flow_ttm": 87789000.0,
+    "revenue_ttm": 252334000.0,
+    "net_income_ttm": 86323000.0,
+    "ebitda_ttm": null,
+    "total_debt": 282817000.0,
+    "cash": 144841000.0,
+    "total_assets": 5612151000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 61812000.0,
+      "2025-09-30": 63478000.0,
+      "2025-12-31": 63913000.0,
+      "2026-03-31": 63443000.0,
+      "2026-06-30": 61500000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.01,
+      "2025-09-30": 1.13,
+      "2025-12-31": 1.11,
+      "2026-03-31": 1.12,
+      "2026-06-30": 1.09
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.959355457449256,
+    "net_debt": 137976000.0,
+    "debt_to_assets": 5.039369040498019,
+    "ticker": "ORRF"
   },
-  "fetched_at": "2026-08-14T14:04:01.388844"
+  "fetched_at": "2026-10-15T10:39:17.264007"
 }

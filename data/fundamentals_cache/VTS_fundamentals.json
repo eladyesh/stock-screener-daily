@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "VTS",
-    "fetch_date": "2026-08-11T14:21:37.086240",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 81755000.0,
-      "2025-09-30 00:00:00": 67443000.0,
-      "2025-12-31 00:00:00": 58620000.0,
-      "2026-03-31 00:00:00": 67410000.0,
-      "2026-06-30 00:00:00": 91004000.0
-    },
-    "revenue_qoq_change": 35.00074172971369,
-    "revenue_yoy_change": 11.313069537031375,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.08,
-      "2025-06-30 00:00:00": 0.6,
-      "2025-09-30 00:00:00": -0.03,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -1.05,
-      "2026-06-30 00:00:00": 0.77
-    },
-    "eps_qoq_change": 173.33333333333334,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:59.695322+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.313069537031373,
+    "revenue_qoq_change": 35.0007417297137,
     "eps_yoy_change": 28.333333333333343,
-    "gross_margin": 32.7,
-    "margin_change": 10.12,
-    "operating_margin": 22.94,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.77,
+    "gross_margin": 32.70295811173135,
+    "operating_margin": 22.939651004351457,
+    "net_margin": 36.35114940002637,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.600315441358549,
+    "free_cash_flow_ttm": 34686000.0,
+    "operating_cash_flow_ttm": 136312000.0,
+    "revenue_ttm": 284477000.0,
+    "net_income_ttm": -11249000.0,
+    "ebitda_ttm": 130856000.0,
+    "total_debt": 165097000.0,
+    "cash": 884000.0,
+    "total_assets": 923647000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 81755000.0,
+      "2025-09-30": 67443000.0,
+      "2025-12-31": 58620000.0,
+      "2026-03-31": 67410000.0,
+      "2026-06-30": 91004000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.08,
+      "2025-06-30": 0.6,
+      "2025-09-30": -0.03,
+      "2025-12-31": null,
+      "2026-03-31": -1.05,
+      "2026-06-30": 0.77
+    },
+    "quarterly_inventory": {},
+    "margin_change": 10.120255248654654,
+    "operating_margin_yoy_change": 0.12025157923984509,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.192901359336608,
+    "net_debt": 164213000.0,
+    "net_debt_to_ebitda": 1.254913798373785,
+    "debt_to_assets": 17.874469358965058,
+    "ticker": "VTS"
   },
-  "fetched_at": "2026-08-11T14:21:37.087150"
+  "fetched_at": "2026-10-15T10:56:59.700585"
 }

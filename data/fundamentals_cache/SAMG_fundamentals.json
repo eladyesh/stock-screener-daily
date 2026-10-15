@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "SAMG",
-    "fetch_date": "2026-09-26T13:04:29.492457",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 30673000.0,
-      "2025-09-30 00:00:00": 31295000.0,
-      "2025-12-31 00:00:00": 31959000.0,
-      "2026-03-31 00:00:00": 31406000.0,
-      "2026-06-30 00:00:00": 30783000.0
-    },
-    "revenue_qoq_change": -1.9836973826657327,
-    "revenue_yoy_change": 0.35862158901965896,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.21,
-      "2025-09-30 00:00:00": 0.07,
-      "2025-12-31 00:00:00": -0.01,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.02
-    },
-    "eps_qoq_change": -33.33333333333333,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:25.462876+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.3586215890196698,
+    "revenue_qoq_change": -1.9836973826657278,
     "eps_yoy_change": -90.47619047619048,
-    "gross_margin": 35.36,
-    "margin_change": 1.05,
-    "operating_margin": 3.11,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -33.33333333333333,
+    "latest_eps": 0.02,
+    "gross_margin": 35.363674755546896,
+    "operating_margin": 3.112107331968944,
+    "net_margin": 0.5522528668420882,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -15.198155952723058,
+    "free_cash_flow_ttm": 8845000.0,
+    "operating_cash_flow_ttm": 12743000.0,
+    "revenue_ttm": 125443000.0,
+    "net_income_ttm": 905000.0,
+    "ebitda_ttm": 7583000.0,
+    "total_debt": 27769000.0,
+    "cash": 20741000.0,
+    "total_assets": 139946000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 30673000.0,
+      "2025-09-30": 31295000.0,
+      "2025-12-31": 31959000.0,
+      "2026-03-31": 31406000.0,
+      "2026-06-30": 30783000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.21,
+      "2025-09-30": 0.07,
+      "2025-12-31": -0.01,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.02
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.0485757298830123,
+    "operating_margin_yoy_change": -10.0623457701078,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.051011216249611,
+    "net_debt": 7028000.0,
+    "net_debt_to_ebitda": 0.9268099696689964,
+    "debt_to_assets": 19.842653594958055,
+    "ticker": "SAMG"
   },
-  "fetched_at": "2026-09-26T13:04:29.494343"
+  "fetched_at": "2026-10-15T10:46:25.468250"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "FIBK",
-    "fetch_date": "2026-08-14T13:43:07.100378",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 248300000.0,
-      "2025-09-30 00:00:00": 250500000.0,
-      "2025-12-31 00:00:00": 313000000.0,
-      "2026-03-31 00:00:00": 241800000.0,
-      "2026-06-30 00:00:00": 244400000.0
-    },
-    "revenue_qoq_change": 1.0752688172043012,
-    "revenue_yoy_change": -1.5706806282722512,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.69,
-      "2025-09-30 00:00:00": 0.69,
-      "2025-12-31 00:00:00": 1.08,
-      "2026-03-31 00:00:00": 0.61,
-      "2026-06-30 00:00:00": 0.87
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:18:35.096028+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -1.5706806282722474,
+    "revenue_qoq_change": 1.0752688172043001,
+    "eps_yoy_change": 26.086956521739136,
     "eps_qoq_change": 42.622950819672134,
-    "eps_yoy_change": 26.08695652173914,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.87,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.32896890343699,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.363917805038499,
+    "free_cash_flow_ttm": 243300000.0,
+    "operating_cash_flow_ttm": 271900000.0,
+    "revenue_ttm": 1049700000.0,
+    "net_income_ttm": 324300000.0,
+    "ebitda_ttm": null,
+    "total_debt": 296700000.0,
+    "cash": 1167000000.0,
+    "total_assets": 25885000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 248300000.0,
+      "2025-09-30": 250500000.0,
+      "2025-12-31": 313000000.0,
+      "2026-03-31": 241800000.0,
+      "2026-06-30": 244400000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.69,
+      "2025-09-30": 0.69,
+      "2025-12-31": 1.08,
+      "2026-03-31": 0.61,
+      "2026-06-30": 0.87
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 23.178050871677623,
+    "net_debt": -870300000.0,
+    "debt_to_assets": 1.1462236816689204,
+    "ticker": "FIBK"
   },
-  "fetched_at": "2026-08-14T13:43:07.101051"
+  "fetched_at": "2026-10-15T10:18:35.099773"
 }

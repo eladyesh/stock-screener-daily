@@ -1,29 +1,53 @@
 {
   "data": {
-    "ticker": "NRIX",
-    "fetch_date": "2026-08-14T14:01:27.556420",
-    "quarterly_revenue": {
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 44056000.0,
-      "2025-08-31 00:00:00": 7894000.0,
-      "2025-11-30 00:00:00": 13577000.0,
-      "2026-02-28 00:00:00": 6252000.0,
-      "2026-05-31 00:00:00": 9043000.0
-    },
-    "revenue_qoq_change": 44.64171465131158,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:36:42.368179+00:00",
+    "report_period": "2026-05-31",
     "revenue_yoy_change": -79.47385146177592,
-    "quarterly_eps": {
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": -0.52,
-      "2025-08-31 00:00:00": -1.03,
-      "2025-11-30 00:00:00": -0.82,
-      "2026-02-28 00:00:00": -0.79,
-      "2026-05-31 00:00:00": -0.81
+    "revenue_qoq_change": 44.641714651311574,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.81,
+    "gross_margin": null,
+    "operating_margin": -1041.7339378524825,
+    "net_margin": -990.1028419772199,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 32.42863941654941,
+    "free_cash_flow_ttm": -304527000.0,
+    "operating_cash_flow_ttm": -293704000.0,
+    "revenue_ttm": 36766000.0,
+    "net_income_ttm": -341351000.0,
+    "ebitda_ttm": -343922000.0,
+    "total_debt": 58143000.0,
+    "cash": 443529000.0,
+    "total_assets": 535540000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-02-28": null,
+      "2025-05-31": 44056000.0,
+      "2025-08-31": 7894000.0,
+      "2025-11-30": 13577000.0,
+      "2026-02-28": 6252000.0,
+      "2026-05-31": 9043000.0
     },
-    "eps_qoq_change": -2.531645569620255,
-    "eps_yoy_change": -55.769230769230774,
-    "operating_margin": -1041.73,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-02-28": null,
+      "2025-05-31": -0.52,
+      "2025-08-31": -1.03,
+      "2025-11-30": -0.82,
+      "2026-02-28": -0.79,
+      "2026-05-31": -0.81
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": -932.0508072913785,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -828.2842843931894,
+    "net_debt": -385386000.0,
+    "debt_to_assets": 10.856892108899428,
+    "ticker": "NRIX"
   },
-  "fetched_at": "2026-08-14T14:01:27.557427"
+  "fetched_at": "2026-10-15T10:36:42.373034"
 }

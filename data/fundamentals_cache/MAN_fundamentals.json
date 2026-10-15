@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "MAN",
-    "fetch_date": "2026-08-14T13:56:26.370076",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4519300000.0,
-      "2025-09-30 00:00:00": 4634400000.0,
-      "2025-12-31 00:00:00": 4713100000.0,
-      "2026-03-31 00:00:00": 4510400000.0,
-      "2026-06-30 00:00:00": 4860200000.0
-    },
-    "revenue_qoq_change": 7.75540971975878,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:31:44.262291+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 7.543203593476866,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -1.44,
-      "2025-09-30 00:00:00": 0.38,
-      "2025-12-31 00:00:00": 0.64,
-      "2026-03-31 00:00:00": 0.05,
-      "2026-06-30 00:00:00": 1.13
+    "revenue_qoq_change": 7.755409719758788,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 2160.0,
+    "latest_eps": 1.13,
+    "gross_margin": 16.054894860293814,
+    "operating_margin": 2.304431916382042,
+    "net_margin": 1.100777745771779,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.9354838709677358,
+    "free_cash_flow_ttm": 68900000.0,
+    "operating_cash_flow_ttm": 109700000.0,
+    "revenue_ttm": 18718100000.0,
+    "net_income_ttm": 104200000.0,
+    "ebitda_ttm": 407000000.0,
+    "total_debt": 1420000000.0,
+    "cash": 180600000.0,
+    "total_assets": 8374900000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 4519300000.0,
+      "2025-09-30": 4634400000.0,
+      "2025-12-31": 4713100000.0,
+      "2026-03-31": 4510400000.0,
+      "2026-06-30": 4860200000.0
     },
-    "eps_qoq_change": 2159.9999999999995,
-    "eps_yoy_change": 178.4722222222222,
-    "gross_margin": 16.05,
-    "margin_change": 0.03,
-    "operating_margin": 2.3,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -1.44,
+      "2025-09-30": 0.38,
+      "2025-12-31": 0.64,
+      "2026-03-31": 0.05,
+      "2026-06-30": 1.13
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.025274427516233544,
+    "operating_margin_yoy_change": 0.9015597901678052,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 0.36809291541342337,
+    "net_debt": 1239400000.0,
+    "net_debt_to_ebitda": 3.0452088452088453,
+    "debt_to_assets": 16.95542633344876,
+    "ticker": "MAN"
   },
-  "fetched_at": "2026-08-14T13:56:26.371414"
+  "fetched_at": "2026-10-15T10:31:44.267256"
 }

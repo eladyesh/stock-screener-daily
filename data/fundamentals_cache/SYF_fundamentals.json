@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "SYF",
-    "fetch_date": "2026-08-11T14:15:50.247594",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:12.386394+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.9468055936386008,
+    "revenue_qoq_change": 0.5408328826392639,
+    "eps_yoy_change": 3.599985600057587,
+    "eps_qoq_change": 14.096904461612269,
+    "latest_eps": 2.59001,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 23.80311995696611,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.870218958380796,
+    "free_cash_flow_ttm": 9694000000.0,
+    "operating_cash_flow_ttm": 9694000000.0,
+    "revenue_ttm": 15032000000.0,
+    "net_income_ttm": 3518000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 16432000000.0,
+    "cash": 16193000000.0,
+    "total_assets": 121930000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3647000000.0,
-      "2025-09-30 00:00:00": 3823000000.0,
-      "2025-12-31 00:00:00": 3793000000.0,
-      "2026-03-31 00:00:00": 3698000000.0,
-      "2026-06-30 00:00:00": 3718000000.0
+      "2025-03-31": null,
+      "2025-06-30": 3647000000.0,
+      "2025-09-30": 3823000000.0,
+      "2025-12-31": 3793000000.0,
+      "2026-03-31": 3698000000.0,
+      "2026-06-30": 3718000000.0
     },
-    "revenue_qoq_change": 0.5408328826392644,
-    "revenue_yoy_change": 1.946805593638607,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.416667,
-      "2025-09-30 00:00:00": 0.476667,
-      "2025-12-31 00:00:00": 0.34,
-      "2026-03-31 00:00:00": 0.378333,
-      "2026-06-30 00:00:00": 0.431667
+      "2025-03-31": null,
+      "2025-06-30": 2.50001,
+      "2025-09-30": 2.860011,
+      "2025-12-31": 2.040008,
+      "2026-03-31": 2.270009,
+      "2026-06-30": 2.59001
     },
-    "eps_qoq_change": 14.097104931369998,
-    "eps_yoy_change": 3.5999971200023073,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 64.48908994145822,
+    "net_debt": 239000000.0,
+    "debt_to_assets": 13.476584925777086,
+    "ticker": "SYF"
   },
-  "fetched_at": "2026-08-11T14:15:50.248199"
+  "fetched_at": "2026-10-15T10:51:12.390168"
 }

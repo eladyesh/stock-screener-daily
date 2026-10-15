@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "ZD",
-    "fetch_date": "2026-08-14T14:24:18.972307",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 294803000.0,
-      "2025-09-30 00:00:00": 363711000.0,
-      "2025-12-31 00:00:00": 406712000.0,
-      "2026-03-31 00:00:00": 267641000.0,
-      "2026-06-30 00:00:00": 286738000.0
-    },
-    "revenue_qoq_change": 7.135304381615672,
-    "revenue_yoy_change": -2.735725213108415,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.57,
-      "2025-06-30 00:00:00": 0.63,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.59,
-      "2026-06-30 00:00:00": 17.16
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:59:32.623066+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -2.7357252131084198,
+    "revenue_qoq_change": 7.13530438161567,
+    "eps_yoy_change": 2667.741935483871,
     "eps_qoq_change": 2808.4745762711864,
-    "eps_yoy_change": 2623.809523809524,
-    "gross_margin": 84.06,
-    "margin_change": 0.62,
-    "operating_margin": 3.53,
-    "inventory_breakdown_available": false
+    "latest_eps": 17.16,
+    "gross_margin": 84.0582692213798,
+    "operating_margin": 3.527959321750169,
+    "net_margin": 217.78104053177464,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -15.683586619828116,
+    "free_cash_flow_ttm": 316725000.0,
+    "operating_cash_flow_ttm": 448297000.0,
+    "revenue_ttm": 1324802000.0,
+    "net_income_ttm": 643494000.0,
+    "ebitda_ttm": 212514000.0,
+    "total_debt": 867640000.0,
+    "cash": 1606112000.0,
+    "total_assets": 3998027000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 294803000.0,
+      "2025-09-30": 363711000.0,
+      "2025-12-31": 406712000.0,
+      "2026-03-31": 267641000.0,
+      "2026-06-30": 286738000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.56,
+      "2025-06-30": 0.62,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": 0.59,
+      "2026-06-30": 17.16
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.6166440593157034,
+    "operating_margin_yoy_change": -1.142956510178272,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 23.907346154368728,
+    "net_debt": -738472000.0,
+    "net_debt_to_ebitda": -3.4749334161514063,
+    "debt_to_assets": 21.70170436567837,
+    "ticker": "ZD"
   },
-  "fetched_at": "2026-08-14T14:24:18.973681"
+  "fetched_at": "2026-10-15T10:59:32.627842"
 }

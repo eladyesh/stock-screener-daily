@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "BNY",
-    "fetch_date": "2026-08-13T13:35:40.065908",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:45.852090+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 13.846810326434822,
+    "revenue_qoq_change": 4.504504504504503,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 10.8910891089109,
+    "latest_eps": 2.24,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 30.584707646176913,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 1455000000.0,
+    "operating_cash_flow_ttm": 3305000000.0,
+    "revenue_ttm": 20408000000.0,
+    "net_income_ttm": 5961000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 33759000000.0,
+    "cash": 187040000000.0,
+    "total_assets": 561517000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 4687000000.0,
-      "2025-06-30 00:00:00": 4965000000.0,
-      "2025-09-30 00:00:00": 5001000000.0,
-      "2025-12-31 00:00:00": 5106000000.0,
-      "2026-03-31 00:00:00": 5336000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 4687000000.0,
+      "2025-06-30": 4965000000.0,
+      "2025-09-30": 5001000000.0,
+      "2025-12-31": 5106000000.0,
+      "2026-03-31": 5336000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.93,
-      "2025-09-30 00:00:00": 1.88,
-      "2025-12-31 00:00:00": 2.02,
-      "2026-03-31 00:00:00": 2.24,
-      "2026-06-30 00:00:00": 2.45
+      "2025-03-31": null,
+      "2025-06-30": 1.93,
+      "2025-09-30": 1.88,
+      "2025-12-31": 2.02,
+      "2026-03-31": 2.24
     },
-    "eps_qoq_change": 9.374999999999996,
-    "eps_yoy_change": 26.943005181347164,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.129557036456291,
+    "net_debt": -153281000000.0,
+    "debt_to_assets": 6.012106490097361,
+    "ticker": "BNY"
   },
-  "fetched_at": "2026-08-13T13:35:40.066538"
+  "fetched_at": "2026-10-15T10:05:45.855914"
 }

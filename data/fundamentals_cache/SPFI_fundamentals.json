@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "SPFI",
-    "fetch_date": "2026-08-14T14:14:24.649949",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 53089000.0,
-      "2025-09-30 00:00:00": 52547000.0,
-      "2025-12-31 00:00:00": 52455000.0,
-      "2026-03-31 00:00:00": 52539000.0,
-      "2026-06-30 00:00:00": 62876000.0
-    },
-    "revenue_qoq_change": 19.674908163459527,
-    "revenue_yoy_change": 18.435080713518808,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.86,
-      "2025-09-30 00:00:00": 0.96,
-      "2025-12-31 00:00:00": 0.9,
-      "2026-03-31 00:00:00": 0.85,
-      "2026-06-30 00:00:00": 0.96
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:49:35.294627+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.435080713518804,
+    "revenue_qoq_change": 19.674908163459513,
+    "eps_yoy_change": 11.627906976744185,
     "eps_qoq_change": 12.941176470588234,
-    "eps_yoy_change": 11.627906976744184,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.96,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 30.205483809402633,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 17.308042941688907,
+    "free_cash_flow_ttm": 75504000.0,
+    "operating_cash_flow_ttm": 80693000.0,
+    "revenue_ttm": 220417000.0,
+    "net_income_ttm": 65109000.0,
+    "ebitda_ttm": null,
+    "total_debt": 60493000.0,
+    "cash": 787757000.0,
+    "total_assets": 5391206000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 53089000.0,
+      "2025-09-30": 52547000.0,
+      "2025-12-31": 52455000.0,
+      "2026-03-31": 52539000.0,
+      "2026-06-30": 62876000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.86,
+      "2025-09-30": 0.96,
+      "2025-12-31": 0.9,
+      "2026-03-31": 0.85,
+      "2026-06-30": 0.96
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.255071069835815,
+    "net_debt": -727264000.0,
+    "debt_to_assets": 1.1220680493381259,
+    "ticker": "SPFI"
   },
-  "fetched_at": "2026-08-14T14:14:24.650657"
+  "fetched_at": "2026-10-15T10:49:35.298402"
 }

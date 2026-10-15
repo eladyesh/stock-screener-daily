@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "CLBK",
-    "fetch_date": "2026-08-13T13:39:34.108105",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:09:44.001313+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 14.18804000272127,
+    "revenue_qoq_change": -2.384483410392857,
+    "eps_yoy_change": 44.444444444444464,
+    "eps_qoq_change": -13.33333333333333,
+    "latest_eps": 0.13,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 19.51056033840746,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.3571378200805442,
+    "free_cash_flow_ttm": 64320000.0,
+    "operating_cash_flow_ttm": 73120000.0,
+    "revenue_ttm": 267045000.0,
+    "net_income_ttm": 55965000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1243462000.0,
+    "cash": 276947000.0,
+    "total_assets": 11010507000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 58796000.0,
-      "2025-06-30 00:00:00": 63876000.0,
-      "2025-09-30 00:00:00": 67253000.0,
-      "2025-12-31 00:00:00": 68778000.0,
-      "2026-03-31 00:00:00": 67138000.0
+      "2025-03-31": 58796000.0,
+      "2025-06-30": 63876000.0,
+      "2025-09-30": 67253000.0,
+      "2025-12-31": 68778000.0,
+      "2026-03-31": 67138000.0
     },
-    "revenue_qoq_change": -2.3844834103928583,
-    "revenue_yoy_change": 14.188040002721273,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.09,
-      "2025-06-30 00:00:00": 0.12,
-      "2025-09-30 00:00:00": 0.15,
-      "2025-12-31 00:00:00": 0.15,
-      "2026-03-31 00:00:00": 0.13
+      "2025-03-31": 0.09,
+      "2025-06-30": 0.12,
+      "2025-09-30": 0.15,
+      "2025-12-31": 0.15,
+      "2026-03-31": 0.13
     },
-    "eps_qoq_change": -13.333333333333327,
-    "eps_yoy_change": 44.44444444444445,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.08582823119699,
+    "net_debt": 966515000.0,
+    "debt_to_assets": 11.293412737487929,
+    "ticker": "CLBK"
   },
-  "fetched_at": "2026-08-13T13:39:34.108748"
+  "fetched_at": "2026-10-15T10:09:44.005025"
 }

@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "SLF",
-    "fetch_date": "2026-08-14T14:13:14.805067",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 9197000000.0,
-      "2025-09-30 00:00:00": 12399000000.0,
-      "2025-12-31 00:00:00": 5513000000.0,
-      "2026-03-31 00:00:00": 8762000000.0,
-      "2026-06-30 00:00:00": 13925000000.0
-    },
-    "revenue_qoq_change": 58.92490299018489,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:48:26.359066+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 51.40806784821137,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1.62,
-      "2025-06-30 00:00:00": 1.26,
-      "2025-09-30 00:00:00": 1.97,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.84,
-      "2026-06-30 00:00:00": 1.81
+    "revenue_qoq_change": 58.92490299018489,
+    "eps_yoy_change": 43.65079365079365,
+    "eps_qoq_change": 115.47619047619051,
+    "latest_eps": 1.81,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 7.770197486535009,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.7574692442882234,
+    "free_cash_flow_ttm": 4541000000.0,
+    "operating_cash_flow_ttm": 4672000000.0,
+    "revenue_ttm": 40599000000.0,
+    "net_income_ttm": 3584000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 9120000000.0,
+    "cash": 28043000000.0,
+    "total_assets": 425330000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 9197000000.0,
+      "2025-09-30": 12399000000.0,
+      "2025-12-31": 5513000000.0,
+      "2026-03-31": 8762000000.0,
+      "2026-06-30": 13925000000.0
     },
-    "eps_qoq_change": 115.47619047619048,
-    "eps_yoy_change": 43.65079365079366,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": 1.62,
+      "2025-06-30": 1.26,
+      "2025-09-30": 1.97,
+      "2025-12-31": null,
+      "2026-03-31": 0.84,
+      "2026-06-30": 1.81
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.185004556762483,
+    "net_debt": -18923000000.0,
+    "debt_to_assets": 2.1442174311710906,
+    "ticker": "SLF"
   },
-  "fetched_at": "2026-08-14T14:13:14.805771"
+  "fetched_at": "2026-10-15T10:48:26.362908"
 }

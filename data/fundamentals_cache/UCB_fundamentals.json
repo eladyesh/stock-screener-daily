@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "UCB",
-    "fetch_date": "2026-08-14T14:19:16.948605",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 254339000.0,
-      "2025-09-30 00:00:00": 270877000.0,
-      "2025-12-31 00:00:00": 272809000.0,
-      "2026-03-31 00:00:00": 270369000.0,
-      "2026-06-30 00:00:00": 272620000.0
-    },
-    "revenue_qoq_change": 0.8325658636899941,
-    "revenue_yoy_change": 7.187651127039109,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.63,
-      "2025-09-30 00:00:00": 0.7,
-      "2025-12-31 00:00:00": 0.7,
-      "2026-03-31 00:00:00": 0.69,
-      "2026-06-30 00:00:00": 0.95
-    },
-    "eps_qoq_change": 37.68115942028986,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:28.499997+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.187651127039119,
+    "revenue_qoq_change": 0.8325658636900046,
     "eps_yoy_change": 50.79365079365079,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 37.681159420289866,
+    "latest_eps": 0.95,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 42.41728413175849,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.81527109822781,
+    "free_cash_flow_ttm": 361193000.0,
+    "operating_cash_flow_ttm": 388476000.0,
+    "revenue_ttm": 1086675000.0,
+    "net_income_ttm": 377876000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1180602000.0,
+    "cash": 455097000.0,
+    "total_assets": 29051142000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 254339000.0,
+      "2025-09-30": 270877000.0,
+      "2025-12-31": 272809000.0,
+      "2026-03-31": 270369000.0,
+      "2026-06-30": 272620000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.63,
+      "2025-09-30": 0.7,
+      "2025-12-31": 0.7,
+      "2026-03-31": 0.69,
+      "2026-06-30": 0.95
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.23836473646675,
+    "net_debt": 725505000.0,
+    "debt_to_assets": 4.063874666269573,
+    "ticker": "UCB"
   },
-  "fetched_at": "2026-08-14T14:19:16.949310"
+  "fetched_at": "2026-10-15T10:54:28.503710"
 }

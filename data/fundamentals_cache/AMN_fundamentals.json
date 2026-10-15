@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "AMN",
-    "fetch_date": "2026-08-14T13:24:46.693439",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 658175000.0,
-      "2025-09-30 00:00:00": 634496000.0,
-      "2025-12-31 00:00:00": 748225000.0,
-      "2026-03-31 00:00:00": 1378361000.0,
-      "2026-06-30 00:00:00": 673237000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:00:23.914318+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 2.288449120674585,
     "revenue_qoq_change": -51.15669987760826,
-    "revenue_yoy_change": 2.2884491206745925,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -3.02,
-      "2025-09-30 00:00:00": 0.76,
-      "2025-12-31 00:00:00": -0.2,
-      "2026-03-31 00:00:00": 1.59,
-      "2026-06-30 00:00:00": 0.53
+    "eps_yoy_change": null,
+    "eps_qoq_change": -66.66666666666667,
+    "latest_eps": 0.53,
+    "gross_margin": 30.580909843041898,
+    "operating_margin": 3.9968094445195375,
+    "net_margin": 3.1430239276807423,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.43104076638725,
+    "free_cash_flow_ttm": 438616000.0,
+    "operating_cash_flow_ttm": 470760000.0,
+    "revenue_ttm": 3434319000.0,
+    "net_income_ttm": 104918000.0,
+    "ebitda_ttm": 346431000.0,
+    "total_debt": 775810000.0,
+    "cash": 361836000.0,
+    "total_assets": 2363977000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 658175000.0,
+      "2025-09-30": 634496000.0,
+      "2025-12-31": 748225000.0,
+      "2026-03-31": 1378361000.0,
+      "2026-06-30": 673237000.0
     },
-    "eps_qoq_change": -66.66666666666666,
-    "eps_yoy_change": 117.54966887417217,
-    "gross_margin": 30.58,
-    "margin_change": 3.82,
-    "operating_margin": 4.0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -3.02,
+      "2025-09-30": 0.76,
+      "2025-12-31": -0.2,
+      "2026-03-31": 1.59,
+      "2026-06-30": 0.53
+    },
+    "quarterly_inventory": {},
+    "margin_change": 3.821882273341366,
+    "operating_margin_yoy_change": 3.379648355143612,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.771556748222865,
+    "net_debt": 413974000.0,
+    "net_debt_to_ebitda": 1.1949681177492777,
+    "debt_to_assets": 32.818001190366914,
+    "ticker": "AMN"
   },
-  "fetched_at": "2026-08-14T13:24:46.694777"
+  "fetched_at": "2026-10-15T10:00:23.919171"
 }

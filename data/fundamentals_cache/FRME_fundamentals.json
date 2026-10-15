@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "FRME",
-    "fetch_date": "2026-08-14T13:44:12.040581",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:39.040779+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": -1.9873002407714613,
+    "revenue_qoq_change": -8.734390428065286,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -54.54545454545454,
+    "latest_eps": 0.45,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 17.91869256421353,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 280537000.0,
+    "operating_cash_flow_ttm": 280537000.0,
+    "revenue_ttm": 659761000.0,
+    "net_income_ttm": 198818000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1385537000.0,
+    "cash": 273437000.0,
+    "total_assets": 21072521000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 160318000.0,
-      "2025-06-30 00:00:00": 164317000.0,
-      "2025-09-30 00:00:00": 166142000.0,
-      "2025-12-31 00:00:00": 172170000.0,
-      "2026-03-31 00:00:00": 157132000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 160318000.0,
+      "2025-06-30": 164317000.0,
+      "2025-09-30": 166142000.0,
+      "2025-12-31": 172170000.0,
+      "2026-03-31": 157132000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.98,
-      "2025-09-30 00:00:00": 0.98,
-      "2025-12-31 00:00:00": 0.99,
-      "2026-03-31 00:00:00": 0.45,
-      "2026-06-30 00:00:00": 0.7
+      "2025-03-31": null,
+      "2025-06-30": 0.98,
+      "2025-09-30": 0.98,
+      "2025-12-31": 0.99,
+      "2026-03-31": 0.45
     },
-    "eps_qoq_change": 55.55555555555555,
-    "eps_yoy_change": -28.571428571428577,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 42.521003818049266,
+    "net_debt": 1112100000.0,
+    "debt_to_assets": 6.575088951151123,
+    "ticker": "FRME"
   },
-  "fetched_at": "2026-08-14T13:44:12.041263"
+  "fetched_at": "2026-10-15T10:19:39.044950"
 }

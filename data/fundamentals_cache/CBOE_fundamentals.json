@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "CBOE",
-    "fetch_date": "2026-08-13T13:37:52.970728",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1173500000.0,
-      "2025-09-30 00:00:00": 1141700000.0,
-      "2025-12-31 00:00:00": 1204000000.0,
-      "2026-03-31 00:00:00": 1272800000.0,
-      "2026-06-30 00:00:00": 1442800000.0
-    },
-    "revenue_qoq_change": 13.356379635449404,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:01.979119+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 22.948444823178527,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 2.37,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 2.85,
-      "2025-12-31 00:00:00": 2.97,
-      "2026-03-31 00:00:00": 3.66,
-      "2026-06-30 00:00:00": 3.35
-    },
-    "eps_qoq_change": -8.469945355191259,
+    "revenue_qoq_change": 13.3563796354494,
     "eps_yoy_change": null,
-    "gross_margin": 39.98,
-    "margin_change": -7.23,
-    "operating_margin": 32.99,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -8.469945355191255,
+    "latest_eps": 3.35,
+    "gross_margin": 39.98475187136124,
+    "operating_margin": 32.99140560022179,
+    "net_margin": 24.473246465206543,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 1874500000.0,
+    "operating_cash_flow_ttm": 1962800000.0,
+    "revenue_ttm": 5061300000.0,
+    "net_income_ttm": 1353100000.0,
+    "ebitda_ttm": 2064900000.0,
+    "total_debt": 1580300000.0,
+    "cash": 2390700000.0,
+    "total_assets": 10609300000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1173500000.0,
+      "2025-09-30": 1141700000.0,
+      "2025-12-31": 1204000000.0,
+      "2026-03-31": 1272800000.0,
+      "2026-06-30": 1442800000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 2.37,
+      "2025-06-30": null,
+      "2025-09-30": 2.85,
+      "2025-12-31": 2.97,
+      "2026-03-31": 3.66,
+      "2026-06-30": 3.35
+    },
+    "quarterly_inventory": {},
+    "margin_change": -7.233978486904,
+    "operating_margin_yoy_change": 2.6377626517769635,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 37.03593938316243,
+    "net_debt": -810400000.0,
+    "net_debt_to_ebitda": -0.39246452612717325,
+    "debt_to_assets": 14.895421941127124,
+    "ticker": "CBOE"
   },
-  "fetched_at": "2026-08-13T13:37:52.972055"
+  "fetched_at": "2026-10-15T10:08:01.984089"
 }

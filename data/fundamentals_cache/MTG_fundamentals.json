@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "MTG",
-    "fetch_date": "2026-08-14T13:59:13.386025",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 304245000.0,
-      "2025-09-30 00:00:00": 304505000.0,
-      "2025-12-31 00:00:00": 298652000.0,
-      "2026-03-31 00:00:00": 297077000.0,
-      "2026-06-30 00:00:00": 295388000.0
-    },
-    "revenue_qoq_change": -0.5685394695651296,
-    "revenue_yoy_change": -2.911140692533978,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.81,
-      "2025-09-30 00:00:00": 0.83,
-      "2025-12-31 00:00:00": 0.75,
-      "2026-03-31 00:00:00": 0.76,
-      "2026-06-30 00:00:00": 0.86
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:34:32.277647+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -2.9111406925339756,
+    "revenue_qoq_change": -0.5685394695651325,
+    "eps_yoy_change": 6.1728395061728225,
     "eps_qoq_change": 13.157894736842103,
-    "eps_yoy_change": 6.1728395061728305,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.86,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 61.662965320189045,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -11.35684600224397,
+    "free_cash_flow_ttm": 706480000.0,
+    "operating_cash_flow_ttm": 708017000.0,
+    "revenue_ttm": 1195622000.0,
+    "net_income_ttm": 707853000.0,
+    "ebitda_ttm": null,
+    "total_debt": 646874000.0,
+    "cash": 5908335000.0,
+    "total_assets": 6526982000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 304245000.0,
+      "2025-09-30": 304505000.0,
+      "2025-12-31": 298652000.0,
+      "2026-03-31": 297077000.0,
+      "2026-06-30": 295388000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.81,
+      "2025-09-30": 0.83,
+      "2025-12-31": 0.75,
+      "2026-03-31": 0.76,
+      "2026-06-30": 0.86
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 59.08890937102195,
+    "net_debt": -5261461000.0,
+    "debt_to_assets": 9.91076733473449,
+    "ticker": "MTG"
   },
-  "fetched_at": "2026-08-14T13:59:13.386704"
+  "fetched_at": "2026-10-15T10:34:32.281427"
 }

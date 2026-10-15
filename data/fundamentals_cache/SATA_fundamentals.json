@@ -1,20 +1,44 @@
 {
   "data": {
-    "ticker": "SATA",
-    "fetch_date": "2026-08-25T13:49:38.318818",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:32.312504+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 94.63931171409664,
+    "revenue_qoq_change": 6.557971014492758,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": null,
+    "gross_margin": -505.33832029921797,
+    "operating_margin": -729.5137708262496,
+    "net_margin": -8759.027541652498,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 3319000.0,
+    "cash": 188320000.0,
+    "total_assets": 1377109000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 1035106.0,
-      "2025-03-31 00:00:00": 1423000.0,
-      "2025-06-30 00:00:00": 1510371.0,
-      "2025-12-31 00:00:00": 1512000.0,
-      "2026-03-31 00:00:00": 2760000.0
+      "2025-03-31": 1423000.0,
+      "2025-06-30": 1511000.0,
+      "2025-12-31": 1512000.0,
+      "2026-03-31": 2760000.0,
+      "2026-06-30": 2941000.0
     },
-    "revenue_qoq_change": 82.53968253968253,
-    "revenue_yoy_change": 166.63935867437732,
-    "gross_margin": -424.53,
-    "margin_change": 1426.93,
-    "operating_margin": -647.14,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {},
+    "quarterly_inventory": {},
+    "margin_change": -80.8093347919716,
+    "operating_margin_yoy_change": -485.3046378017625,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -185001000.0,
+    "debt_to_assets": 0.24101214936508292,
+    "ticker": "SATA"
   },
-  "fetched_at": "2026-08-25T13:49:38.319945"
+  "fetched_at": "2026-10-15T10:46:32.317379"
 }

@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "FBP",
-    "fetch_date": "2026-08-13T13:47:51.332699",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 239734000.0,
-      "2025-09-30 00:00:00": 239709000.0,
-      "2025-12-31 00:00:00": 238109000.0,
-      "2026-03-31 00:00:00": 252255000.0,
-      "2026-06-30 00:00:00": 257295000.0
-    },
-    "revenue_qoq_change": 1.9979782363084972,
-    "revenue_yoy_change": 7.32520209899305,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.47,
-      "2025-06-30 00:00:00": 0.5,
-      "2025-09-30 00:00:00": 0.63,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.57,
-      "2026-06-30 00:00:00": 0.62
-    },
-    "eps_qoq_change": 8.771929824561413,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:17:58.054177+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.3252020989930555,
+    "revenue_qoq_change": 1.9979782363084952,
     "eps_yoy_change": 24.0,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 8.771929824561408,
+    "latest_eps": 0.62,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 37.37111098155813,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 95348.66357506826,
+    "free_cash_flow_ttm": 441047000.0,
+    "operating_cash_flow_ttm": 458194000.0,
+    "revenue_ttm": 987368000.0,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 200000000.0,
+    "cash": 560626000.0,
+    "total_assets": 19241235000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 239734000.0,
+      "2025-09-30": 239709000.0,
+      "2025-12-31": 238109000.0,
+      "2026-03-31": 252255000.0,
+      "2026-06-30": 257295000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.47,
+      "2025-06-30": 0.5,
+      "2025-09-30": 0.63,
+      "2025-12-31": null,
+      "2026-03-31": 0.57,
+      "2026-06-30": 0.62
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 44.668958281005665,
+    "net_debt": -360626000.0,
+    "debt_to_assets": 1.0394343190548838,
+    "ticker": "FBP"
   },
-  "fetched_at": "2026-08-13T13:47:51.333367"
+  "fetched_at": "2026-10-15T10:17:58.057526"
 }

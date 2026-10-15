@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "AAMI",
-    "fetch_date": "2026-08-13T13:27:05.494225",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 127400000.0,
-      "2025-09-30 00:00:00": 144200000.0,
-      "2025-12-31 00:00:00": 172200000.0,
-      "2026-03-31 00:00:00": 167000000.0,
-      "2026-06-30 00:00:00": 185100000.0
-    },
-    "revenue_qoq_change": 10.838323353293413,
-    "revenue_yoy_change": 45.29042386185244,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.28,
-      "2025-09-30 00:00:00": 0.42,
-      "2025-12-31 00:00:00": 0.97,
-      "2026-03-31 00:00:00": 0.68,
-      "2026-06-30 00:00:00": 0.76
-    },
-    "eps_qoq_change": 11.764705882352935,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:57:19.868915+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 45.290423861852425,
+    "revenue_qoq_change": 10.838323353293422,
     "eps_yoy_change": 171.4285714285714,
-    "gross_margin": 34.09,
-    "margin_change": -8.07,
-    "operating_margin": 17.5,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 11.764705882352944,
+    "latest_eps": 0.76,
+    "gross_margin": 34.089681253376554,
+    "operating_margin": 17.504051863857377,
+    "net_margin": 14.748784440842789,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.5726410674278037,
+    "free_cash_flow_ttm": -50100000.0,
+    "operating_cash_flow_ttm": -34100000.0,
+    "revenue_ttm": 668500000.0,
+    "net_income_ttm": 101400000.0,
+    "ebitda_ttm": 198000000.0,
+    "total_debt": 257500000.0,
+    "cash": 64600000.0,
+    "total_assets": 856900000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 127400000.0,
+      "2025-09-30": 144200000.0,
+      "2025-12-31": 172200000.0,
+      "2026-03-31": 167000000.0,
+      "2026-06-30": 185100000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.28,
+      "2025-09-30": 0.42,
+      "2025-12-31": 0.97,
+      "2026-03-31": 0.68,
+      "2026-06-30": 0.76
+    },
+    "quarterly_inventory": {},
+    "margin_change": -8.066007369377935,
+    "operating_margin_yoy_change": 4.788196290858947,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -7.494390426327599,
+    "net_debt": 192900000.0,
+    "net_debt_to_ebitda": 0.9742424242424242,
+    "debt_to_assets": 30.050180884583966,
+    "ticker": "AAMI"
   },
-  "fetched_at": "2026-08-13T13:27:05.495568"
+  "fetched_at": "2026-10-15T09:57:19.873834"
 }

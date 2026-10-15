@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "TRNO",
-    "fetch_date": "2026-08-14T14:18:09.718670",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 112234000.0,
-      "2025-09-30 00:00:00": 116248000.0,
-      "2025-12-31 00:00:00": 137481000.0,
-      "2026-03-31 00:00:00": 124440000.0,
-      "2026-06-30 00:00:00": 124711000.0
-    },
-    "revenue_qoq_change": 0.2177756348441016,
-    "revenue_yoy_change": 11.116952082256713,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.47,
-      "2025-06-30 00:00:00": 0.9,
-      "2025-09-30 00:00:00": 1.0,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.66,
-      "2026-06-30 00:00:00": 0.54
-    },
-    "eps_qoq_change": -18.18181818181818,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:53:21.570599+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.116952082256715,
+    "revenue_qoq_change": 0.21777563484410845,
     "eps_yoy_change": -40.0,
-    "gross_margin": 76.25,
-    "margin_change": 1.8,
-    "operating_margin": 41.78,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -18.181818181818176,
+    "latest_eps": 0.54,
+    "gross_margin": 76.2466823295459,
+    "operating_margin": 41.77578561634499,
+    "net_margin": 46.1603226660038,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.553142406721488,
+    "free_cash_flow_ttm": 216922000.0,
+    "operating_cash_flow_ttm": 286645000.0,
+    "revenue_ttm": 502880000.0,
+    "net_income_ttm": 388594000.0,
+    "ebitda_ttm": 549080000.0,
+    "total_debt": 942470000.0,
+    "cash": 51208000.0,
+    "total_assets": 5711884000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 112234000.0,
+      "2025-09-30": 116248000.0,
+      "2025-12-31": 137481000.0,
+      "2026-03-31": 124440000.0,
+      "2026-06-30": 124711000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.47,
+      "2025-06-30": 0.9,
+      "2025-09-30": 1.0,
+      "2025-12-31": null,
+      "2026-03-31": 0.66,
+      "2026-06-30": 0.54
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.7987556178776316,
+    "operating_margin_yoy_change": 2.6147470718753993,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 43.13593700286351,
+    "net_debt": 891262000.0,
+    "net_debt_to_ebitda": 1.6231915203613316,
+    "debt_to_assets": 16.500160017255254,
+    "ticker": "TRNO"
   },
-  "fetched_at": "2026-08-14T14:18:09.720007"
+  "fetched_at": "2026-10-15T10:53:21.575682"
 }

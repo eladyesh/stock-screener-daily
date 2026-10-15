@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "RDNT",
-    "fetch_date": "2026-08-14T14:08:58.858322",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 471399000.0,
-      "2025-06-30 00:00:00": 498230000.0,
-      "2025-09-30 00:00:00": 522869000.0,
-      "2025-12-31 00:00:00": 547712000.0,
-      "2026-03-31 00:00:00": 575631000.0
-    },
-    "revenue_qoq_change": 5.0973869478850204,
-    "revenue_yoy_change": 22.11120515741442,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.51,
-      "2025-06-30 00:00:00": 0.19,
-      "2025-09-30 00:00:00": 0.07,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.43
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:44:09.187330+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 24.986452040222385,
+    "revenue_qoq_change": 8.180414188950902,
+    "eps_yoy_change": -47.36842105263158,
     "eps_qoq_change": null,
-    "eps_yoy_change": 15.686274509803924,
-    "gross_margin": 4.36,
-    "margin_change": -9.5,
-    "operating_margin": -3.45,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.1,
+    "gross_margin": 14.144398766700924,
+    "operating_margin": 6.833087101747173,
+    "net_margin": 1.2092112024665982,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.235673470424217,
+    "free_cash_flow_ttm": 72372000.0,
+    "operating_cash_flow_ttm": 310062000.0,
+    "revenue_ttm": 2268932000.0,
+    "net_income_ttm": -21116000.0,
+    "ebitda_ttm": 337288000.0,
+    "total_debt": 2182705000.0,
+    "cash": 726272000.0,
+    "total_assets": 4226351000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 498230000.0,
+      "2025-09-30": 522869000.0,
+      "2025-12-31": 547712000.0,
+      "2026-03-31": 575631000.0,
+      "2026-06-30": 622720000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.51,
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.07,
+      "2025-12-31": null,
+      "2026-03-31": -0.43,
+      "2026-06-30": 0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": 9.780665750237251,
+    "operating_margin_yoy_change": 0.17913210104468646,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 3.189694534697382,
+    "net_debt": 1456433000.0,
+    "net_debt_to_ebitda": 4.318069424349518,
+    "debt_to_assets": 51.64514258280961,
+    "ticker": "RDNT"
   },
-  "fetched_at": "2026-08-14T14:08:58.859867"
+  "fetched_at": "2026-10-15T10:44:09.192253"
 }

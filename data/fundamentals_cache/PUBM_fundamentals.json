@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "PUBM",
-    "fetch_date": "2026-08-14T14:07:40.518031",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:54.163961+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.54645193051551,
+    "revenue_qoq_change": 25.614141640161737,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.03,
+    "gross_margin": 67.07467586171796,
+    "operating_margin": 0.7367068313971982,
+    "net_margin": -1.529398292468795,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.2867436685387266,
+    "free_cash_flow_ttm": 54006000.0,
+    "operating_cash_flow_ttm": 88038000.0,
+    "revenue_ttm": 289166000.0,
+    "net_income_ttm": -13480000.0,
+    "ebitda_ttm": 25638000.0,
+    "total_debt": 40637000.0,
+    "cash": 137507000.0,
+    "total_assets": 700042000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 71095000.0,
-      "2025-09-30 00:00:00": 67960000.0,
-      "2025-12-31 00:00:00": 80046000.0,
-      "2026-03-31 00:00:00": 62567000.0,
-      "2026-06-30 00:00:00": 78593000.0
+      "2025-06-30": 71095000.0,
+      "2025-09-30": 67960000.0,
+      "2025-12-31": 80046000.0,
+      "2026-03-31": 62567000.0,
+      "2026-06-30": 78593000.0
     },
-    "revenue_qoq_change": 25.614141640161748,
-    "revenue_yoy_change": 10.546451930515508,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.11,
-      "2025-09-30 00:00:00": -0.14,
-      "2025-12-31 00:00:00": 0.14,
-      "2026-03-31 00:00:00": -0.27,
-      "2026-06-30 00:00:00": -0.03
+      "2025-06-30": -0.11,
+      "2025-09-30": -0.14,
+      "2025-12-31": 0.14,
+      "2026-03-31": -0.27,
+      "2026-06-30": -0.03
     },
-    "eps_qoq_change": 88.8888888888889,
-    "eps_yoy_change": 72.72727272727273,
-    "gross_margin": 67.07,
-    "margin_change": 8.78,
-    "operating_margin": 0.74,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 8.780367360431349,
+    "operating_margin_yoy_change": 8.417978369480046,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 18.676469571111404,
+    "net_debt": -96870000.0,
+    "net_debt_to_ebitda": -3.7783758483501053,
+    "debt_to_assets": 5.804937418040631,
+    "ticker": "PUBM"
   },
-  "fetched_at": "2026-08-14T14:07:40.519372"
+  "fetched_at": "2026-10-15T10:42:54.169012"
 }

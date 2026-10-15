@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "KNX",
-    "fetch_date": "2026-08-14T13:53:21.217716",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:42.212924+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.555291792431555,
+    "revenue_qoq_change": 13.268076334582378,
+    "eps_yoy_change": 23.809523809523814,
+    "eps_qoq_change": null,
+    "latest_eps": 0.26,
+    "gross_margin": 15.27318639202333,
+    "operating_margin": 5.0031206578003085,
+    "net_margin": 2.060827060206746,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.4565002061018397,
+    "free_cash_flow_ttm": 545616000.0,
+    "operating_cash_flow_ttm": 1391076000.0,
+    "revenue_ttm": 7729322000.0,
+    "net_income_ttm": 42936000.0,
+    "ebitda_ttm": 993795000.0,
+    "total_debt": 2685164000.0,
+    "cash": 186114000.0,
+    "total_assets": 12004345000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1861940000.0,
-      "2025-09-30 00:00:00": 1927057000.0,
-      "2025-12-31 00:00:00": 1856330000.0,
-      "2026-03-31 00:00:00": 1850223000.0,
-      "2026-06-30 00:00:00": 2095712000.0
+      "2025-06-30": 1861940000.0,
+      "2025-09-30": 1927057000.0,
+      "2025-12-31": 1856330000.0,
+      "2026-03-31": 1850223000.0,
+      "2026-06-30": 2095712000.0
     },
-    "revenue_qoq_change": 13.268076334582371,
-    "revenue_yoy_change": 12.55529179243155,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.21,
-      "2025-09-30 00:00:00": 0.05,
-      "2025-12-31 00:00:00": -0.04,
-      "2026-03-31 00:00:00": -0.01,
-      "2026-06-30 00:00:00": 0.26
+      "2025-06-30": 0.21,
+      "2025-09-30": 0.05,
+      "2025-12-31": -0.04,
+      "2026-03-31": -0.01,
+      "2026-06-30": 0.26
     },
-    "eps_qoq_change": 2700.0,
-    "eps_yoy_change": 23.80952380952382,
-    "gross_margin": 15.27,
-    "margin_change": 2.18,
-    "operating_margin": 5.0,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 2.1762245663406947,
+    "operating_margin_yoy_change": 0.5346630275866602,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.0590408835341565,
+    "net_debt": 2499050000.0,
+    "net_debt_to_ebitda": 2.5146534244990164,
+    "debt_to_assets": 22.36826748981306,
+    "ticker": "KNX"
   },
-  "fetched_at": "2026-08-14T13:53:21.219018"
+  "fetched_at": "2026-10-15T10:28:42.218070"
 }

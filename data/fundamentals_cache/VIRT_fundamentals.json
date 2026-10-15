@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "VIRT",
-    "fetch_date": "2026-08-14T14:20:56.807651",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:08.588396+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 19.046132698662333,
+    "revenue_qoq_change": 8.63906395076539,
+    "eps_yoy_change": -1.2121212121212088,
+    "eps_qoq_change": -18.090452261306535,
+    "latest_eps": 1.63,
+    "gross_margin": 60.02623633034246,
+    "operating_margin": 49.15832810203428,
+    "net_margin": 12.681089085031088,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.423909358290821,
+    "free_cash_flow_ttm": 478408000.0,
+    "operating_cash_flow_ttm": 557616000.0,
+    "revenue_ttm": 4079956000.0,
+    "net_income_ttm": 550701000.0,
+    "ebitda_ttm": 2264705000.0,
+    "total_debt": 10777479000.0,
+    "cash": 1069254000.0,
+    "total_assets": 27477122000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 999573000.0,
-      "2025-09-30 00:00:00": 824789000.0,
-      "2025-12-31 00:00:00": 969887000.0,
-      "2026-03-31 00:00:00": 1095327000.0,
-      "2026-06-30 00:00:00": 1189953000.0
+      "2025-06-30": 999573000.0,
+      "2025-09-30": 824789000.0,
+      "2025-12-31": 969887000.0,
+      "2026-03-31": 1095327000.0,
+      "2026-06-30": 1189953000.0
     },
-    "revenue_qoq_change": 8.639063950765388,
-    "revenue_yoy_change": 19.04613269866233,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.65,
-      "2025-09-30 00:00:00": 0.86,
-      "2025-12-31 00:00:00": 1.54,
-      "2026-03-31 00:00:00": 1.99,
-      "2026-06-30 00:00:00": 1.63
+      "2025-06-30": 1.65,
+      "2025-09-30": 0.86,
+      "2025-12-31": 1.54,
+      "2026-03-31": 1.99,
+      "2026-06-30": 1.63
     },
-    "eps_qoq_change": -18.090452261306538,
-    "eps_yoy_change": -1.2121212121212133,
-    "gross_margin": 60.03,
-    "margin_change": -8.28,
-    "operating_margin": 49.16,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -8.277019227130317,
+    "operating_margin_yoy_change": -5.518618954358793,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.725812729352963,
+    "net_debt": 9708225000.0,
+    "net_debt_to_ebitda": 4.286750371461184,
+    "debt_to_assets": 39.223463796535896,
+    "ticker": "VIRT"
   },
-  "fetched_at": "2026-08-14T14:20:56.808989"
+  "fetched_at": "2026-10-15T10:56:08.593322"
 }

@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "TRV",
-    "fetch_date": "2026-08-14T14:18:17.774320",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 12116000000.0,
-      "2025-09-30 00:00:00": 12470000000.0,
-      "2025-12-31 00:00:00": 12432000000.0,
-      "2026-03-31 00:00:00": 11924000000.0,
-      "2026-06-30 00:00:00": 12153000000.0
-    },
-    "revenue_qoq_change": 1.92049647769205,
-    "revenue_yoy_change": 0.30538131396500495,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 6.53,
-      "2025-09-30 00:00:00": 8.24,
-      "2025-12-31 00:00:00": 11.06,
-      "2026-03-31 00:00:00": 7.78,
-      "2026-06-30 00:00:00": 10.26
-    },
-    "eps_qoq_change": 31.87660668380462,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:53:29.632487+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.305381313965003,
+    "revenue_qoq_change": 1.9204964776920574,
     "eps_yoy_change": 57.1209800918836,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 31.87660668380463,
+    "latest_eps": 10.26,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 18.1683534929647,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.846925425207151,
+    "free_cash_flow_ttm": 11026000000.0,
+    "operating_cash_flow_ttm": 11026000000.0,
+    "revenue_ttm": 48979000000.0,
+    "net_income_ttm": 8303000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 9068000000.0,
+    "cash": 97983000000.0,
+    "total_assets": 143580000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 12116000000.0,
+      "2025-09-30": 12470000000.0,
+      "2025-12-31": 12432000000.0,
+      "2026-03-31": 11924000000.0,
+      "2026-06-30": 12153000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 6.53,
+      "2025-09-30": 8.24,
+      "2025-12-31": 11.06,
+      "2026-03-31": 7.78,
+      "2026-06-30": 10.26
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 22.511688682904918,
+    "net_debt": -88915000000.0,
+    "debt_to_assets": 6.315642847193202,
+    "ticker": "TRV"
   },
-  "fetched_at": "2026-08-14T14:18:17.774976"
+  "fetched_at": "2026-10-15T10:53:29.636257"
 }

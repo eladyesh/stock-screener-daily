@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "CVBF",
-    "fetch_date": "2026-08-13T13:42:18.235415",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 126352000.0,
-      "2025-09-30 00:00:00": 128583000.0,
-      "2025-12-31 00:00:00": 133851000.0,
-      "2026-03-31 00:00:00": 132119000.0,
-      "2026-06-30 00:00:00": 179425000.0
-    },
-    "revenue_qoq_change": 35.80559949742278,
-    "revenue_yoy_change": 42.00408382930227,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.36,
-      "2025-09-30 00:00:00": 0.38,
-      "2025-12-31 00:00:00": 0.4,
-      "2026-03-31 00:00:00": 0.38,
-      "2026-06-30 00:00:00": 0.29
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:12:26.141214+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 42.004083829302274,
+    "revenue_qoq_change": 35.80559949742277,
+    "eps_yoy_change": -19.444444444444443,
     "eps_qoq_change": -23.684210526315795,
-    "eps_yoy_change": -19.444444444444446,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.29,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.897589522084438,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 19.872105160216403,
+    "free_cash_flow_ttm": 572497000.0,
+    "operating_cash_flow_ttm": 576960000.0,
+    "revenue_ttm": 573978000.0,
+    "net_income_ttm": 206893000.0,
+    "ebitda_ttm": null,
+    "total_debt": 538973000.0,
+    "cash": 1105108000.0,
+    "total_assets": 21182781000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 126352000.0,
+      "2025-09-30": 128583000.0,
+      "2025-12-31": 133851000.0,
+      "2026-03-31": 132119000.0,
+      "2026-06-30": 179425000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.36,
+      "2025-09-30": 0.38,
+      "2025-12-31": 0.4,
+      "2026-03-31": 0.38,
+      "2026-06-30": 0.29
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 99.7419761733028,
+    "net_debt": -566135000.0,
+    "debt_to_assets": 2.5443920701441423,
+    "ticker": "CVBF"
   },
-  "fetched_at": "2026-08-13T13:42:18.236112"
+  "fetched_at": "2026-10-15T10:12:26.145202"
 }

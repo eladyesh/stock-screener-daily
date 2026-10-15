@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "BAFN",
-    "fetch_date": "2026-09-18T16:21:30.836680",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 20100000.0,
-      "2025-09-30 00:00:00": 6961000.0,
-      "2025-12-31 00:00:00": 9919000.0,
-      "2026-03-31 00:00:00": 6475000.0,
-      "2026-06-30 00:00:00": -475000.0
-    },
-    "revenue_qoq_change": -107.33590733590734,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:26.986695+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": -102.363184079602,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.298409,
-      "2025-09-30 00:00:00": -3.565606,
-      "2025-12-31 00:00:00": -0.527955,
-      "2026-03-31 00:00:00": -1.132424,
-      "2026-06-30 00:00:00": -8.05
+    "revenue_qoq_change": -107.33590733590734,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -8.05,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -24.51124706325354,
+    "free_cash_flow_ttm": 143045000.0,
+    "operating_cash_flow_ttm": 143186000.0,
+    "revenue_ttm": 22880000.0,
+    "net_income_ttm": -59960000.0,
+    "ebitda_ttm": null,
+    "total_debt": 19912000.0,
+    "cash": 139165000.0,
+    "total_assets": 1134925000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 20100000.0,
+      "2025-09-30": 6961000.0,
+      "2025-12-31": 9919000.0,
+      "2026-03-31": 6475000.0,
+      "2026-06-30": -475000.0
     },
-    "eps_qoq_change": -610.8644818548529,
-    "eps_yoy_change": -2597.639816493471,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.298409,
+      "2025-09-30": -3.565606,
+      "2025-12-31": -0.527955,
+      "2026-03-31": -1.132424,
+      "2026-06-30": -8.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 625.1966783216783,
+    "net_debt": -119253000.0,
+    "debt_to_assets": 1.754477168094808,
+    "ticker": "BAFN"
   },
-  "fetched_at": "2026-09-18T16:21:30.837174"
+  "fetched_at": "2026-10-15T10:03:26.990536"
 }

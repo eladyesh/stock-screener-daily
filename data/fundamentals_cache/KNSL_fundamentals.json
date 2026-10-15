@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "KNSL",
-    "fetch_date": "2026-08-14T13:53:19.262518",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:40.122229+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.752374343889276,
+    "revenue_qoq_change": 17.529124143738393,
+    "eps_yoy_change": 34.02777777777777,
+    "eps_qoq_change": 58.19672131147542,
+    "latest_eps": 7.72,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.06342897875917,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.1725129878493843,
+    "free_cash_flow_ttm": 1000771000.0,
+    "operating_cash_flow_ttm": 1035644000.0,
+    "revenue_ttm": 1996004000.0,
+    "net_income_ttm": 568694000.0,
+    "ebitda_ttm": null,
+    "total_debt": 224535000.0,
+    "cash": 2888319000.0,
+    "total_assets": 6428830000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 469814000.0,
-      "2025-09-30 00:00:00": 497505000.0,
-      "2025-12-31 00:00:00": 483271000.0,
-      "2026-03-31 00:00:00": 466709000.0,
-      "2026-06-30 00:00:00": 548519000.0
+      "2025-06-30": 469814000.0,
+      "2025-09-30": 497505000.0,
+      "2025-12-31": 483271000.0,
+      "2026-03-31": 466709000.0,
+      "2026-06-30": 548519000.0
     },
-    "revenue_qoq_change": 17.52912414373839,
-    "revenue_yoy_change": 16.752374343889283,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 5.76,
-      "2025-09-30 00:00:00": 6.09,
-      "2025-12-31 00:00:00": 5.99,
-      "2026-03-31 00:00:00": 4.88,
-      "2026-06-30 00:00:00": 7.72
+      "2025-06-30": 5.76,
+      "2025-09-30": 6.09,
+      "2025-12-31": 5.99,
+      "2026-03-31": 4.88,
+      "2026-06-30": 7.72
     },
-    "eps_qoq_change": 58.19672131147541,
-    "eps_yoy_change": 34.02777777777778,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 50.138727176899444,
+    "net_debt": -2663784000.0,
+    "debt_to_assets": 3.4926261854800953,
+    "ticker": "KNSL"
   },
-  "fetched_at": "2026-08-14T13:53:19.263155"
+  "fetched_at": "2026-10-15T10:28:40.126043"
 }

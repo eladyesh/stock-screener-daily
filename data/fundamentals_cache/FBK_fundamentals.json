@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "FBK",
-    "fetch_date": "2026-08-14T13:42:23.983355",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 76863000.0,
-      "2025-09-30 00:00:00": 173875000.0,
-      "2025-12-31 00:00:00": 179765000.0,
-      "2026-03-31 00:00:00": 172660000.0,
-      "2026-06-30 00:00:00": 174752000.0
-    },
-    "revenue_qoq_change": 1.211629792656087,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:17:53.966005+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 127.35516438338341,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.06,
-      "2025-09-30 00:00:00": 0.43,
-      "2025-12-31 00:00:00": 1.07,
-      "2026-03-31 00:00:00": 1.1,
-      "2026-06-30 00:00:00": 1.13
-    },
-    "eps_qoq_change": 2.7272727272727093,
+    "revenue_qoq_change": 1.211629792656077,
     "eps_yoy_change": 1783.3333333333333,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 2.7272727272727115,
+    "latest_eps": 1.13,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 33.561275407434536,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 11.941764118781894,
+    "free_cash_flow_ttm": 199866000.0,
+    "operating_cash_flow_ttm": 207047000.0,
+    "revenue_ttm": 701052000.0,
+    "net_income_ttm": 196527000.0,
+    "ebitda_ttm": null,
+    "total_debt": 372453000.0,
+    "cash": 883496000.0,
+    "total_assets": 16796101000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 76863000.0,
+      "2025-09-30": 173875000.0,
+      "2025-12-31": 179765000.0,
+      "2026-03-31": 172660000.0,
+      "2026-06-30": 174752000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.06,
+      "2025-09-30": 0.43,
+      "2025-12-31": 1.07,
+      "2026-03-31": 1.1,
+      "2026-06-30": 1.13
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.509440098594684,
+    "net_debt": -511043000.0,
+    "debt_to_assets": 2.2174967869031033,
+    "ticker": "FBK"
   },
-  "fetched_at": "2026-08-14T13:42:23.984039"
+  "fetched_at": "2026-10-15T10:17:53.969854"
 }

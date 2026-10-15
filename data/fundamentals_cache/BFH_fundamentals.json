@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "BFH",
-    "fetch_date": "2026-08-13T13:34:26.917215",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:04:34.804286+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.889128094725505,
+    "revenue_qoq_change": -2.4557956777996104,
+    "eps_yoy_change": 20.74829931972788,
+    "eps_qoq_change": -14.457831325301218,
+    "latest_eps": 3.55,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 14.70292044310171,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -13.771186440677962,
+    "free_cash_flow_ttm": 2193000000.0,
+    "operating_cash_flow_ttm": 2193000000.0,
+    "revenue_ttm": 3957000000.0,
+    "net_income_ttm": 569000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 3297000000.0,
+    "cash": 3683000000.0,
+    "total_assets": 22452000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 970000000.0,
-      "2025-06-30 00:00:00": 929000000.0,
-      "2025-09-30 00:00:00": 971000000.0,
-      "2025-12-31 00:00:00": 975000000.0,
-      "2026-03-31 00:00:00": 1018000000.0
+      "2025-03-31": null,
+      "2025-06-30": 929000000.0,
+      "2025-09-30": 971000000.0,
+      "2025-12-31": 975000000.0,
+      "2026-03-31": 1018000000.0,
+      "2026-06-30": 993000000.0
     },
-    "revenue_qoq_change": 4.41025641025641,
-    "revenue_yoy_change": 4.948453608247423,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": 0.14,
-      "2025-03-31 00:00:00": 2.78,
-      "2025-06-30 00:00:00": 2.94,
-      "2025-09-30 00:00:00": 3.96,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 4.15
+      "2025-03-31": 2.78,
+      "2025-06-30": 2.94,
+      "2025-09-30": 3.96,
+      "2025-12-31": null,
+      "2026-03-31": 4.15,
+      "2026-06-30": 3.55
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": 49.28057553956837,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 55.420773313116,
+    "net_debt": -386000000.0,
+    "debt_to_assets": 14.68466060929984,
+    "ticker": "BFH"
   },
-  "fetched_at": "2026-08-13T13:34:26.917902"
+  "fetched_at": "2026-10-15T10:04:34.808021"
 }

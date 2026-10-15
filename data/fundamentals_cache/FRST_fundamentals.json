@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "FRST",
-    "fetch_date": "2026-08-14T13:44:19.261938",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 35760000.0,
-      "2025-09-30 00:00:00": 40707000.0,
-      "2025-12-31 00:00:00": 30275000.0,
-      "2026-03-31 00:00:00": 45629000.0,
-      "2026-06-30 00:00:00": 55389000.0
-    },
-    "revenue_qoq_change": 21.389905542527778,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:45.909088+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 54.89093959731544,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.34,
-      "2025-09-30 00:00:00": 0.28,
-      "2025-12-31 00:00:00": 1.2,
-      "2026-03-31 00:00:00": 0.3,
-      "2026-06-30 00:00:00": 0.38
+    "revenue_qoq_change": 21.389905542527778,
+    "eps_yoy_change": 11.764705882352944,
+    "eps_qoq_change": 15.151515151515138,
+    "latest_eps": 0.38,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 17.017819422629042,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.29858912450799746,
+    "free_cash_flow_ttm": -44948000.0,
+    "operating_cash_flow_ttm": -42712000.0,
+    "revenue_ttm": 172000000.0,
+    "net_income_ttm": 53108000.0,
+    "ebitda_ttm": null,
+    "total_debt": 444096000.0,
+    "cash": 176825000.0,
+    "total_assets": 4353614000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 35760000.0,
+      "2025-09-30": 40707000.0,
+      "2025-12-31": 30275000.0,
+      "2026-03-31": 45629000.0,
+      "2026-06-30": 55389000.0
     },
-    "eps_qoq_change": 26.66666666666667,
-    "eps_yoy_change": 11.764705882352935,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.34,
+      "2025-09-30": 0.28,
+      "2025-12-31": 1.2,
+      "2026-03-31": 0.33,
+      "2026-06-30": 0.38
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -26.132558139534883,
+    "net_debt": 267271000.0,
+    "debt_to_assets": 10.200628719036645,
+    "ticker": "FRST"
   },
-  "fetched_at": "2026-08-14T13:44:19.262718"
+  "fetched_at": "2026-10-15T10:19:45.913010"
 }

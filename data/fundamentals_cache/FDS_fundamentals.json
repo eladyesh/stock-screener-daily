@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "FDS",
-    "fetch_date": "2026-08-13T13:48:07.250195",
-    "quarterly_revenue": {
-      "2025-05-31 00:00:00": 585520000.0,
-      "2025-08-31 00:00:00": 596901000.0,
-      "2025-11-30 00:00:00": 607621000.0,
-      "2026-02-28 00:00:00": 611019000.0,
-      "2026-05-31 00:00:00": 622918000.0
-    },
-    "revenue_qoq_change": 1.947402617594543,
-    "revenue_yoy_change": 6.387143052329554,
-    "quarterly_eps": {
-      "2025-05-31 00:00:00": 3.87,
-      "2025-08-31 00:00:00": 4.03,
-      "2025-11-30 00:00:00": 4.06,
-      "2026-02-28 00:00:00": 3.59,
-      "2026-05-31 00:00:00": 3.5
-    },
-    "eps_qoq_change": -2.506963788300832,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:18:13.088529+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 6.387143052329547,
+    "revenue_qoq_change": 1.9474026175945403,
     "eps_yoy_change": -9.560723514211888,
-    "gross_margin": 49.88,
-    "margin_change": -1.55,
-    "operating_margin": 26.7,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -2.506963788300831,
+    "latest_eps": 3.5,
+    "gross_margin": 49.882649080617355,
+    "operating_margin": 26.69709335739214,
+    "net_margin": 20.342645420424518,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 708307000.0,
+    "operating_cash_flow_ttm": 829592000.0,
+    "revenue_ttm": 2438459000.0,
+    "net_income_ttm": 565970000.0,
+    "ebitda_ttm": 955994000.0,
+    "total_debt": 1570642000.0,
+    "cash": 304236000.0,
+    "total_assets": 4191997000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-05-31": 585520000.0,
+      "2025-08-31": 596901000.0,
+      "2025-11-30": 607621000.0,
+      "2026-02-28": 611019000.0,
+      "2026-05-31": 622918000.0
+    },
+    "quarterly_eps": {
+      "2025-05-31": 3.87,
+      "2025-08-31": 4.03,
+      "2025-11-30": 4.06,
+      "2026-02-28": 3.59,
+      "2026-05-31": 3.5
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.5522490158411841,
+    "operating_margin_yoy_change": -6.462320496959549,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 29.047320459355685,
+    "net_debt": 1266406000.0,
+    "net_debt_to_ebitda": 1.3247007826408952,
+    "debt_to_assets": 37.46763177549984,
+    "ticker": "FDS"
   },
-  "fetched_at": "2026-08-13T13:48:07.251564"
+  "fetched_at": "2026-10-15T10:18:13.094419"
 }

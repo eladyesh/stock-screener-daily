@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "PJT",
-    "fetch_date": "2026-08-14T14:05:59.604148",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:41:14.245268+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 19.51563590605676,
+    "revenue_qoq_change": 16.28057120448394,
+    "eps_yoy_change": 37.190082644628085,
+    "eps_qoq_change": -24.8868778280543,
+    "latest_eps": 1.66,
+    "gross_margin": 33.043862715663494,
+    "operating_margin": 21.88097637212363,
+    "net_margin": 9.425034444467293,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -34.37074794344541,
+    "free_cash_flow_ttm": 661825000.0,
+    "operating_cash_flow_ttm": 713017000.0,
+    "revenue_ttm": 1886750000.0,
+    "net_income_ttm": 199533000.0,
+    "ebitda_ttm": 448412000.0,
+    "total_debt": 419350000.0,
+    "cash": 235541000.0,
+    "total_assets": 1755811000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 406884000.0,
-      "2025-09-30 00:00:00": 447093000.0,
-      "2025-12-31 00:00:00": 535163000.0,
-      "2026-03-31 00:00:00": 418204000.0,
-      "2026-06-30 00:00:00": 486290000.0
+      "2025-06-30": 406884000.0,
+      "2025-09-30": 447093000.0,
+      "2025-12-31": 535163000.0,
+      "2026-03-31": 418204000.0,
+      "2026-06-30": 486290000.0
     },
-    "revenue_qoq_change": 16.280571204483937,
-    "revenue_yoy_change": 19.515635906056765,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.21,
-      "2025-09-30 00:00:00": 1.47,
-      "2025-12-31 00:00:00": 1.97,
-      "2026-03-31 00:00:00": 2.21,
-      "2026-06-30 00:00:00": 1.66
+      "2025-06-30": 1.21,
+      "2025-09-30": 1.47,
+      "2025-12-31": 1.97,
+      "2026-03-31": 2.21,
+      "2026-06-30": 1.66
     },
-    "eps_qoq_change": -24.886877828054303,
-    "eps_yoy_change": 37.1900826446281,
-    "gross_margin": 33.04,
-    "margin_change": 0.06,
-    "operating_margin": 21.88,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.05900365166601773,
+    "operating_margin_yoy_change": 1.8071961300890464,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.07751424407049,
+    "net_debt": 183809000.0,
+    "net_debt_to_ebitda": 0.40991097472859783,
+    "debt_to_assets": 23.883550108753163,
+    "ticker": "PJT"
   },
-  "fetched_at": "2026-08-14T14:05:59.605479"
+  "fetched_at": "2026-10-15T10:41:14.250268"
 }

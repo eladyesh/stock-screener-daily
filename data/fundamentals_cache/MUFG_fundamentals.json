@@ -1,28 +1,52 @@
 {
   "data": {
-    "ticker": "MUFG",
-    "fetch_date": "2026-08-14T13:59:24.357382",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1610993000000.0,
-      "2025-06-30 00:00:00": 1621260000000.0,
-      "2025-09-30 00:00:00": 1849453000000.0,
-      "2025-12-31 00:00:00": 1899238000000.0,
-      "2026-03-31 00:00:00": 2151174000000.0
-    },
-    "revenue_qoq_change": 13.265109480749649,
-    "revenue_yoy_change": 33.530934026404836,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 41.85,
-      "2025-03-31 00:00:00": 10.05,
-      "2025-06-30 00:00:00": 47.45,
-      "2025-09-30 00:00:00": 65.32,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:34:42.225667+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 27.497440262511862,
+    "revenue_qoq_change": 0.9678837464891954,
+    "eps_yoy_change": 50.874604847207586,
     "eps_qoq_change": null,
-    "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "latest_eps": 71.59,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 39.15827513890468,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.7540143518495865,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 7863006000000.0,
+    "net_income_ttm": 2690588000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 32755141000000.0,
+    "cash": 80634504000000.0,
+    "total_assets": 433913478000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1621260000000.0,
+      "2025-09-30": 1849453000000.0,
+      "2025-12-31": 1899238000000.0,
+      "2026-03-31": 2047250000000.0,
+      "2026-06-30": 2067065000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 10.05,
+      "2025-06-30": 47.45,
+      "2025-09-30": 65.32,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": 71.59
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -47879363000000.0,
+    "debt_to_assets": 7.548772430618069,
+    "ticker": "MUFG"
   },
-  "fetched_at": "2026-08-14T13:59:24.358077"
+  "fetched_at": "2026-10-15T10:34:42.228112"
 }

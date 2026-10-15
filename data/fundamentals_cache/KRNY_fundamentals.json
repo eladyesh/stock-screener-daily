@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "KRNY",
-    "fetch_date": "2026-08-14T13:53:34.257704",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 38604000.0,
-      "2025-06-30 00:00:00": 40834000.0,
-      "2025-09-30 00:00:00": 43551000.0,
-      "2025-12-31 00:00:00": 43540000.0,
-      "2026-03-31 00:00:00": 45330000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.11,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 0.15,
-      "2025-12-31 00:00:00": 0.15,
-      "2026-03-31 00:00:00": 0.16,
-      "2026-06-30 00:00:00": 0.11
-    },
-    "eps_qoq_change": -31.25,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:55.249471+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.884703923201245,
+    "revenue_qoq_change": 0.787557908669756,
     "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -31.25,
+    "latest_eps": 0.11,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 15.698119815264736,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 35274000.0,
+    "operating_cash_flow_ttm": 37735000.0,
+    "revenue_ttm": 178108000.0,
+    "net_income_ttm": 36264000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1150000000.0,
+    "cash": 114823000.0,
+    "total_assets": 7682205000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 40834000.0,
+      "2025-09-30": 43551000.0,
+      "2025-12-31": 43540000.0,
+      "2026-03-31": 45330000.0,
+      "2026-06-30": 45687000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.11,
+      "2025-06-30": null,
+      "2025-09-30": 0.15,
+      "2025-12-31": 0.15,
+      "2026-03-31": 0.16,
+      "2026-06-30": 0.11
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.804837514317157,
+    "net_debt": 1035177000.0,
+    "debt_to_assets": 14.969660403490925,
+    "ticker": "KRNY"
   },
-  "fetched_at": "2026-08-14T13:53:34.258405"
+  "fetched_at": "2026-10-15T10:28:55.253316"
 }

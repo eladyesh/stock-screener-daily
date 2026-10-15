@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "JXN",
-    "fetch_date": "2026-08-13T13:57:54.448274",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": -483000000.0,
-      "2025-09-30 00:00:00": 1349000000.0,
-      "2025-12-31 00:00:00": 1922000000.0,
-      "2026-03-31 00:00:00": 2909000000.0,
-      "2026-06-30 00:00:00": 160000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:27:51.974986+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": null,
     "revenue_qoq_change": -94.49982811962873,
-    "revenue_yoy_change": -133.1262939958592,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.34,
-      "2025-09-30 00:00:00": 0.92,
-      "2025-12-31 00:00:00": -3.13,
-      "2026-03-31 00:00:00": -6.24,
-      "2026-06-30 00:00:00": 9.16
-    },
-    "eps_qoq_change": 246.7948717948718,
     "eps_yoy_change": 291.45299145299145,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 9.16,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 409.375,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.288260059835845,
+    "free_cash_flow_ttm": 5885000000.0,
+    "operating_cash_flow_ttm": 5885000000.0,
+    "revenue_ttm": 6340000000.0,
+    "net_income_ttm": 103000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 5243000000.0,
+    "cash": 58194000000.0,
+    "total_assets": 367065000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": -483000000.0,
+      "2025-09-30": 1349000000.0,
+      "2025-12-31": 1922000000.0,
+      "2026-03-31": 2909000000.0,
+      "2026-06-30": 160000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.34,
+      "2025-09-30": 0.92,
+      "2025-12-31": -3.13,
+      "2026-03-31": -6.24,
+      "2026-06-30": 9.16
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 92.82334384858044,
+    "net_debt": -52951000000.0,
+    "debt_to_assets": 1.4283573753967282,
+    "ticker": "JXN"
   },
-  "fetched_at": "2026-08-13T13:57:54.448940"
+  "fetched_at": "2026-10-15T10:27:51.978795"
 }

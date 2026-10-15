@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "EXPD",
-    "fetch_date": "2026-08-14T13:42:04.005886",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:17:33.119309+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 32.06964102892849,
+    "revenue_qoq_change": 25.849185148773145,
+    "eps_yoy_change": 51.49253731343282,
+    "eps_qoq_change": 18.71345029239766,
+    "latest_eps": 2.03,
+    "gross_margin": 12.296767727815872,
+    "operating_margin": 9.982426010076136,
+    "net_margin": 7.6013859325278705,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.8490532895170237,
+    "free_cash_flow_ttm": 923864000.0,
+    "operating_cash_flow_ttm": 972541000.0,
+    "revenue_ttm": 12036002000.0,
+    "net_income_ttm": 918799000.0,
+    "ebitda_ttm": 1238286000.0,
+    "total_debt": 567285000.0,
+    "cash": 1031448000.0,
+    "total_assets": 5134910000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 2651885000.0,
-      "2025-09-30 00:00:00": 2894751000.0,
-      "2025-12-31 00:00:00": 2855954000.0,
-      "2026-03-31 00:00:00": 2782962000.0,
-      "2026-06-30 00:00:00": 3502335000.0
+      "2025-06-30": 2651885000.0,
+      "2025-09-30": 2894751000.0,
+      "2025-12-31": 2855954000.0,
+      "2026-03-31": 2782962000.0,
+      "2026-06-30": 3502335000.0
     },
-    "revenue_qoq_change": 25.84918514877314,
-    "revenue_yoy_change": 32.06964102892848,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.34,
-      "2025-09-30 00:00:00": 1.64,
-      "2025-12-31 00:00:00": 1.49,
-      "2026-03-31 00:00:00": 1.71,
-      "2026-06-30 00:00:00": 2.03
+      "2025-06-30": 1.34,
+      "2025-09-30": 1.64,
+      "2025-12-31": 1.49,
+      "2026-03-31": 1.71,
+      "2026-06-30": 2.03
     },
-    "eps_qoq_change": 18.713450292397653,
-    "eps_yoy_change": 51.492537313432805,
-    "gross_margin": 12.3,
-    "margin_change": -1.71,
-    "operating_margin": 9.98,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -1.713808054390281,
+    "operating_margin_yoy_change": 0.6405427836164659,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.6758378737391375,
+    "net_debt": -464163000.0,
+    "net_debt_to_ebitda": -0.37484312993928703,
+    "debt_to_assets": 11.04761329799354,
+    "ticker": "EXPD"
   },
-  "fetched_at": "2026-08-14T13:42:04.007302"
+  "fetched_at": "2026-10-15T10:17:33.124177"
 }

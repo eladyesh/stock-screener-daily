@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "LOPE",
-    "fetch_date": "2026-08-04T15:06:08.467167",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 247499000.0,
-      "2025-09-30 00:00:00": 261142000.0,
-      "2025-12-31 00:00:00": 308119000.0,
-      "2026-03-31 00:00:00": 308760000.0,
-      "2026-06-30 00:00:00": 264045000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:30:52.111888+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.685279536482969,
     "revenue_qoq_change": -14.48212203653323,
-    "revenue_yoy_change": 6.685279536482976,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.48,
-      "2025-09-30 00:00:00": 0.58,
-      "2025-12-31 00:00:00": 3.14,
-      "2026-03-31 00:00:00": 2.8,
-      "2026-06-30 00:00:00": 1.75
-    },
-    "eps_qoq_change": -37.49999999999999,
     "eps_yoy_change": 18.243243243243246,
-    "gross_margin": 49.36,
-    "margin_change": -6.31,
-    "operating_margin": 22.02,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -37.5,
+    "latest_eps": 1.75,
+    "gross_margin": 49.3582533280312,
+    "operating_margin": 22.023139995076598,
+    "net_margin": 17.36522183718684,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.799601905168129,
+    "free_cash_flow_ttm": 242486000.0,
+    "operating_cash_flow_ttm": 278707000.0,
+    "revenue_ttm": 1142066000.0,
+    "net_income_ttm": 224206000.0,
+    "ebitda_ttm": 358792000.0,
+    "total_debt": 104212000.0,
+    "cash": 274526000.0,
+    "total_assets": 919179000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 247499000.0,
+      "2025-09-30": 261142000.0,
+      "2025-12-31": 308119000.0,
+      "2026-03-31": 308760000.0,
+      "2026-06-30": 264045000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.48,
+      "2025-09-30": 0.58,
+      "2025-12-31": 3.14,
+      "2026-03-31": 2.8,
+      "2026-06-30": 1.75
+    },
+    "quarterly_inventory": {},
+    "margin_change": -6.30731215972628,
+    "operating_margin_yoy_change": 1.0982069650441524,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.232223006376163,
+    "net_debt": -170314000.0,
+    "net_debt_to_ebitda": -0.47468728399741356,
+    "debt_to_assets": 11.337508798612674,
+    "ticker": "LOPE"
   },
-  "fetched_at": "2026-08-04T15:06:08.468415"
+  "fetched_at": "2026-10-15T10:30:52.116811"
 }

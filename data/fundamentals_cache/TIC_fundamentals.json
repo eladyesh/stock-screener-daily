@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "TIC",
-    "fetch_date": "2026-08-14T14:17:02.678289",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 313925000.0,
-      "2025-09-30 00:00:00": 473888000.0,
-      "2025-12-31 00:00:00": 508268000.0,
-      "2026-03-31 00:00:00": 488029000.0,
-      "2026-06-30 00:00:00": 584347000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:52:14.557157+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 86.14223142470337,
     "revenue_qoq_change": 19.736122238637456,
-    "revenue_yoy_change": 86.14223142470335,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": -0.08,
-      "2025-12-31 00:00:00": -0.25,
-      "2026-03-31 00:00:00": -0.19,
-      "2026-06-30 00:00:00": -0.06
-    },
-    "eps_qoq_change": 68.42105263157895,
     "eps_yoy_change": null,
-    "gross_margin": 34.94,
-    "margin_change": 1.89,
-    "operating_margin": 1.86,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.06,
+    "gross_margin": 34.937802367428944,
+    "operating_margin": 1.8554044086818278,
+    "net_margin": -2.2832323944505575,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 78.17073135383879,
+    "free_cash_flow_ttm": 22226000.0,
+    "operating_cash_flow_ttm": 68871000.0,
+    "revenue_ttm": 2054532000.0,
+    "net_income_ttm": -115981000.0,
+    "ebitda_ttm": 200941000.0,
+    "total_debt": 1703016000.0,
+    "cash": 362420000.0,
+    "total_assets": 4292521000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 313925000.0,
+      "2025-09-30": 473888000.0,
+      "2025-12-31": 508268000.0,
+      "2026-03-31": 488029000.0,
+      "2026-06-30": 584347000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": -0.08,
+      "2025-12-31": -0.25,
+      "2026-03-31": -0.19,
+      "2026-06-30": -0.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.8862828880537421,
+    "operating_margin_yoy_change": -3.9899408170886588,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 1.0818035445541856,
+    "net_debt": 1340596000.0,
+    "net_debt_to_ebitda": 6.671590168258344,
+    "debt_to_assets": 39.674028385650296,
+    "ticker": "TIC"
   },
-  "fetched_at": "2026-08-14T14:17:02.679607"
+  "fetched_at": "2026-10-15T10:52:14.562008"
 }

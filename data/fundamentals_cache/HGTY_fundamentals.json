@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "HGTY",
-    "fetch_date": "2026-08-13T13:53:32.418717",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 379309000.0,
-      "2025-09-30 00:00:00": 379994000.0,
-      "2025-12-31 00:00:00": 388103000.0,
-      "2026-03-31 00:00:00": 311830000.0,
-      "2026-06-30 00:00:00": 354822000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:23:29.957697+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -6.455686524706772,
     "revenue_qoq_change": 13.786999326556138,
-    "revenue_yoy_change": -6.455686524706769,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.07,
-      "2025-06-30 00:00:00": 0.09,
-      "2025-09-30 00:00:00": 0.11,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.06,
-      "2026-06-30 00:00:00": -0.02
-    },
-    "eps_qoq_change": 66.66666666666666,
     "eps_yoy_change": -122.22222222222223,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.02,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 0.07891280698491074,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 12.237315045535734,
+    "free_cash_flow_ttm": 278489000.0,
+    "operating_cash_flow_ttm": 307429000.0,
+    "revenue_ttm": 1434749000.0,
+    "net_income_ttm": 25463000.0,
+    "ebitda_ttm": null,
+    "total_debt": 215951000.0,
+    "cash": 603486000.0,
+    "total_assets": 2148431000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 379309000.0,
+      "2025-09-30": 379994000.0,
+      "2025-12-31": 388103000.0,
+      "2026-03-31": 311830000.0,
+      "2026-06-30": 354822000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.07,
+      "2025-06-30": 0.09,
+      "2025-09-30": 0.11,
+      "2025-12-31": null,
+      "2026-03-31": -0.06,
+      "2026-06-30": -0.02
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.410294065373108,
+    "net_debt": -387535000.0,
+    "debt_to_assets": 10.051567865107142,
+    "ticker": "HGTY"
   },
-  "fetched_at": "2026-08-13T13:53:32.419350"
+  "fetched_at": "2026-10-15T10:23:29.961560"
 }

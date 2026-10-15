@@ -1,28 +1,52 @@
 {
   "data": {
-    "ticker": "IBN",
-    "fetch_date": "2026-08-13T13:55:14.307429",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:14.260510+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.727747903119053,
+    "revenue_qoq_change": 7.339754476063964,
+    "eps_yoy_change": 13.789417423837502,
+    "eps_qoq_change": 4.567779960707274,
+    "latest_eps": 42.58,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 40.24439512961304,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.08391681198927081,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 1440055500000.0,
+    "net_income_ttm": 560901600000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2263177200000.0,
+    "cash": 1964932800000.0,
+    "total_assets": 30024068900000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 356136100000.0,
-      "2025-09-30 00:00:00": 346048700000.0,
-      "2025-12-31 00:00:00": 352926000000.0,
-      "2026-03-31 00:00:00": 357423400000.0,
-      "2026-06-30 00:00:00": 383657400000.0
+      "2025-03-31": null,
+      "2025-06-30": 356136100000.0,
+      "2025-09-30": 346048700000.0,
+      "2025-12-31": 352926000000.0,
+      "2026-03-31": 357423400000.0,
+      "2026-06-30": 383657400000.0
     },
-    "revenue_qoq_change": 7.339754476063962,
-    "revenue_yoy_change": 7.72774790311906,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 37.42,
-      "2025-09-30 00:00:00": 36.84,
-      "2025-12-31 00:00:00": 34.58,
-      "2026-03-31 00:00:00": 40.72,
-      "2026-06-30 00:00:00": 42.58
+      "2025-03-31": null,
+      "2025-06-30": 37.42,
+      "2025-09-30": 36.84,
+      "2025-12-31": 34.58,
+      "2026-03-31": 40.72,
+      "2026-06-30": 42.58
     },
-    "eps_qoq_change": 4.567779960707268,
-    "eps_yoy_change": 13.789417423837511,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 298244400000.0,
+    "debt_to_assets": 7.5378763869010434,
+    "ticker": "IBN"
   },
-  "fetched_at": "2026-08-13T13:55:14.308201"
+  "fetched_at": "2026-10-15T10:25:14.262754"
 }

@@ -1,33 +1,51 @@
 {
   "data": {
-    "ticker": "NYT",
-    "fetch_date": "2026-08-06T15:09:11.768907",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 635910000.0,
-      "2025-06-30 00:00:00": 685873000.0,
-      "2025-09-30 00:00:00": 700821000.0,
-      "2025-12-31 00:00:00": 802314000.0,
-      "2026-03-31 00:00:00": 712236000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.5,
-      "2025-09-30 00:00:00": 0.5,
-      "2025-12-31 00:00:00": 0.79,
-      "2026-03-31 00:00:00": 0.54,
-      "2026-06-30 00:00:00": 0.57
-    },
-    "eps_qoq_change": 5.555555555555539,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:37:43.295874+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.165623956621706,
+    "revenue_qoq_change": 7.050893243250833,
     "eps_yoy_change": 13.99999999999999,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 5.555555555555536,
+    "latest_eps": 0.57,
+    "gross_margin": 51.75571017305939,
+    "operating_margin": 16.085670629742083,
+    "net_margin": 12.25226406804336,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.7934479695277052,
+    "free_cash_flow_ttm": 623018000.0,
+    "operating_cash_flow_ttm": 658263000.0,
+    "revenue_ttm": 2977826000.0,
+    "net_income_ttm": 392825000.0,
+    "ebitda_ttm": 588484000.0,
+    "total_debt": null,
+    "cash": 660812000.0,
+    "total_assets": 2984530000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 685873000.0,
+      "2025-09-30": 700821000.0,
+      "2025-12-31": 802314000.0,
+      "2026-03-31": 712236000.0,
+      "2026-06-30": 762455000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.5,
+      "2025-09-30": 0.5,
+      "2025-12-31": 0.79,
+      "2026-03-31": 0.54,
+      "2026-06-30": 0.57
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.7129771463659935,
+    "operating_margin_yoy_change": 0.0417382982463117,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.921907458662798,
+    "ticker": "NYT"
   },
-  "fetched_at": "2026-08-06T15:09:11.769831"
+  "fetched_at": "2026-10-15T10:37:43.300827"
 }

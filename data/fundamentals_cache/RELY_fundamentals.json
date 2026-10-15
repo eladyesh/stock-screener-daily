@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "RELY",
-    "fetch_date": "2026-08-14T14:09:13.534373",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 411852000.0,
-      "2025-09-30 00:00:00": 419494000.0,
-      "2025-12-31 00:00:00": 442177000.0,
-      "2026-03-31 00:00:00": 452802000.0,
-      "2026-06-30 00:00:00": 495156000.0
-    },
-    "revenue_qoq_change": 9.353757271390144,
-    "revenue_yoy_change": 20.22668337169663,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.03,
-      "2025-09-30 00:00:00": 0.04,
-      "2025-12-31 00:00:00": 0.19,
-      "2026-03-31 00:00:00": 0.23,
-      "2026-06-30 00:00:00": 0.93
-    },
-    "eps_qoq_change": 304.34782608695656,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:44:25.226267+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 20.22668337169662,
+    "revenue_qoq_change": 9.35375727139014,
     "eps_yoy_change": 3000.0000000000005,
-    "gross_margin": 62.07,
-    "margin_change": 0.0,
-    "operating_margin": 13.47,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 304.34782608695656,
+    "latest_eps": 0.93,
+    "gross_margin": 62.06993351590205,
+    "operating_margin": 13.466665051014227,
+    "net_margin": 41.58447034873858,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.9457571080199845,
+    "free_cash_flow_ttm": 375096000.0,
+    "operating_cash_flow_ttm": 406122000.0,
+    "revenue_ttm": 1809629000.0,
+    "net_income_ttm": 305006000.0,
+    "ebitda_ttm": 229251000.0,
+    "total_debt": 38264000.0,
+    "cash": 676394000.0,
+    "total_assets": 1567455000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 411852000.0,
+      "2025-09-30": 419494000.0,
+      "2025-12-31": 442177000.0,
+      "2026-03-31": 452802000.0,
+      "2026-06-30": 495156000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.03,
+      "2025-09-30": 0.04,
+      "2025-12-31": 0.19,
+      "2026-03-31": 0.23,
+      "2026-06-30": 0.93
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.0006405357473724393,
+    "operating_margin_yoy_change": 9.91126165367732,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.72778453484112,
+    "net_debt": -638130000.0,
+    "net_debt_to_ebitda": -2.783542928929427,
+    "debt_to_assets": 2.441154610499185,
+    "ticker": "RELY"
   },
-  "fetched_at": "2026-08-14T14:09:13.535707"
+  "fetched_at": "2026-10-15T10:44:25.231193"
 }

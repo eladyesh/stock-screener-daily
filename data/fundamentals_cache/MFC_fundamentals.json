@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "MFC",
-    "fetch_date": "2026-08-14T13:57:29.381468",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 41125000000.0,
-      "2025-09-30 00:00:00": 17309000000.0,
-      "2025-12-31 00:00:00": 8604000000.0,
-      "2026-03-31 00:00:00": 11861000000.0,
-      "2026-06-30 00:00:00": 19707000000.0
-    },
-    "revenue_qoq_change": 66.14956580389511,
-    "revenue_yoy_change": -52.08024316109422,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.25,
-      "2025-06-30 00:00:00": 0.98,
-      "2025-09-30 00:00:00": 1.02,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.65,
-      "2026-06-30 00:00:00": 1.2
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:47.169580+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -52.08024316109423,
+    "revenue_qoq_change": 66.14956580389513,
+    "eps_yoy_change": 22.44897959183674,
     "eps_qoq_change": 84.6153846153846,
-    "eps_yoy_change": 22.448979591836732,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.2,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 11.06713350586086,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.6239067055393583,
+    "free_cash_flow_ttm": 30952000000.0,
+    "operating_cash_flow_ttm": 30952000000.0,
+    "revenue_ttm": 57481000000.0,
+    "net_income_ttm": 6725000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 14127000000.0,
+    "cash": 27540000000.0,
+    "total_assets": 1093994000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 41125000000.0,
+      "2025-09-30": 17309000000.0,
+      "2025-12-31": 8604000000.0,
+      "2026-03-31": 11861000000.0,
+      "2026-06-30": 19707000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.25,
+      "2025-06-30": 0.98,
+      "2025-09-30": 1.02,
+      "2025-12-31": null,
+      "2026-03-31": 0.65,
+      "2026-06-30": 1.2
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 53.84735825751118,
+    "net_debt": -13413000000.0,
+    "debt_to_assets": 1.2913233527789,
+    "ticker": "MFC"
   },
-  "fetched_at": "2026-08-14T13:57:29.382126"
+  "fetched_at": "2026-10-15T10:32:47.173441"
 }

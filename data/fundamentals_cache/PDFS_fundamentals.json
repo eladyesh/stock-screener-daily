@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PDFS",
-    "fetch_date": "2026-08-14T14:05:13.559514",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 51728000.0,
-      "2025-09-30 00:00:00": 57115000.0,
-      "2025-12-31 00:00:00": 62403000.0,
-      "2026-03-31 00:00:00": 60130000.0,
-      "2026-06-30 00:00:00": 61529000.0
-    },
-    "revenue_qoq_change": 2.326625644437053,
-    "revenue_yoy_change": 18.947185276832663,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.03,
-      "2025-09-30 00:00:00": 0.03,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.12,
-      "2026-06-30 00:00:00": 0.1
-    },
-    "eps_qoq_change": -16.66666666666666,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:29.190885+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.947185276832656,
+    "revenue_qoq_change": 2.3266256444370637,
     "eps_yoy_change": 233.33333333333334,
-    "gross_margin": 68.95,
-    "margin_change": -2.88,
-    "operating_margin": 8.23,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -16.666666666666664,
+    "latest_eps": 0.1,
+    "gross_margin": 68.94635050138959,
+    "operating_margin": 8.230265403305758,
+    "net_margin": 6.941442246745437,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 6.408558329088132,
+    "free_cash_flow_ttm": -1995000.0,
+    "operating_cash_flow_ttm": 38703000.0,
+    "revenue_ttm": 241177000.0,
+    "net_income_ttm": 10308000.0,
+    "ebitda_ttm": 35706000.0,
+    "total_debt": 71555000.0,
+    "cash": 114883000.0,
+    "total_assets": 519179000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 51728000.0,
+      "2025-09-30": 57115000.0,
+      "2025-12-31": 62403000.0,
+      "2026-03-31": 60130000.0,
+      "2026-06-30": 61529000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.03,
+      "2025-09-30": 0.03,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.12,
+      "2026-06-30": 0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.8846822609586553,
+    "operating_margin_yoy_change": 6.070893303089241,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -0.8271933061610353,
+    "net_debt": -43328000.0,
+    "net_debt_to_ebitda": -1.2134655240015684,
+    "debt_to_assets": 13.782337113018825,
+    "ticker": "PDFS"
   },
-  "fetched_at": "2026-08-14T14:05:13.560856"
+  "fetched_at": "2026-10-15T10:40:29.195714"
 }

@@ -1,42 +1,59 @@
 {
   "data": {
-    "ticker": "MCS",
-    "fetch_date": "2026-08-14T13:57:04.364491",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 206043000.0,
-      "2025-09-30 00:00:00": 210151000.0,
-      "2025-12-31 00:00:00": 193498000.0,
-      "2026-03-31 00:00:00": 154404000.0,
-      "2026-06-30 00:00:00": 231744000.0
-    },
-    "revenue_qoq_change": 50.08937592290356,
-    "revenue_yoy_change": 12.473609877549832,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.23,
-      "2025-09-30 00:00:00": 0.52,
-      "2025-12-31 00:00:00": 0.19,
-      "2026-03-31 00:00:00": -0.51,
-      "2026-06-30 00:00:00": 0.51
-    },
-    "eps_qoq_change": 200.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:22.255282+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.47360987754984,
+    "revenue_qoq_change": 50.08937592290354,
     "eps_yoy_change": 121.73913043478262,
-    "gross_margin": 41.22,
-    "margin_change": 8.36,
-    "operating_margin": 11.73,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 6971000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 7028000.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "eps_qoq_change": null,
+    "latest_eps": 0.51,
+    "gross_margin": 41.21919014084507,
+    "operating_margin": 11.728458989229495,
+    "net_margin": 6.836854460093897,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": -1.2153606312239496,
+    "free_cash_flow_ttm": 66686000.0,
+    "operating_cash_flow_ttm": 126631000.0,
+    "revenue_ttm": 789797000.0,
+    "net_income_ttm": 22677000.0,
+    "ebitda_ttm": 104781000.0,
+    "total_debt": 319981000.0,
+    "cash": 26345000.0,
+    "total_assets": 999549000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 206043000.0,
+      "2025-09-30": 210151000.0,
+      "2025-12-31": 193498000.0,
+      "2026-03-31": 154404000.0,
+      "2026-06-30": 231744000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.23,
+      "2025-09-30": 0.52,
+      "2025-12-31": 0.19,
+      "2026-03-31": -0.51,
+      "2026-06-30": 0.51
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 7028000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 8.361880744715435,
+    "operating_margin_yoy_change": 5.3278532904190525,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 8.443435465062542,
+    "net_debt": 293636000.0,
+    "net_debt_to_ebitda": 2.802378293774635,
+    "debt_to_assets": 32.01253765448217,
+    "ticker": "MCS"
   },
-  "fetched_at": "2026-08-14T13:57:04.366199"
+  "fetched_at": "2026-10-15T10:32:22.260179"
 }

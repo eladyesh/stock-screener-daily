@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "VNOM",
-    "fetch_date": "2026-08-14T14:21:14.744657",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 297000000.0,
-      "2025-09-30 00:00:00": 418000000.0,
-      "2025-12-31 00:00:00": 434000000.0,
-      "2026-03-31 00:00:00": 511000000.0,
-      "2026-06-30 00:00:00": 673000000.0
-    },
-    "revenue_qoq_change": 31.702544031311152,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:27.773563+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 126.5993265993266,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.28,
-      "2025-09-30 00:00:00": -0.52,
-      "2025-12-31 00:00:00": -0.61,
-      "2026-03-31 00:00:00": 0.53,
-      "2026-06-30 00:00:00": 0.73
-    },
-    "eps_qoq_change": 37.73584905660377,
+    "revenue_qoq_change": 31.702544031311163,
     "eps_yoy_change": 160.71428571428567,
-    "gross_margin": 64.64,
-    "margin_change": 11.8,
-    "operating_margin": 63.6,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 37.73584905660377,
+    "latest_eps": 0.73,
+    "gross_margin": 64.63595839524517,
+    "operating_margin": 63.59583952451708,
+    "net_margin": 21.099554234769688,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 47.711885083412106,
+    "free_cash_flow_ttm": 198000000.0,
+    "operating_cash_flow_ttm": 1495000000.0,
+    "revenue_ttm": 2036000000.0,
+    "net_income_ttm": 59000000.0,
+    "ebitda_ttm": 1099000000.0,
+    "total_debt": 1678000000.0,
+    "cash": 77000000.0,
+    "total_assets": 12055000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 297000000.0,
+      "2025-09-30": 418000000.0,
+      "2025-12-31": 434000000.0,
+      "2026-03-31": 511000000.0,
+      "2026-06-30": 673000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.28,
+      "2025-09-30": -0.52,
+      "2025-12-31": -0.61,
+      "2026-03-31": 0.53,
+      "2026-06-30": 0.73
+    },
+    "quarterly_inventory": {},
+    "margin_change": 11.79838500972658,
+    "operating_margin_yoy_change": 18.14129406997163,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 9.724950884086445,
+    "net_debt": 1601000000.0,
+    "net_debt_to_ebitda": 1.456778889899909,
+    "debt_to_assets": 13.919535462463708,
+    "ticker": "VNOM"
   },
-  "fetched_at": "2026-08-14T14:21:14.745990"
+  "fetched_at": "2026-10-15T10:56:27.778495"
 }

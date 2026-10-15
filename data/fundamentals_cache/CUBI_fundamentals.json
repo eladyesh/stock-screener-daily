@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "CUBI",
-    "fetch_date": "2026-08-13T13:42:10.129380",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 202256000.0,
-      "2025-09-30 00:00:00": 227936000.0,
-      "2025-12-31 00:00:00": 232894000.0,
-      "2026-03-31 00:00:00": 221808000.0,
-      "2026-06-30 00:00:00": 223699000.0
-    },
-    "revenue_qoq_change": 0.8525391329438072,
-    "revenue_yoy_change": 10.601910450122617,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.73,
-      "2025-09-30 00:00:00": 2.2,
-      "2025-12-31 00:00:00": 1.98,
-      "2026-03-31 00:00:00": 1.97,
-      "2026-06-30 00:00:00": 2.05
-    },
-    "eps_qoq_change": 4.060913705583748,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:12:18.081609+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.60191045012262,
+    "revenue_qoq_change": 0.8525391329438081,
     "eps_yoy_change": 18.497109826589586,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 4.060913705583746,
+    "latest_eps": 2.05,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.989414346957297,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 7.82005692767429,
+    "free_cash_flow_ttm": 229048000.0,
+    "operating_cash_flow_ttm": 380858000.0,
+    "revenue_ttm": 906337000.0,
+    "net_income_ttm": 291450000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2330182000.0,
+    "cash": 4178852000.0,
+    "total_assets": 26520789000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 202256000.0,
+      "2025-09-30": 227936000.0,
+      "2025-12-31": 232894000.0,
+      "2026-03-31": 221808000.0,
+      "2026-06-30": 223699000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.73,
+      "2025-09-30": 2.2,
+      "2025-12-31": 1.98,
+      "2026-03-31": 1.97,
+      "2026-06-30": 2.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.271835972712136,
+    "net_debt": -1848670000.0,
+    "debt_to_assets": 8.786246894841627,
+    "ticker": "CUBI"
   },
-  "fetched_at": "2026-08-13T13:42:10.130049"
+  "fetched_at": "2026-10-15T10:12:18.085424"
 }

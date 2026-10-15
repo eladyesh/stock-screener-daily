@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "ASB",
-    "fetch_date": "2026-08-13T13:31:51.315843",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 364273000.0,
-      "2025-09-30 00:00:00": 384849000.0,
-      "2025-12-31 00:00:00": 388035000.0,
-      "2026-03-31 00:00:00": 381340000.0,
-      "2026-06-30 00:00:00": 448885000.0
-    },
-    "revenue_qoq_change": 17.712539990559605,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:02:00.962814+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 23.227634219390403,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.65,
-      "2025-09-30 00:00:00": 0.73,
-      "2025-12-31 00:00:00": 0.8,
-      "2026-03-31 00:00:00": 0.7,
-      "2026-06-30 00:00:00": 0.63
+    "revenue_qoq_change": 17.712539990559595,
+    "eps_yoy_change": -3.076923076923077,
+    "eps_qoq_change": -9.999999999999998,
+    "latest_eps": 0.63,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 27.526872138743773,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 14.161100857865971,
+    "free_cash_flow_ttm": 679641000.0,
+    "operating_cash_flow_ttm": 719015000.0,
+    "revenue_ttm": 1603109000.0,
+    "net_income_ttm": 505060000.0,
+    "ebitda_ttm": null,
+    "total_debt": 5165761000.0,
+    "cash": 1816436000.0,
+    "total_assets": 51812506000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 364273000.0,
+      "2025-09-30": 384849000.0,
+      "2025-12-31": 388035000.0,
+      "2026-03-31": 381340000.0,
+      "2026-06-30": 448885000.0
     },
-    "eps_qoq_change": -9.999999999999993,
-    "eps_yoy_change": -3.0769230769230793,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.65,
+      "2025-09-30": 0.73,
+      "2025-12-31": 0.8,
+      "2026-03-31": 0.7,
+      "2026-06-30": 0.63
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 42.395183359334894,
+    "net_debt": 3349325000.0,
+    "debt_to_assets": 9.970104514921552,
+    "ticker": "ASB"
   },
-  "fetched_at": "2026-08-13T13:31:51.316527"
+  "fetched_at": "2026-10-15T10:02:00.966564"
 }

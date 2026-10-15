@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "AFL",
-    "fetch_date": "2026-08-14T13:23:08.980906",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:58:48.855772+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -0.5689900426742556,
+    "revenue_qoq_change": -4.854809437386565,
+    "eps_yoy_change": 46.84684684684684,
+    "eps_qoq_change": -17.67676767676768,
+    "latest_eps": 1.63,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 19.670958512160226,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.100571110182473,
+    "free_cash_flow_ttm": 2647000000.0,
+    "operating_cash_flow_ttm": 2647000000.0,
+    "revenue_ttm": 18286000000.0,
+    "net_income_ttm": 4862000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 8729000000.0,
+    "cash": 71785000000.0,
+    "total_assets": 115961000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 4218000000.0,
-      "2025-09-30 00:00:00": 4793000000.0,
-      "2025-12-31 00:00:00": 4891000000.0,
-      "2026-03-31 00:00:00": 4408000000.0,
-      "2026-06-30 00:00:00": 4194000000.0
+      "2025-06-30": 4218000000.0,
+      "2025-09-30": 4793000000.0,
+      "2025-12-31": 4891000000.0,
+      "2026-03-31": 4408000000.0,
+      "2026-06-30": 4194000000.0
     },
-    "revenue_qoq_change": -4.854809437386569,
-    "revenue_yoy_change": -0.5689900426742532,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.11,
-      "2025-09-30 00:00:00": 3.08,
-      "2025-12-31 00:00:00": 2.64,
-      "2026-03-31 00:00:00": 1.98,
-      "2026-06-30 00:00:00": 1.63
+      "2025-06-30": 1.11,
+      "2025-09-30": 3.08,
+      "2025-12-31": 2.64,
+      "2026-03-31": 1.98,
+      "2026-06-30": 1.63
     },
-    "eps_qoq_change": -17.676767676767682,
-    "eps_yoy_change": 46.84684684684682,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 14.475555069452039,
+    "net_debt": -63056000000.0,
+    "debt_to_assets": 7.527530807771578,
+    "ticker": "AFL"
   },
-  "fetched_at": "2026-08-14T13:23:08.981614"
+  "fetched_at": "2026-10-15T09:58:48.859544"
 }

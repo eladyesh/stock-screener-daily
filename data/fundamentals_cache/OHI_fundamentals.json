@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "OHI",
-    "fetch_date": "2026-08-14T14:02:59.557658",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 282506000.0,
-      "2025-09-30 00:00:00": 311591000.0,
-      "2025-12-31 00:00:00": 319217000.0,
-      "2026-03-31 00:00:00": 322955000.0,
-      "2026-06-30 00:00:00": 328246000.0
-    },
-    "revenue_qoq_change": 1.6383087427040917,
-    "revenue_yoy_change": 16.19080656694017,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.46,
-      "2025-09-30 00:00:00": 0.59,
-      "2025-12-31 00:00:00": 0.55,
-      "2026-03-31 00:00:00": 0.47,
-      "2026-06-30 00:00:00": 1.19
-    },
-    "eps_qoq_change": 153.19148936170214,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:38:13.299846+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.190806566940164,
+    "revenue_qoq_change": 1.6383087427040977,
     "eps_yoy_change": 158.69565217391303,
-    "gross_margin": 95.07,
-    "margin_change": -2.14,
-    "operating_margin": 58.87,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 153.19148936170214,
+    "latest_eps": 1.19,
+    "gross_margin": 95.06559105061447,
+    "operating_margin": 58.867130140199734,
+    "net_margin": 110.53386789176409,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.288267611114405,
+    "free_cash_flow_ttm": 890558000.0,
+    "operating_cash_flow_ttm": 890558000.0,
+    "revenue_ttm": 1282009000.0,
+    "net_income_ttm": 858426000.0,
+    "ebitda_ttm": 1440895000.0,
+    "total_debt": 4024608000.0,
+    "cash": 39036000.0,
+    "total_assets": 10014761000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 282506000.0,
+      "2025-09-30": 311591000.0,
+      "2025-12-31": 319217000.0,
+      "2026-03-31": 322955000.0,
+      "2026-06-30": 328246000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.46,
+      "2025-09-30": 0.59,
+      "2025-12-31": 0.55,
+      "2026-03-31": 0.47,
+      "2026-06-30": 1.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.1445465846597926,
+    "operating_margin_yoy_change": -4.734704865074484,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 69.46581498257812,
+    "net_debt": 3985572000.0,
+    "net_debt_to_ebitda": 2.7660391631590087,
+    "debt_to_assets": 40.18676032308709,
+    "ticker": "OHI"
   },
-  "fetched_at": "2026-08-14T14:02:59.558983"
+  "fetched_at": "2026-10-15T10:38:13.304811"
 }

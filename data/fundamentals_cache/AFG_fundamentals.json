@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "AFG",
-    "fetch_date": "2026-08-14T13:23:03.005175",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1930000000.0,
-      "2025-09-30 00:00:00": 2304000000.0,
-      "2025-12-31 00:00:00": 2041000000.0,
-      "2026-03-31 00:00:00": 1836000000.0,
-      "2026-06-30 00:00:00": 1992000000.0
-    },
-    "revenue_qoq_change": 8.49673202614379,
-    "revenue_yoy_change": 3.2124352331606216,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.07,
-      "2025-09-30 00:00:00": 2.577893,
-      "2025-12-31 00:00:00": 3.58,
-      "2026-03-31 00:00:00": 2.29,
-      "2026-06-30 00:00:00": 2.99
-    },
-    "eps_qoq_change": 30.567685589519655,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:58:42.868816+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.2124352331606154,
+    "revenue_qoq_change": 8.496732026143782,
     "eps_yoy_change": 44.444444444444464,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 30.567685589519655,
+    "latest_eps": 2.99,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 12.449799196787147,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.5988023952095856,
+    "free_cash_flow_ttm": 1566000000.0,
+    "operating_cash_flow_ttm": 1566000000.0,
+    "revenue_ttm": 8173000000.0,
+    "net_income_ttm": 953000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1821000000.0,
+    "cash": 2204000000.0,
+    "total_assets": 33034000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1930000000.0,
+      "2025-09-30": 2304000000.0,
+      "2025-12-31": 2041000000.0,
+      "2026-03-31": 1836000000.0,
+      "2026-06-30": 1992000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.07,
+      "2025-09-30": 2.577893,
+      "2025-12-31": 3.58,
+      "2026-03-31": 2.29,
+      "2026-06-30": 2.99
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.1606509237734,
+    "net_debt": -383000000.0,
+    "debt_to_assets": 5.512502270388085,
+    "ticker": "AFG"
   },
-  "fetched_at": "2026-08-14T13:23:03.005867"
+  "fetched_at": "2026-10-15T09:58:42.872659"
 }

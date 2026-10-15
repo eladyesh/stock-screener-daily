@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "DUOL",
-    "fetch_date": "2026-08-13T13:44:46.920004",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 252265000.0,
-      "2025-09-30 00:00:00": 271713000.0,
-      "2025-12-31 00:00:00": 282868000.0,
-      "2026-03-31 00:00:00": 291967000.0,
-      "2026-06-30 00:00:00": 298454000.0
-    },
-    "revenue_qoq_change": 2.221826439289372,
-    "revenue_yoy_change": 18.30971399123937,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.91,
-      "2025-09-30 00:00:00": 5.95,
-      "2025-12-31 00:00:00": 0.89976,
-      "2026-03-31 00:00:00": 0.89,
-      "2026-06-30 00:00:00": 0.66
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:14:49.942488+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.309713991239374,
+    "revenue_qoq_change": 2.221826439289365,
+    "eps_yoy_change": -27.472527472527474,
     "eps_qoq_change": -25.842696629213478,
-    "eps_yoy_change": -27.47252747252747,
-    "gross_margin": 72.62,
-    "margin_change": -0.37,
-    "operating_margin": 11.37,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.66,
+    "gross_margin": 72.62090640433702,
+    "operating_margin": 11.373612013911693,
+    "net_margin": 11.109919786633785,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.0920672653403694,
+    "free_cash_flow_ttm": 397504000.0,
+    "operating_cash_flow_ttm": 430548000.0,
+    "revenue_ttm": 1145002000.0,
+    "net_income_ttm": 410767000.0,
+    "ebitda_ttm": 172884000.0,
+    "total_debt": 86136000.0,
+    "cash": 1313866000.0,
+    "total_assets": 2073953000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 252265000.0,
+      "2025-09-30": 271713000.0,
+      "2025-12-31": 282868000.0,
+      "2026-03-31": 291967000.0,
+      "2026-06-30": 298454000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.91,
+      "2025-09-30": 5.95,
+      "2025-12-31": 0.89976,
+      "2026-03-31": 0.89,
+      "2026-06-30": 0.66
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.36542424261965323,
+    "operating_margin_yoy_change": -1.8517660607320359,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.71644591013815,
+    "net_debt": -1227730000.0,
+    "net_debt_to_ebitda": -7.101466879526156,
+    "debt_to_assets": 4.153228158979495,
+    "ticker": "DUOL"
   },
-  "fetched_at": "2026-08-13T13:44:46.921325"
+  "fetched_at": "2026-10-15T10:14:49.947594"
 }

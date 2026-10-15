@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "UNH",
-    "fetch_date": "2026-08-14T14:19:44.913094",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:56.600167+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.3727064220183429,
+    "revenue_qoq_change": 0.27837201600415806,
+    "eps_yoy_change": 61.49732620320856,
+    "eps_qoq_change": -12.463768115942031,
+    "latest_eps": 6.04,
+    "gross_margin": 20.79673664667238,
+    "operating_margin": 7.132783490431304,
+    "net_margin": 4.89502999143102,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.439560439560438,
+    "free_cash_flow_ttm": 23617000000.0,
+    "operating_cash_flow_ttm": 27017000000.0,
+    "revenue_ttm": 450129000000.0,
+    "net_income_ttm": 14122000000.0,
+    "ebitda_ttm": 25619000000.0,
+    "total_debt": 73328000000.0,
+    "cash": 31468000000.0,
+    "total_assets": 309727000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 109575000000.0,
-      "2025-06-30 00:00:00": 111616000000.0,
-      "2025-09-30 00:00:00": 113161000000.0,
-      "2025-12-31 00:00:00": 113215000000.0,
-      "2026-03-31 00:00:00": 111721000000.0
+      "2025-06-30": 111616000000.0,
+      "2025-09-30": 113161000000.0,
+      "2025-12-31": 113215000000.0,
+      "2026-03-31": 111721000000.0,
+      "2026-06-30": 112032000000.0
     },
-    "revenue_qoq_change": -1.3196131254692398,
-    "revenue_yoy_change": 1.9584759297284964,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 6.85,
-      "2025-06-30 00:00:00": 3.74,
-      "2025-09-30 00:00:00": 2.59,
-      "2025-12-31 00:00:00": 0.01,
-      "2026-03-31 00:00:00": 6.9
+      "2025-06-30": 3.74,
+      "2025-09-30": 2.59,
+      "2025-12-31": 0.01,
+      "2026-03-31": 6.9,
+      "2026-06-30": 6.04
     },
-    "eps_qoq_change": 68900.0,
-    "eps_yoy_change": 0.7299270072992805,
-    "gross_margin": 22.74,
-    "margin_change": 6.41,
-    "operating_margin": 8.05,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -1.9465255869273932,
+    "operating_margin_yoy_change": 2.5187496601560753,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.246718163015491,
+    "net_debt": 41860000000.0,
+    "net_debt_to_ebitda": 1.6339435575159063,
+    "debt_to_assets": 23.675042860325384,
+    "ticker": "UNH"
   },
-  "fetched_at": "2026-08-14T14:19:44.914437"
+  "fetched_at": "2026-10-15T10:54:56.605073"
 }

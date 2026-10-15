@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "MCO",
-    "fetch_date": "2026-08-14T13:57:01.413924",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1898000000.0,
-      "2025-09-30 00:00:00": 2007000000.0,
-      "2025-12-31 00:00:00": 1889000000.0,
-      "2026-03-31 00:00:00": 2079000000.0,
-      "2026-06-30 00:00:00": 2185000000.0
-    },
-    "revenue_qoq_change": 5.098605098605099,
-    "revenue_yoy_change": 15.12118018967334,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3.21,
-      "2025-09-30 00:00:00": 3.6,
-      "2025-12-31 00:00:00": 3.41,
-      "2026-03-31 00:00:00": 3.73,
-      "2026-06-30 00:00:00": 5.03
-    },
-    "eps_qoq_change": 34.852546916890084,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:19.231346+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.121180189673344,
+    "revenue_qoq_change": 5.098605098605091,
     "eps_yoy_change": 56.69781931464175,
-    "gross_margin": 76.29,
-    "margin_change": 1.83,
-    "operating_margin": 49.34,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 34.852546916890084,
+    "latest_eps": 5.03,
+    "gross_margin": 76.2929061784897,
+    "operating_margin": 49.336384439359264,
+    "net_margin": 40.183066361556065,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.163152053274143,
+    "free_cash_flow_ttm": 2967000000.0,
+    "operating_cash_flow_ttm": 3319000000.0,
+    "revenue_ttm": 8160000000.0,
+    "net_income_ttm": 2795000000.0,
+    "ebitda_ttm": 4357000000.0,
+    "total_debt": 7522000000.0,
+    "cash": 1496000000.0,
+    "total_assets": 14675000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1898000000.0,
+      "2025-09-30": 2007000000.0,
+      "2025-12-31": 1889000000.0,
+      "2026-03-31": 2079000000.0,
+      "2026-06-30": 2185000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 3.21,
+      "2025-09-30": 3.6,
+      "2025-12-31": 3.41,
+      "2026-03-31": 3.73,
+      "2026-06-30": 5.03
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.8340317196152398,
+    "operating_margin_yoy_change": 4.763149455165376,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.36029411764706,
+    "net_debt": 6026000000.0,
+    "net_debt_to_ebitda": 1.3830617397291713,
+    "debt_to_assets": 51.2572402044293,
+    "ticker": "MCO"
   },
-  "fetched_at": "2026-08-14T13:57:01.415335"
+  "fetched_at": "2026-10-15T10:32:19.236219"
 }

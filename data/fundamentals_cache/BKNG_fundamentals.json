@@ -1,29 +1,54 @@
 {
   "data": {
-    "ticker": "BKNG",
-    "fetch_date": "2026-08-10T13:32:26.016418",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 6798000000.0,
-      "2025-09-30 00:00:00": 9008000000.0,
-      "2025-12-31 00:00:00": 6349000000.0,
-      "2026-03-31 00:00:00": 5532000000.0,
-      "2026-06-30 00:00:00": 7352000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:09.935719+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.14945572227126,
     "revenue_qoq_change": 32.89949385394071,
-    "revenue_yoy_change": 8.149455722271256,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.4,
-      "2025-06-30 00:00:00": 1.1,
-      "2025-09-30 00:00:00": 3.3764,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 1.36,
-      "2026-06-30 00:00:00": 2.53
-    },
-    "eps_qoq_change": 86.02941176470586,
     "eps_yoy_change": 129.99999999999997,
-    "operating_margin": 34.0,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 86.02941176470587,
+    "latest_eps": 2.53,
+    "gross_margin": null,
+    "operating_margin": 34.00435255712731,
+    "net_margin": 26.5233949945593,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.521472392638039,
+    "free_cash_flow_ttm": 9539000000.0,
+    "operating_cash_flow_ttm": 9859000000.0,
+    "revenue_ttm": 28241000000.0,
+    "net_income_ttm": 7209000000.0,
+    "ebitda_ttm": 11109000000.0,
+    "total_debt": 20694000000.0,
+    "cash": 17214000000.0,
+    "total_assets": 29682000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 6798000000.0,
+      "2025-09-30": 9008000000.0,
+      "2025-12-31": 6349000000.0,
+      "2026-03-31": 5532000000.0,
+      "2026-06-30": 7352000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.4,
+      "2025-06-30": 1.1,
+      "2025-09-30": 3.3764,
+      "2025-12-31": null,
+      "2026-03-31": 1.36,
+      "2026-06-30": 2.53
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 0.9063825659534359,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.77713253779965,
+    "net_debt": 3480000000.0,
+    "net_debt_to_ebitda": 0.31325951930866863,
+    "debt_to_assets": 69.71902162927026,
+    "ticker": "BKNG"
   },
-  "fetched_at": "2026-08-10T13:32:26.017357"
+  "fetched_at": "2026-10-15T10:05:09.940525"
 }

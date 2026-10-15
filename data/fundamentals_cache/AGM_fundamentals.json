@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "AGM",
-    "fetch_date": "2026-08-14T13:23:16.891109",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:58:56.863953+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 21.80369078473021,
+    "revenue_qoq_change": 14.558533791523477,
+    "eps_yoy_change": 20.75892857142856,
+    "eps_qoq_change": 13.89473684210527,
+    "latest_eps": 5.41,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 53.55565865676895,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.7388488552403594,
+    "free_cash_flow_ttm": 310058000.0,
+    "operating_cash_flow_ttm": 310058000.0,
+    "revenue_ttm": 445558000.0,
+    "net_income_ttm": 229001000.0,
+    "ebitda_ttm": null,
+    "total_debt": 36911453000.0,
+    "cash": 1011107000.0,
+    "total_assets": 39290192000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 102634000.0,
-      "2025-09-30 00:00:00": 103918000.0,
-      "2025-12-31 00:00:00": 107503000.0,
-      "2026-03-31 00:00:00": 109125000.0,
-      "2026-06-30 00:00:00": 125012000.0
+      "2025-06-30": 102634000.0,
+      "2025-09-30": 103918000.0,
+      "2025-12-31": 107503000.0,
+      "2026-03-31": 109125000.0,
+      "2026-06-30": 125012000.0
     },
-    "revenue_qoq_change": 14.558533791523482,
-    "revenue_yoy_change": 21.803690784730207,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4.48,
-      "2025-09-30 00:00:00": 4.44,
-      "2025-12-31 00:00:00": 3.71,
-      "2026-03-31 00:00:00": 4.75,
-      "2026-06-30 00:00:00": 5.41
+      "2025-06-30": 4.48,
+      "2025-09-30": 4.44,
+      "2025-12-31": 3.71,
+      "2026-03-31": 4.75,
+      "2026-06-30": 5.41
     },
-    "eps_qoq_change": 13.894736842105265,
-    "eps_yoy_change": 20.758928571428566,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 69.58869552336621,
+    "net_debt": 35900346000.0,
+    "debt_to_assets": 93.9457180560482,
+    "ticker": "AGM"
   },
-  "fetched_at": "2026-08-14T13:23:16.891816"
+  "fetched_at": "2026-10-15T09:58:56.867808"
 }

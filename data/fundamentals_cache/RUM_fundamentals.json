@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "RUM",
-    "fetch_date": "2026-08-14T14:10:40.705803",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:45:52.251888+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 60.92218378655838,
+    "revenue_qoq_change": 58.550901193395255,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.28,
+    "gross_margin": 24.177503477120368,
+    "operating_margin": -99.17172396599021,
+    "net_margin": -200.4997010409759,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 9.061131552931467,
+    "free_cash_flow_ttm": -157512330.0,
+    "operating_cash_flow_ttm": -106199392.0,
+    "revenue_ttm": 117657431.0,
+    "net_income_ttm": -160160794.0,
+    "ebitda_ttm": -90852173.0,
+    "total_debt": 501775359.0,
+    "cash": 203269513.0,
+    "total_assets": 2124232887.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 23706790.0,
-      "2025-06-30 00:00:00": 25084631.0,
-      "2025-09-30 00:00:00": 24762445.0,
-      "2025-12-31 00:00:00": 27068454.0,
-      "2026-03-31 00:00:00": 25459796.0
+      "2025-06-30": 25084631.0,
+      "2025-09-30": 24762445.0,
+      "2025-12-31": 27068454.0,
+      "2026-03-31": 25459796.0,
+      "2026-06-30": 40366736.0
     },
-    "revenue_qoq_change": -5.942925295992154,
-    "revenue_yoy_change": 7.3945312714205516,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.01,
-      "2025-06-30 00:00:00": -0.12,
-      "2025-09-30 00:00:00": -0.06,
-      "2025-12-31 00:00:00": -0.13,
-      "2026-03-31 00:00:00": -0.12
+      "2025-06-30": -0.12,
+      "2025-09-30": -0.06,
+      "2025-12-31": -0.13,
+      "2026-03-31": -0.12,
+      "2026-06-30": -0.28
     },
-    "eps_qoq_change": 7.692307692307699,
-    "eps_yoy_change": -1100.0,
-    "gross_margin": -6.04,
-    "margin_change": -11.52,
-    "operating_margin": -118.56,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 30.215992552209578,
+    "operating_margin_yoy_change": 18.205234857920743,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -133.8736777280136,
+    "net_debt": 298505846.0,
+    "debt_to_assets": 23.62148529338723,
+    "ticker": "RUM"
   },
-  "fetched_at": "2026-08-14T14:10:40.707113"
+  "fetched_at": "2026-10-15T10:45:52.257266"
 }

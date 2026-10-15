@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PTC",
-    "fetch_date": "2026-08-12T14:11:11.349663",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 643937000.0,
-      "2025-09-30 00:00:00": 893795000.0,
-      "2025-12-31 00:00:00": 685825000.0,
-      "2026-03-31 00:00:00": 774303000.0,
-      "2026-06-30 00:00:00": 600049000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:45.253181+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -6.81557357319117,
     "revenue_qoq_change": -22.50462674172772,
-    "revenue_yoy_change": -6.815573573191166,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.17,
-      "2025-09-30 00:00:00": 2.94,
-      "2025-12-31 00:00:00": 1.39,
-      "2026-03-31 00:00:00": 4.98,
-      "2026-06-30 00:00:00": 1.03
-    },
+    "eps_yoy_change": -11.965811965811957,
     "eps_qoq_change": -79.31726907630522,
-    "eps_yoy_change": -11.965811965811959,
-    "gross_margin": 81.74,
-    "margin_change": -3.59,
-    "operating_margin": 27.75,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.03,
+    "gross_margin": 81.73749143819921,
+    "operating_margin": 27.748733853401973,
+    "net_margin": 19.795050070910875,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.551680626924892,
+    "free_cash_flow_ttm": 935484000.0,
+    "operating_cash_flow_ttm": 955321000.0,
+    "revenue_ttm": 2953972000.0,
+    "net_income_ttm": 1223814000.0,
+    "ebitda_ttm": 1729689000.0,
+    "total_debt": 1607694000.0,
+    "cash": 351454000.0,
+    "total_assets": 6513577000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 643937000.0,
+      "2025-09-30": 893795000.0,
+      "2025-12-31": 685825000.0,
+      "2026-03-31": 774303000.0,
+      "2026-06-30": 600049000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.17,
+      "2025-09-30": 2.94,
+      "2025-12-31": 1.39,
+      "2026-03-31": 4.98,
+      "2026-06-30": 1.03
+    },
+    "quarterly_inventory": {},
+    "margin_change": -3.588924706385015,
+    "operating_margin_yoy_change": -4.836441404426047,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.668682032192585,
+    "net_debt": 1256240000.0,
+    "net_debt_to_ebitda": 0.7262808516444286,
+    "debt_to_assets": 24.68219842952651,
+    "ticker": "PTC"
   },
-  "fetched_at": "2026-08-12T14:11:11.350999"
+  "fetched_at": "2026-10-15T10:42:45.258178"
 }

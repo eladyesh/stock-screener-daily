@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "CFFN",
-    "fetch_date": "2026-08-13T13:38:46.968450",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 50031000.0,
-      "2025-09-30 00:00:00": 53916000.0,
-      "2025-12-31 00:00:00": 56080000.0,
-      "2026-03-31 00:00:00": 56957000.0,
-      "2026-06-30 00:00:00": 59520000.0
-    },
-    "revenue_qoq_change": 4.499885878820865,
-    "revenue_yoy_change": 18.966240930623012,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.14,
-      "2025-09-30 00:00:00": 0.14,
-      "2025-12-31 00:00:00": 0.16,
-      "2026-03-31 00:00:00": 0.16,
-      "2026-06-30 00:00:00": 0.19
-    },
-    "eps_qoq_change": 18.75,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:54.836609+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.966240930623023,
+    "revenue_qoq_change": 4.499885878820864,
     "eps_yoy_change": 35.7142857142857,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 18.75,
+    "latest_eps": 0.19,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 39.60013440860215,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.667860794428091,
+    "free_cash_flow_ttm": 71530000.0,
+    "operating_cash_flow_ttm": 77846000.0,
+    "revenue_ttm": 226473000.0,
+    "net_income_ttm": 82835000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1636246000.0,
+    "cash": 136098000.0,
+    "total_assets": 9662184000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 50031000.0,
+      "2025-09-30": 53916000.0,
+      "2025-12-31": 56080000.0,
+      "2026-03-31": 56957000.0,
+      "2026-06-30": 59520000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.14,
+      "2025-09-30": 0.14,
+      "2025-12-31": 0.16,
+      "2026-03-31": 0.16,
+      "2026-06-30": 0.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.584338971974585,
+    "net_debt": 1500148000.0,
+    "debt_to_assets": 16.934535711594812,
+    "ticker": "CFFN"
   },
-  "fetched_at": "2026-08-13T13:38:46.969118"
+  "fetched_at": "2026-10-15T10:08:54.840284"
 }

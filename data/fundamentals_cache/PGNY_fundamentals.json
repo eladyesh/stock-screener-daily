@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "PGNY",
-    "fetch_date": "2026-08-14T14:05:46.619528",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:41:02.221039+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 5.298401196849256,
+    "revenue_qoq_change": 6.699157392299626,
+    "eps_yoy_change": 78.94736842105263,
+    "eps_qoq_change": 17.24137931034484,
+    "latest_eps": 0.34,
+    "gross_margin": 25.477374461857117,
+    "operating_margin": 11.412765933166149,
+    "net_margin": 8.003172510991096,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.363855035477597,
+    "free_cash_flow_ttm": 178384000.0,
+    "operating_cash_flow_ttm": 201248000.0,
+    "revenue_ttm": 1310764000.0,
+    "net_income_ttm": 78633000.0,
+    "ebitda_ttm": 117872000.0,
+    "total_debt": 22495000.0,
+    "cash": 236925000.0,
+    "total_assets": 715836000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 332874000.0,
-      "2025-09-30 00:00:00": 313346000.0,
-      "2025-12-31 00:00:00": 318403000.0,
-      "2026-03-31 00:00:00": 328504000.0,
-      "2026-06-30 00:00:00": 350511000.0
+      "2025-06-30": 332874000.0,
+      "2025-09-30": 313346000.0,
+      "2025-12-31": 318403000.0,
+      "2026-03-31": 328504000.0,
+      "2026-06-30": 350511000.0
     },
-    "revenue_qoq_change": 6.699157392299638,
-    "revenue_yoy_change": 5.298401196849258,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.19,
-      "2025-09-30 00:00:00": 0.15,
-      "2025-12-31 00:00:00": 0.14,
-      "2026-03-31 00:00:00": 0.29,
-      "2026-06-30 00:00:00": 0.34
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.15,
+      "2025-12-31": 0.14,
+      "2026-03-31": 0.29,
+      "2026-06-30": 0.34
     },
-    "eps_qoq_change": 17.241379310344847,
-    "eps_yoy_change": 78.94736842105264,
-    "gross_margin": 25.48,
-    "margin_change": 0.19,
-    "operating_margin": 11.41,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.18970673178381148,
+    "operating_margin_yoy_change": 4.0952824409138255,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.609162290084257,
+    "net_debt": -214430000.0,
+    "net_debt_to_ebitda": -1.8191767340844305,
+    "debt_to_assets": 3.1424795623578583,
+    "ticker": "PGNY"
   },
-  "fetched_at": "2026-08-14T14:05:46.620858"
+  "fetched_at": "2026-10-15T10:41:02.226366"
 }

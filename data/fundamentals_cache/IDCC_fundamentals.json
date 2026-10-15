@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "IDCC",
-    "fetch_date": "2026-08-14T13:50:04.289445",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 300596000.0,
-      "2025-09-30 00:00:00": 164682000.0,
-      "2025-12-31 00:00:00": 158230000.0,
-      "2026-03-31 00:00:00": 205416000.0,
-      "2026-06-30 00:00:00": 260170000.0
-    },
-    "revenue_qoq_change": 26.655177785566845,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:27.136032+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": -13.448615417370824,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 5.35,
-      "2025-09-30 00:00:00": 1.93,
-      "2025-12-31 00:00:00": 1.2,
-      "2026-03-31 00:00:00": 2.14,
-      "2026-06-30 00:00:00": 3.4
+    "revenue_qoq_change": 26.655177785566853,
+    "eps_yoy_change": -36.44859813084111,
+    "eps_qoq_change": 58.87850467289719,
+    "latest_eps": 3.4,
+    "gross_margin": 86.65295768151593,
+    "operating_margin": 53.51846869354653,
+    "net_margin": 44.72921551293385,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.5863602668643395,
+    "free_cash_flow_ttm": 496615000.0,
+    "operating_cash_flow_ttm": 557938000.0,
+    "revenue_ttm": 788498000.0,
+    "net_income_ttm": 302175000.0,
+    "ebitda_ttm": 466098000.0,
+    "total_debt": 401540000.0,
+    "cash": 1112411000.0,
+    "total_assets": 2192092000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 300596000.0,
+      "2025-09-30": 164682000.0,
+      "2025-12-31": 158230000.0,
+      "2026-03-31": 205416000.0,
+      "2026-06-30": 260170000.0
     },
-    "eps_qoq_change": 58.87850467289718,
-    "eps_yoy_change": -36.44859813084112,
-    "gross_margin": 86.65,
-    "margin_change": 12.03,
-    "operating_margin": 53.52,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 5.35,
+      "2025-09-30": 1.93,
+      "2025-12-31": 1.2,
+      "2026-03-31": 2.14,
+      "2026-06-30": 3.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": 12.025372683268472,
+    "operating_margin_yoy_change": -14.82142937562272,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 62.98240452100069,
+    "net_debt": -710871000.0,
+    "net_debt_to_ebitda": -1.5251535084896308,
+    "debt_to_assets": 18.317661849958853,
+    "ticker": "IDCC"
   },
-  "fetched_at": "2026-08-14T13:50:04.290732"
+  "fetched_at": "2026-10-15T10:25:27.140879"
 }

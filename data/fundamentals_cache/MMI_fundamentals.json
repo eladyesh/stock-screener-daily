@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "MMI",
-    "fetch_date": "2026-08-14T13:58:10.352622",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 172276000.0,
-      "2025-09-30 00:00:00": 193892000.0,
-      "2025-12-31 00:00:00": 243950000.0,
-      "2026-03-31 00:00:00": 171467000.0,
-      "2026-06-30 00:00:00": 202915000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:33:29.174456+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 17.78483363904433,
     "revenue_qoq_change": 18.34055532551453,
-    "revenue_yoy_change": 17.784833639044322,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.28,
-      "2025-09-30 00:00:00": 0.01,
-      "2025-12-31 00:00:00": 0.34,
-      "2026-03-31 00:00:00": -0.08,
-      "2026-06-30 00:00:00": 0.1
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": 0.1,
+    "gross_margin": 37.57681787940763,
+    "operating_margin": 1.090604440282877,
+    "net_margin": 1.9264223936130893,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.525382012101318,
+    "free_cash_flow_ttm": 84518000.0,
+    "operating_cash_flow_ttm": 93085000.0,
+    "revenue_ttm": 812224000.0,
+    "net_income_ttm": 14357000.0,
+    "ebitda_ttm": 36299000.0,
+    "total_debt": 74153000.0,
+    "cash": 214789000.0,
+    "total_assets": 765795000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 172276000.0,
+      "2025-09-30": 193892000.0,
+      "2025-12-31": 243950000.0,
+      "2026-03-31": 171467000.0,
+      "2026-06-30": 202915000.0
     },
-    "eps_qoq_change": 225.0,
-    "eps_yoy_change": 135.7142857142857,
-    "gross_margin": 37.58,
-    "margin_change": -1.98,
-    "operating_margin": 1.09,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.28,
+      "2025-09-30": 0.01,
+      "2025-12-31": 0.34,
+      "2026-03-31": -0.08,
+      "2026-06-30": 0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.981814393857782,
+    "operating_margin_yoy_change": 6.340900476875321,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.405750137892996,
+    "net_debt": -140636000.0,
+    "net_debt_to_ebitda": -3.874376704592413,
+    "debt_to_assets": 9.68313974366508,
+    "ticker": "MMI"
   },
-  "fetched_at": "2026-08-14T13:58:10.353927"
+  "fetched_at": "2026-10-15T10:33:29.179599"
 }

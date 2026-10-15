@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "OMF",
-    "fetch_date": "2026-08-14T14:03:19.408788",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:38:34.089378+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.56275635767023,
+    "revenue_qoq_change": 2.687747035573129,
+    "eps_yoy_change": -5.714285714285705,
+    "eps_qoq_change": -31.606217616580302,
+    "latest_eps": 1.32,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 11.70130869899923,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.015075376884424,
+    "free_cash_flow_ttm": 3232000000.0,
+    "operating_cash_flow_ttm": 3232000000.0,
+    "revenue_ttm": 5127000000.0,
+    "net_income_ttm": 781000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 22769000000.0,
+    "cash": 396000000.0,
+    "total_assets": 27424000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1219000000.0,
-      "2025-09-30 00:00:00": 1274000000.0,
-      "2025-12-31 00:00:00": 1289000000.0,
-      "2026-03-31 00:00:00": 1265000000.0,
-      "2026-06-30 00:00:00": 1299000000.0
+      "2025-06-30": 1219000000.0,
+      "2025-09-30": 1274000000.0,
+      "2025-12-31": 1289000000.0,
+      "2026-03-31": 1265000000.0,
+      "2026-06-30": 1299000000.0
     },
-    "revenue_qoq_change": 2.6877470355731226,
-    "revenue_yoy_change": 6.562756357670222,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.4,
-      "2025-09-30 00:00:00": 1.67,
-      "2025-12-31 00:00:00": 1.72,
-      "2026-03-31 00:00:00": 1.93,
-      "2026-06-30 00:00:00": 1.32
+      "2025-06-30": 1.4,
+      "2025-09-30": 1.67,
+      "2025-12-31": 1.72,
+      "2026-03-31": 1.93,
+      "2026-06-30": 1.32
     },
-    "eps_qoq_change": -31.606217616580306,
-    "eps_yoy_change": -5.714285714285704,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 63.03881412131851,
+    "net_debt": 22373000000.0,
+    "debt_to_assets": 83.02581680280046,
+    "ticker": "OMF"
   },
-  "fetched_at": "2026-08-14T14:03:19.409478"
+  "fetched_at": "2026-10-15T10:38:34.093187"
 }

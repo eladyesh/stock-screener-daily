@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "ABNB",
-    "fetch_date": "2026-08-13T13:27:18.540599",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3096000000.0,
-      "2025-09-30 00:00:00": 4095000000.0,
-      "2025-12-31 00:00:00": 2778000000.0,
-      "2026-03-31 00:00:00": 2678000000.0,
-      "2026-06-30 00:00:00": 3608000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:57:32.867009+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.53746770025839,
     "revenue_qoq_change": 34.727408513816286,
-    "revenue_yoy_change": 16.5374677002584,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.03,
-      "2025-09-30 00:00:00": 2.21,
-      "2025-12-31 00:00:00": 0.56,
-      "2026-03-31 00:00:00": 0.26,
-      "2026-06-30 00:00:00": 1.37
-    },
-    "eps_qoq_change": 426.9230769230769,
     "eps_yoy_change": 33.00970873786409,
-    "gross_margin": 82.46,
-    "margin_change": 4.15,
-    "operating_margin": 21.01,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 426.9230769230769,
+    "latest_eps": 1.37,
+    "gross_margin": 82.45565410199556,
+    "operating_margin": 21.008869179600886,
+    "net_margin": 22.61640798226164,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.63258785942492,
+    "free_cash_flow_ttm": 4860000000.0,
+    "operating_cash_flow_ttm": 4860000000.0,
+    "revenue_ttm": 13159000000.0,
+    "net_income_ttm": 2691000000.0,
+    "ebitda_ttm": 2914000000.0,
+    "total_debt": 2496000000.0,
+    "cash": 12069000000.0,
+    "total_assets": 28754000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 3096000000.0,
+      "2025-09-30": 4095000000.0,
+      "2025-12-31": 2778000000.0,
+      "2026-03-31": 2678000000.0,
+      "2026-06-30": 3608000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.03,
+      "2025-09-30": 2.21,
+      "2025-12-31": 0.56,
+      "2026-03-31": 0.26,
+      "2026-06-30": 1.37
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.150949098261435,
+    "operating_margin_yoy_change": 1.24142731913577,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.932897636598526,
+    "net_debt": -9573000000.0,
+    "net_debt_to_ebitda": -3.285175017158545,
+    "debt_to_assets": 8.680531404326354,
+    "ticker": "ABNB"
   },
-  "fetched_at": "2026-08-13T13:27:18.542015"
+  "fetched_at": "2026-10-15T09:57:32.871934"
 }

@@ -1,27 +1,50 @@
 {
   "data": {
-    "ticker": "LBRX",
-    "fetch_date": "2026-08-14T13:54:15.125344",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:29:35.104598+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.236421,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": -0.61,
-      "2025-12-31 00:00:00": -0.45,
-      "2026-03-31 00:00:00": -0.67
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.71,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 34.2857361824666,
+    "free_cash_flow_ttm": -82830000.0,
+    "operating_cash_flow_ttm": -82395000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -85685000.0,
+    "ebitda_ttm": -94790000.0,
+    "total_debt": 5217000.0,
+    "cash": 327790000.0,
+    "total_assets": 361692000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -48.88888888888889,
-    "eps_yoy_change": -183.39276121833512,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.217039,
+      "2025-09-30": -0.61,
+      "2025-12-31": -0.45,
+      "2026-03-31": -0.67,
+      "2026-06-30": -1.71
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -322573000.0,
+    "debt_to_assets": 1.4423874456720083,
+    "ticker": "LBRX"
   },
-  "fetched_at": "2026-08-14T13:54:15.126317"
+  "fetched_at": "2026-10-15T10:29:35.109495"
 }

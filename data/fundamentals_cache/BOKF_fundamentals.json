@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "BOKF",
-    "fetch_date": "2026-08-13T13:35:45.962074",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 528553000.0,
-      "2025-09-30 00:00:00": 537687000.0,
-      "2025-12-31 00:00:00": 535143000.0,
-      "2026-03-31 00:00:00": 542281000.0,
-      "2026-06-30 00:00:00": 577523000.0
-    },
-    "revenue_qoq_change": 6.4988446949090966,
-    "revenue_yoy_change": 9.264917614695214,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.19,
-      "2025-09-30 00:00:00": 2.22,
-      "2025-12-31 00:00:00": 2.89,
-      "2026-03-31 00:00:00": 2.58,
-      "2026-06-30 00:00:00": 2.92
-    },
-    "eps_qoq_change": 13.178294573643404,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:52.017054+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.26491761469521,
+    "revenue_qoq_change": 6.4988446949090894,
     "eps_yoy_change": 33.33333333333333,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 13.178294573643413,
+    "latest_eps": 2.92,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 30.56830637048221,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.9474633973308535,
+    "free_cash_flow_ttm": 1504045000.0,
+    "operating_cash_flow_ttm": 1504045000.0,
+    "revenue_ttm": 2192634000.0,
+    "net_income_ttm": 650500000.0,
+    "ebitda_ttm": null,
+    "total_debt": 3436538000.0,
+    "cash": 1521366000.0,
+    "total_assets": 53179287000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 528553000.0,
+      "2025-09-30": 537687000.0,
+      "2025-12-31": 535143000.0,
+      "2026-03-31": 542281000.0,
+      "2026-06-30": 577523000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 2.19,
+      "2025-09-30": 2.22,
+      "2025-12-31": 2.89,
+      "2026-03-31": 2.58,
+      "2026-06-30": 2.92
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 68.59535152697623,
+    "net_debt": 1915172000.0,
+    "debt_to_assets": 6.462173891124189,
+    "ticker": "BOKF"
   },
-  "fetched_at": "2026-08-13T13:35:45.962757"
+  "fetched_at": "2026-10-15T10:05:52.020803"
 }

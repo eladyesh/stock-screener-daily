@@ -1,39 +1,58 @@
 {
   "data": {
-    "ticker": "BETA",
-    "fetch_date": "2026-08-25T13:07:20.022960",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 9599000.0,
-      "2025-06-30 00:00:00": 5966000.0,
-      "2025-09-30 00:00:00": 8918000.0,
-      "2025-12-31 00:00:00": 11133000.0,
-      "2026-03-31 00:00:00": 10133000.0
-    },
-    "revenue_qoq_change": -8.982304859426929,
-    "revenue_yoy_change": 5.5630794874466085,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.487121,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": -2.433449,
-      "2025-12-31 00:00:00": -2.02,
-      "2026-03-31 00:00:00": -0.53
-    },
-    "eps_qoq_change": 73.76237623762376,
-    "eps_yoy_change": -8.802535714945568,
-    "gross_margin": 57.55,
-    "margin_change": -4.44,
-    "operating_margin": -1312.12,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-09-30 00:00:00": 2790000.0,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:04:31.826275+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 145.69225611800204,
+    "revenue_qoq_change": 44.65607421296753,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.64,
+    "gross_margin": 54.72097148314914,
+    "operating_margin": -1078.7146950470733,
+    "net_margin": -1014.8246691226634,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 25.184973862436433,
+    "free_cash_flow_ttm": -421528000.0,
+    "operating_cash_flow_ttm": -323498000.0,
+    "revenue_ttm": 44842000.0,
+    "net_income_ttm": -858235000.0,
+    "ebitda_ttm": -818844000.0,
+    "total_debt": 206696000.0,
+    "cash": 1479470000.0,
+    "total_assets": 1933452000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 5966000.0,
+      "2025-09-30": 8918000.0,
+      "2025-12-31": 11133000.0,
+      "2026-03-31": 10133000.0,
+      "2026-06-30": 14658000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.499778,
+      "2025-09-30": -2.433449,
+      "2025-12-31": -2.02,
+      "2026-03-31": -0.53,
+      "2026-06-30": -0.64
+    },
+    "quarterly_inventory": {
+      "2025-09-30": 2790000.0,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": -2.833553336746249,
+    "operating_margin_yoy_change": 250.8193311010998,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -940.0294366888185,
+    "net_debt": -1272774000.0,
+    "debt_to_assets": 10.69051623727923,
+    "ticker": "BETA"
   },
-  "fetched_at": "2026-08-25T13:07:20.024587"
+  "fetched_at": "2026-10-15T10:04:31.831091"
 }

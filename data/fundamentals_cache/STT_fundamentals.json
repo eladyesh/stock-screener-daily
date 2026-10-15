@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "STT",
-    "fetch_date": "2026-08-14T14:15:31.862569",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3469000000.0,
-      "2025-09-30 00:00:00": 3545000000.0,
-      "2025-12-31 00:00:00": 3667000000.0,
-      "2026-03-31 00:00:00": 3796000000.0,
-      "2026-06-30 00:00:00": 4048000000.0
-    },
-    "revenue_qoq_change": 6.638566912539515,
-    "revenue_yoy_change": 16.69068895935428,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.17,
-      "2025-09-30 00:00:00": 2.78,
-      "2025-12-31 00:00:00": 2.42,
-      "2026-03-31 00:00:00": 2.49,
-      "2026-06-30 00:00:00": 3.65
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:50:41.331231+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.690688959354283,
+    "revenue_qoq_change": 6.638566912539523,
+    "eps_yoy_change": 68.20276497695852,
     "eps_qoq_change": 46.58634538152609,
-    "eps_yoy_change": 68.20276497695853,
-    "inventory_breakdown_available": false
+    "latest_eps": 3.65,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.778656126482215,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.245550621363902,
+    "free_cash_flow_ttm": 2019000000.0,
+    "operating_cash_flow_ttm": 3474000000.0,
+    "revenue_ttm": 15056000000.0,
+    "net_income_ttm": 3456000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 30076000000.0,
+    "cash": 149513000000.0,
+    "total_assets": 418381000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 3469000000.0,
+      "2025-09-30": 3545000000.0,
+      "2025-12-31": 3667000000.0,
+      "2026-03-31": 3796000000.0,
+      "2026-06-30": 4048000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 2.17,
+      "2025-09-30": 2.78,
+      "2025-12-31": 2.42,
+      "2026-03-31": 2.49,
+      "2026-06-30": 3.65
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.409936238044635,
+    "net_debt": -119437000000.0,
+    "debt_to_assets": 7.188662965096407,
+    "ticker": "STT"
   },
-  "fetched_at": "2026-08-14T14:15:31.863260"
+  "fetched_at": "2026-10-15T10:50:41.335166"
 }

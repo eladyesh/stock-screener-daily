@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "CINF",
-    "fetch_date": "2026-08-13T13:39:22.951469",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:09:32.961347+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 11.57443491816057,
+    "revenue_qoq_change": -7.37625363959884,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -59.2074592074592,
+    "latest_eps": 1.75,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 9.570380719524973,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 3439000000.0,
+    "operating_cash_flow_ttm": 3458000000.0,
+    "revenue_ttm": 12928000000.0,
+    "net_income_ttm": 2757000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 884000000.0,
+    "cash": 2097000000.0,
+    "total_assets": 41211000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 2566000000.0,
-      "2025-06-30 00:00:00": 3248000000.0,
-      "2025-09-30 00:00:00": 3726000000.0,
-      "2025-12-31 00:00:00": 3091000000.0,
-      "2026-03-31 00:00:00": 2863000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 2566000000.0,
+      "2025-06-30": 3248000000.0,
+      "2025-09-30": 3726000000.0,
+      "2025-12-31": 3091000000.0,
+      "2026-03-31": 2863000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4.34,
-      "2025-09-30 00:00:00": 7.11,
-      "2025-12-31 00:00:00": 4.29,
-      "2026-03-31 00:00:00": 1.75,
-      "2026-06-30 00:00:00": 8.05
+      "2025-03-31": null,
+      "2025-06-30": 4.34,
+      "2025-09-30": 7.11,
+      "2025-12-31": 4.29,
+      "2026-03-31": 1.75
     },
-    "eps_qoq_change": 360.00000000000006,
-    "eps_yoy_change": 85.48387096774196,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.601175742574256,
+    "net_debt": -1213000000.0,
+    "debt_to_assets": 2.1450583582053335,
+    "ticker": "CINF"
   },
-  "fetched_at": "2026-08-13T13:39:22.952127"
+  "fetched_at": "2026-10-15T10:09:32.965176"
 }

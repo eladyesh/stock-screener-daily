@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "RDN",
-    "fetch_date": "2026-08-14T14:08:57.600194",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 298551000.0,
-      "2025-09-30 00:00:00": 310742000.0,
-      "2025-12-31 00:00:00": 279159000.0,
-      "2026-03-31 00:00:00": 466337000.0,
-      "2026-06-30 00:00:00": 574959000.0
-    },
-    "revenue_qoq_change": 23.29259741345851,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:44:08.480068+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 92.58317674367194,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.98,
-      "2025-06-30 00:00:00": 1.02,
-      "2025-09-30 00:00:00": 1.03,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.89,
-      "2026-06-30 00:00:00": 0.85
+    "revenue_qoq_change": 23.292597413458505,
+    "eps_yoy_change": -16.666666666666675,
+    "eps_qoq_change": -4.49438202247191,
+    "latest_eps": 0.85,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 20.16039404548846,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.5011564035848468,
+    "free_cash_flow_ttm": 1390460000.0,
+    "operating_cash_flow_ttm": 1393350000.0,
+    "revenue_ttm": 1631197000.0,
+    "net_income_ttm": 536293000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1265006000.0,
+    "cash": 6893899000.0,
+    "total_assets": 10656320000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 298551000.0,
+      "2025-09-30": 310742000.0,
+      "2025-12-31": 279159000.0,
+      "2026-03-31": 466337000.0,
+      "2026-06-30": 574959000.0
     },
-    "eps_qoq_change": -4.494382022471914,
-    "eps_yoy_change": -16.66666666666667,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": 0.98,
+      "2025-06-30": 1.02,
+      "2025-09-30": 1.03,
+      "2025-12-31": null,
+      "2026-03-31": 0.89,
+      "2026-06-30": 0.85
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 85.24169674171789,
+    "net_debt": -5628893000.0,
+    "debt_to_assets": 11.870946067685654,
+    "ticker": "RDN"
   },
-  "fetched_at": "2026-08-14T14:08:57.600910"
+  "fetched_at": "2026-10-15T10:44:08.483802"
 }

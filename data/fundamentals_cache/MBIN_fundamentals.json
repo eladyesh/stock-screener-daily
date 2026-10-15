@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "MBIN",
-    "fetch_date": "2026-08-14T13:56:43.324595",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 178057000.0,
-      "2025-09-30 00:00:00": 169809000.0,
-      "2025-12-31 00:00:00": 184283000.0,
-      "2026-03-31 00:00:00": 174062000.0,
-      "2026-06-30 00:00:00": 181039000.0
-    },
-    "revenue_qoq_change": 4.008341855201021,
-    "revenue_yoy_change": 1.6747446042559406,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.6,
-      "2025-09-30 00:00:00": 0.97,
-      "2025-12-31 00:00:00": 1.28,
-      "2026-03-31 00:00:00": 1.25,
-      "2026-06-30 00:00:00": 1.48
-    },
-    "eps_qoq_change": 18.4,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:01.266635+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.67474460425594,
+    "revenue_qoq_change": 4.008341855201025,
     "eps_yoy_change": 146.66666666666669,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 18.399999999999995,
+    "latest_eps": 1.48,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 43.25200647374323,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.16628723421556746,
+    "free_cash_flow_ttm": -779852000.0,
+    "operating_cash_flow_ttm": -752146000.0,
+    "revenue_ttm": 709193000.0,
+    "net_income_ttm": 268585000.0,
+    "ebitda_ttm": null,
+    "total_debt": 4282597000.0,
+    "cash": 314703000.0,
+    "total_assets": 21229982000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 178057000.0,
+      "2025-09-30": 169809000.0,
+      "2025-12-31": 184283000.0,
+      "2026-03-31": 174062000.0,
+      "2026-06-30": 181039000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.6,
+      "2025-09-30": 0.97,
+      "2025-12-31": 1.28,
+      "2026-03-31": 1.25,
+      "2026-06-30": 1.48
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -109.96329631003125,
+    "net_debt": 3967894000.0,
+    "debt_to_assets": 20.172400522996202,
+    "ticker": "MBIN"
   },
-  "fetched_at": "2026-08-14T13:56:43.325290"
+  "fetched_at": "2026-10-15T10:32:01.270432"
 }

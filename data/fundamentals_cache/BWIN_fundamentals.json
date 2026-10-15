@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BWIN",
-    "fetch_date": "2026-08-13T13:36:53.832414",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 374312000.0,
-      "2025-09-30 00:00:00": 362611000.0,
-      "2025-12-31 00:00:00": 342897000.0,
-      "2026-03-31 00:00:00": 528445000.0,
-      "2026-06-30 00:00:00": 488137000.0
-    },
-    "revenue_qoq_change": -7.627662292196917,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:07:01.811696+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 30.409123939387463,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.05,
-      "2025-09-30 00:00:00": -0.27,
-      "2025-12-31 00:00:00": -0.37,
-      "2026-03-31 00:00:00": 0.02,
-      "2026-06-30 00:00:00": -0.42
-    },
+    "revenue_qoq_change": -7.627662292196913,
+    "eps_yoy_change": null,
     "eps_qoq_change": -2200.0,
-    "eps_yoy_change": -740.0,
-    "gross_margin": 31.14,
-    "margin_change": -2.57,
-    "operating_margin": 0.81,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.42,
+    "gross_margin": 31.142076916931106,
+    "operating_margin": 0.8112476620293074,
+    "net_margin": -7.988536005260818,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 36.39317747390089,
+    "free_cash_flow_ttm": 43707000.0,
+    "operating_cash_flow_ttm": 90772000.0,
+    "revenue_ttm": 1722090000.0,
+    "net_income_ttm": -81242000.0,
+    "ebitda_ttm": 82723000.0,
+    "total_debt": 2686834000.0,
+    "cash": 184499000.0,
+    "total_assets": 6174724000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 374312000.0,
+      "2025-09-30": 362611000.0,
+      "2025-12-31": 342897000.0,
+      "2026-03-31": 528445000.0,
+      "2026-06-30": 488137000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.05,
+      "2025-09-30": -0.27,
+      "2025-12-31": -0.37,
+      "2026-03-31": 0.02,
+      "2026-06-30": -0.42
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.5707976490123663,
+    "operating_margin_yoy_change": -6.130287741591202,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.538020660941066,
+    "net_debt": 2502335000.0,
+    "net_debt_to_ebitda": 30.249567834822237,
+    "debt_to_assets": 43.51342667299785,
+    "ticker": "BWIN"
   },
-  "fetched_at": "2026-08-13T13:36:53.833770"
+  "fetched_at": "2026-10-15T10:07:01.816689"
 }

@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "KELYA",
-    "fetch_date": "2026-08-13T13:58:08.539785",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1101800000.0,
-      "2025-09-30 00:00:00": 935000000.0,
-      "2025-12-31 00:00:00": 1049200000.0,
-      "2026-03-31 00:00:00": 1040700000.0,
-      "2026-06-30 00:00:00": 1038200000.0
-    },
-    "revenue_qoq_change": -0.24022292687614108,
-    "revenue_yoy_change": -5.772372481394082,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": -4.26,
-      "2025-12-31 00:00:00": -3.69,
-      "2026-03-31 00:00:00": -0.17,
-      "2026-06-30 00:00:00": 0.31
-    },
-    "eps_qoq_change": 282.35294117647055,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:28:06.301948+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -5.7723724813940835,
+    "revenue_qoq_change": -0.24022292687614355,
     "eps_yoy_change": -40.38461538461539,
-    "gross_margin": 20.42,
-    "margin_change": 1.55,
-    "operating_margin": 1.55,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.31,
+    "gross_margin": 20.419957618955888,
+    "operating_margin": 1.5507609323829705,
+    "net_margin": 1.0980543247929109,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.1235955056179803,
+    "free_cash_flow_ttm": 20500000.0,
+    "operating_cash_flow_ttm": 27100000.0,
+    "revenue_ttm": 4063100000.0,
+    "net_income_ttm": -273400000.0,
+    "ebitda_ttm": -38300000.0,
+    "total_debt": 128700000.0,
+    "cash": 24200000.0,
+    "total_assets": 2280700000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1101800000.0,
+      "2025-09-30": 935000000.0,
+      "2025-12-31": 1049200000.0,
+      "2026-03-31": 1040700000.0,
+      "2026-06-30": 1038200000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.52,
+      "2025-09-30": -4.26,
+      "2025-12-31": -3.69,
+      "2026-03-31": -0.17,
+      "2026-06-30": 0.31
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.548044483566244,
+    "operating_margin_yoy_change": -0.10108150726124787,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 0.5045408678102926,
+    "net_debt": 104500000.0,
+    "debt_to_assets": 5.64300434077257,
+    "ticker": "KELYA"
   },
-  "fetched_at": "2026-08-13T13:58:08.541101"
+  "fetched_at": "2026-10-15T10:28:06.306881"
 }

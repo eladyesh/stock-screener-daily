@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "MSBI",
-    "fetch_date": "2026-08-14T13:58:57.437912",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 78853000.0,
-      "2025-09-30 00:00:00": 78138000.0,
-      "2025-12-31 00:00:00": 59404000.0,
-      "2026-03-31 00:00:00": 75118000.0,
-      "2026-06-30 00:00:00": 79160000.0
-    },
-    "revenue_qoq_change": 5.38086743523523,
-    "revenue_yoy_change": 0.3893320482416649,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.44,
-      "2025-09-30 00:00:00": 0.24,
-      "2025-12-31 00:00:00": -0.24,
-      "2026-03-31 00:00:00": 0.74,
-      "2026-06-30 00:00:00": 0.82
-    },
-    "eps_qoq_change": 10.810810810810805,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:34:16.184262+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.3893320482416751,
+    "revenue_qoq_change": 5.380867435235226,
     "eps_yoy_change": 86.36363636363636,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 10.81081081081081,
+    "latest_eps": 0.82,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 25.12379989893886,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.416592614454783,
+    "free_cash_flow_ttm": 116356000.0,
+    "operating_cash_flow_ttm": 119364000.0,
+    "revenue_ttm": 291820000.0,
+    "net_income_ttm": 43020000.0,
+    "ebitda_ttm": null,
+    "total_debt": 285030000.0,
+    "cash": 298244000.0,
+    "total_assets": 6700616000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 78853000.0,
+      "2025-09-30": 78138000.0,
+      "2025-12-31": 59404000.0,
+      "2026-03-31": 75118000.0,
+      "2026-06-30": 79160000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.44,
+      "2025-09-30": 0.24,
+      "2025-12-31": -0.24,
+      "2026-03-31": 0.74,
+      "2026-06-30": 0.82
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 39.872524158727984,
+    "net_debt": -13214000.0,
+    "debt_to_assets": 4.253788009938191,
+    "ticker": "MSBI"
   },
-  "fetched_at": "2026-08-14T13:58:57.438596"
+  "fetched_at": "2026-10-15T10:34:16.188133"
 }

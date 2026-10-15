@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "AIZ",
-    "fetch_date": "2026-08-14T13:23:51.884618",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:59:30.911466+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.365501519756837,
+    "revenue_qoq_change": 0.9970468699745716,
+    "eps_yoy_change": 30.482456140350898,
+    "eps_qoq_change": 9.981515711645095,
+    "latest_eps": 5.95,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 8.644548665392856,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.3751780154624433,
+    "free_cash_flow_ttm": 1655600000.0,
+    "operating_cash_flow_ttm": 1870700000.0,
+    "revenue_ttm": 13456200000.0,
+    "net_income_ttm": 1063500000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2208100000.0,
+    "cash": 4592600000.0,
+    "total_assets": 36081400000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3158400000.0,
-      "2025-09-30 00:00:00": 3231500000.0,
-      "2025-12-31 00:00:00": 3350400000.0,
-      "2026-03-31 00:00:00": 3420100000.0,
-      "2026-06-30 00:00:00": 3454200000.0
+      "2025-06-30": 3158400000.0,
+      "2025-09-30": 3231500000.0,
+      "2025-12-31": 3350400000.0,
+      "2026-03-31": 3420100000.0,
+      "2026-06-30": 3454200000.0
     },
-    "revenue_qoq_change": 0.9970468699745623,
-    "revenue_yoy_change": 9.365501519756839,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4.56,
-      "2025-09-30 00:00:00": 5.17,
-      "2025-12-31 00:00:00": 4.41,
-      "2026-03-31 00:00:00": 5.41,
-      "2026-06-30 00:00:00": 5.95
+      "2025-06-30": 4.56,
+      "2025-09-30": 5.17,
+      "2025-12-31": 4.41,
+      "2026-03-31": 5.41,
+      "2026-06-30": 5.95
     },
-    "eps_qoq_change": 9.981515711645102,
-    "eps_yoy_change": 30.482456140350894,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.30362212214444,
+    "net_debt": -2384500000.0,
+    "debt_to_assets": 6.119773622974718,
+    "ticker": "AIZ"
   },
-  "fetched_at": "2026-08-14T13:23:51.885286"
+  "fetched_at": "2026-10-15T09:59:30.915196"
 }

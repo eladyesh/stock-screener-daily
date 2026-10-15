@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "AMAL",
-    "fetch_date": "2026-08-14T13:24:34.850514",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:00:11.989633+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 21.32833846420137,
+    "revenue_qoq_change": 5.727337369906693,
+    "eps_yoy_change": 36.904761904761905,
+    "eps_qoq_change": 36.904761904761905,
+    "latest_eps": 1.15,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 35.42706910958485,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.8499252227062835,
+    "free_cash_flow_ttm": 146610000.0,
+    "operating_cash_flow_ttm": 163901000.0,
+    "revenue_ttm": 361034000.0,
+    "net_income_ttm": 113419000.0,
+    "ebitda_ttm": null,
+    "total_debt": 78794000.0,
+    "cash": 167784000.0,
+    "total_assets": 9411541000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 80883000.0,
-      "2025-09-30 00:00:00": 85011000.0,
-      "2025-12-31 00:00:00": 85071000.0,
-      "2026-03-31 00:00:00": 92818000.0,
-      "2026-06-30 00:00:00": 98134000.0
+      "2025-03-31": null,
+      "2025-06-30": 80883000.0,
+      "2025-09-30": 85011000.0,
+      "2025-12-31": 85071000.0,
+      "2026-03-31": 92818000.0,
+      "2026-06-30": 98134000.0
     },
-    "revenue_qoq_change": 5.727337369906699,
-    "revenue_yoy_change": 21.328338464201376,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.81,
-      "2025-06-30 00:00:00": 0.84,
-      "2025-09-30 00:00:00": 0.88,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.84,
-      "2026-06-30 00:00:00": 1.15
+      "2025-03-31": 0.81,
+      "2025-06-30": 0.84,
+      "2025-09-30": 0.88,
+      "2025-12-31": null,
+      "2026-03-31": 0.84,
+      "2026-06-30": 1.15
     },
-    "eps_qoq_change": 36.9047619047619,
-    "eps_yoy_change": 36.9047619047619,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 40.608363755214185,
+    "net_debt": -88990000.0,
+    "debt_to_assets": 0.8372061493436621,
+    "ticker": "AMAL"
   },
-  "fetched_at": "2026-08-14T13:24:34.851167"
+  "fetched_at": "2026-10-15T10:00:11.993719"
 }

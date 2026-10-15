@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "WAY",
-    "fetch_date": "2026-08-14T14:22:08.820816",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:57:18.631328+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.11168502959497,
+    "revenue_qoq_change": 1.8478752620478378,
+    "eps_yoy_change": 16.666666666666675,
+    "eps_qoq_change": -4.545454545454552,
+    "latest_eps": 0.21,
+    "gross_margin": 69.44199403141951,
+    "operating_margin": 23.7873583713408,
+    "net_margin": 12.783961160432188,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 7.111217320624541,
+    "free_cash_flow_ttm": 246260000.0,
+    "operating_cash_flow_ttm": 292988000.0,
+    "revenue_ttm": 1205737000.0,
+    "net_income_ttm": 134786000.0,
+    "ebitda_ttm": 432417000.0,
+    "total_debt": 1481720000.0,
+    "cash": 191599000.0,
+    "total_assets": 5868761000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 270654000.0,
-      "2025-09-30 00:00:00": 268651000.0,
-      "2025-12-31 00:00:00": 303538000.0,
-      "2026-03-31 00:00:00": 313874000.0,
-      "2026-06-30 00:00:00": 319674000.0
+      "2025-06-30": 270654000.0,
+      "2025-09-30": 268651000.0,
+      "2025-12-31": 303538000.0,
+      "2026-03-31": 313874000.0,
+      "2026-06-30": 319674000.0
     },
-    "revenue_qoq_change": 1.847875262047828,
-    "revenue_yoy_change": 18.11168502959498,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.17,
-      "2025-12-31 00:00:00": 0.1,
-      "2026-03-31 00:00:00": 0.22,
-      "2026-06-30 00:00:00": 0.21
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.17,
+      "2025-12-31": 0.1,
+      "2026-03-31": 0.22,
+      "2026-06-30": 0.21
     },
-    "eps_qoq_change": -4.545454545454549,
-    "eps_yoy_change": 16.666666666666664,
-    "gross_margin": 69.44,
-    "margin_change": 0.36,
-    "operating_margin": 23.79,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.3572657646627846,
+    "operating_margin_yoy_change": -0.1716446361891073,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.42402281757962,
+    "net_debt": 1290121000.0,
+    "net_debt_to_ebitda": 2.983511286559039,
+    "debt_to_assets": 25.247577810716777,
+    "ticker": "WAY"
   },
-  "fetched_at": "2026-08-14T14:22:08.822143"
+  "fetched_at": "2026-10-15T10:57:18.636291"
 }

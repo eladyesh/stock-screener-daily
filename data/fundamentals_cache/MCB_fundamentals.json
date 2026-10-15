@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "MCB",
-    "fetch_date": "2026-08-14T13:56:52.405971",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 76270000.0,
-      "2025-09-30 00:00:00": 79838000.0,
-      "2025-12-31 00:00:00": 88408000.0,
-      "2026-03-31 00:00:00": 88490000.0,
-      "2026-06-30 00:00:00": 93010000.0
-    },
-    "revenue_qoq_change": 5.107921799073342,
-    "revenue_yoy_change": 21.94834141864429,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.76,
-      "2025-09-30 00:00:00": 0.67,
-      "2025-12-31 00:00:00": 2.77,
-      "2026-03-31 00:00:00": 2.92,
-      "2026-06-30 00:00:00": 1.54
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:10.149661+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 21.94834141864428,
+    "revenue_qoq_change": 5.107921799073334,
+    "eps_yoy_change": -12.5,
     "eps_qoq_change": -47.26027397260274,
-    "eps_yoy_change": -12.499999999999998,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.54,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 20.667670142995377,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 17.22470744725191,
+    "free_cash_flow_ttm": 99669000.0,
+    "operating_cash_flow_ttm": 106789000.0,
+    "revenue_ttm": 349746000.0,
+    "net_income_ttm": 86626000.0,
+    "ebitda_ttm": null,
+    "total_debt": 15938000.0,
+    "cash": 239264000.0,
+    "total_assets": 8858683000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 76270000.0,
+      "2025-09-30": 79838000.0,
+      "2025-12-31": 88408000.0,
+      "2026-03-31": 88490000.0,
+      "2026-06-30": 93010000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.76,
+      "2025-09-30": 0.67,
+      "2025-12-31": 2.77,
+      "2026-03-31": 2.92,
+      "2026-06-30": 1.54
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.497538213446326,
+    "net_debt": -223326000.0,
+    "debt_to_assets": 0.1799138765886532,
+    "ticker": "MCB"
   },
-  "fetched_at": "2026-08-14T13:56:52.406638"
+  "fetched_at": "2026-10-15T10:32:10.153704"
 }

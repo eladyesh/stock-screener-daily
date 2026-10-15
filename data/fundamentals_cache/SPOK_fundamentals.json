@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "SPOK",
-    "fetch_date": "2026-08-14T14:14:30.643879",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 35686000.0,
-      "2025-09-30 00:00:00": 33867000.0,
-      "2025-12-31 00:00:00": 33861000.0,
-      "2026-03-31 00:00:00": 33226000.0,
-      "2026-06-30 00:00:00": 35011000.0
-    },
-    "revenue_qoq_change": 5.3722988021429,
-    "revenue_yoy_change": -1.8914980664686432,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.15,
-      "2025-12-31 00:00:00": 0.14,
-      "2026-03-31 00:00:00": 0.09,
-      "2026-06-30 00:00:00": 0.2
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:49:40.205703+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -1.8914980664686443,
+    "revenue_qoq_change": 5.372298802142894,
+    "eps_yoy_change": -9.090909090909083,
     "eps_qoq_change": 122.22222222222223,
-    "eps_yoy_change": -9.090909090909086,
-    "gross_margin": 80.47,
-    "margin_change": 3.74,
-    "operating_margin": 19.91,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.2,
+    "gross_margin": 80.47470794893033,
+    "operating_margin": 19.90802890520122,
+    "net_margin": 11.767730141955385,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.6086235193524256,
+    "free_cash_flow_ttm": 25407000.0,
+    "operating_cash_flow_ttm": 28581000.0,
+    "revenue_ttm": 135965000.0,
+    "net_income_ttm": 12240000.0,
+    "ebitda_ttm": 22121000.0,
+    "total_debt": 5746000.0,
+    "cash": 16592000.0,
+    "total_assets": 195611000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 35686000.0,
+      "2025-09-30": 33867000.0,
+      "2025-12-31": 33861000.0,
+      "2026-03-31": 33226000.0,
+      "2026-06-30": 35011000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.15,
+      "2025-12-31": 0.14,
+      "2026-03-31": 0.09,
+      "2026-06-30": 0.2
+    },
+    "quarterly_inventory": {},
+    "margin_change": 3.736611277648805,
+    "operating_margin_yoy_change": 4.742417741159301,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 18.686426653918286,
+    "net_debt": -10846000.0,
+    "net_debt_to_ebitda": -0.4903033316757832,
+    "debt_to_assets": 2.9374626171329834,
+    "ticker": "SPOK"
   },
-  "fetched_at": "2026-08-14T14:14:30.645192"
+  "fetched_at": "2026-10-15T10:49:40.210556"
 }

@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "NMIH",
-    "fetch_date": "2026-08-14T14:00:58.407767",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:36:13.169823+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.120658997922646,
+    "revenue_qoq_change": 2.4068674206295215,
+    "eps_yoy_change": 14.049586776859503,
+    "eps_qoq_change": 7.8125,
+    "latest_eps": 1.38,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 56.30285644336344,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.3700918542444724,
+    "free_cash_flow_ttm": 441605000.0,
+    "operating_cash_flow_ttm": 448513000.0,
+    "revenue_ttm": 730781000.0,
+    "net_income_ttm": 395334000.0,
+    "ebitda_ttm": null,
+    "total_debt": 418021000.0,
+    "cash": 627265000.0,
+    "total_assets": 3997375000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 173779000.0,
-      "2025-09-30 00:00:00": 178679000.0,
-      "2025-12-31 00:00:00": 180736000.0,
-      "2026-03-31 00:00:00": 183475000.0,
-      "2026-06-30 00:00:00": 187891000.0
+      "2025-06-30": 173779000.0,
+      "2025-09-30": 178679000.0,
+      "2025-12-31": 180736000.0,
+      "2026-03-31": 183475000.0,
+      "2026-06-30": 187891000.0
     },
-    "revenue_qoq_change": 2.4068674206295135,
-    "revenue_yoy_change": 8.120658997922648,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.21,
-      "2025-09-30 00:00:00": 1.22,
-      "2025-12-31 00:00:00": 1.2,
-      "2026-03-31 00:00:00": 1.28,
-      "2026-06-30 00:00:00": 1.38
+      "2025-06-30": 1.21,
+      "2025-09-30": 1.22,
+      "2025-12-31": 1.2,
+      "2026-03-31": 1.28,
+      "2026-06-30": 1.38
     },
-    "eps_qoq_change": 7.812499999999989,
-    "eps_yoy_change": 14.049586776859499,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 60.42918466681536,
+    "net_debt": -209244000.0,
+    "debt_to_assets": 10.457387660652303,
+    "ticker": "NMIH"
   },
-  "fetched_at": "2026-08-14T14:00:58.408456"
+  "fetched_at": "2026-10-15T10:36:13.173741"
 }

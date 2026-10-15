@@ -1,30 +1,51 @@
 {
   "data": {
-    "ticker": "GS",
-    "fetch_date": "2026-08-14T13:46:58.340126",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:22:21.071647+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 14.37392112601248,
+    "revenue_qoq_change": 28.043704474505727,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 25.267665952890805,
+    "latest_eps": 17.55,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.68125616764381,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -41922000000.0,
+    "operating_cash_flow_ttm": -39792000000.0,
+    "revenue_ttm": 60448000000.0,
+    "net_income_ttm": 18068000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 434737000000.0,
+    "cash": 179530000000.0,
+    "total_assets": 2060180000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 15062000000.0,
-      "2025-06-30 00:00:00": 14583000000.0,
-      "2025-09-30 00:00:00": 15184000000.0,
-      "2025-12-31 00:00:00": 13454000000.0,
-      "2026-03-31 00:00:00": 17227000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-03-31": 15062000000.0,
+      "2025-06-30": 14583000000.0,
+      "2025-09-30": 15184000000.0,
+      "2025-12-31": 13454000000.0,
+      "2026-03-31": 17227000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 10.91,
-      "2025-09-30 00:00:00": 12.25,
-      "2025-12-31 00:00:00": 14.01,
-      "2026-03-31 00:00:00": 17.55,
-      "2026-06-30 00:00:00": 20.98
+      "2025-03-31": null,
+      "2025-06-30": 10.91,
+      "2025-09-30": 12.25,
+      "2025-12-31": 14.01,
+      "2026-03-31": 17.55
     },
-    "eps_qoq_change": 19.54415954415954,
-    "eps_yoy_change": 92.30064161319889,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -69.35217046056114,
+    "net_debt": 255207000000.0,
+    "debt_to_assets": 21.101894009261326,
+    "ticker": "GS"
   },
-  "fetched_at": "2026-08-14T13:46:58.340841"
+  "fetched_at": "2026-10-15T10:22:21.075493"
 }

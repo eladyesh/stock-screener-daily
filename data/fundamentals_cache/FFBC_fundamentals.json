@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "FFBC",
-    "fetch_date": "2026-08-14T13:42:58.121876",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 226332000.0,
-      "2025-09-30 00:00:00": 234011000.0,
-      "2025-12-31 00:00:00": 238762000.0,
-      "2026-03-31 00:00:00": 262624000.0,
-      "2026-06-30 00:00:00": 260979000.0
-    },
-    "revenue_qoq_change": -0.6263707810405752,
-    "revenue_yoy_change": 15.308043051800011,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.73,
-      "2025-09-30 00:00:00": 0.75,
-      "2025-12-31 00:00:00": 0.64,
-      "2026-03-31 00:00:00": 0.71,
-      "2026-06-30 00:00:00": 0.73
-    },
-    "eps_qoq_change": 2.8169014084507067,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:18:26.100342+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.308043051800002,
+    "revenue_qoq_change": -0.626370781040575,
     "eps_yoy_change": 0.0,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 2.8169014084507005,
+    "latest_eps": 0.73,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.295843726889903,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 9.604013072841333,
+    "free_cash_flow_ttm": 756428000.0,
+    "operating_cash_flow_ttm": 792280000.0,
+    "revenue_ttm": 996376000.0,
+    "net_income_ttm": 285217000.0,
+    "ebitda_ttm": null,
+    "total_debt": 992082000.0,
+    "cash": 785555000.0,
+    "total_assets": 22439679000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 226332000.0,
+      "2025-09-30": 234011000.0,
+      "2025-12-31": 238762000.0,
+      "2026-03-31": 262624000.0,
+      "2026-06-30": 260979000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.73,
+      "2025-09-30": 0.75,
+      "2025-12-31": 0.64,
+      "2026-03-31": 0.71,
+      "2026-06-30": 0.73
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 75.91792656587472,
+    "net_debt": 206527000.0,
+    "debt_to_assets": 4.421106023842855,
+    "ticker": "FFBC"
   },
-  "fetched_at": "2026-08-14T13:42:58.122605"
+  "fetched_at": "2026-10-15T10:18:26.104213"
 }

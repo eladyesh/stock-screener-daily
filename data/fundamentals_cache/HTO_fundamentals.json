@@ -1,29 +1,50 @@
 {
   "data": {
-    "ticker": "HTO",
-    "fetch_date": "2026-08-13T13:54:40.426832",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 167599000.0,
-      "2025-06-30 00:00:00": 198255000.0,
-      "2025-12-31 00:00:00": 194186000.0,
-      "2026-03-31 00:00:00": 183293000.0,
-      "2026-06-30 00:00:00": 210474000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:38.990670+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.1632745706287295,
     "revenue_qoq_change": 14.8292624377363,
-    "revenue_yoy_change": 25.58189488004105,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.49,
-      "2025-06-30 00:00:00": 0.71,
-      "2025-12-31 00:00:00": 0.45,
-      "2026-03-31 00:00:00": 0.49,
-      "2026-06-30 00:00:00": 0.62
+    "eps_yoy_change": -12.676056338028163,
+    "eps_qoq_change": 26.530612244897966,
+    "latest_eps": 0.62,
+    "gross_margin": 55.84442734019404,
+    "operating_margin": 20.31319782966067,
+    "net_margin": 12.632914279198381,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 22.962610041569008,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 1891491000.0,
+    "cash": 104102000.0,
+    "total_assets": 5437264000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 167599000.0,
+      "2025-06-30": 198255000.0,
+      "2025-12-31": 194186000.0,
+      "2026-03-31": 183293000.0,
+      "2026-06-30": 210474000.0
     },
-    "eps_qoq_change": 26.53061224489796,
-    "eps_yoy_change": 26.53061224489796,
-    "gross_margin": 55.84,
-    "margin_change": -3.35,
-    "operating_margin": 20.31,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": 0.49,
+      "2025-06-30": 0.71,
+      "2025-12-31": 0.45,
+      "2026-03-31": 0.49,
+      "2026-06-30": 0.62
+    },
+    "quarterly_inventory": {},
+    "margin_change": -3.3465946846514285,
+    "operating_margin_yoy_change": -1.8123475538101133,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 1787389000.0,
+    "debt_to_assets": 34.787551239005495,
+    "ticker": "HTO"
   },
-  "fetched_at": "2026-08-13T13:54:40.428119"
+  "fetched_at": "2026-10-15T10:24:38.995374"
 }

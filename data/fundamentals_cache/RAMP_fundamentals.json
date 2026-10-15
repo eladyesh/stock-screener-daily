@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "RAMP",
-    "fetch_date": "2026-08-14T14:08:30.576268",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 194822000.0,
-      "2025-09-30 00:00:00": 199829000.0,
-      "2025-12-31 00:00:00": 212197000.0,
-      "2026-03-31 00:00:00": 206092000.0,
-      "2026-06-30 00:00:00": 213986000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:41.132408+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.836671423145237,
     "revenue_qoq_change": 3.8303282029384933,
-    "revenue_yoy_change": 9.83667142314523,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.12,
-      "2025-09-30 00:00:00": 0.42,
-      "2025-12-31 00:00:00": 0.62,
-      "2026-03-31 00:00:00": 1.12,
-      "2026-06-30 00:00:00": 0.28
-    },
+    "eps_yoy_change": 133.33333333333334,
     "eps_qoq_change": -75.0,
-    "eps_yoy_change": 133.33333333333337,
-    "gross_margin": 70.54,
-    "margin_change": -0.08,
-    "operating_margin": 12.49,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.28,
+    "gross_margin": 70.53872683259652,
+    "operating_margin": 12.489602123503406,
+    "net_margin": 8.185114914059799,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.320435779472811,
+    "free_cash_flow_ttm": 200025000.0,
+    "operating_cash_flow_ttm": 201768000.0,
+    "revenue_ttm": 832104000.0,
+    "net_income_ttm": 155720000.0,
+    "ebitda_ttm": 123738000.0,
+    "total_debt": 33118000.0,
+    "cash": 371023000.0,
+    "total_assets": 1278811000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 194822000.0,
+      "2025-09-30": 199829000.0,
+      "2025-12-31": 212197000.0,
+      "2026-03-31": 206092000.0,
+      "2026-06-30": 213986000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.12,
+      "2025-09-30": 0.42,
+      "2025-12-31": 0.62,
+      "2026-03-31": 1.12,
+      "2026-06-30": 0.28
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.08216092626844329,
+    "operating_margin_yoy_change": 8.566020597803023,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.03846153846154,
+    "net_debt": -337905000.0,
+    "net_debt_to_ebitda": -2.7308102603888864,
+    "debt_to_assets": 2.589749384389093,
+    "ticker": "RAMP"
   },
-  "fetched_at": "2026-08-14T14:08:30.577615"
+  "fetched_at": "2026-10-15T10:43:41.137291"
 }

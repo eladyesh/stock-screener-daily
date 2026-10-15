@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "TWLO",
-    "fetch_date": "2026-08-14T14:18:53.779122",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1228425000.0,
-      "2025-09-30 00:00:00": 1300402000.0,
-      "2025-12-31 00:00:00": 1365930000.0,
-      "2026-03-31 00:00:00": 1406907000.0,
-      "2026-06-30 00:00:00": 1499089000.0
-    },
-    "revenue_qoq_change": 6.552103301781852,
-    "revenue_yoy_change": 22.033416773510798,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.14,
-      "2025-09-30 00:00:00": 0.23,
-      "2025-12-31 00:00:00": -0.3,
-      "2026-03-31 00:00:00": 0.57,
-      "2026-06-30 00:00:00": 6.68
-    },
-    "eps_qoq_change": 1071.9298245614034,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:06.719565+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 22.033416773510805,
+    "revenue_qoq_change": 6.552103301781842,
     "eps_yoy_change": 4671.428571428571,
-    "gross_margin": 48.42,
-    "margin_change": -0.21,
-    "operating_margin": 7.83,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 1071.9298245614036,
+    "latest_eps": 6.68,
+    "gross_margin": 48.42047403456366,
+    "operating_margin": 7.825886254918821,
+    "net_margin": 71.19050303217487,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.010274794520070962,
+    "free_cash_flow_ttm": 988610000.0,
+    "operating_cash_flow_ttm": 1060709000.0,
+    "revenue_ttm": 5572328000.0,
+    "net_income_ttm": 1148742000.0,
+    "ebitda_ttm": 499322000.0,
+    "total_debt": 1065519000.0,
+    "cash": 2656330000.0,
+    "total_assets": 10838627000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1228425000.0,
+      "2025-09-30": 1300402000.0,
+      "2025-12-31": 1365930000.0,
+      "2026-03-31": 1406907000.0,
+      "2026-06-30": 1499089000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.14,
+      "2025-09-30": 0.23,
+      "2025-12-31": -0.3,
+      "2026-03-31": 0.57,
+      "2026-06-30": 6.68
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.21415497787284465,
+    "operating_margin_yoy_change": 4.814794816695079,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.74141794955358,
+    "net_debt": -1590811000.0,
+    "net_debt_to_ebitda": -3.185942137538502,
+    "debt_to_assets": 9.830756238774525,
+    "ticker": "TWLO"
   },
-  "fetched_at": "2026-08-14T14:18:53.780487"
+  "fetched_at": "2026-10-15T10:54:06.724425"
 }

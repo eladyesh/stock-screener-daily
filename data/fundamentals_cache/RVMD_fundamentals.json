@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "RVMD",
-    "fetch_date": "2026-08-14T14:10:45.470104",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:45:57.310085+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -1.31,
-      "2025-09-30 00:00:00": -1.61,
-      "2025-12-31 00:00:00": -1.86,
-      "2026-03-31 00:00:00": -2.29,
-      "2026-06-30 00:00:00": -3.06
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -3.06,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 11.830484151914877,
+    "free_cash_flow_ttm": -1587834000.0,
+    "operating_cash_flow_ttm": -1577198000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -1768285000.0,
+    "ebitda_ttm": -1686333000.0,
+    "total_debt": 641928000.0,
+    "cash": 3937969000.0,
+    "total_assets": 4323270000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -33.624454148471614,
-    "eps_yoy_change": -133.58778625954199,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -1.31,
+      "2025-09-30": -1.61,
+      "2025-12-31": -1.86,
+      "2026-03-31": -2.29,
+      "2026-06-30": -3.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -3296041000.0,
+    "debt_to_assets": 14.848205178024967,
+    "ticker": "RVMD"
   },
-  "fetched_at": "2026-08-14T14:10:45.471154"
+  "fetched_at": "2026-10-15T10:45:57.314942"
 }

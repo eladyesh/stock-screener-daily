@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "BAND",
-    "fetch_date": "2026-09-29T14:11:51.507392",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 180013000.0,
-      "2025-09-30 00:00:00": 191895000.0,
-      "2025-12-31 00:00:00": 207668000.0,
-      "2026-03-31 00:00:00": 208784000.0,
-      "2026-06-30 00:00:00": 219897000.0
-    },
-    "revenue_qoq_change": 5.32272587937773,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:33.011469+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 22.156177609394877,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.16,
-      "2025-09-30 00:00:00": -0.04,
-      "2025-12-31 00:00:00": -0.1,
-      "2026-03-31 00:00:00": -0.08,
-      "2026-06-30 00:00:00": 0.07
+    "revenue_qoq_change": 5.322725879377721,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": 0.07,
+    "gross_margin": 35.71808619490034,
+    "operating_margin": -2.0705148319440467,
+    "net_margin": 1.085508215209848,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 12.05010067242085,
+    "free_cash_flow_ttm": 67371000.0,
+    "operating_cash_flow_ttm": 98393000.0,
+    "revenue_ttm": 828244000.0,
+    "net_income_ttm": 2264000.0,
+    "ebitda_ttm": 52011000.0,
+    "total_debt": 554421000.0,
+    "cash": 174357000.0,
+    "total_assets": 1101438000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 180013000.0,
+      "2025-09-30": 191895000.0,
+      "2025-12-31": 207668000.0,
+      "2026-03-31": 208784000.0,
+      "2026-06-30": 219897000.0
     },
-    "eps_qoq_change": 187.50000000000003,
-    "eps_yoy_change": 143.75,
-    "gross_margin": 35.72,
-    "margin_change": -1.6,
-    "operating_margin": -2.07,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.16,
+      "2025-09-30": -0.04,
+      "2025-12-31": -0.1,
+      "2026-03-31": -0.08,
+      "2026-06-30": 0.07
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.599907521093229,
+    "operating_margin_yoy_change": 0.01155701842231549,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 8.134197168950212,
+    "net_debt": 380064000.0,
+    "net_debt_to_ebitda": 7.307377285574206,
+    "debt_to_assets": 50.33610607224374,
+    "ticker": "BAND"
   },
-  "fetched_at": "2026-09-29T14:11:51.509034"
+  "fetched_at": "2026-10-15T10:03:33.016464"
 }

@@ -1,39 +1,56 @@
 {
   "data": {
-    "ticker": "SOTK",
-    "fetch_date": "2026-10-03T13:27:36.870226",
-    "quarterly_revenue": {
-      "2025-05-31 00:00:00": 5132773.0,
-      "2025-08-31 00:00:00": 5162696.0,
-      "2025-11-30 00:00:00": 5004370.0,
-      "2026-02-28 00:00:00": 5609476.0,
-      "2026-05-31 00:00:00": 5661159.0
-    },
-    "revenue_qoq_change": 0.921351655662668,
-    "revenue_yoy_change": 10.294357455511864,
-    "quarterly_eps": {
-      "2025-05-31 00:00:00": 0.03,
-      "2025-08-31 00:00:00": 0.03,
-      "2025-11-30 00:00:00": 0.02,
-      "2026-02-28 00:00:00": NaN,
-      "2026-05-31 00:00:00": 0.05
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:49:28.253721+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 10.29435745551186,
+    "revenue_qoq_change": 0.9213516556626722,
+    "eps_yoy_change": 66.66666666666667,
     "eps_qoq_change": null,
-    "eps_yoy_change": 66.66666666666669,
-    "gross_margin": 56.77,
-    "margin_change": 6.97,
-    "operating_margin": 15.85,
-    "quarterly_inventory": {
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 4749331.0,
-      "2025-08-31 00:00:00": 4152027.0,
-      "2025-11-30 00:00:00": 3656898.0,
-      "2026-02-28 00:00:00": 3923350.0,
-      "2026-05-31 00:00:00": 4063132.0
+    "latest_eps": 0.05,
+    "gross_margin": 56.77137844035117,
+    "operating_margin": 15.847638266298473,
+    "net_margin": 13.092160103611292,
+    "inventory_yoy_change": -14.448329670010363,
+    "inventory_qoq_change": 3.562822587839465,
+    "shares_yoy_change": -0.07162561443728732,
+    "free_cash_flow_ttm": 5854840.0,
+    "operating_cash_flow_ttm": 6108670.0,
+    "revenue_ttm": 21437701.0,
+    "net_income_ttm": 2061864.0,
+    "ebitda_ttm": 2872986.0,
+    "total_debt": null,
+    "cash": 16651947.0,
+    "total_assets": 25864829.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-05-31": 5132773.0,
+      "2025-08-31": 5162696.0,
+      "2025-11-30": 5004370.0,
+      "2026-02-28": 5609476.0,
+      "2026-05-31": 5661159.0
     },
-    "inventory_qoq_change": 3.56,
-    "inventory_to_sales_ratio": 0.718,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-05-31": 0.03,
+      "2025-08-31": 0.03,
+      "2025-11-30": 0.02,
+      "2026-02-28": null,
+      "2026-05-31": 0.05
+    },
+    "quarterly_inventory": {
+      "2025-02-28": null,
+      "2025-05-31": 4749331.0,
+      "2025-08-31": 4152027.0,
+      "2025-11-30": 3656898.0,
+      "2026-02-28": 3923350.0,
+      "2026-05-31": 4063132.0
+    },
+    "margin_change": 6.972609357463568,
+    "operating_margin_yoy_change": 6.430350574051026,
+    "inventory_to_sales_ratio": 0.7177208765908183,
+    "fcf_margin": 27.310950927060695,
+    "ticker": "SOTK"
   },
-  "fetched_at": "2026-10-03T13:27:36.872163"
+  "fetched_at": "2026-10-15T10:49:28.258613"
 }

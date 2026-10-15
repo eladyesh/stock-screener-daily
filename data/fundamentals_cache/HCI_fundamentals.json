@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "HCI",
-    "fetch_date": "2026-08-13T13:53:11.291694",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:23:10.140646+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.162773933102654,
+    "revenue_qoq_change": 1.4481550619639405,
+    "eps_yoy_change": 8.108108108108114,
+    "eps_qoq_change": 2.752293577981635,
+    "latest_eps": 5.6,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.910265555591582,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.717124055770447,
+    "free_cash_flow_ttm": 409367000.0,
+    "operating_cash_flow_ttm": 411371000.0,
+    "revenue_ttm": 952689000.0,
+    "net_income_ttm": 310365000.0,
+    "ebitda_ttm": null,
+    "total_debt": 67465000.0,
+    "cash": 942688000.0,
+    "total_assets": 2648459000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 221952000.0,
-      "2025-09-30 00:00:00": 216401000.0,
-      "2025-12-31 00:00:00": 246354000.0,
-      "2026-03-31 00:00:00": 243206000.0,
-      "2026-06-30 00:00:00": 246728000.0
+      "2025-06-30": 221952000.0,
+      "2025-09-30": 216401000.0,
+      "2025-12-31": 246354000.0,
+      "2026-03-31": 243206000.0,
+      "2026-06-30": 246728000.0
     },
-    "revenue_qoq_change": 1.4481550619639318,
-    "revenue_yoy_change": 11.162773933102653,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 5.18,
-      "2025-09-30 00:00:00": 4.9,
-      "2025-12-31 00:00:00": 7.25,
-      "2026-03-31 00:00:00": 5.45,
-      "2026-06-30 00:00:00": 5.6
+      "2025-06-30": 5.18,
+      "2025-09-30": 4.9,
+      "2025-12-31": 7.25,
+      "2026-03-31": 5.45,
+      "2026-06-30": 5.6
     },
-    "eps_qoq_change": 2.7522935779816415,
-    "eps_yoy_change": 8.108108108108107,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 42.969636471083426,
+    "net_debt": -875223000.0,
+    "debt_to_assets": 2.5473303532355986,
+    "ticker": "HCI"
   },
-  "fetched_at": "2026-08-13T13:53:11.292350"
+  "fetched_at": "2026-10-15T10:23:10.144550"
 }

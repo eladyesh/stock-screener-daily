@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "FRSH",
-    "fetch_date": "2026-08-14T13:44:18.054446",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:44.998185+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.975825442890779,
+    "revenue_qoq_change": 3.824469783452078,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": 0.01,
+    "gross_margin": 84.79380900424219,
+    "operating_margin": 5.515277385761889,
+    "net_margin": 1.3644961390530674,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.284120434051655,
+    "free_cash_flow_ttm": 220559000.0,
+    "operating_cash_flow_ttm": 246718000.0,
+    "revenue_ttm": 903868000.0,
+    "net_income_ttm": 185195000.0,
+    "ebitda_ttm": 66651000.0,
+    "total_debt": 34594000.0,
+    "cash": 664107000.0,
+    "total_assets": 1490468000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 204678000.0,
-      "2025-09-30 00:00:00": 215118000.0,
-      "2025-12-31 00:00:00": 222740000.0,
-      "2026-03-31 00:00:00": 228633000.0,
-      "2026-06-30 00:00:00": 237377000.0
+      "2025-06-30": 204678000.0,
+      "2025-09-30": 215118000.0,
+      "2025-12-31": 222740000.0,
+      "2026-03-31": 228633000.0,
+      "2026-06-30": 237377000.0
     },
-    "revenue_qoq_change": 3.824469783452083,
-    "revenue_yoy_change": 15.975825442890784,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.01,
-      "2025-09-30 00:00:00": -0.02,
-      "2025-12-31 00:00:00": 0.67,
-      "2026-03-31 00:00:00": -0.02,
-      "2026-06-30 00:00:00": 0.01
+      "2025-06-30": -0.01,
+      "2025-09-30": -0.02,
+      "2025-12-31": 0.67,
+      "2026-03-31": -0.02,
+      "2026-06-30": 0.01
     },
-    "eps_qoq_change": 150.0,
-    "eps_yoy_change": 200.0,
-    "gross_margin": 84.79,
-    "margin_change": -0.03,
-    "operating_margin": 5.52,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.03427792983994493,
+    "operating_margin_yoy_change": 9.744359162992467,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.401682546566533,
+    "net_debt": -629513000.0,
+    "net_debt_to_ebitda": -9.444914554920405,
+    "debt_to_assets": 2.321015949352821,
+    "ticker": "FRSH"
   },
-  "fetched_at": "2026-08-14T13:44:18.055780"
+  "fetched_at": "2026-10-15T10:19:45.003067"
 }

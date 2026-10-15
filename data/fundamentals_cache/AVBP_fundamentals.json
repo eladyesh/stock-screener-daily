@@ -1,27 +1,52 @@
 {
   "data": {
-    "ticker": "AVBP",
-    "fetch_date": "2026-08-13T13:32:45.799534",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:02:54.782617+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -1.9,
-      "2025-06-30 00:00:00": -0.9,
-      "2025-09-30 00:00:00": -0.83,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.96
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": 49.473684210526315,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "latest_eps": -1.05,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 35.995834899012216,
+    "free_cash_flow_ttm": -147929000.0,
+    "operating_cash_flow_ttm": -147929000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -163735000.0,
+    "ebitda_ttm": -175941000.0,
+    "total_debt": 351000.0,
+    "cash": 373119000.0,
+    "total_assets": 394718000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -1.9,
+      "2025-06-30": -0.9,
+      "2025-09-30": -0.83,
+      "2025-12-31": null,
+      "2026-03-31": -0.96,
+      "2026-06-30": -1.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -372768000.0,
+    "debt_to_assets": 0.08892424465061133,
+    "ticker": "AVBP"
   },
-  "fetched_at": "2026-08-13T13:32:45.800474"
+  "fetched_at": "2026-10-15T10:02:54.787470"
 }

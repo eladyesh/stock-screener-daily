@@ -1,30 +1,52 @@
 {
   "data": {
-    "ticker": "SAN",
-    "fetch_date": "2026-08-14T14:11:14.640896",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 14332000000.0,
-      "2025-09-30 00:00:00": 14177000000.0,
-      "2025-12-31 00:00:00": 14978000000.0,
-      "2026-03-31 00:00:00": 15444000000.0,
-      "2026-06-30 00:00:00": 15519000000.0
-    },
-    "revenue_qoq_change": 0.4856254856254856,
-    "revenue_yoy_change": 8.282165782863522,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.21,
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": 0.24,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": NaN
-    },
-    "eps_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:26.253761+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.282165782863515,
+    "revenue_qoq_change": 0.485625485625496,
     "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 22.668986403763128,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 60118000000.0,
+    "net_income_ttm": 16241000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 348067000000.0,
+    "cash": 267562000000.0,
+    "total_assets": 1954465000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 14332000000.0,
+      "2025-09-30": 14177000000.0,
+      "2025-12-31": 14978000000.0,
+      "2026-03-31": 15444000000.0,
+      "2026-06-30": 15519000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.21,
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.22,
+      "2025-12-31": 0.24,
+      "2026-03-31": 0.36,
+      "2026-06-30": null
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 80505000000.0,
+    "debt_to_assets": 17.80881213017373,
+    "ticker": "SAN"
   },
-  "fetched_at": "2026-08-14T14:11:14.641650"
+  "fetched_at": "2026-10-15T10:46:26.256130"
 }

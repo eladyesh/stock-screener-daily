@@ -1,29 +1,53 @@
 {
   "data": {
-    "ticker": "IDYA",
-    "fetch_date": "2026-08-13T13:55:31.422592",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 207834000.0,
-      "2025-12-31 00:00:00": 10876000.0,
-      "2026-03-31 00:00:00": 6560000.0,
-      "2026-06-30 00:00:00": 8857000.0
-    },
-    "revenue_qoq_change": 35.015243902439025,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:25:31.144657+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.88,
-      "2025-09-30 00:00:00": 1.33,
-      "2025-12-31 00:00:00": -0.94,
-      "2026-03-31 00:00:00": -1.11,
-      "2026-06-30 00:00:00": -1.22
+    "revenue_qoq_change": 35.01524390243902,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.22,
+    "gross_margin": null,
+    "operating_margin": -1380.72710850175,
+    "net_margin": -1269.6398329005308,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.056929884989735,
+    "free_cash_flow_ttm": -113871000.0,
+    "operating_cash_flow_ttm": -111663000.0,
+    "revenue_ttm": 234127000.0,
+    "net_income_ttm": -175020000.0,
+    "ebitda_ttm": -212462000.0,
+    "total_debt": 29307000.0,
+    "cash": 828955000.0,
+    "total_assets": 1309699000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 207834000.0,
+      "2025-12-31": 10876000.0,
+      "2026-03-31": 6560000.0,
+      "2026-06-30": 8857000.0
     },
-    "eps_qoq_change": -9.909909909909898,
-    "eps_yoy_change": -38.63636363636363,
-    "operating_margin": -1380.73,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.88,
+      "2025-09-30": 1.33,
+      "2025-12-31": -0.94,
+      "2026-03-31": -1.11,
+      "2026-06-30": -1.22
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -48.6364238212594,
+    "net_debt": -799648000.0,
+    "debt_to_assets": 2.2376897287086575,
+    "ticker": "IDYA"
   },
-  "fetched_at": "2026-08-13T13:55:31.423612"
+  "fetched_at": "2026-10-15T10:25:31.149666"
 }

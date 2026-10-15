@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "KB",
-    "fetch_date": "2026-08-13T13:58:00.731127",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:27:58.293667+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.814124897435676,
+    "revenue_qoq_change": 5.987607154648122,
+    "eps_yoy_change": 20.65717415115005,
+    "eps_qoq_change": 7.578124999999991,
+    "latest_eps": 5508.0,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.62665869201784,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.065179299009536,
+    "free_cash_flow_ttm": 5905262000000.0,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 22566619000000.0,
+    "net_income_ttm": 6282059000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 140387507000000.0,
+    "cash": 44618344000000.0,
+    "total_assets": 866889205000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 5320913000000.0,
-      "2025-06-30 00:00:00": 5412457000000.0,
-      "2025-09-30 00:00:00": 5036164000000.0,
-      "2025-12-31 00:00:00": 5663373000000.0,
-      "2026-03-31 00:00:00": 5761066000000.0
+      "2025-03-31": null,
+      "2025-06-30": 5412457000000.0,
+      "2025-09-30": 5036164000000.0,
+      "2025-12-31": 5663373000000.0,
+      "2026-03-31": 5761066000000.0,
+      "2026-06-30": 6106016000000.0
     },
-    "revenue_qoq_change": 1.7249967466384433,
-    "revenue_yoy_change": 8.272132996724434,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 4384.0,
-      "2025-06-30 00:00:00": 4565.0,
-      "2025-09-30 00:00:00": 4458.0,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 5120.0
+      "2025-03-31": 4384.0,
+      "2025-06-30": 4565.0,
+      "2025-09-30": 4458.0,
+      "2025-12-31": null,
+      "2026-03-31": 5120.0,
+      "2026-06-30": 5508.0
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": 16.78832116788321,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.16812912913538,
+    "net_debt": 95769163000000.0,
+    "debt_to_assets": 16.194400182893038,
+    "ticker": "KB"
   },
-  "fetched_at": "2026-08-13T13:58:00.731813"
+  "fetched_at": "2026-10-15T10:27:58.296913"
 }

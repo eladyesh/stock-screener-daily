@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "VOYA",
-    "fetch_date": "2026-08-14T14:21:18.676047",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1926000000.0,
-      "2025-09-30 00:00:00": 2074000000.0,
-      "2025-12-31 00:00:00": 2050000000.0,
-      "2026-03-31 00:00:00": 1993000000.0,
-      "2026-06-30 00:00:00": 1901000000.0
-    },
-    "revenue_qoq_change": -4.616156547917712,
-    "revenue_yoy_change": -1.2980269989615785,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.66,
-      "2025-09-30 00:00:00": 1.8,
-      "2025-12-31 00:00:00": 1.41,
-      "2026-03-31 00:00:00": 1.75,
-      "2026-06-30 00:00:00": 0.97
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:31.650458+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -1.2980269989615767,
+    "revenue_qoq_change": -4.616156547917716,
+    "eps_yoy_change": -41.56626506024096,
     "eps_qoq_change": -44.57142857142857,
-    "eps_yoy_change": -41.566265060240966,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.97,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 4.944765912677538,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.925543824968537,
+    "free_cash_flow_ttm": 1192000000.0,
+    "operating_cash_flow_ttm": 1192000000.0,
+    "revenue_ttm": 8018000000.0,
+    "net_income_ttm": 608000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 3005000000.0,
+    "cash": 27670000000.0,
+    "total_assets": 182946000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1926000000.0,
+      "2025-09-30": 2074000000.0,
+      "2025-12-31": 2050000000.0,
+      "2026-03-31": 1993000000.0,
+      "2026-06-30": 1901000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.66,
+      "2025-09-30": 1.8,
+      "2025-12-31": 1.41,
+      "2026-03-31": 1.75,
+      "2026-06-30": 0.97
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 14.866550261910701,
+    "net_debt": -24665000000.0,
+    "debt_to_assets": 1.6425611929203152,
+    "ticker": "VOYA"
   },
-  "fetched_at": "2026-08-14T14:21:18.676759"
+  "fetched_at": "2026-10-15T10:56:31.654488"
 }

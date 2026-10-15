@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "CFG",
-    "fetch_date": "2026-08-13T13:38:47.946680",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:56.041177+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.07658321060383,
+    "revenue_qoq_change": 5.30442804428044,
+    "eps_yoy_change": 41.30434782608696,
+    "eps_qoq_change": 15.044247787610644,
+    "latest_eps": 1.3,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 25.711782742006132,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.258196523462719,
+    "free_cash_flow_ttm": 2353000000.0,
+    "operating_cash_flow_ttm": 2501000000.0,
+    "revenue_ttm": 8726000000.0,
+    "net_income_ttm": 2126000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 16349000000.0,
+    "cash": 13867000000.0,
+    "total_assets": 233836000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2037000000.0,
-      "2025-09-30 00:00:00": 2118000000.0,
-      "2025-12-31 00:00:00": 2157000000.0,
-      "2026-03-31 00:00:00": 2168000000.0,
-      "2026-06-30 00:00:00": 2283000000.0
+      "2025-06-30": 2037000000.0,
+      "2025-09-30": 2118000000.0,
+      "2025-12-31": 2157000000.0,
+      "2026-03-31": 2168000000.0,
+      "2026-06-30": 2283000000.0
     },
-    "revenue_qoq_change": 5.304428044280443,
-    "revenue_yoy_change": 12.076583210603829,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.92,
-      "2025-09-30 00:00:00": 1.05,
-      "2025-12-31 00:00:00": 1.13,
-      "2026-03-31 00:00:00": 1.13,
-      "2026-06-30 00:00:00": 1.3
+      "2025-06-30": 0.92,
+      "2025-09-30": 1.05,
+      "2025-12-31": 1.13,
+      "2026-03-31": 1.13,
+      "2026-06-30": 1.3
     },
-    "eps_qoq_change": 15.044247787610635,
-    "eps_yoy_change": 41.30434782608695,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.965390786156313,
+    "net_debt": 2482000000.0,
+    "debt_to_assets": 6.991652269111685,
+    "ticker": "CFG"
   },
-  "fetched_at": "2026-08-13T13:38:47.947309"
+  "fetched_at": "2026-10-15T10:08:56.044813"
 }

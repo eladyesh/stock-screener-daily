@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "SRCE",
-    "fetch_date": "2026-08-14T14:14:41.843915",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:49:51.258847+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.156666574287065,
+    "revenue_qoq_change": 4.438787685943835,
+    "eps_yoy_change": 29.13907284768211,
+    "eps_qoq_change": 19.631901840490794,
+    "latest_eps": 1.95,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 40.236626298017114,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.906995061607164,
+    "free_cash_flow_ttm": 208134000.0,
+    "operating_cash_flow_ttm": 216365000.0,
+    "revenue_ttm": 452788000.0,
+    "net_income_ttm": 170938000.0,
+    "ebitda_ttm": null,
+    "total_debt": 230786000.0,
+    "cash": 67497000.0,
+    "total_assets": 9263173000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 108249000.0,
-      "2025-09-30 00:00:00": 110656000.0,
-      "2025-12-31 00:00:00": 110832000.0,
-      "2026-03-31 00:00:00": 113139000.0,
-      "2026-06-30 00:00:00": 118161000.0
+      "2025-06-30": 108249000.0,
+      "2025-09-30": 110656000.0,
+      "2025-12-31": 110832000.0,
+      "2026-03-31": 113139000.0,
+      "2026-06-30": 118161000.0
     },
-    "revenue_qoq_change": 4.438787685943839,
-    "revenue_yoy_change": 9.15666657428706,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.51,
-      "2025-09-30 00:00:00": 1.71,
-      "2025-12-31 00:00:00": 1.67,
-      "2026-03-31 00:00:00": 1.63,
-      "2026-06-30 00:00:00": 1.95
+      "2025-06-30": 1.51,
+      "2025-09-30": 1.71,
+      "2025-12-31": 1.67,
+      "2026-03-31": 1.63,
+      "2026-06-30": 1.95
     },
-    "eps_qoq_change": 19.631901840490805,
-    "eps_yoy_change": 29.13907284768212,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 45.96720761150914,
+    "net_debt": 163289000.0,
+    "debt_to_assets": 2.4914357099883593,
+    "ticker": "SRCE"
   },
-  "fetched_at": "2026-08-14T14:14:41.844619"
+  "fetched_at": "2026-10-15T10:49:51.262576"
 }

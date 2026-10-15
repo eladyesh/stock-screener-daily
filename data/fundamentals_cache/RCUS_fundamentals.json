@@ -1,31 +1,53 @@
 {
   "data": {
-    "ticker": "RCUS",
-    "fetch_date": "2026-08-14T14:08:53.582595",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 160000000.0,
-      "2025-09-30 00:00:00": 26000000.0,
-      "2025-12-31 00:00:00": 33000000.0,
-      "2026-03-31 00:00:00": 17000000.0,
-      "2026-06-30 00:00:00": 41000000.0
-    },
-    "revenue_qoq_change": 141.1764705882353,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:44:04.224945+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": -74.375,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": -1.27,
-      "2025-12-31 00:00:00": -0.89,
-      "2026-03-31 00:00:00": -1.02,
-      "2026-06-30 00:00:00": -0.72
-    },
-    "eps_qoq_change": 29.41176470588236,
+    "revenue_qoq_change": 141.17647058823528,
     "eps_yoy_change": null,
-    "operating_margin": -234.15,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": -0.72,
+    "gross_margin": null,
+    "operating_margin": -234.14634146341461,
+    "net_margin": -221.95121951219514,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 18.403755868544593,
+    "free_cash_flow_ttm": -475000000.0,
+    "operating_cash_flow_ttm": -474000000.0,
+    "revenue_ttm": 117000000.0,
+    "net_income_ttm": -460000000.0,
+    "ebitda_ttm": -439000000.0,
+    "total_debt": 114000000.0,
+    "cash": 702000000.0,
+    "total_assets": 924000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 160000000.0,
+      "2025-09-30": 26000000.0,
+      "2025-12-31": 33000000.0,
+      "2026-03-31": 17000000.0,
+      "2026-06-30": 41000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": -1.27,
+      "2025-12-31": -0.89,
+      "2026-03-31": -1.02,
+      "2026-06-30": -0.72
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": -229.14634146341461,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -405.98290598290595,
+    "net_debt": -588000000.0,
+    "debt_to_assets": 12.337662337662337,
+    "ticker": "RCUS"
   },
-  "fetched_at": "2026-08-14T14:08:53.583628"
+  "fetched_at": "2026-10-15T10:44:04.229872"
 }

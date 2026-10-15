@@ -1,29 +1,54 @@
 {
   "data": {
-    "ticker": "BOC",
-    "fetch_date": "2026-08-06T14:37:00.598379",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 27730000.0,
-      "2025-06-30 00:00:00": 28203670.0,
-      "2025-09-30 00:00:00": 28734355.0,
-      "2025-12-31 00:00:00": 29707829.0,
-      "2026-03-31 00:00:00": 28249000.0
-    },
-    "revenue_qoq_change": -4.910587710734433,
-    "revenue_yoy_change": 1.8716191849981971,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.02,
-      "2025-06-30 00:00:00": -0.07,
-      "2025-09-30 00:00:00": -0.08,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.07
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:47.985725+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 2.4032473822593214,
+    "revenue_qoq_change": -21.413147368048424,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -250.0,
-    "gross_margin": 61.85,
-    "margin_change": -2.12,
-    "operating_margin": -7.83,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.05,
+    "gross_margin": 72.08558558558559,
+    "operating_margin": -3.3423423423423424,
+    "net_margin": -7.261261261261261,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.276716939714752,
+    "free_cash_flow_ttm": -5711655.0,
+    "operating_cash_flow_ttm": 19807490.0,
+    "revenue_ttm": 108891184.0,
+    "net_income_ttm": -13199172.0,
+    "ebitda_ttm": 17166578.0,
+    "total_debt": 101518000.0,
+    "cash": 35301000.0,
+    "total_assets": 683052000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 21679000.0,
+      "2025-09-30": 28734355.0,
+      "2025-12-31": 29707829.0,
+      "2026-03-31": 28249000.0,
+      "2026-06-30": 22200000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.02,
+      "2025-06-30": -0.07,
+      "2025-09-30": -0.08,
+      "2025-12-31": null,
+      "2026-03-31": -0.07,
+      "2026-06-30": -0.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": 10.235608595249651,
+    "operating_margin_yoy_change": -0.6300401143797978,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -5.2452868911775266,
+    "net_debt": 66217000.0,
+    "net_debt_to_ebitda": 3.857320894123453,
+    "debt_to_assets": 14.862411646551069,
+    "ticker": "BOC"
   },
-  "fetched_at": "2026-08-06T14:37:00.599376"
+  "fetched_at": "2026-10-15T10:05:47.990518"
 }

@@ -1,27 +1,52 @@
 {
   "data": {
-    "ticker": "JLL",
-    "fetch_date": "2026-08-13T13:57:40.736897",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 6250100000.0,
-      "2025-09-30 00:00:00": 6510400000.0,
-      "2025-12-31 00:00:00": 7608700000.0,
-      "2026-03-31 00:00:00": 6386500000.0,
-      "2026-06-30 00:00:00": 6927900000.0
-    },
-    "revenue_qoq_change": 8.477256713379786,
-    "revenue_yoy_change": 10.844626485976224,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.32,
-      "2025-09-30 00:00:00": 4.61,
-      "2025-12-31 00:00:00": 8.34,
-      "2026-03-31 00:00:00": 3.33,
-      "2026-06-30 00:00:00": 4.59
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:27:37.097368+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.844626485976217,
+    "revenue_qoq_change": 8.477256713379777,
+    "eps_yoy_change": 97.84482758620689,
     "eps_qoq_change": 37.83783783783783,
-    "eps_yoy_change": 97.8448275862069,
-    "operating_margin": 4.57,
-    "inventory_breakdown_available": false
+    "latest_eps": 4.59,
+    "gross_margin": null,
+    "operating_margin": 4.56992739502591,
+    "net_margin": 3.112054157825604,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.9151322050730344,
+    "free_cash_flow_ttm": 1120300000.0,
+    "operating_cash_flow_ttm": 1362000000.0,
+    "revenue_ttm": 27433500000.0,
+    "net_income_ttm": 999100000.0,
+    "ebitda_ttm": 1569900000.0,
+    "total_debt": 3218900000.0,
+    "cash": 458200000.0,
+    "total_assets": 17464200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 6250100000.0,
+      "2025-09-30": 6510400000.0,
+      "2025-12-31": 7608700000.0,
+      "2026-03-31": 6386500000.0,
+      "2026-06-30": 6927900000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.32,
+      "2025-09-30": 4.61,
+      "2025-12-31": 8.34,
+      "2026-03-31": 3.33,
+      "2026-06-30": 4.59
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 1.0707833813301284,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 4.083693294694443,
+    "net_debt": 2760700000.0,
+    "net_debt_to_ebitda": 1.7585196509331804,
+    "debt_to_assets": 18.431419704309388,
+    "ticker": "JLL"
   },
-  "fetched_at": "2026-08-13T13:57:40.738854"
+  "fetched_at": "2026-10-15T10:27:37.102373"
 }

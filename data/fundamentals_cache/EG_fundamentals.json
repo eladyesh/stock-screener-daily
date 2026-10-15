@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "EG",
-    "fetch_date": "2026-08-13T13:45:34.258328",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:15:38.825056+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": -6.795658329400656,
+    "revenue_qoq_change": -8.585975468641516,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 50.510677808727955,
+    "latest_eps": 16.21,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 16.531645569620252,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 2789000000.0,
+    "operating_cash_flow_ttm": 2789000000.0,
+    "revenue_ttm": 16929000000.0,
+    "net_income_ttm": 2034000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 3589000000.0,
+    "cash": 18640000000.0,
+    "total_assets": 62342000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 4404000000.0,
-      "2025-09-30 00:00:00": 4254000000.0,
-      "2025-12-31 00:00:00": 4321000000.0,
-      "2026-03-31 00:00:00": 3950000000.0,
-      "2026-06-30 00:00:00": 3910000000.0
+      "2025-03-31": 4238000000.0,
+      "2025-06-30": 4404000000.0,
+      "2025-09-30": 4254000000.0,
+      "2025-12-31": 4321000000.0,
+      "2026-03-31": 3950000000.0
     },
-    "revenue_qoq_change": -1.0126582278481013,
-    "revenue_yoy_change": -11.217075386012716,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 16.1,
-      "2025-09-30 00:00:00": 6.09,
-      "2025-12-31 00:00:00": 10.77,
-      "2026-03-31 00:00:00": 16.21,
-      "2026-06-30 00:00:00": 14.22
+      "2025-03-31": null,
+      "2025-06-30": 16.1,
+      "2025-09-30": 6.09,
+      "2025-12-31": 10.77,
+      "2026-03-31": 16.21
     },
-    "eps_qoq_change": -12.27637260950031,
-    "eps_yoy_change": -11.677018633540376,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 16.474688404512968,
+    "net_debt": -15051000000.0,
+    "debt_to_assets": 5.75695357864682,
+    "ticker": "EG"
   },
-  "fetched_at": "2026-08-13T13:45:34.259007"
+  "fetched_at": "2026-10-15T10:15:38.828881"
 }

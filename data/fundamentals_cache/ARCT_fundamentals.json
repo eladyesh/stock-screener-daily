@@ -1,31 +1,53 @@
 {
   "data": {
-    "ticker": "ARCT",
-    "fetch_date": "2026-09-10T16:19:49.364084",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 24510000.0,
-      "2025-09-30 00:00:00": 14153000.0,
-      "2025-12-31 00:00:00": 3081000.0,
-      "2026-03-31 00:00:00": 610000.0,
-      "2026-06-30 00:00:00": 880000.0
-    },
-    "revenue_qoq_change": 44.26229508196721,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:01:34.904428+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": -96.40962872297023,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.34,
-      "2025-09-30 00:00:00": -0.49,
-      "2025-12-31 00:00:00": -1.03,
-      "2026-03-31 00:00:00": -0.95,
-      "2026-06-30 00:00:00": -0.84
+    "revenue_qoq_change": 44.26229508196722,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.84,
+    "gross_margin": null,
+    "operating_margin": -2902.840909090909,
+    "net_margin": -2702.840909090909,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.769803531276495,
+    "free_cash_flow_ttm": -72822000.0,
+    "operating_cash_flow_ttm": -72729000.0,
+    "revenue_ttm": 18724000.0,
+    "net_income_ttm": -93276000.0,
+    "ebitda_ttm": -89063000.0,
+    "total_debt": 22933000.0,
+    "cash": 191483000.0,
+    "total_assets": 224310000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 24510000.0,
+      "2025-09-30": 14153000.0,
+      "2025-12-31": 3081000.0,
+      "2026-03-31": 610000.0,
+      "2026-06-30": 880000.0
     },
-    "eps_qoq_change": 11.578947368421051,
-    "eps_yoy_change": -147.05882352941174,
-    "operating_margin": -2902.84,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.34,
+      "2025-09-30": -0.49,
+      "2025-12-31": -1.03,
+      "2026-03-31": -0.95,
+      "2026-06-30": -0.84
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": -2855.448008234116,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -388.92330698568685,
+    "net_debt": -168550000.0,
+    "debt_to_assets": 10.223797423208952,
+    "ticker": "ARCT"
   },
-  "fetched_at": "2026-09-10T16:19:49.365223"
+  "fetched_at": "2026-10-15T10:01:34.909185"
 }

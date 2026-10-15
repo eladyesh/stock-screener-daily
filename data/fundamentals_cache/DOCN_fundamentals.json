@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "DOCN",
-    "fetch_date": "2026-08-13T13:44:11.277448",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 218700000.0,
-      "2025-09-30 00:00:00": 229634000.0,
-      "2025-12-31 00:00:00": 242390000.0,
-      "2026-03-31 00:00:00": 257905000.0,
-      "2026-06-30 00:00:00": 281184000.0
-    },
-    "revenue_qoq_change": 9.026191814815533,
-    "revenue_yoy_change": 28.570644718792863,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.39,
-      "2025-09-30 00:00:00": 1.51,
-      "2025-12-31 00:00:00": 0.24,
-      "2026-03-31 00:00:00": 0.15,
-      "2026-06-30 00:00:00": 0.29
-    },
-    "eps_qoq_change": 93.33333333333333,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:14:16.945959+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 28.57064471879287,
+    "revenue_qoq_change": 9.026191814815544,
     "eps_yoy_change": -25.64102564102565,
-    "gross_margin": 55.0,
-    "margin_change": -1.11,
-    "operating_margin": 10.45,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 93.33333333333333,
+    "latest_eps": 0.29,
+    "gross_margin": 55.003840901331515,
+    "operating_margin": 10.44547342665301,
+    "net_margin": 12.602779674519176,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 25.771986841189864,
+    "free_cash_flow_ttm": -3811000.0,
+    "operating_cash_flow_ttm": 309956000.0,
+    "revenue_ttm": 1011113000.0,
+    "net_income_ttm": 235239000.0,
+    "ebitda_ttm": 378084000.0,
+    "total_debt": 1529917000.0,
+    "cash": 767026000.0,
+    "total_assets": 3123053000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 218700000.0,
+      "2025-09-30": 229634000.0,
+      "2025-12-31": 242390000.0,
+      "2026-03-31": 257905000.0,
+      "2026-06-30": 281184000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.39,
+      "2025-09-30": 1.51,
+      "2025-12-31": 0.24,
+      "2026-03-31": 0.15,
+      "2026-06-30": 0.29
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.1059669736612179,
+    "operating_margin_yoy_change": -5.841220674855908,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -0.37691138379192035,
+    "net_debt": 762891000.0,
+    "net_debt_to_ebitda": 2.0177817627828736,
+    "debt_to_assets": 48.9878653996586,
+    "ticker": "DOCN"
   },
-  "fetched_at": "2026-08-13T13:44:11.278706"
+  "fetched_at": "2026-10-15T10:14:16.950874"
 }

@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "MPB",
-    "fetch_date": "2026-08-14T13:58:34.452460",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 53728000.0,
-      "2025-09-30 00:00:00": 60784000.0,
-      "2025-12-31 00:00:00": 61054000.0,
-      "2026-03-31 00:00:00": 63606000.0,
-      "2026-06-30 00:00:00": 75173000.0
-    },
-    "revenue_qoq_change": 18.185391315284722,
-    "revenue_yoy_change": 39.91401131625968,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.79,
-      "2025-12-31 00:00:00": 0.83,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": 0.85
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:33:53.251944+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 39.91401131625967,
+    "revenue_qoq_change": 18.185391315284715,
+    "eps_yoy_change": 286.3636363636363,
     "eps_qoq_change": 136.11111111111111,
-    "eps_yoy_change": 286.3636363636364,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.85,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.854774985699656,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 17.894606512083012,
+    "free_cash_flow_ttm": 73778000.0,
+    "operating_cash_flow_ttm": 80122000.0,
+    "revenue_ttm": 260617000.0,
+    "net_income_ttm": 68141000.0,
+    "ebitda_ttm": null,
+    "total_debt": 156677000.0,
+    "cash": 70535000.0,
+    "total_assets": 7062910000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 53728000.0,
+      "2025-09-30": 60784000.0,
+      "2025-12-31": 61054000.0,
+      "2026-03-31": 63606000.0,
+      "2026-06-30": 75173000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.79,
+      "2025-12-31": 0.83,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.85
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.308974472118088,
+    "net_debt": 86142000.0,
+    "debt_to_assets": 2.218306618660014,
+    "ticker": "MPB"
   },
-  "fetched_at": "2026-08-14T13:58:34.453127"
+  "fetched_at": "2026-10-15T10:33:53.255744"
 }

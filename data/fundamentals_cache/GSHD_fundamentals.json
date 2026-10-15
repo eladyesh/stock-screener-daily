@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "GSHD",
-    "fetch_date": "2026-07-22T14:46:30.815636",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:22:25.000041+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 20.591957629191615,
+    "revenue_qoq_change": 21.824100734883324,
+    "eps_yoy_change": 127.77777777777777,
+    "eps_qoq_change": 115.78947368421053,
+    "latest_eps": 0.41,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 8.876522413990775,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.374264000207509,
+    "free_cash_flow_ttm": 60775000.0,
+    "operating_cash_flow_ttm": 86154000.0,
+    "revenue_ttm": 402158000.0,
+    "net_income_ttm": 35293000.0,
+    "ebitda_ttm": null,
+    "total_debt": 372837000.0,
+    "cash": 23655000.0,
+    "total_assets": 406842000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 75583000.0,
-      "2025-06-30 00:00:00": 94027000.0,
-      "2025-09-30 00:00:00": 90435000.0,
-      "2025-12-31 00:00:00": 105258000.0,
-      "2026-03-31 00:00:00": 93076000.0
+      "2025-03-31": null,
+      "2025-06-30": 94027000.0,
+      "2025-09-30": 90435000.0,
+      "2025-12-31": 105258000.0,
+      "2026-03-31": 93076000.0,
+      "2026-06-30": 113389000.0
     },
-    "revenue_qoq_change": -11.573467099887894,
-    "revenue_yoy_change": 23.144093248481802,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.09,
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.29,
-      "2025-12-31 00:00:00": 0.48,
-      "2026-03-31 00:00:00": 0.19
+      "2025-03-31": null,
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.29,
+      "2025-12-31": 0.48,
+      "2026-03-31": 0.19,
+      "2026-06-30": 0.41
     },
-    "eps_qoq_change": -60.416666666666664,
-    "eps_yoy_change": 111.11111111111111,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 15.112219575390768,
+    "net_debt": 349182000.0,
+    "debt_to_assets": 91.64171840665418,
+    "ticker": "GSHD"
   },
-  "fetched_at": "2026-07-22T14:46:30.816289"
+  "fetched_at": "2026-10-15T10:22:25.003814"
 }

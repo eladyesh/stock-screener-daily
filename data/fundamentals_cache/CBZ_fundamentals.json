@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "CBZ",
-    "fetch_date": "2026-08-10T13:35:21.948588",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 683496000.0,
-      "2025-09-30 00:00:00": 693818000.0,
-      "2025-12-31 00:00:00": 542663000.0,
-      "2026-03-31 00:00:00": 848579000.0,
-      "2026-06-30 00:00:00": 682206000.0
-    },
-    "revenue_qoq_change": -19.60607085492335,
-    "revenue_yoy_change": -0.18873555953509605,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.66,
-      "2025-09-30 00:00:00": 0.48,
-      "2025-12-31 00:00:00": -1.460408,
-      "2026-03-31 00:00:00": 2.63,
-      "2026-06-30 00:00:00": 0.31
-    },
-    "eps_qoq_change": -88.212927756654,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:07.951698+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -0.18873555953509147,
+    "revenue_qoq_change": -19.606070854923352,
     "eps_yoy_change": -53.03030303030303,
-    "gross_margin": 10.62,
-    "margin_change": -16.02,
-    "operating_margin": 4.99,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -88.212927756654,
+    "latest_eps": 0.31,
+    "gross_margin": 10.618200367630891,
+    "operating_margin": 4.994385859989505,
+    "net_margin": 2.727035528857852,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.398156277436351,
+    "free_cash_flow_ttm": 274259000.0,
+    "operating_cash_flow_ttm": 289832000.0,
+    "revenue_ttm": 2767266000.0,
+    "net_income_ttm": 130945000.0,
+    "ebitda_ttm": 378293000.0,
+    "total_debt": 1906261000.0,
+    "cash": 20901000.0,
+    "total_assets": 4573706000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 683496000.0,
+      "2025-09-30": 693818000.0,
+      "2025-12-31": 542663000.0,
+      "2026-03-31": 848579000.0,
+      "2026-06-30": 682206000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.66,
+      "2025-09-30": 0.48,
+      "2025-12-31": -1.460408,
+      "2026-03-31": 2.63,
+      "2026-06-30": 0.31
+    },
+    "quarterly_inventory": {},
+    "margin_change": -16.016561982132657,
+    "operating_margin_yoy_change": -3.823807662723137,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 9.910828955366055,
+    "net_debt": 1885360000.0,
+    "net_debt_to_ebitda": 4.983861715654268,
+    "debt_to_assets": 41.678695569850795,
+    "ticker": "CBZ"
   },
-  "fetched_at": "2026-08-10T13:35:21.949762"
+  "fetched_at": "2026-10-15T10:08:07.956561"
 }

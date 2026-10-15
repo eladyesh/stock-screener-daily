@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "NBN",
-    "fetch_date": "2026-08-14T14:00:02.506391",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 50300000.0,
-      "2025-06-30 00:00:00": 59767000.0,
-      "2025-09-30 00:00:00": 49526000.0,
-      "2025-12-31 00:00:00": 49116000.0,
-      "2026-03-31 00:00:00": 63434000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 2.23,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 2.67,
-      "2025-12-31 00:00:00": 2.47,
-      "2026-03-31 00:00:00": 3.53,
-      "2026-06-30 00:00:00": 4.05
-    },
-    "eps_qoq_change": 14.730878186968841,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:35:20.214520+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.1846001974333609,
+    "revenue_qoq_change": -4.664690859791277,
     "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 14.730878186968832,
+    "latest_eps": 4.05,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 56.78544853245142,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -63989000.0,
+    "operating_cash_flow_ttm": -62539000.0,
+    "revenue_ttm": 222551000.0,
+    "net_income_ttm": 107475000.0,
+    "ebitda_ttm": null,
+    "total_debt": 856218000.0,
+    "cash": 434374000.0,
+    "total_assets": 5227725000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 59767000.0,
+      "2025-09-30": 49526000.0,
+      "2025-12-31": 49116000.0,
+      "2026-03-31": 63434000.0,
+      "2026-06-30": 60475000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 2.23,
+      "2025-06-30": null,
+      "2025-09-30": 2.67,
+      "2025-12-31": 2.47,
+      "2026-03-31": 3.53,
+      "2026-06-30": 4.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -28.752510660477824,
+    "net_debt": 421844000.0,
+    "debt_to_assets": 16.378405520565828,
+    "ticker": "NBN"
   },
-  "fetched_at": "2026-08-14T14:00:02.507096"
+  "fetched_at": "2026-10-15T10:35:20.219172"
 }

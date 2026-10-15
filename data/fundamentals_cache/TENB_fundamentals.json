@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "TENB",
-    "fetch_date": "2026-08-14T14:16:40.710569",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 247295000.0,
-      "2025-09-30 00:00:00": 252440000.0,
-      "2025-12-31 00:00:00": 260533000.0,
-      "2026-03-31 00:00:00": 262058000.0,
-      "2026-06-30 00:00:00": 268508000.0
-    },
-    "revenue_qoq_change": 2.4612871959642524,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:52.263732+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 8.578014112699407,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.12,
-      "2025-09-30 00:00:00": 0.02,
-      "2025-12-31 00:00:00": -0.01,
-      "2026-03-31 00:00:00": 0.01,
-      "2026-06-30 00:00:00": 0.03
+    "revenue_qoq_change": 2.461287195964257,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 200.0,
+    "latest_eps": 0.03,
+    "gross_margin": 77.5302784274584,
+    "operating_margin": 4.848645105546204,
+    "net_margin": 1.4170899935942318,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.461799155225291,
+    "free_cash_flow_ttm": 254332000.0,
+    "operating_cash_flow_ttm": 269567000.0,
+    "revenue_ttm": 1043539000.0,
+    "net_income_ttm": 6742000.0,
+    "ebitda_ttm": 87845000.0,
+    "total_debt": 419101000.0,
+    "cash": 298209000.0,
+    "total_assets": 1573661000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 247295000.0,
+      "2025-09-30": 252440000.0,
+      "2025-12-31": 260533000.0,
+      "2026-03-31": 262058000.0,
+      "2026-06-30": 268508000.0
     },
-    "eps_qoq_change": 199.99999999999994,
-    "eps_yoy_change": 125.0,
-    "gross_margin": 77.53,
-    "margin_change": -0.85,
-    "operating_margin": 4.85,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.12,
+      "2025-09-30": 0.02,
+      "2025-12-31": -0.01,
+      "2026-03-31": 0.01,
+      "2026-06-30": 0.03
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.8451193852395562,
+    "operating_margin_yoy_change": 7.860432646741942,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.372064676068646,
+    "net_debt": 120892000.0,
+    "net_debt_to_ebitda": 1.3761967101144061,
+    "debt_to_assets": 26.63222892351021,
+    "ticker": "TENB"
   },
-  "fetched_at": "2026-08-14T14:16:40.711920"
+  "fetched_at": "2026-10-15T10:51:52.268628"
 }

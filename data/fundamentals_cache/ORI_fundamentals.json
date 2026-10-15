@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "ORI",
-    "fetch_date": "2026-08-14T14:03:55.621749",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:39:11.414829+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.358087303024814,
+    "revenue_qoq_change": 4.347463632195403,
+    "eps_yoy_change": 61.72839506172838,
+    "eps_qoq_change": -0.7575757575757569,
+    "latest_eps": 1.31,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 12.874490692657986,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.502577030455111,
+    "free_cash_flow_ttm": 1279900000.0,
+    "operating_cash_flow_ttm": 1279900000.0,
+    "revenue_ttm": 9716000000.0,
+    "net_income_ttm": 1138200000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2283900000.0,
+    "cash": 3942200000.0,
+    "total_assets": 31592400000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 2208400000.0,
-      "2025-09-30 00:00:00": 2424000000.0,
-      "2025-12-31 00:00:00": 2389500000.0,
-      "2026-03-31 00:00:00": 2399100000.0,
-      "2026-06-30 00:00:00": 2503400000.0
+      "2025-06-30": 2208400000.0,
+      "2025-09-30": 2424000000.0,
+      "2025-12-31": 2389500000.0,
+      "2026-03-31": 2399100000.0,
+      "2026-06-30": 2503400000.0
     },
-    "revenue_qoq_change": 4.3474636321954065,
-    "revenue_yoy_change": 13.358087303024815,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.81,
-      "2025-09-30 00:00:00": 1.11,
-      "2025-12-31 00:00:00": 0.82,
-      "2026-03-31 00:00:00": 1.32,
-      "2026-06-30 00:00:00": 1.31
+      "2025-06-30": 0.81,
+      "2025-09-30": 1.11,
+      "2025-12-31": 0.82,
+      "2026-03-31": 1.32,
+      "2026-06-30": 1.31
     },
-    "eps_qoq_change": -0.7575757575757582,
-    "eps_yoy_change": 61.72839506172839,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.173116508851379,
+    "net_debt": -1658300000.0,
+    "debt_to_assets": 7.229270330839063,
+    "ticker": "ORI"
   },
-  "fetched_at": "2026-08-14T14:03:55.622457"
+  "fetched_at": "2026-10-15T10:39:11.418546"
 }

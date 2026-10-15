@@ -1,44 +1,61 @@
 {
   "data": {
-    "ticker": "LYV",
-    "fetch_date": "2026-08-14T13:56:13.362066",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 7006641000.0,
-      "2025-09-30 00:00:00": 8499143000.0,
-      "2025-12-31 00:00:00": 6313505000.0,
-      "2026-03-31 00:00:00": 3793029000.0,
-      "2026-06-30 00:00:00": 7666858000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:31:31.300942+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.422731948161744,
     "revenue_qoq_change": 102.13022362866195,
-    "revenue_yoy_change": 9.42273194816175,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.32,
-      "2025-06-30 00:00:00": 0.41,
-      "2025-09-30 00:00:00": 0.73,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -1.85,
-      "2026-06-30 00:00:00": 1.05
-    },
-    "eps_qoq_change": 156.75675675675677,
-    "eps_yoy_change": 156.0975609756098,
-    "gross_margin": 25.34,
-    "margin_change": NaN,
-    "operating_margin": 6.7,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 50145000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 56576000.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "eps_yoy_change": 156.09756097560975,
+    "eps_qoq_change": null,
+    "latest_eps": 1.05,
+    "gross_margin": 25.33817634290344,
+    "operating_margin": 6.6963676645635015,
+    "net_margin": 3.840504154374582,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 4.103322471399173,
+    "free_cash_flow_ttm": 1374870000.0,
+    "operating_cash_flow_ttm": 2608702000.0,
+    "revenue_ttm": 26272535000.0,
+    "net_income_ttm": 134700000.0,
+    "ebitda_ttm": 1690167000.0,
+    "total_debt": 11282712000.0,
+    "cash": 9071949000.0,
+    "total_assets": 28180826000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 7006641000.0,
+      "2025-09-30": 8499143000.0,
+      "2025-12-31": 6313505000.0,
+      "2026-03-31": 3793029000.0,
+      "2026-06-30": 7666858000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.32,
+      "2025-06-30": 0.41,
+      "2025-09-30": 0.73,
+      "2025-12-31": null,
+      "2026-03-31": -1.85,
+      "2026-06-30": 1.05
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 56576000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": null,
+    "operating_margin_yoy_change": -0.2370116822590349,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.2331075018074955,
+    "net_debt": 2210763000.0,
+    "net_debt_to_ebitda": 1.3080145334750946,
+    "debt_to_assets": 40.036839232462526,
+    "ticker": "LYV"
   },
-  "fetched_at": "2026-08-14T13:56:13.363856"
+  "fetched_at": "2026-10-15T10:31:31.305982"
 }

@@ -1,23 +1,52 @@
 {
   "data": {
-    "ticker": "TTRX",
-    "fetch_date": "2026-08-03T15:53:07.521888",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:53:51.468473+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": null,
     "revenue_qoq_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.011158,
-      "2025-06-30 00:00:00": -0.042126,
-      "2025-09-30 00:00:00": -0.064669,
-      "2026-03-31 00:00:00": -0.03
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.2,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.1643907935637632,
+    "free_cash_flow_ttm": -4460308.0,
+    "operating_cash_flow_ttm": -4321048.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -8445820.0,
+    "ebitda_ttm": -6924512.0,
+    "total_debt": 6121036.0,
+    "cash": 10288510.0,
+    "total_assets": 16960719.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": 53.609921291499795,
-    "operating_margin": NaN,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": -0.011158,
+      "2025-06-30": -0.042126,
+      "2025-09-30": -0.064669,
+      "2025-12-31": null,
+      "2026-03-31": -0.03,
+      "2026-06-30": -0.2
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -4167474.0,
+    "debt_to_assets": 36.08948417811769,
+    "ticker": "TTRX"
   },
-  "fetched_at": "2026-08-03T15:53:07.522845"
+  "fetched_at": "2026-10-15T10:53:51.473237"
 }

@@ -1,30 +1,51 @@
 {
   "data": {
-    "ticker": "SMBK",
-    "fetch_date": "2026-08-14T14:13:32.609392",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:48:43.322759+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.624824841087712,
+    "revenue_qoq_change": 3.963431629410774,
+    "eps_yoy_change": 39.13043478260869,
+    "eps_qoq_change": 18.518518518518512,
+    "latest_eps": 0.96,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 29.172475424486148,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.4918259281974757,
+    "free_cash_flow_ttm": 65356000.0,
+    "operating_cash_flow_ttm": 73439000.0,
+    "revenue_ttm": 210191000.0,
+    "net_income_ttm": 57391000.0,
+    "ebitda_ttm": null,
+    "total_debt": 98805000.0,
+    "cash": 373672000.0,
+    "total_assets": 6115306000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 46835000.0,
-      "2025-06-30 00:00:00": 49241000.0,
-      "2025-09-30 00:00:00": 47112000.0,
-      "2025-12-31 00:00:00": 53312000.0,
-      "2026-03-31 00:00:00": 53817000.0,
-      "2026-06-30 00:00:00": NaN
+      "2025-06-30": 49241000.0,
+      "2025-09-30": 47112000.0,
+      "2025-12-31": 53312000.0,
+      "2026-03-31": 53817000.0,
+      "2026-06-30": 55950000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.69,
-      "2025-09-30 00:00:00": 0.81,
-      "2025-12-31 00:00:00": 0.81,
-      "2026-03-31 00:00:00": 0.81,
-      "2026-06-30 00:00:00": 0.96
+      "2025-06-30": 0.69,
+      "2025-09-30": 0.81,
+      "2025-12-31": 0.81,
+      "2026-03-31": 0.81,
+      "2026-06-30": 0.96
     },
-    "eps_qoq_change": 18.518518518518505,
-    "eps_yoy_change": 39.1304347826087,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.09362437021566,
+    "net_debt": -274867000.0,
+    "debt_to_assets": 1.6157000156656103,
+    "ticker": "SMBK"
   },
-  "fetched_at": "2026-08-14T14:13:32.610053"
+  "fetched_at": "2026-10-15T10:48:43.326557"
 }

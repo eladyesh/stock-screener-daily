@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "BSM",
-    "fetch_date": "2026-08-13T13:36:26.937700",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 106710000.0,
-      "2025-09-30 00:00:00": 105183000.0,
-      "2025-12-31 00:00:00": 95182000.0,
-      "2026-03-31 00:00:00": 123909000.0,
-      "2026-06-30 00:00:00": 122122000.0
-    },
-    "revenue_qoq_change": -1.4421874117295759,
-    "revenue_yoy_change": 14.442882578952302,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.53,
-      "2025-09-30 00:00:00": 0.4,
-      "2025-12-31 00:00:00": 0.31,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.47
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:06:34.863567+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.442882578952299,
+    "revenue_qoq_change": -1.4421874117295785,
+    "eps_yoy_change": -11.32075471698114,
     "eps_qoq_change": 1466.6666666666665,
-    "eps_yoy_change": -11.320754716981142,
-    "gross_margin": 85.58,
-    "margin_change": 2.43,
-    "operating_margin": 68.14,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.47,
+    "gross_margin": 85.58163148327083,
+    "operating_margin": 68.14496978431404,
+    "net_margin": 87.09159692766251,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.246664990893491,
+    "free_cash_flow_ttm": 191463000.0,
+    "operating_cash_flow_ttm": 320383000.0,
+    "revenue_ttm": 446396000.0,
+    "net_income_ttm": 283586000.0,
+    "ebitda_ttm": 333783000.0,
+    "total_debt": 197169000.0,
+    "cash": 1674000.0,
+    "total_assets": 1365911000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 106710000.0,
+      "2025-09-30": 105183000.0,
+      "2025-12-31": 95182000.0,
+      "2026-03-31": 123909000.0,
+      "2026-06-30": 122122000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.53,
+      "2025-09-30": 0.4,
+      "2025-12-31": 0.31,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.47
+    },
+    "quarterly_inventory": {},
+    "margin_change": 2.431093588525485,
+    "operating_margin_yoy_change": 3.0179901198027466,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 42.8908413157824,
+    "net_debt": 195495000.0,
+    "net_debt_to_ebitda": 0.5856948975831603,
+    "debt_to_assets": 14.434981488545006,
+    "ticker": "BSM"
   },
-  "fetched_at": "2026-08-13T13:36:26.939072"
+  "fetched_at": "2026-10-15T10:06:34.868535"
 }

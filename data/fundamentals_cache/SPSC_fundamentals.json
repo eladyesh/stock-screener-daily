@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "SPSC",
-    "fetch_date": "2026-08-14T14:14:34.642321",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 187400000.0,
-      "2025-09-30 00:00:00": 189904000.0,
-      "2025-12-31 00:00:00": 192652000.0,
-      "2026-03-31 00:00:00": 192121000.0,
-      "2026-06-30 00:00:00": 197815000.0
-    },
-    "revenue_qoq_change": 2.963757215504812,
-    "revenue_yoy_change": 5.557630736392743,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 0.67,
-      "2025-12-31 00:00:00": 0.68,
-      "2026-03-31 00:00:00": 0.53,
-      "2026-06-30 00:00:00": 0.19
-    },
-    "eps_qoq_change": -64.15094339622641,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:49:44.367747+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 5.557630736392749,
+    "revenue_qoq_change": 2.963757215504814,
     "eps_yoy_change": -63.46153846153846,
-    "gross_margin": 70.16,
-    "margin_change": 0.98,
-    "operating_margin": 16.11,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -64.15094339622642,
+    "latest_eps": 0.19,
+    "gross_margin": 70.15999797790865,
+    "operating_margin": 16.109496246492935,
+    "net_margin": 3.4699087531279225,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.99485550801858,
+    "free_cash_flow_ttm": 198696000.0,
+    "operating_cash_flow_ttm": 228143000.0,
+    "revenue_ttm": 772492000.0,
+    "net_income_ttm": 78003000.0,
+    "ebitda_ttm": 183201000.0,
+    "total_debt": 6306000.0,
+    "cash": 173167000.0,
+    "total_assets": 1125429000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 187400000.0,
+      "2025-09-30": 189904000.0,
+      "2025-12-31": 192652000.0,
+      "2026-03-31": 192121000.0,
+      "2026-06-30": 197815000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.52,
+      "2025-09-30": 0.67,
+      "2025-12-31": 0.68,
+      "2026-03-31": 0.53,
+      "2026-06-30": 0.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.9827607159747629,
+    "operating_margin_yoy_change": 1.9846296509753252,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.721431419354506,
+    "net_debt": -166861000.0,
+    "net_debt_to_ebitda": -0.9108083471160092,
+    "debt_to_assets": 0.5603196647678352,
+    "ticker": "SPSC"
   },
-  "fetched_at": "2026-08-14T14:14:34.643643"
+  "fetched_at": "2026-10-15T10:49:44.372586"
 }

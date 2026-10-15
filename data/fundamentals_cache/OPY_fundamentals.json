@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "OPY",
-    "fetch_date": "2026-08-14T14:03:49.486038",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:39:05.095477+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 21.892501701600843,
+    "revenue_qoq_change": 2.1975083970837694,
+    "eps_yoy_change": 24.607329842931946,
+    "eps_qoq_change": null,
+    "latest_eps": 2.38,
+    "gross_margin": 30.726175924867437,
+    "operating_margin": 21.197645072503278,
+    "net_margin": 6.0128474573290305,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.1828039512385535,
+    "free_cash_flow_ttm": -8999000.0,
+    "operating_cash_flow_ttm": -4584000.0,
+    "revenue_ttm": 1797039000.0,
+    "net_income_ttm": 102847000.0,
+    "ebitda_ttm": 269246000.0,
+    "total_debt": 891663000.0,
+    "cash": 38453000.0,
+    "total_assets": 4230726000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 373178000.0,
-      "2025-09-30 00:00:00": 424438000.0,
-      "2025-12-31 00:00:00": 472630000.0,
-      "2026-03-31 00:00:00": 445095000.0,
-      "2026-06-30 00:00:00": 454876000.0
+      "2025-06-30": 373178000.0,
+      "2025-09-30": 424438000.0,
+      "2025-12-31": 472630000.0,
+      "2026-03-31": 445095000.0,
+      "2026-06-30": 454876000.0
     },
-    "revenue_qoq_change": 2.1975083970837685,
-    "revenue_yoy_change": 21.892501701600846,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.91,
-      "2025-09-30 00:00:00": 1.9,
-      "2025-12-31 00:00:00": 6.51,
-      "2026-03-31 00:00:00": -1.93,
-      "2026-06-30 00:00:00": 2.38
+      "2025-06-30": 1.91,
+      "2025-09-30": 1.9,
+      "2025-12-31": 6.51,
+      "2026-03-31": -1.93,
+      "2026-06-30": 2.38
     },
-    "eps_qoq_change": 223.3160621761658,
-    "eps_yoy_change": 24.60732984293194,
-    "gross_margin": 30.73,
-    "margin_change": -1.34,
-    "operating_margin": 21.2,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -1.3418095613770724,
+    "operating_margin_yoy_change": -1.6549882552920394,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -0.500768208146846,
+    "net_debt": 853210000.0,
+    "net_debt_to_ebitda": 3.168886445852492,
+    "debt_to_assets": 21.07588626632876,
+    "ticker": "OPY"
   },
-  "fetched_at": "2026-08-14T14:03:49.487372"
+  "fetched_at": "2026-10-15T10:39:05.100367"
 }

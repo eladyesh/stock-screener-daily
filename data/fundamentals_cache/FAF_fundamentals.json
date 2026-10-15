@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "FAF",
-    "fetch_date": "2026-08-14T13:42:15.015619",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1841300000.0,
-      "2025-09-30 00:00:00": 1978900000.0,
-      "2025-12-31 00:00:00": 2042500000.0,
-      "2026-03-31 00:00:00": 1838000000.0,
-      "2026-06-30 00:00:00": 2117300000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:17:44.022911+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.989409656221152,
     "revenue_qoq_change": 15.195865070729052,
-    "revenue_yoy_change": 14.989409656221147,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.41,
-      "2025-09-30 00:00:00": 1.84,
-      "2025-12-31 00:00:00": 2.05,
-      "2026-03-31 00:00:00": 1.21,
-      "2026-06-30 00:00:00": 2.12
-    },
-    "eps_qoq_change": 75.20661157024794,
     "eps_yoy_change": 50.35460992907803,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 75.20661157024794,
+    "latest_eps": 2.12,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 10.31974684739999,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.770712909441229,
+    "free_cash_flow_ttm": 832300000.0,
+    "operating_cash_flow_ttm": 1004000000.0,
+    "revenue_ttm": 7976700000.0,
+    "net_income_ttm": 745100000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2789200000.0,
+    "cash": 2728100000.0,
+    "total_assets": 18941000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1841300000.0,
+      "2025-09-30": 1978900000.0,
+      "2025-12-31": 2042500000.0,
+      "2026-03-31": 1838000000.0,
+      "2026-06-30": 2117300000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.41,
+      "2025-09-30": 1.84,
+      "2025-12-31": 2.05,
+      "2026-03-31": 1.21,
+      "2026-06-30": 2.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.434139431093058,
+    "net_debt": 61100000.0,
+    "debt_to_assets": 14.725727258328494,
+    "ticker": "FAF"
   },
-  "fetched_at": "2026-08-14T13:42:15.016314"
+  "fetched_at": "2026-10-15T10:17:44.026752"
 }

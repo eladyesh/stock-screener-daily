@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "TFSL",
-    "fetch_date": "2026-08-14T14:16:46.766455",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 82042000.0,
-      "2025-09-30 00:00:00": 85484000.0,
-      "2025-12-31 00:00:00": 83728000.0,
-      "2026-03-31 00:00:00": 85243000.0,
-      "2026-06-30 00:00:00": 89274000.0
-    },
-    "revenue_qoq_change": 4.728834039158641,
-    "revenue_yoy_change": 8.814997196557862,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.08,
-      "2025-09-30 00:00:00": 0.09,
-      "2025-12-31 00:00:00": 0.08,
-      "2026-03-31 00:00:00": 0.08,
-      "2026-06-30 00:00:00": 0.11
-    },
-    "eps_qoq_change": 37.5,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:58.363609+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.81499719655785,
+    "revenue_qoq_change": 4.728834039158647,
     "eps_yoy_change": 37.5,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 37.5,
+    "latest_eps": 0.11,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 34.20928825861953,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.10834975260982649,
+    "free_cash_flow_ttm": 86272000.0,
+    "operating_cash_flow_ttm": 97797000.0,
+    "revenue_ttm": 343729000.0,
+    "net_income_ttm": 102060000.0,
+    "ebitda_ttm": null,
+    "total_debt": 5855597000.0,
+    "cash": 568934000.0,
+    "total_assets": 18075008000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 82042000.0,
+      "2025-09-30": 85484000.0,
+      "2025-12-31": 83728000.0,
+      "2026-03-31": 85243000.0,
+      "2026-06-30": 89274000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.08,
+      "2025-09-30": 0.09,
+      "2025-12-31": 0.08,
+      "2026-03-31": 0.08,
+      "2026-06-30": 0.11
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.098842402008557,
+    "net_debt": 5286663000.0,
+    "debt_to_assets": 32.396096311547964,
+    "ticker": "TFSL"
   },
-  "fetched_at": "2026-08-14T14:16:46.767093"
+  "fetched_at": "2026-10-15T10:51:58.367395"
 }

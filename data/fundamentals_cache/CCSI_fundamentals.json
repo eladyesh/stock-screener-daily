@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "CCSI",
-    "fetch_date": "2026-08-13T13:38:15.824280",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 87721000.0,
-      "2025-09-30 00:00:00": 87767000.0,
-      "2025-12-31 00:00:00": 87070000.0,
-      "2026-03-31 00:00:00": 88467000.0,
-      "2026-06-30 00:00:00": 91361000.0
-    },
-    "revenue_qoq_change": 3.271276295115693,
-    "revenue_yoy_change": 4.1495194993217135,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.07,
-      "2025-09-30 00:00:00": 1.15,
-      "2025-12-31 00:00:00": 1.06,
-      "2026-03-31 00:00:00": 1.3,
-      "2026-06-30 00:00:00": 1.43
-    },
-    "eps_qoq_change": 9.999999999999991,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:08:24.083007+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 4.149519499321719,
+    "revenue_qoq_change": 3.2712762951156993,
     "eps_yoy_change": 33.644859813084096,
-    "gross_margin": 79.98,
-    "margin_change": -0.92,
-    "operating_margin": 40.31,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 9.999999999999986,
+    "latest_eps": 1.43,
+    "gross_margin": 79.97942229178753,
+    "operating_margin": 40.312606035398034,
+    "net_margin": 29.96245662810171,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.609999235783388,
+    "free_cash_flow_ttm": 115672000.0,
+    "operating_cash_flow_ttm": 145938000.0,
+    "revenue_ttm": 354665000.0,
+    "net_income_ttm": 94653000.0,
+    "ebitda_ttm": 178590000.0,
+    "total_debt": 565936000.0,
+    "cash": 98901000.0,
+    "total_assets": 696890000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 87721000.0,
+      "2025-09-30": 87767000.0,
+      "2025-12-31": 87070000.0,
+      "2026-03-31": 88467000.0,
+      "2026-06-30": 91361000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.07,
+      "2025-09-30": 1.15,
+      "2025-12-31": 1.06,
+      "2026-03-31": 1.3,
+      "2026-06-30": 1.43
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.9174092951318897,
+    "operating_margin_yoy_change": -4.202390373671626,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 32.614438977626776,
+    "net_debt": 467035000.0,
+    "net_debt_to_ebitda": 2.6151240271011815,
+    "debt_to_assets": 81.2087990931137,
+    "ticker": "CCSI"
   },
-  "fetched_at": "2026-08-13T13:38:15.825619"
+  "fetched_at": "2026-10-15T10:08:24.087877"
 }

@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "BMRC",
-    "fetch_date": "2026-08-13T13:35:27.994003",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 9237000.0,
-      "2025-09-30 00:00:00": 29780000.0,
-      "2025-12-31 00:00:00": -36994000.0,
-      "2026-03-31 00:00:00": 33987000.0,
-      "2026-06-30 00:00:00": 33832000.0
-    },
-    "revenue_qoq_change": -0.4560567275723071,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:33.851352+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 266.26610371332686,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.3,
-      "2025-06-30 00:00:00": -0.53,
-      "2025-09-30 00:00:00": 0.47,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.53,
-      "2026-06-30 00:00:00": 0.58
+    "revenue_qoq_change": -0.4560567275723071,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 9.433962264150942,
+    "latest_eps": 0.58,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 27.329155828801134,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.012508599662264253,
+    "free_cash_flow_ttm": 38331000.0,
+    "operating_cash_flow_ttm": 39359000.0,
+    "revenue_ttm": 60605000.0,
+    "net_income_ttm": -14259000.0,
+    "ebitda_ttm": null,
+    "total_debt": 68073000.0,
+    "cash": 279639000.0,
+    "total_assets": 3856720000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 9237000.0,
+      "2025-09-30": 29780000.0,
+      "2025-12-31": -36994000.0,
+      "2026-03-31": 33987000.0,
+      "2026-06-30": 33832000.0
     },
-    "eps_qoq_change": 9.43396226415093,
-    "eps_yoy_change": 209.43396226415092,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": 0.3,
+      "2025-06-30": -0.53,
+      "2025-09-30": 0.47,
+      "2025-12-31": null,
+      "2026-03-31": 0.53,
+      "2026-06-30": 0.58
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 63.247256826994466,
+    "net_debt": -211566000.0,
+    "debt_to_assets": 1.7650490572299777,
+    "ticker": "BMRC"
   },
-  "fetched_at": "2026-08-13T13:35:27.995130"
+  "fetched_at": "2026-10-15T10:05:33.855075"
 }

@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "PCTY",
-    "fetch_date": "2026-08-10T14:07:53.212008",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 400737000.0,
-      "2025-09-30 00:00:00": 408172000.0,
-      "2025-12-31 00:00:00": 416134000.0,
-      "2026-03-31 00:00:00": 502286000.0,
-      "2026-06-30 00:00:00": 444734000.0
-    },
-    "revenue_qoq_change": -11.458013960174084,
-    "revenue_yoy_change": 10.97902115352463,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 0.66,
-      "2025-03-31 00:00:00": 1.61,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 0.86,
-      "2025-12-31 00:00:00": 0.92,
-      "2026-03-31 00:00:00": 2.05,
-      "2026-06-30 00:00:00": NaN
-    },
-    "eps_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:23.367067+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.979021153524627,
+    "revenue_qoq_change": -11.458013960174085,
     "eps_yoy_change": null,
-    "gross_margin": 67.54,
-    "margin_change": -4.76,
-    "operating_margin": 18.98,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -45.36585365853657,
+    "latest_eps": 1.12,
+    "gross_margin": 67.54239612892201,
+    "operating_margin": 18.982582847275,
+    "net_margin": 13.559341089280332,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 427798000.0,
+    "operating_cash_flow_ttm": 533252000.0,
+    "revenue_ttm": 1771326000.0,
+    "net_income_ttm": 269741000.0,
+    "ebitda_ttm": 497790000.0,
+    "total_debt": 132972000.0,
+    "cash": 271917000.0,
+    "total_assets": 4884358000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 400737000.0,
+      "2025-09-30": 408172000.0,
+      "2025-12-31": 416134000.0,
+      "2026-03-31": 502286000.0,
+      "2026-06-30": 444734000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.61,
+      "2025-06-30": null,
+      "2025-09-30": 0.86,
+      "2025-12-31": 0.92,
+      "2026-03-31": 2.05,
+      "2026-06-30": 1.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": -4.764616210661416,
+    "operating_margin_yoy_change": 2.456282555562481,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 24.151285534113992,
+    "net_debt": -138945000.0,
+    "net_debt_to_ebitda": -0.2791237268727777,
+    "debt_to_assets": 2.7224048687667857,
+    "ticker": "PCTY"
   },
-  "fetched_at": "2026-08-10T14:07:53.213197"
+  "fetched_at": "2026-10-15T10:40:23.371944"
 }

@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "ALKT",
-    "fetch_date": "2026-08-14T13:24:11.814753",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 112059000.0,
-      "2025-09-30 00:00:00": 112954000.0,
-      "2025-12-31 00:00:00": 120791000.0,
-      "2026-03-31 00:00:00": 126138000.0,
-      "2026-06-30 00:00:00": 129844000.0
-    },
-    "revenue_qoq_change": 2.9380519748212275,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T09:59:50.831177+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 15.871103615059923,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.13,
-      "2025-09-30 00:00:00": -0.14,
-      "2025-12-31 00:00:00": -0.11,
-      "2026-03-31 00:00:00": -0.09,
-      "2026-06-30 00:00:00": -0.08
+    "revenue_qoq_change": 2.938051974821221,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.08,
+    "gross_margin": 56.84744770647855,
+    "operating_margin": -5.934043929638643,
+    "net_margin": -6.8543791010751365,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.359097758698981,
+    "free_cash_flow_ttm": 55197000.0,
+    "operating_cash_flow_ttm": 64633000.0,
+    "revenue_ttm": 489727000.0,
+    "net_income_ttm": -45108000.0,
+    "ebitda_ttm": -300000.0,
+    "total_debt": 358158000.0,
+    "cash": 80955000.0,
+    "total_assets": 831081000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 112059000.0,
+      "2025-09-30": 112954000.0,
+      "2025-12-31": 120791000.0,
+      "2026-03-31": 126138000.0,
+      "2026-06-30": 129844000.0
     },
-    "eps_qoq_change": 11.111111111111107,
-    "eps_yoy_change": 38.46153846153847,
-    "gross_margin": 56.85,
-    "margin_change": -1.71,
-    "operating_margin": -5.93,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.13,
+      "2025-09-30": -0.14,
+      "2025-12-31": -0.11,
+      "2026-03-31": -0.09,
+      "2026-06-30": -0.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.7146033804262757,
+    "operating_margin_yoy_change": 8.221891782798554,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.270973419884957,
+    "net_debt": 277203000.0,
+    "debt_to_assets": 43.09543835077447,
+    "ticker": "ALKT"
   },
-  "fetched_at": "2026-08-14T13:24:11.816091"
+  "fetched_at": "2026-10-15T09:59:50.836137"
 }

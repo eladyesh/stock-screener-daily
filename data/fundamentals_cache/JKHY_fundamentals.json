@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "JKHY",
-    "fetch_date": "2026-08-13T13:57:39.694069",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:27:36.259761+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 4.655882945600376,
+    "revenue_qoq_change": 1.222485048998423,
+    "eps_yoy_change": -10.285714285714286,
+    "eps_qoq_change": -8.187134502923977,
+    "latest_eps": 1.57,
+    "gross_margin": 42.52146274279024,
+    "operating_margin": 21.23728500379645,
+    "net_margin": 17.270656482765368,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.9217176905691367,
+    "free_cash_flow_ttm": 506506000.0,
+    "operating_cash_flow_ttm": 761960000.0,
+    "revenue_ttm": 2544340000.0,
+    "net_income_ttm": 502775000.0,
+    "ebitda_ttm": 871419000.0,
+    "total_debt": 40000000.0,
+    "cash": 12056000.0,
+    "total_assets": 3145711000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 585087000.0,
-      "2025-06-30 00:00:00": 615372000.0,
-      "2025-09-30 00:00:00": 644738000.0,
-      "2025-12-31 00:00:00": 619334000.0,
-      "2026-03-31 00:00:00": 636245000.0
+      "2025-06-30": 615372000.0,
+      "2025-09-30": 644738000.0,
+      "2025-12-31": 619334000.0,
+      "2026-03-31": 636245000.0,
+      "2026-06-30": 644023000.0
     },
-    "revenue_qoq_change": 2.7305137454103923,
-    "revenue_yoy_change": 8.743656926234902,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 1.52,
-      "2025-06-30 00:00:00": 1.75,
-      "2025-09-30 00:00:00": 1.97,
-      "2025-12-31 00:00:00": 1.72,
-      "2026-03-31 00:00:00": 1.71
+      "2025-06-30": 1.75,
+      "2025-09-30": 1.97,
+      "2025-12-31": 1.72,
+      "2026-03-31": 1.71,
+      "2026-06-30": 1.57
     },
-    "eps_qoq_change": -0.5813953488372098,
-    "eps_yoy_change": 12.499999999999996,
-    "gross_margin": 42.8,
-    "margin_change": -0.53,
-    "operating_margin": 24.37,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.28013098289719096,
+    "operating_margin_yoy_change": -4.0641586757989785,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.907166495043903,
+    "net_debt": 27944000.0,
+    "net_debt_to_ebitda": 0.03206723745982128,
+    "debt_to_assets": 1.2715726269832162,
+    "ticker": "JKHY"
   },
-  "fetched_at": "2026-08-13T13:57:39.695371"
+  "fetched_at": "2026-10-15T10:27:36.264680"
 }

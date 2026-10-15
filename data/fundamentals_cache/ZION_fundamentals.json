@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "ZION",
-    "fetch_date": "2026-08-14T14:24:24.958600",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 838000000.0,
-      "2025-09-30 00:00:00": 861000000.0,
-      "2025-12-31 00:00:00": 891000000.0,
-      "2026-03-31 00:00:00": 849000000.0,
-      "2026-06-30 00:00:00": 1137000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:59:38.636715+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 35.68019093078758,
     "revenue_qoq_change": 33.92226148409894,
-    "revenue_yoy_change": 35.68019093078759,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.63,
-      "2025-09-30 00:00:00": 1.48,
-      "2025-12-31 00:00:00": 1.76,
-      "2026-03-31 00:00:00": 1.56,
-      "2026-06-30 00:00:00": 3.05
+    "eps_yoy_change": 87.11656441717793,
+    "eps_qoq_change": 95.51282051282048,
+    "latest_eps": 3.05,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 39.84168865435356,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.5732627012029701,
+    "free_cash_flow_ttm": 1680000000.0,
+    "operating_cash_flow_ttm": 1801000000.0,
+    "revenue_ttm": 3738000000.0,
+    "net_income_ttm": 1171000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1956000000.0,
+    "cash": 2211000000.0,
+    "total_assets": 89041000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 838000000.0,
+      "2025-09-30": 861000000.0,
+      "2025-12-31": 891000000.0,
+      "2026-03-31": 849000000.0,
+      "2026-06-30": 1137000000.0
     },
-    "eps_qoq_change": 95.5128205128205,
-    "eps_yoy_change": 87.11656441717791,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.63,
+      "2025-09-30": 1.48,
+      "2025-12-31": 1.76,
+      "2026-03-31": 1.56,
+      "2026-06-30": 3.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 44.9438202247191,
+    "net_debt": -255000000.0,
+    "debt_to_assets": 2.1967408272593527,
+    "ticker": "ZION"
   },
-  "fetched_at": "2026-08-14T14:24:24.959311"
+  "fetched_at": "2026-10-15T10:59:38.640424"
 }

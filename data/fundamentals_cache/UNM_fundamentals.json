@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "UNM",
-    "fetch_date": "2026-08-14T14:19:46.727436",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3345800000.0,
-      "2025-09-30 00:00:00": 3357500000.0,
-      "2025-12-31 00:00:00": 3206100000.0,
-      "2026-03-31 00:00:00": 3331400000.0,
-      "2026-06-30 00:00:00": 3350000000.0
-    },
-    "revenue_qoq_change": 0.5583238278201357,
-    "revenue_yoy_change": 0.1255305158706438,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.92,
-      "2025-09-30 00:00:00": 0.23,
-      "2025-12-31 00:00:00": 1.04,
-      "2026-03-31 00:00:00": 1.41,
-      "2026-06-30 00:00:00": 1.61
-    },
-    "eps_qoq_change": 14.184397163120579,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:54:58.650495+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 0.12553051587065323,
+    "revenue_qoq_change": 0.5583238278201286,
     "eps_yoy_change": -16.145833333333325,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 14.184397163120588,
+    "latest_eps": 1.61,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 7.66865671641791,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.259842379748195,
+    "free_cash_flow_ttm": 693000000.0,
+    "operating_cash_flow_ttm": 830400000.0,
+    "revenue_ttm": 13245000000.0,
+    "net_income_ttm": 702700000.0,
+    "ebitda_ttm": null,
+    "total_debt": 3763800000.0,
+    "cash": 36518000000.0,
+    "total_assets": 63485200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 3345800000.0,
+      "2025-09-30": 3357500000.0,
+      "2025-12-31": 3206100000.0,
+      "2026-03-31": 3331400000.0,
+      "2026-06-30": 3350000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.92,
+      "2025-09-30": 0.23,
+      "2025-12-31": 1.04,
+      "2026-03-31": 1.41,
+      "2026-06-30": 1.61
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.232163080407701,
+    "net_debt": -32754200000.0,
+    "debt_to_assets": 5.92862588445811,
+    "ticker": "UNM"
   },
-  "fetched_at": "2026-08-14T14:19:46.728089"
+  "fetched_at": "2026-10-15T10:54:58.654332"
 }

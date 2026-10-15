@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BLK",
-    "fetch_date": "2026-08-13T13:35:11.767173",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:05:17.843692+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 30.62880324543611,
+    "revenue_qoq_change": 5.762914302776956,
+    "eps_yoy_change": 19.627085377821384,
+    "eps_qoq_change": -13.30014224751067,
+    "latest_eps": 12.19,
+    "gross_margin": 48.95539243365331,
+    "operating_margin": 34.895539243365334,
+    "net_margin": 27.018633540372672,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 5.310300703774784,
+    "free_cash_flow_ttm": 3515000000.0,
+    "operating_cash_flow_ttm": 3938000000.0,
+    "revenue_ttm": 27299000000.0,
+    "net_income_ttm": 6576000000.0,
+    "ebitda_ttm": 11188000000.0,
+    "total_debt": 14968000000.0,
+    "cash": 13870000000.0,
+    "total_assets": 175875000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 5423000000.0,
-      "2025-09-30 00:00:00": 6509000000.0,
-      "2025-12-31 00:00:00": 7008000000.0,
-      "2026-03-31 00:00:00": 6698000000.0,
-      "2026-06-30 00:00:00": 7084000000.0
+      "2025-06-30": 5423000000.0,
+      "2025-09-30": 6509000000.0,
+      "2025-12-31": 7008000000.0,
+      "2026-03-31": 6698000000.0,
+      "2026-06-30": 7084000000.0
     },
-    "revenue_qoq_change": 5.762914302776948,
-    "revenue_yoy_change": 30.628803245436103,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 10.19,
-      "2025-09-30 00:00:00": 8.43,
-      "2025-12-31 00:00:00": 7.16,
-      "2026-03-31 00:00:00": 14.06,
-      "2026-06-30 00:00:00": 12.19
+      "2025-06-30": 10.19,
+      "2025-09-30": 8.43,
+      "2025-12-31": 7.16,
+      "2026-03-31": 14.06,
+      "2026-06-30": 12.19
     },
-    "eps_qoq_change": -13.300142247510674,
-    "eps_yoy_change": 19.627085377821395,
-    "gross_margin": 48.96,
-    "margin_change": 0.94,
-    "operating_margin": 34.9,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.9410597970453694,
+    "operating_margin_yoy_change": 0.7815801801162152,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.875929521227883,
+    "net_debt": 1098000000.0,
+    "net_debt_to_ebitda": 0.09814086521272793,
+    "debt_to_assets": 8.510589907604833,
+    "ticker": "BLK"
   },
-  "fetched_at": "2026-08-13T13:35:11.768439"
+  "fetched_at": "2026-10-15T10:05:17.848508"
 }

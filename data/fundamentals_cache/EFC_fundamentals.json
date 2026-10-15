@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "EFC",
-    "fetch_date": "2026-08-13T13:45:29.228690",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 72282000.0,
-      "2025-06-30 00:00:00": 86272000.0,
-      "2025-09-30 00:00:00": 76583000.0,
-      "2025-12-31 00:00:00": 71369000.0,
-      "2026-03-31 00:00:00": 127945000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.45,
-      "2025-09-30 00:00:00": 0.29,
-      "2025-12-31 00:00:00": 0.14,
-      "2026-03-31 00:00:00": 0.78,
-      "2026-06-30 00:00:00": 0.43
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:15:33.915252+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 33.13589577151335,
+    "revenue_qoq_change": -10.227832271679238,
+    "eps_yoy_change": -4.444444444444451,
     "eps_qoq_change": -44.871794871794876,
-    "eps_yoy_change": -4.444444444444448,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.43,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 51.02604062372126,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 32.75228974984874,
+    "free_cash_flow_ttm": -617648000.0,
+    "operating_cash_flow_ttm": -617648000.0,
+    "revenue_ttm": 390756000.0,
+    "net_income_ttm": 222150000.0,
+    "ebitda_ttm": null,
+    "total_debt": 18485312000.0,
+    "cash": 247473000.0,
+    "total_assets": 21029547000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 86272000.0,
+      "2025-09-30": 76583000.0,
+      "2025-12-31": 71369000.0,
+      "2026-03-31": 127945000.0,
+      "2026-06-30": 114859000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.45,
+      "2025-09-30": 0.29,
+      "2025-12-31": 0.14,
+      "2026-03-31": 0.78,
+      "2026-06-30": 0.43
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -158.06487936205713,
+    "net_debt": 18237839000.0,
+    "debt_to_assets": 87.90161766204474,
+    "ticker": "EFC"
   },
-  "fetched_at": "2026-08-13T13:45:29.229389"
+  "fetched_at": "2026-10-15T10:15:33.919030"
 }

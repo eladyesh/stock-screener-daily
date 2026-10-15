@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BWMN",
-    "fetch_date": "2026-08-18T13:08:44.605546",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:07:03.088503+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 19.6862969940208,
+    "revenue_qoq_change": 15.53301338562132,
+    "eps_yoy_change": -58.823529411764696,
+    "eps_qoq_change": null,
+    "latest_eps": 0.14,
+    "gross_margin": 53.20102651839179,
+    "operating_margin": 5.237296834901625,
+    "net_margin": 1.7074422583404618,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.12868573989537335,
+    "free_cash_flow_ttm": 11569000.0,
+    "operating_cash_flow_ttm": 23239000.0,
+    "revenue_ttm": 527600000.0,
+    "net_income_ttm": 7377000.0,
+    "ebitda_ttm": 46633000.0,
+    "total_debt": 284581000.0,
+    "cash": 10486000.0,
+    "total_assets": 620062000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 112931000.0,
-      "2025-06-30 00:00:00": 122090000.0,
-      "2025-09-30 00:00:00": 126033000.0,
-      "2025-12-31 00:00:00": 128963000.0,
-      "2026-03-31 00:00:00": 126479000.0
+      "2025-06-30": 122090000.0,
+      "2025-09-30": 126033000.0,
+      "2025-12-31": 128963000.0,
+      "2026-03-31": 126479000.0,
+      "2026-06-30": 146125000.0
     },
-    "revenue_qoq_change": -1.9261338523452465,
-    "revenue_yoy_change": 11.996705953192658,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.11,
-      "2025-06-30 00:00:00": 0.34,
-      "2025-09-30 00:00:00": 0.37,
-      "2025-12-31 00:00:00": 0.11,
-      "2026-03-31 00:00:00": -0.22
+      "2025-06-30": 0.34,
+      "2025-09-30": 0.37,
+      "2025-12-31": 0.11,
+      "2026-03-31": -0.22,
+      "2026-06-30": 0.14
     },
-    "eps_qoq_change": -300.0,
-    "eps_yoy_change": -100.0,
-    "gross_margin": 52.1,
-    "margin_change": -2.92,
-    "operating_margin": -0.24,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 1.1046310693449186,
+    "operating_margin_yoy_change": -2.3546435369552023,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.19275966641395,
+    "net_debt": 274095000.0,
+    "net_debt_to_ebitda": 5.877704629768619,
+    "debt_to_assets": 45.89557173314927,
+    "ticker": "BWMN"
   },
-  "fetched_at": "2026-08-18T13:08:44.606690"
+  "fetched_at": "2026-10-15T10:07:03.093262"
 }

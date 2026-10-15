@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "QTWO",
-    "fetch_date": "2026-08-14T14:08:19.485742",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 195148000.0,
-      "2025-09-30 00:00:00": 201704000.0,
-      "2025-12-31 00:00:00": 208222000.0,
-      "2026-03-31 00:00:00": 216506000.0,
-      "2026-06-30 00:00:00": 219765000.0
-    },
-    "revenue_qoq_change": 1.505270061799673,
-    "revenue_yoy_change": 12.614528460450531,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.23,
-      "2025-12-31 00:00:00": 0.31,
-      "2026-03-31 00:00:00": 0.4,
-      "2026-06-30 00:00:00": 0.46
-    },
-    "eps_qoq_change": 15.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:31.286030+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.614528460450526,
+    "revenue_qoq_change": 1.5052700617996795,
     "eps_yoy_change": 155.55555555555557,
-    "gross_margin": 59.25,
-    "margin_change": 0.16,
-    "operating_margin": 13.68,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 14.999999999999991,
+    "latest_eps": 0.46,
+    "gross_margin": 59.245102723363594,
+    "operating_margin": 13.684162628262007,
+    "net_margin": 13.5863308534116,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.062433588926219,
+    "free_cash_flow_ttm": 189035000.0,
+    "operating_cash_flow_ttm": 226264000.0,
+    "revenue_ttm": 846197000.0,
+    "net_income_ttm": 91988000.0,
+    "ebitda_ttm": 152171000.0,
+    "total_debt": 40933000.0,
+    "cash": 106425000.0,
+    "total_assets": 968418000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 195148000.0,
+      "2025-09-30": 201704000.0,
+      "2025-12-31": 208222000.0,
+      "2026-03-31": 216506000.0,
+      "2026-06-30": 219765000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.23,
+      "2025-12-31": 0.31,
+      "2026-03-31": 0.4,
+      "2026-06-30": 0.46
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.16406108941350084,
+    "operating_margin_yoy_change": 8.775580423986277,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 22.339360692604675,
+    "net_debt": -65492000.0,
+    "net_debt_to_ebitda": -0.43038423878399956,
+    "debt_to_assets": 4.226790497491786,
+    "ticker": "QTWO"
   },
-  "fetched_at": "2026-08-14T14:08:19.487080"
+  "fetched_at": "2026-10-15T10:43:31.291305"
 }

@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "PRIM",
-    "fetch_date": "2026-10-02T14:38:15.275807",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1890700000.0,
-      "2025-09-30 00:00:00": 2178422000.0,
-      "2025-12-31 00:00:00": 1857621000.0,
-      "2026-03-31 00:00:00": 1559900000.0,
-      "2026-06-30 00:00:00": 1688200000.0
-    },
-    "revenue_qoq_change": 8.22488621065453,
-    "revenue_yoy_change": -10.710318929497012,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.54,
-      "2025-09-30 00:00:00": 1.73,
-      "2025-12-31 00:00:00": 0.95,
-      "2026-03-31 00:00:00": 0.32,
-      "2026-06-30 00:00:00": -0.45
-    },
-    "eps_qoq_change": -240.625,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:42:17.322291+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -10.71031892949701,
+    "revenue_qoq_change": 8.224886210654535,
     "eps_yoy_change": -129.2207792207792,
-    "gross_margin": 4.88,
-    "margin_change": -3.75,
-    "operating_margin": -1.42,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -240.625,
+    "latest_eps": -0.45,
+    "gross_margin": 4.880938277455278,
+    "operating_margin": -1.4157090392133633,
+    "net_margin": -1.4334794455633217,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.4688440835690209,
+    "free_cash_flow_ttm": 88000000.0,
+    "operating_cash_flow_ttm": 194500000.0,
+    "revenue_ttm": 7284143000.0,
+    "net_income_ttm": 139541000.0,
+    "ebitda_ttm": 317191000.0,
+    "total_debt": 1279100000.0,
+    "cash": 218200000.0,
+    "total_assets": 4638800000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1890700000.0,
+      "2025-09-30": 2178422000.0,
+      "2025-12-31": 1857621000.0,
+      "2026-03-31": 1559900000.0,
+      "2026-06-30": 1688200000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.54,
+      "2025-09-30": 1.73,
+      "2025-12-31": 0.95,
+      "2026-03-31": 0.32,
+      "2026-06-30": -0.45
+    },
+    "quarterly_inventory": {},
+    "margin_change": -3.7542306436294064,
+    "operating_margin_yoy_change": -8.138086994468031,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 1.208103684949623,
+    "net_debt": 1060900000.0,
+    "net_debt_to_ebitda": 3.344672452875397,
+    "debt_to_assets": 27.573941536604295,
+    "ticker": "PRIM"
   },
-  "fetched_at": "2026-10-02T14:38:15.277088"
+  "fetched_at": "2026-10-15T10:42:17.327155"
 }

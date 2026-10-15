@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "CXM",
-    "fetch_date": "2026-08-13T13:42:39.218110",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:12:46.875387+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 0.8031503489907665,
+    "revenue_qoq_change": -2.6134618801798792,
+    "eps_yoy_change": -40.0,
+    "eps_qoq_change": 50.0,
+    "latest_eps": 0.03,
+    "gross_margin": 65.12072909990034,
+    "operating_margin": 4.458157694053138,
+    "net_margin": 3.330167537650356,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -9.63560168844343,
+    "free_cash_flow_ttm": 110382000.0,
+    "operating_cash_flow_ttm": 129172000.0,
+    "revenue_ttm": 872882000.0,
+    "net_income_ttm": 23157000.0,
+    "ebitda_ttm": 65525000.0,
+    "total_debt": 41352000.0,
+    "cash": 452903000.0,
+    "total_assets": 1051779000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 205500000.0,
-      "2025-07-31 00:00:00": 212040000.0,
-      "2025-10-31 00:00:00": 219068000.0,
-      "2026-01-31 00:00:00": 220592000.0,
-      "2026-04-30 00:00:00": 219479000.0
+      "2025-07-31": 212040000.0,
+      "2025-10-31": 219068000.0,
+      "2026-01-31": 220592000.0,
+      "2026-04-30": 219479000.0,
+      "2026-07-31": 213743000.0
     },
-    "revenue_qoq_change": -0.5045513889896279,
-    "revenue_yoy_change": 6.802433090024331,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": -0.01,
-      "2025-07-31 00:00:00": 0.05,
-      "2025-10-31 00:00:00": 0.01,
-      "2026-01-31 00:00:00": 0.04,
-      "2026-04-30 00:00:00": 0.02
+      "2025-07-31": 0.05,
+      "2025-10-31": 0.01,
+      "2026-01-31": 0.04,
+      "2026-04-30": 0.02,
+      "2026-07-31": 0.03
     },
-    "eps_qoq_change": -50.0,
-    "eps_yoy_change": 300.0,
-    "gross_margin": 65.17,
-    "margin_change": -0.48,
-    "operating_margin": 4.54,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.04769248029639073,
+    "operating_margin_yoy_change": -2.751802690779912,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.645695523564468,
+    "net_debt": -411551000.0,
+    "net_debt_to_ebitda": -6.280824112933995,
+    "debt_to_assets": 3.9316244191983296,
+    "ticker": "CXM"
   },
-  "fetched_at": "2026-08-13T13:42:39.219428"
+  "fetched_at": "2026-10-15T10:12:46.880313"
 }

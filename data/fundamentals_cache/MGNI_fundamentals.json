@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "MGNI",
-    "fetch_date": "2026-08-14T13:57:38.320419",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 173332000.0,
-      "2025-09-30 00:00:00": 179494000.0,
-      "2025-12-31 00:00:00": 205356000.0,
-      "2026-03-31 00:00:00": 164371000.0,
-      "2026-06-30 00:00:00": 192823000.0
-    },
-    "revenue_qoq_change": 17.30962274367133,
-    "revenue_yoy_change": 11.24489419149378,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.08,
-      "2025-09-30 00:00:00": 0.13,
-      "2025-12-31 00:00:00": 0.8,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.13
-    },
-    "eps_qoq_change": 333.33333333333337,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:56.090498+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.24489419149377,
+    "revenue_qoq_change": 17.309622743671337,
     "eps_yoy_change": 62.5,
-    "gross_margin": 67.83,
-    "margin_change": 4.58,
-    "operating_margin": 16.19,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 333.33333333333337,
+    "latest_eps": 0.13,
+    "gross_margin": 67.8264522385815,
+    "operating_margin": 16.19205177805552,
+    "net_margin": 10.044963515763161,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.7338459463105407,
+    "free_cash_flow_ttm": 200298000.0,
+    "operating_cash_flow_ttm": 280941000.0,
+    "revenue_ttm": 742044000.0,
+    "net_income_ttm": 166889000.0,
+    "ebitda_ttm": 170385000.0,
+    "total_debt": 416978000.0,
+    "cash": 332615000.0,
+    "total_assets": 3032826000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 173332000.0,
+      "2025-09-30": 179494000.0,
+      "2025-12-31": 205356000.0,
+      "2026-03-31": 164371000.0,
+      "2026-06-30": 192823000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.08,
+      "2025-09-30": 0.13,
+      "2025-12-31": 0.8,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.13
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.577460628139264,
+    "operating_margin_yoy_change": 3.523300479968613,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.992738975047303,
+    "net_debt": 84363000.0,
+    "net_debt_to_ebitda": 0.49513161369838893,
+    "debt_to_assets": 13.748827001614996,
+    "ticker": "MGNI"
   },
-  "fetched_at": "2026-08-14T13:57:38.321731"
+  "fetched_at": "2026-10-15T10:32:56.095719"
 }

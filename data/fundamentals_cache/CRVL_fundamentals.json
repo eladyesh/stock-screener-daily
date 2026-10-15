@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "CRVL",
-    "fetch_date": "2026-08-13T13:41:38.098040",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:11:46.930549+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.742572780994507,
+    "revenue_qoq_change": 4.577385454721017,
+    "eps_yoy_change": 21.153846153846146,
+    "eps_qoq_change": 3.2786885245901676,
+    "latest_eps": 0.63,
+    "gross_margin": 26.082139078580358,
+    "operating_margin": 16.67442531499471,
+    "net_margin": 12.397807059728768,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.8955154877485003,
+    "free_cash_flow_ttm": 113820000.0,
+    "operating_cash_flow_ttm": 150550000.0,
+    "revenue_ttm": 983741000.0,
+    "net_income_ttm": 115334000.0,
+    "ebitda_ttm": 184128000.0,
+    "total_debt": 28394000.0,
+    "cash": 255883000.0,
+    "total_assets": 689735000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 234711000.0,
-      "2025-09-30 00:00:00": 239643000.0,
-      "2025-12-31 00:00:00": 235625000.0,
-      "2026-03-31 00:00:00": 248548000.0,
-      "2026-06-30 00:00:00": 259925000.0
+      "2025-06-30": 234711000.0,
+      "2025-09-30": 239643000.0,
+      "2025-12-31": 235625000.0,
+      "2026-03-31": 248548000.0,
+      "2026-06-30": 259925000.0
     },
-    "revenue_qoq_change": 4.5773854547210195,
-    "revenue_yoy_change": 10.7425727809945,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 0.54,
-      "2025-12-31 00:00:00": 0.47,
-      "2026-03-31 00:00:00": 0.61,
-      "2026-06-30 00:00:00": 0.63
+      "2025-06-30": 0.52,
+      "2025-09-30": 0.54,
+      "2025-12-31": 0.47,
+      "2026-03-31": 0.61,
+      "2026-06-30": 0.63
     },
-    "eps_qoq_change": 3.2786885245901667,
-    "eps_yoy_change": 21.15384615384615,
-    "gross_margin": 26.08,
-    "margin_change": 0.73,
-    "operating_margin": 16.67,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.7313014134211144,
+    "operating_margin_yoy_change": 1.6418959490936658,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.570118557628481,
+    "net_debt": -227489000.0,
+    "net_debt_to_ebitda": -1.2354937869308307,
+    "debt_to_assets": 4.116653497357681,
+    "ticker": "CRVL"
   },
-  "fetched_at": "2026-08-13T13:41:38.099308"
+  "fetched_at": "2026-10-15T10:11:46.936018"
 }

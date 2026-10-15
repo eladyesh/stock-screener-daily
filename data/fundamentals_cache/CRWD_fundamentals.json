@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "CRWD",
-    "fetch_date": "2026-08-13T13:41:41.135086",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:11:49.990196+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 25.83040193267132,
+    "revenue_qoq_change": 6.153739565208283,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -63.63636363636363,
+    "latest_eps": 0.01,
+    "gross_margin": 74.57320261037992,
+    "operating_margin": -2.2593016370282895,
+    "net_margin": 0.36073226065455294,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.4849325154356245,
+    "free_cash_flow_ttm": 1522603000.0,
+    "operating_cash_flow_ttm": 2016615000.0,
+    "revenue_ttm": 5396145000.0,
+    "net_income_ttm": 58460000.0,
+    "ebitda_ttm": 436857000.0,
+    "total_debt": 820179000.0,
+    "cash": 5013847000.0,
+    "total_assets": 12025001000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 1103434000.0,
-      "2025-07-31 00:00:00": 1168952000.0,
-      "2025-10-31 00:00:00": 1234244000.0,
-      "2026-01-31 00:00:00": 1305375000.0,
-      "2026-04-30 00:00:00": 1385629000.0
+      "2025-07-31": 1168952000.0,
+      "2025-10-31": 1234244000.0,
+      "2026-01-31": 1305375000.0,
+      "2026-04-30": 1385629000.0,
+      "2026-07-31": 1470897000.0
     },
-    "revenue_qoq_change": 6.147965144115675,
-    "revenue_yoy_change": 25.57425274189485,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": -0.11,
-      "2025-07-31 00:00:00": -0.0775,
-      "2025-10-31 00:00:00": -0.035,
-      "2026-01-31 00:00:00": 0.0375,
-      "2026-04-30 00:00:00": 0.0275
+      "2025-07-31": -0.0775,
+      "2025-10-31": -0.035,
+      "2026-01-31": 0.0375,
+      "2026-04-30": 0.0275,
+      "2026-07-31": 0.01
     },
-    "eps_qoq_change": -26.666666666666668,
-    "eps_yoy_change": 125.0,
-    "gross_margin": 75.3,
-    "margin_change": -0.82,
-    "operating_margin": -2.21,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.724875013572813,
+    "operating_margin_yoy_change": 6.7621979626131,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.216495294325856,
+    "net_debt": -4193668000.0,
+    "net_debt_to_ebitda": -9.59963557869051,
+    "debt_to_assets": 6.820614817412489,
+    "ticker": "CRWD"
   },
-  "fetched_at": "2026-08-13T13:41:41.136344"
+  "fetched_at": "2026-10-15T10:11:49.995284"
 }

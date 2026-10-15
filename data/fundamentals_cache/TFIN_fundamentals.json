@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "TFIN",
-    "fetch_date": "2026-08-14T14:16:45.690641",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 108377000.0,
-      "2025-09-30 00:00:00": 109281000.0,
-      "2025-12-31 00:00:00": 104965000.0,
-      "2026-03-31 00:00:00": 104719000.0,
-      "2026-06-30 00:00:00": 122124000.0
-    },
-    "revenue_qoq_change": 16.620670556441524,
-    "revenue_yoy_change": 12.684425662271515,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.15,
-      "2025-09-30 00:00:00": 0.04,
-      "2025-12-31 00:00:00": 0.77,
-      "2026-03-31 00:00:00": 0.23,
-      "2026-06-30 00:00:00": 0.44
-    },
-    "eps_qoq_change": 91.30434782608695,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:51:57.288028+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.684425662271526,
+    "revenue_qoq_change": 16.620670556441517,
     "eps_yoy_change": 193.33333333333337,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 91.30434782608694,
+    "latest_eps": 0.44,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 9.310209295470177,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.5810350169133347,
+    "free_cash_flow_ttm": 78075000.0,
+    "operating_cash_flow_ttm": 112105000.0,
+    "revenue_ttm": 441089000.0,
+    "net_income_ttm": 38647000.0,
+    "ebitda_ttm": null,
+    "total_debt": 113300000.0,
+    "cash": 896811000.0,
+    "total_assets": 7403685000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 108377000.0,
+      "2025-09-30": 109281000.0,
+      "2025-12-31": 104965000.0,
+      "2026-03-31": 104719000.0,
+      "2026-06-30": 122124000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.15,
+      "2025-09-30": 0.04,
+      "2025-12-31": 0.77,
+      "2026-03-31": 0.23,
+      "2026-06-30": 0.44
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.700509421001204,
+    "net_debt": -783511000.0,
+    "debt_to_assets": 1.530319023567318,
+    "ticker": "TFIN"
   },
-  "fetched_at": "2026-08-14T14:16:45.691385"
+  "fetched_at": "2026-10-15T10:51:57.291870"
 }

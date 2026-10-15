@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "INVH",
-    "fetch_date": "2026-08-13T13:56:32.643011",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:26:32.100338+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.707793208404446,
+    "revenue_qoq_change": 1.830510875724678,
+    "eps_yoy_change": 60.86956521739128,
+    "eps_qoq_change": 42.30769230769229,
+    "latest_eps": 0.37,
+    "gross_margin": 55.09959200053508,
+    "operating_margin": 25.18440238111163,
+    "net_margin": 29.275232425924685,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.3858454054566556,
+    "free_cash_flow_ttm": 956722000.0,
+    "operating_cash_flow_ttm": 1199915000.0,
+    "revenue_ttm": 2855078000.0,
+    "net_income_ttm": 660647000.0,
+    "ebitda_ttm": 1799708000.0,
+    "total_debt": 8526691000.0,
+    "cash": 75786000.0,
+    "total_assets": 18448310000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 681401000.0,
-      "2025-09-30 00:00:00": 688166000.0,
-      "2025-12-31 00:00:00": 685250000.0,
-      "2026-03-31 00:00:00": 734112000.0,
-      "2026-06-30 00:00:00": 747550000.0
+      "2025-06-30": 681401000.0,
+      "2025-09-30": 688166000.0,
+      "2025-12-31": 685250000.0,
+      "2026-03-31": 734112000.0,
+      "2026-06-30": 747550000.0
     },
-    "revenue_qoq_change": 1.8305108757246848,
-    "revenue_yoy_change": 9.707793208404448,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.23,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": 0.24,
-      "2026-03-31 00:00:00": 0.26,
-      "2026-06-30 00:00:00": 0.37
+      "2025-06-30": 0.23,
+      "2025-09-30": 0.22,
+      "2025-12-31": 0.24,
+      "2026-03-31": 0.26,
+      "2026-06-30": 0.37
     },
-    "eps_qoq_change": 42.3076923076923,
-    "eps_yoy_change": 60.8695652173913,
-    "gross_margin": 55.1,
-    "margin_change": -0.0,
-    "operating_margin": 25.18,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.0035802674567264603,
+    "operating_margin_yoy_change": -3.02864690998128,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.509487306476395,
+    "net_debt": 8450905000.0,
+    "net_debt_to_ebitda": 4.695708970566336,
+    "debt_to_assets": 46.21936101464036,
+    "ticker": "INVH"
   },
-  "fetched_at": "2026-08-13T13:56:32.644383"
+  "fetched_at": "2026-10-15T10:26:32.105121"
 }

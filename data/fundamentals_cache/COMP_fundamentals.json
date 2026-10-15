@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "COMP",
-    "fetch_date": "2026-08-13T13:40:51.110528",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 2060000000.0,
-      "2025-09-30 00:00:00": 1846000000.0,
-      "2025-12-31 00:00:00": 1699800000.0,
-      "2026-03-31 00:00:00": 2704000000.0,
-      "2026-06-30 00:00:00": 4306000000.0
-    },
-    "revenue_qoq_change": 59.24556213017751,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:11:00.842091+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 109.02912621359224,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.07,
-      "2025-09-30 00:00:00": -0.01,
-      "2025-12-31 00:00:00": -0.07,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.11
-    },
+    "revenue_qoq_change": 59.24556213017751,
+    "eps_yoy_change": 57.14285714285714,
     "eps_qoq_change": 266.6666666666667,
-    "eps_yoy_change": 57.14285714285713,
-    "gross_margin": 24.43,
-    "margin_change": -1.31,
-    "operating_margin": 3.72,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.11,
+    "gross_margin": 24.431026474686483,
+    "operating_margin": 3.715745471435207,
+    "net_margin": 2.1365536460752437,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 42.44488448917658,
+    "free_cash_flow_ttm": 128300000.0,
+    "operating_cash_flow_ttm": 154700000.0,
+    "revenue_ttm": 10555800000.0,
+    "net_income_ttm": 66800000.0,
+    "ebitda_ttm": 106000000.0,
+    "total_debt": 4109000000.0,
+    "cash": 694000000.0,
+    "total_assets": 8332000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 2060000000.0,
+      "2025-09-30": 1846000000.0,
+      "2025-12-31": 1699800000.0,
+      "2026-03-31": 2704000000.0,
+      "2026-06-30": 4306000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.07,
+      "2025-09-30": -0.01,
+      "2025-12-31": -0.07,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.11
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.3086184957277176,
+    "operating_margin_yoy_change": 1.6769105199788963,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 1.215445537050721,
+    "net_debt": 3415000000.0,
+    "net_debt_to_ebitda": 32.216981132075475,
+    "debt_to_assets": 49.3158905424868,
+    "ticker": "COMP"
   },
-  "fetched_at": "2026-08-13T13:40:51.111831"
+  "fetched_at": "2026-10-15T10:11:00.847058"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ZM",
-    "fetch_date": "2026-08-14T14:24:27.801104",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:59:41.558550+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 4.928415160031774,
+    "revenue_qoq_change": 3.0840044358138696,
+    "eps_yoy_change": 343.96551724137936,
+    "eps_qoq_change": 262.6760563380282,
+    "latest_eps": 5.15,
+    "gross_margin": 77.15955863412404,
+    "operating_margin": 24.609443814167836,
+    "net_margin": 120.76608751684326,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.7506033818766262,
+    "free_cash_flow_ttm": 1925133000.0,
+    "operating_cash_flow_ttm": 2000208000.0,
+    "revenue_ttm": 4993050000.0,
+    "net_income_ttm": 3255075000.0,
+    "ebitda_ttm": 1315559000.0,
+    "total_debt": 60272000.0,
+    "cash": 7249721000.0,
+    "total_assets": 13585396000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 1174715000.0,
-      "2025-07-31 00:00:00": 1217227000.0,
-      "2025-10-31 00:00:00": 1229835000.0,
-      "2026-01-31 00:00:00": 1246992000.0,
-      "2026-04-30 00:00:00": 1239006000.0
+      "2025-07-31": 1217227000.0,
+      "2025-10-31": 1229835000.0,
+      "2026-01-31": 1246992000.0,
+      "2026-04-30": 1239006000.0,
+      "2026-07-31": 1277217000.0
     },
-    "revenue_qoq_change": -0.640421109357558,
-    "revenue_yoy_change": 5.472901937916856,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": 0.81,
-      "2025-07-31 00:00:00": 1.16,
-      "2025-10-31 00:00:00": 2.01,
-      "2026-01-31 00:00:00": 2.22,
-      "2026-04-30 00:00:00": 1.42
+      "2025-07-31": 1.16,
+      "2025-10-31": 2.01,
+      "2026-01-31": 2.22,
+      "2026-04-30": 1.42,
+      "2026-07-31": 5.15
     },
-    "eps_qoq_change": -36.036036036036045,
-    "eps_yoy_change": 75.30864197530862,
-    "gross_margin": 77.86,
-    "margin_change": 1.58,
-    "operating_margin": 25.06,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.7027761729713262,
+    "operating_margin_yoy_change": -1.8223556776278613,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 38.55625319193679,
+    "net_debt": -7189449000.0,
+    "net_debt_to_ebitda": -5.464938478623916,
+    "debt_to_assets": 0.4436528754848221,
+    "ticker": "ZM"
   },
-  "fetched_at": "2026-08-14T14:24:27.802451"
+  "fetched_at": "2026-10-15T10:59:41.563437"
 }

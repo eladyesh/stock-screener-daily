@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "MTB",
-    "fetch_date": "2026-08-14T13:59:09.513799",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2386000000.0,
-      "2025-09-30 00:00:00": 2493000000.0,
-      "2025-12-31 00:00:00": 2437000000.0,
-      "2026-03-31 00:00:00": 2408000000.0,
-      "2026-06-30 00:00:00": 2485000000.0
-    },
-    "revenue_qoq_change": 3.1976744186046515,
-    "revenue_yoy_change": 4.149203688181056,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4.24,
-      "2025-09-30 00:00:00": 4.82,
-      "2025-12-31 00:00:00": 4.67,
-      "2026-03-31 00:00:00": 4.13,
-      "2026-06-30 00:00:00": 5.32
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:34:28.189156+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 4.149203688181058,
+    "revenue_qoq_change": 3.197674418604657,
+    "eps_yoy_change": 25.47169811320755,
     "eps_qoq_change": 28.81355932203391,
-    "eps_yoy_change": 25.471698113207548,
-    "inventory_breakdown_available": false
+    "latest_eps": 5.32,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.91750503018109,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.279116277616328,
+    "free_cash_flow_ttm": 3595000000.0,
+    "operating_cash_flow_ttm": 3804000000.0,
+    "revenue_ttm": 9823000000.0,
+    "net_income_ttm": 3033000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 18118000000.0,
+    "cash": 17438000000.0,
+    "total_assets": 219261000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 2386000000.0,
+      "2025-09-30": 2493000000.0,
+      "2025-12-31": 2437000000.0,
+      "2026-03-31": 2408000000.0,
+      "2026-06-30": 2485000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 4.24,
+      "2025-09-30": 4.82,
+      "2025-12-31": 4.67,
+      "2026-03-31": 4.13,
+      "2026-06-30": 5.32
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.59778071872137,
+    "net_debt": 680000000.0,
+    "debt_to_assets": 8.263211423828224,
+    "ticker": "MTB"
   },
-  "fetched_at": "2026-08-14T13:59:09.514496"
+  "fetched_at": "2026-10-15T10:34:28.192897"
 }

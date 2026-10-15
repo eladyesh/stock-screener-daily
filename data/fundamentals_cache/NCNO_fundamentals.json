@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "NCNO",
-    "fetch_date": "2026-08-14T14:00:10.413912",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:35:27.091411+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 8.188690656183862,
+    "revenue_qoq_change": 0.9955210960141514,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -58.33333333333333,
+    "latest_eps": 0.05,
+    "gross_margin": 62.590294470220684,
+    "operating_margin": 8.455848100322358,
+    "net_margin": 3.1558810193725506,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.585463950027904,
+    "free_cash_flow_ttm": 132169000.0,
+    "operating_cash_flow_ttm": 133613000.0,
+    "revenue_ttm": 622244000.0,
+    "net_income_ttm": 33597000.0,
+    "ebitda_ttm": 92506000.0,
+    "total_debt": 338627000.0,
+    "cash": 83290000.0,
+    "total_assets": 1571753000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 144137000.0,
-      "2025-07-31 00:00:00": 148815000.0,
-      "2025-10-31 00:00:00": 152163000.0,
-      "2026-01-31 00:00:00": 149666000.0,
-      "2026-04-30 00:00:00": 159414000.0
+      "2025-07-31": 148815000.0,
+      "2025-10-31": 152163000.0,
+      "2026-01-31": 149666000.0,
+      "2026-04-30": 159414000.0,
+      "2026-07-31": 161001000.0
     },
-    "revenue_qoq_change": 6.5131693236940915,
-    "revenue_yoy_change": 10.598944060164982,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": 0.05,
-      "2025-07-31 00:00:00": -0.13,
-      "2025-10-31 00:00:00": 0.06,
-      "2026-01-31 00:00:00": 0.07,
-      "2026-04-30 00:00:00": 0.12
+      "2025-07-31": -0.13,
+      "2025-10-31": 0.06,
+      "2026-01-31": 0.07,
+      "2026-04-30": 0.12,
+      "2026-07-31": 0.05
     },
-    "eps_qoq_change": 71.4285714285714,
-    "eps_yoy_change": 139.99999999999997,
-    "gross_margin": 63.32,
-    "margin_change": 1.9,
-    "operating_margin": 13.25,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.727858264169015,
+    "operating_margin_yoy_change": 14.702530222420265,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.240703003966292,
+    "net_debt": 255337000.0,
+    "net_debt_to_ebitda": 2.7602209586405206,
+    "debt_to_assets": 21.54454294027115,
+    "ticker": "NCNO"
   },
-  "fetched_at": "2026-08-14T14:00:10.415246"
+  "fetched_at": "2026-10-15T10:35:27.096264"
 }

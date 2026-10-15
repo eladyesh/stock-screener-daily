@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BB",
-    "fetch_date": "2026-08-13T13:33:31.687179",
-    "quarterly_revenue": {
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 121700000.0,
-      "2025-08-31 00:00:00": 129600000.0,
-      "2025-11-30 00:00:00": 141800000.0,
-      "2026-02-28 00:00:00": 156000000.0,
-      "2026-05-31 00:00:00": 152900000.0
-    },
-    "revenue_qoq_change": -1.987179487179487,
-    "revenue_yoy_change": 25.63681183237469,
-    "quarterly_eps": {
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 0.0,
-      "2025-08-31 00:00:00": 0.02,
-      "2025-11-30 00:00:00": 0.02,
-      "2026-02-28 00:00:00": 0.04,
-      "2026-05-31 00:00:00": 0.01
-    },
-    "eps_qoq_change": -75.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:03:40.920230+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 25.636811832374697,
+    "revenue_qoq_change": -1.9871794871794912,
     "eps_yoy_change": null,
-    "gross_margin": 78.29,
-    "margin_change": 0.47,
-    "operating_margin": 10.07,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -75.0,
+    "latest_eps": 0.01,
+    "gross_margin": 78.28646173969915,
+    "operating_margin": 10.071942446043165,
+    "net_margin": 5.5591890124264225,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.2712393335230665,
+    "free_cash_flow_ttm": 61000000.0,
+    "operating_cash_flow_ttm": 72900000.0,
+    "revenue_ttm": 580300000.0,
+    "net_income_ttm": 59800000.0,
+    "ebitda_ttm": 94500000.0,
+    "total_debt": 221100000.0,
+    "cash": 350900000.0,
+    "total_assets": 1240700000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-02-28": null,
+      "2025-05-31": 121700000.0,
+      "2025-08-31": 129600000.0,
+      "2025-11-30": 141800000.0,
+      "2026-02-28": 156000000.0,
+      "2026-05-31": 152900000.0
+    },
+    "quarterly_eps": {
+      "2025-02-28": null,
+      "2025-05-31": 0.0,
+      "2025-08-31": 0.02,
+      "2025-11-30": 0.02,
+      "2026-02-28": 0.04,
+      "2026-05-31": 0.01
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.4659489191863315,
+    "operating_margin_yoy_change": 8.346387803479484,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.511804239186628,
+    "net_debt": -129800000.0,
+    "net_debt_to_ebitda": -1.3735449735449736,
+    "debt_to_assets": 17.820585153542357,
+    "ticker": "BB"
   },
-  "fetched_at": "2026-08-13T13:33:31.688559"
+  "fetched_at": "2026-10-15T10:03:40.924954"
 }

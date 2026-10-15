@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BSY",
-    "fetch_date": "2026-08-11T13:30:55.688408",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 364106000.0,
-      "2025-09-30 00:00:00": 375549000.0,
-      "2025-12-31 00:00:00": 391582000.0,
-      "2026-03-31 00:00:00": 424181000.0,
-      "2026-06-30 00:00:00": 410727000.0
-    },
-    "revenue_qoq_change": -3.1717592254249958,
-    "revenue_yoy_change": 12.80423832620171,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.18,
-      "2025-12-31 00:00:00": 0.18,
-      "2026-03-31 00:00:00": 0.3,
-      "2026-06-30 00:00:00": 0.25
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:06:38.031522+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.8042383262017,
+    "revenue_qoq_change": -3.171759225424997,
+    "eps_yoy_change": 13.636363636363647,
     "eps_qoq_change": -16.666666666666664,
-    "eps_yoy_change": 13.636363636363635,
-    "gross_margin": 81.99,
-    "margin_change": -0.62,
-    "operating_margin": 21.57,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.25,
+    "gross_margin": 81.98633155356234,
+    "operating_margin": 21.57345390003579,
+    "net_margin": 19.1302251860725,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.166264201724379,
+    "free_cash_flow_ttm": 498499000.0,
+    "operating_cash_flow_ttm": 522885000.0,
+    "revenue_ttm": 1602039000.0,
+    "net_income_ttm": 289970000.0,
+    "ebitda_ttm": 466807000.0,
+    "total_debt": 1267445000.0,
+    "cash": 146981000.0,
+    "total_assets": 3582904000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 364106000.0,
+      "2025-09-30": 375549000.0,
+      "2025-12-31": 391582000.0,
+      "2026-03-31": 424181000.0,
+      "2026-06-30": 410727000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.18,
+      "2025-12-31": 0.18,
+      "2026-03-31": 0.3,
+      "2026-06-30": 0.25
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.6215646039741785,
+    "operating_margin_yoy_change": -1.6148484075339837,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.116533367789422,
+    "net_debt": 1120464000.0,
+    "net_debt_to_ebitda": 2.40027248948709,
+    "debt_to_assets": 35.37479653376144,
+    "ticker": "BSY"
   },
-  "fetched_at": "2026-08-11T13:30:55.689509"
+  "fetched_at": "2026-10-15T10:06:38.036475"
 }

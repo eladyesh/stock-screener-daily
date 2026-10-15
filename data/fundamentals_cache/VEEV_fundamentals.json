@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "VEEV",
-    "fetch_date": "2026-08-06T15:27:18.025957",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:55:48.457500+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 17.60047447600437,
+    "revenue_qoq_change": 5.098261732287734,
+    "eps_yoy_change": 39.495798319327726,
+    "eps_qoq_change": 5.73248407643312,
+    "latest_eps": 1.66,
+    "gross_margin": 74.99771003800798,
+    "operating_margin": 29.636741982169546,
+    "net_margin": 29.465506706625156,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.5672242597727926,
+    "free_cash_flow_ttm": 1665459000.0,
+    "operating_cash_flow_ttm": 1665459000.0,
+    "revenue_ttm": 3458098000.0,
+    "net_income_ttm": 1014772000.0,
+    "ebitda_ttm": 1075341000.0,
+    "total_debt": 151695000.0,
+    "cash": 7242947000.0,
+    "total_assets": 9060223000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 759043000.0,
-      "2025-07-31 00:00:00": 789081000.0,
-      "2025-10-31 00:00:00": 811236000.0,
-      "2026-01-31 00:00:00": 835951000.0,
-      "2026-04-30 00:00:00": 882948000.0
+      "2025-07-31": 789081000.0,
+      "2025-10-31": 811236000.0,
+      "2026-01-31": 835951000.0,
+      "2026-04-30": 882948000.0,
+      "2026-07-31": 927963000.0
     },
-    "revenue_qoq_change": 5.621980235683671,
-    "revenue_yoy_change": 16.323844630673097,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": 1.37,
-      "2025-07-31 00:00:00": 1.19,
-      "2025-10-31 00:00:00": 1.4,
-      "2026-01-31 00:00:00": 1.45,
-      "2026-04-30 00:00:00": 1.57
+      "2025-07-31": 1.19,
+      "2025-10-31": 1.4,
+      "2026-01-31": 1.45,
+      "2026-04-30": 1.57,
+      "2026-07-31": 1.66
     },
-    "eps_qoq_change": 8.275862068965525,
-    "eps_yoy_change": 14.598540145985398,
-    "gross_margin": 74.98,
-    "margin_change": 0.52,
-    "operating_margin": 30.93,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.018889088189865788,
+    "operating_margin_yoy_change": 4.809379518746908,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 48.1611278801237,
+    "net_debt": -7091252000.0,
+    "net_debt_to_ebitda": -6.594421676472859,
+    "debt_to_assets": 1.6742965377342256,
+    "ticker": "VEEV"
   },
-  "fetched_at": "2026-08-06T15:27:18.026942"
+  "fetched_at": "2026-10-15T10:55:48.462346"
 }

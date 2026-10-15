@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "QCRH",
-    "fetch_date": "2026-08-14T14:08:01.564301",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 81796000.0,
-      "2025-09-30 00:00:00": 99108000.0,
-      "2025-12-31 00:00:00": 104574000.0,
-      "2026-03-31 00:00:00": 88305000.0,
-      "2026-06-30 00:00:00": 95055000.0
-    },
-    "revenue_qoq_change": 7.643961270596229,
-    "revenue_yoy_change": 16.209839111937015,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.71,
-      "2025-09-30 00:00:00": 2.16,
-      "2025-12-31 00:00:00": 2.12,
-      "2026-03-31 00:00:00": 1.99,
-      "2026-06-30 00:00:00": 2.19
-    },
-    "eps_qoq_change": 10.050251256281404,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:15.405014+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.209839111937008,
+    "revenue_qoq_change": 7.643961270596233,
     "eps_yoy_change": 28.07017543859649,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 10.050251256281406,
+    "latest_eps": 2.19,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 38.13686812897796,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.566504542262682,
+    "free_cash_flow_ttm": 792761000.0,
+    "operating_cash_flow_ttm": 858753000.0,
+    "revenue_ttm": 387042000.0,
+    "net_income_ttm": 142012000.0,
+    "ebitda_ttm": null,
+    "total_debt": 651408000.0,
+    "cash": 172050000.0,
+    "total_assets": 9520643000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 81796000.0,
+      "2025-09-30": 99108000.0,
+      "2025-12-31": 104574000.0,
+      "2026-03-31": 88305000.0,
+      "2026-06-30": 95055000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.71,
+      "2025-09-30": 2.16,
+      "2025-12-31": 2.12,
+      "2026-03-31": 1.99,
+      "2026-06-30": 2.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 204.82557448545634,
+    "net_debt": 479358000.0,
+    "debt_to_assets": 6.842058881947365,
+    "ticker": "QCRH"
   },
-  "fetched_at": "2026-08-14T14:08:01.564977"
+  "fetched_at": "2026-10-15T10:43:15.408749"
 }

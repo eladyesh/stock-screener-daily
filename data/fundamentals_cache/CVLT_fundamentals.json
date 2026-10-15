@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "CVLT",
-    "fetch_date": "2026-08-13T13:42:25.021564",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 281978000.0,
-      "2025-09-30 00:00:00": 276188000.0,
-      "2025-12-31 00:00:00": 313832000.0,
-      "2026-03-31 00:00:00": 311692000.0,
-      "2026-06-30 00:00:00": 314131000.0
-    },
-    "revenue_qoq_change": 0.7825032403783221,
-    "revenue_yoy_change": 11.402662619069574,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 0.33,
-      "2025-12-31 00:00:00": 0.4,
-      "2026-03-31 00:00:00": 0.34,
-      "2026-06-30 00:00:00": 0.5
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:12:32.950635+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.40266261906957,
+    "revenue_qoq_change": 0.7825032403783183,
+    "eps_yoy_change": -3.8461538461538547,
     "eps_qoq_change": 47.058823529411754,
-    "eps_yoy_change": -3.8461538461538494,
-    "gross_margin": 81.66,
-    "margin_change": 0.27,
-    "operating_margin": 8.95,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.5,
+    "gross_margin": 81.66083576597025,
+    "operating_margin": 8.950087702264343,
+    "net_margin": 6.729358134026888,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.5392531413554735,
+    "free_cash_flow_ttm": 258450000.0,
+    "operating_cash_flow_ttm": 264669000.0,
+    "revenue_ttm": 1215843000.0,
+    "net_income_ttm": 68300000.0,
+    "ebitda_ttm": 114163000.0,
+    "total_debt": 917655000.0,
+    "cash": 929837000.0,
+    "total_assets": 1890421000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 281978000.0,
+      "2025-09-30": 276188000.0,
+      "2025-12-31": 313832000.0,
+      "2026-03-31": 311692000.0,
+      "2026-06-30": 314131000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.52,
+      "2025-09-30": 0.33,
+      "2025-12-31": 0.4,
+      "2026-03-31": 0.34,
+      "2026-06-30": 0.5
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.27023222144552506,
+    "operating_margin_yoy_change": 0.1611041645415412,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.256856353986496,
+    "net_debt": -12182000.0,
+    "net_debt_to_ebitda": -0.106707076723632,
+    "debt_to_assets": 48.542361727890246,
+    "ticker": "CVLT"
   },
-  "fetched_at": "2026-08-13T13:42:25.022883"
+  "fetched_at": "2026-10-15T10:12:32.955540"
 }

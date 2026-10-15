@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "FSBC",
-    "fetch_date": "2026-08-14T13:44:21.058665",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:19:48.079500+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 25.721597804865183,
+    "revenue_qoq_change": 6.238155753238361,
+    "eps_yoy_change": 33.823529411764696,
+    "eps_qoq_change": 4.597701149425282,
+    "latest_eps": 0.91,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 40.71058319867369,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.6281317196433545,
+    "free_cash_flow_ttm": 80494000.0,
+    "operating_cash_flow_ttm": 81956000.0,
+    "revenue_ttm": 176602000.0,
+    "net_income_ttm": 72007000.0,
+    "ebitda_ttm": null,
+    "total_debt": 85376000.0,
+    "cash": 685074000.0,
+    "total_assets": 5377062000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 37902000.0,
-      "2025-09-30 00:00:00": 40997000.0,
-      "2025-12-31 00:00:00": 43101000.0,
-      "2026-03-31 00:00:00": 44853000.0,
-      "2026-06-30 00:00:00": 47651000.0
+      "2025-06-30": 37902000.0,
+      "2025-09-30": 40997000.0,
+      "2025-12-31": 43101000.0,
+      "2026-03-31": 44853000.0,
+      "2026-06-30": 47651000.0
     },
-    "revenue_qoq_change": 6.238155753238357,
-    "revenue_yoy_change": 25.721597804865176,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.68,
-      "2025-09-30 00:00:00": 0.77,
-      "2025-12-31 00:00:00": 0.83,
-      "2026-03-31 00:00:00": 0.87,
-      "2026-06-30 00:00:00": 0.91
+      "2025-06-30": 0.68,
+      "2025-09-30": 0.77,
+      "2025-12-31": 0.83,
+      "2026-03-31": 0.87,
+      "2026-06-30": 0.91
     },
-    "eps_qoq_change": 4.5977011494252915,
-    "eps_yoy_change": 33.8235294117647,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 45.57932526245455,
+    "net_debt": -599698000.0,
+    "debt_to_assets": 1.5877815803500128,
+    "ticker": "FSBC"
   },
-  "fetched_at": "2026-08-14T13:44:21.059385"
+  "fetched_at": "2026-10-15T10:19:48.083418"
 }

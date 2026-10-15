@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "MCY",
-    "fetch_date": "2026-08-14T13:57:05.510767",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:23.148336+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.795390033730627,
+    "revenue_qoq_change": 9.219065481498024,
+    "eps_yoy_change": 58.13953488372094,
+    "eps_qoq_change": 38.372093023255815,
+    "latest_eps": 4.76,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 15.668181939807285,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.0,
+    "free_cash_flow_ttm": 1263765000.0,
+    "operating_cash_flow_ttm": 1327615000.0,
+    "revenue_ttm": 6342279000.0,
+    "net_income_ttm": 936873000.0,
+    "ebitda_ttm": null,
+    "total_debt": 962128000.0,
+    "cash": 2069187000.0,
+    "total_assets": 10542365000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1477885000.0,
-      "2025-09-30 00:00:00": 1584926000.0,
-      "2025-12-31 00:00:00": 1535779000.0,
-      "2026-03-31 00:00:00": 1539809000.0,
-      "2026-06-30 00:00:00": 1681765000.0
+      "2025-06-30": 1477885000.0,
+      "2025-09-30": 1584926000.0,
+      "2025-12-31": 1535779000.0,
+      "2026-03-31": 1539809000.0,
+      "2026-06-30": 1681765000.0
     },
-    "revenue_qoq_change": 9.21906548149803,
-    "revenue_yoy_change": 13.795390033730634,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 3.01,
-      "2025-09-30 00:00:00": 5.06,
-      "2025-12-31 00:00:00": 3.66,
-      "2026-03-31 00:00:00": 3.44,
-      "2026-06-30 00:00:00": 4.76
+      "2025-06-30": 3.01,
+      "2025-09-30": 5.06,
+      "2025-12-31": 3.66,
+      "2026-03-31": 3.44,
+      "2026-06-30": 4.76
     },
-    "eps_qoq_change": 38.37209302325581,
-    "eps_yoy_change": 58.139534883720934,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.926039204519384,
+    "net_debt": -1107059000.0,
+    "debt_to_assets": 9.12630135647931,
+    "ticker": "MCY"
   },
-  "fetched_at": "2026-08-14T13:57:05.511432"
+  "fetched_at": "2026-10-15T10:32:23.152177"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "HAFC",
-    "fetch_date": "2026-08-13T13:52:53.388417",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 65210000.0,
-      "2025-09-30 00:00:00": 70959000.0,
-      "2025-12-31 00:00:00": 71179000.0,
-      "2026-03-31 00:00:00": 71742000.0,
-      "2026-06-30 00:00:00": 72205000.0
-    },
-    "revenue_qoq_change": 0.6453681246689527,
-    "revenue_yoy_change": 10.726882380003067,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.5,
-      "2025-09-30 00:00:00": 0.73,
-      "2025-12-31 00:00:00": 0.7,
-      "2026-03-31 00:00:00": 0.75,
-      "2026-06-30 00:00:00": 0.79
-    },
-    "eps_qoq_change": 5.3333333333333375,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:22:52.126084+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.726882380003078,
+    "revenue_qoq_change": 0.6453681246689547,
     "eps_yoy_change": 58.00000000000001,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 5.3333333333333455,
+    "latest_eps": 0.79,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 32.55314728896891,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.21560343664181,
+    "free_cash_flow_ttm": 210115000.0,
+    "operating_cash_flow_ttm": 213182000.0,
+    "revenue_ttm": 286085000.0,
+    "net_income_ttm": 89362000.0,
+    "ebitda_ttm": null,
+    "total_debt": 130773000.0,
+    "cash": 331206000.0,
+    "total_assets": 8001473000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 65210000.0,
+      "2025-09-30": 70959000.0,
+      "2025-12-31": 71179000.0,
+      "2026-03-31": 71742000.0,
+      "2026-06-30": 72205000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.5,
+      "2025-09-30": 0.73,
+      "2025-12-31": 0.7,
+      "2026-03-31": 0.75,
+      "2026-06-30": 0.79
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 73.44495517066606,
+    "net_debt": -200433000.0,
+    "debt_to_assets": 1.634361573175339,
+    "ticker": "HAFC"
   },
-  "fetched_at": "2026-08-13T13:52:53.389077"
+  "fetched_at": "2026-10-15T10:22:52.129908"
 }

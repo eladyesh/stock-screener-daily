@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "DC",
-    "fetch_date": "2026-08-05T14:41:13.281701",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:13:13.941178+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.04,
-      "2025-06-30 00:00:00": -0.06,
-      "2025-09-30 00:00:00": -0.09,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.07
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -75.00000000000001,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.06,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 19.46524414984856,
+    "free_cash_flow_ttm": -34187130.0,
+    "operating_cash_flow_ttm": -32366369.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -36139397.0,
+    "ebitda_ttm": -36512821.0,
+    "total_debt": 1120171.0,
+    "cash": 99296041.0,
+    "total_assets": 187838392.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.04,
+      "2025-06-30": -0.06,
+      "2025-09-30": -0.09,
+      "2025-12-31": null,
+      "2026-03-31": -0.07,
+      "2026-06-30": -0.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -98175870.0,
+    "debt_to_assets": 0.5963482694208754,
+    "ticker": "DC"
   },
-  "fetched_at": "2026-08-05T14:41:13.282620"
+  "fetched_at": "2026-10-15T10:13:13.946419"
 }

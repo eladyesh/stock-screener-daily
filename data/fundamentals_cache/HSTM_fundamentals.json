@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "HSTM",
-    "fetch_date": "2026-08-13T13:54:34.451968",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 74396000.0,
-      "2025-09-30 00:00:00": 76474000.0,
-      "2025-12-31 00:00:00": 79709000.0,
-      "2026-03-31 00:00:00": 81203000.0,
-      "2026-06-30 00:00:00": 83732000.0
-    },
-    "revenue_qoq_change": 3.1144169550386067,
-    "revenue_yoy_change": 12.54906177751492,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.2,
-      "2025-12-31 00:00:00": 0.09,
-      "2026-03-31 00:00:00": 0.2,
-      "2026-06-30 00:00:00": 0.23
-    },
-    "eps_qoq_change": 15.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:33.097613+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.549061777514915,
+    "revenue_qoq_change": 3.1144169550386014,
     "eps_yoy_change": 27.77777777777779,
-    "gross_margin": 65.35,
-    "margin_change": -0.47,
-    "operating_margin": 9.94,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 14.999999999999991,
+    "latest_eps": 0.23,
+    "gross_margin": 65.34777623847513,
+    "operating_margin": 9.937658242965652,
+    "net_margin": 7.964696890077867,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.730706075533663,
+    "free_cash_flow_ttm": 41597000.0,
+    "operating_cash_flow_ttm": 71789000.0,
+    "revenue_ttm": 321118000.0,
+    "net_income_ttm": 21199000.0,
+    "ebitda_ttm": 70301000.0,
+    "total_debt": 13429000.0,
+    "cash": 66731000.0,
+    "total_assets": 521599000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 74396000.0,
+      "2025-09-30": 76474000.0,
+      "2025-12-31": 79709000.0,
+      "2026-03-31": 81203000.0,
+      "2026-06-30": 83732000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.2,
+      "2025-12-31": 0.09,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.23
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.46875763342615073,
+    "operating_margin_yoy_change": 2.0259425593267473,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.953805143280665,
+    "net_debt": -53302000.0,
+    "net_debt_to_ebitda": -0.758196896203468,
+    "debt_to_assets": 2.5745831567928623,
+    "ticker": "HSTM"
   },
-  "fetched_at": "2026-08-13T13:54:34.453307"
+  "fetched_at": "2026-10-15T10:24:33.102516"
 }

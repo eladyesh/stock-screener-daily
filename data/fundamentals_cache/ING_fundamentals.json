@@ -1,30 +1,52 @@
 {
   "data": {
-    "ticker": "ING",
-    "fetch_date": "2026-08-13T13:56:07.789690",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 5703000000.0,
-      "2025-09-30 00:00:00": 5854000000.0,
-      "2025-12-31 00:00:00": 5798000000.0,
-      "2026-03-31 00:00:00": 5824000000.0,
-      "2026-06-30 00:00:00": 6256000000.0
-    },
-    "revenue_qoq_change": 7.417582417582418,
-    "revenue_yoy_change": 9.69665088549886,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 0.37,
-      "2025-03-31 00:00:00": 0.47,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 0.6,
-      "2025-12-31 00:00:00": 0.48,
-      "2026-03-31 00:00:00": 0.54,
-      "2026-06-30 00:00:00": NaN
-    },
-    "eps_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:26:07.150600+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.696650885498869,
+    "revenue_qoq_change": 7.417582417582413,
     "eps_yoy_change": null,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.122122762148337,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 23732000000.0,
+    "net_income_ttm": 6701000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 185079000000.0,
+    "cash": 64954000000.0,
+    "total_assets": 1160759000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 5703000000.0,
+      "2025-09-30": 5854000000.0,
+      "2025-12-31": 5798000000.0,
+      "2026-03-31": 5824000000.0,
+      "2026-06-30": 6256000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.47,
+      "2025-06-30": null,
+      "2025-09-30": 0.6,
+      "2025-12-31": 0.48,
+      "2026-03-31": 0.54,
+      "2026-06-30": null
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 120125000000.0,
+    "debt_to_assets": 15.944653455196125,
+    "ticker": "ING"
   },
-  "fetched_at": "2026-08-13T13:56:07.790363"
+  "fetched_at": "2026-10-15T10:26:07.152937"
 }

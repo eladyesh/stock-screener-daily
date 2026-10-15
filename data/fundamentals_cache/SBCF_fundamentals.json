@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "SBCF",
-    "fetch_date": "2026-08-14T14:11:25.674723",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 151385000.0,
-      "2025-09-30 00:00:00": 157286000.0,
-      "2025-12-31 00:00:00": 203258000.0,
-      "2026-03-31 00:00:00": 163856000.0,
-      "2026-06-30 00:00:00": 208173000.0
-    },
-    "revenue_qoq_change": 27.046308954203692,
-    "revenue_yoy_change": 37.5123030683357,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.5,
-      "2025-09-30 00:00:00": 0.42,
-      "2025-12-31 00:00:00": 0.31,
-      "2026-03-31 00:00:00": 0.29,
-      "2026-06-30 00:00:00": 0.55
-    },
-    "eps_qoq_change": 89.65517241379312,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:37.366602+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 37.512303068335704,
+    "revenue_qoq_change": 27.046308954203703,
     "eps_yoy_change": 10.000000000000009,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 89.65517241379312,
+    "latest_eps": 0.55,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 28.598809643901944,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 13.770633722902703,
+    "free_cash_flow_ttm": 206943000.0,
+    "operating_cash_flow_ttm": 218246000.0,
+    "revenue_ttm": 732573000.0,
+    "net_income_ttm": 162157000.0,
+    "ebitda_ttm": null,
+    "total_debt": 947910000.0,
+    "cash": 430691000.0,
+    "total_assets": 21360072000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 151385000.0,
+      "2025-09-30": 157286000.0,
+      "2025-12-31": 203258000.0,
+      "2026-03-31": 163856000.0,
+      "2026-06-30": 208173000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.5,
+      "2025-09-30": 0.42,
+      "2025-12-31": 0.31,
+      "2026-03-31": 0.29,
+      "2026-06-30": 0.55
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.24878885790222,
+    "net_debt": 517219000.0,
+    "debt_to_assets": 4.437765940114809,
+    "ticker": "SBCF"
   },
-  "fetched_at": "2026-08-14T14:11:25.675407"
+  "fetched_at": "2026-10-15T10:46:37.370570"
 }

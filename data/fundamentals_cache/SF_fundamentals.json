@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "SF",
-    "fetch_date": "2026-08-14T14:12:12.633865",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1267140000.0,
-      "2025-09-30 00:00:00": 1413589000.0,
-      "2025-12-31 00:00:00": 1544162000.0,
-      "2026-03-31 00:00:00": 1463120000.0,
-      "2026-06-30 00:00:00": 1435765000.0
-    },
-    "revenue_qoq_change": -1.8696347531302968,
-    "revenue_yoy_change": 13.30752718720899,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.89,
-      "2025-09-30 00:00:00": 1.226667,
-      "2025-12-31 00:00:00": 1.54,
-      "2026-03-31 00:00:00": 1.48,
-      "2026-06-30 00:00:00": 1.34
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:47:22.381908+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.307527187209,
+    "revenue_qoq_change": -1.8696347531303004,
+    "eps_yoy_change": 50.000055970170145,
     "eps_qoq_change": -9.459459459459453,
-    "eps_yoy_change": 50.56179775280899,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.34,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 15.773960223295594,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.004161805102577,
+    "free_cash_flow_ttm": 360973000.0,
+    "operating_cash_flow_ttm": 454294000.0,
+    "revenue_ttm": 5856636000.0,
+    "net_income_ttm": 953628000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1960945000.0,
+    "cash": 2626413000.0,
+    "total_assets": 44907609000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1267140000.0,
+      "2025-09-30": 1413589000.0,
+      "2025-12-31": 1544162000.0,
+      "2026-03-31": 1463120000.0,
+      "2026-06-30": 1435765000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.893333,
+      "2025-09-30": 1.226667,
+      "2025-12-31": 1.54,
+      "2026-03-31": 1.48,
+      "2026-06-30": 1.34
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.163487025657732,
+    "net_debt": -665468000.0,
+    "debt_to_assets": 4.3666208102952,
+    "ticker": "SF"
   },
-  "fetched_at": "2026-08-14T14:12:12.634539"
+  "fetched_at": "2026-10-15T10:47:22.385733"
 }

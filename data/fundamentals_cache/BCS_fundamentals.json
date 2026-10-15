@@ -1,28 +1,52 @@
 {
   "data": {
-    "ticker": "BCS",
-    "fetch_date": "2026-08-13T13:34:01.901784",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:04:08.804523+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 16.015027132322256,
+    "revenue_qoq_change": 2.1438196741394133,
+    "eps_yoy_change": 42.73504273504274,
+    "eps_qoq_change": 18.439716312056763,
+    "latest_eps": 0.668,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 30.007195970256657,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.54577440011259,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 30745000000.0,
+    "net_income_ttm": 7843000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 137935000000.0,
+    "cash": 245859000000.0,
+    "total_assets": 1730358000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 7187000000.0,
-      "2025-09-30 00:00:00": 7167000000.0,
-      "2025-12-31 00:00:00": 7077000000.0,
-      "2026-03-31 00:00:00": 8163000000.0,
-      "2026-06-30 00:00:00": 8338000000.0
+      "2025-03-31": null,
+      "2025-06-30": 7187000000.0,
+      "2025-09-30": 7167000000.0,
+      "2025-12-31": 7077000000.0,
+      "2026-03-31": 8163000000.0,
+      "2026-06-30": 8338000000.0
     },
-    "revenue_qoq_change": 2.1438196741394093,
-    "revenue_yoy_change": 16.01502713232225,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.468,
-      "2025-09-30 00:00:00": 0.416,
-      "2025-12-31 00:00:00": 0.344,
-      "2026-03-31 00:00:00": 0.564,
-      "2026-06-30 00:00:00": 0.668
+      "2025-03-31": null,
+      "2025-06-30": 0.468,
+      "2025-09-30": 0.416,
+      "2025-12-31": 0.344,
+      "2026-03-31": 0.564,
+      "2026-06-30": 0.668
     },
-    "eps_qoq_change": 18.439716312056756,
-    "eps_yoy_change": 42.73504273504273,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -107924000000.0,
+    "debt_to_assets": 7.971471799477333,
+    "ticker": "BCS"
   },
-  "fetched_at": "2026-08-13T13:34:01.902484"
+  "fetched_at": "2026-10-15T10:04:08.806751"
 }

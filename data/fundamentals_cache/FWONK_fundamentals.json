@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "FWONK",
-    "fetch_date": "2026-08-14T13:44:52.029365",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1341000000.0,
-      "2025-09-30 00:00:00": 1085000000.0,
-      "2025-12-31 00:00:00": 1609000000.0,
-      "2026-03-31 00:00:00": 711000000.0,
-      "2026-06-30 00:00:00": 934000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:20:18.273222+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -30.350484712900816,
     "revenue_qoq_change": 31.364275668073137,
-    "revenue_yoy_change": -30.350484712900823,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.05,
-      "2025-06-30 00:00:00": 1.52,
-      "2025-09-30 00:00:00": 0.24,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": 0.02
-    },
-    "eps_qoq_change": -33.33333333333333,
     "eps_yoy_change": -98.68421052631578,
-    "gross_margin": 35.22,
-    "margin_change": -6.69,
-    "operating_margin": 9.42,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -33.33333333333333,
+    "latest_eps": 0.02,
+    "gross_margin": 35.224839400428266,
+    "operating_margin": 9.421841541755889,
+    "net_margin": 0.5353319057815845,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.0,
+    "free_cash_flow_ttm": 802000000.0,
+    "operating_cash_flow_ttm": 931000000.0,
+    "revenue_ttm": 4339000000.0,
+    "net_income_ttm": 213000000.0,
+    "ebitda_ttm": 1119000000.0,
+    "total_debt": 4924000000.0,
+    "cash": 1465000000.0,
+    "total_assets": 15879000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1341000000.0,
+      "2025-09-30": 1085000000.0,
+      "2025-12-31": 1609000000.0,
+      "2026-03-31": 711000000.0,
+      "2026-06-30": 934000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.05,
+      "2025-06-30": 1.52,
+      "2025-09-30": 0.24,
+      "2025-12-31": null,
+      "2026-03-31": 0.03,
+      "2026-06-30": 0.02
+    },
+    "quarterly_inventory": {},
+    "margin_change": -6.6879594743959245,
+    "operating_margin_yoy_change": -11.681812447804141,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 18.48352154874395,
+    "net_debt": 3459000000.0,
+    "net_debt_to_ebitda": 3.091152815013405,
+    "debt_to_assets": 31.009509414950564,
+    "ticker": "FWONK"
   },
-  "fetched_at": "2026-08-14T13:44:52.030742"
+  "fetched_at": "2026-10-15T10:20:18.278160"
 }

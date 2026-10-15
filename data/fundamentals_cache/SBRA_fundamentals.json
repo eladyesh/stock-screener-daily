@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "SBRA",
-    "fetch_date": "2026-08-14T14:11:32.622890",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 189150000.0,
-      "2025-09-30 00:00:00": 190037000.0,
-      "2025-12-31 00:00:00": 211902000.0,
-      "2026-03-31 00:00:00": 221753000.0,
-      "2026-06-30 00:00:00": 235866000.0
-    },
-    "revenue_qoq_change": 6.364288194522735,
-    "revenue_yoy_change": 24.69785884218874,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.27,
-      "2025-09-30 00:00:00": 0.09,
-      "2025-12-31 00:00:00": 0.11,
-      "2026-03-31 00:00:00": 0.16,
-      "2026-06-30 00:00:00": -0.1
-    },
-    "eps_qoq_change": -162.5,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:46:43.340950+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 24.697858842188737,
+    "revenue_qoq_change": 6.364288194522727,
     "eps_yoy_change": -137.037037037037,
-    "gross_margin": 60.88,
-    "margin_change": -0.5,
-    "operating_margin": -13.59,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -162.5,
+    "latest_eps": -0.1,
+    "gross_margin": 60.87948241798309,
+    "operating_margin": -13.587799852458598,
+    "net_margin": -10.684880398192194,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.706379158489216,
+    "free_cash_flow_ttm": 371573000.0,
+    "operating_cash_flow_ttm": 371573000.0,
+    "revenue_ttm": 859558000.0,
+    "net_income_ttm": 65441000.0,
+    "ebitda_ttm": 392815000.0,
+    "total_debt": 2645217000.0,
+    "cash": 231584000.0,
+    "total_assets": 5512610000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 189150000.0,
+      "2025-09-30": 190037000.0,
+      "2025-12-31": 211902000.0,
+      "2026-03-31": 221753000.0,
+      "2026-06-30": 235866000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.27,
+      "2025-09-30": 0.09,
+      "2025-12-31": 0.11,
+      "2026-03-31": 0.16,
+      "2026-06-30": -0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.5000705080201655,
+    "operating_margin_yoy_change": -51.62533619927329,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 43.228380167481426,
+    "net_debt": 2413633000.0,
+    "net_debt_to_ebitda": 6.144452223056655,
+    "debt_to_assets": 47.98483839778254,
+    "ticker": "SBRA"
   },
-  "fetched_at": "2026-08-14T14:11:32.624243"
+  "fetched_at": "2026-10-15T10:46:43.346056"
 }

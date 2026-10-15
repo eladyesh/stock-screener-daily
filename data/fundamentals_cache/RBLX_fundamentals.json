@@ -1,31 +1,53 @@
 {
   "data": {
-    "ticker": "RBLX",
-    "fetch_date": "2026-07-22T15:14:23.212622",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1035000000.0,
-      "2025-06-30 00:00:00": 1080677000.0,
-      "2025-09-30 00:00:00": 1359646000.0,
-      "2025-12-31 00:00:00": 1415021000.0,
-      "2026-03-31 00:00:00": 1442000000.0
-    },
-    "revenue_qoq_change": 1.9066148134904006,
-    "revenue_yoy_change": 39.32367149758454,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": -0.33,
-      "2025-03-31 00:00:00": -0.32,
-      "2025-06-30 00:00:00": -0.41,
-      "2025-09-30 00:00:00": -0.37,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.35
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:43:52.147718+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 35.892691951896396,
+    "revenue_qoq_change": 1.8723994452149784,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -9.374999999999991,
-    "gross_margin": 79.61,
-    "margin_change": 1.87,
-    "operating_margin": -20.39,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.26,
+    "gross_margin": 80.12253233492171,
+    "operating_margin": -15.588835942818244,
+    "net_margin": -12.457454050374404,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.662423321169862,
+    "free_cash_flow_ttm": 1639880000.0,
+    "operating_cash_flow_ttm": 2100358000.0,
+    "revenue_ttm": 5685667000.0,
+    "net_income_ttm": -1000626000.0,
+    "ebitda_ttm": -719857000.0,
+    "total_debt": 1836000000.0,
+    "cash": 3014000000.0,
+    "total_assets": 9745000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1081000000.0,
+      "2025-09-30": 1359646000.0,
+      "2025-12-31": 1415021000.0,
+      "2026-03-31": 1442000000.0,
+      "2026-06-30": 1469000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.32,
+      "2025-06-30": -0.41,
+      "2025-09-30": -0.37,
+      "2025-12-31": null,
+      "2026-03-31": -0.35,
+      "2026-06-30": -0.26
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.510881849484818,
+    "operating_margin_yoy_change": 14.198398099734947,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.842350422562557,
+    "net_debt": -1178000000.0,
+    "debt_to_assets": 18.840430990251413,
+    "ticker": "RBLX"
   },
-  "fetched_at": "2026-07-22T15:14:23.214583"
+  "fetched_at": "2026-10-15T10:43:52.152629"
 }

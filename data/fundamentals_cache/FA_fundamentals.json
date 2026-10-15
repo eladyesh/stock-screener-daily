@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "FA",
-    "fetch_date": "2026-08-14T13:42:11.982843",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 390633000.0,
-      "2025-09-30 00:00:00": 409151000.0,
-      "2025-12-31 00:00:00": 420017000.0,
-      "2026-03-31 00:00:00": 385201000.0,
-      "2026-06-30 00:00:00": 448763000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:17:41.055798+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 14.880975237627126,
     "revenue_qoq_change": 16.50099558412361,
-    "revenue_yoy_change": 14.880975237627133,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.01,
-      "2025-12-31 00:00:00": 0.02,
-      "2026-03-31 00:00:00": 0.01,
-      "2026-06-30 00:00:00": 0.1
-    },
-    "eps_qoq_change": 900.0,
     "eps_yoy_change": null,
-    "gross_margin": 45.46,
-    "margin_change": 0.34,
-    "operating_margin": 12.71,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 900.0,
+    "latest_eps": 0.1,
+    "gross_margin": 45.4565104520649,
+    "operating_margin": 12.70670710374964,
+    "net_margin": 3.7690273039443984,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.0534567792755523,
+    "free_cash_flow_ttm": 195444000.0,
+    "operating_cash_flow_ttm": 261337000.0,
+    "revenue_ttm": 1663132000.0,
+    "net_income_ttm": 25144000.0,
+    "ebitda_ttm": 425220000.0,
+    "total_debt": 2041061000.0,
+    "cash": 237900000.0,
+    "total_assets": 3747246000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 390633000.0,
+      "2025-09-30": 409151000.0,
+      "2025-12-31": 420017000.0,
+      "2026-03-31": 385201000.0,
+      "2026-06-30": 448763000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.01,
+      "2025-12-31": 0.02,
+      "2026-03-31": 0.01,
+      "2026-06-30": 0.1
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.3398051475615347,
+    "operating_margin_yoy_change": 3.046232950260304,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.751562714204285,
+    "net_debt": 1803161000.0,
+    "net_debt_to_ebitda": 4.240536663374253,
+    "debt_to_assets": 54.46829484907049,
+    "ticker": "FA"
   },
-  "fetched_at": "2026-08-14T13:42:11.984171"
+  "fetched_at": "2026-10-15T10:17:41.060771"
 }

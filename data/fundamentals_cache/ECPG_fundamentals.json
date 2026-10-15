@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ECPG",
-    "fetch_date": "2026-08-13T13:45:19.271361",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 442122000.0,
-      "2025-09-30 00:00:00": 460353000.0,
-      "2025-12-31 00:00:00": 473552000.0,
-      "2026-03-31 00:00:00": 475411000.0,
-      "2026-06-30 00:00:00": 491872000.0
-    },
-    "revenue_qoq_change": 3.4624777297959026,
-    "revenue_yoy_change": 11.25255020107572,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.49,
-      "2025-09-30 00:00:00": 3.17,
-      "2025-12-31 00:00:00": 3.37,
-      "2026-03-31 00:00:00": 3.86,
-      "2026-06-30 00:00:00": 2.81
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:15:22.876719+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.252550201075717,
+    "revenue_qoq_change": 3.4624777297959097,
+    "eps_yoy_change": 12.851405622489942,
     "eps_qoq_change": -27.2020725388601,
-    "eps_yoy_change": 12.851405622489953,
-    "gross_margin": 54.8,
-    "margin_change": -1.0,
-    "operating_margin": 38.0,
-    "inventory_breakdown_available": false
+    "latest_eps": 2.81,
+    "gross_margin": 54.80470528918092,
+    "operating_margin": 37.99809706590332,
+    "net_margin": 13.011311886019127,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.337857324624649,
+    "free_cash_flow_ttm": 125139000.0,
+    "operating_cash_flow_ttm": 151338000.0,
+    "revenue_ttm": 1901188000.0,
+    "net_income_ttm": 301559000.0,
+    "ebitda_ttm": 705161000.0,
+    "total_debt": 4179515000.0,
+    "cash": 182932000.0,
+    "total_assets": 5565263000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 442122000.0,
+      "2025-09-30": 460353000.0,
+      "2025-12-31": 473552000.0,
+      "2026-03-31": 475411000.0,
+      "2026-06-30": 491872000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.49,
+      "2025-09-30": 3.17,
+      "2025-12-31": 3.37,
+      "2026-03-31": 3.86,
+      "2026-06-30": 2.81
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.002164976757392,
+    "operating_margin_yoy_change": 3.9050186848229913,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.582147583510942,
+    "net_debt": 3996583000.0,
+    "net_debt_to_ebitda": 5.667617749705387,
+    "debt_to_assets": 75.10004468791503,
+    "ticker": "ECPG"
   },
-  "fetched_at": "2026-08-13T13:45:19.272634"
+  "fetched_at": "2026-10-15T10:15:22.881632"
 }

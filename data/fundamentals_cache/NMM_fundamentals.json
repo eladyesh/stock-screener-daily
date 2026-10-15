@@ -1,39 +1,61 @@
 {
   "data": {
-    "ticker": "NMM",
-    "fetch_date": "2026-08-10T14:03:45.114330",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 304112000.0,
-      "2025-06-30 00:00:00": 327558000.0,
-      "2025-09-30 00:00:00": 346923000.0,
-      "2025-12-31 00:00:00": 365550000.0,
-      "2026-03-31 00:00:00": 357007000.0
-    },
-    "revenue_qoq_change": -2.337026398577486,
-    "revenue_yoy_change": 17.393263008365338,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 1.38,
-      "2025-06-30 00:00:00": 2.34,
-      "2025-09-30 00:00:00": 1.9,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 3.64
-    },
-    "eps_qoq_change": null,
-    "eps_yoy_change": 163.76811594202903,
-    "gross_margin": 41.86,
-    "margin_change": -0.33,
-    "operating_margin": 35.18,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 32793000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 31944000.0,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:36:14.218790+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 25.219350466176984,
+    "revenue_qoq_change": 14.890184226079594,
+    "eps_yoy_change": 147.00854700854703,
+    "eps_qoq_change": 58.79120879120878,
+    "latest_eps": 5.78,
+    "gross_margin": 45.355782780630285,
+    "operating_margin": 39.40697181141294,
+    "net_margin": 40.9392782434429,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": -2.8102928697319007,
+    "free_cash_flow_ttm": -165758000.0,
+    "operating_cash_flow_ttm": 540098000.0,
+    "revenue_ttm": 1479646000.0,
+    "net_income_ttm": 447923000.0,
+    "ebitda_ttm": 914344000.0,
+    "total_debt": 1640660000.0,
+    "cash": 469104000.0,
+    "total_assets": 6264133000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 327558000.0,
+      "2025-09-30": 346923000.0,
+      "2025-12-31": 365550000.0,
+      "2026-03-31": 357007000.0,
+      "2026-06-30": 410166000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 1.38,
+      "2025-06-30": 2.34,
+      "2025-09-30": 1.9,
+      "2025-12-31": null,
+      "2026-03-31": 3.64,
+      "2026-06-30": 5.78
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 31944000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": 3.499460635686347,
+    "operating_margin_yoy_change": 10.48629211499276,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -11.202544392374932,
+    "net_debt": 1171556000.0,
+    "net_debt_to_ebitda": 1.2813076916346582,
+    "debt_to_assets": 26.19133406011654,
+    "ticker": "NMM"
   },
-  "fetched_at": "2026-08-10T14:03:45.115805"
+  "fetched_at": "2026-10-15T10:36:14.223898"
 }

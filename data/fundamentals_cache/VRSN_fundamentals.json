@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "VRSN",
-    "fetch_date": "2026-08-14T14:21:30.827513",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:56:42.612494+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 6.025859965845326,
+    "revenue_qoq_change": 1.3289811144788999,
+    "eps_yoy_change": 7.692307692307687,
+    "eps_qoq_change": 1.7094017094017033,
+    "latest_eps": 2.38,
+    "gross_margin": 88.49516797054763,
+    "operating_margin": 68.17763460653474,
+    "net_margin": 49.81592268752876,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.0851063829787195,
+    "free_cash_flow_ttm": 1066100000.0,
+    "operating_cash_flow_ttm": 1101300000.0,
+    "revenue_ttm": 1707900000.0,
+    "net_income_ttm": 850000000.0,
+    "ebitda_ttm": 1206700000.0,
+    "total_debt": 2340300000.0,
+    "cash": 1034100000.0,
+    "total_assets": 1802800000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 409900000.0,
-      "2025-09-30 00:00:00": 419100000.0,
-      "2025-12-31 00:00:00": 425300000.0,
-      "2026-03-31 00:00:00": 428900000.0,
-      "2026-06-30 00:00:00": 434600000.0
+      "2025-06-30": 409900000.0,
+      "2025-09-30": 419100000.0,
+      "2025-12-31": 425300000.0,
+      "2026-03-31": 428900000.0,
+      "2026-06-30": 434600000.0
     },
-    "revenue_qoq_change": 1.3289811144788994,
-    "revenue_yoy_change": 6.025859965845328,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.21,
-      "2025-09-30 00:00:00": 2.27,
-      "2025-12-31 00:00:00": 2.23,
-      "2026-03-31 00:00:00": 2.34,
-      "2026-06-30 00:00:00": 2.38
+      "2025-06-30": 2.21,
+      "2025-09-30": 2.27,
+      "2025-12-31": 2.23,
+      "2026-03-31": 2.34,
+      "2026-06-30": 2.38
     },
-    "eps_qoq_change": 1.7094017094017109,
-    "eps_yoy_change": 7.692307692307689,
-    "gross_margin": 88.5,
-    "margin_change": -0.03,
-    "operating_margin": 68.18,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.03362662026607666,
+    "operating_margin_yoy_change": -0.30248249519739545,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 62.42168745242695,
+    "net_debt": 1306200000.0,
+    "net_debt_to_ebitda": 1.082456285737963,
+    "debt_to_assets": 129.8147326381185,
+    "ticker": "VRSN"
   },
-  "fetched_at": "2026-08-14T14:21:30.828806"
+  "fetched_at": "2026-10-15T10:56:42.617540"
 }

@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "HTH",
-    "fetch_date": "2026-08-13T13:54:38.533182",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 303308000.0,
-      "2025-09-30 00:00:00": 330195000.0,
-      "2025-12-31 00:00:00": 267750000.0,
-      "2026-03-31 00:00:00": 300512000.0,
-      "2026-06-30 00:00:00": 315809000.0
-    },
-    "revenue_qoq_change": 5.090312533276541,
-    "revenue_yoy_change": 4.121553008822715,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.57,
-      "2025-09-30 00:00:00": 0.74,
-      "2025-12-31 00:00:00": 0.69,
-      "2026-03-31 00:00:00": 0.64,
-      "2026-06-30 00:00:00": 0.63
-    },
-    "eps_qoq_change": -1.5625000000000013,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:24:37.145286+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 4.121553008822709,
+    "revenue_qoq_change": 5.090312533276542,
     "eps_yoy_change": 10.526315789473696,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -1.5625,
+    "latest_eps": 0.63,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 11.564584923165585,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.938055878563123,
+    "free_cash_flow_ttm": -122740000.0,
+    "operating_cash_flow_ttm": -94670000.0,
+    "revenue_ttm": 1214266000.0,
+    "net_income_ttm": 161760000.0,
+    "ebitda_ttm": null,
+    "total_debt": 632673000.0,
+    "cash": 750508000.0,
+    "total_assets": 16000819000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 303308000.0,
+      "2025-09-30": 330195000.0,
+      "2025-12-31": 267750000.0,
+      "2026-03-31": 300512000.0,
+      "2026-06-30": 315809000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.57,
+      "2025-09-30": 0.74,
+      "2025-12-31": 0.69,
+      "2026-03-31": 0.64,
+      "2026-06-30": 0.63
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -10.108164109017299,
+    "net_debt": -117835000.0,
+    "debt_to_assets": 3.954003854427701,
+    "ticker": "HTH"
   },
-  "fetched_at": "2026-08-13T13:54:38.533825"
+  "fetched_at": "2026-10-15T10:24:37.149069"
 }

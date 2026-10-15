@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "PFBC",
-    "fetch_date": "2026-08-14T14:05:33.610444",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 66656000.0,
-      "2025-06-30 00:00:00": 70636000.0,
-      "2025-09-30 00:00:00": 74975000.0,
-      "2025-12-31 00:00:00": 71131000.0,
-      "2026-03-31 00:00:00": 69623000.0
-    },
-    "revenue_qoq_change": -2.1200320535350268,
-    "revenue_yoy_change": 4.451212193951032,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 2.23,
-      "2025-06-30 00:00:00": 2.57,
-      "2025-09-30 00:00:00": 2.84,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 2.53
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:40:49.247912+00:00",
+    "report_period": "2026-03-31",
+    "revenue_yoy_change": 4.451212193951037,
+    "revenue_qoq_change": -2.120032053535026,
+    "eps_yoy_change": 13.452914798206272,
     "eps_qoq_change": null,
-    "eps_yoy_change": 13.452914798206269,
-    "inventory_breakdown_available": false
+    "latest_eps": 2.53,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 44.732344196601694,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.62947901670208,
+    "free_cash_flow_ttm": 166806000.0,
+    "operating_cash_flow_ttm": 169130000.0,
+    "revenue_ttm": 286365000.0,
+    "net_income_ttm": 134752000.0,
+    "ebitda_ttm": null,
+    "total_debt": 383149000.0,
+    "cash": 805161000.0,
+    "total_assets": 7654637000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 66656000.0,
+      "2025-06-30": 70636000.0,
+      "2025-09-30": 74975000.0,
+      "2025-12-31": 71131000.0,
+      "2026-03-31": 69623000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 2.23,
+      "2025-06-30": 2.57,
+      "2025-09-30": 2.84,
+      "2025-12-31": null,
+      "2026-03-31": 2.53
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 58.2494369074433,
+    "net_debt": -422012000.0,
+    "debt_to_assets": 5.005449637912288,
+    "ticker": "PFBC"
   },
-  "fetched_at": "2026-08-14T14:05:33.611088"
+  "fetched_at": "2026-10-15T10:40:49.251659"
 }

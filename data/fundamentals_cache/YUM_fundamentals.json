@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "YUM",
-    "fetch_date": "2026-08-06T15:30:51.273839",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1932000000.0,
-      "2025-09-30 00:00:00": 1980000000.0,
-      "2025-12-31 00:00:00": 2515000000.0,
-      "2026-03-31 00:00:00": 2059000000.0,
-      "2026-06-30 00:00:00": 2170000000.0
-    },
-    "revenue_qoq_change": 5.390966488586693,
-    "revenue_yoy_change": 12.318840579710146,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.33,
-      "2025-09-30 00:00:00": 1.41,
-      "2025-12-31 00:00:00": 1.91,
-      "2026-03-31 00:00:00": 1.55,
-      "2026-06-30 00:00:00": 3.08
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:59:25.729044+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 12.318840579710155,
+    "revenue_qoq_change": 5.3909664885867015,
+    "eps_yoy_change": 131.57894736842107,
     "eps_qoq_change": 98.70967741935483,
-    "eps_yoy_change": 131.57894736842104,
-    "gross_margin": 45.39,
-    "margin_change": 0.71,
-    "operating_margin": 30.46,
-    "inventory_breakdown_available": false
+    "latest_eps": 3.08,
+    "gross_margin": 45.39170506912442,
+    "operating_margin": 30.46082949308756,
+    "net_margin": 39.30875576036866,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.4234875444839812,
+    "free_cash_flow_ttm": 1679000000.0,
+    "operating_cash_flow_ttm": 2083000000.0,
+    "revenue_ttm": 8724000000.0,
+    "net_income_ttm": 2217000000.0,
+    "ebitda_ttm": 2946000000.0,
+    "total_debt": 12275000000.0,
+    "cash": 674000000.0,
+    "total_assets": 8682000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1932000000.0,
+      "2025-09-30": 1980000000.0,
+      "2025-12-31": 2515000000.0,
+      "2026-03-31": 2059000000.0,
+      "2026-06-30": 2170000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.33,
+      "2025-09-30": 1.41,
+      "2025-12-31": 1.91,
+      "2026-03-31": 1.55,
+      "2026-06-30": 3.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.709820659216696,
+    "operating_margin_yoy_change": -0.7503506311360439,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.245758826226503,
+    "net_debt": 11601000000.0,
+    "net_debt_to_ebitda": 3.9378818737270875,
+    "debt_to_assets": 141.38447362358903,
+    "ticker": "YUM"
   },
-  "fetched_at": "2026-08-06T15:30:51.275093"
+  "fetched_at": "2026-10-15T10:59:25.733903"
 }

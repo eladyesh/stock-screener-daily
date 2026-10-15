@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "WABC",
-    "fetch_date": "2026-08-14T14:22:02.941474",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:57:13.890729+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -2.8222872447478786,
+    "revenue_qoq_change": 1.1082117199832542,
+    "eps_yoy_change": 4.464285714285698,
+    "eps_qoq_change": 3.539823008849563,
+    "latest_eps": 1.17,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 43.627529074398595,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -9.926996021476297,
+    "free_cash_flow_ttm": 108630000.0,
+    "operating_cash_flow_ttm": 111262000.0,
+    "revenue_ttm": 251901000.0,
+    "net_income_ttm": 110810000.0,
+    "ebitda_ttm": null,
+    "total_debt": 22197000.0,
+    "cash": 301934000.0,
+    "total_assets": 5805061000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 64593000.0,
-      "2025-09-30 00:00:00": 63740000.0,
-      "2025-12-31 00:00:00": 63309000.0,
-      "2026-03-31 00:00:00": 62082000.0,
-      "2026-06-30 00:00:00": 62770000.0
+      "2025-06-30": 64593000.0,
+      "2025-09-30": 63740000.0,
+      "2025-12-31": 63309000.0,
+      "2026-03-31": 62082000.0,
+      "2026-06-30": 62770000.0
     },
-    "revenue_qoq_change": 1.108211719983248,
-    "revenue_yoy_change": -2.8222872447478826,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.12,
-      "2025-09-30 00:00:00": 1.12,
-      "2025-12-31 00:00:00": 1.12,
-      "2026-03-31 00:00:00": 1.13,
-      "2026-06-30 00:00:00": 1.17
+      "2025-06-30": 1.12,
+      "2025-09-30": 1.12,
+      "2025-12-31": 1.12,
+      "2026-03-31": 1.13,
+      "2026-06-30": 1.17
     },
-    "eps_qoq_change": 3.539823008849561,
-    "eps_yoy_change": 4.4642857142856975,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 43.12408446175283,
+    "net_debt": -279737000.0,
+    "debt_to_assets": 0.38237324293405356,
+    "ticker": "WABC"
   },
-  "fetched_at": "2026-08-14T14:22:02.942148"
+  "fetched_at": "2026-10-15T10:57:13.894802"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "MDB",
-    "fetch_date": "2026-08-14T13:57:08.327747",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:32:26.155094+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 30.498882316935006,
+    "revenue_qoq_change": 12.23895313663439,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 900.0,
+    "latest_eps": 0.5,
+    "gross_margin": 73.82546422328845,
+    "operating_margin": 3.679838501735614,
+    "net_margin": 5.30466860074141,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.1313245919983839,
+    "free_cash_flow_ttm": 659020000.0,
+    "operating_cash_flow_ttm": 666623000.0,
+    "revenue_ttm": 2782770000.0,
+    "net_income_ttm": 58897000.0,
+    "ebitda_ttm": 115359000.0,
+    "total_debt": 28595000.0,
+    "cash": 2411254000.0,
+    "total_assets": 3777688000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-04-30 00:00:00": 549014000.0,
-      "2025-07-31 00:00:00": 591402000.0,
-      "2025-10-31 00:00:00": 628309000.0,
-      "2026-01-31 00:00:00": 695072000.0,
-      "2026-04-30 00:00:00": 687616000.0
+      "2025-07-31": 591402000.0,
+      "2025-10-31": 628309000.0,
+      "2026-01-31": 695072000.0,
+      "2026-04-30": 687616000.0,
+      "2026-07-31": 771773000.0
     },
-    "revenue_qoq_change": -1.0726946273191842,
-    "revenue_yoy_change": 25.245622151711977,
     "quarterly_eps": {
-      "2025-04-30 00:00:00": -0.46,
-      "2025-07-31 00:00:00": -0.58,
-      "2025-10-31 00:00:00": -0.02,
-      "2026-01-31 00:00:00": 0.18,
-      "2026-04-30 00:00:00": 0.05
+      "2025-07-31": -0.58,
+      "2025-10-31": -0.02,
+      "2026-01-31": 0.18,
+      "2026-04-30": 0.05,
+      "2026-07-31": 0.5
     },
-    "eps_qoq_change": -72.22222222222223,
-    "eps_yoy_change": 110.86956521739131,
-    "gross_margin": 72.16,
-    "margin_change": -0.88,
-    "operating_margin": -3.61,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 1.6667302787612783,
+    "operating_margin_yoy_change": 14.720382835369925,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 23.682158424878807,
+    "net_debt": -2382659000.0,
+    "net_debt_to_ebitda": -20.654296587175686,
+    "debt_to_assets": 0.7569444591506763,
+    "ticker": "MDB"
   },
-  "fetched_at": "2026-08-14T13:57:08.329062"
+  "fetched_at": "2026-10-15T10:32:26.160139"
 }

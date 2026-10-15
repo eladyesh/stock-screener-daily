@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "GABC",
-    "fetch_date": "2026-08-14T13:44:57.094206",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:20:23.149469+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.198380206479165,
+    "revenue_qoq_change": 4.035305015768609,
+    "eps_yoy_change": 21.42857142857144,
+    "eps_qoq_change": 15.909090909090917,
+    "latest_eps": 1.02,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 38.18956720091242,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.22666619920914677,
+    "free_cash_flow_ttm": 182400000.0,
+    "operating_cash_flow_ttm": 189629000.0,
+    "revenue_ttm": 386175000.0,
+    "net_income_ttm": 142081000.0,
+    "ebitda_ttm": null,
+    "total_debt": 138915000.0,
+    "cash": 80146000.0,
+    "total_assets": 8439998000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 89888000.0,
-      "2025-09-30 00:00:00": 94154000.0,
-      "2025-12-31 00:00:00": 95990000.0,
-      "2026-03-31 00:00:00": 96077000.0,
-      "2026-06-30 00:00:00": 99954000.0
+      "2025-06-30": 89888000.0,
+      "2025-09-30": 94154000.0,
+      "2025-12-31": 95990000.0,
+      "2026-03-31": 96077000.0,
+      "2026-06-30": 99954000.0
     },
-    "revenue_qoq_change": 4.035305015768603,
-    "revenue_yoy_change": 11.198380206479174,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.84,
-      "2025-09-30 00:00:00": 0.94,
-      "2025-12-31 00:00:00": 0.95,
-      "2026-03-31 00:00:00": 0.88,
-      "2026-06-30 00:00:00": 1.02
+      "2025-06-30": 0.84,
+      "2025-09-30": 0.94,
+      "2025-12-31": 0.95,
+      "2026-03-31": 0.88,
+      "2026-06-30": 1.02
     },
-    "eps_qoq_change": 15.909090909090912,
-    "eps_yoy_change": 21.428571428571434,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 47.23247232472325,
+    "net_debt": 58769000.0,
+    "debt_to_assets": 1.6459127123015906,
+    "ticker": "GABC"
   },
-  "fetched_at": "2026-08-14T13:44:57.094918"
+  "fetched_at": "2026-10-15T10:20:23.153271"
 }

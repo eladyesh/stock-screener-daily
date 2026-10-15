@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "RNST",
-    "fetch_date": "2026-08-14T14:10:13.655606",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 267193000.0,
-      "2025-09-30 00:00:00": 269546000.0,
-      "2025-12-31 00:00:00": 278518000.0,
-      "2026-03-31 00:00:00": 273831000.0,
-      "2026-06-30 00:00:00": 273944000.0
-    },
-    "revenue_qoq_change": 0.0412663285018862,
-    "revenue_yoy_change": 2.526638048152459,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.01,
-      "2025-09-30 00:00:00": 0.63,
-      "2025-12-31 00:00:00": 0.83,
-      "2026-03-31 00:00:00": 0.94,
-      "2026-06-30 00:00:00": 0.94
-    },
-    "eps_qoq_change": 0.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:45:24.335152+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 2.526638048152452,
+    "revenue_qoq_change": 0.041266328501876615,
     "eps_yoy_change": 9299.999999999998,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.94,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.791534036153372,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.064952379831176,
+    "free_cash_flow_ttm": 403348000.0,
+    "operating_cash_flow_ttm": 434422000.0,
+    "revenue_ttm": 1095839000.0,
+    "net_income_ttm": 314055000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1106469000.0,
+    "cash": 881203000.0,
+    "total_assets": 27004999000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 267193000.0,
+      "2025-09-30": 269546000.0,
+      "2025-12-31": 278518000.0,
+      "2026-03-31": 273831000.0,
+      "2026-06-30": 273944000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.01,
+      "2025-09-30": 0.63,
+      "2025-12-31": 0.83,
+      "2026-03-31": 0.94,
+      "2026-06-30": 0.94
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.807231719258034,
+    "net_debt": 225266000.0,
+    "debt_to_assets": 4.097274730504527,
+    "ticker": "RNST"
   },
-  "fetched_at": "2026-08-14T14:10:13.656303"
+  "fetched_at": "2026-10-15T10:45:24.339238"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "PNC",
-    "fetch_date": "2026-08-14T14:06:29.514384",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 5662000000.0,
-      "2025-09-30 00:00:00": 5900000000.0,
-      "2025-12-31 00:00:00": 6068000000.0,
-      "2026-03-31 00:00:00": 6157000000.0,
-      "2026-06-30 00:00:00": 6429000000.0
-    },
-    "revenue_qoq_change": 4.4177359103459475,
-    "revenue_yoy_change": 13.546450017661604,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3.85,
-      "2025-09-30 00:00:00": 4.35,
-      "2025-12-31 00:00:00": 4.88,
-      "2026-03-31 00:00:00": 4.13,
-      "2026-06-30 00:00:00": 4.81
-    },
-    "eps_qoq_change": 16.464891041162222,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-15T10:41:44.304117+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.652419639703295,
+    "revenue_qoq_change": 4.515185967191804,
     "eps_yoy_change": 24.935064935064922,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 16.464891041162222,
+    "latest_eps": 4.81,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.7016317016317,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.5113350125944613,
+    "free_cash_flow_ttm": 7488000000.0,
+    "operating_cash_flow_ttm": 7488000000.0,
+    "revenue_ttm": 24560000000.0,
+    "net_income_ttm": 7628000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 85723000000.0,
+    "cash": 28745000000.0,
+    "total_assets": 616034000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 5662000000.0,
+      "2025-09-30": 5900000000.0,
+      "2025-12-31": 6068000000.0,
+      "2026-03-31": 6157000000.0,
+      "2026-06-30": 6435000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 3.85,
+      "2025-09-30": 4.35,
+      "2025-12-31": 4.88,
+      "2026-03-31": 4.13,
+      "2026-06-30": 4.81
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 30.4885993485342,
+    "net_debt": 56978000000.0,
+    "debt_to_assets": 13.915303376112357,
+    "ticker": "PNC"
   },
-  "fetched_at": "2026-08-14T14:06:29.515033"
+  "fetched_at": "2026-10-15T10:41:44.307951"
 }
