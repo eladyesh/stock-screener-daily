@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 import requests
 import yfinance as yf
 
@@ -19,6 +20,8 @@ logger = logging.getLogger(__name__)
 
 def json_safe(value):
     """Replace non-finite cached numbers recursively before strict JSON storage."""
+    if isinstance(value, np.generic):
+        return json_safe(value.item())
     if isinstance(value, dict):
         return {str(k): json_safe(v) for k, v in value.items()}
     if isinstance(value, (list, tuple)):

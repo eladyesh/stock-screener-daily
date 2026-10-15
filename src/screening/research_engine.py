@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 from src.data.financial_metrics import number
-from src.data.research_fetcher import ResearchFetcher, utc_date
+from src.data.research_fetcher import ResearchFetcher, utc_date, json_safe
 from .fundamental_score import scale, score_fundamentals
 
 GROUPS = {"technical", "growth", "quality", "valuation", "revisions", "catalysts"}
@@ -412,7 +412,9 @@ def save_research(report, directory):
     """Save exact observations for later forward evaluation; never backfill history."""
     folder = Path(directory)
     folder.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(report, indent=2, ensure_ascii=False, allow_nan=False)
+    payload = json.dumps(
+        json_safe(report), indent=2, ensure_ascii=False, allow_nan=False
+    )
     (folder / "latest_research.json").write_text(payload, encoding="utf-8")
     stamp = report["generated_at"].replace(":", "").replace("+", "_")
     (folder / f"research_{stamp}.json").write_text(payload, encoding="utf-8")

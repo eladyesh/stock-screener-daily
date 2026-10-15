@@ -513,3 +513,22 @@ def test_valuation_history_requires_prior_dates_and_does_not_double_count(
     assert r["metrics"]["forward_pe_historical_relative"] == 2
     fetcher.fetch("TEST", refresh=True)
     assert len(json.loads(history_path.read_text())) == 21
+
+
+def test_real_numpy_signal_types_survive_snapshot_serialization(
+    tmp_path, analysis, record
+):
+    import numpy as np
+
+    signal = {
+        "is_buy": np.bool_(True),
+        "score": np.float64(90),
+        "risk_reward_ratio": np.float64(3),
+        "stop_loss": np.float64(200),
+    }
+    row = score_record(analysis, record, signal, load_config(), NOW)
+    snapshot = {"generated_at": NOW.isoformat(), "rows": [row]}
+    save_research(snapshot, tmp_path)
+    saved = json.loads((tmp_path / "latest_research.json").read_text())
+    assert saved["rows"][0]["technical_signal"]["is_buy"] is True
+    assert saved["rows"][0]["technical_signal"]["stop_loss"] == 200
