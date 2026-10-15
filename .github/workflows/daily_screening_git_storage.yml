@@ -35,6 +35,7 @@ jobs:
       PYTHONUNBUFFERED: '1'
       SCAN_MODE: ${{ inputs.scan_mode || 'full' }}
       SEND_TELEGRAM: ${{ github.event_name != 'workflow_dispatch' || inputs.send_telegram }}
+      FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
     steps:
       - name: Check out this fork
         uses: actions/checkout@v7
@@ -44,7 +45,7 @@ jobs:
       - name: Remove previous report before this attempt
         run: |
           mkdir -p data/daily_scans data/logs
-          rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json
+          rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json data/daily_scans/latest_research.json
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -70,7 +71,7 @@ jobs:
           set -euo pipefail
           args=(--conservative --git-storage)
           if [[ "$SCAN_MODE" == 'smoke' ]]; then
-            args+=(--tickers AAPL,MSFT,NVDA,AMZN,GOOGL)
+            args+=(--tickers AAPL,MSFT,NVDA,AMZN,GOOGL --research-limit 5)
           fi
           python run_optimized_scan.py "${args[@]}" 2>&1 | tee data/logs/daily-scan.log
           python -c "from pathlib import Path; from scripts.report_utils import load_current_report; load_current_report(Path('data/daily_scans/latest_optimized_scan.txt'), Path('data/daily_scans/latest_scan_manifest.json'))"
@@ -88,6 +89,8 @@ jobs:
               out.write(f"Analyzed **{data['analyzed']} / {data['universe']}** universe entries. ")
               out.write(f"Buy: **{data['buy_signals']}**; sell: **{data['sell_signals']}**.\n\n")
               out.write(f"Request errors: {data['error_rate']:.1%}. Price-bar dates: {', '.join(data['price_dates'])}.\n\n")
+              for horizon, tickers in data.get('research_rankings', {}).items():
+                  out.write(f"**{horizon}**: {', '.join(tickers) or 'No qualified candidates'}\n\n")
               out.write('The full report is an artifact. A smoke check is not a market-wide scan.\n\n')
               if os.environ['SEND_TELEGRAM'] != 'true':
                   out.write('**Telegram delivery was disabled for this manual verification run.**\n')
@@ -99,6 +102,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/fundamentals_cache/ data/daily_scans/
+          if [ -d data/research_cache ]; then git add data/research_cache/; fi
           if ! git diff --cached --quiet; then
             git commit -m "Daily scan $(date -u +%F) [skip ci]"
             git pull --rebase origin main
@@ -122,6 +126,7 @@ jobs:
           path: |
             data/daily_scans/latest_optimized_scan.txt
             data/daily_scans/latest_scan_manifest.json
+            data/daily_scans/latest_research.json
             data/logs/daily-scan.log
           if-no-files-found: warn
           retention-days: 30

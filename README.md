@@ -1,3 +1,11 @@
+# Multi-factor daily research
+
+The daily report now includes separate research rankings for **weeks to months**
+and **months to 18 months**, with financial quality, estimates/revisions,
+valuation, event risk, news and insider context. See
+[the implementation, configuration and validation guide](docs/MULTIFACTOR_RESEARCH.md).
+Ranking weights are heuristic; investment performance has not been established.
+
 # Intelligent Stock Screener
 
 > **Daily Telegram fork:** This independent copy runs a daily **10:17 Asia/Jerusalem** GitHub Actions scan and sends an English summary with the complete English report to your private Telegram chat. See [setup, schedule, and verification](docs/DAILY_TELEGRAM.md). Configure `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets. Email delivery is no longer part of the daily workflow. The original documentation below describes the upstream project; this guide defines the automation in this fork.

@@ -4,7 +4,7 @@ This module implements the optimal strategy:
 - Price data: ALWAYS fetch fresh (1 year history for 200-day SMA)
 - Fundamental data: Store in Git repo, refresh based on earnings season
   - Earnings season: Refresh if >7 days old
-  - Normal: Refresh if >90 days old
+  - Normal: Refresh after 7 days (also covers off-cycle reporters)
 
 Reduces API calls by 74% while ensuring:
 - Latest prices always available
@@ -21,8 +21,7 @@ import pandas as pd
 import yfinance as yf
 
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -56,12 +55,14 @@ class GitStorageFetcher:
         try:
             stock = yf.Ticker(ticker)
             # Always fetch 1 year (250 trading days) - not 2 years!
-            data = stock.history(period='1y', interval='1d')
+            data = stock.history(period="1y", interval="1d")
 
             if not data.empty:
                 # Verify DatetimeIndex (yfinance should return this by default)
                 if not isinstance(data.index, pd.DatetimeIndex):
-                    logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(data.index)}")
+                    logger.warning(
+                        f"{ticker}: yfinance returned non-DatetimeIndex: {type(data.index)}"
+                    )
                     # This shouldn't happen, but log it if it does
                     return pd.DataFrame()
 
@@ -80,7 +81,7 @@ class GitStorageFetcher:
 
         Uses earnings-aware refresh:
         - During earnings season (6-week windows): refresh if >7 days old
-        - Outside earnings: refresh if >90 days old
+        - Outside earnings: refresh after 7 days
         - Never fetched: fetch now
 
         Fundamentals are stored as JSON files in Git repository,
@@ -100,10 +101,10 @@ class GitStorageFetcher:
         if not should_refresh and fundamental_file.exists():
             # Load from Git storage
             try:
-                with open(fundamental_file, 'r') as f:
+                with open(fundamental_file, "r") as f:
                     cached = json.load(f)
                 logger.debug(f"{ticker}: Using cached fundamentals")
-                return cached.get('data', {})
+                return cached.get("data", {})
             except Exception as e:
                 logger.warning(f"{ticker}: Cache load failed: {e}, will refresh")
 
@@ -112,6 +113,7 @@ class GitStorageFetcher:
 
         try:
             from .fundamentals_fetcher import fetch_quarterly_financials
+
             data = fetch_quarterly_financials(ticker)
 
             if data:
@@ -120,11 +122,11 @@ class GitStorageFetcher:
 
                 # Save to Git storage
                 cache_data = {
-                    'data': cleaned_data,
-                    'fetched_at': datetime.now().isoformat()
+                    "data": cleaned_data,
+                    "fetched_at": datetime.now().isoformat(),
                 }
 
-                with open(fundamental_file, 'w') as f:
+                with open(fundamental_file, "w") as f:
                     json.dump(cache_data, f, indent=2, default=str)
 
                 # Update metadata
@@ -154,9 +156,9 @@ class GitStorageFetcher:
             return True
 
         try:
-            with open(file_path, 'r') as f:
+            with open(file_path, "r") as f:
                 cached = json.load(f)
-                fetched_at_str = cached.get('fetched_at')
+                fetched_at_str = cached.get("fetched_at")
 
             if fetched_at_str is None:
                 return True
@@ -164,8 +166,11 @@ class GitStorageFetcher:
             fetched_at = datetime.fromisoformat(fetched_at_str)
             days_old = (datetime.now() - fetched_at).days
 
-            # Always refresh if >90 days old (stale)
-            if days_old > 90:
+            # Old schemas lack quality metrics; shortlist research is refreshed daily.
+            if cached.get("data", {}).get("schema_version") != 2:
+                return True
+            # A bounded weekly TTL also covers off-cycle reporters.
+            if days_old >= 7:
                 logger.info(f"{ticker}: Stale data ({days_old} days), refreshing")
                 return True
 
@@ -199,10 +204,7 @@ class GitStorageFetcher:
             """Recursively clean values."""
             if isinstance(value, dict):
                 # Clean dictionary - convert Timestamp keys to strings
-                return {
-                    str(k): clean_value(v)
-                    for k, v in value.items()
-                }
+                return {str(k): clean_value(v) for k, v in value.items()}
             elif isinstance(value, (list, tuple)):
                 return [clean_value(item) for item in value]
             elif isinstance(value, pd.Timestamp):
@@ -231,10 +233,10 @@ class GitStorageFetcher:
         day = now.day
 
         earnings_windows = [
-            (1, 15, 2, 15),   # Q4 earnings: Jan 15 - Feb 15
-            (4, 15, 5, 15),   # Q1 earnings: Apr 15 - May 15
-            (7, 15, 8, 15),   # Q2 earnings: Jul 15 - Aug 15
-            (10, 15, 11, 15)  # Q3 earnings: Oct 15 - Nov 15
+            (1, 15, 2, 15),  # Q4 earnings: Jan 15 - Feb 15
+            (4, 15, 5, 15),  # Q1 earnings: Apr 15 - May 15
+            (7, 15, 8, 15),  # Q2 earnings: Jul 15 - Aug 15
+            (10, 15, 11, 15),  # Q3 earnings: Oct 15 - Nov 15
         ]
 
         for start_month, start_day, end_month, end_day in earnings_windows:
@@ -243,8 +245,9 @@ class GitStorageFetcher:
                     return True
             else:
                 # Handle cross-month windows
-                if (month == start_month and day >= start_day) or \
-                   (month == end_month and day <= end_day):
+                if (month == start_month and day >= start_day) or (
+                    month == end_month and day <= end_day
+                ):
                     return True
 
         return False
@@ -261,7 +264,7 @@ class GitStorageFetcher:
 
         if self.metadata_file.exists():
             try:
-                with open(self.metadata_file, 'r') as f:
+                with open(self.metadata_file, "r") as f:
                     metadata = json.load(f)
             except Exception as e:
                 logger.warning(
@@ -269,11 +272,11 @@ class GitStorageFetcher:
                 )
 
         metadata[ticker] = {
-            'last_updated': datetime.now().isoformat(),
-            'in_earnings_season': self._is_earnings_season()
+            "last_updated": datetime.now().isoformat(),
+            "in_earnings_season": self._is_earnings_season(),
         }
 
-        with open(self.metadata_file, 'w') as f:
+        with open(self.metadata_file, "w") as f:
             json.dump(metadata, f, indent=2)
 
     def get_cache_stats(self) -> Dict:
@@ -292,9 +295,9 @@ class GitStorageFetcher:
 
         for file_path in cached_files:
             try:
-                with open(file_path, 'r') as f:
+                with open(file_path, "r") as f:
                     data = json.load(f)
-                    fetched_at = datetime.fromisoformat(data.get('fetched_at'))
+                    fetched_at = datetime.fromisoformat(data.get("fetched_at"))
                     days_old = (datetime.now() - fetched_at).days
 
                 if days_old < 7:
@@ -309,13 +312,13 @@ class GitStorageFetcher:
                 pass
 
         stats = {
-            'total_cached': len(cached_files),
-            'recent_7d': recent_count,
-            'moderate_30d': moderate_count,
-            'old_90d': old_count,
-            'stale_90d_plus': stale_count,
-            'in_earnings_season': self._is_earnings_season(),
-            'storage_dir': str(self.fundamentals_dir)
+            "total_cached": len(cached_files),
+            "recent_7d": recent_count,
+            "moderate_30d": moderate_count,
+            "old_90d": old_count,
+            "stale_90d_plus": stale_count,
+            "in_earnings_season": self._is_earnings_season(),
+            "storage_dir": str(self.fundamentals_dir),
         }
 
         return stats
@@ -333,15 +336,17 @@ class GitStorageFetcher:
 
         for file_path in self.fundamentals_dir.glob("*_fundamentals.json"):
             try:
-                with open(file_path, 'r') as f:
+                with open(file_path, "r") as f:
                     data = json.load(f)
-                    fetched_at = datetime.fromisoformat(data.get('fetched_at'))
+                    fetched_at = datetime.fromisoformat(data.get("fetched_at"))
                     days_old = (datetime.now() - fetched_at).days
 
                 if days_old > max_age_days:
                     file_path.unlink()
                     removed += 1
-                    logger.info(f"Removed stale cache: {file_path.name} ({days_old} days old)")
+                    logger.info(
+                        f"Removed stale cache: {file_path.name} ({days_old} days old)"
+                    )
 
             except Exception as e:
                 logger.warning(f"Error processing {file_path.name}: {e}")
