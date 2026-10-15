@@ -30,6 +30,13 @@ import requests
 NOW = datetime(2026, 10, 15, 8, tzinfo=timezone.utc)
 
 
+@pytest.fixture(autouse=True)
+def no_live_search_in_unit_tests(monkeypatch):
+    monkeypatch.setattr(
+        "src.data.research_fetcher.yf.Search", Mock(return_value=Mock(news=[]))
+    )
+
+
 @pytest.fixture
 def statements():
     dates = pd.to_datetime(
@@ -532,3 +539,32 @@ def test_real_numpy_signal_types_survive_snapshot_serialization(
     saved = json.loads((tmp_path / "latest_research.json").read_text())
     assert saved["rows"][0]["technical_signal"]["is_buy"] is True
     assert saved["rows"][0]["technical_signal"]["stop_loss"] == 200
+
+
+def test_news_search_fallback_requires_explicit_ticker_match(
+    tmp_path, statements, monkeypatch
+):
+    items = [
+        {
+            "title": "Company wins contract",
+            "link": "https://example.org/test",
+            "relatedTickers": ["TEST"],
+            "providerPublishTime": int(NOW.timestamp()),
+        },
+        {
+            "title": "Other company offering",
+            "link": "https://example.org/other",
+            "relatedTickers": ["OTHER"],
+            "providerPublishTime": int(NOW.timestamp()),
+        },
+    ]
+    search = Mock(return_value=Mock(news=items))
+    monkeypatch.setattr("src.data.research_fetcher.yf.Search", search)
+    stock = fake_stock(statements)
+    r = ResearchFetcher(
+        tmp_path, use_fmp=False, now=NOW, ticker_factory=lambda t: stock
+    ).fetch("TEST")
+    assert r["status"]["news_search"] == "ok"
+    assert len(r["news"]) == 1
+    assert r["news"][0]["title"] == "Company wins contract"
+    assert r["news"][0]["categories"] == ["corporate/regulatory"]

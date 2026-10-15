@@ -347,9 +347,23 @@ class ResearchFetcher:
         result["earnings_date_status"] = "provider_estimate" if dates else "unknown"
         if dates:
             put("days_to_earnings", (dates[0] - self.now.date()).days, "/calendar/")
-        result["news"] = parse_news(
-            read("news", lambda: stock.get_news(count=10), []), self.now.date()
-        )
+        news = read("news", lambda: stock.get_news(count=10), [])
+        if not news and not self.yahoo_blocked:
+            # The ticker stream can be empty while the documented search feed works.
+            # Keep only explicit symbol matches, not arbitrary text search results.
+            found = read(
+                "news_search",
+                lambda: yf.Search(
+                    ticker, max_results=0, news_count=10, lists_count=0
+                ).news,
+                [],
+            )
+            news = [
+                item
+                for item in found
+                if isinstance(item, dict) and ticker in item.get("relatedTickers", [])
+            ]
+        result["news"] = parse_news(news, self.now.date())
         result["insider_purchases"] = parse_insiders(
             read("insiders", stock.get_insider_transactions, pd.DataFrame()),
             self.now.date(),

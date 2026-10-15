@@ -45,7 +45,7 @@ jobs:
       - name: Remove previous report before this attempt
         run: |
           mkdir -p data/daily_scans data/logs
-          rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json
+          rm -f data/daily_scans/latest_optimized_scan.txt data/daily_scans/latest_scan_manifest.json data/daily_scans/latest_research.json
 
       - name: Set up Python
         uses: actions/setup-python@v7
