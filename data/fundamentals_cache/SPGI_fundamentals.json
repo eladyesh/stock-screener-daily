@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "SPGI",
-    "fetch_date": "2026-08-13T14:19:50.262725",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:19:15.915198+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.412782956058585,
+    "revenue_qoq_change": -0.5993766482857876,
+    "eps_yoy_change": 17.714285714285726,
+    "eps_qoq_change": -12.153518123667384,
+    "latest_eps": 4.12,
+    "gross_margin": 71.90062711046792,
+    "operating_margin": 43.439459720212255,
+    "net_margin": 29.353593825373853,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.4629206141783775,
+    "free_cash_flow_ttm": 5573000000.0,
+    "operating_cash_flow_ttm": 5729000000.0,
+    "revenue_ttm": 16121000000.0,
+    "net_income_ttm": 4922000000.0,
+    "ebitda_ttm": 8388000000.0,
+    "total_debt": 15622000000.0,
+    "cash": 4134000000.0,
+    "total_assets": 62906000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 3755000000.0,
-      "2025-09-30 00:00:00": 3888000000.0,
-      "2025-12-31 00:00:00": 3916000000.0,
-      "2026-03-31 00:00:00": 4171000000.0,
-      "2026-06-30 00:00:00": 4146000000.0
+      "2025-06-30": 3755000000.0,
+      "2025-09-30": 3888000000.0,
+      "2025-12-31": 3916000000.0,
+      "2026-03-31": 4171000000.0,
+      "2026-06-30": 4146000000.0
     },
-    "revenue_qoq_change": -0.5993766482857827,
-    "revenue_yoy_change": 10.412782956058589,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 3.5,
-      "2025-09-30 00:00:00": 3.86,
-      "2025-12-31 00:00:00": 3.75,
-      "2026-03-31 00:00:00": 4.69,
-      "2026-06-30 00:00:00": 4.12
+      "2025-06-30": 3.5,
+      "2025-09-30": 3.86,
+      "2025-12-31": 3.75,
+      "2026-03-31": 4.69,
+      "2026-06-30": 4.12
     },
-    "eps_qoq_change": -12.153518123667382,
-    "eps_yoy_change": 17.71428571428572,
-    "gross_margin": 71.9,
-    "margin_change": 1.51,
-    "operating_margin": 43.44,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 1.5098335357855888,
+    "operating_margin_yoy_change": 2.5073691742735065,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.56981576825259,
+    "net_debt": 11488000000.0,
+    "net_debt_to_ebitda": 1.3695755841678587,
+    "debt_to_assets": 24.8338791212285,
+    "ticker": "SPGI"
   },
-  "fetched_at": "2026-08-13T14:19:50.264029"
+  "fetched_at": "2026-10-16T13:19:15.920149"
 }

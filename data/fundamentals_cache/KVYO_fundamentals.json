@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "KVYO",
-    "fetch_date": "2026-08-14T13:53:55.312945",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 293117000.0,
-      "2025-09-30 00:00:00": 310880000.0,
-      "2025-12-31 00:00:00": 350195000.0,
-      "2026-03-31 00:00:00": 358005000.0,
-      "2026-06-30 00:00:00": 370576000.0
-    },
-    "revenue_qoq_change": 3.511403472018547,
-    "revenue_yoy_change": 26.42596642296421,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.09,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.02,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": -0.03
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:58:55.692424+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 26.425966422964198,
+    "revenue_qoq_change": 3.5114034720185483,
+    "eps_yoy_change": null,
     "eps_qoq_change": -200.0,
-    "eps_yoy_change": 66.66666666666666,
-    "gross_margin": 72.62,
-    "margin_change": -2.49,
-    "operating_margin": -4.04,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.03,
+    "gross_margin": 72.61722291783602,
+    "operating_margin": -4.037768231078105,
+    "net_margin": -2.3879042355684126,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.184706930641102,
+    "free_cash_flow_ttm": 236434000.0,
+    "operating_cash_flow_ttm": 276077000.0,
+    "revenue_ttm": 1389656000.0,
+    "net_income_ttm": 6791000.0,
+    "ebitda_ttm": -2404000.0,
+    "total_debt": 113925000.0,
+    "cash": 832639000.0,
+    "total_assets": 1384169000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 293117000.0,
+      "2025-09-30": 310880000.0,
+      "2025-12-31": 350195000.0,
+      "2026-03-31": 358005000.0,
+      "2026-06-30": 370576000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": -0.09,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.02,
+      "2026-03-31": 0.03,
+      "2026-06-30": -0.03
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.4915046139023644,
+    "operating_margin_yoy_change": 6.649431760734038,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.013850909865464,
+    "net_debt": -718714000.0,
+    "debt_to_assets": 8.23057011101968,
+    "ticker": "KVYO"
   },
-  "fetched_at": "2026-08-14T13:53:55.314288"
+  "fetched_at": "2026-10-16T12:58:55.697485"
 }

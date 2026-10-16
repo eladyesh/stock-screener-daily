@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "CNXC",
-    "fetch_date": "2026-08-12T13:38:51.159257",
-    "quarterly_revenue": {
-      "2024-11-30 00:00:00": NaN,
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 2417371000.0,
-      "2025-08-31 00:00:00": 2483253000.0,
-      "2025-11-30 00:00:00": 2552925000.0,
-      "2026-02-28 00:00:00": 2500391000.0,
-      "2026-05-31 00:00:00": 2462473000.0
-    },
-    "revenue_qoq_change": -1.5164828220866255,
-    "revenue_yoy_change": 1.8657458867505237,
-    "quarterly_eps": {
-      "2024-11-30 00:00:00": NaN,
-      "2025-02-28 00:00:00": NaN,
-      "2025-05-31 00:00:00": 0.63,
-      "2025-08-31 00:00:00": 1.34,
-      "2025-11-30 00:00:00": -23.85,
-      "2026-02-28 00:00:00": 0.33,
-      "2026-05-31 00:00:00": 0.86
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:40:21.478058+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 1.865745886750525,
+    "revenue_qoq_change": -1.5164828220866289,
+    "eps_yoy_change": 36.50793650793651,
     "eps_qoq_change": 160.6060606060606,
-    "eps_yoy_change": 36.507936507936506,
-    "gross_margin": 33.44,
-    "margin_change": -0.55,
-    "operating_margin": 3.88,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.86,
+    "gross_margin": 33.43585899215951,
+    "operating_margin": 3.875006954390972,
+    "net_margin": 2.244735272224305,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.012238589407946,
+    "free_cash_flow_ttm": 513532000.0,
+    "operating_cash_flow_ttm": 743694000.0,
+    "revenue_ttm": 9999042000.0,
+    "net_income_ttm": -1314409000.0,
+    "ebitda_ttm": -297293000.0,
+    "total_debt": 4584874000.0,
+    "cash": 255566000.0,
+    "total_assets": 10512847000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-02-28": null,
+      "2025-05-31": 2417371000.0,
+      "2025-08-31": 2483253000.0,
+      "2025-11-30": 2552925000.0,
+      "2026-02-28": 2500391000.0,
+      "2026-05-31": 2462473000.0
+    },
+    "quarterly_eps": {
+      "2025-02-28": null,
+      "2025-05-31": 0.63,
+      "2025-08-31": 1.34,
+      "2025-11-30": -23.85,
+      "2026-02-28": 0.33,
+      "2026-05-31": 0.86
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.5451063848555222,
+    "operating_margin_yoy_change": -2.2616183298537718,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.135812010790634,
+    "net_debt": 4329308000.0,
+    "debt_to_assets": 43.612106216327504,
+    "ticker": "CNXC"
   },
-  "fetched_at": "2026-08-12T13:38:51.160668"
+  "fetched_at": "2026-10-16T12:40:21.483907"
 }

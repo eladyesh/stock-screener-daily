@@ -1,41 +1,59 @@
 {
   "data": {
-    "ticker": "FRHC",
-    "fetch_date": "2026-08-06T14:50:53.372061",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 445781000.0,
-      "2025-06-30 00:00:00": 524862000.0,
-      "2025-09-30 00:00:00": 530888000.0,
-      "2025-12-31 00:00:00": 615574000.0,
-      "2026-03-31 00:00:00": 531773000.0
-    },
-    "revenue_qoq_change": -13.6134729536985,
-    "revenue_yoy_change": 19.290189577393384,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 1.29,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.5,
-      "2025-09-30 00:00:00": 0.63,
-      "2025-12-31 00:00:00": 1.25,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:49:15.713247+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 39.86302432967288,
+    "revenue_qoq_change": 35.561978513388226,
+    "eps_yoy_change": -14.754098360655732,
     "eps_qoq_change": null,
-    "eps_yoy_change": null,
-    "gross_margin": 62.69,
-    "margin_change": 5.1,
-    "operating_margin": 34.6,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 6402000.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 17623000.0
-    },
+    "latest_eps": 0.52,
+    "gross_margin": 51.276075696161094,
+    "operating_margin": 28.680422038558323,
+    "net_margin": 4.391842215508224,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": 0.033,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 0.34747501733076724,
+    "free_cash_flow_ttm": -923529000.0,
+    "operating_cash_flow_ttm": -637234000.0,
+    "revenue_ttm": 2399117000.0,
+    "net_income_ttm": 154592000.0,
+    "ebitda_ttm": 817798000.0,
+    "total_debt": 2787885000.0,
+    "cash": 5012511000.0,
+    "total_assets": 14046883000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 515420000.0,
+      "2025-09-30": 530888000.0,
+      "2025-12-31": 615574000.0,
+      "2026-03-31": 531773000.0,
+      "2026-06-30": 720882000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.61,
+      "2025-09-30": 0.63,
+      "2025-12-31": 1.25,
+      "2026-03-31": null,
+      "2026-06-30": 0.52
+    },
+    "quarterly_inventory": {
+      "2025-03-31": 6402000.0,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": 17623000.0,
+      "2026-06-30": null
+    },
+    "margin_change": -11.416652215936743,
+    "operating_margin_yoy_change": -0.872951908902003,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -38.49453778202564,
+    "net_debt": -2224626000.0,
+    "net_debt_to_ebitda": -2.7202634391377822,
+    "debt_to_assets": 19.847000932520046,
+    "ticker": "FRHC"
   },
-  "fetched_at": "2026-08-06T14:50:53.373245"
+  "fetched_at": "2026-10-16T12:49:15.718518"
 }

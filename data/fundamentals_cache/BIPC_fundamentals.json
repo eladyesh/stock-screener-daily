@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "BIPC",
-    "fetch_date": "2026-08-12T13:33:10.246535",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 866000000.0,
-      "2025-09-30 00:00:00": 917000000.0,
-      "2025-12-31 00:00:00": 956000000.0,
-      "2026-03-31 00:00:00": 884000000.0,
-      "2026-06-30 00:00:00": 940000000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:34:37.538319+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.545034642032334,
     "revenue_qoq_change": 6.334841628959276,
-    "revenue_yoy_change": 8.545034642032332,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 3.268246,
-      "2025-06-30 00:00:00": -4.006671,
-      "2025-09-30 00:00:00": 0.688685,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.910651,
-      "2026-06-30 00:00:00": -0.674767
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.674767,
+    "gross_margin": 60.851063829787236,
+    "operating_margin": 58.51063829787234,
+    "net_margin": -8.829787234042554,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.321200231674637,
+    "free_cash_flow_ttm": 995000000.0,
+    "operating_cash_flow_ttm": 1553000000.0,
+    "revenue_ttm": 3697000000.0,
+    "net_income_ttm": -348000000.0,
+    "ebitda_ttm": 2584000000.0,
+    "total_debt": 12886000000.0,
+    "cash": 765000000.0,
+    "total_assets": 24542000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 866000000.0,
+      "2025-09-30": 917000000.0,
+      "2025-12-31": 956000000.0,
+      "2026-03-31": 884000000.0,
+      "2026-06-30": 940000000.0
     },
-    "eps_qoq_change": 25.902788225126862,
-    "eps_yoy_change": 83.15891172497068,
-    "gross_margin": 60.85,
-    "margin_change": -0.12,
-    "operating_margin": 58.51,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": 3.268246,
+      "2025-06-30": -4.006671,
+      "2025-09-30": 0.688685,
+      "2025-12-31": null,
+      "2026-03-31": -0.910651,
+      "2026-06-30": -0.674767
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.12178684894580272,
+    "operating_margin_yoy_change": -4.1914402240676125,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 26.913713822017854,
+    "net_debt": 12121000000.0,
+    "net_debt_to_ebitda": 4.690789473684211,
+    "debt_to_assets": 52.50590823893732,
+    "ticker": "BIPC"
   },
-  "fetched_at": "2026-08-12T13:33:10.247897"
+  "fetched_at": "2026-10-16T12:34:37.543344"
 }

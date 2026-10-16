@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "PEGA",
-    "fetch_date": "2026-08-14T14:05:24.751833",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 384512000.0,
-      "2025-09-30 00:00:00": 381350000.0,
-      "2025-12-31 00:00:00": 504317000.0,
-      "2026-03-31 00:00:00": 429973000.0,
-      "2026-06-30 00:00:00": 420716000.0
-    },
-    "revenue_qoq_change": -2.1529258813925525,
-    "revenue_yoy_change": 9.415570905459388,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.17,
-      "2025-09-30 00:00:00": 0.24,
-      "2025-12-31 00:00:00": 1.27,
-      "2026-03-31 00:00:00": 0.18,
-      "2026-06-30 00:00:00": 0.08
-    },
-    "eps_qoq_change": -55.55555555555556,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:10:18.930995+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.415570905459392,
+    "revenue_qoq_change": -2.1529258813925534,
     "eps_yoy_change": -52.94117647058824,
-    "gross_margin": 74.32,
-    "margin_change": -0.85,
-    "operating_margin": 4.6,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -55.55555555555556,
+    "latest_eps": 0.08,
+    "gross_margin": 74.32258340543264,
+    "operating_margin": 4.604293632759391,
+    "net_margin": 3.1693589024425024,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.706521739130432,
+    "free_cash_flow_ttm": 492500000.0,
+    "operating_cash_flow_ttm": 512956000.0,
+    "revenue_ttm": 1736356000.0,
+    "net_income_ttm": 324036000.0,
+    "ebitda_ttm": 214112000.0,
+    "total_debt": 72016000.0,
+    "cash": 361907000.0,
+    "total_assets": 1384043000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 384512000.0,
+      "2025-09-30": 381350000.0,
+      "2025-12-31": 504317000.0,
+      "2026-03-31": 429973000.0,
+      "2026-06-30": 420716000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.17,
+      "2025-09-30": 0.24,
+      "2025-12-31": 1.27,
+      "2026-03-31": 0.18,
+      "2026-06-30": 0.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.8493459947855087,
+    "operating_margin_yoy_change": 0.12198878921744694,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 28.36399908774468,
+    "net_debt": -289891000.0,
+    "net_debt_to_ebitda": -1.3539222463010014,
+    "debt_to_assets": 5.203306544666604,
+    "ticker": "PEGA"
   },
-  "fetched_at": "2026-08-14T14:05:24.753155"
+  "fetched_at": "2026-10-16T13:10:18.935894"
 }

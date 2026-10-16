@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "SMC",
-    "fetch_date": "2026-03-27T14:15:32.263252",
-    "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 107018000.0,
-      "2025-03-31 00:00:00": 132697000.0,
-      "2025-06-30 00:00:00": 140217000.0,
-      "2025-09-30 00:00:00": 146883000.0,
-      "2025-12-31 00:00:00": 142294000.0
-    },
-    "revenue_qoq_change": -3.1242553597080667,
-    "revenue_yoy_change": 32.96267917546581,
-    "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": -19.25,
-      "2024-12-31 00:00:00": -2.4,
-      "2025-03-31 00:00:00": -0.16,
-      "2025-06-30 00:00:00": -0.66,
-      "2025-09-30 00:00:00": -0.13,
-      "2025-12-31 00:00:00": NaN
-    },
-    "eps_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:18:22.908305+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.552215494554872,
+    "revenue_qoq_change": 11.406333098561184,
     "eps_yoy_change": null,
-    "gross_margin": 26.63,
-    "margin_change": -1.64,
-    "operating_margin": 15.57,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.11,
+    "gross_margin": 25.32561785140601,
+    "operating_margin": 16.49410049479721,
+    "net_margin": 2.2398121447878565,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 14.737358058982108,
+    "free_cash_flow_ttm": 44838000.0,
+    "operating_cash_flow_ttm": 131154000.0,
+    "revenue_ttm": 583332000.0,
+    "net_income_ttm": -3061000.0,
+    "ebitda_ttm": 209945000.0,
+    "total_debt": 1239648000.0,
+    "cash": 20967000.0,
+    "total_assets": 2407380000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 140217000.0,
+      "2025-09-30": 146883000.0,
+      "2025-12-31": 142294000.0,
+      "2026-03-31": 139142000.0,
+      "2026-06-30": 155013000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.66,
+      "2025-09-30": -0.13,
+      "2025-12-31": -0.66,
+      "2026-03-31": -0.43,
+      "2026-06-30": 0.11
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.28285578100311426,
+    "operating_margin_yoy_change": 2.5935035628987944,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.686531854929954,
+    "net_debt": 1218681000.0,
+    "net_debt_to_ebitda": 5.804763152254162,
+    "debt_to_assets": 51.49365700471051,
+    "ticker": "SMC"
   },
-  "fetched_at": "2026-03-27T14:15:32.264436"
+  "fetched_at": "2026-10-16T13:18:22.913322"
 }

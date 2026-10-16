@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "BAH",
-    "fetch_date": "2026-08-11T13:27:44.576210",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2924000000.0,
-      "2025-09-30 00:00:00": 2890000000.0,
-      "2025-12-31 00:00:00": 2620000000.0,
-      "2026-03-31 00:00:00": 2783000000.0,
-      "2026-06-30 00:00:00": 2800000000.0
-    },
-    "revenue_qoq_change": 0.6108515989938915,
-    "revenue_yoy_change": -4.240766073871409,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.16,
-      "2025-09-30 00:00:00": 1.42,
-      "2025-12-31 00:00:00": 1.63,
-      "2026-03-31 00:00:00": 1.68,
-      "2026-06-30 00:00:00": 1.63
-    },
-    "eps_qoq_change": -2.976190476190479,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:33:05.475187+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -4.240766073871405,
+    "revenue_qoq_change": 0.6108515989939001,
     "eps_yoy_change": -24.537037037037045,
-    "gross_margin": 52.29,
-    "margin_change": -1.61,
-    "operating_margin": 9.96,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -2.9761904761904767,
+    "latest_eps": 1.63,
+    "gross_margin": 52.28571428571429,
+    "operating_margin": 9.964285714285715,
+    "net_margin": 7.071428571428571,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.4468768073311007,
+    "free_cash_flow_ttm": 1116000000.0,
+    "operating_cash_flow_ttm": 1203000000.0,
+    "revenue_ttm": 11093000000.0,
+    "net_income_ttm": 778000000.0,
+    "ebitda_ttm": 1277000000.0,
+    "total_debt": 4160000000.0,
+    "cash": 540000000.0,
+    "total_assets": 7610000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 2924000000.0,
+      "2025-09-30": 2890000000.0,
+      "2025-12-31": 2620000000.0,
+      "2026-03-31": 2783000000.0,
+      "2026-06-30": 2800000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 2.16,
+      "2025-09-30": 1.42,
+      "2025-12-31": 1.63,
+      "2026-03-31": 1.68,
+      "2026-06-30": 1.63
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.6129562137467204,
+    "operating_margin_yoy_change": 1.174956028923198,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.06039844947264,
+    "net_debt": 3620000000.0,
+    "net_debt_to_ebitda": 2.8347689898198905,
+    "debt_to_assets": 54.66491458607096,
+    "ticker": "BAH"
   },
-  "fetched_at": "2026-08-11T13:27:44.577802"
+  "fetched_at": "2026-10-16T12:33:05.480068"
 }

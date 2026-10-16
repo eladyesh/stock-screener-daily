@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "TRUP",
-    "fetch_date": "2026-08-14T14:18:16.712814",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 353557000.0,
-      "2025-09-30 00:00:00": 366920000.0,
-      "2025-12-31 00:00:00": 376853000.0,
-      "2026-03-31 00:00:00": 384049000.0,
-      "2026-06-30 00:00:00": 392934000.0
-    },
-    "revenue_qoq_change": 2.313506870217082,
-    "revenue_yoy_change": 11.137383788186913,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.13,
-      "2025-12-31 00:00:00": 0.13,
-      "2026-03-31 00:00:00": 0.11,
-      "2026-06-30 00:00:00": 0.16
-    },
-    "eps_qoq_change": 45.45454545454546,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:23:06.895975+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.137383788186916,
+    "revenue_qoq_change": 2.3135068702170747,
     "eps_yoy_change": -27.27272727272727,
-    "gross_margin": 16.58,
-    "margin_change": 0.57,
-    "operating_margin": 7.43,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 45.45454545454546,
+    "latest_eps": 0.16,
+    "gross_margin": 16.57606620959245,
+    "operating_margin": 7.426438027760388,
+    "net_margin": 1.7384598940280045,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.1433328353995131,
+    "free_cash_flow_ttm": 82180000.0,
+    "operating_cash_flow_ttm": 94077000.0,
+    "revenue_ttm": 1520756000.0,
+    "net_income_ttm": 23214000.0,
+    "ebitda_ttm": 52256000.0,
+    "total_debt": 106909000.0,
+    "cash": 398491000.0,
+    "total_assets": 930811000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 353557000.0,
+      "2025-09-30": 366920000.0,
+      "2025-12-31": 376853000.0,
+      "2026-03-31": 384049000.0,
+      "2026-06-30": 392934000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.13,
+      "2025-12-31": 0.13,
+      "2026-03-31": 0.11,
+      "2026-06-30": 0.16
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.5653488271751037,
+    "operating_margin_yoy_change": 1.159556025706971,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 5.4038912225235345,
+    "net_debt": -291582000.0,
+    "net_debt_to_ebitda": -5.579875995101041,
+    "debt_to_assets": 11.48557548202589,
+    "ticker": "TRUP"
   },
-  "fetched_at": "2026-08-14T14:18:16.714152"
+  "fetched_at": "2026-10-16T13:23:06.900989"
 }

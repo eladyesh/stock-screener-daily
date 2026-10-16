@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "UPWK",
-    "fetch_date": "2026-08-06T15:26:38.833386",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:24:47.966607+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -1.682064645863579,
+    "revenue_qoq_change": -1.9556687793823468,
+    "eps_yoy_change": -16.666666666666664,
+    "eps_qoq_change": -16.666666666666664,
+    "latest_eps": 0.2,
+    "gross_margin": 76.37065637065638,
+    "operating_margin": 14.680684545549411,
+    "net_margin": 13.254721903370553,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -7.303955833892061,
+    "free_cash_flow_ttm": 175547000.0,
+    "operating_cash_flow_ttm": 208673000.0,
+    "revenue_ttm": 787282000.0,
+    "net_income_ttm": 101834000.0,
+    "ebitda_ttm": 152948000.0,
+    "total_debt": 376828000.0,
+    "cash": 614244000.0,
+    "total_assets": 1274404000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 192706000.0,
-      "2025-06-30 00:00:00": 194939000.0,
-      "2025-09-30 00:00:00": 201730000.0,
-      "2025-12-31 00:00:00": 198409000.0,
-      "2026-03-31 00:00:00": 195483000.0
+      "2025-06-30": 194939000.0,
+      "2025-09-30": 201730000.0,
+      "2025-12-31": 198409000.0,
+      "2026-03-31": 195483000.0,
+      "2026-06-30": 191660000.0
     },
-    "revenue_qoq_change": -1.474731488994955,
-    "revenue_yoy_change": 1.441055286291034,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.27,
-      "2025-06-30 00:00:00": 0.24,
-      "2025-09-30 00:00:00": 0.21,
-      "2025-12-31 00:00:00": 0.12,
-      "2026-03-31 00:00:00": 0.24
+      "2025-06-30": 0.24,
+      "2025-09-30": 0.21,
+      "2025-12-31": 0.12,
+      "2026-03-31": 0.24,
+      "2026-06-30": 0.2
     },
-    "eps_qoq_change": 100.0,
-    "eps_yoy_change": -11.11111111111112,
-    "gross_margin": 77.16,
-    "margin_change": -0.83,
-    "operating_margin": 16.74,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -0.7930867681331932,
+    "operating_margin_yoy_change": -2.02454119173251,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 22.297855152283425,
+    "net_debt": -237416000.0,
+    "net_debt_to_ebitda": -1.5522661296649842,
+    "debt_to_assets": 29.56895929391308,
+    "ticker": "UPWK"
   },
-  "fetched_at": "2026-08-06T15:26:38.834383"
+  "fetched_at": "2026-10-16T13:24:47.971641"
 }

@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "TRIP",
-    "fetch_date": "2026-08-14T14:18:05.767037",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 476000000.0,
-      "2025-09-30 00:00:00": 553000000.0,
-      "2025-12-31 00:00:00": 411000000.0,
-      "2026-03-31 00:00:00": 382400000.0,
-      "2026-06-30 00:00:00": 441900000.0
-    },
-    "revenue_qoq_change": 15.559623430962343,
-    "revenue_yoy_change": -7.163865546218487,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.28,
-      "2025-09-30 00:00:00": 0.43,
-      "2025-12-31 00:00:00": -0.33,
-      "2026-03-31 00:00:00": -0.28,
-      "2026-06-30 00:00:00": 0.19
-    },
-    "eps_qoq_change": 167.85714285714286,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:22:55.843366+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -7.163865546218484,
+    "revenue_qoq_change": 15.559623430962333,
     "eps_yoy_change": -32.14285714285715,
-    "gross_margin": 92.98,
-    "margin_change": 1.56,
-    "operating_margin": 9.44,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": null,
+    "latest_eps": 0.19,
+    "gross_margin": 92.98483819868748,
+    "operating_margin": 9.43652410047522,
+    "net_margin": 5.069020140303236,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -9.307692307692307,
+    "free_cash_flow_ttm": 132800000.0,
+    "operating_cash_flow_ttm": 203000000.0,
+    "revenue_ttm": 1788300000.0,
+    "net_income_ttm": 5000000.0,
+    "ebitda_ttm": 179200000.0,
+    "total_debt": 893900000.0,
+    "cash": 843200000.0,
+    "total_assets": 2531300000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 476000000.0,
+      "2025-09-30": 553000000.0,
+      "2025-12-31": 411000000.0,
+      "2026-03-31": 382400000.0,
+      "2026-06-30": 441900000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.28,
+      "2025-09-30": 0.43,
+      "2025-12-31": -0.33,
+      "2026-03-31": -0.28,
+      "2026-06-30": 0.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.5622440564280708,
+    "operating_margin_yoy_change": -2.727341445743267,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.426047083822625,
+    "net_debt": 50700000.0,
+    "net_debt_to_ebitda": 0.28292410714285715,
+    "debt_to_assets": 35.313870343301865,
+    "ticker": "TRIP"
   },
-  "fetched_at": "2026-08-14T14:18:05.768471"
+  "fetched_at": "2026-10-16T13:22:55.848346"
 }

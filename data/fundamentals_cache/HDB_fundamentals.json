@@ -1,20 +1,44 @@
 {
   "data": {
-    "ticker": "HDB",
-    "fetch_date": "2026-07-15T14:27:06.265281",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": 652796600000.0,
-      "2025-03-31 00:00:00": 953058900000.0,
-      "2025-06-30 00:00:00": 853464600000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:52:54.607322+00:00",
+    "report_period": "2025-06-30",
+    "revenue_yoy_change": null,
     "revenue_qoq_change": -10.44996274626888,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": 69.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 63.36
-    },
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "inventory_breakdown_available": false
+    "latest_eps": 63.36,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 19.04930796192367,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 5996128100000.0,
+    "cash": 2146127800000.0,
+    "total_assets": 44560480400000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 953058900000.0,
+      "2025-06-30": 853464600000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 63.36
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 3850000300000.0,
+    "debt_to_assets": 13.456156769799996,
+    "ticker": "HDB"
   },
-  "fetched_at": "2026-07-15T14:27:06.265821"
+  "fetched_at": "2026-10-16T12:52:54.608205"
 }

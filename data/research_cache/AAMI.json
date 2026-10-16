@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "ticker": "AAMI",
+  "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+  "metrics": {
+    "revenue_yoy_change": 45.290423861852425,
+    "revenue_qoq_change": 10.838323353293422,
+    "eps_yoy_change": 171.4285714285714,
+    "eps_qoq_change": 11.764705882352944,
+    "latest_eps": 0.76,
+    "gross_margin": 34.089681253376554,
+    "operating_margin": 17.504051863857377,
+    "net_margin": 14.748784440842789,
+    "shares_yoy_change": -0.5726410674278037,
+    "free_cash_flow_ttm": -50100000.0,
+    "operating_cash_flow_ttm": -34100000.0,
+    "revenue_ttm": 668500000.0,
+    "net_income_ttm": 101400000.0,
+    "ebitda_ttm": 198000000.0,
+    "total_debt": 257500000.0,
+    "cash": 64600000.0,
+    "total_assets": 856900000.0,
+    "margin_change": -8.066007369377935,
+    "operating_margin_yoy_change": 4.788196290858947,
+    "fcf_margin": -7.494390426327599,
+    "net_debt": 192900000.0,
+    "net_debt_to_ebitda": 0.9742424242424242,
+    "debt_to_assets": 30.050180884583966,
+    "market_cap": 3293838592.0,
+    "enterprise_value": 3527938816.0,
+    "forward_pe": 14.5394335,
+    "trailing_pe": 32.911346,
+    "ev_ebitda": 20.322,
+    "fcf_yield": -1.521021707672068,
+    "eps_fy0": 5.35667,
+    "revenue_fy0": 782076500.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 6.38333,
+    "revenue_fy1": 911904220.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": 19.166011719967813,
+    "forward_revenue_growth": 16.600386279347347,
+    "eps_revision_30d": -1.2887622222875095,
+    "eps_revision_90d": 1.0020569620253106,
+    "eps_surprise_pct": 29.756097560975636,
+    "days_to_earnings": 13.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/financials/",
+      "retrieved_at": "2026-10-16T13:30:15.330355+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AAMI/calendar/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Are Finance Stocks Lagging  Acadian Asset Management Inc. (AAMI) This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/finance-stocks-lagging-acadian-asset-124003159.html",
+      "published_at": "2026-10-15T12:40:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Canoe Financial launches quantitative investment solutions sub-advised by Acadian Asset Management",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/canoe-financial-launches-quantitative-investment-123000221.html",
+      "published_at": "2026-10-15T12:30:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Acadian Asset Management Inc. to Report Financial and Operating Results for the Third Quarter Ended September 30, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/acadian-asset-management-inc-report-123000328.html",
+      "published_at": "2026-10-14T12:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Higher Treasury Yields Could Boost Victory Capital Stock and Bond Fund Platforms",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-could-boost-141212677.html",
+      "published_at": "2026-10-02T14:12:12+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AAMI/0001628280-26-053869_1748824"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AAMI/0001628280-26-050801_1748824"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:30:15.330355+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 45.290423861852425,
+    "revenue_qoq_change": 10.838323353293422,
+    "eps_yoy_change": 171.4285714285714,
+    "eps_qoq_change": 11.764705882352944,
+    "latest_eps": 0.76,
+    "gross_margin": 34.089681253376554,
+    "operating_margin": 17.504051863857377,
+    "net_margin": 14.748784440842789,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.5726410674278037,
+    "free_cash_flow_ttm": -50100000.0,
+    "operating_cash_flow_ttm": -34100000.0,
+    "revenue_ttm": 668500000.0,
+    "net_income_ttm": 101400000.0,
+    "ebitda_ttm": 198000000.0,
+    "total_debt": 257500000.0,
+    "cash": 64600000.0,
+    "total_assets": 856900000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 127400000.0,
+      "2025-09-30": 144200000.0,
+      "2025-12-31": 172200000.0,
+      "2026-03-31": 167000000.0,
+      "2026-06-30": 185100000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.28,
+      "2025-09-30": 0.42,
+      "2025-12-31": 0.97,
+      "2026-03-31": 0.68,
+      "2026-06-30": 0.76
+    },
+    "quarterly_inventory": {},
+    "margin_change": -8.066007369377935,
+    "operating_margin_yoy_change": 4.788196290858947,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -7.494390426327599,
+    "net_debt": 192900000.0,
+    "net_debt_to_ebitda": 0.9742424242424242,
+    "debt_to_assets": 30.050180884583966
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-29"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/AAMI/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

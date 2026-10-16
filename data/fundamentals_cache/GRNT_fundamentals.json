@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "GRNT",
-    "fetch_date": "2026-08-11T13:46:43.300519",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 109219000.0,
-      "2025-09-30 00:00:00": 112671000.0,
-      "2025-12-31 00:00:00": 105485000.0,
-      "2026-03-31 00:00:00": 128264000.0,
-      "2026-06-30 00:00:00": 149273000.0
-    },
-    "revenue_qoq_change": 16.37949853427306,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:51:54.636778+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 36.67310632765361,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.19,
-      "2025-09-30 00:00:00": 0.11,
-      "2025-12-31 00:00:00": -0.19,
-      "2026-03-31 00:00:00": -0.36,
-      "2026-06-30 00:00:00": 0.23
+    "revenue_qoq_change": 16.37949853427305,
+    "eps_yoy_change": 21.052631578947366,
+    "eps_qoq_change": null,
+    "latest_eps": 0.23,
+    "gross_margin": 38.42757899955116,
+    "operating_margin": 32.267054323286864,
+    "net_margin": 20.094725770902976,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.18072104634423436,
+    "free_cash_flow_ttm": -102432000.0,
+    "operating_cash_flow_ttm": 256208000.0,
+    "revenue_ttm": 495693000.0,
+    "net_income_ttm": -27575000.0,
+    "ebitda_ttm": 222222000.0,
+    "total_debt": 462108000.0,
+    "cash": 44092000.0,
+    "total_assets": 1237577000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 109219000.0,
+      "2025-09-30": 112671000.0,
+      "2025-12-31": 105485000.0,
+      "2026-03-31": 128264000.0,
+      "2026-06-30": 149273000.0
     },
-    "eps_qoq_change": 163.88888888888889,
-    "eps_yoy_change": 21.052631578947373,
-    "gross_margin": 38.43,
-    "margin_change": 10.85,
-    "operating_margin": 32.27,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.11,
+      "2025-12-31": -0.19,
+      "2026-03-31": -0.36,
+      "2026-06-30": 0.23
+    },
+    "quarterly_inventory": {},
+    "margin_change": 10.851641869881107,
+    "operating_margin_yoy_change": 13.282262299920966,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -20.66440316889688,
+    "net_debt": 418016000.0,
+    "net_debt_to_ebitda": 1.8810738810738812,
+    "debt_to_assets": 37.33973724463205,
+    "ticker": "GRNT"
   },
-  "fetched_at": "2026-08-11T13:46:43.301483"
+  "fetched_at": "2026-10-16T12:51:54.641753"
 }

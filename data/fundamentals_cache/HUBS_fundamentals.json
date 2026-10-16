@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "HUBS",
-    "fetch_date": "2026-08-13T13:54:45.527919",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:54:21.592823+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 19.829247199901157,
+    "revenue_qoq_change": 3.4898041419077375,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 38.709677419354826,
+    "latest_eps": 0.86,
+    "gross_margin": 82.35472832167065,
+    "operating_margin": 4.869260973523153,
+    "net_margin": 4.753328799877158,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.9490663427964146,
+    "free_cash_flow_ttm": 657892000.0,
+    "operating_cash_flow_ttm": 856365000.0,
+    "revenue_ttm": 3448999000.0,
+    "net_income_ttm": 146854000.0,
+    "ebitda_ttm": 333203000.0,
+    "total_debt": 236914000.0,
+    "cash": 1337943000.0,
+    "total_assets": 3504395000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 760866000.0,
-      "2025-09-30 00:00:00": 809518000.0,
-      "2025-12-31 00:00:00": 846746000.0,
-      "2026-03-31 00:00:00": 880995000.0,
-      "2026-06-30 00:00:00": 911740000.0
+      "2025-06-30": 760866000.0,
+      "2025-09-30": 809518000.0,
+      "2025-12-31": 846746000.0,
+      "2026-03-31": 880995000.0,
+      "2026-06-30": 911740000.0
     },
-    "revenue_qoq_change": 3.489804141907729,
-    "revenue_yoy_change": 19.829247199901165,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.06,
-      "2025-09-30 00:00:00": 0.31,
-      "2025-12-31 00:00:00": 1.04,
-      "2026-03-31 00:00:00": 0.62,
-      "2026-06-30 00:00:00": 0.86
+      "2025-06-30": -0.06,
+      "2025-09-30": 0.31,
+      "2025-12-31": 1.04,
+      "2026-03-31": 0.62,
+      "2026-06-30": 0.86
     },
-    "eps_qoq_change": 38.70967741935484,
-    "eps_yoy_change": 1533.3333333333333,
-    "gross_margin": 82.35,
-    "margin_change": -1.11,
-    "operating_margin": 4.87,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": -1.107833894914009,
+    "operating_margin_yoy_change": 7.959029737011074,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.074867809471677,
+    "net_debt": -1101029000.0,
+    "net_debt_to_ebitda": -3.3043790121937677,
+    "debt_to_assets": 6.760482194501476,
+    "ticker": "HUBS"
   },
-  "fetched_at": "2026-08-13T13:54:45.529222"
+  "fetched_at": "2026-10-16T12:54:21.597738"
 }

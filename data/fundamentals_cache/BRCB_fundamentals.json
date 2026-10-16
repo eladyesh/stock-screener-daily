@@ -1,38 +1,60 @@
 {
   "data": {
-    "ticker": "BRCB",
-    "fetch_date": "2026-08-13T13:36:05.879075",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 44820000.0,
-      "2025-06-30 00:00:00": 50394000.0,
-      "2025-09-30 00:00:00": 51468000.0,
-      "2025-12-31 00:00:00": 53639000.0,
-      "2026-03-31 00:00:00": 55454000.0
-    },
-    "revenue_qoq_change": 3.3837319860549226,
-    "revenue_yoy_change": 23.726015171798302,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": -0.05,
-      "2025-12-31 00:00:00": 0.04,
-      "2026-03-31 00:00:00": 0.02
-    },
-    "eps_qoq_change": -50.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T12:35:49.447320+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 25.01289836091598,
+    "revenue_qoq_change": 13.605871533162617,
     "eps_yoy_change": null,
-    "gross_margin": 29.68,
-    "margin_change": 0.23,
-    "operating_margin": 6.79,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 2055000.0,
-      "2025-06-30 00:00:00": 2644000.0,
-      "2025-09-30 00:00:00": 2786000.0,
-      "2025-12-31 00:00:00": 2898000.0,
-      "2026-03-31 00:00:00": 3256000.0
+    "eps_qoq_change": 200.0,
+    "latest_eps": 0.06,
+    "gross_margin": 30.303655613581164,
+    "operating_margin": 8.498547595993587,
+    "net_margin": 1.9333640216511374,
+    "inventory_yoy_change": 28.290468986384276,
+    "inventory_qoq_change": 4.176904176904173,
+    "shares_yoy_change": 38.93786049106338,
+    "free_cash_flow_ttm": -40429000.0,
+    "operating_cash_flow_ttm": 12957000.0,
+    "revenue_ttm": 223560000.0,
+    "net_income_ttm": 1536000.0,
+    "ebitda_ttm": 9138000.0,
+    "total_debt": 191042000.0,
+    "cash": 15975000.0,
+    "total_assets": 392368000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 50394000.0,
+      "2025-09-30": 51468000.0,
+      "2025-12-31": 53639000.0,
+      "2026-03-31": 55454000.0,
+      "2026-06-30": 62999000.0
     },
-    "inventory_qoq_change": 12.35,
-    "inventory_to_sales_ratio": 0.059,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": -0.05,
+      "2025-12-31": 0.04,
+      "2026-03-31": 0.02,
+      "2026-06-30": 0.06
+    },
+    "quarterly_inventory": {
+      "2025-06-30": 2644000.0,
+      "2025-09-30": 2786000.0,
+      "2025-12-31": 2898000.0,
+      "2026-03-31": 3256000.0,
+      "2026-06-30": 3392000.0
+    },
+    "margin_change": 0.6231997402447043,
+    "operating_margin_yoy_change": 0.3428147706572382,
+    "inventory_to_sales_ratio": 0.05384212447816632,
+    "fcf_margin": -18.08418321703346,
+    "net_debt": 175067000.0,
+    "net_debt_to_ebitda": 19.158130882031077,
+    "debt_to_assets": 48.68949557558211,
+    "ticker": "BRCB"
   },
-  "fetched_at": "2026-08-13T13:36:05.880831"
+  "fetched_at": "2026-10-16T12:35:49.452261"
 }

@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "ticker": "RELL",
+  "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+  "metrics": {
+    "revenue_yoy_change": 27.57424502302992,
+    "revenue_qoq_change": 19.33407845399482,
+    "eps_yoy_change": 212.5,
+    "eps_qoq_change": 257.1428571428571,
+    "latest_eps": 0.25,
+    "gross_margin": 31.21138420170098,
+    "operating_margin": 4.56667220568908,
+    "net_margin": 5.5923984470595345,
+    "inventory_yoy_change": 0.2149826360178686,
+    "inventory_qoq_change": -4.273408970534942,
+    "shares_yoy_change": 1.7852238396045106,
+    "free_cash_flow_ttm": -3621000.0,
+    "operating_cash_flow_ttm": 762000.0,
+    "revenue_ttm": 228564000.0,
+    "net_income_ttm": 6383000.0,
+    "ebitda_ttm": 9419000.0,
+    "total_debt": 1389000.0,
+    "cash": 31779000.0,
+    "total_assets": 202017000.0,
+    "margin_change": -0.6605511891268243,
+    "operating_margin_yoy_change": 3.0075749018289164,
+    "inventory_to_sales_ratio": 1.5562638790277505,
+    "fcf_margin": -1.5842389877671024,
+    "net_debt": -30390000.0,
+    "net_debt_to_ebitda": -3.226457161057437,
+    "debt_to_assets": 0.6875658979194821,
+    "market_cap": 286228544.0,
+    "enterprise_value": 252833536.0,
+    "forward_pe": 20.468084,
+    "trailing_pe": 33.172413,
+    "ev_ebitda": 18.726,
+    "fcf_yield": -1.2650729900648903,
+    "eps_fy0": 0.78,
+    "revenue_fy0": 257550000.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": 0.94,
+    "revenue_fy1": 281265000.0,
+    "analysts_fy1": 2.0,
+    "forward_eps_growth": 20.512820512820507,
+    "forward_revenue_growth": 9.207920792079216,
+    "eps_revision_30d": 27.027027027027017,
+    "eps_revision_90d": 56.666666666666664,
+    "eps_surprise_pct": 200.00000000000006,
+    "days_to_earnings": 82.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/financials/",
+      "retrieved_at": "2026-10-16T13:29:50.043052+00:00",
+      "period": "2026-05-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/key-statistics/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "2026-05-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/analysis/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": "2026-08-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RELL/calendar/",
+      "retrieved_at": "2026-10-16T13:29:30.110371+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-q3-earnings-revenues-131800915.html",
+      "published_at": "2026-10-15T13:18:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "The Bull Case For Exelon (EXC) Could Change Following A Data Center\u2011Driven Grid Rethink - Learn Why",
+      "url": "https://finance.yahoo.com/energy/articles/bull-case-exelon-exc-could-001424881.html",
+      "published_at": "2026-10-15T00:14:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exelon (EXC) Battery Storage Push Puts Fair Value Back In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exelon-exc-battery-storage-push-221040115.html",
+      "published_at": "2026-10-14T22:10:40+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Does Exelon (EXC) Mean For Illinois\u2019 Largest Commercial Battery Project?",
+      "url": "https://finance.yahoo.com/energy/articles/does-exelon-exc-mean-illinois-211409699.html",
+      "published_at": "2026-10-14T21:14:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "Richardson Electronics (RELL) Is Up 9.48% in One Week: What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/richardson-electronics-rell-9-48-150003441.html",
+      "published_at": "2026-10-13T15:00:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Fastenal (FAST) Reports Q3: Everything You Need To Know Ahead Of Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fastenal-fast-reports-q3-everything-075504567.html",
+      "published_at": "2026-10-13T07:55:04+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Richardson Plans to Install 5-MWh Demonstration Project",
+      "url": "https://finance.yahoo.com/energy/articles/richardson-plans-install-5-mwh-183344874.html",
+      "published_at": "2026-10-12T18:33:44+00:00",
+      "categories": []
+    },
+    {
+      "title": "ComEd, Richardson Electronics, Ltd. Announce Expansion and Plans to Install Illinois\u2019 Largest Commercial Battery Energy Storage System",
+      "url": "https://finance.yahoo.com/energy/articles/comed-richardson-electronics-ltd-announce-172100999.html",
+      "published_at": "2026-10-12T17:21:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-08",
+      "type": "8-K/A",
+      "url": "https://finance.yahoo.com/sec-filing/RELL/0000355948-26-000021_355948"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/RELL/0000355948-26-000017_355948"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "ARS",
+      "url": "https://finance.yahoo.com/sec-filing/RELL/0000355948-26-000012_355948"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "10-K",
+      "url": "https://finance.yahoo.com/sec-filing/RELL/0000355948-26-000002_355948"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/RELL/0001193125-26-312436_355948"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-16T13:29:50.043052+00:00",
+    "report_period": "2026-05-31",
+    "revenue_yoy_change": 27.57424502302992,
+    "revenue_qoq_change": 19.33407845399482,
+    "eps_yoy_change": 212.5,
+    "eps_qoq_change": 257.1428571428571,
+    "latest_eps": 0.25,
+    "gross_margin": 31.21138420170098,
+    "operating_margin": 4.56667220568908,
+    "net_margin": 5.5923984470595345,
+    "inventory_yoy_change": 0.2149826360178686,
+    "inventory_qoq_change": -4.273408970534942,
+    "shares_yoy_change": 1.7852238396045106,
+    "free_cash_flow_ttm": -3621000.0,
+    "operating_cash_flow_ttm": 762000.0,
+    "revenue_ttm": 228564000.0,
+    "net_income_ttm": 6383000.0,
+    "ebitda_ttm": 9419000.0,
+    "total_debt": 1389000.0,
+    "cash": 31779000.0,
+    "total_assets": 202017000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-02-28": null,
+      "2025-05-31": 51889000.0,
+      "2025-08-31": 54607000.0,
+      "2025-11-30": 52288000.0,
+      "2026-02-28": 55472000.0,
+      "2026-05-31": 66197000.0
+    },
+    "quarterly_eps": {
+      "2025-02-28": null,
+      "2025-05-31": 0.08,
+      "2025-08-31": 0.13,
+      "2025-11-30": -0.01,
+      "2026-02-28": 0.07,
+      "2026-05-31": 0.25
+    },
+    "quarterly_inventory": {
+      "2025-02-28": null,
+      "2025-05-31": 102799000.0,
+      "2025-08-31": 104635000.0,
+      "2025-11-30": 105167000.0,
+      "2026-02-28": 107619000.0,
+      "2026-05-31": 103020000.0
+    },
+    "margin_change": -0.6605511891268243,
+    "operating_margin_yoy_change": 3.0075749018289164,
+    "inventory_to_sales_ratio": 1.5562638790277505,
+    "fcf_margin": -1.5842389877671024,
+    "net_debt": -30390000.0,
+    "net_debt_to_ebitda": -3.226457161057437,
+    "debt_to_assets": 0.6875658979194821
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-06"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/RELL/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
