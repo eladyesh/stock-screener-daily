@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "LMB",
-    "fetch_date": "2026-09-23T13:19:44.309269",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 142241000.0,
-      "2025-09-30 00:00:00": 184583000.0,
-      "2025-12-31 00:00:00": 186872000.0,
-      "2026-03-31 00:00:00": 138859000.0,
-      "2026-06-30 00:00:00": 173457000.0
-    },
-    "revenue_qoq_change": 24.915921906394257,
-    "revenue_yoy_change": 21.94585246166717,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.64,
-      "2025-09-30 00:00:00": 0.73,
-      "2025-12-31 00:00:00": 1.02,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": 0.39
-    },
-    "eps_qoq_change": 8.333333333333341,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T12:11:23.135488+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 21.94585246166718,
+    "revenue_qoq_change": 24.915921906394246,
     "eps_yoy_change": -39.0625,
-    "gross_margin": 21.5,
-    "margin_change": -0.95,
-    "operating_margin": 4.31,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 8.333333333333348,
+    "latest_eps": 0.39,
+    "gross_margin": 21.499852989501722,
+    "operating_margin": 4.313460973036546,
+    "net_margin": 2.73670131502332,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.6108770840485778,
+    "free_cash_flow_ttm": 50608000.0,
+    "operating_cash_flow_ttm": 52386000.0,
+    "revenue_ttm": 683771000.0,
+    "net_income_ttm": 30215000.0,
+    "ebitda_ttm": 59561000.0,
+    "total_debt": 59586000.0,
+    "cash": 17529000.0,
+    "total_assets": 404007000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 142241000.0,
+      "2025-09-30": 184583000.0,
+      "2025-12-31": 186872000.0,
+      "2026-03-31": 138859000.0,
+      "2026-06-30": 173457000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.64,
+      "2025-09-30": 0.73,
+      "2025-12-31": 1.02,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.39
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.9473776545328754,
+    "operating_margin_yoy_change": -3.727118044265077,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.40130833276053,
+    "net_debt": 42057000.0,
+    "net_debt_to_ebitda": 0.7061164184617451,
+    "debt_to_assets": 14.748754353266156,
+    "ticker": "LMB"
   },
-  "fetched_at": "2026-09-23T13:19:44.310559"
+  "fetched_at": "2026-10-17T12:11:23.138925"
 }

@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "ticker": "RGA",
+  "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+  "metrics": {
+    "revenue_yoy_change": 18.1605471562275,
+    "revenue_qoq_change": 1.374305126621378,
+    "eps_yoy_change": 159.62962962962962,
+    "eps_qoq_change": 40.76305220883532,
+    "latest_eps": 7.01,
+    "net_margin": 7.037319116527037,
+    "shares_yoy_change": -1.2213214248250392,
+    "free_cash_flow_ttm": 5199000000.0,
+    "operating_cash_flow_ttm": 5199000000.0,
+    "revenue_ttm": 25878000000.0,
+    "net_income_ttm": 1508000000.0,
+    "total_debt": 5709000000.0,
+    "cash": 19136000000.0,
+    "total_assets": 167115000000.0,
+    "fcf_margin": 20.090424298632044,
+    "net_debt": -13427000000.0,
+    "debt_to_assets": 3.4162103940400326,
+    "market_cap": 17419218944.0,
+    "enterprise_value": 17552220160.0,
+    "forward_pe": 8.900473,
+    "trailing_pe": 11.745928,
+    "ev_ebitda": 7.587,
+    "fcf_yield": 29.846343953273408,
+    "eps_fy0": 29.85035,
+    "revenue_fy0": 27011011400.0,
+    "analysts_fy0": 9.0,
+    "eps_fy1": 29.97032,
+    "revenue_fy1": 28251691290.0,
+    "analysts_fy1": 10.0,
+    "forward_eps_growth": 0.40190483528670384,
+    "forward_revenue_growth": 4.593237445377563,
+    "eps_revision_30d": 0.9051061074713873,
+    "eps_revision_90d": 2.468517849914109,
+    "eps_surprise_pct": 36.98904549916251,
+    "days_to_earnings": 19.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/financials/",
+      "retrieved_at": "2026-10-17T12:41:38.177516+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RGA/calendar/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "1 Growth Stock to Add to Your Roster and 2 We Ignore",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-add-roster-114739467.html",
+      "published_at": "2026-10-16T11:47:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "IIS Names 2026 RGA Leaders of Tomorrow Finalists Ahead of Global Insurance Forum",
+      "url": "https://finance.yahoo.com/healthcare/articles/iis-names-2026-rga-leaders-160600193.html",
+      "published_at": "2026-10-14T16:06:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-reinsurance-group-america-124002457.html",
+      "published_at": "2026-10-14T12:40:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Reinsurance Group of America, Incorporated (RGA) Hit a 52 Week High, Can the Run Continue?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reinsurance-group-america-incorporated-rga-121502874.html",
+      "published_at": "2026-10-09T12:15:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Reinsurance Group of America Announces Third Quarter Earnings Release Date, Webcast",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reinsurance-group-america-announces-third-201500812.html",
+      "published_at": "2026-10-08T20:15:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "1 Surging  Stock to Target This Week and 2 We Question",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-surging-stock-target-week-121900039.html",
+      "published_at": "2026-10-05T12:19:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-07",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/RGA/0000898174-26-000034_898174"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/RGA/0000898174-26-000030_898174"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance - Reinsurance",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T12:41:38.177516+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 18.1605471562275,
+    "revenue_qoq_change": 1.374305126621378,
+    "eps_yoy_change": 159.62962962962962,
+    "eps_qoq_change": 40.76305220883532,
+    "latest_eps": 7.01,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 7.037319116527037,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.2213214248250392,
+    "free_cash_flow_ttm": 5199000000.0,
+    "operating_cash_flow_ttm": 5199000000.0,
+    "revenue_ttm": 25878000000.0,
+    "net_income_ttm": 1508000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 5709000000.0,
+    "cash": 19136000000.0,
+    "total_assets": 167115000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 5556000000.0,
+      "2025-09-30": 6229000000.0,
+      "2025-12-31": 6608000000.0,
+      "2026-03-31": 6476000000.0,
+      "2026-06-30": 6565000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 2.7,
+      "2025-09-30": 3.81,
+      "2025-12-31": 6.97,
+      "2026-03-31": 4.98,
+      "2026-06-30": 7.01
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.090424298632044,
+    "net_debt": -13427000000.0,
+    "debt_to_assets": 3.4162103940400326
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/RGA/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

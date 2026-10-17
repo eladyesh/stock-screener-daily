@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "ERIE",
-    "fetch_date": "2026-08-11T13:41:09.859915",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T11:57:35.968130+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.6802249378310652,
+    "revenue_qoq_change": 6.512941672306405,
+    "eps_yoy_change": 3.293413173652704,
+    "eps_qoq_change": 19.791666666666675,
+    "latest_eps": 3.45,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 13.719313144041603,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.010916331594867934,
+    "free_cash_flow_ttm": 553083000.0,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": 4185570000.0,
+    "net_income_ttm": 577001000.0,
+    "ebitda_ttm": null,
+    "total_debt": null,
+    "cash": 374921000.0,
+    "total_assets": 3557016000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1292446000.0,
-      "2025-09-30 00:00:00": 1304077000.0,
-      "2025-12-31 00:00:00": 333526000.0,
-      "2026-03-31 00:00:00": 1233805000.0,
-      "2026-06-30 00:00:00": 1314162000.0
+      "2025-03-31": null,
+      "2025-06-30": 1292446000.0,
+      "2025-09-30": 1304077000.0,
+      "2025-12-31": 333526000.0,
+      "2026-03-31": 1233805000.0,
+      "2026-06-30": 1314162000.0
     },
-    "revenue_qoq_change": 6.512941672306402,
-    "revenue_yoy_change": 1.6802249378310583,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3.34,
-      "2025-09-30 00:00:00": 3.5,
-      "2025-12-31 00:00:00": 1.21,
-      "2026-03-31 00:00:00": 2.88,
-      "2026-06-30 00:00:00": 3.45
+      "2025-03-31": null,
+      "2025-06-30": 3.34,
+      "2025-09-30": 3.5,
+      "2025-12-31": 1.21,
+      "2026-03-31": 2.88,
+      "2026-06-30": 3.45
     },
-    "eps_qoq_change": 19.79166666666668,
-    "eps_yoy_change": 3.293413173652705,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.21404253184154,
+    "ticker": "ERIE"
   },
-  "fetched_at": "2026-08-11T13:41:09.860430"
+  "fetched_at": "2026-10-17T11:57:35.970051"
 }

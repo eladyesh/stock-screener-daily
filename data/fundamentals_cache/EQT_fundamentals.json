@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "EQT",
-    "fetch_date": "2026-08-10T13:44:04.123123",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1837755000.0,
-      "2025-09-30 00:00:00": 1822787000.0,
-      "2025-12-31 00:00:00": 2273906000.0,
-      "2026-03-31 00:00:00": 3617005000.0,
-      "2026-06-30 00:00:00": 1765300000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T11:57:33.893257+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -3.942582117855753,
     "revenue_qoq_change": -51.19442743374698,
-    "revenue_yoy_change": -3.942582117855754,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.3,
-      "2025-09-30 00:00:00": 0.53,
-      "2025-12-31 00:00:00": 1.08,
-      "2026-03-31 00:00:00": 2.36,
-      "2026-06-30 00:00:00": 0.34
+    "eps_yoy_change": -73.84615384615385,
+    "eps_qoq_change": -85.59322033898304,
+    "latest_eps": 0.34,
+    "gross_margin": 33.443324080892765,
+    "operating_margin": 20.348212768367983,
+    "net_margin": 11.976717838327763,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.333050268358862,
+    "free_cash_flow_ttm": 3758333000.0,
+    "operating_cash_flow_ttm": 6246145000.0,
+    "revenue_ttm": 9478998000.0,
+    "net_income_ttm": 2711615000.0,
+    "ebitda_ttm": 6933063000.0,
+    "total_debt": 5655714000.0,
+    "cash": 112863000.0,
+    "total_assets": 41320840000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1837755000.0,
+      "2025-09-30": 1822787000.0,
+      "2025-12-31": 2273906000.0,
+      "2026-03-31": 3617005000.0,
+      "2026-06-30": 1765300000.0
     },
-    "eps_qoq_change": -85.59322033898306,
-    "eps_yoy_change": -73.84615384615384,
-    "gross_margin": 33.44,
-    "margin_change": -34.2,
-    "operating_margin": 20.35,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 1.3,
+      "2025-09-30": 0.53,
+      "2025-12-31": 1.08,
+      "2026-03-31": 2.36,
+      "2026-06-30": 0.34
+    },
+    "quarterly_inventory": {},
+    "margin_change": -34.200928553538205,
+    "operating_margin_yoy_change": -2.523062238365778,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 39.6490536236003,
+    "net_debt": 5542851000.0,
+    "net_debt_to_ebitda": 0.7994808355268083,
+    "debt_to_assets": 13.68731613394113,
+    "ticker": "EQT"
   },
-  "fetched_at": "2026-08-10T13:44:04.124289"
+  "fetched_at": "2026-10-17T11:57:33.896356"
 }

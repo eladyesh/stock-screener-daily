@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "CRK",
-    "fetch_date": "2026-08-10T13:38:48.948556",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 470262000.0,
-      "2025-09-30 00:00:00": 449852000.0,
-      "2025-12-31 00:00:00": 495383000.0,
-      "2026-03-31 00:00:00": 585534000.0,
-      "2026-06-30 00:00:00": 351702000.0
-    },
-    "revenue_qoq_change": -39.93482872045005,
-    "revenue_yoy_change": -25.211477857024384,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.44,
-      "2025-09-30 00:00:00": 0.378048,
-      "2025-12-31 00:00:00": 0.97,
-      "2026-03-31 00:00:00": 0.38,
-      "2026-06-30 00:00:00": 0.03
-    },
-    "eps_qoq_change": -92.10526315789474,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T11:52:24.964639+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -25.211477857024377,
+    "revenue_qoq_change": -39.93482872045006,
     "eps_yoy_change": -93.18181818181819,
-    "gross_margin": 12.11,
-    "margin_change": -22.16,
-    "operating_margin": 5.97,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -92.10526315789474,
+    "latest_eps": 0.03,
+    "gross_margin": 12.106556118532167,
+    "operating_margin": 5.971248386418047,
+    "net_margin": 2.4924509954450076,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.8955061563924227,
+    "free_cash_flow_ttm": -735224000.0,
+    "operating_cash_flow_ttm": 819467000.0,
+    "revenue_ttm": 1882471000.0,
+    "net_income_ttm": 532855000.0,
+    "ebitda_ttm": 1476584000.0,
+    "total_debt": 3172829000.0,
+    "cash": 45008000.0,
+    "total_assets": 7524686000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 470262000.0,
+      "2025-09-30": 449852000.0,
+      "2025-12-31": 495383000.0,
+      "2026-03-31": 585534000.0,
+      "2026-06-30": 351702000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.44,
+      "2025-09-30": 0.378048,
+      "2025-12-31": 0.97,
+      "2026-03-31": 0.38,
+      "2026-06-30": 0.03
+    },
+    "quarterly_inventory": {},
+    "margin_change": -22.15891779075406,
+    "operating_margin_yoy_change": -13.049212548124824,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -39.056325436089054,
+    "net_debt": 3127821000.0,
+    "net_debt_to_ebitda": 2.118281790944504,
+    "debt_to_assets": 42.16559999978737,
+    "ticker": "CRK"
   },
-  "fetched_at": "2026-08-10T13:38:48.949731"
+  "fetched_at": "2026-10-17T11:52:24.967872"
 }

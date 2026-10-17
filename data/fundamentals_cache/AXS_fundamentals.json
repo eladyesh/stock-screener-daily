@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "AXS",
-    "fetch_date": "2026-08-13T13:33:07.803555",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T11:44:04.945426+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 13.788308159747587,
+    "revenue_qoq_change": 4.2845829388990175,
+    "eps_yoy_change": 24.26470588235292,
+    "eps_qoq_change": 2.7355623100303816,
+    "latest_eps": 3.38,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 14.72567549140263,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.461697487677897,
+    "free_cash_flow_ttm": 2455147000.0,
+    "operating_cash_flow_ttm": 2455147000.0,
+    "revenue_ttm": 6851217000.0,
+    "net_income_ttm": 1104335000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1486958000.0,
+    "cash": 6085586000.0,
+    "total_assets": 36622478000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1540305000.0,
-      "2025-09-30 00:00:00": 1693251000.0,
-      "2025-12-31 00:00:00": 1724602000.0,
-      "2026-03-31 00:00:00": 1680677000.0,
-      "2026-06-30 00:00:00": 1752687000.0
+      "2025-06-30": 1540305000.0,
+      "2025-09-30": 1693251000.0,
+      "2025-12-31": 1724602000.0,
+      "2026-03-31": 1680677000.0,
+      "2026-06-30": 1752687000.0
     },
-    "revenue_qoq_change": 4.284582938899027,
-    "revenue_yoy_change": 13.788308159747583,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.72,
-      "2025-09-30 00:00:00": 3.74,
-      "2025-12-31 00:00:00": 3.67,
-      "2026-03-31 00:00:00": 3.29,
-      "2026-06-30 00:00:00": 3.38
+      "2025-06-30": 2.72,
+      "2025-09-30": 3.74,
+      "2025-12-31": 3.67,
+      "2026-03-31": 3.29,
+      "2026-06-30": 3.38
     },
-    "eps_qoq_change": 2.7355623100303905,
-    "eps_yoy_change": 24.264705882352928,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.835195411267804,
+    "net_debt": -4598628000.0,
+    "debt_to_assets": 4.060233171551089,
+    "ticker": "AXS"
   },
-  "fetched_at": "2026-08-13T13:33:07.804227"
+  "fetched_at": "2026-10-17T11:44:04.948095"
 }

@@ -1,33 +1,51 @@
 {
   "data": {
-    "ticker": "SD",
-    "fetch_date": "2026-08-10T14:14:34.301863",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 34531000.0,
-      "2025-09-30 00:00:00": 39822000.0,
-      "2025-12-31 00:00:00": 39400000.0,
-      "2026-03-31 00:00:00": 49777000.0,
-      "2026-06-30 00:00:00": 51117000.0
-    },
-    "revenue_qoq_change": 2.692006348313478,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T12:27:47.891821+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 48.03220294807564,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.35,
-      "2025-06-30 00:00:00": 0.53,
-      "2025-09-30 00:00:00": 0.43,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.5,
-      "2026-06-30 00:00:00": 0.72
-    },
+    "revenue_qoq_change": 2.6920063483134804,
+    "eps_yoy_change": 35.849056603773576,
     "eps_qoq_change": 43.99999999999999,
-    "eps_yoy_change": 35.84905660377357,
-    "gross_margin": 49.86,
-    "margin_change": 0.59,
-    "operating_margin": 42.49,
-    "inventory_breakdown_available": false
+    "latest_eps": 0.72,
+    "gross_margin": 49.86012481170648,
+    "operating_margin": 42.492712796134356,
+    "net_margin": 52.21941819746855,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.104234261253656,
+    "free_cash_flow_ttm": 42495000.0,
+    "operating_cash_flow_ttm": 119154000.0,
+    "revenue_ttm": 180116000.0,
+    "net_income_ttm": 82959000.0,
+    "ebitda_ttm": 127288000.0,
+    "total_debt": null,
+    "cash": 113345000.0,
+    "total_assets": 668084000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 34531000.0,
+      "2025-09-30": 39822000.0,
+      "2025-12-31": 39400000.0,
+      "2026-03-31": 49777000.0,
+      "2026-06-30": 51117000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.35,
+      "2025-06-30": 0.53,
+      "2025-09-30": 0.43,
+      "2025-12-31": null,
+      "2026-03-31": 0.5,
+      "2026-06-30": 0.72
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.5883727977241122,
+    "operating_margin_yoy_change": 5.172623600918463,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 23.593128872504384,
+    "ticker": "SD"
   },
-  "fetched_at": "2026-08-10T14:14:34.303035"
+  "fetched_at": "2026-10-17T12:27:47.894952"
 }

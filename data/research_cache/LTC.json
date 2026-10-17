@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "ticker": "LTC",
+  "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+  "metrics": {
+    "revenue_yoy_change": 64.10856573705179,
+    "revenue_qoq_change": 3.613839075159042,
+    "eps_yoy_change": 75.00000000000003,
+    "eps_qoq_change": 16.666666666666675,
+    "latest_eps": 0.56,
+    "gross_margin": 55.17959922718215,
+    "operating_margin": 34.38331360827036,
+    "net_margin": 29.9790610870027,
+    "shares_yoy_change": 13.404883983662108,
+    "free_cash_flow_ttm": 141521000.0,
+    "operating_cash_flow_ttm": 141521000.0,
+    "revenue_ttm": 347853000.0,
+    "net_income_ttm": 135430000.0,
+    "ebitda_ttm": 225349000.0,
+    "total_debt": 779502000.0,
+    "cash": 40435000.0,
+    "total_assets": 2176858000.0,
+    "margin_change": -3.6479992677503006,
+    "operating_margin_yoy_change": -16.10805425361543,
+    "fcf_margin": 40.684139564701184,
+    "net_debt": 739067000.0,
+    "net_debt_to_ebitda": 3.2796551127362448,
+    "debt_to_assets": 35.80858282901319,
+    "market_cap": 2354595072.0,
+    "enterprise_value": 3166726912.0,
+    "forward_pe": 27.733334,
+    "trailing_pe": 15.6,
+    "ev_ebitda": 24.019,
+    "fcf_yield": 6.010417743709607,
+    "eps_fy0": 8.09,
+    "revenue_fy0": 429637000.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 1.575,
+    "revenue_fy1": 635755670.0,
+    "analysts_fy1": 2.0,
+    "forward_eps_growth": -80.53152039555006,
+    "forward_revenue_growth": 47.9750743069149,
+    "eps_revision_30d": 4.651162790697683,
+    "eps_revision_90d": -4.255319148936176,
+    "eps_surprise_pct": 5.772727272727263,
+    "days_to_earnings": 17.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/financials/",
+      "retrieved_at": "2026-10-17T12:41:03.680031+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/key-statistics/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/analysis/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LTC/calendar/",
+      "retrieved_at": "2026-10-17T12:40:40.356247+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "LTC Properties (LTC) Stock Could Be Undervalued As Senior Housing Deals Expand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ltc-properties-ltc-stock-could-141541257.html",
+      "published_at": "2026-10-15T14:15:41+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is LTC Properties (LTC) Undervalued On Its $95 Million SHOP Acquisition Push?",
+      "url": "https://finance.yahoo.com/real-estate/articles/ltc-properties-ltc-undervalued-95-131349463.html",
+      "published_at": "2026-10-15T13:13:49+00:00",
+      "categories": [
+        "corporate/regulatory"
+      ]
+    },
+    {
+      "title": "Did LTC\u2019s US$830 Million Pivot Into High-Occupancy SHOP Deals Just Shift Its (LTC) Investment Narrative?",
+      "url": "https://finance.yahoo.com/real-estate/articles/did-ltc-us-830-million-121158369.html",
+      "published_at": "2026-10-15T12:11:58+00:00",
+      "categories": []
+    },
+    {
+      "title": "LTC Announces Date of Third Quarter 2026 Earnings Release, Conference Call and Webcast",
+      "url": "https://finance.yahoo.com/real-estate/articles/ltc-announces-date-third-quarter-131500254.html",
+      "published_at": "2026-10-14T13:15:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "These 5 REITs Own Something America Is Running Short Of: Senior Housing",
+      "url": "https://finance.yahoo.com/real-estate/articles/5-reits-own-something-america-124516234.html",
+      "published_at": "2026-10-14T12:45:16+00:00",
+      "categories": []
+    },
+    {
+      "title": "Interactive Brokers Adds Ethereum Staking for Eligible Clients",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/interactive-brokers-adds-ethereum-staking-153300381.html",
+      "published_at": "2026-10-13T15:33:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "LTC Properties Buys Two Senior Housing Communities for $95 Million",
+      "url": "https://finance.yahoo.com/real-estate/articles/ltc-properties-buys-two-senior-142228880.html",
+      "published_at": "2026-10-13T14:22:28+00:00",
+      "categories": []
+    },
+    {
+      "title": "LTC\u2019s SHOP Momentum Continues with $95 Million in New Acquisitions",
+      "url": "https://finance.yahoo.com/real-estate/articles/ltc-shop-momentum-continues-95-131500483.html",
+      "published_at": "2026-10-13T13:15:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "GRUBER DAVID L",
+      "date": "2026-08-12",
+      "value": 153200.0,
+      "description": "Purchase at price 38.30 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-09-25",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LTC/0001104659-26-110666_887905"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/LTC/0001104659-26-091183_887905"
+    }
+  ],
+  "warnings": [],
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-17T12:41:03.680031+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 64.10856573705179,
+    "revenue_qoq_change": 3.613839075159042,
+    "eps_yoy_change": 75.00000000000003,
+    "eps_qoq_change": 16.666666666666675,
+    "latest_eps": 0.56,
+    "gross_margin": 55.17959922718215,
+    "operating_margin": 34.38331360827036,
+    "net_margin": 29.9790610870027,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 13.404883983662108,
+    "free_cash_flow_ttm": 141521000.0,
+    "operating_cash_flow_ttm": 141521000.0,
+    "revenue_ttm": 347853000.0,
+    "net_income_ttm": 135430000.0,
+    "ebitda_ttm": 225349000.0,
+    "total_debt": 779502000.0,
+    "cash": 40435000.0,
+    "total_assets": 2176858000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 60240000.0,
+      "2025-09-30": 69290000.0,
+      "2025-12-31": 84293000.0,
+      "2026-03-31": 95411000.0,
+      "2026-06-30": 98859000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.32,
+      "2025-09-30": -0.44,
+      "2025-12-31": 2.11,
+      "2026-03-31": 0.48,
+      "2026-06-30": 0.56
+    },
+    "quarterly_inventory": {
+      "2025-03-31": 42458000.0,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": -3.6479992677503006,
+    "operating_margin_yoy_change": -16.10805425361543,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 40.684139564701184,
+    "net_debt": 739067000.0,
+    "net_debt_to_ebitda": 3.2796551127362448,
+    "debt_to_assets": 35.80858282901319
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/LTC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
