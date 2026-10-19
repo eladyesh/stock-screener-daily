@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "BCRX",
-  "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+  "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
   "metrics": {
     "revenue_yoy_change": 33.60636168298103,
     "revenue_qoq_change": 39.53443767461784,
@@ -27,12 +27,12 @@
     "fcf_margin": 39.69507119293482,
     "net_debt": 440264000.0,
     "debt_to_assets": 142.12343439377182,
-    "market_cap": 1990618496.0,
+    "market_cap": 2039170176.0,
     "enterprise_value": 2474690560.0,
-    "forward_pe": 8.287234,
+    "forward_pe": 8.489362,
     "trailing_pe": null,
     "ev_ebitda": 5.715,
-    "fcf_yield": 18.756833654980767,
+    "fcf_yield": 18.310242293382775,
     "eps_fy0": 0.745,
     "revenue_fy0": 710082250.0,
     "analysts_fy0": 2.0,
@@ -44,253 +44,253 @@
     "eps_revision_30d": -6.000000000000005,
     "eps_revision_90d": 38.23529411764704,
     "eps_surprise_pct": 49.40425531914896,
-    "days_to_earnings": 15.0
+    "days_to_earnings": 14.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/financials/",
-      "retrieved_at": "2026-10-18T13:07:05.361100+00:00",
+      "retrieved_at": "2026-10-19T15:44:50.021546+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/BCRX/calendar/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     }
   },
@@ -310,6 +310,12 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Wedbush Cuts Price Target on BioCryst Pharmaceuticals to $18 From $20, Keeps Outperform Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-cuts-price-target-biocryst-111132779.html",
+      "published_at": "2026-10-19T11:11:32+00:00",
+      "categories": []
+    },
     {
       "title": "BioCryst (BCRX) Trades at Just 11x Forward Earnings. Is the Market Pricing In Trouble?",
       "url": "https://finance.yahoo.com/healthcare/articles/biocryst-bcrx-trades-just-11x-180511574.html",
@@ -350,7 +356,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-18T13:07:05.361100+00:00",
+    "fetch_date": "2026-10-19T15:44:50.021546+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 33.60636168298103,
     "revenue_qoq_change": 39.53443767461784,
@@ -411,11 +417,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 3,
+      "prior_observations": 4,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 3,
+      "prior_observations": 4,
       "required": 20
     }
   }

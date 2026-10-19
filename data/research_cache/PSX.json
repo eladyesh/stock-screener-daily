@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "PSX",
-  "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+  "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
   "metrics": {
     "revenue_yoy_change": 53.059448429013,
     "revenue_qoq_change": 56.74247080516288,
@@ -29,12 +29,12 @@
     "net_debt": 16466000000.0,
     "net_debt_to_ebitda": 1.2790119620941431,
     "debt_to_assets": 25.13751375137514,
-    "market_cap": 117542125568.0,
+    "market_cap": 117251440640.0,
     "enterprise_value": 134643965952.0,
-    "forward_pe": 9.788027,
-    "trailing_pe": 16.752573,
+    "forward_pe": 9.763822,
+    "trailing_pe": 16.711143,
     "ev_ebitda": 13.566,
-    "fcf_yield": 5.439751892440441,
+    "fcf_yield": 5.453237900617065,
     "eps_fy0": 32.48106,
     "revenue_fy0": 171946724210.0,
     "analysts_fy0": 16.0,
@@ -46,271 +46,271 @@
     "eps_revision_30d": 18.68564089944933,
     "eps_revision_90d": 66.2751076139731,
     "eps_surprise_pct": 25.454455766305408,
-    "days_to_earnings": 10.0
+    "days_to_earnings": 9.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/financials/",
-      "retrieved_at": "2026-10-18T13:07:50.494471+00:00",
+      "retrieved_at": "2026-10-19T15:45:25.097089+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/key-statistics/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/analysis/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/PSX/calendar/",
-      "retrieved_at": "2026-10-18T13:06:49.959759+00:00",
+      "retrieved_at": "2026-10-19T15:44:38.080056+00:00",
       "period": null
     }
   },
@@ -330,6 +330,30 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Phillips 66 Stock Is Up 133%. Can Its Dividend Keep Growing?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-stock-133-dividend-141502503.html",
+      "published_at": "2026-10-19T14:15:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Jefferies Adjusts Price Target on Phillips 66 to $280 From $276",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-phillips-132231949.html",
+      "published_at": "2026-10-19T13:22:31+00:00",
+      "categories": []
+    },
+    {
+      "title": "BMO Capital Adjusts Price Target on Phillips 66 to $350 From $340",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-113535503.html",
+      "published_at": "2026-10-19T11:35:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Raymond James Adjusts Price Target on Phillips 66 to $335 From $300",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-adjusts-price-target-105212999.html",
+      "published_at": "2026-10-19T10:52:12+00:00",
+      "categories": []
+    },
     {
       "title": "Phillips 66 Announces Increase in Quarterly Dividend",
       "url": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-announces-increase-quarterly-150000532.html",
@@ -352,30 +376,6 @@
       "title": "Phillips 66 (PSX) Stock Sinks As Market Gains: What You Should Know",
       "url": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-psx-stock-sinks-211506616.html",
       "published_at": "2026-10-15T21:15:06+00:00",
-      "categories": []
-    },
-    {
-      "title": "Can Valero's Heavy Crude Advantage Support Stronger Refining Margins?",
-      "url": "https://finance.yahoo.com/energy/articles/valeros-heavy-crude-advantage-support-123100821.html",
-      "published_at": "2026-10-15T12:31:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "How a Hurricane Could Help Some Refineries\u2014and Hurt Others",
-      "url": "https://finance.yahoo.com/energy/articles/hurricane-could-help-refineries-hurt-164500185.html",
-      "published_at": "2026-10-14T16:45:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "What Did Valero Stock Investors Miss Before The Run?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/did-valero-stock-investors-miss-153535764.html",
-      "published_at": "2026-10-14T15:35:35+00:00",
-      "categories": []
-    },
-    {
-      "title": "Can Government-Backed Refinery Expansion Fuel Delek Stock Gains?",
-      "url": "https://finance.yahoo.com/energy/articles/government-backed-refinery-expansion-fuel-141200167.html",
-      "published_at": "2026-10-14T14:12:00+00:00",
       "categories": []
     }
   ],
@@ -403,7 +403,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-18T13:07:50.494471+00:00",
+    "fetch_date": "2026-10-19T15:45:25.097089+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 53.059448429013,
     "revenue_qoq_change": 56.74247080516288,
@@ -465,11 +465,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 3,
+      "prior_observations": 4,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 3,
+      "prior_observations": 4,
       "required": 20
     }
   }
