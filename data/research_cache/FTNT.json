@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "ticker": "FTNT",
+  "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+  "metrics": {
+    "revenue_yoy_change": 25.638036809815958,
+    "revenue_qoq_change": 10.721237024221452,
+    "eps_yoy_change": 43.85964912280702,
+    "eps_qoq_change": 13.888888888888884,
+    "latest_eps": 0.82,
+    "gross_margin": 80.23829288539478,
+    "operating_margin": 33.65887006201474,
+    "net_margin": 29.605937789931147,
+    "inventory_yoy_change": 5.2073050345508465,
+    "inventory_qoq_change": 15.340909090909083,
+    "shares_yoy_change": -4.24485570078944,
+    "free_cash_flow_ttm": 3117000000.0,
+    "operating_cash_flow_ttm": 3396100000.0,
+    "revenue_ttm": 7527400000.0,
+    "net_income_ttm": 2120700000.0,
+    "ebitda_ttm": 2799500000.0,
+    "total_debt": 496900000.0,
+    "cash": 4069600000.0,
+    "total_assets": 10859200000.0,
+    "margin_change": -0.05474344678515308,
+    "operating_margin_yoy_change": 5.560710552812289,
+    "inventory_to_sales_ratio": 0.20816446115532986,
+    "fcf_margin": 41.40872014241305,
+    "net_debt": -3572700000.0,
+    "net_debt_to_ebitda": -1.2761921771744955,
+    "debt_to_assets": 4.575843524384853,
+    "market_cap": 122559528960.0,
+    "enterprise_value": 122323689472.0,
+    "forward_pe": 44.214687,
+    "trailing_pe": 59.024734,
+    "ev_ebitda": 47.124,
+    "fcf_yield": 2.5432538999209937,
+    "eps_fy0": 3.45177,
+    "revenue_fy0": 8120266780.0,
+    "analysts_fy0": 42.0,
+    "eps_fy1": 3.77793,
+    "revenue_fy1": 9033834250.0,
+    "analysts_fy1": 43.0,
+    "forward_eps_growth": 9.449065262169842,
+    "forward_revenue_growth": 11.250461281027025,
+    "eps_revision_30d": 0.04316394354262343,
+    "eps_revision_90d": 10.198670474201421,
+    "eps_surprise_pct": 20.531947662349847,
+    "days_to_earnings": 8.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/financials/",
+      "retrieved_at": "2026-10-20T13:47:21.743096+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/key-statistics/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FTNT/calendar/",
+      "retrieved_at": "2026-10-20T13:47:14.284158+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "How Much Of Cisco Stock's Rise Did The Business Earn?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/much-cisco-stocks-rise-did-110237786.html",
+      "published_at": "2026-10-20T11:02:37+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Needs To Be True To Buy Cloudflare Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/needs-true-buy-cloudflare-stock-215939385.html",
+      "published_at": "2026-10-19T21:59:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Are CrowdStrike Investors Betting On?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-investors-betting-212012610.html",
+      "published_at": "2026-10-19T21:20:12+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can WDAY's New AI Offerings Across Business Functions Drive Growth?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/wdays-ai-offerings-across-business-130000301.html",
+      "published_at": "2026-10-19T13:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "CrowdStrike Stock Fell 7% on Friday. Here\u2019s What Could Drive Shares Through 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-fell-7-friday-222439553.html",
+      "published_at": "2026-10-16T22:24:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability",
+      "url": "https://finance.yahoo.com/m/a764bc3f-d121-374d-982b-6a1e478db235/sell-off-in-cybersecurity.html",
+      "published_at": "2026-10-16T16:43:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Reasons Why Growth Investors Shouldn't Overlook Fortinet (FTNT)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-154503794.html",
+      "published_at": "2026-10-16T15:45:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Fortinet (FTNT) Stock Dips While Market Gains: Key Facts",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-stock-dips-while-205003539.html",
+      "published_at": "2026-10-15T20:50:03+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-07-30",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/FTNT/0001262039-26-000021_1262039"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/FTNT/0001262039-26-000018_1262039"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-20T13:47:21.743096+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 25.638036809815958,
+    "revenue_qoq_change": 10.721237024221452,
+    "eps_yoy_change": 43.85964912280702,
+    "eps_qoq_change": 13.888888888888884,
+    "latest_eps": 0.82,
+    "gross_margin": 80.23829288539478,
+    "operating_margin": 33.65887006201474,
+    "net_margin": 29.605937789931147,
+    "inventory_yoy_change": 5.2073050345508465,
+    "inventory_qoq_change": 15.340909090909083,
+    "shares_yoy_change": -4.24485570078944,
+    "free_cash_flow_ttm": 3117000000.0,
+    "operating_cash_flow_ttm": 3396100000.0,
+    "revenue_ttm": 7527400000.0,
+    "net_income_ttm": 2120700000.0,
+    "ebitda_ttm": 2799500000.0,
+    "total_debt": 496900000.0,
+    "cash": 4069600000.0,
+    "total_assets": 10859200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1630000000.0,
+      "2025-09-30": 1724900000.0,
+      "2025-12-31": 1905000000.0,
+      "2026-03-31": 1849600000.0,
+      "2026-06-30": 2047900000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.57,
+      "2025-09-30": 0.62,
+      "2025-12-31": 0.68,
+      "2026-03-31": 0.72,
+      "2026-06-30": 0.82
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 405200000.0,
+      "2025-09-30": 426600000.0,
+      "2025-12-31": 399500000.0,
+      "2026-03-31": 369600000.0,
+      "2026-06-30": 426300000.0
+    },
+    "margin_change": -0.05474344678515308,
+    "operating_margin_yoy_change": 5.560710552812289,
+    "inventory_to_sales_ratio": 0.20816446115532986,
+    "fcf_margin": 41.40872014241305,
+    "net_debt": -3572700000.0,
+    "net_debt_to_ebitda": -1.2761921771744955,
+    "debt_to_assets": 4.575843524384853
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-28"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/FTNT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
