@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "SMMT",
-    "fetch_date": "2026-09-04T17:03:52.933073",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-21T13:48:44.718121+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.76,
-      "2025-09-30 00:00:00": -0.31,
-      "2025-12-31 00:00:00": -0.29,
-      "2026-03-31 00:00:00": -0.244274,
-      "2026-06-30 00:00:00": -0.28
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.28,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 4.7897713707258704,
+    "free_cash_flow_ttm": -459822000.0,
+    "operating_cash_flow_ttm": -458433000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -856089000.0,
+    "ebitda_ttm": -866449000.0,
+    "total_debt": 20384000.0,
+    "cash": 690678000.0,
+    "total_assets": 752185000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -14.62537969657026,
-    "eps_yoy_change": 63.1578947368421,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.76,
+      "2025-09-30": -0.31,
+      "2025-12-31": -0.29,
+      "2026-03-31": -0.244274,
+      "2026-06-30": -0.28
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -670294000.0,
+    "debt_to_assets": 2.709971616025313,
+    "ticker": "SMMT"
   },
-  "fetched_at": "2026-09-04T17:03:52.934185"
+  "fetched_at": "2026-10-21T13:48:44.723291"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ODFL",
-    "fetch_date": "2026-08-14T14:02:45.307538",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1407724000.0,
-      "2025-09-30 00:00:00": 1406511000.0,
-      "2025-12-31 00:00:00": 1307296000.0,
-      "2026-03-31 00:00:00": 1334696000.0,
-      "2026-06-30 00:00:00": 1554004000.0
-    },
-    "revenue_qoq_change": 16.431307204037473,
-    "revenue_yoy_change": 10.391241464946253,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.27,
-      "2025-09-30 00:00:00": 1.28,
-      "2025-12-31 00:00:00": 1.09,
-      "2026-03-31 00:00:00": 1.14,
-      "2026-06-30 00:00:00": 1.68
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-21T13:37:50.607839+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.391241464946255,
+    "revenue_qoq_change": 16.43130720403747,
+    "eps_yoy_change": 32.28346456692912,
     "eps_qoq_change": 47.36842105263159,
-    "eps_yoy_change": 32.283464566929126,
-    "gross_margin": 36.26,
-    "margin_change": 4.07,
-    "operating_margin": 29.94,
-    "inventory_breakdown_available": false
+    "latest_eps": 1.68,
+    "gross_margin": 36.2602670263397,
+    "operating_margin": 29.94207222117832,
+    "net_margin": 22.561138838767466,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.6256292302181286,
+    "free_cash_flow_ttm": 1114770000.0,
+    "operating_cash_flow_ttm": 1394102000.0,
+    "revenue_ttm": 5602507000.0,
+    "net_income_ttm": 1089276000.0,
+    "ebitda_ttm": 1820165000.0,
+    "total_debt": 19997000.0,
+    "cash": 283939000.0,
+    "total_assets": 5735521000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1407724000.0,
+      "2025-09-30": 1406511000.0,
+      "2025-12-31": 1307296000.0,
+      "2026-03-31": 1334696000.0,
+      "2026-06-30": 1554004000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.27,
+      "2025-09-30": 1.28,
+      "2025-12-31": 1.09,
+      "2026-03-31": 1.14,
+      "2026-06-30": 1.68
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.072113319428162,
+    "operating_margin_yoy_change": 4.518409628226863,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.89769936922881,
+    "net_debt": -263942000.0,
+    "net_debt_to_ebitda": -0.14500993041839613,
+    "debt_to_assets": 0.34865184871609745,
+    "ticker": "ODFL"
   },
-  "fetched_at": "2026-08-14T14:02:45.308856"
+  "fetched_at": "2026-10-21T13:37:50.613329"
 }

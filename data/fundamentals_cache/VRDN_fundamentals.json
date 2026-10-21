@@ -1,29 +1,53 @@
 {
   "data": {
-    "ticker": "VRDN",
-    "fetch_date": "2026-08-14T14:21:23.770176",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 75000.0,
-      "2025-09-30 00:00:00": 70570000.0,
-      "2025-12-31 00:00:00": 132000.0,
-      "2026-03-31 00:00:00": 141000.0,
-      "2026-06-30 00:00:00": 284000.0
-    },
-    "revenue_qoq_change": 101.41843971631207,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-21T13:56:29.825465+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 278.6666666666667,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -1.0,
-      "2025-09-30 00:00:00": -0.34,
-      "2025-12-31 00:00:00": -1.08,
-      "2026-03-31 00:00:00": -0.9,
-      "2026-06-30 00:00:00": -1.05
+    "revenue_qoq_change": 101.41843971631204,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.05,
+    "gross_margin": null,
+    "operating_margin": -44460.56338028169,
+    "net_margin": -44760.211267605635,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 32.221504068285476,
+    "free_cash_flow_ttm": -335039000.0,
+    "operating_cash_flow_ttm": -333343000.0,
+    "revenue_ttm": 71127000.0,
+    "net_income_ttm": -386974000.0,
+    "ebitda_ttm": -370895000.0,
+    "total_debt": 242881000.0,
+    "cash": 981530000.0,
+    "total_assets": 1097233000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 75000.0,
+      "2025-09-30": 70570000.0,
+      "2025-12-31": 132000.0,
+      "2026-03-31": 141000.0,
+      "2026-06-30": 284000.0
     },
-    "eps_qoq_change": -16.666666666666668,
-    "eps_yoy_change": -5.000000000000004,
-    "operating_margin": -44460.56,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -1.0,
+      "2025-09-30": -0.34,
+      "2025-12-31": -1.08,
+      "2026-03-31": -0.9,
+      "2026-06-30": -1.05
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": 97895.43661971831,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -471.043345002601,
+    "net_debt": -738649000.0,
+    "debt_to_assets": 22.135772438488452,
+    "ticker": "VRDN"
   },
-  "fetched_at": "2026-08-14T14:21:23.771183"
+  "fetched_at": "2026-10-21T13:56:29.830742"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "EFX",
-    "fetch_date": "2026-08-13T13:45:33.204152",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-21T13:15:30.474506+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 10.611581001951853,
+    "revenue_qoq_change": 3.105100369943603,
+    "eps_yoy_change": 0.6535947712418277,
+    "eps_qoq_change": 8.450704225352123,
+    "latest_eps": 1.54,
+    "gross_margin": 54.490912299276516,
+    "operating_margin": 18.481265807893653,
+    "net_margin": 10.817010764072702,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.64,
+    "free_cash_flow_ttm": 1105000000.0,
+    "operating_cash_flow_ttm": 1612400000.0,
+    "revenue_ttm": 6444500000.0,
+    "net_income_ttm": 691400000.0,
+    "ebitda_ttm": 1910100000.0,
+    "total_debt": 5467100000.0,
+    "cash": 170100000.0,
+    "total_assets": 11981800000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1537000000.0,
-      "2025-09-30 00:00:00": 1544900000.0,
-      "2025-12-31 00:00:00": 1550600000.0,
-      "2026-03-31 00:00:00": 1648900000.0,
-      "2026-06-30 00:00:00": 1700100000.0
+      "2025-06-30": 1537000000.0,
+      "2025-09-30": 1544900000.0,
+      "2025-12-31": 1550600000.0,
+      "2026-03-31": 1648900000.0,
+      "2026-06-30": 1700100000.0
     },
-    "revenue_qoq_change": 3.105100369943599,
-    "revenue_yoy_change": 10.611581001951855,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.53,
-      "2025-09-30 00:00:00": 1.29,
-      "2025-12-31 00:00:00": 1.44,
-      "2026-03-31 00:00:00": 1.42,
-      "2026-06-30 00:00:00": 1.54
+      "2025-06-30": 1.53,
+      "2025-09-30": 1.29,
+      "2025-12-31": 1.44,
+      "2026-03-31": 1.42,
+      "2026-06-30": 1.54
     },
-    "eps_qoq_change": 8.450704225352121,
-    "eps_yoy_change": 0.6535947712418306,
-    "gross_margin": 54.49,
-    "margin_change": 1.01,
-    "operating_margin": 18.48,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 1.0128360059900814,
+    "operating_margin_yoy_change": -1.739944341748508,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 17.14640391031112,
+    "net_debt": 5297000000.0,
+    "net_debt_to_ebitda": 2.773153238050364,
+    "debt_to_assets": 45.62836969403595,
+    "ticker": "EFX"
   },
-  "fetched_at": "2026-08-13T13:45:33.205527"
+  "fetched_at": "2026-10-21T13:15:30.479977"
 }

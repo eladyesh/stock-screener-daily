@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "Z",
-    "fetch_date": "2026-08-12T14:27:54.542351",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 655000000.0,
-      "2025-09-30 00:00:00": 676000000.0,
-      "2025-12-31 00:00:00": 654000000.0,
-      "2026-03-31 00:00:00": 708000000.0,
-      "2026-06-30 00:00:00": 772000000.0
-    },
-    "revenue_qoq_change": 9.03954802259887,
-    "revenue_yoy_change": 17.862595419847327,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.01,
-      "2025-09-30 00:00:00": 0.04,
-      "2025-12-31 00:00:00": 0.01,
-      "2026-03-31 00:00:00": 0.19,
-      "2026-06-30 00:00:00": -0.02
-    },
-    "eps_qoq_change": -110.52631578947367,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-21T13:59:21.908721+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 17.862595419847338,
+    "revenue_qoq_change": 9.039548022598876,
     "eps_yoy_change": -300.0,
-    "gross_margin": 72.8,
-    "margin_change": -0.51,
-    "operating_margin": 3.37,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -110.52631578947367,
+    "latest_eps": -0.02,
+    "gross_margin": 72.7979274611399,
+    "operating_margin": 3.3678756476683938,
+    "net_margin": -0.5181347150259068,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -9.444698309260325,
+    "free_cash_flow_ttm": 220000000.0,
+    "operating_cash_flow_ttm": 388000000.0,
+    "revenue_ttm": 2810000000.0,
+    "net_income_ttm": 55000000.0,
+    "ebitda_ttm": 348000000.0,
+    "total_debt": 558000000.0,
+    "cash": 682000000.0,
+    "total_assets": 5305000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 655000000.0,
+      "2025-09-30": 676000000.0,
+      "2025-12-31": 654000000.0,
+      "2026-03-31": 708000000.0,
+      "2026-06-30": 772000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.01,
+      "2025-09-30": 0.04,
+      "2025-12-31": 0.01,
+      "2026-03-31": 0.19,
+      "2026-06-30": -0.02
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.5071572846228065,
+    "operating_margin_yoy_change": 5.047264960645493,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.829181494661921,
+    "net_debt": -124000000.0,
+    "net_debt_to_ebitda": -0.3563218390804598,
+    "debt_to_assets": 10.518378887841658,
+    "ticker": "Z"
   },
-  "fetched_at": "2026-08-12T14:27:54.543747"
+  "fetched_at": "2026-10-21T13:59:21.913879"
 }
