@@ -1,40 +1,59 @@
 {
   "data": {
-    "ticker": "UPS",
-    "fetch_date": "2026-08-14T14:19:55.900259",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 21221000000.0,
-      "2025-09-30 00:00:00": 21415000000.0,
-      "2025-12-31 00:00:00": 24479000000.0,
-      "2026-03-31 00:00:00": 21202000000.0,
-      "2026-06-30 00:00:00": 22834000000.0
-    },
-    "revenue_qoq_change": 7.697387038958589,
-    "revenue_yoy_change": 7.600961311908015,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.51,
-      "2025-09-30 00:00:00": 1.55,
-      "2025-12-31 00:00:00": 2.1,
-      "2026-03-31 00:00:00": 1.02,
-      "2026-06-30 00:00:00": 0.71
-    },
-    "eps_qoq_change": -30.3921568627451,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-22T13:57:30.510892+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.600961311908017,
+    "revenue_qoq_change": 7.697387038958592,
     "eps_yoy_change": -52.980132450331126,
-    "gross_margin": 13.01,
-    "margin_change": -2.84,
-    "operating_margin": 4.07,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 826000000.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 739000000.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "eps_qoq_change": -30.3921568627451,
+    "latest_eps": 0.71,
+    "gross_margin": 13.006919505999825,
+    "operating_margin": 4.072873784707016,
+    "net_margin": 2.6451782429710082,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 0.47225501770955525,
+    "free_cash_flow_ttm": 5457000000.0,
+    "operating_cash_flow_ttm": 8867000000.0,
+    "revenue_ttm": 89930000000.0,
+    "net_income_ttm": 4570000000.0,
+    "ebitda_ttm": 10822000000.0,
+    "total_debt": 28673000000.0,
+    "cash": 4653000000.0,
+    "total_assets": 71267000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 21221000000.0,
+      "2025-09-30": 21415000000.0,
+      "2025-12-31": 24479000000.0,
+      "2026-03-31": 21202000000.0,
+      "2026-06-30": 22834000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.51,
+      "2025-09-30": 1.55,
+      "2025-12-31": 2.1,
+      "2026-03-31": 1.02,
+      "2026-06-30": 0.71
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": 739000000.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": -2.835925508621438,
+    "operating_margin_yoy_change": -4.512961001589578,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.0680529300567105,
+    "net_debt": 24020000000.0,
+    "net_debt_to_ebitda": 2.2195527628904084,
+    "debt_to_assets": 40.23320751539983,
+    "ticker": "UPS"
   },
-  "fetched_at": "2026-08-14T14:19:55.901962"
+  "fetched_at": "2026-10-22T13:57:30.514766"
 }

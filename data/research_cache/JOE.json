@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "ticker": "JOE",
+  "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+  "metrics": {
+    "revenue_yoy_change": 23.04504113664183,
+    "revenue_qoq_change": 60.36206130608619,
+    "eps_yoy_change": 39.2156862745098,
+    "eps_qoq_change": 195.83333333333334,
+    "latest_eps": 0.71,
+    "gross_margin": 46.22707440077064,
+    "operating_margin": 34.48614547721134,
+    "net_margin": 25.482122282454718,
+    "inventory_yoy_change": -15.071045888655954,
+    "inventory_qoq_change": -5.052083333333335,
+    "shares_yoy_change": -1.531336405585515,
+    "free_cash_flow_ttm": 191238000.0,
+    "operating_cash_flow_ttm": 216796000.0,
+    "revenue_ttm": 547840000.0,
+    "net_income_ttm": 123048000.0,
+    "ebitda_ttm": 240860000.0,
+    "total_debt": 551481000.0,
+    "cash": 117315000.0,
+    "total_assets": 1508347000.0,
+    "margin_change": 7.92086705857929,
+    "operating_margin_yoy_change": 5.853183484059699,
+    "inventory_to_sales_ratio": 0.022955505606658735,
+    "fcf_margin": 34.90763726635514,
+    "net_debt": 434166000.0,
+    "net_debt_to_ebitda": 1.8025658058623266,
+    "debt_to_assets": 36.561944963592595,
+    "market_cap": 3903720960.0,
+    "enterprise_value": 4338422784.0,
+    "forward_pe": 623.36365,
+    "trailing_pe": 32.192486,
+    "ev_ebitda": 20.517,
+    "fcf_yield": 4.898864492609635,
+    "eps_fy0": null,
+    "revenue_fy0": 0.0,
+    "analysts_fy0": null,
+    "eps_fy1": null,
+    "revenue_fy1": 0.0,
+    "analysts_fy1": null,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": null,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "days_to_earnings": 6.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/financials/",
+      "retrieved_at": "2026-10-22T14:03:12.623360+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/key-statistics/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/analysis/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": "0y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/analysis/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": "+1y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/JOE/calendar/",
+      "retrieved_at": "2026-10-22T14:02:14.734283+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "missing",
+    "revenue_estimates": "ok",
+    "revisions": "missing",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok",
+    "fmp_estimates": "not_configured"
+  },
+  "news": [],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-07-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/JOE/0001104659-26-088142_745308"
+    }
+  ],
+  "warnings": [],
+  "sector": "Real Estate",
+  "industry": "Real Estate - Diversified",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-22T14:03:12.623360+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 23.04504113664183,
+    "revenue_qoq_change": 60.36206130608619,
+    "eps_yoy_change": 39.2156862745098,
+    "eps_qoq_change": 195.83333333333334,
+    "latest_eps": 0.71,
+    "gross_margin": 46.22707440077064,
+    "operating_margin": 34.48614547721134,
+    "net_margin": 25.482122282454718,
+    "inventory_yoy_change": -15.071045888655954,
+    "inventory_qoq_change": -5.052083333333335,
+    "shares_yoy_change": -1.531336405585515,
+    "free_cash_flow_ttm": 191238000.0,
+    "operating_cash_flow_ttm": 216796000.0,
+    "revenue_ttm": 547840000.0,
+    "net_income_ttm": 123048000.0,
+    "ebitda_ttm": 240860000.0,
+    "total_debt": 551481000.0,
+    "cash": 117315000.0,
+    "total_assets": 1508347000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 129082000.0,
+      "2025-09-30": 161076000.0,
+      "2025-12-31": 128891000.0,
+      "2026-03-31": 99044000.0,
+      "2026-06-30": 158829000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.51,
+      "2025-09-30": 0.67,
+      "2025-12-31": 0.52,
+      "2026-03-31": 0.24,
+      "2026-06-30": 0.71
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 4293000.0,
+      "2025-09-30": 3898000.0,
+      "2025-12-31": 3312000.0,
+      "2026-03-31": 3840000.0,
+      "2026-06-30": 3646000.0
+    },
+    "margin_change": 7.92086705857929,
+    "operating_margin_yoy_change": 5.853183484059699,
+    "inventory_to_sales_ratio": 0.022955505606658735,
+    "fcf_margin": 34.90763726635514,
+    "net_debt": 434166000.0,
+    "net_debt_to_ebitda": 1.8025658058623266,
+    "debt_to_assets": 36.561944963592595
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-10-28"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/JOE/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

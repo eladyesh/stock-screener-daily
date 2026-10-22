@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "AXP",
-    "fetch_date": "2026-08-13T13:33:06.853481",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-22T13:05:34.750498+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.974238351254483,
+    "revenue_qoq_change": 3.8555108948593153,
+    "eps_yoy_change": 11.029411764705888,
+    "eps_qoq_change": 5.841121495327095,
+    "latest_eps": 4.53,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 15.837449712277843,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.8612303290414864,
+    "free_cash_flow_ttm": 15052000000.0,
+    "operating_cash_flow_ttm": 18475000000.0,
+    "revenue_ttm": 75952000000.0,
+    "net_income_ttm": 11445000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 59049000000.0,
+    "cash": 45166000000.0,
+    "total_assets": 308203000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 17856000000.0,
-      "2025-09-30 00:00:00": 18426000000.0,
-      "2025-12-31 00:00:00": 18981000000.0,
-      "2026-03-31 00:00:00": 18908000000.0,
-      "2026-06-30 00:00:00": 19637000000.0
+      "2025-06-30": 17856000000.0,
+      "2025-09-30": 18426000000.0,
+      "2025-12-31": 18981000000.0,
+      "2026-03-31": 18908000000.0,
+      "2026-06-30": 19637000000.0
     },
-    "revenue_qoq_change": 3.855510894859319,
-    "revenue_yoy_change": 9.97423835125448,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4.08,
-      "2025-09-30 00:00:00": 4.14,
-      "2025-12-31 00:00:00": 3.53,
-      "2026-03-31 00:00:00": 4.28,
-      "2026-06-30 00:00:00": 4.53
+      "2025-06-30": 4.08,
+      "2025-09-30": 4.14,
+      "2025-12-31": 3.53,
+      "2026-03-31": 4.28,
+      "2026-06-30": 4.53
     },
-    "eps_qoq_change": 5.841121495327103,
-    "eps_yoy_change": 11.029411764705886,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 19.817779650305457,
+    "net_debt": 13883000000.0,
+    "debt_to_assets": 19.15912564121699,
+    "ticker": "AXP"
   },
-  "fetched_at": "2026-08-13T13:33:06.854215"
+  "fetched_at": "2026-10-22T13:05:34.753477"
 }

@@ -1,41 +1,57 @@
 {
   "data": {
-    "ticker": "GPGI",
-    "fetch_date": "2026-08-06T14:53:18.543935",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 59800000.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-22T13:24:19.738402+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.07,
-      "2025-06-30 00:00:00": -0.26,
-      "2025-09-30 00:00:00": -1.58,
-      "2025-12-31 00:00:00": 0.31,
-      "2026-03-31 00:00:00": -0.87
-    },
-    "eps_qoq_change": -380.64516129032256,
-    "eps_yoy_change": -1342.8571428571427,
-    "gross_margin": 0,
-    "margin_change": 0,
-    "operating_margin": 0,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 44833000.0,
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": NaN
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": 0.17,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": 0,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 185.71717994591842,
+    "free_cash_flow_ttm": -69869000.0,
+    "operating_cash_flow_ttm": -69882000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -316072000.0,
+    "ebitda_ttm": -283829000.0,
+    "total_debt": null,
+    "cash": 7700000.0,
+    "total_assets": 3462400000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.26,
+      "2025-09-30": -1.58,
+      "2025-12-31": 0.31,
+      "2026-03-31": -0.87,
+      "2026-06-30": 0.17
+    },
+    "quarterly_inventory": {
+      "2025-03-31": 0.0,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "ticker": "GPGI"
   },
-  "fetched_at": "2026-08-06T14:53:18.546488"
+  "fetched_at": "2026-10-22T13:24:19.742175"
 }
