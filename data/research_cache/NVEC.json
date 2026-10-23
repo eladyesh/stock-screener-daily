@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "ticker": "NVEC",
+  "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+  "metrics": {
+    "revenue_yoy_change": 80.74857436404154,
+    "revenue_qoq_change": 44.14548193644621,
+    "eps_yoy_change": 78.3783783783784,
+    "latest_eps": 1.32,
+    "gross_margin": 81.27574472381282,
+    "operating_margin": 65.84917949943525,
+    "net_margin": 57.94959188628444,
+    "inventory_yoy_change": -10.466971378983114,
+    "inventory_qoq_change": -5.782921804744179,
+    "shares_yoy_change": 0.14193375859730128,
+    "free_cash_flow_ttm": 15586208.0,
+    "operating_cash_flow_ttm": 16773655.0,
+    "revenue_ttm": 31260631.0,
+    "net_income_ttm": 18017568.0,
+    "ebitda_ttm": 20010056.0,
+    "total_debt": 905825.0,
+    "cash": 21771157.0,
+    "total_assets": 62116940.0,
+    "margin_change": 3.559235644418777,
+    "operating_margin_yoy_change": 3.875868688845806,
+    "inventory_to_sales_ratio": 0.6047845321081811,
+    "fcf_margin": 49.85890399973052,
+    "net_debt": -20865332.0,
+    "net_debt_to_ebitda": -1.0427423091669508,
+    "debt_to_assets": 1.4582576025155134,
+    "market_cap": 343154528.0,
+    "enterprise_value": 308363936.0,
+    "forward_pe": 25.031801,
+    "trailing_pe": 19.19783,
+    "ev_ebitda": 15.652,
+    "fcf_yield": 4.542037690961199,
+    "eps_fy0": null,
+    "revenue_fy0": 0.0,
+    "analysts_fy0": null,
+    "eps_fy1": null,
+    "revenue_fy1": 0.0,
+    "analysts_fy1": null,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": null,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "days_to_earnings": 89.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-23T13:42:26.283138+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/analysis/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "0y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/analysis/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "+1y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/calendar/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "missing",
+    "revenue_estimates": "ok",
+    "revisions": "missing",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok",
+    "fmp_estimates": "not_configured"
+  },
+  "news": [
+    {
+      "title": "NVE Corp Stock Falls 33% After Y/Y Earnings Decline in Q2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-corp-stock-falls-33-120900301.html",
+      "published_at": "2026-10-23T12:09:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Top Midday Decliners",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-decliners-175103198.html",
+      "published_at": "2026-10-22T17:51:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Top Premarket Decliners",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-premarket-decliners-114852779.html",
+      "published_at": "2026-10-22T11:48:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "NVE Corp (NVEC) (Q2 2027) Earnings Call Highlights: Distributor Sales Surge 67% as New Products ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-corp-nvec-q2-2027-050235937.html",
+      "published_at": "2026-10-22T05:02:35+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "NVE: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-3-key-takeaways-long-030559372.html",
+      "published_at": "2026-10-22T03:05:59+00:00",
+      "categories": []
+    },
+    {
+      "title": "NVE (NVEC) Q2 2027 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-nvec-q2-2027-earnings-014327132.html",
+      "published_at": "2026-10-22T01:43:27+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "NVE Corporation Q2 2027 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-corporation-q2-2027-earnings-003749771.html",
+      "published_at": "2026-10-22T00:37:49+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "NVE Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nve-q2-earnings-call-highlights-000413217.html",
+      "published_at": "2026-10-22T00:04:13+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-21",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NVEC/0001376474-26-000663_724910"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NVEC/0001376474-26-000547_724910"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-23T13:42:26.283138+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 80.74857436404154,
+    "revenue_qoq_change": 44.14548193644621,
+    "eps_yoy_change": 78.3783783783784,
+    "eps_qoq_change": null,
+    "latest_eps": 1.32,
+    "gross_margin": 81.27574472381282,
+    "operating_margin": 65.84917949943525,
+    "net_margin": 57.94959188628444,
+    "inventory_yoy_change": -10.466971378983114,
+    "inventory_qoq_change": -5.782921804744179,
+    "shares_yoy_change": 0.14193375859730128,
+    "free_cash_flow_ttm": 15586208.0,
+    "operating_cash_flow_ttm": 16773655.0,
+    "revenue_ttm": 31260631.0,
+    "net_income_ttm": 18017568.0,
+    "ebitda_ttm": 20010056.0,
+    "total_debt": 905825.0,
+    "cash": 21771157.0,
+    "total_assets": 62116940.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 6104644.0,
+      "2025-09-30": 6346992.0,
+      "2025-12-31": 6224776.0,
+      "2026-03-31": 7654806.0,
+      "2026-06-30": 11034057.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.8,
+      "2025-06-30": 0.74,
+      "2025-09-30": 0.68,
+      "2025-12-31": 0.7,
+      "2026-03-31": null,
+      "2026-06-30": 1.32
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 7453369.0,
+      "2025-09-30": 7418843.0,
+      "2025-12-31": 7271798.0,
+      "2026-03-31": 7082821.0,
+      "2026-06-30": 6673227.0
+    },
+    "margin_change": 3.559235644418777,
+    "operating_margin_yoy_change": 3.875868688845806,
+    "inventory_to_sales_ratio": 0.6047845321081811,
+    "fcf_margin": 49.85890399973052,
+    "net_debt": -20865332.0,
+    "net_debt_to_ebitda": -1.0427423091669508,
+    "debt_to_assets": 1.4582576025155134
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-20"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/NVEC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

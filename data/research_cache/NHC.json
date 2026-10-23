@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "ticker": "NHC",
+  "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+  "metrics": {
+    "revenue_yoy_change": 8.832786535435178,
+    "revenue_qoq_change": 6.862901726201542,
+    "eps_yoy_change": 67.10526315789474,
+    "eps_qoq_change": 11.894273127753308,
+    "latest_eps": 2.54,
+    "gross_margin": 40.713926842717974,
+    "operating_margin": 11.993137675387537,
+    "net_margin": 9.881502358924084,
+    "inventory_yoy_change": 8.160162189559038,
+    "inventory_qoq_change": -6.710382513661206,
+    "shares_yoy_change": 1.696776553404633,
+    "free_cash_flow_ttm": 146534000.0,
+    "operating_cash_flow_ttm": 188806000.0,
+    "revenue_ttm": 1559020000.0,
+    "net_income_ttm": 140264000.0,
+    "ebitda_ttm": 233634000.0,
+    "total_debt": 31409000.0,
+    "cash": 210190000.0,
+    "total_assets": 1536930000.0,
+    "margin_change": 2.2804724229767857,
+    "operating_margin_yoy_change": 2.9002887249727713,
+    "inventory_to_sales_ratio": 0.020920286747135593,
+    "fcf_margin": 9.399109697117419,
+    "net_debt": -178781000.0,
+    "net_debt_to_ebitda": -0.7652182473441366,
+    "debt_to_assets": 2.043619423135732,
+    "market_cap": 3758891264.0,
+    "enterprise_value": 3633788160.0,
+    "forward_pe": 558.1628,
+    "trailing_pe": 26.99775,
+    "ev_ebitda": 19.085,
+    "fcf_yield": 3.8983303774546214,
+    "eps_fy0": null,
+    "revenue_fy0": 0.0,
+    "analysts_fy0": null,
+    "eps_fy1": null,
+    "revenue_fy1": 0.0,
+    "analysts_fy1": null,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": null,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "days_to_earnings": 14.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/financials/",
+      "retrieved_at": "2026-10-23T13:41:12.618500+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/key-statistics/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/analysis/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "0y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/analysis/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": "+1y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NHC/calendar/",
+      "retrieved_at": "2026-10-23T13:41:11.578506+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "missing",
+    "revenue_estimates": "ok",
+    "revisions": "missing",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok",
+    "fmp_estimates": "not_configured"
+  },
+  "news": [
+    {
+      "title": "National HealthCare (NHC) Stock Trades Below Fair Value On A 289% Run",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/national-healthcare-nhc-stock-trades-231521371.html",
+      "published_at": "2026-10-18T23:15:21+00:00",
+      "categories": []
+    },
+    {
+      "title": "Raymond James Initiates Coverage on National Healthcare With Outperform Rating, $20 Price Target",
+      "url": "https://finance.yahoo.com/healthcare/articles/raymond-james-initiates-coverage-national-113808349.html",
+      "published_at": "2026-10-13T11:38:08+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-11",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NHC/0001437749-26-026960_1047335"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/NHC/0001437749-26-026199_1047335"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-23T13:41:12.618500+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 8.832786535435178,
+    "revenue_qoq_change": 6.862901726201542,
+    "eps_yoy_change": 67.10526315789474,
+    "eps_qoq_change": 11.894273127753308,
+    "latest_eps": 2.54,
+    "gross_margin": 40.713926842717974,
+    "operating_margin": 11.993137675387537,
+    "net_margin": 9.881502358924084,
+    "inventory_yoy_change": 8.160162189559038,
+    "inventory_qoq_change": -6.710382513661206,
+    "shares_yoy_change": 1.696776553404633,
+    "free_cash_flow_ttm": 146534000.0,
+    "operating_cash_flow_ttm": 188806000.0,
+    "revenue_ttm": 1559020000.0,
+    "net_income_ttm": 140264000.0,
+    "ebitda_ttm": 233634000.0,
+    "total_debt": 31409000.0,
+    "cash": 210190000.0,
+    "total_assets": 1536930000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 374910000.0,
+      "2025-09-30": 382661000.0,
+      "2025-12-31": 386513000.0,
+      "2026-03-31": 381821000.0,
+      "2026-06-30": 408025000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.52,
+      "2025-09-30": 2.5,
+      "2025-12-31": 1.58,
+      "2026-03-31": 2.27,
+      "2026-06-30": 2.54
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 7892000.0,
+      "2025-09-30": 7844000.0,
+      "2025-12-31": 7795000.0,
+      "2026-03-31": 9150000.0,
+      "2026-06-30": 8536000.0
+    },
+    "margin_change": 2.2804724229767857,
+    "operating_margin_yoy_change": 2.9002887249727713,
+    "inventory_to_sales_ratio": 0.020920286747135593,
+    "fcf_margin": 9.399109697117419,
+    "net_debt": -178781000.0,
+    "net_debt_to_ebitda": -0.7652182473441366,
+    "debt_to_assets": 2.043619423135732
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-06"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/NHC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

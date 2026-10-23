@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "BBSI",
-    "fetch_date": "2026-08-13T13:33:41.997595",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-23T12:45:07.697927+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 3.774008067425738,
+    "revenue_qoq_change": 3.9943974853829722,
+    "eps_yoy_change": -25.71428571428571,
+    "eps_qoq_change": null,
+    "latest_eps": 0.52,
+    "gross_margin": 20.313341769297267,
+    "operating_margin": 4.824473483092574,
+    "net_margin": 4.031096132402872,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.7486172038909045,
+    "free_cash_flow_ttm": 15524000.0,
+    "operating_cash_flow_ttm": 36606000.0,
+    "revenue_ttm": 1266348000.0,
+    "net_income_ttm": 35082000.0,
+    "ebitda_ttm": 69349000.0,
+    "total_debt": 24497000.0,
+    "cash": 67889000.0,
+    "total_assets": 711276000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 307657000.0,
-      "2025-09-30 00:00:00": 318949000.0,
-      "2025-12-31 00:00:00": 321126000.0,
-      "2026-03-31 00:00:00": 307005000.0,
-      "2026-06-30 00:00:00": 319268000.0
+      "2025-06-30": 307657000.0,
+      "2025-09-30": 318949000.0,
+      "2025-12-31": 321126000.0,
+      "2026-03-31": 307005000.0,
+      "2026-06-30": 319268000.0
     },
-    "revenue_qoq_change": 3.9943974853829745,
-    "revenue_yoy_change": 3.7740080674257372,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.7,
-      "2025-09-30 00:00:00": 0.79,
-      "2025-12-31 00:00:00": 0.64,
-      "2026-03-31 00:00:00": -0.59,
-      "2026-06-30 00:00:00": 0.52
+      "2025-06-30": 0.7,
+      "2025-09-30": 0.79,
+      "2025-12-31": 0.64,
+      "2026-03-31": -0.59,
+      "2026-06-30": 0.52
     },
-    "eps_qoq_change": 188.13559322033896,
-    "eps_yoy_change": -25.714285714285705,
-    "gross_margin": 20.31,
-    "margin_change": 6.25,
-    "operating_margin": 4.82,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 6.246795621840384,
+    "operating_margin_yoy_change": -2.6621106024312393,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 1.2258873548187386,
+    "net_debt": -43392000.0,
+    "net_debt_to_ebitda": -0.6257047686340106,
+    "debt_to_assets": 3.4440920261614343,
+    "ticker": "BBSI"
   },
-  "fetched_at": "2026-08-13T13:33:41.998913"
+  "fetched_at": "2026-10-23T12:45:07.700491"
 }

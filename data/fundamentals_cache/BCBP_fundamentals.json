@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "BCBP",
-    "fetch_date": "2026-08-13T13:33:50.839302",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 23796000.0,
-      "2025-06-30 00:00:00": 25178000.0,
-      "2025-09-30 00:00:00": 26456000.0,
-      "2025-12-31 00:00:00": 26166000.0,
-      "2026-03-31 00:00:00": 24938000.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.22,
-      "2025-12-31 00:00:00": -0.73,
-      "2026-03-31 00:00:00": 0.26,
-      "2026-06-30 00:00:00": -0.85
-    },
-    "eps_qoq_change": -426.92307692307685,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-23T12:45:15.886358+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -9.14687425530225,
+    "revenue_qoq_change": -8.272515839281414,
     "eps_yoy_change": -572.2222222222223,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -426.9230769230769,
+    "latest_eps": -0.85,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": -64.59453551912569,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.7627365356623006,
+    "free_cash_flow_ttm": 34223000.0,
+    "operating_cash_flow_ttm": 35326000.0,
+    "revenue_ttm": 100435000.0,
+    "net_income_ttm": -17639000.0,
+    "ebitda_ttm": null,
+    "total_debt": 179288000.0,
+    "cash": 197622000.0,
+    "total_assets": 3118126000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 25178000.0,
+      "2025-09-30": 26456000.0,
+      "2025-12-31": 26166000.0,
+      "2026-03-31": 24938000.0,
+      "2026-06-30": 22875000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.22,
+      "2025-12-31": -0.73,
+      "2026-03-31": 0.26,
+      "2026-06-30": -0.85
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 34.074774729924826,
+    "net_debt": -18334000.0,
+    "debt_to_assets": 5.749863860536745,
+    "ticker": "BCBP"
   },
-  "fetched_at": "2026-08-13T13:33:50.839991"
+  "fetched_at": "2026-10-23T12:45:15.888330"
 }

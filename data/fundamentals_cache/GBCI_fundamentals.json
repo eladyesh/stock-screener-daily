@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "GBCI",
-    "fetch_date": "2026-08-14T13:45:07.194524",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 234655000.0,
-      "2025-09-30 00:00:00": 253637000.0,
-      "2025-12-31 00:00:00": 299302000.0,
-      "2026-03-31 00:00:00": 299591000.0,
-      "2026-06-30 00:00:00": 310144000.0
-    },
-    "revenue_qoq_change": 3.522468966023679,
-    "revenue_yoy_change": 32.17020732564829,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.45,
-      "2025-09-30 00:00:00": 0.57,
-      "2025-12-31 00:00:00": 0.49,
-      "2026-03-31 00:00:00": 0.63,
-      "2026-06-30 00:00:00": 0.75
-    },
-    "eps_qoq_change": 19.047619047619047,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-23T13:01:53.143674+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 32.17020732564828,
+    "revenue_qoq_change": 3.522468966023684,
     "eps_yoy_change": 66.66666666666666,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 19.047619047619047,
+    "latest_eps": 0.75,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 31.553729880313664,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 11.485455355188655,
+    "free_cash_flow_ttm": 407270000.0,
+    "operating_cash_flow_ttm": 444551000.0,
+    "revenue_ttm": 1162674000.0,
+    "net_income_ttm": 311685000.0,
+    "ebitda_ttm": null,
+    "total_debt": 324379000.0,
+    "cash": 1056679000.0,
+    "total_assets": 31599001000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 234655000.0,
+      "2025-09-30": 253637000.0,
+      "2025-12-31": 299302000.0,
+      "2026-03-31": 299591000.0,
+      "2026-06-30": 310144000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.45,
+      "2025-09-30": 0.57,
+      "2025-12-31": 0.49,
+      "2026-03-31": 0.63,
+      "2026-06-30": 0.75
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.028735483893165,
+    "net_debt": -732300000.0,
+    "debt_to_assets": 1.026548276004042,
+    "ticker": "GBCI"
   },
-  "fetched_at": "2026-08-14T13:45:07.195283"
+  "fetched_at": "2026-10-23T13:01:53.145545"
 }
