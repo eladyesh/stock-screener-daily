@@ -1,31 +1,52 @@
 {
   "data": {
-    "ticker": "MGY",
-    "fetch_date": "2026-08-14T13:57:44.309710",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 318981000.0,
-      "2025-09-30 00:00:00": 324935000.0,
-      "2025-12-31 00:00:00": 317628000.0,
-      "2026-03-31 00:00:00": 358511000.0,
-      "2026-06-30 00:00:00": 478811000.0
-    },
-    "revenue_qoq_change": 33.55545576007431,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-24T12:37:05.256418+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 50.10643267153843,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.41,
-      "2025-09-30 00:00:00": 0.4,
-      "2025-12-31 00:00:00": 0.37,
-      "2026-03-31 00:00:00": 0.54,
-      "2026-06-30 00:00:00": 0.97
+    "revenue_qoq_change": 33.5554557600743,
+    "eps_yoy_change": 136.58536585365852,
+    "eps_qoq_change": 79.6296296296296,
+    "latest_eps": 0.97,
+    "gross_margin": 61.96265332250095,
+    "operating_margin": 50.68826739569475,
+    "net_margin": 37.96404009097535,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.0421916045676327,
+    "free_cash_flow_ttm": 545514000.0,
+    "operating_cash_flow_ttm": 1037093000.0,
+    "revenue_ttm": 1479885000.0,
+    "net_income_ttm": 425810000.0,
+    "ebitda_ttm": 1015968000.0,
+    "total_debt": 413131000.0,
+    "cash": 295938000.0,
+    "total_assets": 3140584000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 318981000.0,
+      "2025-09-30": 324935000.0,
+      "2025-12-31": 317628000.0,
+      "2026-03-31": 358511000.0,
+      "2026-06-30": 478811000.0
     },
-    "eps_qoq_change": 79.62962962962962,
-    "eps_yoy_change": 136.58536585365854,
-    "gross_margin": 61.96,
-    "margin_change": 11.98,
-    "operating_margin": 50.69,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": 0.41,
+      "2025-09-30": 0.4,
+      "2025-12-31": 0.37,
+      "2026-03-31": 0.54,
+      "2026-06-30": 0.97
+    },
+    "quarterly_inventory": {},
+    "margin_change": 11.97980760786458,
+    "operating_margin_yoy_change": 16.888762096006054,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 36.861918324734695,
+    "net_debt": 117193000.0,
+    "net_debt_to_ebitda": 0.11535107404957637,
+    "debt_to_assets": 13.154591630091728,
+    "ticker": "MGY"
   },
-  "fetched_at": "2026-08-14T13:57:44.311051"
+  "fetched_at": "2026-10-24T12:37:05.259543"
 }

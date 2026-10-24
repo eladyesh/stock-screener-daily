@@ -1,26 +1,51 @@
 {
   "data": {
-    "ticker": "CCB",
-    "fetch_date": "2026-07-22T14:28:24.021151",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-24T12:12:09.986245+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 58.483771674411415,
+    "revenue_qoq_change": 21.85589619408781,
+    "eps_yoy_change": -488.7323943661972,
+    "eps_qoq_change": -453.8461538461538,
+    "latest_eps": -2.76,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": -31.57409282130886,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.3242298009900733,
+    "free_cash_flow_ttm": 261925000.0,
+    "operating_cash_flow_ttm": 269692000.0,
+    "revenue_ttm": 458179000.0,
+    "net_income_ttm": -3851000.0,
+    "ebitda_ttm": null,
+    "total_debt": 52634000.0,
+    "cash": 1008448000.0,
+    "total_assets": 5456152000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 105039000.0,
-      "2025-06-30 00:00:00": 84143000.0,
-      "2025-09-30 00:00:00": 109711000.0,
-      "2025-12-31 00:00:00": 105680000.0,
-      "2026-03-31 00:00:00": 109435000.0
+      "2025-06-30": 84143000.0,
+      "2025-09-30": 109711000.0,
+      "2025-12-31": 105680000.0,
+      "2026-03-31": 109435000.0,
+      "2026-06-30": 133353000.0
     },
-    "revenue_qoq_change": 3.5531794095382283,
-    "revenue_yoy_change": 4.185112196422281,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.63,
-      "2025-06-30 00:00:00": 0.71,
-      "2025-09-30 00:00:00": 0.88,
-      "2025-12-31 00:00:00": 0.82,
-      "2026-03-31 00:00:00": 0.78
+      "2025-06-30": 0.71,
+      "2025-09-30": 0.88,
+      "2025-12-31": 0.82,
+      "2026-03-31": 0.78,
+      "2026-06-30": -2.76
     },
-    "eps_qoq_change": -4.878048780487796,
-    "eps_yoy_change": 23.809523809523814,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 57.16652225440275,
+    "net_debt": -955814000.0,
+    "debt_to_assets": 0.9646725384483422,
+    "ticker": "CCB"
   },
-  "fetched_at": "2026-07-22T14:28:24.022013"
+  "fetched_at": "2026-10-24T12:12:09.988631"
 }
