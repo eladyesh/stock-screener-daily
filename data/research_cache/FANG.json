@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "FANG",
-  "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+  "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
   "metrics": {
     "revenue_yoy_change": 51.328403177211726,
     "revenue_qoq_change": 31.235154394299293,
@@ -29,12 +29,12 @@
     "net_debt": 12152000000.0,
     "net_debt_to_ebitda": 1.6470588235294117,
     "debt_to_assets": 17.96405480076334,
-    "market_cap": 57614069760.0,
+    "market_cap": 58288115712.0,
     "enterprise_value": 75852013568.0,
-    "forward_pe": 9.83346,
-    "trailing_pe": 39.951454,
+    "forward_pe": 11.052028,
+    "trailing_pe": 39.466667,
     "ev_ebitda": 6.439,
-    "fcf_yield": 6.390800051685153,
+    "fcf_yield": 6.316896600659836,
     "eps_fy0": 22.54648,
     "revenue_fy0": 19520576130.0,
     "analysts_fy0": 27.0,
@@ -46,271 +46,271 @@
     "eps_revision_30d": 12.062094278856605,
     "eps_revision_90d": 20.329489291598012,
     "eps_surprise_pct": 8.32479384019753,
-    "days_to_earnings": 8.0
+    "days_to_earnings": 7.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/financials/",
-      "retrieved_at": "2026-10-25T14:15:21.517397+00:00",
+      "retrieved_at": "2026-10-26T16:16:02.421355+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FANG/calendar/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     }
   },
@@ -330,6 +330,26 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "ConocoPhillips Vs EOG Resources: Which Stock Is The Better Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-vs-eog-resources-stock-150419302.html",
+      "published_at": "2026-10-26T15:04:19+00:00",
+      "categories": []
+    },
+    {
+      "title": "Diamondback Energy (FANG) Reports Next Week: Wall Street Expects Earnings Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-reports-next-130013002.html",
+      "published_at": "2026-10-26T13:00:13+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Zacks Value Trader Highlights: Ecopetrol, BP, Devon Energy, Diamondback Energy and SM Energy",
+      "url": "https://finance.yahoo.com/energy/articles/zacks-value-trader-highlights-ecopetrol-123100801.html",
+      "published_at": "2026-10-26T12:31:00+00:00",
+      "categories": []
+    },
     {
       "title": "Oil Stocks: Values or Traps?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/oil-stocks-values-traps-181500149.html",
@@ -358,24 +378,6 @@
       "title": "What Is Matador Getting For All That Spending?",
       "url": "https://finance.yahoo.com/energy/articles/matador-getting-spending-175039054.html",
       "published_at": "2026-10-22T17:50:39+00:00",
-      "categories": []
-    },
-    {
-      "title": "Oil Prices Are Rising Which Oil And Gas Stocks Deserve A Closer Look",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-rising-oil-gas-171356956.html",
-      "published_at": "2026-10-22T17:13:56+00:00",
-      "categories": []
-    },
-    {
-      "title": "U.S. shale E&P stocks Q2 highlights: Diamondback Energy (NASDAQ:FANG)",
-      "url": "https://finance.yahoo.com/energy/articles/u-shale-e-p-stocks-152553901.html",
-      "published_at": "2026-10-22T15:25:53+00:00",
-      "categories": []
-    },
-    {
-      "title": "Oil Prices Climb: 3 Energy Stocks Poised to Benefit From the Rally",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-3-energy-133800951.html",
-      "published_at": "2026-10-22T13:38:00+00:00",
       "categories": []
     }
   ],
@@ -413,7 +415,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-25T14:15:21.517397+00:00",
+    "fetch_date": "2026-10-26T16:16:02.421355+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 51.328403177211726,
     "revenue_qoq_change": 31.235154394299293,
@@ -477,11 +479,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 10,
+      "prior_observations": 11,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 10,
+      "prior_observations": 11,
       "required": 20
     }
   }

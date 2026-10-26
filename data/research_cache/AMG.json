@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "AMG",
-  "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+  "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
   "metrics": {
     "revenue_yoy_change": 29.90673154906731,
     "revenue_qoq_change": 17.581207561020374,
@@ -26,12 +26,12 @@
     "net_debt": 2593000000.0,
     "net_debt_to_ebitda": 1.5507445726930207,
     "debt_to_assets": 31.945552188015103,
-    "market_cap": 9915215872.0,
+    "market_cap": 10179762176.0,
     "enterprise_value": 13777315840.0,
-    "forward_pe": 8.885638,
-    "trailing_pe": 13.434478,
+    "forward_pe": 9.122715,
+    "trailing_pe": 13.792922,
     "ev_ebitda": 22.023,
-    "fcf_yield": 10.740058650737161,
+    "fcf_yield": 10.460951656715796,
     "eps_fy0": 37.19493,
     "revenue_fy0": 2483874750.0,
     "analysts_fy0": 7.0,
@@ -43,253 +43,253 @@
     "eps_revision_30d": 0.41189372876120345,
     "eps_revision_90d": 15.164759084062718,
     "eps_surprise_pct": 4.691941751373685,
-    "days_to_earnings": 8.0
+    "days_to_earnings": 7.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/financials/",
-      "retrieved_at": "2026-10-25T14:15:29.926040+00:00",
+      "retrieved_at": "2026-10-26T16:16:10.399759+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/AMG/calendar/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     }
   },
@@ -309,6 +309,14 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Affiliated Managers Group (AMG) Earnings Expected to Grow: What to Know Ahead of Q3 Release",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-group-amg-earnings-130008877.html",
+      "published_at": "2026-10-26T13:00:08+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
     {
       "title": "AMG or BLK: Which Is the Better Value Stock Right Now?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/amg-blk-better-value-stock-144003335.html",
@@ -358,7 +366,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-25T14:15:29.926040+00:00",
+    "fetch_date": "2026-10-26T16:16:10.399759+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 29.90673154906731,
     "revenue_qoq_change": 17.581207561020374,
@@ -413,11 +421,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 9,
+      "prior_observations": 10,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 9,
+      "prior_observations": 10,
       "required": 20
     }
   }

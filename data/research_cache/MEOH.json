@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "MEOH",
-  "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+  "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
   "metrics": {
     "revenue_yoy_change": 75.1726605608251,
     "revenue_qoq_change": 43.29189765414627,
@@ -28,12 +28,12 @@
     "net_debt": 2750157000.0,
     "net_debt_to_ebitda": 2.7289367875400883,
     "debt_to_assets": 43.65175079819857,
-    "market_cap": 4880137728.0,
+    "market_cap": 5082831872.0,
     "enterprise_value": 7941056512.0,
-    "forward_pe": 9.774768,
-    "trailing_pe": 62.45545,
+    "forward_pe": 9.939455,
+    "trailing_pe": 65.0495,
     "ev_ebitda": 7.105,
-    "fcf_yield": 19.18576999636679,
+    "fcf_yield": 18.42067618167324,
     "eps_fy0": 9.83882,
     "revenue_fy0": 4970084150.0,
     "analysts_fy0": 10.0,
@@ -45,265 +45,265 @@
     "eps_revision_30d": 11.77806338076961,
     "eps_revision_90d": 25.362049975037728,
     "eps_surprise_pct": -3.4493770364197873,
-    "days_to_earnings": 4.0
+    "days_to_earnings": 3.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/financials/",
-      "retrieved_at": "2026-10-25T14:15:37.147843+00:00",
+      "retrieved_at": "2026-10-26T16:16:16.809484+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEOH/calendar/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     }
   },
@@ -323,6 +323,12 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "MEOH's Shares Jump 59% YTD: What's Driving the Momentum?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meohs-shares-jump-59-ytd-133600228.html",
+      "published_at": "2026-10-26T13:36:00+00:00",
+      "categories": []
+    },
     {
       "title": "Methanex Price Target Raised to $77 at CIBC",
       "url": "https://finance.yahoo.com/markets/stocks/articles/methanex-price-target-raised-77-114217114.html",
@@ -383,7 +389,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-25T14:15:37.147843+00:00",
+    "fetch_date": "2026-10-26T16:16:16.809484+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 75.1726605608251,
     "revenue_qoq_change": 43.29189765414627,
@@ -447,11 +453,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 10,
+      "prior_observations": 11,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 10,
+      "prior_observations": 11,
       "required": 20
     }
   }

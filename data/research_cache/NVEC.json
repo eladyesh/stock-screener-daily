@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
   "ticker": "NVEC",
-  "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+  "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
   "metrics": {
-    "revenue_yoy_change": 80.74857436404154,
-    "revenue_qoq_change": 44.14548193644621,
-    "eps_yoy_change": 78.3783783783784,
-    "latest_eps": 1.32,
-    "gross_margin": 81.27574472381282,
-    "operating_margin": 65.84917949943525,
-    "net_margin": 57.94959188628444,
-    "inventory_yoy_change": -10.466971378983114,
-    "inventory_qoq_change": -5.782921804744179,
-    "shares_yoy_change": 0.14193375859730128,
-    "free_cash_flow_ttm": 15586208.0,
-    "operating_cash_flow_ttm": 16773655.0,
-    "revenue_ttm": 31260631.0,
-    "net_income_ttm": 18017568.0,
-    "ebitda_ttm": 20010056.0,
-    "total_debt": 905825.0,
-    "cash": 21771157.0,
-    "total_assets": 62116940.0,
-    "margin_change": 3.559235644418777,
-    "operating_margin_yoy_change": 3.875868688845806,
-    "inventory_to_sales_ratio": 0.6047845321081811,
-    "fcf_margin": 49.85890399973052,
-    "net_debt": -20865332.0,
-    "net_debt_to_ebitda": -1.0427423091669508,
-    "debt_to_assets": 1.4582576025155134,
-    "market_cap": 351873888.0,
+    "revenue_yoy_change": -8.071382475352106,
+    "revenue_qoq_change": -47.12097282078568,
+    "eps_yoy_change": -4.4117647058823595,
+    "eps_qoq_change": -50.75757575757576,
+    "latest_eps": 0.65,
+    "gross_margin": 78.21988166662153,
+    "operating_margin": 54.95118688152368,
+    "net_margin": 54.384251329373804,
+    "inventory_yoy_change": -7.528572851588855,
+    "inventory_qoq_change": 2.8034862293759844,
+    "shares_yoy_change": 0.2410914269029174,
+    "free_cash_flow_ttm": 18660030.0,
+    "operating_cash_flow_ttm": 19802155.0,
+    "revenue_ttm": 30748341.0,
+    "net_income_ttm": 17879889.0,
+    "ebitda_ttm": 19701305.0,
+    "total_debt": 871320.0,
+    "cash": 23648617.0,
+    "total_assets": 59861750.0,
+    "margin_change": -3.0558630571912886,
+    "operating_margin_yoy_change": -2.6841307618576167,
+    "inventory_to_sales_ratio": 1.175777271915515,
+    "fcf_margin": 60.68629849005512,
+    "net_debt": -22777297.0,
+    "net_debt_to_ebitda": -1.156131383174871,
+    "debt_to_assets": 1.455553838636525,
+    "market_cap": 357032864.0,
     "enterprise_value": 329096608.0,
-    "forward_pe": 25.667845,
-    "trailing_pe": 19.685637,
+    "forward_pe": 26.04417,
+    "trailing_pe": 19.974255,
     "ev_ebitda": 16.704,
-    "fcf_yield": 4.429486964375146,
+    "fcf_yield": 5.226418036407987,
     "eps_fy0": null,
     "revenue_fy0": 0.0,
     "analysts_fy0": null,
@@ -44,211 +45,217 @@
     "forward_revenue_growth": null,
     "eps_revision_30d": null,
     "eps_revision_90d": null,
-    "days_to_earnings": 87.0
+    "days_to_earnings": 86.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVEC/financials/",
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/financials/",
-      "retrieved_at": "2026-10-25T14:15:39.698779+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:16:19.379386+00:00",
+      "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/key-statistics/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
-      "period": "2026-06-30"
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
+      "period": "2026-09-30"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "0y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/analysis/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": "+1y"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/NVEC/calendar/",
-      "retrieved_at": "2026-10-25T14:14:49.226965+00:00",
+      "retrieved_at": "2026-10-26T16:15:33.719494+00:00",
       "period": null
     }
   },
@@ -345,59 +352,62 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-25T14:15:39.698779+00:00",
-    "report_period": "2026-06-30",
-    "revenue_yoy_change": 80.74857436404154,
-    "revenue_qoq_change": 44.14548193644621,
-    "eps_yoy_change": 78.3783783783784,
-    "eps_qoq_change": null,
-    "latest_eps": 1.32,
-    "gross_margin": 81.27574472381282,
-    "operating_margin": 65.84917949943525,
-    "net_margin": 57.94959188628444,
-    "inventory_yoy_change": -10.466971378983114,
-    "inventory_qoq_change": -5.782921804744179,
-    "shares_yoy_change": 0.14193375859730128,
-    "free_cash_flow_ttm": 15586208.0,
-    "operating_cash_flow_ttm": 16773655.0,
-    "revenue_ttm": 31260631.0,
-    "net_income_ttm": 18017568.0,
-    "ebitda_ttm": 20010056.0,
-    "total_debt": 905825.0,
-    "cash": 21771157.0,
-    "total_assets": 62116940.0,
+    "fetch_date": "2026-10-26T16:16:19.379386+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": -8.071382475352106,
+    "revenue_qoq_change": -47.12097282078568,
+    "eps_yoy_change": -4.4117647058823595,
+    "eps_qoq_change": -50.75757575757576,
+    "latest_eps": 0.65,
+    "gross_margin": 78.21988166662153,
+    "operating_margin": 54.95118688152368,
+    "net_margin": 54.384251329373804,
+    "inventory_yoy_change": -7.528572851588855,
+    "inventory_qoq_change": 2.8034862293759844,
+    "shares_yoy_change": 0.2410914269029174,
+    "free_cash_flow_ttm": 18660030.0,
+    "operating_cash_flow_ttm": 19802155.0,
+    "revenue_ttm": 30748341.0,
+    "net_income_ttm": 17879889.0,
+    "ebitda_ttm": 19701305.0,
+    "total_debt": 871320.0,
+    "cash": 23648617.0,
+    "total_assets": 59861750.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
       "2025-03-31": null,
-      "2025-06-30": 6104644.0,
+      "2025-06-30": null,
       "2025-09-30": 6346992.0,
       "2025-12-31": 6224776.0,
       "2026-03-31": 7654806.0,
-      "2026-06-30": 11034057.0
+      "2026-06-30": 11034057.0,
+      "2026-09-30": 5834702.0
     },
     "quarterly_eps": {
-      "2025-03-31": 0.8,
+      "2025-03-31": null,
       "2025-06-30": 0.74,
       "2025-09-30": 0.68,
       "2025-12-31": 0.7,
       "2026-03-31": null,
-      "2026-06-30": 1.32
+      "2026-06-30": 1.32,
+      "2026-09-30": 0.65
     },
     "quarterly_inventory": {
       "2025-03-31": null,
-      "2025-06-30": 7453369.0,
+      "2025-06-30": null,
       "2025-09-30": 7418843.0,
       "2025-12-31": 7271798.0,
       "2026-03-31": 7082821.0,
-      "2026-06-30": 6673227.0
+      "2026-06-30": 6673227.0,
+      "2026-09-30": 6860310.0
     },
-    "margin_change": 3.559235644418777,
-    "operating_margin_yoy_change": 3.875868688845806,
-    "inventory_to_sales_ratio": 0.6047845321081811,
-    "fcf_margin": 49.85890399973052,
-    "net_debt": -20865332.0,
-    "net_debt_to_ebitda": -1.0427423091669508,
-    "debt_to_assets": 1.4582576025155134
+    "margin_change": -3.0558630571912886,
+    "operating_margin_yoy_change": -2.6841307618576167,
+    "inventory_to_sales_ratio": 1.175777271915515,
+    "fcf_margin": 60.68629849005512,
+    "net_debt": -22777297.0,
+    "net_debt_to_ebitda": -1.156131383174871,
+    "debt_to_assets": 1.455553838636525
   },
   "currency": "USD",
   "financial_currency": "USD",
@@ -409,11 +419,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 2,
+      "prior_observations": 3,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 2,
+      "prior_observations": 3,
       "required": 20
     }
   }
