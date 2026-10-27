@@ -1,27 +1,50 @@
 {
   "data": {
-    "ticker": "GLSI",
-    "fetch_date": "2026-07-29T14:49:35.135521",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-27T14:56:57.585344+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.21,
-      "2025-06-30 00:00:00": -0.3,
-      "2025-09-30 00:00:00": -0.3,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.39
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -85.71428571428574,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.27,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 9.350449402261596,
+    "free_cash_flow_ttm": -12488140.0,
+    "operating_cash_flow_ttm": -12488140.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -21680390.0,
+    "ebitda_ttm": -21867032.0,
+    "total_debt": null,
+    "cash": 8876353.0,
+    "total_assets": 8876353.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.21,
+      "2025-06-30": -0.28,
+      "2025-09-30": -0.3,
+      "2025-12-31": null,
+      "2026-03-31": -0.39,
+      "2026-06-30": -0.27
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "ticker": "GLSI"
   },
-  "fetched_at": "2026-07-29T14:49:35.136268"
+  "fetched_at": "2026-10-27T14:56:57.587570"
 }
