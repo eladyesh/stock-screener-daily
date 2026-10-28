@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "ticker": "HPE",
+  "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+  "metrics": {
+    "revenue_yoy_change": 33.679947460595436,
+    "revenue_qoq_change": 14.375351189361307,
+    "eps_yoy_change": 404.7619047619048,
+    "eps_qoq_change": 140.9090909090909,
+    "latest_eps": 1.06,
+    "gross_margin": 40.11299435028249,
+    "operating_margin": 11.987226725620241,
+    "net_margin": 12.609514451813642,
+    "inventory_yoy_change": 65.05654055563312,
+    "inventory_qoq_change": 30.87226034978969,
+    "shares_yoy_change": 1.9704433497536922,
+    "free_cash_flow_ttm": 4156000000.0,
+    "operating_cash_flow_ttm": 6694000000.0,
+    "revenue_ttm": 41871000000.0,
+    "net_income_ttm": 2791000000.0,
+    "ebitda_ttm": 6774000000.0,
+    "total_debt": 20244000000.0,
+    "cash": 6216000000.0,
+    "total_assets": 83596000000.0,
+    "margin_change": 3.589300774706544,
+    "operating_margin_yoy_change": 7.302463152940732,
+    "inventory_to_sales_ratio": 0.9680668140506018,
+    "fcf_margin": 9.925724248286404,
+    "net_debt": 14028000000.0,
+    "net_debt_to_ebitda": 2.070859167404783,
+    "debt_to_assets": 24.21646968754486,
+    "market_cap": 80484196352.0,
+    "enterprise_value": 94929960960.0,
+    "forward_pe": 12.86278,
+    "trailing_pe": 31.252577,
+    "ev_ebitda": 13.778,
+    "fcf_yield": 5.1637466588143734,
+    "eps_fy0": 3.82725,
+    "revenue_fy0": 46568446330.0,
+    "analysts_fy0": 21.0,
+    "eps_fy1": 4.7136,
+    "revenue_fy1": 54709759670.0,
+    "analysts_fy1": 21.0,
+    "forward_eps_growth": 23.158926121889078,
+    "forward_revenue_growth": 17.482467167377358,
+    "eps_revision_30d": 2.5266235122154868,
+    "eps_revision_90d": 16.480958417661927,
+    "eps_surprise_pct": 18.413893896883927
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/financials/",
+      "retrieved_at": "2026-10-28T16:10:57.163457+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPE/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-07-31 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Evercore ISI Adjusts Hewlett Packard Enterprise Price Target to $65 From $67",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-hewlett-packard-124926536.html",
+      "published_at": "2026-10-28T12:49:26+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is ANET Stock a Smart Investment Option Before Q3 Earnings Release?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anet-stock-smart-investment-option-121000945.html",
+      "published_at": "2026-10-28T12:10:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "iShares Russell Mid-Cap Value (IWS) Sells $4.6 Million of Phillips 66 on Oct. 26",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-mid-cap-value-110400914.html",
+      "published_at": "2026-10-28T11:04:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Just Happened To Western Digital Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-western-digital-stock-102336090.html",
+      "published_at": "2026-10-28T10:23:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Did Western Digital's Latest Quarter Change For Its Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/did-western-digitals-latest-quarter-082249809.html",
+      "published_at": "2026-10-28T08:22:49+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Does Hewlett Packard Enterprise (HPE) New Networking Integration Mean For Investors?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-hewlett-packard-enterprise-hpe-051235364.html",
+      "published_at": "2026-10-28T05:12:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Brands turning strength into action pull ahead in Interbrand's Best Global Brands 2026",
+      "url": "https://finance.yahoo.com/media-advertising/articles/brands-turning-strength-action-pull-040100021.html",
+      "published_at": "2026-10-28T04:01:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can SMCI's DCBBS and DLC Improve its Financial Outlook in 2026?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/smcis-dcbbs-dlc-improve-financial-143300363.html",
+      "published_at": "2026-10-27T14:33:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HPE/0001645590-26-000084_1645590"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/HPE/0001645590-26-000080_1645590"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HPE/0001645590-26-000078_1645590"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HPE/0001645590-26-000074_1645590"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-28T16:10:57.163457+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 33.679947460595436,
+    "revenue_qoq_change": 14.375351189361307,
+    "eps_yoy_change": 404.7619047619048,
+    "eps_qoq_change": 140.9090909090909,
+    "latest_eps": 1.06,
+    "gross_margin": 40.11299435028249,
+    "operating_margin": 11.987226725620241,
+    "net_margin": 12.609514451813642,
+    "inventory_yoy_change": 65.05654055563312,
+    "inventory_qoq_change": 30.87226034978969,
+    "shares_yoy_change": 1.9704433497536922,
+    "free_cash_flow_ttm": 4156000000.0,
+    "operating_cash_flow_ttm": 6694000000.0,
+    "revenue_ttm": 41871000000.0,
+    "net_income_ttm": 2791000000.0,
+    "ebitda_ttm": 6774000000.0,
+    "total_debt": 20244000000.0,
+    "cash": 6216000000.0,
+    "total_assets": 83596000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 9136000000.0,
+      "2025-10-31": 9679000000.0,
+      "2026-01-31": 9301000000.0,
+      "2026-04-30": 10678000000.0,
+      "2026-07-31": 12213000000.0
+    },
+    "quarterly_eps": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 0.21,
+      "2025-10-31": 0.11,
+      "2026-01-31": 0.31,
+      "2026-04-30": 0.44,
+      "2026-07-31": 1.06
+    },
+    "quarterly_inventory": {
+      "2025-01-31": null,
+      "2025-04-30": null,
+      "2025-07-31": 7163000000.0,
+      "2025-10-31": 6352000000.0,
+      "2026-01-31": 6913000000.0,
+      "2026-04-30": 9034000000.0,
+      "2026-07-31": 11823000000.0
+    },
+    "margin_change": 3.589300774706544,
+    "operating_margin_yoy_change": 7.302463152940732,
+    "inventory_to_sales_ratio": 0.9680668140506018,
+    "fcf_margin": 9.925724248286404,
+    "net_debt": 14028000000.0,
+    "net_debt_to_ebitda": 2.070859167404783,
+    "debt_to_assets": 24.21646968754486
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/HPE/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

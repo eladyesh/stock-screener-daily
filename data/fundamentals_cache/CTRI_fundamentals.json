@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "CTRI",
-    "fetch_date": "2026-08-05T14:40:08.344252",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-28T15:22:09.087116+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 32.86145193991592,
+    "revenue_qoq_change": 33.0227580084461,
+    "eps_yoy_change": -33.333333333333336,
+    "eps_qoq_change": null,
+    "latest_eps": 0.06,
+    "gross_margin": 7.187422685985036,
+    "operating_margin": 2.510327593125056,
+    "net_margin": 0.6340009106161628,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 14.245184242819997,
+    "free_cash_flow_ttm": -15218000.0,
+    "operating_cash_flow_ttm": 74092000.0,
+    "revenue_ttm": 3393808000.0,
+    "net_income_ttm": 28851000.0,
+    "ebitda_ttm": 262682000.0,
+    "total_debt": 929220000.0,
+    "cash": 40458000.0,
+    "total_assets": 2403215000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 550081000.0,
-      "2025-06-30 00:00:00": 724052000.0,
-      "2025-09-30 00:00:00": 850044000.0,
-      "2025-12-31 00:00:00": 858604000.0,
-      "2026-03-31 00:00:00": 723174000.0
+      "2025-06-30": 724052000.0,
+      "2025-09-30": 850044000.0,
+      "2025-12-31": 858604000.0,
+      "2026-03-31": 723174000.0,
+      "2026-06-30": 961986000.0
     },
-    "revenue_qoq_change": -15.773278484609902,
-    "revenue_yoy_change": 31.466820341004325,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.2,
-      "2025-06-30 00:00:00": 0.09,
-      "2025-09-30 00:00:00": 0.02,
-      "2025-12-31 00:00:00": 0.32,
-      "2026-03-31 00:00:00": -0.09
+      "2025-06-30": 0.09,
+      "2025-09-30": 0.02,
+      "2025-12-31": 0.32,
+      "2026-03-31": -0.09,
+      "2026-06-30": 0.06
     },
-    "eps_qoq_change": -128.125,
-    "eps_yoy_change": 55.00000000000001,
-    "gross_margin": 4.94,
-    "margin_change": -4.43,
-    "operating_margin": -0.66,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 2.242831204543502,
+    "operating_margin_yoy_change": -1.9312042305561157,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -0.44840485967385313,
+    "net_debt": 888762000.0,
+    "net_debt_to_ebitda": 3.3834141661781163,
+    "debt_to_assets": 38.665704067259895,
+    "ticker": "CTRI"
   },
-  "fetched_at": "2026-08-05T14:40:08.345450"
+  "fetched_at": "2026-10-28T15:22:09.089511"
 }

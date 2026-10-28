@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "ticker": "DVN",
+  "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+  "metrics": {
+    "revenue_yoy_change": 73.13258636788049,
+    "revenue_qoq_change": 94.8253217756764,
+    "eps_yoy_change": 43.97163120567376,
+    "eps_qoq_change": 968.4210526315787,
+    "latest_eps": 2.03,
+    "gross_margin": 36.86126466226237,
+    "operating_margin": 34.28609950114602,
+    "net_margin": 25.7651341512741,
+    "inventory_yoy_change": 8.868501529051986,
+    "inventory_qoq_change": 11.598746081504707,
+    "shares_yoy_change": 47.79874213836477,
+    "free_cash_flow_ttm": 1477000000.0,
+    "operating_cash_flow_ttm": 8553000000.0,
+    "revenue_ttm": 19676000000.0,
+    "net_income_ttm": 3280000000.0,
+    "ebitda_ttm": 8804000000.0,
+    "total_debt": 11744000000.0,
+    "cash": 1009000000.0,
+    "total_assets": 70893000000.0,
+    "margin_change": 24.72572486714811,
+    "operating_margin_yoy_change": 11.386939837280472,
+    "inventory_to_sales_ratio": 0.04799784279358231,
+    "fcf_margin": 7.50660703394999,
+    "net_debt": 10735000000.0,
+    "net_debt_to_ebitda": 1.219332121762835,
+    "debt_to_assets": 16.56581044672958,
+    "market_cap": 56974499840.0,
+    "enterprise_value": 67296002048.0,
+    "forward_pe": 9.571513,
+    "trailing_pe": 11.284313,
+    "ev_ebitda": 7.541,
+    "fcf_yield": 2.5923878299025365,
+    "eps_fy0": 5.47835,
+    "revenue_fy0": 25488940030.0,
+    "analysts_fy0": 22.0,
+    "eps_fy1": 4.9568,
+    "revenue_fy1": 26472809480.0,
+    "analysts_fy1": 14.0,
+    "forward_eps_growth": -9.520202250677656,
+    "forward_revenue_growth": 3.8599857382927816,
+    "eps_revision_30d": 3.5352111205104952,
+    "eps_revision_90d": -1.8636171952491898,
+    "eps_surprise_pct": 11.256776388052314,
+    "days_to_earnings": 8.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/financials/",
+      "retrieved_at": "2026-10-28T16:11:09.390231+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DVN/calendar/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "NEQ Operating Strengthens Leadership Team to Support Next Phase of Growth",
+      "url": "https://finance.yahoo.com/energy/articles/neq-operating-strengthens-leadership-team-130000172.html",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Think U.S. Diesel Prices Are Bad? Check Out EU Natural Gas. These Stocks Benefit.",
+      "url": "https://finance.yahoo.com/m/0d8fc55c-20c4-37c7-836f-bb1402043c08/think-u.s.-diesel-prices-are.html",
+      "published_at": "2026-10-27T11:58:25+00:00",
+      "categories": []
+    },
+    {
+      "title": "Goldman Sachs Adjusts Price Target on Devon Energy to $59 From $55",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-103107366.html",
+      "published_at": "2026-10-27T10:31:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "Was The Run In Devon Energy Stock Hiding In Plain Sight?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/run-devon-energy-stock-hiding-192030859.html",
+      "published_at": "2026-10-26T19:20:30+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Expand Energy Stock A Real Bargain?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expand-energy-stock-real-bargain-161350329.html",
+      "published_at": "2026-10-26T16:13:50+00:00",
+      "categories": []
+    },
+    {
+      "title": "ConocoPhillips Vs EOG Resources: Which Stock Is The Better Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-vs-eog-resources-stock-150419302.html",
+      "published_at": "2026-10-26T15:04:19+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Devon Energy (DVN) Stock Outpacing Its Oils-Energy Peers This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-stock-outpacing-125003361.html",
+      "published_at": "2026-10-26T12:50:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Zacks Value Trader Highlights: Ecopetrol, BP, Devon Energy, Diamondback Energy and SM Energy",
+      "url": "https://finance.yahoo.com/energy/articles/zacks-value-trader-highlights-ecopetrol-123100801.html",
+      "published_at": "2026-10-26T12:31:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "GASPAR CLAY M.",
+      "date": "2026-09-14",
+      "value": 199876.0,
+      "description": "Purchase at price 51.08 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-10-08",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-417944_1090012"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "SD",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-399390_1090012"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-371317_1090012"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "N-PX",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-368763_1090012"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-359267_1090012"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-334340_1090012"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DVN/0001193125-26-332824_1090012"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-28T16:11:09.390231+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 73.13258636788049,
+    "revenue_qoq_change": 94.8253217756764,
+    "eps_yoy_change": 43.97163120567376,
+    "eps_qoq_change": 968.4210526315787,
+    "latest_eps": 2.03,
+    "gross_margin": 36.86126466226237,
+    "operating_margin": 34.28609950114602,
+    "net_margin": 25.7651341512741,
+    "inventory_yoy_change": 8.868501529051986,
+    "inventory_qoq_change": 11.598746081504707,
+    "shares_yoy_change": 47.79874213836477,
+    "free_cash_flow_ttm": 1477000000.0,
+    "operating_cash_flow_ttm": 8553000000.0,
+    "revenue_ttm": 19676000000.0,
+    "net_income_ttm": 3280000000.0,
+    "ebitda_ttm": 8804000000.0,
+    "total_debt": 11744000000.0,
+    "cash": 1009000000.0,
+    "total_assets": 70893000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 4284000000.0,
+      "2025-09-30": 4331000000.0,
+      "2025-12-31": 4121000000.0,
+      "2026-03-31": 3807000000.0,
+      "2026-06-30": 7417000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 1.41,
+      "2025-09-30": 1.09,
+      "2025-12-31": 0.9,
+      "2026-03-31": 0.19,
+      "2026-06-30": 2.03
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 327000000.0,
+      "2025-09-30": 361000000.0,
+      "2025-12-31": 336000000.0,
+      "2026-03-31": 319000000.0,
+      "2026-06-30": 356000000.0
+    },
+    "margin_change": 24.72572486714811,
+    "operating_margin_yoy_change": 11.386939837280472,
+    "inventory_to_sales_ratio": 0.04799784279358231,
+    "fcf_margin": 7.50660703394999,
+    "net_debt": 10735000000.0,
+    "net_debt_to_ebitda": 1.219332121762835,
+    "debt_to_assets": 16.56581044672958
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/DVN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

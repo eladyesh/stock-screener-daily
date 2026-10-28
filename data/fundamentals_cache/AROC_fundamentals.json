@@ -1,42 +1,59 @@
 {
   "data": {
-    "ticker": "AROC",
-    "fetch_date": "2026-08-13T13:31:40.964160",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 383152000.0,
-      "2025-09-30 00:00:00": 382430000.0,
-      "2025-12-31 00:00:00": 377073000.0,
-      "2026-03-31 00:00:00": 373767000.0,
-      "2026-06-30 00:00:00": 371238000.0
-    },
-    "revenue_qoq_change": -0.6766247421521965,
-    "revenue_yoy_change": -3.1094709149371527,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.36,
-      "2025-09-30 00:00:00": 0.4,
-      "2025-12-31 00:00:00": 0.67,
-      "2026-03-31 00:00:00": 0.41,
-      "2026-06-30 00:00:00": 0.38
-    },
-    "eps_qoq_change": -7.317073170731701,
-    "eps_yoy_change": 5.555555555555561,
-    "gross_margin": 46.61,
-    "margin_change": -0.93,
-    "operating_margin": 35.93,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": 112043000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-28T15:11:48.949493+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -3.1094709149371513,
+    "revenue_qoq_change": -0.6766247421521987,
+    "eps_yoy_change": 5.555555555555558,
+    "eps_qoq_change": -7.317073170731703,
+    "latest_eps": 0.38,
+    "gross_margin": 46.60999143406656,
+    "operating_margin": 35.93193584708462,
+    "net_margin": 17.97229809448386,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": 0.302,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": -0.2966952711338289,
+    "free_cash_flow_ttm": 291332000.0,
+    "operating_cash_flow_ttm": 725643000.0,
+    "revenue_ttm": 1504508000.0,
+    "net_income_ttm": 328534000.0,
+    "ebitda_ttm": 880684000.0,
+    "total_debt": 2357209000.0,
+    "cash": 2000000.0,
+    "total_assets": 4442871000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 383152000.0,
+      "2025-09-30": 382430000.0,
+      "2025-12-31": 377073000.0,
+      "2026-03-31": 373767000.0,
+      "2026-06-30": 371238000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.36,
+      "2025-09-30": 0.4,
+      "2025-12-31": 0.67,
+      "2026-03-31": 0.41,
+      "2026-06-30": 0.38
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": null,
+      "2025-12-31": null,
+      "2026-03-31": null,
+      "2026-06-30": 112043000.0
+    },
+    "margin_change": -0.9300535672310417,
+    "operating_margin_yoy_change": -0.014894653604400787,
+    "inventory_to_sales_ratio": 0.30180908204440277,
+    "fcf_margin": 19.36393824426324,
+    "net_debt": 2355209000.0,
+    "net_debt_to_ebitda": 2.6742952069073582,
+    "debt_to_assets": 53.05598564531808,
+    "ticker": "AROC"
   },
-  "fetched_at": "2026-08-13T13:31:40.966698"
+  "fetched_at": "2026-10-28T15:11:48.951962"
 }

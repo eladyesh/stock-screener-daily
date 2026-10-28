@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "ticker": "SXC",
+  "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.490900714121175,
+    "revenue_qoq_change": 4.438584926389799,
+    "eps_yoy_change": 650.0,
+    "latest_eps": 0.15,
+    "gross_margin": 21.12350094677046,
+    "operating_margin": 6.101409636019356,
+    "net_margin": 2.7561540079949505,
+    "inventory_yoy_change": -13.562470970738506,
+    "inventory_qoq_change": 0.8672086720867167,
+    "shares_yoy_change": 0.2336448598130758,
+    "free_cash_flow_ttm": 29100000.0,
+    "operating_cash_flow_ttm": 111300000.0,
+    "revenue_ttm": 1897600000.0,
+    "net_income_ttm": -54700000.0,
+    "ebitda_ttm": 130000000.0,
+    "total_debt": 660700000.0,
+    "cash": 42700000.0,
+    "total_assets": 1743200000.0,
+    "margin_change": 3.632839553670042,
+    "operating_margin_yoy_change": 3.8438652913983007,
+    "inventory_to_sales_ratio": 0.3915421838838628,
+    "fcf_margin": 1.5335160202360876,
+    "net_debt": 618000000.0,
+    "net_debt_to_ebitda": 4.753846153846154,
+    "debt_to_assets": 37.901560348783846,
+    "market_cap": 874864512.0,
+    "enterprise_value": 1472924672.0,
+    "forward_pe": 35.543797,
+    "trailing_pe": null,
+    "ev_ebitda": 5.535,
+    "fcf_yield": 3.32622933046803,
+    "eps_fy0": 0.32,
+    "revenue_fy0": 1849800000.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 0.29,
+    "revenue_fy1": 1835550000.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": -9.37500000000001,
+    "forward_revenue_growth": -0.7703535517353255,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": 144.72727272727272
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/financials/",
+      "retrieved_at": "2026-10-28T16:09:58.561141+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/key-statistics/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SXC/analysis/",
+      "retrieved_at": "2026-10-28T16:09:49.610508+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "SunCoke Energy Inc (SXC) (Q3 2026) Earnings Call Highlights: EBITDA Surges $17. ...",
+      "url": "https://finance.yahoo.com/energy/articles/suncoke-energy-inc-sxc-q3-110223155.html",
+      "published_at": "2026-10-28T11:02:23+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SunCoke Energy (SXC) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suncoke-energy-sxc-q3-2026-182814793.html",
+      "published_at": "2026-10-27T18:28:14+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "ARLP Q3 Earnings Beat Estimates on Higher Volumes, Lower Costs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arlp-q3-earnings-beat-estimates-151200056.html",
+      "published_at": "2026-10-27T15:12:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SunCoke Energy Q3 Earnings, Revenue Fall",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suncoke-energy-q3-earnings-revenue-122237379.html",
+      "published_at": "2026-10-27T12:22:37+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SunCoke Energy (SXC) Tops Q3 Earnings and Revenue Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suncoke-energy-sxc-tops-q3-114003350.html",
+      "published_at": "2026-10-27T11:40:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SunCoke: Q3 Earnings Snapshot",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suncoke-q3-earnings-snapshot-111446545.html",
+      "published_at": "2026-10-27T11:14:46+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SunCoke Energy, Inc. Reports Third Quarter 2026 Results",
+      "url": "https://finance.yahoo.com/energy/articles/suncoke-energy-inc-reports-third-110000739.html",
+      "published_at": "2026-10-27T11:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Suncoke Energy, Inc. Declares Cash Dividend",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suncoke-energy-inc-declares-cash-105500779.html",
+      "published_at": "2026-10-27T10:55:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SXC/0001514705-26-000047_1514705"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SXC/0001514705-26-000042_1514705"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SXC/0001514705-26-000039_1514705"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/SXC/0001514705-26-000034_1514705"
+    }
+  ],
+  "warnings": [],
+  "sector": "Basic Materials",
+  "industry": "Coking Coal",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-28T16:09:58.561141+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.490900714121175,
+    "revenue_qoq_change": 4.438584926389799,
+    "eps_yoy_change": 650.0,
+    "eps_qoq_change": null,
+    "latest_eps": 0.15,
+    "gross_margin": 21.12350094677046,
+    "operating_margin": 6.101409636019356,
+    "net_margin": 2.7561540079949505,
+    "inventory_yoy_change": -13.562470970738506,
+    "inventory_qoq_change": 0.8672086720867167,
+    "shares_yoy_change": 0.2336448598130758,
+    "free_cash_flow_ttm": 29100000.0,
+    "operating_cash_flow_ttm": 111300000.0,
+    "revenue_ttm": 1897600000.0,
+    "net_income_ttm": -54700000.0,
+    "ebitda_ttm": 130000000.0,
+    "total_debt": 660700000.0,
+    "cash": 42700000.0,
+    "total_assets": 1743200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 434100000.0,
+      "2025-09-30": 487000000.0,
+      "2025-12-31": 480200000.0,
+      "2026-03-31": 455100000.0,
+      "2026-06-30": 475300000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.02,
+      "2025-09-30": 0.26,
+      "2025-12-31": -1.0,
+      "2026-03-31": -0.05,
+      "2026-06-30": 0.15
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 215300000.0,
+      "2025-09-30": 217700000.0,
+      "2025-12-31": 219900000.0,
+      "2026-03-31": 184500000.0,
+      "2026-06-30": 186100000.0
+    },
+    "margin_change": 3.632839553670042,
+    "operating_margin_yoy_change": 3.8438652913983007,
+    "inventory_to_sales_ratio": 0.3915421838838628,
+    "fcf_margin": 1.5335160202360876,
+    "net_debt": 618000000.0,
+    "net_debt_to_ebitda": 4.753846153846154,
+    "debt_to_assets": 37.901560348783846
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/SXC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
