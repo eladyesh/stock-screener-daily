@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "BEAM",
-    "fetch_date": "2026-08-13T13:34:12.820715",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 8466000.0,
-      "2025-09-30 00:00:00": 9698000.0,
-      "2025-12-31 00:00:00": 114109000.0,
-      "2026-03-31 00:00:00": 31738000.0,
-      "2026-06-30 00:00:00": 490000.0
-    },
-    "revenue_qoq_change": -98.4561093956771,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-29T15:21:49.727838+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": -94.21214268840066,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -1.0,
-      "2025-09-30 00:00:00": -1.1,
-      "2025-12-31 00:00:00": 2.33,
-      "2026-03-31 00:00:00": -0.91,
-      "2026-06-30 00:00:00": -1.18
+    "revenue_qoq_change": -98.4561093956771,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.18,
+    "gross_margin": null,
+    "operating_margin": -25827.142857142855,
+    "net_margin": -25036.326530612245,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.285877537119796,
+    "free_cash_flow_ttm": -372768000.0,
+    "operating_cash_flow_ttm": -359377000.0,
+    "revenue_ttm": 156035000.0,
+    "net_income_ttm": -85427000.0,
+    "ebitda_ttm": -355781000.0,
+    "total_debt": 247358000.0,
+    "cash": 1152927000.0,
+    "total_assets": 1386355000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 8466000.0,
+      "2025-09-30": 9698000.0,
+      "2025-12-31": 114109000.0,
+      "2026-03-31": 31738000.0,
+      "2026-06-30": 490000.0
     },
-    "eps_qoq_change": -29.67032967032966,
-    "eps_yoy_change": -17.999999999999993,
-    "operating_margin": -25827.14,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -1.0,
+      "2025-09-30": -1.1,
+      "2025-12-31": 2.33,
+      "2026-03-31": -0.91,
+      "2026-06-30": -1.18
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": -24407.924808477605,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -238.90024673951356,
+    "net_debt": -905569000.0,
+    "debt_to_assets": 17.842327542368295,
+    "ticker": "BEAM"
   },
-  "fetched_at": "2026-08-13T13:34:12.821718"
+  "fetched_at": "2026-10-29T15:21:49.732266"
 }

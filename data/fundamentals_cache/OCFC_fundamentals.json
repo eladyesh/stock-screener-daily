@@ -1,30 +1,53 @@
 {
   "data": {
-    "ticker": "OCFC",
-    "fetch_date": "2026-08-14T14:02:41.600472",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 98213000.0,
-      "2025-09-30 00:00:00": 101791000.0,
-      "2025-12-31 00:00:00": 103603000.0,
-      "2026-03-31 00:00:00": 102097000.0,
-      "2026-06-30 00:00:00": 130231000.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-29T15:55:27.361978+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 32.600572225672764,
     "revenue_qoq_change": 27.556147585139623,
-    "revenue_yoy_change": 32.60057222567278,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.28,
-      "2025-09-30 00:00:00": 0.3,
-      "2025-12-31 00:00:00": 0.23,
-      "2026-03-31 00:00:00": 0.36,
-      "2026-06-30 00:00:00": -0.04
-    },
+    "eps_yoy_change": null,
     "eps_qoq_change": -111.11111111111111,
-    "eps_yoy_change": -114.28571428571428,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.04,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": -2.32586711305296,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 112682000.0,
+    "operating_cash_flow_ttm": 121663000.0,
+    "revenue_ttm": 437722000.0,
+    "net_income_ttm": 47900000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2225589000.0,
+    "cash": 274057000.0,
+    "total_assets": 23270010000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 98213000.0,
+      "2025-09-30": 101791000.0,
+      "2025-12-31": 103603000.0,
+      "2026-03-31": 102097000.0,
+      "2026-06-30": 130231000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.3,
+      "2025-12-31": 0.23,
+      "2026-03-31": 0.36,
+      "2026-06-30": -0.04
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.74282307035059,
+    "net_debt": 1951532000.0,
+    "debt_to_assets": 9.564194428794831,
+    "ticker": "OCFC"
   },
-  "fetched_at": "2026-08-14T14:02:41.601145"
+  "fetched_at": "2026-10-29T15:55:27.365161"
 }

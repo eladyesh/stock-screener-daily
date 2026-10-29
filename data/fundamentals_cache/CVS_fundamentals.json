@@ -2,19 +2,19 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-22T13:14:55.773449+00:00",
+    "fetch_date": "2026-10-29T15:30:06.114067+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 7.259768488095841,
     "revenue_qoq_change": 5.645948260410649,
-    "eps_yoy_change": null,
-    "eps_qoq_change": null,
-    "latest_eps": null,
+    "eps_yoy_change": 188.74999999999997,
+    "eps_qoq_change": 0.43478260869567187,
+    "latest_eps": 2.31,
     "gross_margin": 14.844103453476098,
     "operating_margin": 4.432777861559342,
     "net_margin": 2.807834414115518,
     "inventory_yoy_change": 1.0030377715366523,
     "inventory_qoq_change": -0.8328643781654432,
-    "shares_yoy_change": null,
+    "shares_yoy_change": 1.3385826771653564,
     "free_cash_flow_ttm": 11758000000.0,
     "operating_cash_flow_ttm": 14780000000.0,
     "revenue_ttm": 415086000000.0,
@@ -25,7 +25,6 @@
     "total_assets": 253768000000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31": null,
       "2025-06-30": 98915000000.0,
       "2025-09-30": 102871000000.0,
       "2025-12-31": 105693000000.0,
@@ -33,12 +32,11 @@
       "2026-06-30": 106096000000.0
     },
     "quarterly_eps": {
-      "2025-03-31": 1.41,
       "2025-06-30": 0.8,
       "2025-09-30": -3.13,
       "2025-12-31": 2.3,
       "2026-03-31": 2.3,
-      "2026-06-30": null
+      "2026-06-30": 2.31
     },
     "quarterly_inventory": {
       "2025-03-31": null,
@@ -57,5 +55,5 @@
     "debt_to_assets": 30.069197061883298,
     "ticker": "CVS"
   },
-  "fetched_at": "2026-10-22T13:14:55.777456"
+  "fetched_at": "2026-10-29T15:30:06.118384"
 }

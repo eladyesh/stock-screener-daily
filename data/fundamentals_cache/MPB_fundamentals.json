@@ -2,11 +2,11 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-22T13:36:13.013122+00:00",
+    "fetch_date": "2026-10-29T15:51:24.844900+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 39.91401131625967,
     "revenue_qoq_change": 18.185391315284715,
-    "eps_yoy_change": 286.3636363636363,
+    "eps_yoy_change": null,
     "eps_qoq_change": 136.11111111111111,
     "latest_eps": 0.85,
     "gross_margin": null,
@@ -14,7 +14,7 @@
     "net_margin": 28.854774985699656,
     "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "shares_yoy_change": 17.894606512083012,
+    "shares_yoy_change": null,
     "free_cash_flow_ttm": 73778000.0,
     "operating_cash_flow_ttm": 80122000.0,
     "revenue_ttm": 260617000.0,
@@ -25,7 +25,6 @@
     "total_assets": 7062910000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31": null,
       "2025-06-30": 53728000.0,
       "2025-09-30": 60784000.0,
       "2025-12-31": 61054000.0,
@@ -33,8 +32,7 @@
       "2026-06-30": 75173000.0
     },
     "quarterly_eps": {
-      "2025-03-31": null,
-      "2025-06-30": 0.22,
+      "2025-06-30": null,
       "2025-09-30": 0.79,
       "2025-12-31": 0.83,
       "2026-03-31": 0.36,
@@ -49,5 +47,5 @@
     "debt_to_assets": 2.218306618660014,
     "ticker": "MPB"
   },
-  "fetched_at": "2026-10-22T13:36:13.016027"
+  "fetched_at": "2026-10-29T15:51:24.847934"
 }

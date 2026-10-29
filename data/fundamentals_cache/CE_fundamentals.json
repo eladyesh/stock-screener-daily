@@ -2,19 +2,19 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-22T13:10:53.718570+00:00",
+    "fetch_date": "2026-10-29T15:26:03.894333+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 8.688783570300163,
     "revenue_qoq_change": 17.757809157038928,
-    "eps_yoy_change": null,
-    "eps_qoq_change": null,
-    "latest_eps": null,
+    "eps_yoy_change": -37.222222222222236,
+    "eps_qoq_change": 182.49999999999997,
+    "latest_eps": 1.13,
     "gross_margin": 22.456395348837212,
     "operating_margin": 10.86482558139535,
     "net_margin": 4.542151162790697,
     "inventory_yoy_change": 0.7430069930070005,
     "inventory_qoq_change": 0.9194395796847665,
-    "shares_yoy_change": 0.45578851412944044,
+    "shares_yoy_change": 0.4243008728092912,
     "free_cash_flow_ttm": 708000000.0,
     "operating_cash_flow_ttm": 984000000.0,
     "revenue_ttm": 9712000000.0,
@@ -33,12 +33,12 @@
       "2026-06-30": 2752000000.0
     },
     "quarterly_eps": {
-      "2025-03-31": -0.19,
-      "2025-06-30": 1.81,
+      "2025-03-31": null,
+      "2025-06-30": 1.8,
       "2025-09-30": -12.39,
       "2025-12-31": 0.17,
       "2026-03-31": 0.4,
-      "2026-06-30": null
+      "2026-06-30": 1.13
     },
     "quarterly_inventory": {
       "2025-03-31": null,
@@ -57,5 +57,5 @@
     "debt_to_assets": 57.90825859491778,
     "ticker": "CE"
   },
-  "fetched_at": "2026-10-22T13:10:53.721898"
+  "fetched_at": "2026-10-29T15:26:03.898274"
 }
