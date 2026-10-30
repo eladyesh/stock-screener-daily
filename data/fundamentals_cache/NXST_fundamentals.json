@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "NXST",
-    "fetch_date": "2026-08-14T14:02:23.483838",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1229000000.0,
-      "2025-09-30 00:00:00": 1198000000.0,
-      "2025-12-31 00:00:00": 1289000000.0,
-      "2026-03-31 00:00:00": 1396000000.0,
-      "2026-06-30 00:00:00": 1993000000.0
-    },
-    "revenue_qoq_change": 42.76504297994269,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T15:43:58.147610+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 62.16436126932465,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 3.06,
-      "2025-09-30 00:00:00": 2.14,
-      "2025-12-31 00:00:00": -5.63,
-      "2026-03-31 00:00:00": 5.09,
-      "2026-06-30 00:00:00": 3.61
-    },
+    "revenue_qoq_change": 42.765042979942706,
+    "eps_yoy_change": 17.97385620915033,
     "eps_qoq_change": -29.076620825147348,
-    "eps_yoy_change": 17.97385620915032,
-    "gross_margin": 53.39,
-    "margin_change": -2.85,
-    "operating_margin": 18.16,
-    "inventory_breakdown_available": false
+    "latest_eps": 3.61,
+    "gross_margin": 53.38685398896137,
+    "operating_margin": 18.16357250376317,
+    "net_margin": 6.021073758153538,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.2912105918594818,
+    "free_cash_flow_ttm": 743000000.0,
+    "operating_cash_flow_ttm": 894000000.0,
+    "revenue_ttm": 5876000000.0,
+    "net_income_ttm": 188000000.0,
+    "ebitda_ttm": 1528000000.0,
+    "total_debt": 11798000000.0,
+    "cash": 218000000.0,
+    "total_assets": 17715000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1229000000.0,
+      "2025-09-30": 1198000000.0,
+      "2025-12-31": 1289000000.0,
+      "2026-03-31": 1396000000.0,
+      "2026-06-30": 1993000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 3.06,
+      "2025-09-30": 2.14,
+      "2025-12-31": -5.63,
+      "2026-03-31": 5.09,
+      "2026-06-30": 3.61
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.845237701583045,
+    "operating_margin_yoy_change": 0.8324089561634977,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.644656228727024,
+    "net_debt": 11580000000.0,
+    "net_debt_to_ebitda": 7.5785340314136125,
+    "debt_to_assets": 66.59892746260232,
+    "ticker": "NXST"
   },
-  "fetched_at": "2026-08-14T14:02:23.485202"
+  "fetched_at": "2026-10-30T15:43:58.152596"
 }

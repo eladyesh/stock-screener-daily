@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "HAPN",
-    "fetch_date": "2026-08-13T13:52:58.416749",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T15:29:17.847033+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 5.390485207860252,
+    "revenue_qoq_change": 4.024108217702582,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 13.636363636363647,
+    "latest_eps": 0.5,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 22.135597091628917,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -2956802000.0,
+    "operating_cash_flow_ttm": -2866470000.0,
+    "revenue_ttm": 1047856000.0,
+    "net_income_ttm": 195579000.0,
+    "ebitda_ttm": null,
+    "total_debt": 11369000.0,
+    "cash": 912767000.0,
+    "total_assets": 12549040000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 248435000.0,
-      "2025-09-30 00:00:00": 266231000.0,
-      "2025-12-31 00:00:00": 266471000.0,
-      "2026-03-31 00:00:00": 252251000.0,
-      "2026-06-30 00:00:00": 262855000.0
+      "2025-06-30": 249254000.0,
+      "2025-09-30": 266145000.0,
+      "2025-12-31": 266493000.0,
+      "2026-03-31": 252528000.0,
+      "2026-06-30": 262690000.0
     },
-    "revenue_qoq_change": 4.203749440041863,
-    "revenue_yoy_change": 5.804335137963652,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.33,
-      "2025-09-30 00:00:00": 0.37,
-      "2025-12-31 00:00:00": 0.35,
-      "2026-03-31 00:00:00": 0.44,
-      "2026-06-30 00:00:00": 0.5
+      "2025-06-30": null,
+      "2025-09-30": 0.37,
+      "2025-12-31": 0.35,
+      "2026-03-31": 0.44,
+      "2026-06-30": 0.5
     },
-    "eps_qoq_change": 13.636363636363635,
-    "eps_yoy_change": 51.5151515151515,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -282.1763677451864,
+    "net_debt": -901398000.0,
+    "debt_to_assets": 0.09059657153057127,
+    "ticker": "HAPN"
   },
-  "fetched_at": "2026-08-13T13:52:58.417390"
+  "fetched_at": "2026-10-30T15:29:17.850723"
 }

@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "SAIA",
-    "fetch_date": "2026-08-14T14:11:09.590367",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T15:52:40.946306+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 17.057452133420625,
+    "revenue_qoq_change": 18.638446291734567,
+    "eps_yoy_change": 31.46067415730336,
+    "eps_qoq_change": 88.70967741935483,
+    "latest_eps": 3.51,
+    "gross_margin": 18.212869082294294,
+    "operating_margin": 13.090725085572934,
+    "net_margin": 9.8547403329242,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.17920477879409535,
+    "free_cash_flow_ttm": 255227000.0,
+    "operating_cash_flow_ttm": 606389000.0,
+    "revenue_ttm": 3392316000.0,
+    "net_income_ttm": 277964000.0,
+    "ebitda_ttm": 632164000.0,
+    "total_debt": 269191000.0,
+    "cash": 84014000.0,
+    "total_assets": 3724960000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 817115000.0,
-      "2025-09-30 00:00:00": 839644000.0,
-      "2025-12-31 00:00:00": 789952000.0,
-      "2026-03-31 00:00:00": 806226000.0,
-      "2026-06-30 00:00:00": 956494000.0
+      "2025-06-30": 817115000.0,
+      "2025-09-30": 839644000.0,
+      "2025-12-31": 789952000.0,
+      "2026-03-31": 806226000.0,
+      "2026-06-30": 956494000.0
     },
-    "revenue_qoq_change": 18.638446291734574,
-    "revenue_yoy_change": 17.057452133420632,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 2.67,
-      "2025-09-30 00:00:00": 3.22,
-      "2025-12-31 00:00:00": 1.77,
-      "2026-03-31 00:00:00": 1.86,
-      "2026-06-30 00:00:00": 3.51
+      "2025-06-30": 2.67,
+      "2025-09-30": 3.22,
+      "2025-12-31": 1.77,
+      "2026-03-31": 1.86,
+      "2026-06-30": 3.51
     },
-    "eps_qoq_change": 88.70967741935482,
-    "eps_yoy_change": 31.460674157303366,
-    "gross_margin": 18.21,
-    "margin_change": 4.21,
-    "operating_margin": 13.09,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 4.20649866010498,
+    "operating_margin_yoy_change": 0.9260970956327181,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.523679987359669,
+    "net_debt": 185177000.0,
+    "net_debt_to_ebitda": 0.29292556994703906,
+    "debt_to_assets": 7.226681628796014,
+    "ticker": "SAIA"
   },
-  "fetched_at": "2026-08-14T14:11:09.591685"
+  "fetched_at": "2026-10-30T15:52:40.951089"
 }

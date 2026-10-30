@@ -1,21 +1,48 @@
 {
   "data": {
-    "ticker": "MCGA",
-    "fetch_date": "2026-08-10T13:59:39.926905",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T15:38:33.852827+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": null,
     "revenue_qoq_change": null,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.01,
-      "2025-09-30 00:00:00": -0.02,
-      "2026-03-31 00:00:00": 0.04
+    "eps_yoy_change": null,
+    "eps_qoq_change": 50.0,
+    "latest_eps": 0.06,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 296.59367969475676,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 500000.0,
+    "cash": 181617.0,
+    "total_assets": 179917359.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 0.0,
+      "2025-09-30": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": 300.0,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.01,
+      "2025-09-30": -0.02,
+      "2026-03-31": 0.04,
+      "2026-06-30": 0.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 318383.0,
+    "debt_to_assets": 0.27790536876433364,
+    "ticker": "MCGA"
   },
-  "fetched_at": "2026-08-10T13:59:39.927762"
+  "fetched_at": "2026-10-30T15:38:33.856192"
 }

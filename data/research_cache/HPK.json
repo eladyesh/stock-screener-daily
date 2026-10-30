@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "ticker": "HPK",
+  "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+  "metrics": {
+    "revenue_yoy_change": 25.844912967958898,
+    "revenue_qoq_change": 26.18709034902842,
+    "eps_yoy_change": 210.52631578947367,
+    "latest_eps": 0.59,
+    "gross_margin": 35.188808416446726,
+    "operating_margin": 30.55697289836612,
+    "net_margin": 30.201637918060047,
+    "inventory_yoy_change": -44.05686648102007,
+    "inventory_qoq_change": -12.494268684089871,
+    "shares_yoy_change": 0.24901859708950091,
+    "free_cash_flow_ttm": -7881000.0,
+    "operating_cash_flow_ttm": 393878000.0,
+    "revenue_ttm": 893815000.0,
+    "net_income_ttm": -88721000.0,
+    "ebitda_ttm": 468071000.0,
+    "total_debt": 1189436000.0,
+    "cash": 146346000.0,
+    "total_assets": 3174584000.0,
+    "margin_change": 14.940064872430234,
+    "operating_margin_yoy_change": 9.338062369521744,
+    "inventory_to_sales_ratio": 0.014011504337069,
+    "fcf_margin": -0.8817260842568094,
+    "net_debt": 1043090000.0,
+    "net_debt_to_ebitda": 2.2284867039402143,
+    "debt_to_assets": 37.46746030346023,
+    "market_cap": 1298038016.0,
+    "enterprise_value": 2364521728.0,
+    "forward_pe": 78.96154,
+    "trailing_pe": null,
+    "ev_ebitda": 4.104,
+    "fcf_yield": -0.607147086823072,
+    "eps_fy0": 0.085,
+    "revenue_fy0": 968950000.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": 0.13,
+    "revenue_fy1": 815100000.0,
+    "analysts_fy1": 2.0,
+    "forward_eps_growth": 52.941176470588225,
+    "forward_revenue_growth": -15.878012281335463,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": 980.3333333333335,
+    "days_to_earnings": 10.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/financials/",
+      "retrieved_at": "2026-10-30T16:06:48.821002+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/key-statistics/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/key-statistics/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/key-statistics/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/key-statistics/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/key-statistics/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/analysis/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HPK/calendar/",
+      "retrieved_at": "2026-10-30T16:06:11.301758+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "3 Reasons to sell HPK and 1 stock to buy instead",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-hpk-1-222234199.html",
+      "published_at": "2026-10-28T22:22:34+00:00",
+      "categories": []
+    },
+    {
+      "title": "HighPeak Energy, Inc. Announces 2026 Third Quarter Earnings Release and Conference Call Dates",
+      "url": "https://finance.yahoo.com/energy/articles/highpeak-energy-inc-announces-2026-110000151.html",
+      "published_at": "2026-10-26T11:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Is HighPeak Energy (HPK) Still Below Fair Value After A 159% Rise?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-still-below-180952085.html",
+      "published_at": "2026-10-25T18:09:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 cash-burning stocks that concern us",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-burning-stocks-concern-175239995.html",
+      "published_at": "2026-10-23T17:52:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "1 Unpopular Stock That Should Get More Attention and 2 Facing Challenges",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-more-attention-091750561.html",
+      "published_at": "2026-10-20T09:17:50+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Makes HighPeak Energy, Inc. (HPK) a Strong Momentum Stock: Buy Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-highpeak-energy-inc-hpk-150004840.html",
+      "published_at": "2026-10-19T15:00:04+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-06",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HPK/0001437749-26-032094_1792849"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HPK/0001437749-26-026770_1792849"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T16:06:48.821002+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 25.844912967958898,
+    "revenue_qoq_change": 26.18709034902842,
+    "eps_yoy_change": 210.52631578947367,
+    "eps_qoq_change": null,
+    "latest_eps": 0.59,
+    "gross_margin": 35.188808416446726,
+    "operating_margin": 30.55697289836612,
+    "net_margin": 30.201637918060047,
+    "inventory_yoy_change": -44.05686648102007,
+    "inventory_qoq_change": -12.494268684089871,
+    "shares_yoy_change": 0.24901859708950091,
+    "free_cash_flow_ttm": -7881000.0,
+    "operating_cash_flow_ttm": 393878000.0,
+    "revenue_ttm": 893815000.0,
+    "net_income_ttm": -88721000.0,
+    "ebitda_ttm": 468071000.0,
+    "total_debt": 1189436000.0,
+    "cash": 146346000.0,
+    "total_assets": 3174584000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 216472000.0,
+      "2025-09-30": 188862000.0,
+      "2025-12-31": 216649000.0,
+      "2026-03-31": 215885000.0,
+      "2026-06-30": 272419000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.19,
+      "2025-09-30": -0.15,
+      "2025-12-31": -0.21,
+      "2026-03-31": -1.02,
+      "2026-06-30": 0.59
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 6823000.0,
+      "2025-09-30": 9906000.0,
+      "2025-12-31": 7648000.0,
+      "2026-03-31": 4362000.0,
+      "2026-06-30": 3817000.0
+    },
+    "margin_change": 14.940064872430234,
+    "operating_margin_yoy_change": 9.338062369521744,
+    "inventory_to_sales_ratio": 0.014011504337069,
+    "fcf_margin": -0.8817260842568094,
+    "net_debt": 1043090000.0,
+    "net_debt_to_ebitda": 2.2284867039402143,
+    "debt_to_assets": 37.46746030346023
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-09"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/HPK/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

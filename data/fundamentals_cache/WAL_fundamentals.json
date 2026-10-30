@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "WAL",
-    "fetch_date": "2026-08-14T14:22:04.739663",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 825800000.0,
-      "2025-09-30 00:00:00": 923200000.0,
-      "2025-12-31 00:00:00": 963200000.0,
-      "2026-03-31 00:00:00": 1002200000.0,
-      "2026-06-30 00:00:00": 978100000.0
-    },
-    "revenue_qoq_change": -2.404709638794652,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T16:03:36.314771+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 18.442722208767258,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2.07,
-      "2025-09-30 00:00:00": 2.28,
-      "2025-12-31 00:00:00": 2.59,
-      "2026-03-31 00:00:00": 1.65,
-      "2026-06-30 00:00:00": 2.36
+    "revenue_qoq_change": -2.4047096387946554,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 43.03030303030304,
+    "latest_eps": 2.36,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.755955423780797,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -1650600000.0,
+    "operating_cash_flow_ttm": -1530500000.0,
+    "revenue_ttm": 3866700000.0,
+    "net_income_ttm": 983300000.0,
+    "ebitda_ttm": null,
+    "total_debt": 7453000000.0,
+    "cash": 5936000000.0,
+    "total_assets": 98701000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 825800000.0,
+      "2025-09-30": 923200000.0,
+      "2025-12-31": 963200000.0,
+      "2026-03-31": 1002200000.0,
+      "2026-06-30": 978100000.0
     },
-    "eps_qoq_change": 43.03030303030303,
-    "eps_yoy_change": 14.009661835748796,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 2.28,
+      "2025-12-31": 2.59,
+      "2026-03-31": 1.65,
+      "2026-06-30": 2.36
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -42.68756303824967,
+    "net_debt": 1517000000.0,
+    "debt_to_assets": 7.551088641452468,
+    "ticker": "WAL"
   },
-  "fetched_at": "2026-08-14T14:22:04.740360"
+  "fetched_at": "2026-10-30T16:03:36.318561"
 }

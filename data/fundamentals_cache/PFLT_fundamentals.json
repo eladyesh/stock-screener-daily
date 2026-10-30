@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "PFLT",
-    "fetch_date": "2026-08-14T14:05:38.556374",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-30T15:47:12.998298+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -63.57241603643165,
+    "revenue_qoq_change": -73.37751099488887,
+    "eps_yoy_change": -57.89473684210527,
+    "eps_qoq_change": -72.41379310344827,
+    "latest_eps": 0.08,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 84.56300926442684,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.0,
+    "free_cash_flow_ttm": -58400000.0,
+    "operating_cash_flow_ttm": -58400000.0,
+    "revenue_ttm": 62012000.0,
+    "net_income_ttm": 50249000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1574517000.0,
+    "cash": 100808000.0,
+    "total_assets": 2634842000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 3295000.0,
-      "2025-06-30 00:00:00": 24606000.0,
-      "2025-09-30 00:00:00": 20792000.0,
-      "2025-12-31 00:00:00": -1391000.0,
-      "2026-03-31 00:00:00": 33652000.0
+      "2025-03-31": null,
+      "2025-06-30": 24594000.0,
+      "2025-09-30": 20792000.0,
+      "2025-12-31": -1391000.0,
+      "2026-03-31": 33652000.0,
+      "2026-06-30": 8959000.0
     },
-    "revenue_qoq_change": -2519.2667145938176,
-    "revenue_yoy_change": 921.3050075872534,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.01,
-      "2025-06-30 00:00:00": 0.19,
-      "2025-09-30 00:00:00": 0.18,
-      "2025-12-31 00:00:00": -0.04,
-      "2026-03-31 00:00:00": 0.29
+      "2025-03-31": null,
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.18,
+      "2025-12-31": -0.04,
+      "2026-03-31": 0.29,
+      "2026-06-30": 0.08
     },
-    "eps_qoq_change": 824.9999999999998,
-    "eps_yoy_change": 2799.9999999999995,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -94.17532090563117,
+    "net_debt": 1473709000.0,
+    "debt_to_assets": 59.75754902950538,
+    "ticker": "PFLT"
   },
-  "fetched_at": "2026-08-14T14:05:38.557012"
+  "fetched_at": "2026-10-30T15:47:13.001984"
 }
