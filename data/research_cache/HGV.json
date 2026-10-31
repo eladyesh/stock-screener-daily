@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "ticker": "HGV",
+  "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+  "metrics": {
+    "revenue_yoy_change": 50.846153846153854,
+    "revenue_qoq_change": 44.403534609720175,
+    "eps_yoy_change": 1221.4285714285713,
+    "eps_qoq_change": 2366.666666666667,
+    "latest_eps": 3.7,
+    "gross_margin": 36.511983681795,
+    "operating_margin": 26.16012238653748,
+    "net_margin": 14.83936766955635,
+    "inventory_yoy_change": -2.689486552567233,
+    "inventory_qoq_change": -6.205813040062846,
+    "shares_yoy_change": -12.763596004439515,
+    "free_cash_flow_ttm": 398000000.0,
+    "operating_cash_flow_ttm": 516000000.0,
+    "revenue_ttm": 5937000000.0,
+    "net_income_ttm": 417000000.0,
+    "ebitda_ttm": 1193000000.0,
+    "total_debt": 7882000000.0,
+    "cash": 227000000.0,
+    "total_assets": 11805000000.0,
+    "margin_change": 10.812425508010026,
+    "operating_margin_yoy_change": 13.313968540383634,
+    "inventory_to_sales_ratio": 1.217746047934727,
+    "fcf_margin": 6.703722418729999,
+    "net_debt": 7655000000.0,
+    "net_debt_to_ebitda": 6.416596814752724,
+    "debt_to_assets": 66.76831850910631,
+    "market_cap": 2914625536.0,
+    "enterprise_value": 10731470848.0,
+    "forward_pe": 7.525686,
+    "trailing_pe": 7.5818534,
+    "ev_ebitda": 8.345,
+    "fcf_yield": 13.65527046559164,
+    "eps_fy0": 4.90506,
+    "revenue_fy0": 5681165330.0,
+    "analysts_fy0": 11.0,
+    "eps_fy1": 5.10784,
+    "revenue_fy1": 5735427870.0,
+    "analysts_fy1": 10.0,
+    "forward_eps_growth": 4.134098257717556,
+    "forward_revenue_growth": 0.9551304503225833,
+    "eps_revision_30d": -3.16835925133222,
+    "eps_revision_90d": -8.004970912954978,
+    "eps_surprise_pct": 262.15604162547857
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/financials/",
+      "retrieved_at": "2026-10-31T15:36:07.863317+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HGV/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Hilton Grand Vacations (HGV) Turns To Mike Riley For Sales And Marketing Lead",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-hgv-turns-041948770.html",
+      "published_at": "2026-10-31T04:19:48+00:00",
+      "categories": []
+    },
+    {
+      "title": "Hilton Grand Vacations Signs $200 Million Accelerated Share Repurchase Deal With Deutsche Bank",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-signs-200-132110574.html",
+      "published_at": "2026-10-30T13:21:10+00:00",
+      "categories": []
+    },
+    {
+      "title": "Hilton Grand Vacations Announces $200 Million Accelerated Share Repurchase",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-announces-200-121500521.html",
+      "published_at": "2026-10-30T12:15:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Hilton Grand Vacations Q3 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-q3-earnings-121431135.html",
+      "published_at": "2026-10-30T12:14:31+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Hilton Grand Vacations Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-inc-q3-223218691.html",
+      "published_at": "2026-10-29T22:32:18+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Hilton Grand Vacations Inc (HGV) (Q3 2026) Earnings Call Highlights: Sales Slump Weighs on ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-inc-hgv-211136717.html",
+      "published_at": "2026-10-29T21:11:36+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "HGV (HGV) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hgv-hgv-q3-2026-earnings-182909347.html",
+      "published_at": "2026-10-29T18:29:09+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Hilton Grand Vacations Shares Rise After Q3 Adjusted Net Income, Revenue Beat Consensus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-shares-rise-141011233.html",
+      "published_at": "2026-10-29T14:10:11+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HGV/0001140361-26-041230_1674168"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/HGV/0001674168-26-000108_1674168"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-31T15:36:07.863317+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 50.846153846153854,
+    "revenue_qoq_change": 44.403534609720175,
+    "eps_yoy_change": 1221.4285714285713,
+    "eps_qoq_change": 2366.666666666667,
+    "latest_eps": 3.7,
+    "gross_margin": 36.511983681795,
+    "operating_margin": 26.16012238653748,
+    "net_margin": 14.83936766955635,
+    "inventory_yoy_change": -2.689486552567233,
+    "inventory_qoq_change": -6.205813040062846,
+    "shares_yoy_change": -12.763596004439515,
+    "free_cash_flow_ttm": 398000000.0,
+    "operating_cash_flow_ttm": 516000000.0,
+    "revenue_ttm": 5937000000.0,
+    "net_income_ttm": 417000000.0,
+    "ebitda_ttm": 1193000000.0,
+    "total_debt": 7882000000.0,
+    "cash": 227000000.0,
+    "total_assets": 11805000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 1300000000.0,
+      "2025-12-31": 1333000000.0,
+      "2026-03-31": 1285000000.0,
+      "2026-06-30": 1358000000.0,
+      "2026-09-30": 1961000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.28,
+      "2025-12-31": 0.55,
+      "2026-03-31": 0.79,
+      "2026-06-30": 0.15,
+      "2026-09-30": 3.7
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 2454000000.0,
+      "2025-12-31": 2522000000.0,
+      "2026-03-31": 2541000000.0,
+      "2026-06-30": 2546000000.0,
+      "2026-09-30": 2388000000.0
+    },
+    "margin_change": 10.812425508010026,
+    "operating_margin_yoy_change": 13.313968540383634,
+    "inventory_to_sales_ratio": 1.217746047934727,
+    "fcf_margin": 6.703722418729999,
+    "net_debt": 7655000000.0,
+    "net_debt_to_ebitda": 6.416596814752724,
+    "debt_to_assets": 66.76831850910631
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/HGV/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

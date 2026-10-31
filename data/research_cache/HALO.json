@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "ticker": "HALO",
+  "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+  "metrics": {
+    "revenue_yoy_change": 47.6729942066628,
+    "revenue_qoq_change": 27.684838123958077,
+    "eps_yoy_change": 42.85714285714284,
+    "eps_qoq_change": 55.73770491803278,
+    "latest_eps": 1.9,
+    "gross_margin": 83.54029842057884,
+    "operating_margin": 59.803450734824814,
+    "net_margin": 47.79905987330535,
+    "inventory_yoy_change": -24.44560755902041,
+    "inventory_qoq_change": -11.791569915158838,
+    "shares_yoy_change": -2.370366790702172,
+    "free_cash_flow_ttm": 518453000.0,
+    "operating_cash_flow_ttm": 818595000.0,
+    "revenue_ttm": 1663738000.0,
+    "net_income_ttm": 413596000.0,
+    "ebitda_ttm": 718441000.0,
+    "total_debt": 2146654000.0,
+    "cash": 231003000.0,
+    "total_assets": 2577408000.0,
+    "margin_change": 4.574627396868166,
+    "operating_margin_yoy_change": -2.348588292680489,
+    "inventory_to_sales_ratio": 0.2851045428368874,
+    "fcf_margin": 31.16193775702665,
+    "net_debt": 1915651000.0,
+    "net_debt_to_ebitda": 2.666399885307214,
+    "debt_to_assets": 83.2873181118395,
+    "market_cap": 14858023936.0,
+    "enterprise_value": 16805553152.0,
+    "forward_pe": 12.259098,
+    "trailing_pe": 38.27778,
+    "ev_ebitda": 15.995,
+    "fcf_yield": 3.489380567922111,
+    "eps_fy0": 8.83734,
+    "revenue_fy0": 1881079030.0,
+    "analysts_fy0": 6.0,
+    "eps_fy1": 10.6786,
+    "revenue_fy1": 2100307430.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 20.83500238759628,
+    "forward_revenue_growth": 11.654396040978664,
+    "eps_revision_30d": 2.7474102910980847,
+    "eps_revision_90d": 7.749713436980343,
+    "eps_surprise_pct": 25.525776828382043,
+    "days_to_earnings": 5.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/financials/",
+      "retrieved_at": "2026-10-31T15:36:24.203846+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/key-statistics/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/analysis/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HALO/calendar/",
+      "retrieved_at": "2026-10-31T15:35:27.747514+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "missing",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "HALO Gears Up to Report Q3 Earnings: Is a Beat in the Cards?",
+      "url": "https://finance.yahoo.com/healthcare/articles/halo-gears-report-q3-earnings-123600897.html",
+      "published_at": "2026-10-30T12:36:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Exelixis (EXEL) vs. BMRN and NBIX: Can CABOMETYX and Pipeline Growth Revive Investor Confidence?",
+      "url": "https://finance.yahoo.com/healthcare/articles/exelixis-exel-vs-bmrn-nbix-171838818.html",
+      "published_at": "2026-10-29T17:18:38+00:00",
+      "categories": []
+    },
+    {
+      "title": "Halozyme Therapeutics (HALO) Reports Next Week: Wall Street Expects Earnings Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-therapeutics-halo-reports-next-130027245.html",
+      "published_at": "2026-10-29T13:00:27+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What Did Halozyme Stock Investors Miss Before The Run?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/did-halozyme-stock-investors-miss-092442250.html",
+      "published_at": "2026-10-28T09:24:42+00:00",
+      "categories": []
+    },
+    {
+      "title": "Strong Royalties and New Launches Accelerate Halozyme Therapeutics\u2019 (HALO) Growth Momentum",
+      "url": "https://finance.yahoo.com/healthcare/articles/strong-royalties-launches-accelerate-halozyme-113230598.html",
+      "published_at": "2026-10-27T11:32:30+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001159036-26-000128_1159036"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001193125-26-398015_1159036"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001159036-26-000126_1159036"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001159036-26-000121_1159036"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001159036-26-000106_1159036"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/HALO/0001159036-26-000104_1159036"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-31T15:36:24.203846+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 47.6729942066628,
+    "revenue_qoq_change": 27.684838123958077,
+    "eps_yoy_change": 42.85714285714284,
+    "eps_qoq_change": 55.73770491803278,
+    "latest_eps": 1.9,
+    "gross_margin": 83.54029842057884,
+    "operating_margin": 59.803450734824814,
+    "net_margin": 47.79905987330535,
+    "inventory_yoy_change": -24.44560755902041,
+    "inventory_qoq_change": -11.791569915158838,
+    "shares_yoy_change": -2.370366790702172,
+    "free_cash_flow_ttm": 518453000.0,
+    "operating_cash_flow_ttm": 818595000.0,
+    "revenue_ttm": 1663738000.0,
+    "net_income_ttm": 413596000.0,
+    "ebitda_ttm": 718441000.0,
+    "total_debt": 2146654000.0,
+    "cash": 231003000.0,
+    "total_assets": 2577408000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 325719000.0,
+      "2025-09-30": 354264000.0,
+      "2025-12-31": 451767000.0,
+      "2026-03-31": 376708000.0,
+      "2026-06-30": 480999000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.33,
+      "2025-09-30": 1.43,
+      "2025-12-31": -1.2,
+      "2026-03-31": 1.22,
+      "2026-06-30": 1.9
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 181505000.0,
+      "2025-09-30": 185796000.0,
+      "2025-12-31": 176475000.0,
+      "2026-03-31": 155467000.0,
+      "2026-06-30": 137135000.0
+    },
+    "margin_change": 4.574627396868166,
+    "operating_margin_yoy_change": -2.348588292680489,
+    "inventory_to_sales_ratio": 0.2851045428368874,
+    "fcf_margin": 31.16193775702665,
+    "net_debt": 1915651000.0,
+    "net_debt_to_ebitda": 2.666399885307214,
+    "debt_to_assets": 83.2873181118395
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/HALO/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

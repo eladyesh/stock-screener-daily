@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "RKT",
-    "fetch_date": "2026-08-13T14:15:15.122489",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-31T15:20:40.462057+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 85.95679012345678,
+    "revenue_qoq_change": -7.021604938271608,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -20.000000000000007,
+    "latest_eps": 0.08,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 9.54356846473029,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": -1436000000.0,
+    "operating_cash_flow_ttm": -634000000.0,
+    "revenue_ttm": 8957490000.0,
+    "net_income_ttm": 471168000.0,
+    "ebitda_ttm": null,
+    "total_debt": 27411000000.0,
+    "cash": 3103000000.0,
+    "total_assets": 60977000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1296000000.0,
-      "2025-09-30 00:00:00": 1468089000.0,
-      "2025-12-31 00:00:00": 2487401000.0,
-      "2026-03-31 00:00:00": 2592000000.0,
-      "2026-06-30 00:00:00": 2410000000.0
+      "2025-03-31": null,
+      "2025-06-30": 1296000000.0,
+      "2025-09-30": 1468089000.0,
+      "2025-12-31": 2487401000.0,
+      "2026-03-31": 2592000000.0,
+      "2026-06-30": 2410000000.0
     },
-    "revenue_qoq_change": -7.021604938271605,
-    "revenue_yoy_change": 85.9567901234568,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.01,
-      "2025-09-30 00:00:00": -0.06,
-      "2025-12-31 00:00:00": 0.02,
-      "2026-03-31 00:00:00": 0.1,
-      "2026-06-30 00:00:00": 0.08
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": -0.06,
+      "2025-12-31": 0.02,
+      "2026-03-31": 0.1,
+      "2026-06-30": 0.08
     },
-    "eps_qoq_change": -20.000000000000004,
-    "eps_yoy_change": 900.0,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -16.03127661878495,
+    "net_debt": 24308000000.0,
+    "debt_to_assets": 44.953015071256374,
+    "ticker": "RKT"
   },
-  "fetched_at": "2026-08-13T14:15:15.123122"
+  "fetched_at": "2026-10-31T15:20:40.464508"
 }

@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "OSG",
-    "fetch_date": "2026-07-15T14:45:22.342948",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-10-31T15:14:57.138112+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 51.01806867187073,
+    "revenue_qoq_change": -20.327349524815208,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.33,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": -17.38538466172661,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.665189342625332,
+    "free_cash_flow_ttm": -62130000.0,
+    "operating_cash_flow_ttm": -62130000.0,
+    "revenue_ttm": 318096000.0,
+    "net_income_ttm": -163882000.0,
+    "ebitda_ttm": null,
+    "total_debt": 155459000.0,
+    "cash": 295750000.0,
+    "total_assets": 2280857000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 62756000.0,
-      "2025-06-30 00:00:00": 54957000.0,
-      "2025-09-30 00:00:00": 66605000.0,
-      "2025-12-31 00:00:00": 64326000.0,
-      "2026-03-31 00:00:00": 104170000.0
+      "2025-03-31": null,
+      "2025-06-30": 54957000.0,
+      "2025-09-30": 66605000.0,
+      "2025-12-31": 64326000.0,
+      "2026-03-31": 104170000.0,
+      "2026-06-30": 82995000.0
     },
-    "revenue_qoq_change": 61.94073935889065,
-    "revenue_yoy_change": 65.99209637325515,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -1.21,
-      "2025-06-30 00:00:00": -1.54,
-      "2025-09-30 00:00:00": -2.35,
-      "2025-12-31 00:00:00": -0.84,
-      "2026-03-31 00:00:00": -0.13
+      "2025-03-31": null,
+      "2025-06-30": -1.51,
+      "2025-09-30": -2.35,
+      "2025-12-31": -0.84,
+      "2026-03-31": -0.13,
+      "2026-06-30": -0.33
     },
-    "eps_qoq_change": 84.52380952380952,
-    "eps_yoy_change": 89.25619834710746,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -19.53183944469594,
+    "net_debt": -140291000.0,
+    "debt_to_assets": 6.81581528346582,
+    "ticker": "OSG"
   },
-  "fetched_at": "2026-07-15T14:45:22.343599"
+  "fetched_at": "2026-10-31T15:14:57.140668"
 }
