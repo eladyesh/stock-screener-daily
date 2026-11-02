@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "HMC",
-  "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+  "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
   "metrics": {
     "revenue_yoy_change": 13.50580158149366,
     "revenue_qoq_change": 4.132799033009404,
@@ -24,9 +24,9 @@
     "operating_margin_yoy_change": 4.184101270383389,
     "inventory_to_sales_ratio": 0.42070561909120396,
     "fcf_margin": 0.03202791597921223,
-    "market_cap": 44068945920.0,
+    "market_cap": 44479217664.0,
     "enterprise_value": 9185316044800.0,
-    "forward_pe": null,
+    "forward_pe": 6.91129,
     "trailing_pe": null,
     "ev_ebitda": 7.164,
     "eps_fy0": 2.63546,
@@ -39,217 +39,223 @@
     "forward_revenue_growth": 2.262742892335612,
     "eps_revision_30d": 1.654628573656547,
     "eps_revision_90d": 14.405366565376232,
-    "days_to_earnings": 9.0
+    "days_to_earnings": 8.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/financials/",
-      "retrieved_at": "2026-11-01T16:14:19.823879+00:00",
+      "retrieved_at": "2026-11-02T19:26:37.953008+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HMC/key-statistics/",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HMC/calendar/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     }
   },
@@ -269,6 +275,18 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Micware Expands North American Presence with Relocation of U.S. Office in Dublin, Ohio",
+      "url": "https://finance.yahoo.com/technology/articles/micware-expands-north-american-presence-133000012.html",
+      "published_at": "2026-11-02T13:30:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Harley-Davidson Stock After Q3: Should You Buy, Hold or Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/harley-davidson-stock-q3-buy-124700931.html",
+      "published_at": "2026-11-02T12:47:00+00:00",
+      "categories": []
+    },
     {
       "title": "Lear Corporation Q3 2026 Earnings Call Summary",
       "url": "https://finance.yahoo.com/markets/stocks/articles/lear-corporation-q3-2026-earnings-170610945.html",
@@ -310,18 +328,6 @@
       "categories": [
         "earnings/guidance"
       ]
-    },
-    {
-      "title": "Honda (TSE:7267) Stock May Be 20% Undervalued Despite Tariff Warning",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/honda-tse-7267-stock-may-091134269.html",
-      "published_at": "2026-10-29T09:11:34+00:00",
-      "categories": []
-    },
-    {
-      "title": "Why Is Honda Motor (TSE:7267) Warning That 50% Tariffs Could Be Catastrophic?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/why-honda-motor-tse-7267-021343846.html",
-      "published_at": "2026-10-29T02:13:43+00:00",
-      "categories": []
     }
   ],
   "insider_purchases": [],
@@ -345,7 +351,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-01T16:14:19.823879+00:00",
+    "fetch_date": "2026-11-02T19:26:37.953008+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 13.50580158149366,
     "revenue_qoq_change": 4.132799033009404,
@@ -403,8 +409,12 @@
   "insider_source": "https://finance.yahoo.com/quote/HMC/insider-transactions/",
   "fmp_configured": false,
   "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 6,
+      "required": 20
+    },
     "ev_ebitda": {
-      "prior_observations": 17,
+      "prior_observations": 18,
       "required": 20
     }
   }

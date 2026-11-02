@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "ABBV",
-  "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+  "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
   "metrics": {
     "revenue_yoy_change": 10.160150424690407,
     "revenue_qoq_change": 13.25156645780563,
@@ -29,281 +29,281 @@
     "net_debt": 64253000000.0,
     "net_debt_to_ebitda": 3.2977314719770066,
     "debt_to_assets": 52.41608999740961,
-    "market_cap": 521105244160.0,
+    "market_cap": 510696914944.0,
     "enterprise_value": 585468215296.0,
-    "forward_pe": 18.244802,
-    "trailing_pe": 50.668385,
+    "forward_pe": 17.880388,
+    "trailing_pe": 49.656357,
     "ev_ebitda": 18.464,
-    "fcf_yield": 3.4944956329030545,
-    "eps_fy0": 14.03749,
-    "revenue_fy0": 67764874590.0,
-    "analysts_fy0": 21.0,
-    "eps_fy1": 16.16296,
-    "revenue_fy1": 73707138630.0,
-    "analysts_fy1": 27.0,
-    "forward_eps_growth": 15.141382113184054,
-    "forward_revenue_growth": 8.768944200004313,
-    "eps_revision_30d": -0.590199103015443,
-    "eps_revision_90d": -0.6223492361742022,
+    "fcf_yield": 3.565715685201819,
+    "eps_fy0": 14.00019,
+    "revenue_fy0": 67815450090.0,
+    "analysts_fy0": 22.0,
+    "eps_fy1": 16.17713,
+    "revenue_fy1": 73788399770.0,
+    "analysts_fy1": 28.0,
+    "forward_eps_growth": 15.549360401537404,
+    "forward_revenue_growth": 8.807653229570999,
+    "eps_revision_30d": -0.5030469428473849,
+    "eps_revision_90d": -0.7844813628179015,
     "eps_surprise_pct": 1.3192724109212683
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/financials/",
-      "retrieved_at": "2026-11-01T16:14:45.922356+00:00",
+      "retrieved_at": "2026-11-02T19:26:56.148547+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/key-statistics/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
-      "retrieved_at": "2026-11-01T16:13:50.913275+00:00",
+      "retrieved_at": "2026-11-02T19:26:15.593100+00:00",
       "period": "2026-09-30 00:00:00"
     }
   },
@@ -324,60 +324,52 @@
   },
   "news": [
     {
-      "title": "5 Most Undervalued Dividend Growth Stocks According to Hedge Funds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-undervalued-dividend-growth-152308143.html",
-      "published_at": "2026-11-01T15:23:08+00:00",
+      "title": "Sector Update: Healthcare Stocks Decline in Afternoon Trading",
+      "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-183751418.html",
+      "published_at": "2026-11-02T18:37:51+00:00",
       "categories": []
     },
     {
-      "title": "AbbVie Stock Hits a Record After a 5.2% Dividend Raise: Why Its 276% Payout Ratio Doesn\u2019t Tell the Entire Story",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stock-hits-record-5-143816316.html",
-      "published_at": "2026-11-01T14:38:16+00:00",
+      "title": "AbbVie Stocks Decline 2.3% With RBC Target Increase Backing Its Immunology Transition",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stocks-decline-2-3-174905317.html",
+      "published_at": "2026-11-02T17:49:05+00:00",
       "categories": []
     },
     {
-      "title": "AbbVie: 3 Key Takeaways for Long-Term Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-3-key-takeaways-long-145110914.html",
-      "published_at": "2026-10-31T14:51:10+00:00",
+      "title": "The Best Dividend Stocks to Buy With $5,000 in November",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-dividend-stocks-buy-5-173500736.html",
+      "published_at": "2026-11-02T17:35:00+00:00",
       "categories": []
     },
     {
-      "title": "Is AbbVie a Buy After Its Latest Earnings Report?",
-      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-buy-latest-earnings-report-143739355.html",
-      "published_at": "2026-10-31T14:37:39+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Is Earnings Beat Altering The Investment Case For AbbVie Stock (ABBV)?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-altering-investment-case-101415793.html",
-      "published_at": "2026-10-31T10:14:15+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "AbbVie Inc (ABBV) Q3 2026 Earnings Call Highlights: Raised Guidance, Immunology Momentum, and a ...",
-      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-inc-abbv-q3-2026-070810215.html",
-      "published_at": "2026-10-31T07:08:10+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Health Care Roundup: Market Talk",
-      "url": "https://finance.yahoo.com/m/ee46ee8b-cb85-3370-a87c-7c801e230571/health-care-roundup%3A-market.html",
-      "published_at": "2026-10-30T21:37:00+00:00",
+      "title": "AbbVie vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy for 2027?",
+      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-bristol-myers-squibb-162002377.html",
+      "published_at": "2026-11-02T16:20:02+00:00",
       "categories": []
     },
     {
-      "title": "AbbVie (ABBV) Q3 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-q3-2026-earnings-211323080.html",
-      "published_at": "2026-10-30T21:13:23+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
+      "title": "Canaccord Genuity Adjusts Price Target on AbbVie to $338 From $290",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/canaccord-genuity-adjusts-price-target-153143551.html",
+      "published_at": "2026-11-02T15:31:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Leerink Partners Adjusts Price Target on AbbVie to $325 From $279",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/leerink-partners-adjusts-price-target-153100002.html",
+      "published_at": "2026-11-02T15:31:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "AbbVie License Deal With Brise Potentially Valued at $757 Million",
+      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-license-deal-brise-potentially-151109132.html",
+      "published_at": "2026-11-02T15:11:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "AbbVie (ABBV) Lands Phase 3 Migraine Study Win In The Lancet Neurology",
+      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-lands-phase-3-150654738.html",
+      "published_at": "2026-11-02T15:06:54+00:00",
+      "categories": []
     }
   ],
   "insider_purchases": [],
@@ -408,9 +400,9 @@
       "url": "https://finance.yahoo.com/sec-filing/ABBV/0001104659-26-098367_1551152"
     },
     {
-      "date": "2026-08-03",
-      "type": "10-Q",
-      "url": "https://finance.yahoo.com/sec-filing/ABBV/0001551152-26-000026_1551152"
+      "date": "2026-08-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ABBV/0001104659-26-091269_1551152"
     }
   ],
   "warnings": [],
@@ -419,7 +411,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-01T16:14:45.922356+00:00",
+    "fetch_date": "2026-11-02T19:26:56.148547+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 10.160150424690407,
     "revenue_qoq_change": 13.25156645780563,
@@ -481,11 +473,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 3,
+      "prior_observations": 4,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 2,
+      "prior_observations": 3,
       "required": 20
     }
   }
