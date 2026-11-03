@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "DKNG",
-    "fetch_date": "2026-08-13T13:43:55.071092",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1512507000.0,
-      "2025-09-30 00:00:00": 1144019000.0,
-      "2025-12-31 00:00:00": 1989193000.0,
-      "2026-03-31 00:00:00": 1646076000.0,
-      "2026-06-30 00:00:00": 1443235000.0
-    },
-    "revenue_qoq_change": -12.32269955943711,
-    "revenue_yoy_change": -4.57994574570564,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.3,
-      "2025-09-30 00:00:00": -0.52,
-      "2025-12-31 00:00:00": 0.25,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": -0.14
-    },
-    "eps_qoq_change": -566.6666666666667,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-03T16:32:55.779710+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -4.579945745705638,
+    "revenue_qoq_change": -12.322699559437112,
     "eps_yoy_change": -146.66666666666669,
-    "gross_margin": 38.21,
-    "margin_change": -4.11,
-    "operating_margin": -4.72,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": -566.6666666666667,
+    "latest_eps": -0.14,
+    "gross_margin": 38.20950850000173,
+    "operating_margin": -4.723693646564835,
+    "net_margin": -4.68461477167613,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.316860887808728,
+    "free_cash_flow_ttm": 497373000.0,
+    "operating_cash_flow_ttm": 670951000.0,
+    "revenue_ttm": 6222523000.0,
+    "net_income_ttm": -166902000.0,
+    "ebitda_ttm": 109619000.0,
+    "total_debt": 1916009000.0,
+    "cash": 983882000.0,
+    "total_assets": 4277379000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 1512507000.0,
+      "2025-09-30": 1144019000.0,
+      "2025-12-31": 1989193000.0,
+      "2026-03-31": 1646076000.0,
+      "2026-06-30": 1443235000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.3,
+      "2025-09-30": -0.52,
+      "2025-12-31": 0.25,
+      "2026-03-31": 0.03,
+      "2026-06-30": -0.14
+    },
+    "quarterly_inventory": {},
+    "margin_change": -4.114843474026195,
+    "operating_margin_yoy_change": -14.683581435513911,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.993108261713135,
+    "net_debt": 932127000.0,
+    "net_debt_to_ebitda": 8.5033342759923,
+    "debt_to_assets": 44.7939965104799,
+    "ticker": "DKNG"
   },
-  "fetched_at": "2026-08-13T13:43:55.072330"
+  "fetched_at": "2026-11-03T16:32:55.782263"
 }

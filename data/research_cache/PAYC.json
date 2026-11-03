@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "ticker": "PAYC",
+  "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.842845326716287,
+    "revenue_qoq_change": -7.100384749912559,
+    "eps_yoy_change": 48.1012658227848,
+    "eps_qoq_change": -23.026315789473696,
+    "latest_eps": 2.34,
+    "gross_margin": 83.22665662650603,
+    "operating_margin": 31.72063253012048,
+    "net_margin": 20.218373493975903,
+    "inventory_yoy_change": 6.25,
+    "inventory_qoq_change": 13.33333333333333,
+    "shares_yoy_change": -18.761061946902657,
+    "free_cash_flow_ttm": 570600000.0,
+    "operating_cash_flow_ttm": 801500000.0,
+    "revenue_ttm": 2140600000.0,
+    "net_income_ttm": 487600000.0,
+    "ebitda_ttm": 896000000.0,
+    "total_debt": 982800000.0,
+    "cash": 198000000.0,
+    "total_assets": 5202400000.0,
+    "margin_change": -1.5057672979430805,
+    "operating_margin_yoy_change": 8.498961727804517,
+    "inventory_to_sales_ratio": 0.003200301204819277,
+    "fcf_margin": 26.656077735214428,
+    "net_debt": 784800000.0,
+    "net_debt_to_ebitda": 0.8758928571428571,
+    "debt_to_assets": 18.89128094725511,
+    "market_cap": 12037727232.0,
+    "enterprise_value": 12566456320.0,
+    "forward_pe": 19.138796,
+    "trailing_pe": 28.262432,
+    "ev_ebitda": 17.095,
+    "fcf_yield": 4.7400974370242315,
+    "eps_fy0": 12.09729,
+    "revenue_fy0": 2209077640.0,
+    "analysts_fy0": 21.0,
+    "eps_fy1": 13.9549,
+    "revenue_fy1": 2373828940.0,
+    "analysts_fy1": 21.0,
+    "forward_eps_growth": 15.355587904398437,
+    "forward_revenue_growth": 7.457922574418885,
+    "eps_revision_30d": 0.07544257973461921,
+    "eps_revision_90d": 13.68424311250218,
+    "eps_surprise_pct": 16.75962636919561,
+    "days_to_earnings": 1.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/financials/",
+      "retrieved_at": "2026-11-03T17:19:57.789139+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/key-statistics/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAYC/calendar/",
+      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Paycom Announces Quarterly Cash Dividend",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-announces-quarterly-cash-dividend-220000617.html",
+      "published_at": "2026-11-02T22:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "EverQuote (EVER) Q3 Earnings and Revenues Top Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/everquote-ever-q3-earnings-revenues-212502621.html",
+      "published_at": "2026-11-02T21:25:02+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Can Workday Stock Get Back To Where It Was?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-stock-back-where-193703118.html",
+      "published_at": "2026-11-02T19:37:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Paycom Software Gears Up to Report Q3 Earnings: What's in Store?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-software-gears-report-q3-122400605.html",
+      "published_at": "2026-11-02T12:24:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Is Paychex's Dividend Enough To Make Up For Its Lagging Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paychexs-dividend-enough-lagging-stock-133646390.html",
+      "published_at": "2026-10-31T13:36:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "As ServiceNow plunges 31%, this mid-cap software stock is surging",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-plunges-31-mid-cap-150204019.html",
+      "published_at": "2026-10-30T15:02:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "National Duals Invitational Announces Top 4 Seeds",
+      "url": "https://finance.yahoo.com/media-advertising/articles/national-duals-invitational-announces-top-140000059.html",
+      "published_at": "2026-10-29T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Compass, Inc. (COMP) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/compass-inc-comp-earnings-expected-130024729.html",
+      "published_at": "2026-10-29T13:00:24+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/PAYC/0001193125-26-338010_1590955"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/PAYC/0001193125-26-335105_1590955"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-03T17:19:57.789139+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 9.842845326716287,
+    "revenue_qoq_change": -7.100384749912559,
+    "eps_yoy_change": 48.1012658227848,
+    "eps_qoq_change": -23.026315789473696,
+    "latest_eps": 2.34,
+    "gross_margin": 83.22665662650603,
+    "operating_margin": 31.72063253012048,
+    "net_margin": 20.218373493975903,
+    "inventory_yoy_change": 6.25,
+    "inventory_qoq_change": 13.33333333333333,
+    "shares_yoy_change": -18.761061946902657,
+    "free_cash_flow_ttm": 570600000.0,
+    "operating_cash_flow_ttm": 801500000.0,
+    "revenue_ttm": 2140600000.0,
+    "net_income_ttm": 487600000.0,
+    "ebitda_ttm": 896000000.0,
+    "total_debt": 982800000.0,
+    "cash": 198000000.0,
+    "total_assets": 5202400000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 483600000.0,
+      "2025-09-30": 493300000.0,
+      "2025-12-31": 544300000.0,
+      "2026-03-31": 571800000.0,
+      "2026-06-30": 531200000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 1.58,
+      "2025-09-30": 1.96,
+      "2025-12-31": 2.07,
+      "2026-03-31": 3.04,
+      "2026-06-30": 2.34
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 1600000.0,
+      "2025-09-30": 1800000.0,
+      "2025-12-31": 1700000.0,
+      "2026-03-31": 1500000.0,
+      "2026-06-30": 1700000.0
+    },
+    "margin_change": -1.5057672979430805,
+    "operating_margin_yoy_change": 8.498961727804517,
+    "inventory_to_sales_ratio": 0.003200301204819277,
+    "fcf_margin": 26.656077735214428,
+    "net_debt": 784800000.0,
+    "net_debt_to_ebitda": 0.8758928571428571,
+    "debt_to_assets": 18.89128094725511
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-04"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/PAYC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

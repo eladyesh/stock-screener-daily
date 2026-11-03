@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "ADC",
-    "fetch_date": "2026-08-13T13:27:53.654726",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-03T16:17:00.633544+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 16.734889914966544,
+    "revenue_qoq_change": 4.282788883471467,
+    "eps_yoy_change": 17.777777777777782,
+    "eps_qoq_change": 20.45454545454546,
+    "latest_eps": 0.53,
+    "gross_margin": 87.7017448710516,
+    "operating_margin": 48.28551925342709,
+    "net_margin": 31.957509678143293,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 11.739894539237007,
+    "free_cash_flow_ttm": 572040000.0,
+    "operating_cash_flow_ttm": 572040000.0,
+    "revenue_ttm": 810280000.0,
+    "net_income_ttm": 241093000.0,
+    "ebitda_ttm": 711757000.0,
+    "total_debt": 3789247000.0,
+    "cash": 80559000.0,
+    "total_assets": 10950922000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 175527000.0,
-      "2025-09-30 00:00:00": 183222000.0,
-      "2025-12-31 00:00:00": 190489000.0,
-      "2026-03-31 00:00:00": 200807000.0,
-      "2026-06-30 00:00:00": 205100000.0
+      "2025-09-30": 183222000.0,
+      "2025-12-31": 190489000.0,
+      "2026-03-31": 200807000.0,
+      "2026-06-30": 205100000.0,
+      "2026-09-30": 213884000.0
     },
-    "revenue_qoq_change": 2.137873679702401,
-    "revenue_yoy_change": 16.848120232214985,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.43,
-      "2025-09-30 00:00:00": 0.45,
-      "2025-12-31 00:00:00": 0.47,
-      "2026-03-31 00:00:00": 0.5,
-      "2026-06-30 00:00:00": 0.44
+      "2025-09-30": 0.45,
+      "2025-12-31": 0.47,
+      "2026-03-31": 0.5,
+      "2026-06-30": 0.44,
+      "2026-09-30": 0.53
     },
-    "eps_qoq_change": -12.0,
-    "eps_yoy_change": 2.325581395348839,
-    "gross_margin": 87.63,
-    "margin_change": 0.04,
-    "operating_margin": 48.12,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.06742015140265778,
+    "operating_margin_yoy_change": -0.3898581575825091,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 70.59781803820901,
+    "net_debt": 3708688000.0,
+    "net_debt_to_ebitda": 5.210609800816852,
+    "debt_to_assets": 34.60208190689332,
+    "ticker": "ADC"
   },
-  "fetched_at": "2026-08-13T13:27:53.656065"
+  "fetched_at": "2026-11-03T16:17:00.635910"
 }

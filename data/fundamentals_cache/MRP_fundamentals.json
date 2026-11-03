@@ -1,39 +1,56 @@
 {
   "data": {
-    "ticker": "MRP",
-    "fetch_date": "2026-08-11T13:58:39.028086",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 82698000.0,
-      "2025-06-30 00:00:00": 149002000.0,
-      "2025-12-31 00:00:00": 189501000.0,
-      "2026-03-31 00:00:00": 194929000.0,
-      "2026-06-30 00:00:00": 196853000.0
-    },
-    "revenue_qoq_change": 0.9870260453806257,
-    "revenue_yoy_change": 138.03840479818132,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.39,
-      "2025-06-30 00:00:00": 0.68,
-      "2025-12-31 00:00:00": 0.74,
-      "2026-03-31 00:00:00": 0.74,
-      "2026-06-30 00:00:00": 0.76
-    },
-    "eps_qoq_change": 2.7027027027027053,
-    "eps_yoy_change": 94.87179487179486,
-    "gross_margin": 84.81,
-    "margin_change": -0.75,
-    "operating_margin": 85.16,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 5465290000.0,
-      "2025-03-31 00:00:00": 6998924000.0,
-      "2025-06-30 00:00:00": 7845178000.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": NaN,
-      "2026-06-30 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-03T16:52:56.824203+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 32.114334035784765,
+    "revenue_qoq_change": 0.9870260453806345,
+    "eps_yoy_change": 11.764705882352944,
+    "eps_qoq_change": 2.7027027027026973,
+    "latest_eps": 0.76,
+    "gross_margin": 84.80642916287789,
+    "operating_margin": 85.15694452205452,
+    "net_margin": 63.946701345674185,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 0.017911696402794774,
+    "free_cash_flow_ttm": 4605057000.0,
+    "operating_cash_flow_ttm": 3746119000.0,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 2478732000.0,
+    "cash": 34171000.0,
+    "total_assets": 9707302000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": 82698000.0,
+      "2025-06-30": 149002000.0,
+      "2025-12-31": 189501000.0,
+      "2026-03-31": 194929000.0,
+      "2026-06-30": 196853000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.68,
+      "2025-12-31": 0.74,
+      "2026-03-31": 0.74,
+      "2026-06-30": 0.76
+    },
+    "quarterly_inventory": {
+      "2025-03-31": 6998924000.0,
+      "2025-06-30": 7845178000.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": null,
+      "2026-06-30": null
+    },
+    "margin_change": -0.7508763175790989,
+    "operating_margin_yoy_change": 0.01647660887213931,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 2444561000.0,
+    "debt_to_assets": 25.53471603129273,
+    "ticker": "MRP"
   },
-  "fetched_at": "2026-08-11T13:58:39.029184"
+  "fetched_at": "2026-11-03T16:52:56.826612"
 }
