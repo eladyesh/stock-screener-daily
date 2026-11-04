@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "ticker": "NTRA",
+  "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+  "metrics": {
+    "revenue_yoy_change": 37.71496523966338,
+    "revenue_qoq_change": 8.053754859009764,
+    "latest_eps": -0.47,
+    "gross_margin": 64.45552972434407,
+    "operating_margin": -10.068681501162406,
+    "net_margin": -8.896579209564928,
+    "inventory_yoy_change": 48.043189858490564,
+    "inventory_qoq_change": 13.609818865683465,
+    "shares_yoy_change": 5.0524972871513585,
+    "free_cash_flow_ttm": 51197000.0,
+    "operating_cash_flow_ttm": 228239000.0,
+    "revenue_ttm": 2707075000.0,
+    "net_income_ttm": -192346000.0,
+    "ebitda_ttm": -183081000.0,
+    "total_debt": 238488000.0,
+    "cash": 1091502000.0,
+    "total_assets": 2657497000.0,
+    "margin_change": -0.2594466480929185,
+    "operating_margin_yoy_change": 10.123780994263868,
+    "inventory_to_sales_ratio": 0.10673663234805712,
+    "fcf_margin": 1.891229463535366,
+    "net_debt": -853014000.0,
+    "debt_to_assets": 8.974158766689106,
+    "market_cap": 55034245120.0,
+    "enterprise_value": 55165734912.0,
+    "forward_pe": -2146.8735,
+    "trailing_pe": null,
+    "ev_ebitda": -245.814,
+    "fcf_yield": 0.09302753201823148,
+    "eps_fy0": -1.46283,
+    "revenue_fy0": 2910325710.0,
+    "analysts_fy0": 17.0,
+    "eps_fy1": -0.17784,
+    "revenue_fy1": 3518209680.0,
+    "analysts_fy1": 16.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 20.887145652161387,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": null,
+    "days_to_earnings": 1.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/financials/",
+      "retrieved_at": "2026-11-04T17:24:24.808109+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/analysis/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": "+1y vs 0y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTRA/calendar/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Signatera\u2122 in Head and Neck Cancer: Three New Publications Demonstrate Strong Clinical Performance and Actionability",
+      "url": "https://finance.yahoo.com/healthcare/articles/signatera-head-neck-cancer-three-120000626.html",
+      "published_at": "2026-11-04T12:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "InnovAge Holding Corp. (INNV) Tops Q1 Earnings and Revenue Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/innovage-holding-corp-innv-tops-235505632.html",
+      "published_at": "2026-11-03T23:55:05+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What Just Happened To Natera Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-natera-stock-121836294.html",
+      "published_at": "2026-11-03T12:18:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "Medicare Expands Coverage for Signatera\u2122 MRD Test in Hepatocellular Carcinoma",
+      "url": "https://finance.yahoo.com/healthcare/articles/medicare-expands-coverage-signatera-mrd-120000377.html",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "How Long Can GRAIL Keep Burning Cash?",
+      "url": "https://finance.yahoo.com/healthcare/articles/long-grail-keep-burning-cash-115655580.html",
+      "published_at": "2026-11-03T11:56:55+00:00",
+      "categories": []
+    },
+    {
+      "title": "Tempus AI Soars 10% on Q3 Beat and Raised Guidance as Oncology Sees \u201cAccelerating Unit Growth\u201d",
+      "url": "https://finance.yahoo.com/healthcare/articles/tempus-ai-soars-10-q3-170043913.html",
+      "published_at": "2026-11-02T17:00:43+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Natera Insider Sold Shares Worth $1,313,470, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/natera-insider-sold-shares-worth-083346444.html",
+      "published_at": "2026-11-02T08:33:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "CareDx Soars 20% on Big Q3 Beat and Guidance Raise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/caredx-soars-20-big-q3-173928848.html",
+      "published_at": "2026-10-30T17:39:28+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-08-07",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/NTRA/0001628280-26-054525_1604821"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NTRA/0001604821-26-000015_1604821"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-04T17:24:24.808109+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 37.71496523966338,
+    "revenue_qoq_change": 8.053754859009764,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.47,
+    "gross_margin": 64.45552972434407,
+    "operating_margin": -10.068681501162406,
+    "net_margin": -8.896579209564928,
+    "inventory_yoy_change": 48.043189858490564,
+    "inventory_qoq_change": 13.609818865683465,
+    "shares_yoy_change": 5.0524972871513585,
+    "free_cash_flow_ttm": 51197000.0,
+    "operating_cash_flow_ttm": 228239000.0,
+    "revenue_ttm": 2707075000.0,
+    "net_income_ttm": -192346000.0,
+    "ebitda_ttm": -183081000.0,
+    "total_debt": 238488000.0,
+    "cash": 1091502000.0,
+    "total_assets": 2657497000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 546600000.0,
+      "2025-09-30": 592183000.0,
+      "2025-12-31": 665498000.0,
+      "2026-03-31": 696644000.0,
+      "2026-06-30": 752750000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": -0.5,
+      "2025-06-30": -0.74,
+      "2025-09-30": -0.64,
+      "2025-12-31": null,
+      "2026-03-31": -0.6,
+      "2026-06-30": -0.47
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 54272000.0,
+      "2025-09-30": 64644000.0,
+      "2025-12-31": 68443000.0,
+      "2026-03-31": 70721000.0,
+      "2026-06-30": 80346000.0
+    },
+    "margin_change": -0.2594466480929185,
+    "operating_margin_yoy_change": 10.123780994263868,
+    "inventory_to_sales_ratio": 0.10673663234805712,
+    "fcf_margin": 1.891229463535366,
+    "net_debt": -853014000.0,
+    "debt_to_assets": 8.974158766689106
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/NTRA/insider-transactions/",
+  "fmp_configured": false
+}

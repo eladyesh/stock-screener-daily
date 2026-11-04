@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "SBGI",
-    "fetch_date": "2026-08-14T14:11:30.699275",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 784000000.0,
-      "2025-09-30 00:00:00": 773000000.0,
-      "2025-12-31 00:00:00": 836000000.0,
-      "2026-03-31 00:00:00": 807000000.0,
-      "2026-06-30 00:00:00": 840000000.0
-    },
-    "revenue_qoq_change": 4.089219330855019,
-    "revenue_yoy_change": 7.142857142857142,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.91,
-      "2025-09-30 00:00:00": -0.02,
-      "2025-12-31 00:00:00": 1.55,
-      "2026-03-31 00:00:00": 0.28,
-      "2026-06-30 00:00:00": -1.06
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-04T17:09:57.611536+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 7.14285714285714,
+    "revenue_qoq_change": 4.089219330855021,
+    "eps_yoy_change": null,
     "eps_qoq_change": -478.57142857142856,
-    "eps_yoy_change": -16.483516483516485,
-    "gross_margin": 49.52,
-    "margin_change": 0.58,
-    "operating_margin": 6.55,
-    "inventory_breakdown_available": false
+    "latest_eps": -1.06,
+    "gross_margin": 49.523809523809526,
+    "operating_margin": 6.547619047619048,
+    "net_margin": -9.047619047619047,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.6902383997470922,
+    "free_cash_flow_ttm": 95000000.0,
+    "operating_cash_flow_ttm": 171000000.0,
+    "revenue_ttm": 3256000000.0,
+    "net_income_ttm": 52000000.0,
+    "ebitda_ttm": 634000000.0,
+    "total_debt": 4192000000.0,
+    "cash": 604000000.0,
+    "total_assets": 5481000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 784000000.0,
+      "2025-09-30": 773000000.0,
+      "2025-12-31": 836000000.0,
+      "2026-03-31": 807000000.0,
+      "2026-06-30": 840000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.91,
+      "2025-09-30": -0.02,
+      "2025-12-31": 1.55,
+      "2026-03-31": 0.28,
+      "2026-06-30": -1.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.5770932908479409,
+    "operating_margin_yoy_change": 2.7210884353741505,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.9176904176904177,
+    "net_debt": 3588000000.0,
+    "net_debt_to_ebitda": 5.659305993690852,
+    "debt_to_assets": 76.48239372377303,
+    "ticker": "SBGI"
   },
-  "fetched_at": "2026-08-14T14:11:30.700620"
+  "fetched_at": "2026-11-04T17:09:57.616088"
 }

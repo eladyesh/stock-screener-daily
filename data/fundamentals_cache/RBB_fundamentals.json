@@ -1,28 +1,53 @@
 {
   "data": {
-    "ticker": "RBB",
-    "fetch_date": "2026-08-14T14:08:36.564591",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-04T17:07:02.569201+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -7.561711158270967,
+    "revenue_qoq_change": -4.747654946193247,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -10.60606060606062,
+    "latest_eps": 0.59,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 30.630739487675207,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 54878000.0,
+    "operating_cash_flow_ttm": 55676000.0,
+    "revenue_ttm": 132743000.0,
+    "net_income_ttm": 41765000.0,
+    "ebitda_ttm": null,
+    "total_debt": 319320000.0,
+    "cash": 283615000.0,
+    "total_assets": 4275002000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 35812000.0,
-      "2025-09-30 00:00:00": 32570000.0,
-      "2025-12-31 00:00:00": 32315000.0,
-      "2026-03-31 00:00:00": 34754000.0,
-      "2026-06-30 00:00:00": 33104000.0
+      "2025-03-31": null,
+      "2025-06-30": 35812000.0,
+      "2025-09-30": 32570000.0,
+      "2025-12-31": 32315000.0,
+      "2026-03-31": 34754000.0,
+      "2026-06-30": 33104000.0
     },
-    "revenue_qoq_change": -4.747654946193244,
-    "revenue_yoy_change": -7.56171115827097,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.52,
-      "2025-09-30 00:00:00": 0.59,
-      "2025-12-31 00:00:00": 0.59,
-      "2026-03-31 00:00:00": 0.66,
-      "2026-06-30 00:00:00": 0.59
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.59,
+      "2025-12-31": 0.59,
+      "2026-03-31": 0.66,
+      "2026-06-30": 0.59
     },
-    "eps_qoq_change": -10.606060606060614,
-    "eps_yoy_change": 13.461538461538453,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 41.341539666875086,
+    "net_debt": 35705000.0,
+    "debt_to_assets": 7.469470189721548,
+    "ticker": "RBB"
   },
-  "fetched_at": "2026-08-14T14:08:36.565266"
+  "fetched_at": "2026-11-04T17:07:02.574014"
 }

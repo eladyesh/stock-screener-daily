@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "CNQ",
-  "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+  "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
   "metrics": {
     "revenue_yoy_change": 77.92248062015503,
     "revenue_qoq_change": 38.77781360851338,
@@ -29,11 +29,11 @@
     "net_debt": 14526000000.0,
     "net_debt_to_ebitda": 0.5724532019704434,
     "debt_to_assets": 17.750535808579148,
-    "market_cap": 110888091648.0,
-    "enterprise_value": 128143859712.0,
-    "forward_pe": 12.165661,
-    "trailing_pe": 13.216216,
-    "ev_ebitda": 6.698,
+    "market_cap": 103755300864.0,
+    "enterprise_value": 128061399040.0,
+    "forward_pe": 11.383114,
+    "trailing_pe": 12.366094,
+    "ev_ebitda": 6.694,
     "eps_fy0": 6.60812,
     "revenue_fy0": 49176085950.0,
     "analysts_fy0": 12.0,
@@ -45,266 +45,286 @@
     "eps_revision_30d": 15.485350489061013,
     "eps_revision_90d": 21.124551578035657,
     "eps_surprise_pct": 7.228892066041248,
-    "days_to_earnings": 2.0
+    "days_to_earnings": 1.0,
+    "forward_pe_historical_relative": 0.9203158973095239,
+    "ev_ebitda_historical_relative": 0.9903099341667283
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/financials/",
-      "retrieved_at": "2026-11-03T17:18:59.910427+00:00",
+      "retrieved_at": "2026-11-04T17:23:28.736712+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "2026-06-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CNQ/calendar/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
+    },
+    "forward_pe_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": [
+        "2026-10-15",
+        "2026-11-03"
+      ]
+    },
+    "ev_ebitda_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/CNQ/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": [
+        "2026-10-15",
+        "2026-11-03"
+      ]
     }
   },
   "status": {
@@ -323,6 +343,42 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Diamondback Q3 Earnings Beat on Higher Oil Prices and Production",
+      "url": "https://finance.yahoo.com/energy/articles/diamondback-q3-earnings-beat-higher-134700228.html",
+      "published_at": "2026-11-04T13:47:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chevron Advances Iraq Oilfield Deal, Expands Growth Prospects",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-advances-iraq-oilfield-deal-132900779.html",
+      "published_at": "2026-11-04T13:29:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Top Canadian Value Stocks For November 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-canadian-value-stocks-november-131224864.html",
+      "published_at": "2026-11-04T13:12:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "What's in Store for These 4 Energy Stocks in Q3 Earnings?",
+      "url": "https://finance.yahoo.com/energy/articles/whats-store-4-energy-stocks-130500125.html",
+      "published_at": "2026-11-04T13:05:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "6 Big Funds Bought Devon Energy. Is It a Buy Before Earnings?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/6-big-funds-bought-devon-115852711.html",
+      "published_at": "2026-11-04T11:58:52+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
     {
       "title": "Canadian Natural to Report Q3 Earnings: What's in the Offing?",
       "url": "https://finance.yahoo.com/energy/articles/canadian-natural-report-q3-earnings-154500276.html",
@@ -344,40 +400,6 @@
       "categories": [
         "earnings/guidance"
       ]
-    },
-    {
-      "title": "Lower Oil Prices Take Energy Stocks Down With Them",
-      "url": "https://finance.yahoo.com/m/dec4e0fc-004a-302a-a6a2-e02b13921a0c/lower-oil-prices-take-energy.html",
-      "published_at": "2026-11-02T21:04:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "Yacktman Asset Management's Top Q3 2026 Move: Coca-Cola Co at a -0.97% Portfolio Impact",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/yacktman-asset-managements-top-q3-200131492.html",
-      "published_at": "2026-11-02T20:01:31+00:00",
-      "categories": []
-    },
-    {
-      "title": "Petrobras Strengthens Brazil's Exploration Outlook With Third Find",
-      "url": "https://finance.yahoo.com/energy/articles/petrobras-strengthens-brazils-exploration-outlook-163400782.html",
-      "published_at": "2026-11-02T16:34:00+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "NOV Expects Higher Offshore Bookings on Strong FPSO Project Pipeline",
-      "url": "https://finance.yahoo.com/energy/articles/nov-expects-higher-offshore-bookings-141000583.html",
-      "published_at": "2026-11-02T14:10:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "How This 'Big 5' Oil Stock Turned The Tarry Stuff To Earnings Gold",
-      "url": "https://finance.yahoo.com/m/1bf99215-8625-3c41-ba72-8d0278a7196d/how-this-%27big-5%27-oil-stock.html",
-      "published_at": "2026-10-30T15:52:46+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
     }
   ],
   "insider_purchases": [],
@@ -396,7 +418,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-03T17:18:59.910427+00:00",
+    "fetch_date": "2026-11-04T17:23:28.736712+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 77.92248062015503,
     "revenue_qoq_change": 38.77781360851338,
@@ -458,12 +480,14 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 12.368703
     },
     "ev_ebitda": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 6.7595
     }
   }
 }

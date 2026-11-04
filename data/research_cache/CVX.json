@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "CVX",
-  "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+  "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
   "metrics": {
     "revenue_yoy_change": 51.43436619718309,
     "revenue_qoq_change": 41.3049878038523,
@@ -27,12 +27,12 @@
     "net_debt": 28545000000.0,
     "net_debt_to_ebitda": 0.5101785490875945,
     "debt_to_assets": 11.230254289911702,
-    "market_cap": 440844058624.0,
-    "enterprise_value": 478599282688.0,
-    "forward_pe": 13.917715,
-    "trailing_pe": 17.157022,
-    "ev_ebitda": 8.227,
-    "fcf_yield": 6.1273367467653195,
+    "market_cap": 419972251648.0,
+    "enterprise_value": 473721765888.0,
+    "forward_pe": 13.15964,
+    "trailing_pe": 15.804699,
+    "ev_ebitda": 8.144,
+    "fcf_yield": 6.431853507940835,
     "eps_fy0": 18.44964,
     "revenue_fy0": 248641429530.0,
     "analysts_fy0": 19.0,
@@ -44,260 +44,270 @@
     "eps_revision_30d": 12.063770665658202,
     "eps_revision_90d": 26.148225952729078,
     "eps_surprise_pct": 8.47390771089238,
-    "days_to_earnings": 87.0
+    "days_to_earnings": 86.0,
+    "forward_pe_historical_relative": 0.8903487429391544
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/financials/",
-      "retrieved_at": "2026-11-03T17:19:08.118300+00:00",
+      "retrieved_at": "2026-11-04T17:23:38.319216+00:00",
       "period": "2026-06-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "2026-06-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/analysis/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": "2026-09-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/CVX/calendar/",
-      "retrieved_at": "2026-11-03T17:18:39.583888+00:00",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
       "period": null
+    },
+    "forward_pe_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/CVX/key-statistics/",
+      "retrieved_at": "2026-11-04T17:23:06.111863+00:00",
+      "period": [
+        "2026-10-15",
+        "2026-11-03"
+      ]
     }
   },
   "status": {
@@ -317,51 +327,51 @@
   },
   "news": [
     {
-      "title": "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire",
-      "url": "https://finance.yahoo.com/news/oil-looks-doha-washington-signs-164100497.html",
-      "published_at": "2026-11-03T16:41:00+00:00",
+      "title": "Stock Market Today: Dow, Nasdaq Flex Strength As Military, Oil Stocks Take A Dive (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow%2C.html",
+      "published_at": "2026-11-04T16:12:32+00:00",
       "categories": []
     },
     {
-      "title": "Our Pick Of The Best Dividend Stocks In November 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pick-best-dividend-stocks-november-161611533.html",
-      "published_at": "2026-11-03T16:16:11+00:00",
+      "title": "Physical Oil Just Went From a Bidding War to a Fire Sale",
+      "url": "https://finance.yahoo.com/energy/articles/physical-oil-just-went-bidding-160410193.html",
+      "published_at": "2026-11-04T16:04:10+00:00",
       "categories": []
     },
     {
-      "title": "Defense and Energy Stocks Are Among the Winners of a Split Congress",
-      "url": "https://finance.yahoo.com/m/a25496e2-2082-3b91-b88c-2ad5f5e65934/defense-and-energy-stocks-are.html",
-      "published_at": "2026-11-03T16:03:32+00:00",
+      "title": "Bet on These Oil & Gas ETFs Capitalizing on the US-Iran War Windfall",
+      "url": "https://finance.yahoo.com/energy/articles/bet-oil-gas-etfs-capitalizing-134500348.html",
+      "published_at": "2026-11-04T13:45:00+00:00",
       "categories": []
     },
     {
-      "title": "Chevron Maintains 2028 Data Center Power Target Despite Texas Pause",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-maintains-2028-data-center-145400067.html",
-      "published_at": "2026-11-03T14:54:00+00:00",
+      "title": "Are Oils-Energy Stocks Lagging  Chevron (CVX) This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oils-energy-stocks-lagging-chevron-134002464.html",
+      "published_at": "2026-11-04T13:40:02+00:00",
       "categories": []
     },
     {
-      "title": "ExxonMobil Stock Trades at a Premium: Is It Still Worth Buying?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-trades-premium-still-143800073.html",
-      "published_at": "2026-11-03T14:38:00+00:00",
+      "title": "Exxon Mobil Just Raised Its Dividend for the 44th Year. Here Are 3 More Wall Street Favorites",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-just-raised-dividend-133750160.html",
+      "published_at": "2026-11-04T13:37:50+00:00",
       "categories": []
     },
     {
-      "title": "Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-141747036.html",
-      "published_at": "2026-11-03T14:17:47+00:00",
+      "title": "Wall Street Analysts Think Chevron (CVX) Is a Good Investment: Is It?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-chevron-133003186.html",
+      "published_at": "2026-11-04T13:30:03+00:00",
       "categories": []
     },
     {
-      "title": "What Just Happened To Venture Global Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-venture-global-stock-134727025.html",
-      "published_at": "2026-11-03T13:47:27+00:00",
+      "title": "Chevron Advances Iraq Oilfield Deal, Expands Growth Prospects",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-advances-iraq-oilfield-deal-132900779.html",
+      "published_at": "2026-11-04T13:29:00+00:00",
       "categories": []
     },
     {
-      "title": "Chevron Corporation (CVX) is Attracting Investor Attention: Here is What You Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-attracting-investor-130004858.html",
-      "published_at": "2026-11-03T13:00:04+00:00",
+      "title": "Shell Agrees to $1.45 Billion Sale of North West Shelf Stake",
+      "url": "https://finance.yahoo.com/energy/articles/shell-agrees-1-45-billion-131400373.html",
+      "published_at": "2026-11-04T13:14:00+00:00",
       "categories": []
     }
   ],
@@ -399,7 +409,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-03T17:19:08.118300+00:00",
+    "fetch_date": "2026-11-04T17:23:38.319216+00:00",
     "report_period": "2026-06-30",
     "revenue_yoy_change": 51.43436619718309,
     "revenue_qoq_change": 41.3049878038523,
@@ -461,11 +471,12 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 14.78032075
     },
     "ev_ebitda": {
-      "prior_observations": 18,
+      "prior_observations": 19,
       "required": 20
     }
   }

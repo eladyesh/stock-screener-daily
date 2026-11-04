@@ -1,29 +1,52 @@
 {
   "data": {
-    "ticker": "MYRG",
-    "fetch_date": "2026-08-14T13:59:42.324884",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-04T16:58:15.408976+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 32.473905723905716,
+    "revenue_qoq_change": 16.390919335470034,
+    "eps_yoy_change": 86.34146341463416,
+    "eps_qoq_change": 20.504731861198742,
+    "latest_eps": 3.82,
+    "gross_margin": 13.601004581297376,
+    "operating_margin": 6.6429606237172685,
+    "net_margin": 4.765963057332935,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.5757789009020575,
+    "free_cash_flow_ttm": 137106000.0,
+    "operating_cash_flow_ttm": 248985000.0,
+    "revenue_ttm": 4314683000.0,
+    "net_income_ttm": 193204000.0,
+    "ebitda_ttm": 343088000.0,
+    "total_debt": 281113000.0,
+    "cash": 26010000.0,
+    "total_assets": 2107546000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 900325000.0,
-      "2025-09-30 00:00:00": 950400000.0,
-      "2025-12-31 00:00:00": 973544000.0,
-      "2026-03-31 00:00:00": 1000380000.0,
-      "2026-06-30 00:00:00": 1081727000.0
+      "2025-09-30": 950400000.0,
+      "2025-12-31": 973544000.0,
+      "2026-03-31": 1000380000.0,
+      "2026-06-30": 1081727000.0,
+      "2026-09-30": 1259032000.0
     },
-    "revenue_qoq_change": 8.131609988204483,
-    "revenue_yoy_change": 20.14850192985866,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.7,
-      "2025-09-30 00:00:00": 2.05,
-      "2025-12-31 00:00:00": 2.33,
-      "2026-03-31 00:00:00": 2.99,
-      "2026-06-30 00:00:00": 3.17
+      "2025-09-30": 2.05,
+      "2025-12-31": 2.33,
+      "2026-03-31": 2.99,
+      "2026-06-30": 3.17,
+      "2026-09-30": 3.82
     },
-    "eps_qoq_change": 6.020066889632097,
-    "eps_yoy_change": 86.47058823529412,
-    "gross_margin": 13.19,
-    "margin_change": -0.25,
-    "operating_margin": 6.2,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": 0.4116324014405368,
+    "operating_margin_yoy_change": 1.933469882976528,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 3.177661023996433,
+    "net_debt": 255103000.0,
+    "net_debt_to_ebitda": 0.7435497598283822,
+    "debt_to_assets": 13.338404001620843,
+    "ticker": "MYRG"
   },
-  "fetched_at": "2026-08-14T13:59:42.326242"
+  "fetched_at": "2026-11-04T16:58:15.413458"
 }
