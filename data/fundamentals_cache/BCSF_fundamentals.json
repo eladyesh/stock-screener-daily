@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "BCSF",
-    "fetch_date": "2026-08-13T13:34:02.884367",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T16:36:11.076754+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": -37.223951922380714,
+    "revenue_qoq_change": 139.3374741200828,
+    "eps_yoy_change": -40.54054054054054,
+    "eps_qoq_change": 339.99999999999994,
+    "latest_eps": 0.22,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 81.0553633217993,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.0,
+    "free_cash_flow_ttm": 133569000.0,
+    "operating_cash_flow_ttm": 133569000.0,
+    "revenue_ttm": 78389000.0,
+    "net_income_ttm": 63932000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1501129000.0,
+    "cash": 112144000.0,
+    "total_assets": 2620082000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 33082000.0,
-      "2025-06-30 00:00:00": 27622000.0,
-      "2025-09-30 00:00:00": 22364000.0,
-      "2025-12-31 00:00:00": 31440000.0,
-      "2026-03-31 00:00:00": 7245000.0
+      "2025-03-31": null,
+      "2025-06-30": 27622000.0,
+      "2025-09-30": 22364000.0,
+      "2025-12-31": 31440000.0,
+      "2026-03-31": 7245000.0,
+      "2026-06-30": 17340000.0
     },
-    "revenue_qoq_change": -76.95610687022901,
-    "revenue_yoy_change": -78.09987304274227,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.44,
-      "2025-06-30 00:00:00": 0.37,
-      "2025-09-30 00:00:00": 0.29,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.05
+      "2025-03-31": 0.44,
+      "2025-06-30": 0.37,
+      "2025-09-30": 0.29,
+      "2025-12-31": null,
+      "2026-03-31": 0.05,
+      "2026-06-30": 0.22
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": -88.63636363636364,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 170.392529564097,
+    "net_debt": 1388985000.0,
+    "debt_to_assets": 57.29320685383129,
+    "ticker": "BCSF"
   },
-  "fetched_at": "2026-08-13T13:34:02.885048"
+  "fetched_at": "2026-11-05T16:36:11.079151"
 }

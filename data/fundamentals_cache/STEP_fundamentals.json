@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "STEP",
-    "fetch_date": "2026-08-11T14:15:00.267868",
-    "quarterly_revenue": {
-      "2025-06-30 00:00:00": 364287000.0,
-      "2025-09-30 00:00:00": 454225000.0,
-      "2025-12-31 00:00:00": 586511000.0,
-      "2026-03-31 00:00:00": 588580000.0,
-      "2026-06-30 00:00:00": 378889000.0
-    },
-    "revenue_qoq_change": -35.62659281660947,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:22:18.392979+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 4.008378009646241,
-    "quarterly_eps": {
-      "2025-06-30 00:00:00": -0.49,
-      "2025-09-30 00:00:00": -4.66,
-      "2025-12-31 00:00:00": -1.55,
-      "2026-03-31 00:00:00": -0.1,
-      "2026-06-30 00:00:00": -1.41
+    "revenue_qoq_change": -35.626592816609474,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.41,
+    "gross_margin": 43.79541237671191,
+    "operating_margin": -54.05540936791514,
+    "net_margin": -30.567263763265757,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 5.3296587614299895,
+    "free_cash_flow_ttm": -439386000.0,
+    "operating_cash_flow_ttm": -437312000.0,
+    "revenue_ttm": 2008205000.0,
+    "net_income_ttm": -613200000.0,
+    "ebitda_ttm": -1007087000.0,
+    "total_debt": 1568006000.0,
+    "cash": 702520000.0,
+    "total_assets": 7767674000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 364287000.0,
+      "2025-09-30": 454225000.0,
+      "2025-12-31": 586511000.0,
+      "2026-03-31": 588580000.0,
+      "2026-06-30": 378889000.0
     },
-    "eps_qoq_change": -1309.9999999999998,
-    "eps_yoy_change": -187.75510204081633,
-    "gross_margin": 43.8,
-    "margin_change": 5.04,
-    "operating_margin": -54.06,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.49,
+      "2025-09-30": -4.66,
+      "2025-12-31": -1.55,
+      "2026-03-31": -0.1,
+      "2026-06-30": -1.41
+    },
+    "quarterly_inventory": {},
+    "margin_change": 5.03551567617842,
+    "operating_margin_yoy_change": -37.85142734275366,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -21.879539190471093,
+    "net_debt": 865486000.0,
+    "debt_to_assets": 20.186300300450302,
+    "ticker": "STEP"
   },
-  "fetched_at": "2026-08-11T14:15:00.268776"
+  "fetched_at": "2026-11-05T17:22:18.396170"
 }

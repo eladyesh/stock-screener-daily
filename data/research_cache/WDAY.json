@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "WDAY",
-  "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
   "metrics": {
     "revenue_yoy_change": 12.819420783645663,
     "revenue_qoq_change": 4.209284028324145,
@@ -26,12 +26,12 @@
     "net_debt": 369000000.0,
     "net_debt_to_ebitda": 0.2096590909090909,
     "debt_to_assets": 23.787601690105316,
-    "market_cap": 46831120384.0,
-    "enterprise_value": 49619759104.0,
-    "forward_pe": 14.673457,
-    "trailing_pe": 39.576378,
-    "ev_ebitda": 31.286,
-    "fcf_yield": 6.072884818215157,
+    "market_cap": 48308449280.0,
+    "enterprise_value": 49012441088.0,
+    "forward_pe": 15.136344,
+    "trailing_pe": 40.82485,
+    "ev_ebitda": 30.903,
+    "fcf_yield": 5.887168895685157,
     "eps_fy0": 11.08703,
     "revenue_fy0": 10666594190.0,
     "analysts_fy0": 41.0,
@@ -42,248 +42,255 @@
     "forward_revenue_growth": 10.44416521483884,
     "eps_revision_30d": 0.07541763079821351,
     "eps_revision_90d": 4.73826821872434,
-    "eps_surprise_pct": 5.273634888065426
+    "eps_surprise_pct": 5.273634888065426,
+    "days_to_earnings": 19.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/financials/",
-      "retrieved_at": "2026-10-29T16:18:00.498164+00:00",
+      "retrieved_at": "2026-11-05T17:32:42.660112+00:00",
       "period": "2026-07-31"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/key-statistics/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "2026-07-31"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/WDAY/analysis/",
-      "retrieved_at": "2026-10-29T16:17:24.000065+00:00",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
       "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/WDAY/calendar/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
     }
   },
   "status": {
@@ -296,64 +303,60 @@
     "revisions": "ok",
     "earnings_history": "ok",
     "calendar": "ok",
-    "news": "missing",
+    "news": "unavailable",
     "news_search": "ok",
     "insiders": "ok",
     "filings": "ok"
   },
   "news": [
     {
-      "title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-tumbles-19-slower-contract-130905770.html",
-      "published_at": "2026-10-29T13:09:05+00:00",
-      "categories": [
-        "corporate/regulatory"
-      ]
-    },
-    {
-      "title": "ServiceNow Remains Down 20% Over 1 Year: This Prominent Wall Street Firm Expects 75% Gains Ahead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-remains-down-20-over-124522549.html",
-      "published_at": "2026-10-29T12:45:22+00:00",
+      "title": "Workday Named a Leader in 2026 Gartner\u00ae Magic Quadrant\u2122 for Cloud ERP for Service-Centric Enterprises for Fifth Consecutive Year",
+      "url": "https://finance.yahoo.com/technology/ai/articles/workday-named-leader-2026-gartner-165700708.html",
+      "published_at": "2026-11-05T16:57:00+00:00",
       "categories": []
     },
     {
-      "title": "Workday, Inc. (WDAY) is Attracting Investor Attention: Here is What You Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-inc-wday-attracting-investor-120002290.html",
-      "published_at": "2026-10-29T12:00:02+00:00",
-      "categories": []
-    },
-    {
-      "title": "Software Stocks Are Getting Crushed Again After Hours",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-getting-crushed-again-113211116.html",
-      "published_at": "2026-10-29T11:32:11+00:00",
-      "categories": []
-    },
-    {
-      "title": "Workday\u2019s Quarterly Earnings Preview: What You Need to Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-quarterly-earnings-preview-know-124309265.html",
-      "published_at": "2026-10-28T12:43:09+00:00",
+      "title": "Motorola Beats Q3 Earnings Estimates on Strong Demand, Record Orders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/motorola-beats-q3-earnings-estimates-124700638.html",
+      "published_at": "2026-11-05T12:47:00+00:00",
       "categories": [
         "earnings/guidance"
       ]
     },
     {
-      "title": "Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-wday-stock-slides-market-204503525.html",
-      "published_at": "2026-10-27T20:45:03+00:00",
+      "title": "Why Workday (WDAY) Outpaced the Stock Market Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-workday-wday-outpaced-stock-214501856.html",
+      "published_at": "2026-11-04T21:45:01+00:00",
       "categories": []
     },
     {
-      "title": "Automatic Data Processing Earnings Ahead: What Past Reactions Say About The Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-earnings-ahead-151458223.html",
-      "published_at": "2026-10-27T15:14:58+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
+      "title": "Can ServiceNow Stock Bounce Off Its Current Support?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-bounce-off-current-095909830.html",
+      "published_at": "2026-11-04T09:59:09+00:00",
+      "categories": []
     },
     {
-      "title": "AI Brings U.S. Enterprises More Value from Workday",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-brings-u-enterprises-more-140000221.html",
-      "published_at": "2026-10-26T14:00:00+00:00",
+      "title": "Chime, Workday Expand Partnership to Simplify Direct Deposit Setup",
+      "url": "https://finance.yahoo.com/technology/articles/chime-workday-expand-partnership-simplify-150935014.html",
+      "published_at": "2026-11-03T15:09:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chime Expands Partnership with Workday, Bringing Easier Access to Banking and Financial Wellness Benefits to Millions of Employees",
+      "url": "https://finance.yahoo.com/small-business/articles/chime-expands-partnership-workday-bringing-140500749.html",
+      "published_at": "2026-11-03T14:05:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can Workday Stock Get Back To Where It Was?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-stock-back-where-193703118.html",
+      "published_at": "2026-11-02T19:37:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Securian Financial Joins Workday Wellness to Advance Connected Employee Benefits Experience",
+      "url": "https://finance.yahoo.com/healthcare/articles/securian-financial-joins-workday-wellness-150000498.html",
+      "published_at": "2026-11-02T15:00:00+00:00",
       "categories": []
     }
   ],
@@ -386,7 +389,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-29T16:18:00.498164+00:00",
+    "fetch_date": "2026-11-05T17:32:42.660112+00:00",
     "report_period": "2026-07-31",
     "revenue_yoy_change": 12.819420783645663,
     "revenue_qoq_change": 4.209284028324145,
@@ -435,17 +438,19 @@
   },
   "currency": "USD",
   "financial_currency": "USD",
-  "earnings_dates": [],
-  "earnings_date_status": "unknown",
+  "earnings_dates": [
+    "2026-11-24"
+  ],
+  "earnings_date_status": "provider_estimate",
   "insider_source": "https://finance.yahoo.com/quote/WDAY/insider-transactions/",
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 0,
+      "prior_observations": 1,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 0,
+      "prior_observations": 1,
       "required": 20
     }
   }

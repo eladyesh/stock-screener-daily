@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "ticker": "DINO",
+  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+  "metrics": {
+    "revenue_yoy_change": 49.731071576334294,
+    "eps_yoy_change": 429.3023255813954,
+    "eps_qoq_change": 130.83164300202844,
+    "latest_eps": 11.38,
+    "gross_margin": 26.471400939486045,
+    "operating_margin": 25.126646403242148,
+    "net_margin": 18.559454729667497,
+    "inventory_yoy_change": 23.320158102766797,
+    "shares_yoy_change": -5.6986900734052215,
+    "total_debt": 3254000000.0,
+    "cash": 3333000000.0,
+    "total_assets": 20697000000.0,
+    "operating_margin_yoy_change": 17.34840891875725,
+    "inventory_to_sales_ratio": 0.3161094224924012,
+    "net_debt": -79000000.0,
+    "debt_to_assets": 15.722085326375804,
+    "market_cap": 17435301888.0,
+    "enterprise_value": 18012282880.0,
+    "forward_pe": 5.683894,
+    "trailing_pe": 5.1855245,
+    "ev_ebitda": 3.325,
+    "eps_fy0": 24.68938,
+    "revenue_fy0": 36540279940.0,
+    "analysts_fy0": 13.0,
+    "eps_fy1": 17.8997,
+    "revenue_fy1": 33394822900.0,
+    "analysts_fy1": 16.0,
+    "forward_eps_growth": -27.500407057609387,
+    "forward_revenue_growth": -8.608190865436482,
+    "eps_revision_30d": 40.48864181310301,
+    "eps_revision_90d": 98.89616335093424,
+    "eps_surprise_pct": 50.05619125459746
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/financials/",
+      "retrieved_at": "2026-11-05T17:32:22.493201+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DINO/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Marathon Petroleum Sinks 10%, Valero Down 8% as Oil Stocks Slide After Democrats Win the Senate",
+      "url": "https://finance.yahoo.com/energy/articles/marathon-petroleum-sinks-10-valero-200304712.html",
+      "published_at": "2026-11-04T20:03:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights Phillips 66, Valero Energy and HF Sinclair",
+      "url": "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-phillips-071600706.html",
+      "published_at": "2026-11-04T07:16:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "HF Sinclair (DINO) Just Gave Investors Something To Think About",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hf-sinclair-dino-just-gave-061549050.html",
+      "published_at": "2026-11-04T06:15:49+00:00",
+      "categories": []
+    },
+    {
+      "title": "HF Sinclair (DINO) Stock May Be Rich On Separation And Dividend News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hf-sinclair-dino-stock-may-051914304.html",
+      "published_at": "2026-11-04T05:19:14+00:00",
+      "categories": []
+    },
+    {
+      "title": "Oil Edges Lower As U.S. Bombs Iran Before Election Day",
+      "url": "https://finance.yahoo.com/m/8a60e112-9a70-3e41-b4d1-1e1a5147c1f0/oil-edges-lower-as-u.s.-bombs.html",
+      "published_at": "2026-11-03T21:07:20+00:00",
+      "categories": []
+    },
+    {
+      "title": "Best Value Stocks to Buy Now in November",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-now-182900086.html",
+      "published_at": "2026-11-03T18:29:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Valero to Acquire Houston Refining Site, Plans 165,000 BPD Restart",
+      "url": "https://finance.yahoo.com/energy/articles/valero-acquire-houston-refining-plans-171900957.html",
+      "published_at": "2026-11-03T17:19:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Should Investors Buy DINO Stock Amid Strong Refining Margins?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-dino-stock-amid-152900105.html",
+      "published_at": "2026-11-03T15:29:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "MYERS FRANKLIN",
+      "date": "2026-10-29",
+      "value": 1108000.0,
+      "description": "Purchase at price 110.80 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "MYERS FRANKLIN",
+      "date": "2026-08-11",
+      "value": 1279500.0,
+      "description": "Purchase at price 85.30 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DINO/0001628280-26-068615_1915657"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DINO/0001915657-26-000071_1915657"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "S-8",
+      "url": "https://finance.yahoo.com/sec-filing/DINO/0001193125-26-379726_1915657"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DINO/0001628280-26-059117_1915657"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:32:22.493201+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 49.731071576334294,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 429.3023255813954,
+    "eps_qoq_change": 130.83164300202844,
+    "latest_eps": 11.38,
+    "gross_margin": 26.471400939486045,
+    "operating_margin": 25.126646403242148,
+    "net_margin": 18.559454729667497,
+    "inventory_yoy_change": 23.320158102766797,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.6986900734052215,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 3254000000.0,
+    "cash": 3333000000.0,
+    "total_assets": 20697000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 6784000000.0,
+      "2025-09-30": 7251000000.0,
+      "2025-12-31": 6464000000.0,
+      "2026-03-31": 7123000000.0,
+      "2026-06-30": null,
+      "2026-09-30": 10857000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 2.15,
+      "2025-12-31": -0.16,
+      "2026-03-31": 3.56,
+      "2026-06-30": 4.93,
+      "2026-09-30": 11.38
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 2814000000.0,
+      "2025-09-30": 2783000000.0,
+      "2025-12-31": 2573000000.0,
+      "2026-03-31": 3269000000.0,
+      "2026-09-30": 3432000000.0
+    },
+    "margin_change": null,
+    "operating_margin_yoy_change": 17.34840891875725,
+    "inventory_to_sales_ratio": 0.3161094224924012,
+    "net_debt": -79000000.0,
+    "debt_to_assets": 15.722085326375804
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/DINO/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

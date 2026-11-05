@@ -1,30 +1,52 @@
 {
   "data": {
-    "ticker": "PSBD",
-    "fetch_date": "2026-08-14T14:07:21.404160",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 8255837.0,
-      "2025-09-30 00:00:00": 4447095.0,
-      "2025-12-31 00:00:00": -4303205.0,
-      "2026-03-31 00:00:00": -36148755.0,
-      "2026-06-30 00:00:00": 9515122.0
-    },
-    "revenue_qoq_change": -126.32212921302546,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:14:33.150096+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": 15.253268687354172,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.26,
-      "2025-06-30 00:00:00": 0.22,
-      "2025-09-30 00:00:00": 0.1,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -1.19,
-      "2026-06-30 00:00:00": 0.27
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 22.72727272727273,
+    "eps_qoq_change": null,
+    "latest_eps": 0.27,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 88.80794171635425,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.169153142786808,
+    "free_cash_flow_ttm": 123571931.0,
+    "operating_cash_flow_ttm": 123571931.0,
+    "revenue_ttm": -26489743.0,
+    "net_income_ttm": -30737277.0,
+    "ebitda_ttm": null,
+    "total_debt": 696492425.0,
+    "cash": 2448931.0,
+    "total_assets": 1132579678.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 8255837.0,
+      "2025-09-30": 4447095.0,
+      "2025-12-31": -4303205.0,
+      "2026-03-31": -36148755.0,
+      "2026-06-30": 9515122.0
     },
-    "eps_qoq_change": 122.6890756302521,
-    "eps_yoy_change": 22.727272727272734,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": -0.26,
+      "2025-06-30": 0.22,
+      "2025-09-30": 0.1,
+      "2025-12-31": null,
+      "2026-03-31": -1.19,
+      "2026-06-30": 0.27
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": 694043494.0,
+    "debt_to_assets": 61.496108267625125,
+    "ticker": "PSBD"
   },
-  "fetched_at": "2026-08-14T14:07:21.404826"
+  "fetched_at": "2026-11-05T17:14:33.152528"
 }

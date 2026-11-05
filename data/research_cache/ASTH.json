@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "ticker": "ASTH",
+  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+  "metrics": {
+    "revenue_yoy_change": 48.519871473775524,
+    "revenue_qoq_change": 0.7688322453631713,
+    "eps_yoy_change": 110.52631578947367,
+    "eps_qoq_change": 37.93103448275863,
+    "latest_eps": 0.4,
+    "gross_margin": 10.696129642578045,
+    "operating_margin": 3.5291819191379097,
+    "net_margin": 2.029675482252293,
+    "shares_yoy_change": 0.6212791468368284,
+    "free_cash_flow_ttm": 94379000.0,
+    "operating_cash_flow_ttm": 107873000.0,
+    "revenue_ttm": 3844194000.0,
+    "net_income_ttm": 40547000.0,
+    "ebitda_ttm": 190458000.0,
+    "total_debt": 979411000.0,
+    "cash": 400792000.0,
+    "total_assets": 2282080000.0,
+    "margin_change": -0.2606623996973667,
+    "operating_margin_yoy_change": 0.42292787215009,
+    "fcf_margin": 2.4551050233156806,
+    "net_debt": 578619000.0,
+    "net_debt_to_ebitda": 3.038039882808808,
+    "debt_to_assets": 42.91747002734348,
+    "market_cap": 1928369792.0,
+    "enterprise_value": 2377054976.0,
+    "forward_pe": 10.689724,
+    "trailing_pe": 46.83735,
+    "ev_ebitda": 13.59,
+    "fcf_yield": 4.894237629708732,
+    "eps_fy0": 3.06667,
+    "revenue_fy0": 3981936000.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 3.63667,
+    "revenue_fy1": 4383994300.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": 18.586936318547487,
+    "forward_revenue_growth": 10.097055804010925,
+    "eps_revision_30d": 2.7307909604519676,
+    "eps_revision_90d": 6.647214076246333,
+    "eps_surprise_pct": 9.589041095890426,
+    "days_to_earnings": 0.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/financials/",
+      "retrieved_at": "2026-11-05T17:32:11.660723+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ASTH/calendar/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "What\u2019s Behind Alignment Healthcare (ALHC) Stock\u2019s Latest Move?",
+      "url": "https://finance.yahoo.com/healthcare/articles/behind-alignment-healthcare-alhc-stock-201017157.html",
+      "published_at": "2026-10-31T20:10:17+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-23",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ASTH/0001104659-26-109822_1083446"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ASTH/0001104659-26-107730_1083446"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/ASTH/0001193125-26-342631_1083446"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:32:11.660723+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 48.519871473775524,
+    "revenue_qoq_change": 0.7688322453631713,
+    "eps_yoy_change": 110.52631578947367,
+    "eps_qoq_change": 37.93103448275863,
+    "latest_eps": 0.4,
+    "gross_margin": 10.696129642578045,
+    "operating_margin": 3.5291819191379097,
+    "net_margin": 2.029675482252293,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.6212791468368284,
+    "free_cash_flow_ttm": 94379000.0,
+    "operating_cash_flow_ttm": 107873000.0,
+    "revenue_ttm": 3844194000.0,
+    "net_income_ttm": 40547000.0,
+    "ebitda_ttm": 190458000.0,
+    "total_debt": 979411000.0,
+    "cash": 400792000.0,
+    "total_assets": 2282080000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 654808000.0,
+      "2025-09-30": 956048000.0,
+      "2025-12-31": 950526000.0,
+      "2026-03-31": 965100000.0,
+      "2026-06-30": 972520000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.01,
+      "2025-12-31": 0.12,
+      "2026-03-31": 0.29,
+      "2026-06-30": 0.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": -0.2606623996973667,
+    "operating_margin_yoy_change": 0.42292787215009,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 2.4551050233156806,
+    "net_debt": 578619000.0,
+    "net_debt_to_ebitda": 3.038039882808808,
+    "debt_to_assets": 42.91747002734348
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-05"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/ASTH/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

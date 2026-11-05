@@ -1,33 +1,53 @@
 {
   "data": {
-    "ticker": "SRTA",
-    "fetch_date": "2026-08-14T14:14:49.774872",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 45108000.0,
-      "2025-09-30 00:00:00": 49298000.0,
-      "2025-12-31 00:00:00": 66787000.0,
-      "2026-03-31 00:00:00": 67384000.0,
-      "2026-06-30 00:00:00": 72506000.0
-    },
-    "revenue_qoq_change": 7.601210969963196,
-    "revenue_yoy_change": 60.73867163252638,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.05,
-      "2025-09-30 00:00:00": 0.7,
-      "2025-12-31 00:00:00": -0.101877,
-      "2026-03-31 00:00:00": 0.03,
-      "2026-06-30 00:00:00": -0.12
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:21:56.399159+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 60.738671632526376,
+    "revenue_qoq_change": 7.601210969963201,
+    "eps_yoy_change": null,
     "eps_qoq_change": -500.0,
-    "eps_yoy_change": -139.99999999999997,
-    "gross_margin": 20.98,
-    "margin_change": 0.03,
-    "operating_margin": -7.46,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.12,
+    "gross_margin": 20.984470250737868,
+    "operating_margin": -7.4586930736766615,
+    "net_margin": -14.503627286017709,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 6.047583168770876,
+    "free_cash_flow_ttm": -49517000.0,
+    "operating_cash_flow_ttm": -36032000.0,
+    "revenue_ttm": 255975000.0,
+    "net_income_ttm": 40221000.0,
+    "ebitda_ttm": -4122000.0,
+    "total_debt": 4255000.0,
+    "cash": 22753000.0,
+    "total_assets": 332698000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 45108000.0,
+      "2025-09-30": 49298000.0,
+      "2025-12-31": 66787000.0,
+      "2026-03-31": 67384000.0,
+      "2026-06-30": 72506000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.05,
+      "2025-09-30": 0.7,
+      "2025-12-31": -0.101877,
+      "2026-03-31": 0.03,
+      "2026-06-30": -0.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.03439308108334771,
+    "operating_margin_yoy_change": 2.8299475222265045,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -19.344467233128235,
+    "net_debt": -18498000.0,
+    "debt_to_assets": 1.2789376551707554,
+    "ticker": "SRTA"
   },
-  "fetched_at": "2026-08-14T14:14:49.776201"
+  "fetched_at": "2026-11-05T17:21:56.403729"
 }

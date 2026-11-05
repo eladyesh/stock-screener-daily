@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "ticker": "BTSG",
+  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+  "metrics": {
+    "revenue_yoy_change": 26.367727960658716,
+    "revenue_qoq_change": 8.78083415523323,
+    "eps_yoy_change": 66.66666666666666,
+    "eps_qoq_change": 18.421052631578938,
+    "latest_eps": 0.45,
+    "gross_margin": 12.30762402468033,
+    "operating_margin": 3.8089505591191943,
+    "net_margin": 2.3767490720904654,
+    "inventory_yoy_change": 5.068093461306811,
+    "inventory_qoq_change": 16.796432751487366,
+    "shares_yoy_change": 1.0294427980291898,
+    "free_cash_flow_ttm": 492409000.0,
+    "operating_cash_flow_ttm": 602740000.0,
+    "revenue_ttm": 15250726000.0,
+    "net_income_ttm": 410275000.0,
+    "ebitda_ttm": 678846000.0,
+    "total_debt": 2378981000.0,
+    "cash": 717840000.0,
+    "total_assets": 6266621000.0,
+    "margin_change": -0.41450840533769195,
+    "operating_margin_yoy_change": 1.1742712777766093,
+    "inventory_to_sales_ratio": 0.15940011876862287,
+    "fcf_margin": 3.2287577653680226,
+    "net_debt": 1661141000.0,
+    "net_debt_to_ebitda": 2.447007126800482,
+    "debt_to_assets": 37.96273940932442,
+    "market_cap": 13392659456.0,
+    "enterprise_value": 16120551424.0,
+    "forward_pe": 27.860682,
+    "trailing_pe": 47.734043,
+    "ev_ebitda": 23.233,
+    "fcf_yield": 3.6767081371534274,
+    "eps_fy0": 1.92592,
+    "revenue_fy0": 16009885400.0,
+    "analysts_fy0": 15.0,
+    "eps_fy1": 2.41577,
+    "revenue_fy1": 18381105700.0,
+    "analysts_fy1": 17.0,
+    "forward_eps_growth": 25.434597491069198,
+    "forward_revenue_growth": 14.810976098554708,
+    "eps_revision_30d": 6.037142869683931,
+    "eps_revision_90d": 6.037142869683931,
+    "eps_surprise_pct": 14.674028456147802
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/financials/",
+      "retrieved_at": "2026-11-05T17:32:37.946655+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BTSG/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "iShares Russell 2000 (IWM) Buys $2.4 Million More Jackson Financial on Tuesday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110400445.html",
+      "published_at": "2026-11-05T11:04:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 US Healthcare Stocks With Medicare And Medicaid Exposure Investors Should Watch",
+      "url": "https://finance.yahoo.com/healthcare/articles/3-us-healthcare-stocks-medicare-001747623.html",
+      "published_at": "2026-11-05T00:17:47+00:00",
+      "categories": []
+    },
+    {
+      "title": "Here's Why You Should Retain BTSG Stock in Your Portfolio for Now",
+      "url": "https://finance.yahoo.com/healthcare/articles/heres-why-retain-btsg-stock-160500722.html",
+      "published_at": "2026-11-04T16:05:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "iShares Russell 2000 (IWM) Buys $1.9 Million More Jackson Financial on Nov. 2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110459276.html",
+      "published_at": "2026-11-04T11:04:59+00:00",
+      "categories": []
+    },
+    {
+      "title": "BTSG Q3 deep dive: broad-based growth and operational execution drive outperformance",
+      "url": "https://finance.yahoo.com/healthcare/articles/btsg-q3-deep-dive-broad-192536641.html",
+      "published_at": "2026-11-02T19:25:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "BrightSpring Q3 Earnings Beat on Specialty Growth, '26 View Raised",
+      "url": "https://finance.yahoo.com/healthcare/articles/brightspring-q3-earnings-beat-specialty-170800163.html",
+      "published_at": "2026-11-02T17:08:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "UBS Adjusts BrightSpring Health Services Price Target to $92 From $85, Maintains Buy Rating",
+      "url": "https://finance.yahoo.com/healthcare/articles/ubs-adjusts-brightspring-health-services-144555218.html",
+      "published_at": "2026-11-02T14:45:55+00:00",
+      "categories": []
+    },
+    {
+      "title": "BTSG Q3 Earnings Call Highlights Raised Guidance and 2027 Growth",
+      "url": "https://finance.yahoo.com/healthcare/articles/btsg-q3-earnings-call-highlights-140000968.html",
+      "published_at": "2026-11-02T14:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/BTSG/0001865782-26-000012_1865782"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:32:37.946655+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 26.367727960658716,
+    "revenue_qoq_change": 8.78083415523323,
+    "eps_yoy_change": 66.66666666666666,
+    "eps_qoq_change": 18.421052631578938,
+    "latest_eps": 0.45,
+    "gross_margin": 12.30762402468033,
+    "operating_margin": 3.8089505591191943,
+    "net_margin": 2.3767490720904654,
+    "inventory_yoy_change": 5.068093461306811,
+    "inventory_qoq_change": 16.796432751487366,
+    "shares_yoy_change": 1.0294427980291898,
+    "free_cash_flow_ttm": 492409000.0,
+    "operating_cash_flow_ttm": 602740000.0,
+    "revenue_ttm": 15250726000.0,
+    "net_income_ttm": 410275000.0,
+    "ebitda_ttm": 678846000.0,
+    "total_debt": 2378981000.0,
+    "cash": 717840000.0,
+    "total_assets": 6266621000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3334106000.0,
+      "2025-12-31": 3550631000.0,
+      "2026-03-31": 3613721000.0,
+      "2026-06-30": 3873140000.0,
+      "2026-09-30": 4213234000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.27,
+      "2025-12-31": 0.35,
+      "2026-03-31": 0.67,
+      "2026-06-30": 0.38,
+      "2026-09-30": 0.45
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 639195000.0,
+      "2025-12-31": 815180000.0,
+      "2026-03-31": 560166000.0,
+      "2026-06-30": 575009000.0,
+      "2026-09-30": 671590000.0
+    },
+    "margin_change": -0.41450840533769195,
+    "operating_margin_yoy_change": 1.1742712777766093,
+    "inventory_to_sales_ratio": 0.15940011876862287,
+    "fcf_margin": 3.2287577653680226,
+    "net_debt": 1661141000.0,
+    "net_debt_to_ebitda": 2.447007126800482,
+    "debt_to_assets": 37.96273940932442
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/BTSG/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -2,13 +2,13 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-10-29T15:55:30.255830+00:00",
+    "fetch_date": "2026-11-05T17:09:57.108561+00:00",
     "report_period": "2026-07-31",
     "revenue_yoy_change": null,
     "revenue_qoq_change": 2.345463036990725,
     "eps_yoy_change": null,
-    "eps_qoq_change": null,
-    "latest_eps": null,
+    "eps_qoq_change": 0.0,
+    "latest_eps": 1.0,
     "gross_margin": 27.83234848250472,
     "operating_margin": 14.109148284503295,
     "net_margin": 11.151502026420815,
@@ -25,7 +25,6 @@
     "total_assets": 428786000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-01-31": null,
       "2025-04-30": 115501000.0,
       "2025-10-31": 120486000.0,
       "2026-01-31": 117737000.0,
@@ -33,15 +32,13 @@
       "2026-07-31": 129292000.0
     },
     "quarterly_eps": {
-      "2025-01-31": 0.89,
       "2025-04-30": 0.8,
       "2025-10-31": 1.06,
       "2026-01-31": 0.87,
       "2026-04-30": 1.0,
-      "2026-07-31": null
+      "2026-07-31": 1.0
     },
     "quarterly_inventory": {
-      "2025-01-31": null,
       "2025-04-30": 56531000.0,
       "2025-07-31": null,
       "2025-10-31": 56645000.0,
@@ -58,5 +55,5 @@
     "debt_to_assets": 12.493878065048765,
     "ticker": "ODC"
   },
-  "fetched_at": "2026-10-29T15:55:30.259724"
+  "fetched_at": "2026-11-05T17:09:57.111791"
 }

@@ -1,28 +1,51 @@
 {
   "data": {
-    "ticker": "ALLY",
-    "fetch_date": "2026-08-14T13:24:14.870084",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T16:31:52.220434+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 11.43232588699079,
+    "revenue_qoq_change": 8.117297067573315,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 26.881720430107503,
+    "latest_eps": 1.18,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 16.11635220125786,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 762000000.0,
+    "operating_cash_flow_ttm": 4566000000.0,
+    "revenue_ttm": 9629000000.0,
+    "net_income_ttm": 1454000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 22342000000.0,
+    "cash": 7840000000.0,
+    "total_assets": 199772000000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 2283000000.0,
-      "2025-09-30 00:00:00": 2370000000.0,
-      "2025-12-31 00:00:00": 2362000000.0,
-      "2026-03-31 00:00:00": 2353000000.0,
-      "2026-06-30 00:00:00": 2544000000.0
+      "2025-06-30": 2283000000.0,
+      "2025-09-30": 2370000000.0,
+      "2025-12-31": 2362000000.0,
+      "2026-03-31": 2353000000.0,
+      "2026-06-30": 2544000000.0
     },
-    "revenue_qoq_change": 8.117297067573311,
-    "revenue_yoy_change": 11.432325886990801,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1.04,
-      "2025-09-30 00:00:00": 1.18,
-      "2025-12-31 00:00:00": 0.95,
-      "2026-03-31 00:00:00": 0.93,
-      "2026-06-30 00:00:00": 1.18
+      "2025-06-30": null,
+      "2025-09-30": 1.18,
+      "2025-12-31": 0.95,
+      "2026-03-31": 0.93,
+      "2026-06-30": 1.18
     },
-    "eps_qoq_change": 26.881720430107514,
-    "eps_yoy_change": 13.461538461538453,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 7.913594350399834,
+    "net_debt": 14502000000.0,
+    "debt_to_assets": 11.183749474400816,
+    "ticker": "ALLY"
   },
-  "fetched_at": "2026-08-14T13:24:14.870769"
+  "fetched_at": "2026-11-05T16:31:52.222892"
 }

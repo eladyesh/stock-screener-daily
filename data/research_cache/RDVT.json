@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "ticker": "RDVT",
+  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+  "metrics": {
+    "revenue_yoy_change": 22.705979608707636,
+    "revenue_qoq_change": 3.4378629500580793,
+    "eps_yoy_change": 88.8888888888889,
+    "eps_qoq_change": 13.333333333333353,
+    "latest_eps": 0.34,
+    "gross_margin": 85.71000823414926,
+    "operating_margin": 22.81233625271353,
+    "net_margin": 18.564263792200013,
+    "shares_yoy_change": -0.6103159411052439,
+    "free_cash_flow_ttm": 21192000.0,
+    "operating_cash_flow_ttm": 34083000.0,
+    "revenue_ttm": 99023000.0,
+    "net_income_ttm": 16376000.0,
+    "ebitda_ttm": 28787000.0,
+    "total_debt": 2647000.0,
+    "cash": 49972000.0,
+    "total_assets": 120348000.0,
+    "margin_change": 0.49514179977062156,
+    "operating_margin_yoy_change": 10.178001725295509,
+    "fcf_margin": 21.401088635973462,
+    "net_debt": -47325000.0,
+    "net_debt_to_ebitda": -1.643971237016709,
+    "debt_to_assets": 2.199454914082494,
+    "market_cap": 1150086656.0,
+    "enterprise_value": 1236433024.0,
+    "forward_pe": 40.721592,
+    "trailing_pe": 62.86842,
+    "ev_ebitda": 65.799,
+    "fcf_yield": 1.842643759880299,
+    "eps_fy0": 1.66,
+    "revenue_fy0": 106666250.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 1.76,
+    "revenue_fy1": 120773750.0,
+    "analysts_fy1": 4.0,
+    "forward_eps_growth": 6.024096385542177,
+    "forward_revenue_growth": 13.225832913409818,
+    "eps_revision_30d": 0.0,
+    "eps_revision_90d": 8.307692307692305,
+    "eps_surprise_pct": 13.25301204819278
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/financials/",
+      "retrieved_at": "2026-11-05T17:33:06.031435+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/key-statistics/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/RDVT/analysis/",
+      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "RDVT Q3 Earnings Call Highlights Growth & Expansion Plans",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rdvt-q3-earnings-call-highlights-161000300.html",
+      "published_at": "2026-11-05T16:10:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "B. Riley Adjusts Price Target on Red Violet to $110 From $85, Keeps Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-price-target-135935087.html",
+      "published_at": "2026-11-05T13:59:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Red Violet's Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-violets-q3-earnings-beat-123200923.html",
+      "published_at": "2026-11-05T12:32:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What Red Violet (RDVT) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/technology/ai/articles/red-violet-rdvt-said-q3-051448162.html",
+      "published_at": "2026-11-05T05:14:48+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Red Violet, Inc. (RDVT) Tops Q3 Earnings and Revenue Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-violet-inc-rdvt-tops-234510357.html",
+      "published_at": "2026-11-04T23:45:10+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "red violet Reports Third Quarter 2026 Financial Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-violet-reports-third-quarter-210500306.html",
+      "published_at": "2026-11-04T21:05:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "red violet Climbs 25 Spots to No. 82 on TIME\u2019s America\u2019s Growth Leaders of 2027 List",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-violet-climbs-25-spots-120000734.html",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "FOREWARN Introduces Community Alerts, Activating a Nationwide Agent Network as a Real-Time Safety Resource",
+      "url": "https://finance.yahoo.com/real-estate/articles/forewarn-introduces-community-alerts-activating-120000263.html",
+      "published_at": "2026-10-26T12:00:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "LIVEK WILLIAM PAUL",
+      "date": "2026-08-27",
+      "value": 142980.0,
+      "description": "Purchase at price 71.49 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/RDVT/0001193125-26-447527_1720116"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/RDVT/0001193125-26-345050_1720116"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/RDVT/0001193125-26-342598_1720116"
+    },
+    {
+      "date": "2026-08-07",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/RDVT/0001193125-26-340311_1720116"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T17:33:06.031435+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 22.705979608707636,
+    "revenue_qoq_change": 3.4378629500580793,
+    "eps_yoy_change": 88.8888888888889,
+    "eps_qoq_change": 13.333333333333353,
+    "latest_eps": 0.34,
+    "gross_margin": 85.71000823414926,
+    "operating_margin": 22.81233625271353,
+    "net_margin": 18.564263792200013,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.6103159411052439,
+    "free_cash_flow_ttm": 21192000.0,
+    "operating_cash_flow_ttm": 34083000.0,
+    "revenue_ttm": 99023000.0,
+    "net_income_ttm": 16376000.0,
+    "ebitda_ttm": 28787000.0,
+    "total_debt": 2647000.0,
+    "cash": 49972000.0,
+    "total_assets": 120348000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 21774000.0,
+      "2025-09-30": 23083000.0,
+      "2025-12-31": 23392000.0,
+      "2026-03-31": 25830000.0,
+      "2026-06-30": 26718000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.24,
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.29,
+      "2025-12-31": null,
+      "2026-03-31": 0.3,
+      "2026-06-30": 0.34
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.49514179977062156,
+    "operating_margin_yoy_change": 10.178001725295509,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.401088635973462,
+    "net_debt": -47325000.0,
+    "net_debt_to_ebitda": -1.643971237016709,
+    "debt_to_assets": 2.199454914082494
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/RDVT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

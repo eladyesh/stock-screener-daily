@@ -1,33 +1,54 @@
 {
   "data": {
-    "ticker": "ABX",
-    "fetch_date": "2026-08-13T13:27:25.670972",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 44139346.0,
-      "2025-06-30 00:00:00": 56224620.0,
-      "2025-09-30 00:00:00": 62975156.0,
-      "2025-12-31 00:00:00": 71898514.0,
-      "2026-03-31 00:00:00": 59390288.0,
-      "2026-06-30 00:00:00": NaN
-    },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 0.05,
-      "2025-06-30 00:00:00": 0.18,
-      "2025-09-30 00:00:00": 0.07,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.07,
-      "2026-06-30 00:00:00": 0.07
-    },
-    "eps_qoq_change": 0.0,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-05T16:29:41.265601+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 29.871913763045434,
+    "revenue_qoq_change": 22.949378524650356,
     "eps_yoy_change": -61.11111111111111,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
-    "inventory_breakdown_available": false
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.07,
+    "gross_margin": 87.58634313699577,
+    "operating_margin": 29.414630158125192,
+    "net_margin": 9.075654488585934,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.114355012253454,
+    "free_cash_flow_ttm": 88436186.0,
+    "operating_cash_flow_ttm": 90754243.0,
+    "revenue_ttm": 267283948.0,
+    "net_income_ttm": 28195231.0,
+    "ebitda_ttm": 101112934.0,
+    "total_debt": 344307506.0,
+    "cash": 23388190.0,
+    "total_assets": 867730420.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 56224620.0,
+      "2025-09-30": 62975156.0,
+      "2025-12-31": 71898514.0,
+      "2026-03-31": 59390288.0,
+      "2026-06-30": 73019990.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.05,
+      "2025-06-30": 0.18,
+      "2025-09-30": 0.07,
+      "2025-12-31": null,
+      "2026-03-31": 0.07,
+      "2026-06-30": 0.07
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.7934271715772496,
+    "operating_margin_yoy_change": -11.122502862960587,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 33.086979843623084,
+    "net_debt": 320919316.0,
+    "net_debt_to_ebitda": 3.1738700807554454,
+    "debt_to_assets": 39.67908673756072,
+    "ticker": "ABX"
   },
-  "fetched_at": "2026-08-13T13:27:25.672495"
+  "fetched_at": "2026-11-05T16:29:41.269309"
 }
