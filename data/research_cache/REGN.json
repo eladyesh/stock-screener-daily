@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "ticker": "REGN",
+  "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+  "metrics": {
+    "revenue_yoy_change": 36.26508270516475,
+    "revenue_qoq_change": 19.229962476985097,
+    "eps_yoy_change": 35.46255506607929,
+    "eps_qoq_change": 50.8585445625511,
+    "latest_eps": 18.45,
+    "gross_margin": 88.78767739161032,
+    "operating_margin": 40.457015520544196,
+    "net_margin": 38.09179404980648,
+    "inventory_yoy_change": -38.72603244837758,
+    "inventory_qoq_change": -35.34675615212528,
+    "shares_yoy_change": -1.4925373134328401,
+    "free_cash_flow_ttm": 3628100000.0,
+    "operating_cash_flow_ttm": 4846000000.0,
+    "revenue_ttm": 16896200000.0,
+    "net_income_ttm": 4817400000.0,
+    "ebitda_ttm": 6246400000.0,
+    "total_debt": 2707000000.0,
+    "cash": 9301100000.0,
+    "total_assets": 44405200000.0,
+    "margin_change": 2.2237134696395344,
+    "operating_margin_yoy_change": 10.893581591449557,
+    "inventory_to_sales_ratio": 0.38979240783455177,
+    "fcf_margin": 21.472875557817733,
+    "net_debt": -6594100000.0,
+    "net_debt_to_ebitda": -1.0556640625,
+    "debt_to_assets": 6.096132885337753,
+    "market_cap": 93896515584.0,
+    "enterprise_value": 84009984000.0,
+    "forward_pe": 12.834304,
+    "trailing_pe": 20.063438,
+    "ev_ebitda": 14.878,
+    "fcf_yield": 3.8639346491556386,
+    "eps_fy0": 68.74974,
+    "revenue_fy0": 17604178700.0,
+    "analysts_fy0": 25.0,
+    "eps_fy1": 62.124,
+    "revenue_fy1": 20149877690.0,
+    "analysts_fy1": 10.0,
+    "forward_eps_growth": -9.637476447183657,
+    "forward_revenue_growth": 14.460765443150159,
+    "eps_revision_30d": 22.70534836041289,
+    "eps_revision_90d": 23.799573186005674,
+    "eps_surprise_pct": 23.536276701562954,
+    "days_to_earnings": 83.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/financials/",
+      "retrieved_at": "2026-11-06T16:59:23.456763+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/key-statistics/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/REGN/calendar/",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Mary Tyler Moore Vision Initiative Welcomes Regeneron and Adaptive Sensory Technology to Its Consortium",
+      "url": "https://finance.yahoo.com/healthcare/articles/mary-tyler-moore-vision-initiative-160600910.html",
+      "published_at": "2026-11-05T16:06:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Regeneron Stock Riskier Than It Looks?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-stock-riskier-looks-103641734.html",
+      "published_at": "2026-11-05T10:36:41+00:00",
+      "categories": []
+    },
+    {
+      "title": "DZ Bank Adjusts Price Target on Regeneron Pharmaceuticals to $1,067 From $900",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dz-bank-adjusts-price-target-103035676.html",
+      "published_at": "2026-11-05T10:30:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Regeneron Stock Increasing Your Market Risk?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-stock-increasing-market-risk-222208681.html",
+      "published_at": "2026-11-04T22:22:08+00:00",
+      "categories": []
+    },
+    {
+      "title": "Was There Any Sign Regeneron Stock Would Run?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sign-regeneron-stock-run-205919907.html",
+      "published_at": "2026-11-04T20:59:19+00:00",
+      "categories": []
+    },
+    {
+      "title": "Moderna Soars 8% on Early Multiple Myeloma Data for Its Three-in-One mRNA Therapy",
+      "url": "https://finance.yahoo.com/healthcare/articles/moderna-soars-8-early-multiple-164119870.html",
+      "published_at": "2026-11-04T16:41:19+00:00",
+      "categories": []
+    },
+    {
+      "title": "Why Regeneron (REGN) Might be Well Poised for a Surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-regeneron-regn-might-well-162002464.html",
+      "published_at": "2026-11-04T16:20:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "REGN vs. ILMN: Which Stock Is the Better Value Option?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/regn-vs-ilmn-stock-better-154001705.html",
+      "published_at": "2026-11-04T15:40:01+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/REGN/0000872589-26-000034_872589"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/REGN/0001104659-26-113895_872589"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/REGN/0001104659-26-112340_872589"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "N-PX",
+      "url": "https://finance.yahoo.com/sec-filing/REGN/0001104659-26-099230_872589"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-06T16:59:23.456763+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 36.26508270516475,
+    "revenue_qoq_change": 19.229962476985097,
+    "eps_yoy_change": 35.46255506607929,
+    "eps_qoq_change": 50.8585445625511,
+    "latest_eps": 18.45,
+    "gross_margin": 88.78767739161032,
+    "operating_margin": 40.457015520544196,
+    "net_margin": 38.09179404980648,
+    "inventory_yoy_change": -38.72603244837758,
+    "inventory_qoq_change": -35.34675615212528,
+    "shares_yoy_change": -1.4925373134328401,
+    "free_cash_flow_ttm": 3628100000.0,
+    "operating_cash_flow_ttm": 4846000000.0,
+    "revenue_ttm": 16896200000.0,
+    "net_income_ttm": 4817400000.0,
+    "ebitda_ttm": 6246400000.0,
+    "total_debt": 2707000000.0,
+    "cash": 9301100000.0,
+    "total_assets": 44405200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 3754300000.0,
+      "2025-12-31": 3884300000.0,
+      "2026-03-31": 3605400000.0,
+      "2026-06-30": 4290700000.0,
+      "2026-09-30": 5115800000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 13.62,
+      "2025-12-31": 7.86,
+      "2026-03-31": 6.75,
+      "2026-06-30": 12.23,
+      "2026-09-30": 18.45
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3254400000.0,
+      "2025-12-31": 3200800000.0,
+      "2026-03-31": 3103600000.0,
+      "2026-06-30": 3084300000.0,
+      "2026-09-30": 1994100000.0
+    },
+    "margin_change": 2.2237134696395344,
+    "operating_margin_yoy_change": 10.893581591449557,
+    "inventory_to_sales_ratio": 0.38979240783455177,
+    "fcf_margin": 21.472875557817733,
+    "net_debt": -6594100000.0,
+    "net_debt_to_ebitda": -1.0556640625,
+    "debt_to_assets": 6.096132885337753
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-28"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/REGN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

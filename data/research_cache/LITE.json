@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "LITE",
-  "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+  "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
   "metrics": {
     "revenue_yoy_change": 136.53053578119145,
     "revenue_qoq_change": 25.469541886117455,
@@ -27,12 +27,12 @@
     "fcf_margin": 9.519610986427274,
     "net_debt": -549400000.0,
     "debt_to_assets": 19.661809183392904,
-    "market_cap": 48195403776.0,
-    "enterprise_value": 56234151936.0,
-    "forward_pe": 13.623383,
+    "market_cap": 48199483392.0,
+    "enterprise_value": 45680390144.0,
+    "forward_pe": 13.624536,
     "trailing_pe": null,
-    "ev_ebitda": 49.228,
-    "fcf_yield": 0.7392821142364362,
+    "ev_ebitda": 39.712,
+    "fcf_yield": 0.7392195412184388,
     "eps_fy0": 24.82721,
     "revenue_fy0": 6690419310.0,
     "analysts_fy0": 19.0,
@@ -44,253 +44,253 @@
     "eps_revision_30d": 9.686067537106435,
     "eps_revision_90d": 30.69340332974304,
     "eps_surprise_pct": 8.19282470868432,
-    "days_to_earnings": 89.0
+    "days_to_earnings": 88.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/financials/",
-      "retrieved_at": "2026-11-05T17:32:55.648433+00:00",
+      "retrieved_at": "2026-11-06T16:59:27.091805+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/key-statistics/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/key-statistics/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/key-statistics/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/key-statistics/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/key-statistics/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "2026-09-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/analysis/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": "2026-09-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/LITE/calendar/",
-      "retrieved_at": "2026-11-05T17:31:48.734014+00:00",
+      "retrieved_at": "2026-11-06T16:58:50.536368+00:00",
       "period": null
     }
   },
@@ -311,60 +311,61 @@
   },
   "news": [
     {
-      "title": "Stock Market Today: Nasdaq Slumps 4% As AI Unwinds; Qualcomm Tumbles On Soft Outlook (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-nasdaq.html",
-      "published_at": "2026-11-05T17:19:06+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Lumentum Sinks 15% as AI Chip Selloff Deepens",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-sinks-15-ai-chip-170515323.html",
-      "published_at": "2026-11-05T17:05:15+00:00",
+      "title": "Marvell Is Betting $115 Billion on 1 of AI's Biggest Bottlenecks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/marvell-betting-115-billion-1-160500639.html",
+      "published_at": "2026-11-06T16:05:00+00:00",
       "categories": []
     },
     {
-      "title": "Marvell Sinks Another 14% as Democratic Sweep Deepens AI Chip Selloff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-another-14-democratic-170336354.html",
-      "published_at": "2026-11-05T17:03:36+00:00",
+      "title": "Sandisk, AMD, Coherent, Lam Research, Airbnb, Moderna, and More Stocks That Explain Today\u2019s Market",
+      "url": "https://finance.yahoo.com/m/13933ac1-ca44-3c66-87e0-08f5c6b276e8/sandisk%2C-amd%2C-coherent%2C-lam.html",
+      "published_at": "2026-11-06T15:40:00+00:00",
       "categories": []
     },
     {
-      "title": "Applied Optoelectronics Sinks 16%, Coherent Tumbles 14% Despite Strong Outlook, Lumentum Plunges 13% as AI Optical Stocks Slide",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-sinks-16-coherent-165746528.html",
-      "published_at": "2026-11-05T16:57:46+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Marvell agrees to buy Lumentum in $115B stock deal",
-      "url": "https://finance.yahoo.com/technology/articles/marvell-agrees-buy-lumentum-115b-160900024.html",
-      "published_at": "2026-11-05T16:09:00+00:00",
+      "title": "Marvell Rises 4%, AMD Up 10% as Chip Stocks Rebound From Election Selloff",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-rises-4-amd-10-152255262.html",
+      "published_at": "2026-11-06T15:22:55+00:00",
       "categories": []
     },
     {
-      "title": "Marvell Stock Eyes 35% Upside After Lumentum Deal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-eyes-35-upside-143357159.html",
-      "published_at": "2026-11-05T14:33:57+00:00",
+      "title": "Chip Bounce Back. They're Still Trading at a Discount.",
+      "url": "https://finance.yahoo.com/m/ea75b254-d51f-3255-8a8d-538af8fba4d3/chip-bounce-back.-they%27re.html",
+      "published_at": "2026-11-06T15:17:36+00:00",
       "categories": []
     },
     {
-      "title": "Coherent Now Sees Growth Above 60% and Its First $4 Billion Quarter by Fiscal 2028",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-now-sees-growth-above-141953667.html",
-      "published_at": "2026-11-05T14:19:53+00:00",
+      "title": "Marvell Drops 50% in One Month: This Analyst Stands Pat on 195% Gains Prediction",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-drops-50-one-month-134534017.html",
+      "published_at": "2026-11-06T13:45:34+00:00",
       "categories": []
     },
     {
-      "title": "Marvell\u2019s $115 Billion Deal Has Lost More Than a Third of Its Value",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-115-billion-deal-lost-123439256.html",
-      "published_at": "2026-11-05T12:34:39+00:00",
+      "title": "Here's Why Lumentum (LITE) is Poised for a Turnaround After Losing 51.4% in 4 Weeks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-lumentum-lite-poised-133502533.html",
+      "published_at": "2026-11-06T13:35:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Prediction: The Next Big AI Stock Winner Could Be Hiding in Plain Sight",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-next-big-ai-stock-124758108.html",
+      "published_at": "2026-11-06T12:47:58+00:00",
+      "categories": []
+    },
+    {
+      "title": "Marvell Agreed to Pay $1,132 a Share for Lumentum. The Stock Trades Near $510. Here's Why It\u2019s Not as Good As It Looks.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-agreed-pay-1-132-123101386.html",
+      "published_at": "2026-11-06T12:31:01+00:00",
       "categories": []
     }
   ],
   "insider_purchases": [],
   "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "425",
+      "url": "https://finance.yahoo.com/sec-filing/LITE/0001193125-26-448735_1633978"
+    },
     {
       "date": "2026-11-03",
       "type": "10-Q",
@@ -373,7 +374,7 @@
     {
       "date": "2026-11-02",
       "type": "425",
-      "url": "https://finance.yahoo.com/sec-filing/LITE/0001193125-26-443823_1633978"
+      "url": "https://finance.yahoo.com/sec-filing/LITE/0001193125-26-443871_1633978"
     },
     {
       "date": "2026-10-06",
@@ -397,7 +398,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-05T17:32:55.648433+00:00",
+    "fetch_date": "2026-11-06T16:59:27.091805+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 136.53053578119145,
     "revenue_qoq_change": 25.469541886117455,
@@ -463,11 +464,11 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 0,
+      "prior_observations": 1,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 0,
+      "prior_observations": 1,
       "required": 20
     }
   }
