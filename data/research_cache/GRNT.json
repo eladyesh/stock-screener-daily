@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "ticker": "GRNT",
+  "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+  "metrics": {
+    "revenue_yoy_change": 36.67310632765361,
+    "revenue_qoq_change": 16.37949853427305,
+    "eps_yoy_change": 21.052631578947366,
+    "latest_eps": 0.23,
+    "gross_margin": 38.42757899955116,
+    "operating_margin": 32.267054323286864,
+    "net_margin": 20.094725770902976,
+    "shares_yoy_change": 0.18072104634423436,
+    "free_cash_flow_ttm": -102432000.0,
+    "operating_cash_flow_ttm": 256208000.0,
+    "revenue_ttm": 495693000.0,
+    "net_income_ttm": -27575000.0,
+    "ebitda_ttm": 222222000.0,
+    "total_debt": 462108000.0,
+    "cash": 44092000.0,
+    "total_assets": 1237577000.0,
+    "margin_change": 10.851641869881107,
+    "operating_margin_yoy_change": 13.282262299920966,
+    "fcf_margin": -20.66440316889688,
+    "net_debt": 418016000.0,
+    "net_debt_to_ebitda": 1.8810738810738812,
+    "debt_to_assets": 37.33973724463205,
+    "market_cap": 698011456.0,
+    "enterprise_value": 1114620544.0,
+    "forward_pe": 5.272443,
+    "trailing_pe": null,
+    "ev_ebitda": 4.09,
+    "fcf_yield": -14.67483078100082,
+    "eps_fy0": 0.48333,
+    "revenue_fy0": 615500000.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 1.00333,
+    "revenue_fy1": 669950000.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": 107.5869488755095,
+    "forward_revenue_growth": 8.846466287571086,
+    "eps_revision_30d": 29.74150750649789,
+    "eps_revision_90d": 52.94664634146342,
+    "eps_surprise_pct": 21.42857142857142
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/financials/",
+      "retrieved_at": "2026-11-07T15:57:44.747057+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRNT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "What Granite Ridge Resources (GRNT) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/energy/articles/granite-ridge-resources-grnt-said-132109991.html",
+      "published_at": "2026-11-07T13:21:09+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Granite Ridge Resources, Inc Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-inc-q3-133000065.html",
+      "published_at": "2026-11-06T13:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Granite Ridge Resources (NYSE:GRNT) reports bullish Q3 2026, stock jumps 10.2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-nyse-grnt-220417453.html",
+      "published_at": "2026-11-05T22:04:17+00:00",
+      "categories": []
+    },
+    {
+      "title": "Granite Ridge Resources, Inc. (GRNT) Q3 Earnings and Revenues Surpass Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-inc-grnt-214507525.html",
+      "published_at": "2026-11-05T21:45:07+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Granite Ridge Resources, Inc. Reports Third Quarter 2026 Results and Declares Quarterly Cash Dividend",
+      "url": "https://finance.yahoo.com/energy/articles/granite-ridge-resources-inc-reports-210700092.html",
+      "published_at": "2026-11-05T21:07:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "APA (APA) Q3 Earnings and Revenues Beat Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apa-apa-q3-earnings-revenues-215003186.html",
+      "published_at": "2026-11-04T21:50:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "3 Oil And Gas Stocks For Investors Watching Lower Crude Prices",
+      "url": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-investors-231513893.html",
+      "published_at": "2026-11-02T23:15:13+00:00",
+      "categories": []
+    },
+    {
+      "title": "Granite Ridge Resources, Inc. (GRNT) Earnings Expected to Grow: Should You Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-inc-grnt-130027305.html",
+      "published_at": "2026-10-29T13:00:27+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "MILLER MATTHEW READE",
+      "date": "2026-09-11",
+      "value": 50300.0,
+      "description": "Purchase at price 5.03 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "KETTLER RONALD KYLE",
+      "date": "2026-09-04",
+      "value": 30300.0,
+      "description": "Purchase at price 5.05 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "MCCARTNEY JOHN F",
+      "date": "2026-09-01",
+      "value": 25200.0,
+      "description": "Purchase at price 5.04 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "MCCARTNEY JOHN F",
+      "date": "2026-08-13",
+      "value": 10000.0,
+      "description": "Purchase at price 5.00 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "EVERARD MICHELE J.",
+      "date": "2026-08-13",
+      "value": 5000.0,
+      "description": "Purchase at price 5.00 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/GRNT/0001928446-26-000067_1928446"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "8-K/A",
+      "url": "https://finance.yahoo.com/sec-filing/GRNT/0001928446-26-000062_1928446"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/GRNT/0001928446-26-000059_1928446"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "POS AM",
+      "url": "https://finance.yahoo.com/sec-filing/GRNT/0001928446-26-000056_1928446"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-07T15:57:44.747057+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 36.67310632765361,
+    "revenue_qoq_change": 16.37949853427305,
+    "eps_yoy_change": 21.052631578947366,
+    "eps_qoq_change": null,
+    "latest_eps": 0.23,
+    "gross_margin": 38.42757899955116,
+    "operating_margin": 32.267054323286864,
+    "net_margin": 20.094725770902976,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.18072104634423436,
+    "free_cash_flow_ttm": -102432000.0,
+    "operating_cash_flow_ttm": 256208000.0,
+    "revenue_ttm": 495693000.0,
+    "net_income_ttm": -27575000.0,
+    "ebitda_ttm": 222222000.0,
+    "total_debt": 462108000.0,
+    "cash": 44092000.0,
+    "total_assets": 1237577000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 109219000.0,
+      "2025-09-30": 112671000.0,
+      "2025-12-31": 105485000.0,
+      "2026-03-31": 128264000.0,
+      "2026-06-30": 149273000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.19,
+      "2025-09-30": 0.11,
+      "2025-12-31": -0.19,
+      "2026-03-31": -0.36,
+      "2026-06-30": 0.23
+    },
+    "quarterly_inventory": {},
+    "margin_change": 10.851641869881107,
+    "operating_margin_yoy_change": 13.282262299920966,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -20.66440316889688,
+    "net_debt": 418016000.0,
+    "net_debt_to_ebitda": 1.8810738810738812,
+    "debt_to_assets": 37.33973724463205
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/GRNT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

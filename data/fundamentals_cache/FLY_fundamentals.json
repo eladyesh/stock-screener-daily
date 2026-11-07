@@ -1,41 +1,53 @@
 {
   "data": {
-    "ticker": "FLY",
-    "fetch_date": "2026-08-14T13:43:38.961393",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 55855000.0,
-      "2025-06-30 00:00:00": 15549000.0,
-      "2025-09-30 00:00:00": 30778000.0,
-      "2025-12-31 00:00:00": 57673000.0,
-      "2026-03-31 00:00:00": 80879000.0
-    },
-    "revenue_qoq_change": 40.23719938272675,
-    "revenue_yoy_change": 44.801718736012894,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": -0.504939,
-      "2025-06-30 00:00:00": -0.560699,
-      "2025-09-30 00:00:00": -1.5,
-      "2025-12-31 00:00:00": -0.26,
-      "2026-03-31 00:00:00": -0.61
-    },
-    "eps_qoq_change": -134.6153846153846,
-    "eps_yoy_change": -20.80667169697725,
-    "gross_margin": 21.59,
-    "margin_change": -6.09,
-    "operating_margin": -118.29,
-    "quarterly_inventory": {
-      "2024-12-31 00:00:00": 0.0,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
-    },
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-07T15:16:37.036088+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 656.8525307093704,
+    "revenue_qoq_change": 45.505013662384556,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.57,
+    "gross_margin": 20.287552152817316,
+    "operating_margin": -80.89273726876439,
+    "net_margin": -78.44718438517033,
+    "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "inventory_to_sales_ratio": NaN,
-    "inventory_breakdown_available": false
+    "shares_yoy_change": 15.10657792357235,
+    "free_cash_flow_ttm": -326493000.0,
+    "operating_cash_flow_ttm": -264415000.0,
+    "revenue_ttm": 287013000.0,
+    "net_income_ttm": -363464000.0,
+    "ebitda_ttm": -339447000.0,
+    "total_debt": 53397000.0,
+    "cash": 635264000.0,
+    "total_assets": 1639223000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 15549000.0,
+      "2025-09-30": 30778000.0,
+      "2025-12-31": 57673000.0,
+      "2026-03-31": 80879000.0,
+      "2026-06-30": 117683000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.560699,
+      "2025-09-30": -1.5,
+      "2025-12-31": -0.26,
+      "2026-03-31": -0.61,
+      "2026-06-30": -0.57
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.3014882655854834,
+    "operating_margin_yoy_change": 268.6474260857922,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -113.75547449070251,
+    "net_debt": -581867000.0,
+    "debt_to_assets": 3.25745795416487,
+    "ticker": "FLY"
   },
-  "fetched_at": "2026-08-14T13:43:38.963102"
+  "fetched_at": "2026-11-07T15:16:37.040783"
 }

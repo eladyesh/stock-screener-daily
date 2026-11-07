@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "ticker": "AVPT",
+  "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+  "metrics": {
+    "revenue_yoy_change": 22.03238644160834,
+    "revenue_qoq_change": 6.186349601678587,
+    "eps_yoy_change": 1100.0,
+    "eps_qoq_change": 71.4285714285714,
+    "latest_eps": 0.12,
+    "gross_margin": 73.10012450299209,
+    "operating_margin": 8.212378007148882,
+    "net_margin": 22.14546768946544,
+    "shares_yoy_change": -3.6316590961650075,
+    "free_cash_flow_ttm": 99229000.0,
+    "operating_cash_flow_ttm": 104694000.0,
+    "revenue_ttm": 466152000.0,
+    "net_income_ttm": 71481000.0,
+    "ebitda_ttm": 52057000.0,
+    "total_debt": 16310000.0,
+    "cash": 417250000.0,
+    "total_assets": 757003000.0,
+    "margin_change": 0.285774696608712,
+    "operating_margin_yoy_change": 1.2587031654542784,
+    "fcf_margin": 21.286833479208497,
+    "net_debt": -400940000.0,
+    "net_debt_to_ebitda": -7.7019421019267345,
+    "debt_to_assets": 2.1545489251693852,
+    "market_cap": 3476769024.0,
+    "enterprise_value": 3084182272.0,
+    "forward_pe": 32.603127,
+    "trailing_pe": 48.676468,
+    "ev_ebitda": 57.974,
+    "fcf_yield": 2.854057871403769,
+    "eps_fy0": 0.48625,
+    "revenue_fy0": 512098700.0,
+    "analysts_fy0": 11.0,
+    "eps_fy1": 0.50762,
+    "revenue_fy1": 616671510.0,
+    "analysts_fy1": 13.0,
+    "forward_eps_growth": 4.394858611825181,
+    "forward_revenue_growth": 20.420440434627164,
+    "eps_revision_30d": 4.463605869158105,
+    "eps_revision_90d": 5.49482522133089,
+    "eps_surprise_pct": 34.80025635547961
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/financials/",
+      "retrieved_at": "2026-11-07T15:57:47.680849+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/key-statistics/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVPT/analysis/",
+      "retrieved_at": "2026-11-07T15:57:16.134318+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "AvePoint (AVPT) Is Back In Focus, What Is Catching Investors' Attention?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-back-focus-catching-021149194.html",
+      "published_at": "2026-11-07T02:11:49+00:00",
+      "categories": []
+    },
+    {
+      "title": "AvePoint (AVPT) Stock Fair Value Edges Higher As Analysts Revisit AI And Security Demand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-stock-fair-value-221344123.html",
+      "published_at": "2026-11-06T22:13:44+00:00",
+      "categories": []
+    },
+    {
+      "title": "Guidance Raise Could Be A Game Changer For AvePoint Stock (AVPT)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/guidance-raise-could-game-changer-211327365.html",
+      "published_at": "2026-11-06T21:13:27+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "AvePoint (AVPT) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-q3-2026-earnings-161454474.html",
+      "published_at": "2026-11-06T16:14:54+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "AvePoint\u2019s Higher Software Sales, Raised Guidance Help Shares Rise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-higher-software-sales-raised-125702232.html",
+      "published_at": "2026-11-06T12:57:02+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "AvePoint Inc (AVPT) (Q3 2026) Earnings Call Highlights: Record Net New ARR and Accelerating ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-inc-avpt-q3-2026-052626791.html",
+      "published_at": "2026-11-06T05:26:26+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What AvePoint (AVPT) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-said-q3-earnings-011435570.html",
+      "published_at": "2026-11-06T01:14:35+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "AvePoint, Inc. (AVPT) Q3 Earnings and Revenues Surpass Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avepoint-inc-avpt-q3-earnings-000020333.html",
+      "published_at": "2026-11-06T00:00:20+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AVPT/0001437749-26-035271_1777921"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-07T15:57:47.680849+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 22.03238644160834,
+    "revenue_qoq_change": 6.186349601678587,
+    "eps_yoy_change": 1100.0,
+    "eps_qoq_change": 71.4285714285714,
+    "latest_eps": 0.12,
+    "gross_margin": 73.10012450299209,
+    "operating_margin": 8.212378007148882,
+    "net_margin": 22.14546768946544,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.6316590961650075,
+    "free_cash_flow_ttm": 99229000.0,
+    "operating_cash_flow_ttm": 104694000.0,
+    "revenue_ttm": 466152000.0,
+    "net_income_ttm": 71481000.0,
+    "ebitda_ttm": 52057000.0,
+    "total_debt": 16310000.0,
+    "cash": 417250000.0,
+    "total_assets": 757003000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 102018000.0,
+      "2025-09-30": 109728000.0,
+      "2025-12-31": 114687000.0,
+      "2026-03-31": 117242000.0,
+      "2026-06-30": 124495000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.01,
+      "2025-09-30": 0.06,
+      "2025-12-31": 0.07,
+      "2026-03-31": 0.07,
+      "2026-06-30": 0.12
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.285774696608712,
+    "operating_margin_yoy_change": 1.2587031654542784,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 21.286833479208497,
+    "net_debt": -400940000.0,
+    "net_debt_to_ebitda": -7.7019421019267345,
+    "debt_to_assets": 2.1545489251693852
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/AVPT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
