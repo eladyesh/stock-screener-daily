@@ -1,20 +1,20 @@
 ================================================================================
 OPTIMIZED FULL MARKET SCAN - ALL US STOCKS
-Scan Date: 2026-11-08
-Generated: 2026-11-08 16:17:21
+Scan Date: 2026-11-09
+Generated: 2026-11-09 19:54:09
 ================================================================================
 
 SCANNING STATISTICS
 --------------------------------------------------------------------------------
-Total Universe: 3,753 stocks
-Analyzed: 1,961 stocks
-Processing Time: 62.6 minutes
+Total Universe: 3,752 stocks
+Analyzed: 1,962 stocks
+Processing Time: 62.5 minutes
 Actual TPS: 1.00
 Latest price-bar dates across analyzed stocks: 2026-11-06 to 2026-11-06
 Coverage: successfully analyzed stocks after the upstream universe and liquidity filters.
 🟢 Error Rate: 0.00%
-🟢 Buy Signals: 272
-🔴 Sell Signals: 463
+🟢 Buy Signals: 270
+🔴 Sell Signals: 464
 
 
 ============================================================
@@ -29,11 +29,11 @@ BENCHMARK SUMMARY
   🟢 200 SMA: $727.65 (slope: 0.0553)
   🟡 Confidence: 65%
 
-Market Breadth (n=1961):
-  🟡 Phase 1 (Base Building): 1095 stocks (55.8%)
-  🟢 Phase 2 (Uptrend): 362 stocks (18.5%)
+Market Breadth (n=1962):
+  🟡 Phase 1 (Base Building): 1096 stocks (55.9%)
+  🟢 Phase 2 (Uptrend): 361 stocks (18.4%)
   🟡 Phase 3 (Distribution): 19 stocks (1.0%)
-  🔴 Phase 4 (Downtrend): 485 stocks (24.7%)
+  🔴 Phase 4 (Downtrend): 486 stocks (24.8%)
   🔴 Breadth Quality: Fair
 
 🟡 Market Regime: TRANSITIONAL / Uncertain
@@ -52,146 +52,145 @@ News/insider transactions are review context, not automatic buy points.
 
 weeks_to_months: REGN, ELF, AMGN, BB, FAST
 
-months_to_18m: PAYS, REGN, ADI, JRSH, COP, LRCX, AMD, MPC, AVPT, OXY
+months_to_18m: PAYS, EOG, REGN, ADI, COP, JRSH, LRCX, AVPT, AMD, MPC
 
 RS | $417.00 | price date 2026-11-06 | phase 2
   weeks_to_months: 76.5/100 | data coverage 100% | watchlist
   months_to_18m: 66.6/100 | data coverage 100% | candidate
-  Components: technical 80/100 (100% covered); growth 50/100 (100% covered); quality 62/100 (100% covered); valuation 68/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
+  Components: technical 80/100 (100% covered); growth 50/100 (100% covered); quality 62/100 (100% covered); valuation 67/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 42.78 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.934720+00:00
-  eps_yoy_change: 118.38 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.934720+00:00
-  fcf_margin: 2.83 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.934720+00:00
-  net_debt_to_ebitda: 0.90 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.934720+00:00
-  shares_yoy_change: -2.71 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.934720+00:00
-  forward_pe: 16.22 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.32 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -4.84 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 8.90 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 13.33 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 42.78 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:36.731616+00:00
+  eps_yoy_change: 118.38 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:36.731616+00:00
+  fcf_margin: 2.83 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:36.731616+00:00
+  net_debt_to_ebitda: 0.90 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:36.731616+00:00
+  shares_yoy_change: -2.71 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:36.731616+00:00
+  forward_pe: 16.24 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.31 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -4.84 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 8.90 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 13.33 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/RS/analysis/
   Source: https://finance.yahoo.com/quote/RS/financials/
   Source: https://finance.yahoo.com/quote/RS/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 10 prior daily observations (20 required)
-  ev_ebitda history: 10 prior daily observations (20 required)
+  forward_pe history: 11 prior daily observations (20 required)
+  ev_ebitda history: 11 prior daily observations (20 required)
+  News (2026-11-09T13:35:00+00:00): POSCO Partners With Hyundai Motor Group to Advance Vietnam Business | https://finance.yahoo.com/markets/stocks/articles/posco-partners-hyundai-motor-group-133500581.html
+  News (2026-11-09T13:29:00+00:00): CC's Q3 Earnings Miss Estimates on Weak TSS Volumes | https://finance.yahoo.com/markets/stocks/articles/ccs-q3-earnings-miss-estimates-132900761.html
   News (2026-11-07T13:11:48+00:00): Reliance (NYSE:RS) Stock Fair Value Edges Higher After Analysts Raise Targets | https://finance.yahoo.com/markets/stocks/articles/reliance-nyse-rs-stock-fair-131148225.html
-  News (2026-11-06T14:41:38+00:00): What Just Hit Nucor Stock? | https://finance.yahoo.com/markets/stocks/articles/just-hit-nucor-stock-144138140.html
-  News (2026-11-06T13:43:00+00:00): MEOH Q3 Earnings Beat Estimates on Strong Methanol Pricing | https://finance.yahoo.com/markets/stocks/articles/meoh-q3-earnings-beat-estimates-134300763.html
   Filing: 10-Q | 2026-10-27 | https://finance.yahoo.com/sec-filing/RS/0001104659-26-119157_861884
   Filing: 8-K | 2026-10-21 | https://finance.yahoo.com/sec-filing/RS/0001171843-26-006744_861884
 
 ADI | $363.56 | price date 2026-11-06 | phase 1
-  weeks_to_months: 68.1/100 | data coverage 100% | watchlist
-  months_to_18m: 78.6/100 | data coverage 100% | candidate
-  Components: technical 41/100 (100% covered); growth 95/100 (100% covered); quality 92/100 (100% covered); valuation 65/100 (100% covered); revisions 79/100 (100% covered); catalysts 67/100 (100% covered)
-  revenue_yoy_change: 39.63 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:41.074609+00:00
-  eps_yoy_change: 163.46 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:41.074609+00:00
-  fcf_margin: 35.57 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:41.074609+00:00
-  net_debt_to_ebitda: 0.97 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:41.074609+00:00
-  shares_yoy_change: -1.59 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:41.074609+00:00
-  forward_pe: 22.03 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.80 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 28.12 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 1.00 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 9.55 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 16.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 67.8/100 | data coverage 100% | watchlist
+  months_to_18m: 78.1/100 | data coverage 100% | candidate
+  Components: technical 41/100 (100% covered); growth 95/100 (100% covered); quality 92/100 (100% covered); valuation 63/100 (100% covered); revisions 79/100 (100% covered); catalysts 67/100 (100% covered)
+  revenue_yoy_change: 39.63 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:39.551167+00:00
+  eps_yoy_change: 163.46 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:39.551167+00:00
+  fcf_margin: 35.57 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:39.551167+00:00
+  net_debt_to_ebitda: 0.97 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:39.551167+00:00
+  shares_yoy_change: -1.59 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:39.551167+00:00
+  forward_pe: 23.70 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.61 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 28.12 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 1.00 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 9.55 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 15.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/ADI/analysis/
   Source: https://finance.yahoo.com/quote/ADI/calendar/
   Source: https://finance.yahoo.com/quote/ADI/financials/
   Source: https://finance.yahoo.com/quote/ADI/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-06T21:02:17+00:00): ADI Stock Couldn't Defy Gravity Of Chip Sector For Long | https://finance.yahoo.com/m/214d9cf4-3c3e-34fb-81c5-22b651095287/adi-stock-couldn%27t-defy.html
-  News (2026-11-06T15:35:00+00:00): FIVN Q3 Earnings & Revenues Surpass Estimates, Both Increase Y/Y | https://finance.yahoo.com/news/fivn-q3-earnings-revenues-surpass-153500224.html
-  News (2026-11-06T15:24:00+00:00): SYNA Q1 Earnings Beat Estimates, Revenues Miss on Weak Demand | https://finance.yahoo.com/markets/stocks/articles/syna-q1-earnings-beat-estimates-152400592.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T13:40:03+00:00): Is Analog Devices (ADI) Outperforming Other Computer and Technology Stocks This Year? | https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-outperforming-other-134003375.html
+  News (2026-11-09T12:46:06+00:00): What Could Send Texas Instruments Stock Soaring? | https://finance.yahoo.com/markets/stocks/articles/could-send-texas-instruments-stock-124606787.html
+  News (2026-11-09T11:07:16+00:00): Missed Analog Devices' Rally? Here's What Early Buyers Saw | https://finance.yahoo.com/markets/stocks/articles/missed-analog-devices-rally-heres-110716639.html
   Filing: 8-K | 2026-09-17 | https://finance.yahoo.com/sec-filing/ADI/0001193125-26-394361_6281
   Filing: 8-K | 2026-09-09 | https://finance.yahoo.com/sec-filing/ADI/0001193125-26-385938_6281
   Filing: 8-K | 2026-08-19 | https://finance.yahoo.com/sec-filing/ADI/0000006281-26-000072_6281
 
 HMC | $35.78 | price date 2026-11-06 | phase 2
-  weeks_to_months: 67.5/100 | data coverage 88% | watchlist
-  months_to_18m: 56.1/100 | data coverage 86% | watchlist
-  Components: technical 92/100 (100% covered); growth 64/100 (100% covered); quality 18/100 (75% covered); valuation 62/100 (67% covered); revisions 83/100 (100% covered); catalysts 0/100 (0% covered)
+  weeks_to_months: 64.2/100 | data coverage 85% | watchlist
+  months_to_18m: 49.4/100 | data coverage 79% | watchlist
+  Components: technical 92/100 (100% covered); growth 64/100 (100% covered); quality 18/100 (75% covered); valuation 29/100 (33% covered); revisions 83/100 (100% covered); catalysts 0/100 (0% covered)
   Review: FCF yield omitted: quote/statement currency match unverified
-  Review: Earnings within 2 days (provider estimate; verify date)
+  Review: Earnings within 1 days (provider estimate; verify date)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 13.51 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:42.020336+00:00
-  eps_yoy_change: 147.52 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:42.020336+00:00
-  fcf_margin: 0.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:42.020336+00:00
+  revenue_yoy_change: 13.51 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:41.885218+00:00
+  eps_yoy_change: 147.52 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:41.885218+00:00
+  fcf_margin: 0.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:41.885218+00:00
   net_debt_to_ebitda: N/A
-  shares_yoy_change: 7.95 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:42.020336+00:00
-  forward_pe: 7.21 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: 7.95 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:41.885218+00:00
+  forward_pe: N/A
   fcf_yield: N/A
-  forward_eps_growth: 58.29 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 1.65 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 14.41 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 2.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_eps_growth: 58.29 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 1.65 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 14.41 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 1.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/HMC/analysis/
   Source: https://finance.yahoo.com/quote/HMC/calendar/
   Source: https://finance.yahoo.com/quote/HMC/financials/
   Source: https://finance.yahoo.com/quote/HMC/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=missing, calendar=ok, news=unavailable, news_search=ok, insiders=missing, filings=ok
-  forward_pe history: 8 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-08T13:10:08+00:00): The Call Honda Motor Bulls Got Right | https://finance.yahoo.com/markets/stocks/articles/call-honda-motor-bulls-got-131008513.html
-  News (2026-11-08T09:14:35+00:00): What Is Honda Motor (TSE:7267) Planning With Two New Brazil Motorcycle Plants? | https://finance.yahoo.com/markets/stocks/articles/honda-motor-tse-7267-planning-091435202.html
-  News (2026-11-07T02:44:11+00:00): Just like cars, Chinese motorcycles out to conquer Europe | https://finance.yahoo.com/markets/articles/just-cars-chinese-motorcycles-conquer-024411326.html
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T18:38:13+00:00): Sector Update: Consumer Stocks Advance in Afternoon Trading | https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-183813305.html
+  News (2026-11-09T18:12:16+00:00): Sector Update: Consumer | https://finance.yahoo.com/markets/stocks/articles/sector-consumer-181216971.html
+  News (2026-11-09T16:56:00+00:00): Honda to Invest $3 Billion in New Ohio Plant to Boost Hybrid Vehicle Production | https://finance.yahoo.com/m/0e2d313a-54e3-37bc-b58d-7f8ee72a30a3/honda-to-invest-%243-billion-in.html
   Filing: 6-K | 2026-08-31 | https://finance.yahoo.com/sec-filing/HMC/0001193125-26-375276_715153
 
 AMD | $449.04 | price date 2026-11-06 | phase 1
-  weeks_to_months: 73.7/100 | data coverage 100% | watchlist
-  months_to_18m: 75.7/100 | data coverage 100% | candidate
-  Components: technical 51/100 (100% covered); growth 100/100 (100% covered); quality 78/100 (100% covered); valuation 48/100 (100% covered); revisions 100/100 (100% covered); catalysts 87/100 (100% covered)
-  revenue_yoy_change: 44.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:43.081136+00:00
-  eps_yoy_change: 94.67 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:43.081136+00:00
-  fcf_margin: 15.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:43.081136+00:00
-  net_debt_to_ebitda: -0.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:43.081136+00:00
-  shares_yoy_change: 1.22 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:43.081136+00:00
-  forward_pe: 25.45 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 0.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 118.20 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 11.78 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 15.08 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 86.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 73.3/100 | data coverage 100% | watchlist
+  months_to_18m: 74.9/100 | data coverage 100% | candidate
+  Components: technical 51/100 (100% covered); growth 100/100 (100% covered); quality 78/100 (100% covered); valuation 44/100 (100% covered); revisions 100/100 (100% covered); catalysts 87/100 (100% covered)
+  revenue_yoy_change: 44.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:44.162698+00:00
+  eps_yoy_change: 94.67 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:44.162698+00:00
+  fcf_margin: 15.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:44.162698+00:00
+  net_debt_to_ebitda: -0.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:44.162698+00:00
+  shares_yoy_change: 1.22 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:44.162698+00:00
+  forward_pe: 28.80 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 0.85 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 118.31 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 11.85 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 15.15 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 85.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/AMD/analysis/
   Source: https://finance.yahoo.com/quote/AMD/calendar/
   Source: https://finance.yahoo.com/quote/AMD/financials/
   Source: https://finance.yahoo.com/quote/AMD/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-08T10:27:02+00:00): AMD Stock Has More Than Doubled in 2026. Here's How Its Last 8 Doubles Played Out the Next Year. | https://finance.yahoo.com/markets/stocks/articles/amd-stock-more-doubled-2026-102702733.html
-  News (2026-11-08T09:07:03+00:00): Broadcom Just Dropped 15% in a Week. Is It Time to Sell, or Load Up? | https://finance.yahoo.com/markets/stocks/articles/broadcom-just-dropped-15-week-090703801.html
-  News (2026-11-08T04:33:00+00:00): Bank of America has unexpected advice for tech stock investors after midterms | https://finance.yahoo.com/markets/stocks/articles/bank-america-unexpected-advice-tech-043300594.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T19:16:48+00:00): AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies | https://finance.yahoo.com/technology/ai/articles/amd-lands-key-role-googles-191648789.html
+  News (2026-11-09T19:08:00+00:00): Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding | https://finance.yahoo.com/m/8ff940db-1410-329b-a621-969229eccd32/unless-nvidia-removes-jensen.html
+  News (2026-11-09T18:18:34+00:00): AMD Stock Rises On Google Cloud Deal, Wall Street Upgrade | https://finance.yahoo.com/m/544d9f43-0b7f-3c42-b942-64d1474d8198/amd-stock-rises-on-google.html
   Filing: 10-Q | 2026-11-04 | https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000191_2488
   Filing: 8-K | 2026-11-03 | https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000188_2488
   Filing: 8-K | 2026-09-28 | https://finance.yahoo.com/sec-filing/AMD/0000002488-26-000182_2488
 
 THC | $283.33 | price date 2026-11-06 | phase 2
   weeks_to_months: 69.7/100 | data coverage 100% | watchlist
-  months_to_18m: 69.0/100 | data coverage 100% | candidate
+  months_to_18m: 68.9/100 | data coverage 100% | candidate
   Components: technical 90/100 (100% covered); growth 41/100 (100% covered); quality 75/100 (100% covered); valuation 99/100 (100% covered); revisions 30/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 18.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:44.027387+00:00
-  eps_yoy_change: 221.50 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:44.027387+00:00
-  fcf_margin: 14.09 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:44.027387+00:00
-  net_debt_to_ebitda: 1.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:44.027387+00:00
-  shares_yoy_change: -9.04 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:44.027387+00:00
-  forward_pe: 13.91 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 14.76 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -10.31 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: -3.40 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: -1.23 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 18.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:46.467276+00:00
+  eps_yoy_change: 221.50 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:46.467276+00:00
+  fcf_margin: 14.09 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:46.467276+00:00
+  net_debt_to_ebitda: 1.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:46.467276+00:00
+  shares_yoy_change: -9.04 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:46.467276+00:00
+  forward_pe: 14.37 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 14.29 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -10.31 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: -3.40 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: -1.23 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/THC/analysis/
   Source: https://finance.yahoo.com/quote/THC/financials/
   Source: https://finance.yahoo.com/quote/THC/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 13 prior daily observations (20 required)
-  ev_ebitda history: 13 prior daily observations (20 required)
+  forward_pe history: 14 prior daily observations (20 required)
+  ev_ebitda history: 14 prior daily observations (20 required)
   News (2026-11-07T13:55:33+00:00): 5 Best Stocks to Buy After Democrats’ Midterm Election Victory | https://finance.yahoo.com/markets/stocks/articles/5-best-stocks-buy-democrats-135533261.html
   News (2026-11-07T13:07:30+00:00): ELF Beauty, Palomar Lead Five Stocks Near Buy Points In Ailing, Volatile Market | https://finance.yahoo.com/m/d5d299a4-e36a-3966-903c-1c6b4a40ac77/elf-beauty%2C-palomar-lead-five.html
   News (2026-11-06T17:29:04+00:00): These Stocks Power Through Rough Week For Stock Market, Trade In Buy Zones | https://finance.yahoo.com/m/c82f2141-96f3-3e43-8796-59e5e88a42e8/these-stocks-power-through.html
@@ -204,23 +203,23 @@ ASC | $17.42 | price date 2026-11-06 | phase 1
   months_to_18m: 71.5/100 | data coverage 100% | candidate
   Components: technical 68/100 (100% covered); growth 23/100 (100% covered); quality 87/100 (100% covered); valuation 97/100 (100% covered); revisions 100/100 (100% covered); catalysts 76/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 7.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:45.106710+00:00
-  eps_yoy_change: 33.33 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:45.106710+00:00
-  fcf_margin: 28.46 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:45.106710+00:00
-  net_debt_to_ebitda: 0.10 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:45.106710+00:00
-  shares_yoy_change: 0.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:45.106710+00:00
-  forward_pe: 5.14 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 15.01 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -13.52 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 313.41 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 313.41 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 7.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:49.665063+00:00
+  eps_yoy_change: 33.33 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:49.665063+00:00
+  fcf_margin: 28.46 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:49.665063+00:00
+  net_debt_to_ebitda: 0.10 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:49.665063+00:00
+  shares_yoy_change: 0.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:49.665063+00:00
+  forward_pe: 5.06 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 15.22 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -13.52 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 313.41 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 313.41 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/ASC/analysis/
   Source: https://finance.yahoo.com/quote/ASC/financials/
   Source: https://finance.yahoo.com/quote/ASC/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
   News (2026-11-04T02:09:18+00:00): Ardmore Shipping Corporation Q3 2026 Earnings Call Summary | https://finance.yahoo.com/markets/stocks/articles/ardmore-shipping-corporation-q3-2026-020918527.html
   News (2026-11-03T23:08:01+00:00): Ardmore Shipping Corp (ASC) (Q3 2026) Earnings Call Highlights: Soaring Tanker Rates and a 16th ... | https://finance.yahoo.com/markets/stocks/articles/ardmore-shipping-corp-asc-q3-230801066.html
   News (2026-11-03T22:14:15+00:00): Ardmore Shipping Q3 Earnings Call Highlights | https://finance.yahoo.com/markets/stocks/articles/ardmore-shipping-q3-earnings-call-221415718.html
@@ -231,13 +230,13 @@ TEM | $76.05 | price date 2026-11-06 | phase 2
   months_to_18m: 29.9/100 | data coverage 57% | insufficient_data
   Components: technical 100/100 (100% covered); growth 43/100 (50% covered); quality 13/100 (75% covered); valuation 0/100 (33% covered); revisions 0/100 (0% covered); catalysts 0/100 (0% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 23.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:46.193652+00:00
+  revenue_yoy_change: 23.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:51.967428+00:00
   eps_yoy_change: N/A
-  fcf_margin: -9.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:46.193652+00:00
+  fcf_margin: -9.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:51.967428+00:00
   net_debt_to_ebitda: N/A
-  shares_yoy_change: 3.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:46.193652+00:00
-  forward_pe: -1922.88 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: -1.09 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: 3.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:51.967428+00:00
+  forward_pe: -2147.41 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: -0.97 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
   forward_eps_growth: N/A
   eps_revision_30d: N/A
   eps_revision_90d: N/A
@@ -258,110 +257,111 @@ BP | $44.53 | price date 2026-11-06 | phase 1
   months_to_18m: 68.8/100 | data coverage 100% | candidate
   Components: technical 67/100 (100% covered); growth 50/100 (100% covered); quality 64/100 (100% covered); valuation 86/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 41.26 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:47.191847+00:00
-  eps_yoy_change: 305.01 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:47.191847+00:00
-  fcf_margin: 9.86 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:47.191847+00:00
-  net_debt_to_ebitda: 0.59 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:47.191847+00:00
-  shares_yoy_change: -0.16 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:47.191847+00:00
-  forward_pe: 7.39 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 20.40 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -33.91 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 13.92 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 43.35 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 41.26 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:55.098745+00:00
+  eps_yoy_change: 305.01 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:55.098745+00:00
+  fcf_margin: 9.86 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:55.098745+00:00
+  net_debt_to_ebitda: 0.59 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:55.098745+00:00
+  shares_yoy_change: -0.16 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:55.098745+00:00
+  forward_pe: 7.33 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 20.55 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -33.91 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 13.92 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 43.35 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/BP/analysis/
   Source: https://finance.yahoo.com/quote/BP/financials/
   Source: https://finance.yahoo.com/quote/BP/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-06T05:27:48+00:00): Clean Energy Fuels Corp (CLNE) (Q3 2026) Earnings Call Highlights: Raised Guidance, Surging RNG ... | https://finance.yahoo.com/energy/articles/clean-energy-fuels-corp-clne-052748917.html
-  News (2026-11-05T21:13:22+00:00): 3 British Energy Stocks With Earnings Growth Over 60% | https://finance.yahoo.com/energy/articles/3-british-energy-stocks-earnings-211322595.html
-  News (2026-11-05T21:02:55+00:00): Sector Update: Energy Stocks Drop Thursday | https://finance.yahoo.com/energy/articles/sector-energy-stocks-drop-thursday-210255557.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T16:30:13+00:00): BP's Recovery Prospects Have 'Never Been Better,' RBC Says | https://finance.yahoo.com/energy/articles/bp-apos-recovery-prospects-apos-163013641.html
+  News (2026-11-09T12:55:00+00:00): BP Completes $6B Castrol Stake Sale: A Boost to Its Balance Sheet? | https://finance.yahoo.com/markets/stocks/articles/bp-completes-6b-castrol-stake-125500970.html
+  News (2026-11-09T11:15:58+00:00): BP Exits Indonesian Petrol Station Business, Sells JV Stake to AKR | https://finance.yahoo.com/energy/articles/bp-exits-indonesian-petrol-station-111558609.html
   Filing: 6-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/BP/0001654954-26-009536_313807
   Filing: 6-K | 2026-11-02 | https://finance.yahoo.com/sec-filing/BP/0001654954-26-009335_313807
   Filing: 6-K | 2026-10-30 | https://finance.yahoo.com/sec-filing/BP/0000313807-26-000018_313807
 
 ELF | $116.14 | price date 2026-11-06 | phase 2
-  weeks_to_months: 75.4/100 | data coverage 92% | candidate
-  months_to_18m: 58.7/100 | data coverage 86% | watchlist
-  Components: technical 98/100 (100% covered); growth 37/100 (75% covered); quality 45/100 (75% covered); valuation 63/100 (100% covered); revisions 88/100 (100% covered); catalysts 100/100 (100% covered)
-  revenue_yoy_change: 35.52 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:48.160373+00:00
+  weeks_to_months: 77.5/100 | data coverage 92% | candidate
+  months_to_18m: 60.1/100 | data coverage 86% | candidate
+  Components: technical 98/100 (100% covered); growth 40/100 (75% covered); quality 45/100 (75% covered); valuation 61/100 (100% covered); revisions 97/100 (100% covered); catalysts 100/100 (100% covered)
+  revenue_yoy_change: 35.52 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:56.999563+00:00
   eps_yoy_change: N/A
-  fcf_margin: 15.90 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:48.160373+00:00
-  net_debt_to_ebitda: 2.64 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:48.160373+00:00
+  fcf_margin: 15.90 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:56.999563+00:00
+  net_debt_to_ebitda: 2.64 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:56.999563+00:00
   shares_yoy_change: N/A
-  forward_pe: 27.99 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 4.08 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 4.29 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 4.89 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 5.29 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 87.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_pe: 28.90 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 3.93 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 7.08 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 7.83 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 8.66 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 86.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/ELF/analysis/
   Source: https://finance.yahoo.com/quote/ELF/calendar/
   Source: https://finance.yahoo.com/quote/ELF/financials/
   Source: https://finance.yahoo.com/quote/ELF/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-07T13:07:30+00:00): ELF Beauty, Palomar Lead Five Stocks Near Buy Points In Ailing, Volatile Market | https://finance.yahoo.com/m/d5d299a4-e36a-3966-903c-1c6b4a40ac77/elf-beauty%2C-palomar-lead-five.html
-  News (2026-11-06T14:00:00+00:00): The Palm Tree Club & Hotel Miami is Turning into Hote.l.f | https://finance.yahoo.com/media-advertising/articles/palm-tree-club-hotel-miami-140000680.html
-  News (2026-11-06T13:29:56+00:00): Deutsche Bank Adjusts e.l.f. Beauty Price Target to $117 From $105, Maintains Hold Rating | https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-e-l-132956651.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T13:44:02+00:00): Celsius vs. e.l.f. Beauty: Which Consumer Goods Stock Is the Better Buy for 2027? | https://finance.yahoo.com/markets/stocks/articles/celsius-vs-e-l-f-134402603.html
+  News (2026-11-09T13:40:02+00:00): Is BJ's Wholesale Club (BJ) Stock Outpacing Its Consumer Staples Peers This Year? | https://finance.yahoo.com/news/bjs-wholesale-club-bj-stock-134002201.html
+  News (2026-11-09T13:30:02+00:00): Is It Worth Investing in e.l.f. Beauty (ELF) Based on Wall Street's Bullish Views? | https://finance.yahoo.com/markets/stocks/articles/worth-investing-e-l-f-133002273.html
   Filing: 8-K | 2026-11-04 | https://finance.yahoo.com/sec-filing/ELF/0001600033-26-000048_1600033
   Filing: 8-K | 2026-08-24 | https://finance.yahoo.com/sec-filing/ELF/0001600033-26-000044_1600033
 
 CNQ | $48.55 | price date 2026-11-06 | phase 1
-  weeks_to_months: 76.1/100 | data coverage 97% | watchlist
-  months_to_18m: 70.5/100 | data coverage 93% | candidate
-  Components: technical 71/100 (100% covered); growth 50/100 (100% covered); quality 87/100 (100% covered); valuation 56/100 (67% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 76.2/100 | data coverage 97% | watchlist
+  months_to_18m: 70.8/100 | data coverage 93% | candidate
+  Components: technical 71/100 (100% covered); growth 50/100 (100% covered); quality 88/100 (100% covered); valuation 56/100 (67% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: FCF yield omitted: quote/statement currency match unverified
   Review: Next earnings date unknown
-  revenue_yoy_change: 77.92 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:49.226639+00:00
-  eps_yoy_change: 83.76 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:49.226639+00:00
-  fcf_margin: 19.07 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:49.226639+00:00
-  net_debt_to_ebitda: 0.57 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:49.226639+00:00
-  shares_yoy_change: -0.47 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:49.226639+00:00
-  forward_pe: 10.52 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 41.31 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:59.977919+00:00
+  eps_yoy_change: 400.00 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:59.977919+00:00
+  fcf_margin: 23.34 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:59.977919+00:00
+  net_debt_to_ebitda: 0.44 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:59.977919+00:00
+  shares_yoy_change: -1.05 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:59.977919+00:00
+  forward_pe: 10.30 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   fcf_yield: N/A
-  forward_eps_growth: -3.23 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 18.32 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 25.04 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_eps_growth: -3.23 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 18.32 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 25.04 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/CNQ/analysis/
   Source: https://finance.yahoo.com/quote/CNQ/financials/
   Source: https://finance.yahoo.com/quote/CNQ/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-07T04:26:18+00:00): Canadian Natural Resources (TSX:CNQ) Posts Fresh Q3 Results, Is The 9% Discount Still Compelling? | https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-tsx-cnq-042618875.html
-  News (2026-11-07T03:10:37+00:00): Canadian Natural Resources Ltd (CNQ) (Q3 2026) Earnings Call Highlights: Record Production, ... | https://finance.yahoo.com/energy/articles/canadian-natural-resources-ltd-cnq-031037460.html
-  News (2026-11-06T23:16:00+00:00): Canadian Natural Resources (TSX:CNQ) Q3 Results Mask A One Off Profit Boost | https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-tsx-cnq-231600341.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T15:28:00+00:00): CNQ Q3 Earnings Beat on Strong Pricing and Record Thermal Output | https://finance.yahoo.com/energy/articles/cnq-q3-earnings-beat-strong-152800153.html
+  News (2026-11-09T15:23:00+00:00): Oklo Secures U.S. Forging Capacity for Future Aurora Expansion | https://finance.yahoo.com/energy/articles/oklo-secures-u-forging-capacity-152300844.html
+  News (2026-11-09T14:37:20+00:00): 5 Oil Stocks Could Turn $500,000 Into $14,000 a Year in Dividend Income | https://finance.yahoo.com/markets/stocks/articles/5-oil-stocks-could-turn-143720430.html
   Filing: 6-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/CNQ/0001017413-26-000052_1017413
 
 JRSH | $6.10 | price date 2026-11-06 | phase 2
-  weeks_to_months: 85.1/100 | data coverage 100% | watchlist
-  months_to_18m: 77.6/100 | data coverage 100% | candidate
-  Components: technical 90/100 (100% covered); growth 79/100 (100% covered); quality 48/100 (100% covered); valuation 100/100 (100% covered); revisions 100/100 (100% covered); catalysts 92/100 (100% covered)
-  Review: Earnings within 2 days (provider estimate; verify date)
+  weeks_to_months: 85.0/100 | data coverage 100% | watchlist
+  months_to_18m: 77.4/100 | data coverage 100% | candidate
+  Components: technical 90/100 (100% covered); growth 79/100 (100% covered); quality 48/100 (100% covered); valuation 99/100 (100% covered); revisions 100/100 (100% covered); catalysts 92/100 (100% covered)
+  Review: Earnings within 1 days (provider estimate; verify date)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 26.75 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:50.163583+00:00
-  eps_yoy_change: 333.33 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:50.163583+00:00
-  fcf_margin: 3.76 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:50.163583+00:00
-  net_debt_to_ebitda: -0.29 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:50.163583+00:00
-  shares_yoy_change: 5.42 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:50.163583+00:00
-  forward_pe: 9.68 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 8.59 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 28.57 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 18.87 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 43.18 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 2.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 26.75 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:02.404602+00:00
+  eps_yoy_change: 333.33 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:02.404602+00:00
+  fcf_margin: 3.76 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:02.404602+00:00
+  net_debt_to_ebitda: -0.29 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:02.404602+00:00
+  shares_yoy_change: 5.42 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:02.404602+00:00
+  forward_pe: 10.60 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 7.85 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 28.57 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 18.87 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 43.18 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 1.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/JRSH/analysis/
   Source: https://finance.yahoo.com/quote/JRSH/calendar/
   Source: https://finance.yahoo.com/quote/JRSH/financials/
   Source: https://finance.yahoo.com/quote/JRSH/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 12 prior daily observations (20 required)
-  ev_ebitda history: 12 prior daily observations (20 required)
+  forward_pe history: 13 prior daily observations (20 required)
+  ev_ebitda history: 13 prior daily observations (20 required)
+  News (2026-11-09T12:38:21+00:00): Earnings To Watch: Jerash Holdings (US) Inc (JRSH) Q2 2027 -- GF Value Sees 29% Downside | https://finance.yahoo.com/markets/stocks/articles/earnings-watch-jerash-holdings-us-123821679.html
   News (2026-11-05T13:00:00+00:00): Jerash Holdings (US), Inc. Declares Quarterly Dividend | https://finance.yahoo.com/markets/stocks/articles/jerash-holdings-us-inc-declares-130000421.html
   News (2026-10-28T12:00:00+00:00): Jerash Holdings to Report Financial Results for Fiscal 2027 Second Quarter on Tuesday, November 10, 2026 | https://finance.yahoo.com/markets/stocks/articles/jerash-holdings-report-financial-results-120000778.html
   Filing: 8-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/JRSH/0001213900-26-116129_1696558
@@ -369,114 +369,114 @@ JRSH | $6.10 | price date 2026-11-06 | phase 2
   Filing: 8-K | 2026-09-11 | https://finance.yahoo.com/sec-filing/JRSH/0001213900-26-098980_1696558
 
 COP | $136.27 | price date 2026-11-06 | phase 1
-  weeks_to_months: 83.0/100 | data coverage 100% | watchlist
-  months_to_18m: 77.4/100 | data coverage 100% | candidate
-  Components: technical 86/100 (100% covered); growth 49/100 (100% covered); quality 87/100 (100% covered); valuation 80/100 (100% covered); revisions 100/100 (100% covered); catalysts 87/100 (100% covered)
-  revenue_yoy_change: 29.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:51.275587+00:00
-  eps_yoy_change: 142.03 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:51.275587+00:00
-  fcf_margin: 16.40 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:51.275587+00:00
-  net_debt_to_ebitda: 0.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:51.275587+00:00
-  shares_yoy_change: -4.09 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:51.275587+00:00
-  forward_pe: 12.14 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 6.90 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -5.28 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 11.84 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 23.18 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 88.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 83.1/100 | data coverage 100% | watchlist
+  months_to_18m: 77.6/100 | data coverage 100% | candidate
+  Components: technical 86/100 (100% covered); growth 49/100 (100% covered); quality 87/100 (100% covered); valuation 81/100 (100% covered); revisions 100/100 (100% covered); catalysts 87/100 (100% covered)
+  revenue_yoy_change: 29.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:04.619006+00:00
+  eps_yoy_change: 142.03 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:04.619006+00:00
+  fcf_margin: 16.40 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:04.619006+00:00
+  net_debt_to_ebitda: 0.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:04.619006+00:00
+  shares_yoy_change: -4.09 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:04.619006+00:00
+  forward_pe: 11.87 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 7.03 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -5.38 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 11.57 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 20.39 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 87.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/COP/analysis/
   Source: https://finance.yahoo.com/quote/COP/calendar/
   Source: https://finance.yahoo.com/quote/COP/financials/
   Source: https://finance.yahoo.com/quote/COP/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-07T04:14:51+00:00): What ConocoPhillips (COP) Said on Its Q3 Earnings Call | https://finance.yahoo.com/energy/articles/conocophillips-cop-said-q3-earnings-041451823.html
-  News (2026-11-07T01:11:28+00:00): ConocoPhillips (COP) Earnings Beat And Dividend Hike Put Valuation Back In Focus | https://finance.yahoo.com/markets/stocks/articles/conocophillips-cop-earnings-beat-dividend-011128362.html
-  News (2026-11-06T14:04:00+00:00): COP Q3 Earnings Call Highlights Cash Flow Growth and Lower Spending | https://finance.yahoo.com/energy/articles/cop-q3-earnings-call-highlights-140400240.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T17:03:00+00:00): ConocoPhillips Trades at a Premium: Is It the Right Time to Buy? | https://finance.yahoo.com/energy/articles/conocophillips-trades-premium-time-buy-170300578.html
+  News (2026-11-09T16:15:00+00:00): Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower | https://finance.yahoo.com/energy/articles/seven-opec-producers-keep-december-161500934.html
+  News (2026-11-09T15:40:03+00:00): COP vs. WHD: Which Stock Is the Better Value Option? | https://finance.yahoo.com/markets/stocks/articles/cop-vs-whd-stock-better-154003431.html
   Filing: 10-Q | 2026-11-05 | https://finance.yahoo.com/sec-filing/COP/0001163165-26-000045_1163165
   Filing: SD | 2026-09-11 | https://finance.yahoo.com/sec-filing/COP/0001163165-26-000037_1163165
   Filing: 8-K | 2026-08-11 | https://finance.yahoo.com/sec-filing/COP/0001104659-26-094062_1163165
 
 BB | $8.74 | price date 2026-11-06 | phase 2
-  weeks_to_months: 65.8/100 | data coverage 100% | candidate
-  months_to_18m: 59.1/100 | data coverage 100% | watchlist
-  Components: technical 76/100 (100% covered); growth 69/100 (100% covered); quality 65/100 (100% covered); valuation 26/100 (100% covered); revisions 58/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 65.6/100 | data coverage 100% | candidate
+  months_to_18m: 58.5/100 | data coverage 100% | watchlist
+  Components: technical 76/100 (100% covered); growth 69/100 (100% covered); quality 65/100 (100% covered); valuation 24/100 (100% covered); revisions 58/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 26.00 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:52.262932+00:00
-  eps_yoy_change: 150.00 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:52.262932+00:00
-  fcf_margin: 14.01 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:52.262932+00:00
-  net_debt_to_ebitda: -1.35 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:52.262932+00:00
-  shares_yoy_change: 8.75 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:52.262932+00:00
-  forward_pe: 37.08 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 1.68 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 14.58 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.00 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 3.12 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 39.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 26.00 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:53:06.727959+00:00
+  eps_yoy_change: 150.00 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:53:06.727959+00:00
+  fcf_margin: 14.01 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:53:06.727959+00:00
+  net_debt_to_ebitda: -1.35 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:53:06.727959+00:00
+  shares_yoy_change: 8.75 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:53:06.727959+00:00
+  forward_pe: 39.08 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 1.59 | Yahoo Finance | period 2026-08-31 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 14.58 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.00 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 3.12 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 38.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/BB/analysis/
   Source: https://finance.yahoo.com/quote/BB/calendar/
   Source: https://finance.yahoo.com/quote/BB/financials/
   Source: https://finance.yahoo.com/quote/BB/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
-  News (2026-11-06T04:15:00+00:00): Valeo and QNX Unveil A New Smart Camera Platform at CIIE, Secures Multiple Design Wins | https://finance.yahoo.com/technology/articles/valeo-qnx-unveil-smart-camera-041500202.html
-  News (2026-11-05T19:15:51+00:00): Why BlackBerry Stock Is Worth Watching After Earnings Upgrade | https://finance.yahoo.com/markets/stocks/articles/why-blackberry-stock-worth-watching-191551221.html
-  News (2026-11-03T22:14:12+00:00): What Aptiv (APTV) Said on Its Q3 Earnings Call | https://finance.yahoo.com/markets/stocks/articles/aptiv-aptv-said-q3-earnings-221412955.html
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T17:31:00+00:00): Auto & Transport Roundup: Market Talk | https://finance.yahoo.com/m/238f9541-6dc0-34fc-91f4-a420804b756f/auto-%26-transport-roundup%3A.html
+  News (2026-11-08T23:14:14+00:00): BlackBerry (TSX:BB) Lands Valeo QNX Win, Is The Stock Already Pricey? | https://finance.yahoo.com/markets/stocks/articles/blackberry-tsx-bb-lands-valeo-231414121.html
+  News (2026-11-08T22:05:51+00:00): BlackBerry (TSX:BB) Secured Multiple Smart Camera Design Wins In China | https://finance.yahoo.com/technology/ai/articles/blackberry-tsx-bb-secured-multiple-220551740.html
   Filing: 8-K | 2026-10-27 | https://finance.yahoo.com/sec-filing/BB/0001070235-26-000141_1070235
   Filing: 10-Q | 2026-09-24 | https://finance.yahoo.com/sec-filing/BB/0001070235-26-000115_1070235
   Filing: 8-K | 2026-09-22 | https://finance.yahoo.com/sec-filing/BB/0001070235-26-000110_1070235
 
 DHT | $20.68 | price date 2026-11-06 | phase 1
   weeks_to_months: 74.6/100 | data coverage 100% | watchlist
-  months_to_18m: 68.5/100 | data coverage 100% | candidate
+  months_to_18m: 68.6/100 | data coverage 100% | candidate
   Components: technical 72/100 (100% covered); growth 50/100 (100% covered); quality 75/100 (100% covered); valuation 64/100 (100% covered); revisions 100/100 (100% covered); catalysts 84/100 (100% covered)
-  Review: Earnings within 1 days (provider estimate; verify date)
-  revenue_yoy_change: 122.12 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:53.327742+00:00
-  eps_yoy_change: 251.43 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:53.327742+00:00
-  fcf_margin: 4.94 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:53.327742+00:00
-  net_debt_to_ebitda: 0.46 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:53.327742+00:00
-  shares_yoy_change: 0.34 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:53.327742+00:00
-  forward_pe: 6.40 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 1.07 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -43.52 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 50.65 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 78.91 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 1.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  Review: Earnings within 0 days (provider estimate; verify date)
+  revenue_yoy_change: 122.12 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:08.683640+00:00
+  eps_yoy_change: 251.43 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:08.683640+00:00
+  fcf_margin: 4.94 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:08.683640+00:00
+  net_debt_to_ebitda: 0.46 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:08.683640+00:00
+  shares_yoy_change: 0.34 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:08.683640+00:00
+  forward_pe: 6.33 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 1.08 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -43.52 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 50.65 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 78.91 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 0.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/DHT/analysis/
   Source: https://finance.yahoo.com/quote/DHT/calendar/
   Source: https://finance.yahoo.com/quote/DHT/financials/
   Source: https://finance.yahoo.com/quote/DHT/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T11:05:57+00:00): What U.S. Targeted Value Portfolio (DFAT) Bought: Lululemon Leads on Nov. 5 | https://finance.yahoo.com/markets/stocks/articles/u-targeted-value-portfolio-dfat-110557945.html
+  News (2026-11-08T18:05:36+00:00): DHT Holdings (DHT) stock trades down, here is why | https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-stock-trades-180536694.html
   News (2026-11-08T12:10:51+00:00): DHT Holdings (DHT) Stock Looks About Right Despite Growth Momentum | https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-stock-looks-121051327.html
-  News (2026-11-03T18:45:09+00:00): DHT Holdings, Inc. (DHT) Surged 45% as Tanker Rates Soared: What’s Next? | https://finance.yahoo.com/markets/stocks/articles/dht-holdings-inc-dht-surged-184509415.html
-  News (2026-11-01T11:14:04+00:00): 3 Dividend Stocks With Yields Over 5% | https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-yields-over-111404442.html
   Filing: 6-K | 2026-10-13 | https://finance.yahoo.com/sec-filing/DHT/0000950157-26-001092_1331284
 
 CXT | $57.57 | price date 2026-11-06 | phase 2
-  weeks_to_months: 66.2/100 | data coverage 100% | watchlist
-  months_to_18m: 58.9/100 | data coverage 100% | watchlist
-  Components: technical 90/100 (100% covered); growth 24/100 (100% covered); quality 54/100 (100% covered); valuation 92/100 (100% covered); revisions 48/100 (100% covered); catalysts 81/100 (100% covered)
+  weeks_to_months: 64.3/100 | data coverage 100% | watchlist
+  months_to_18m: 57.5/100 | data coverage 100% | watchlist
+  Components: technical 90/100 (100% covered); growth 23/100 (100% covered); quality 54/100 (100% covered); valuation 91/100 (100% covered); revisions 40/100 (100% covered); catalysts 81/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 11.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:54.344230+00:00
-  eps_yoy_change: -24.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:54.344230+00:00
-  fcf_margin: 12.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:54.344230+00:00
-  net_debt_to_ebitda: 3.08 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:54.344230+00:00
-  shares_yoy_change: 0.17 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:54.344230+00:00
-  forward_pe: 12.19 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 7.11 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 8.61 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: -0.09 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: -0.44 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 11.68 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:10.999392+00:00
+  eps_yoy_change: -24.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:10.999392+00:00
+  fcf_margin: 12.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:10.999392+00:00
+  net_debt_to_ebitda: 3.08 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:10.999392+00:00
+  shares_yoy_change: 0.17 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:10.999392+00:00
+  forward_pe: 12.77 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 6.85 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 7.53 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: -1.04 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: -1.85 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/CXT/analysis/
   Source: https://finance.yahoo.com/quote/CXT/financials/
   Source: https://finance.yahoo.com/quote/CXT/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
   News (2026-11-07T08:15:18+00:00): Crane NXT Q3 Earnings Call Highlights | https://finance.yahoo.com/markets/stocks/articles/crane-nxt-q3-earnings-call-081518122.html
   News (2026-11-05T22:32:57+00:00): Crane NXT (CXT) Q3 2026 Earnings Call Transcript | https://finance.yahoo.com/markets/stocks/articles/crane-nxt-cxt-q3-2026-223257458.html
   News (2026-11-04T23:45:05+00:00): Crane NXT (CXT) Q3 Earnings and Revenues Top Estimates | https://finance.yahoo.com/markets/stocks/articles/crane-nxt-cxt-q3-earnings-234505393.html
@@ -489,26 +489,26 @@ DINO | $97.18 | price date 2026-11-06 | phase 1
   months_to_18m: 59.5/100 | data coverage 78% | watchlist
   Components: technical 69/100 (100% covered); growth 50/100 (100% covered); quality 45/100 (50% covered); valuation 67/100 (67% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 49.73 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:55.475521+00:00
-  eps_yoy_change: 429.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:55.475521+00:00
+  revenue_yoy_change: 49.73 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:13.334011+00:00
+  eps_yoy_change: 429.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:13.334011+00:00
   fcf_margin: N/A
   net_debt_to_ebitda: N/A
-  shares_yoy_change: -5.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:55.475521+00:00
-  forward_pe: 5.43 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: -5.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:13.334011+00:00
+  forward_pe: 5.55 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   fcf_yield: N/A
-  forward_eps_growth: -27.14 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 34.99 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 98.30 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_eps_growth: -27.14 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 34.99 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 98.30 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/DINO/analysis/
   Source: https://finance.yahoo.com/quote/DINO/financials/
   Source: https://finance.yahoo.com/quote/DINO/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 3 prior daily observations (20 required)
-  ev_ebitda history: 3 prior daily observations (20 required)
+  forward_pe history: 4 prior daily observations (20 required)
+  ev_ebitda history: 4 prior daily observations (20 required)
+  News (2026-11-09T18:05:02+00:00): Sinclair: 3 Key Takeaways for Long-Term Investors | https://finance.yahoo.com/markets/stocks/articles/sinclair-3-key-takeaways-long-180502221.html
+  News (2026-11-09T09:29:00+00:00): Zacks.com featured highlights include DMC Global, HF Sinclair, Cenovus Energy, ZIM Integrated Shipping and POSCO | https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-dmc-092900036.html
   News (2026-11-06T17:34:00+00:00): EOG Q3 Earnings Beat Estimates on Record Production, Strong Pricing | https://finance.yahoo.com/energy/articles/eog-q3-earnings-beat-estimates-173400832.html
-  News (2026-11-06T17:06:00+00:00): Baker Hughes Sharpens Portfolio Focus With $1.45B Waygate Sale | https://finance.yahoo.com/energy/articles/baker-hughes-sharpens-portfolio-focus-170600313.html
-  News (2026-11-06T17:04:00+00:00): NESR to Report Q3 Earnings: Here's What Investors Should Know | https://finance.yahoo.com/markets/stocks/articles/nesr-report-q3-earnings-heres-170400655.html
   Insider cash purchase label: MYERS FRANKLIN | 2026-10-29 | value 1,108,000 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/DINO/insider-transactions/
   Insider cash purchase label: MYERS FRANKLIN | 2026-08-11 | value 1,279,500 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/DINO/insider-transactions/
   Filing: 8-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/DINO/0001628280-26-070328_1915657
@@ -516,59 +516,59 @@ DINO | $97.18 | price date 2026-11-06 | phase 1
   Filing: 8-K | 2026-10-28 | https://finance.yahoo.com/sec-filing/DINO/0001915657-26-000071_1915657
 
 RHP | $132.05 | price date 2026-11-06 | phase 2
-  weeks_to_months: 64.8/100 | data coverage 100% | watchlist
-  months_to_18m: 53.9/100 | data coverage 100% | watchlist
-  Components: technical 91/100 (100% covered); growth 41/100 (100% covered); quality 42/100 (100% covered); valuation 65/100 (100% covered); revisions 45/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 64.1/100 | data coverage 100% | watchlist
+  months_to_18m: 52.7/100 | data coverage 100% | watchlist
+  Components: technical 91/100 (100% covered); growth 37/100 (100% covered); quality 42/100 (100% covered); valuation 63/100 (100% covered); revisions 45/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
   Review: Net debt exceeds 4x EBITDA
-  revenue_yoy_change: 10.69 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:56.750840+00:00
-  eps_yoy_change: 9.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:56.750840+00:00
-  fcf_margin: 7.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:56.750840+00:00
-  net_debt_to_ebitda: 5.16 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:56.750840+00:00
-  shares_yoy_change: 3.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:56.750840+00:00
-  forward_pe: 27.68 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.32 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 13.03 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.85 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: -3.73 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 10.69 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:15.652284+00:00
+  eps_yoy_change: 9.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:15.652284+00:00
+  fcf_margin: 7.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:15.652284+00:00
+  net_debt_to_ebitda: 5.16 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:15.652284+00:00
+  shares_yoy_change: 3.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:15.652284+00:00
+  forward_pe: 28.44 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.26 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 8.90 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.85 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: -3.73 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/RHP/analysis/
   Source: https://finance.yahoo.com/quote/RHP/financials/
   Source: https://finance.yahoo.com/quote/RHP/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 4 prior daily observations (20 required)
-  ev_ebitda history: 4 prior daily observations (20 required)
-  News (2026-11-04T05:06:25+00:00): Ryman Hospitality Properties Inc (RHP) (Q3 2026) Earnings Call Highlights: Record Quarter, ... | https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-inc-rhp-050625533.html
-  News (2026-11-03T20:41:02+00:00): Ryman Hospitality (RHP) Q3 2026 Earnings Call Transcript | https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-rhp-q3-2026-204102758.html
-  News (2026-11-02T22:30:01+00:00): Ryman Hospitality Properties (RHP) Reports Q3 Earnings: What Key Metrics Have to Say | https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-rhp-reports-223001316.html
+  forward_pe history: 5 prior daily observations (20 required)
+  ev_ebitda history: 5 prior daily observations (20 required)
+  News (2026-11-09T12:17:52+00:00): Hotel REITs Are Making More Money Per Room. Are Their Dividends Safe? | https://finance.yahoo.com/real-estate/articles/hotel-reits-making-more-money-121752697.html
+  News (2026-11-05T11:05:31+00:00): What iShares Trust (IJT) Bought: McGrath Rent Leads on Nov. 3 | https://finance.yahoo.com/markets/stocks/articles/ishares-trust-ijt-bought-mcgrath-110531899.html
+  News (2026-11-04T13:22:05+00:00): Deutsche Bank Adjusts Ryman Hospitality Properties PT to $154 From $152, Maintains Buy Rating | https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-ryman-hospitality-132205048.html
   Filing: 10-Q | 2026-11-03 | https://finance.yahoo.com/sec-filing/RHP/0001104659-26-121837_1040829
   Filing: 8-K | 2026-09-15 | https://finance.yahoo.com/sec-filing/RHP/0001104659-26-107949_1040829
   Filing: 8-K | 2026-09-01 | https://finance.yahoo.com/sec-filing/RHP/0001104659-26-104349_1040829
 
 ECO | $83.26 | price date 2026-11-06 | phase 1
-  weeks_to_months: 69.0/100 | data coverage 100% | watchlist
-  months_to_18m: 60.8/100 | data coverage 100% | candidate
+  weeks_to_months: 69.1/100 | data coverage 100% | watchlist
+  months_to_18m: 60.9/100 | data coverage 100% | candidate
   Components: technical 81/100 (100% covered); growth 50/100 (100% covered); quality 54/100 (100% covered); valuation 66/100 (100% covered); revisions 68/100 (100% covered); catalysts 100/100 (100% covered)
-  Review: Earnings within 3 days (provider estimate; verify date)
+  Review: Earnings within 2 days (provider estimate; verify date)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 239.40 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:57.728016+00:00
-  eps_yoy_change: 602.38 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:57.728016+00:00
-  fcf_margin: 6.36 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:57.728016+00:00
-  net_debt_to_ebitda: 1.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:57.728016+00:00
-  shares_yoy_change: 21.28 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:57.728016+00:00
-  forward_pe: 14.04 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 1.38 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -61.32 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.00 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 7.04 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 3.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 239.40 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:17.802212+00:00
+  eps_yoy_change: 602.38 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:17.802212+00:00
+  fcf_margin: 6.36 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:17.802212+00:00
+  net_debt_to_ebitda: 1.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:17.802212+00:00
+  shares_yoy_change: 21.28 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:17.802212+00:00
+  forward_pe: 13.79 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 1.41 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -61.32 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.00 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 7.04 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 2.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/ECO/analysis/
   Source: https://finance.yahoo.com/quote/ECO/calendar/
   Source: https://finance.yahoo.com/quote/ECO/financials/
   Source: https://finance.yahoo.com/quote/ECO/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=missing, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
   News (2026-11-06T16:53:00+00:00): Okeanis Eco Q3 Earnings on Deck: How to Approach the Stock Now? | https://finance.yahoo.com/markets/stocks/articles/okeanis-eco-q3-earnings-deck-165300213.html
   News (2026-11-06T14:51:00+00:00): EuroDry Gears Up to Report Q3 Earnings: Buy, Sell or Hold the Stock? | https://finance.yahoo.com/markets/stocks/articles/eurodry-gears-report-q3-earnings-145100926.html
   News (2026-11-06T00:00:03+00:00): Pangaea Logistics (PANL) Q3 Earnings and Revenues Beat Estimates | https://finance.yahoo.com/markets/stocks/articles/pangaea-logistics-panl-q3-earnings-000003365.html
@@ -577,27 +577,27 @@ ECO | $83.26 | price date 2026-11-06 | phase 1
   Filing: 6-K | 2026-08-13 | https://finance.yahoo.com/sec-filing/ECO/0001104659-26-095242_1964954
 
 RGA | $261.90 | price date 2026-11-06 | phase 2
-  weeks_to_months: 74.2/100 | data coverage 100% | watchlist
-  months_to_18m: 69.5/100 | data coverage 100% | candidate
-  Components: technical 88/100 (100% covered); growth 45/100 (100% covered); quality 63/100 (100% covered); valuation 100/100 (100% covered); revisions 61/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 72.6/100 | data coverage 100% | watchlist
+  months_to_18m: 67.9/100 | data coverage 100% | candidate
+  Components: technical 88/100 (100% covered); growth 40/100 (100% covered); quality 63/100 (100% covered); valuation 100/100 (100% covered); revisions 57/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 18.16 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:58.753752+00:00
-  eps_yoy_change: 159.63 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:58.753752+00:00
-  fcf_margin: 20.09 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:58.753752+00:00
+  revenue_yoy_change: 18.16 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:20.754607+00:00
+  eps_yoy_change: 159.63 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:20.754607+00:00
+  fcf_margin: 20.09 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:20.754607+00:00
   net_debt_to_ebitda: N/A
-  shares_yoy_change: -1.22 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:58.753752+00:00
-  forward_pe: 8.73 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 30.52 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 0.41 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.99 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 2.57 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: -1.22 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:20.754607+00:00
+  forward_pe: 8.97 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 29.72 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -5.38 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.61 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 1.63 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/RGA/analysis/
   Source: https://finance.yahoo.com/quote/RGA/financials/
   Source: https://finance.yahoo.com/quote/RGA/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 8 prior daily observations (20 required)
-  ev_ebitda history: 8 prior daily observations (20 required)
+  forward_pe history: 9 prior daily observations (20 required)
+  ev_ebitda history: 9 prior daily observations (20 required)
   News (2026-11-08T06:12:48+00:00): Is Earnings Beat Altering The Investment Case For Reinsurance Group Of America Stock (RGA)? | https://finance.yahoo.com/markets/stocks/articles/earnings-beat-altering-investment-case-061248051.html
   News (2026-11-07T20:14:13+00:00): What Reinsurance Group of America (RGA) Said on Its Q3 Earnings Call | https://finance.yahoo.com/markets/stocks/articles/reinsurance-group-america-rga-said-201413407.html
   News (2026-11-07T05:12:50+00:00): Reinsurance Group of America Inc (RGA) Q3 2026 Earnings Call Highlights: Strong ROE and $736 ... | https://finance.yahoo.com/markets/stocks/articles/reinsurance-group-america-inc-rga-051250637.html
@@ -605,60 +605,59 @@ RGA | $261.90 | price date 2026-11-06 | phase 2
   Filing: 8-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/RGA/0000898174-26-000038_898174
 
 EOG | $147.13 | price date 2026-11-06 | phase 1
-  weeks_to_months: 70.3/100 | data coverage 92% | insufficient_data
-  months_to_18m: 59.3/100 | data coverage 86% | insufficient_data
-  Components: technical 74/100 (100% covered); growth 13/100 (75% covered); quality 66/100 (75% covered); valuation 75/100 (100% covered); revisions 100/100 (100% covered); catalysts 97/100 (100% covered)
-  Review: Price/statement evidence is stale, future-dated or undated
+  weeks_to_months: 81.9/100 | data coverage 100% | watchlist
+  months_to_18m: 80.7/100 | data coverage 100% | candidate
+  Components: technical 74/100 (100% covered); growth 50/100 (100% covered); quality 99/100 (100% covered); valuation 86/100 (100% covered); revisions 100/100 (100% covered); catalysts 97/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 15.68 | Yahoo Finance | period 2026-03-31 | fetched 2026-11-08T16:16:59.711939+00:00
-  eps_yoy_change: N/A
-  fcf_margin: 16.88 | Yahoo Finance | period 2026-03-31 | fetched 2026-11-08T16:16:59.711939+00:00
-  net_debt_to_ebitda: 0.37 | Yahoo Finance | period 2026-03-31 | fetched 2026-11-08T16:16:59.711939+00:00
-  shares_yoy_change: N/A
-  forward_pe: 8.98 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 5.20 | Yahoo Finance | period 2026-03-31 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -12.18 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 7.22 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 12.08 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 42.73 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:22.843835+00:00
+  eps_yoy_change: 97.41 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:22.843835+00:00
+  fcf_margin: 25.38 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:22.843835+00:00
+  net_debt_to_ebitda: 0.16 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:22.843835+00:00
+  shares_yoy_change: -4.04 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:22.843835+00:00
+  forward_pe: 8.95 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 9.71 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -11.99 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 7.40 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 13.33 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/EOG/analysis/
   Source: https://finance.yahoo.com/quote/EOG/financials/
   Source: https://finance.yahoo.com/quote/EOG/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 10 prior daily observations (20 required)
-  ev_ebitda history: 10 prior daily observations (20 required)
-  News (2026-11-08T01:12:26+00:00): How Record Production Will Impact EOG Resources Stock Investors | https://finance.yahoo.com/markets/stocks/articles/record-production-impact-eog-resources-011226701.html
-  News (2026-11-07T21:12:19+00:00): EOG Resources (EOG) Raised Its Regular Dividend By 8% | https://finance.yahoo.com/energy/articles/eog-resources-eog-raised-regular-211219508.html
-  News (2026-11-07T09:13:27+00:00): EOG Resources Inc (EOG) (Q3 2026) Earnings Call Highlights: Record Production, Dividend Hike ... | https://finance.yahoo.com/energy/articles/eog-resources-inc-eog-q3-091327755.html
+  forward_pe history: 11 prior daily observations (20 required)
+  ev_ebitda history: 11 prior daily observations (20 required)
+  News (2026-11-09T17:03:00+00:00): ConocoPhillips Trades at a Premium: Is It the Right Time to Buy? | https://finance.yahoo.com/energy/articles/conocophillips-trades-premium-time-buy-170300578.html
+  News (2026-11-09T15:24:51+00:00): DA Davidson Adjusts Price Target on EOG Resources to $163 From $153, Keeps Buy Rating | https://finance.yahoo.com/markets/stocks/articles/da-davidson-adjusts-price-target-152451740.html
+  News (2026-11-09T14:37:20+00:00): 5 Oil Stocks Could Turn $500,000 Into $14,000 a Year in Dividend Income | https://finance.yahoo.com/markets/stocks/articles/5-oil-stocks-could-turn-143720430.html
   Filing: 8-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/EOG/0000821189-26-000226_821189
   Filing: 8-K | 2026-10-08 | https://finance.yahoo.com/sec-filing/EOG/0000821189-26-000202_821189
   Filing: SD | 2026-09-28 | https://finance.yahoo.com/sec-filing/EOG/0000821189-26-000187_821189
 
 GRNT | $5.29 | price date 2026-11-06 | phase 2
-  weeks_to_months: 75.9/100 | data coverage 100% | watchlist
-  months_to_18m: 68.7/100 | data coverage 100% | candidate
-  Components: technical 72/100 (100% covered); growth 72/100 (100% covered); quality 55/100 (100% covered); valuation 67/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 75.2/100 | data coverage 100% | watchlist
+  months_to_18m: 67.5/100 | data coverage 100% | candidate
+  Components: technical 72/100 (100% covered); growth 67/100 (100% covered); quality 55/100 (100% covered); valuation 67/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 36.67 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:00.595909+00:00
-  eps_yoy_change: 21.05 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:00.595909+00:00
-  fcf_margin: -20.66 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:00.595909+00:00
-  net_debt_to_ebitda: 1.88 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:00.595909+00:00
-  shares_yoy_change: 0.18 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:00.595909+00:00
-  forward_pe: 5.27 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: -14.67 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 107.59 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 29.74 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 52.95 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 36.67 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:24.880512+00:00
+  eps_yoy_change: 21.05 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:24.880512+00:00
+  fcf_margin: -20.66 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:24.880512+00:00
+  net_debt_to_ebitda: 1.88 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:24.880512+00:00
+  shares_yoy_change: 0.18 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:24.880512+00:00
+  forward_pe: 5.52 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: -14.10 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 76.40 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 28.88 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 57.20 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/GRNT/analysis/
   Source: https://finance.yahoo.com/quote/GRNT/financials/
   Source: https://finance.yahoo.com/quote/GRNT/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 1 prior daily observations (20 required)
-  ev_ebitda history: 1 prior daily observations (20 required)
+  forward_pe history: 2 prior daily observations (20 required)
+  ev_ebitda history: 2 prior daily observations (20 required)
+  News (2026-11-09T09:07:27+00:00): Granite Ridge Resources Inc (GRNT) (Q3 2026) Earnings Call Highlights: Record EBITDAX, Buyback ... | https://finance.yahoo.com/energy/articles/granite-ridge-resources-inc-grnt-090727058.html
   News (2026-11-07T13:21:09+00:00): What Granite Ridge Resources (GRNT) Said on Its Q3 Earnings Call | https://finance.yahoo.com/energy/articles/granite-ridge-resources-grnt-said-132109991.html
   News (2026-11-06T13:30:00+00:00): Granite Ridge Resources, Inc Q3 2026 Earnings Call Summary | https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-inc-q3-133000065.html
-  News (2026-11-05T22:04:17+00:00): Granite Ridge Resources (NYSE:GRNT) reports bullish Q3 2026, stock jumps 10.2% | https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-nyse-grnt-220417453.html
   Insider cash purchase label: MILLER MATTHEW READE | 2026-09-11 | value 50,300 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/GRNT/insider-transactions/
   Insider cash purchase label: KETTLER RONALD KYLE | 2026-09-04 | value 30,300 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/GRNT/insider-transactions/
   Insider cash purchase label: MCCARTNEY JOHN F | 2026-09-01 | value 25,200 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/GRNT/insider-transactions/
@@ -667,28 +666,28 @@ GRNT | $5.29 | price date 2026-11-06 | phase 2
   Filing: 8-K | 2026-08-19 | https://finance.yahoo.com/sec-filing/GRNT/0001928446-26-000059_1928446
 
 FEIM | $60.22 | price date 2026-11-06 | phase 1
-  weeks_to_months: 54.2/100 | data coverage 90% | watchlist
-  months_to_18m: 59.5/100 | data coverage 95% | watchlist
-  Components: technical 34/100 (100% covered); growth 100/100 (100% covered); quality 57/100 (100% covered); valuation 36/100 (100% covered); revisions 50/100 (50% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 53.9/100 | data coverage 90% | watchlist
+  months_to_18m: 58.9/100 | data coverage 95% | watchlist
+  Components: technical 34/100 (100% covered); growth 100/100 (100% covered); quality 57/100 (100% covered); valuation 33/100 (100% covered); revisions 50/100 (50% covered); catalysts 100/100 (100% covered)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 69.79 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:01.510623+00:00
-  eps_yoy_change: 485.71 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:01.510623+00:00
-  fcf_margin: -0.25 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:01.510623+00:00
-  net_debt_to_ebitda: -29.29 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:01.510623+00:00
-  shares_yoy_change: 5.24 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:01.510623+00:00
-  forward_pe: 31.36 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: -0.03 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 56.10 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 69.79 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:26.989585+00:00
+  eps_yoy_change: 485.71 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:26.989585+00:00
+  fcf_margin: -0.25 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:26.989585+00:00
+  net_debt_to_ebitda: -29.29 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:26.989585+00:00
+  shares_yoy_change: 5.24 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:26.989585+00:00
+  forward_pe: 34.26 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: -0.02 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 56.10 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
   eps_revision_30d: N/A
-  eps_revision_90d: 23.08 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 32.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  eps_revision_90d: 23.08 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 31.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/FEIM/analysis/
   Source: https://finance.yahoo.com/quote/FEIM/calendar/
   Source: https://finance.yahoo.com/quote/FEIM/financials/
   Source: https://finance.yahoo.com/quote/FEIM/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
   News (2026-11-02T20:01:01+00:00): Can Lumentum Stock Fall 30%? | https://finance.yahoo.com/markets/stocks/articles/lumentum-stock-fall-30-200101995.html
   News (2026-11-02T15:59:00+00:00): FEI Trades at a Premium to the Industry: How to Play the Stock? | https://finance.yahoo.com/markets/stocks/articles/fei-trades-premium-industry-play-155900753.html
   News (2026-10-28T11:30:00+00:00): Frequency Electronics Announces Approximately $12 Million in New Contract Awards Supporting Space and Defense Programs | https://finance.yahoo.com/technology/articles/frequency-electronics-announces-approximately-12-113000680.html
@@ -697,54 +696,54 @@ FEIM | $60.22 | price date 2026-11-06 | phase 1
   Filing: 8-K | 2026-10-08 | https://finance.yahoo.com/sec-filing/FEIM/0001185185-26-004648_39020
 
 AVPT | $16.55 | price date 2026-11-06 | phase 2
-  weeks_to_months: 84.5/100 | data coverage 100% | watchlist
-  months_to_18m: 74.7/100 | data coverage 100% | candidate
-  Components: technical 100/100 (100% covered); growth 67/100 (100% covered); quality 95/100 (100% covered); valuation 30/100 (100% covered); revisions 86/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 85.9/100 | data coverage 100% | watchlist
+  months_to_18m: 75.3/100 | data coverage 100% | candidate
+  Components: technical 100/100 (100% covered); growth 67/100 (100% covered); quality 95/100 (100% covered); valuation 29/100 (100% covered); revisions 94/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 22.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:02.588800+00:00
-  eps_yoy_change: 1100.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:02.588800+00:00
-  fcf_margin: 21.29 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:02.588800+00:00
-  net_debt_to_ebitda: -7.70 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:02.588800+00:00
-  shares_yoy_change: -3.63 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:02.588800+00:00
-  forward_pe: 32.60 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.85 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 4.39 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 4.46 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 5.49 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 22.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:29.296784+00:00
+  eps_yoy_change: 1100.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:29.296784+00:00
+  fcf_margin: 21.29 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:29.296784+00:00
+  net_debt_to_ebitda: -7.70 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:29.296784+00:00
+  shares_yoy_change: -3.63 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:29.296784+00:00
+  forward_pe: 32.53 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.81 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 3.77 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 6.36 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 7.41 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/AVPT/analysis/
   Source: https://finance.yahoo.com/quote/AVPT/financials/
   Source: https://finance.yahoo.com/quote/AVPT/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 1 prior daily observations (20 required)
-  ev_ebitda history: 1 prior daily observations (20 required)
+  forward_pe history: 2 prior daily observations (20 required)
+  ev_ebitda history: 2 prior daily observations (20 required)
   News (2026-11-07T02:11:49+00:00): AvePoint (AVPT) Is Back In Focus, What Is Catching Investors' Attention? | https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-back-focus-catching-021149194.html
   News (2026-11-06T22:13:44+00:00): AvePoint (AVPT) Stock Fair Value Edges Higher As Analysts Revisit AI And Security Demand | https://finance.yahoo.com/markets/stocks/articles/avepoint-avpt-stock-fair-value-221344123.html
   News (2026-11-06T21:13:27+00:00): Guidance Raise Could Be A Game Changer For AvePoint Stock (AVPT) | https://finance.yahoo.com/markets/stocks/articles/guidance-raise-could-game-changer-211327365.html
   Filing: 10-Q | 2026-11-05 | https://finance.yahoo.com/sec-filing/AVPT/0001437749-26-035271_1777921
 
 HCC | $84.15 | price date 2026-11-06 | phase 1
-  weeks_to_months: 60.4/100 | data coverage 100% | watchlist
-  months_to_18m: 69.1/100 | data coverage 100% | candidate
+  weeks_to_months: 60.3/100 | data coverage 100% | watchlist
+  months_to_18m: 69.0/100 | data coverage 100% | candidate
   Components: technical 32/100 (100% covered); growth 79/100 (100% covered); quality 66/100 (100% covered); valuation 74/100 (100% covered); revisions 100/100 (100% covered); catalysts 0/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 54.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:03.541066+00:00
-  eps_yoy_change: 32.86 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:03.541066+00:00
-  fcf_margin: 7.11 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:03.541066+00:00
-  net_debt_to_ebitda: -0.36 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:03.541066+00:00
-  shares_yoy_change: 0.44 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:03.541066+00:00
-  forward_pe: 10.79 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 38.56 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 12.44 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 14.12 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 54.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:31.696208+00:00
+  eps_yoy_change: 32.86 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:31.696208+00:00
+  fcf_margin: 7.11 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:31.696208+00:00
+  net_debt_to_ebitda: -0.36 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:31.696208+00:00
+  shares_yoy_change: 0.44 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:31.696208+00:00
+  forward_pe: 10.86 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 38.56 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 12.44 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 14.12 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/HCC/analysis/
   Source: https://finance.yahoo.com/quote/HCC/financials/
   Source: https://finance.yahoo.com/quote/HCC/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
   News (2026-11-07T14:17:29+00:00): Warrior Met Coal Q3 Earnings Call Highlights | https://finance.yahoo.com/markets/stocks/articles/warrior-met-coal-q3-earnings-141729623.html
   News (2026-11-05T16:21:19+00:00): Warrior Met Coal (HCC) Q3 2026 Earnings Call Transcript | https://finance.yahoo.com/markets/stocks/articles/warrior-met-coal-hcc-q3-162119554.html
   News (2026-11-05T15:04:50+00:00): UBS Adjusts Warrior Met Coal Price Target to $97 From $102, Maintains Buy Rating | https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-warrior-met-coal-150450344.html
@@ -752,30 +751,30 @@ HCC | $84.15 | price date 2026-11-06 | phase 1
   Filing: SD | 2026-09-25 | https://finance.yahoo.com/sec-filing/HCC/0001193125-26-402896_1691303
 
 HNGE | $115.76 | price date 2026-11-06 | phase 2
-  weeks_to_months: 79.1/100 | data coverage 92% | watchlist
-  months_to_18m: 66.3/100 | data coverage 86% | candidate
-  Components: technical 100/100 (100% covered); growth 72/100 (75% covered); quality 71/100 (75% covered); valuation 21/100 (100% covered); revisions 78/100 (100% covered); catalysts 100/100 (100% covered)
+  weeks_to_months: 79.0/100 | data coverage 92% | watchlist
+  months_to_18m: 66.2/100 | data coverage 86% | candidate
+  Components: technical 100/100 (100% covered); growth 72/100 (75% covered); quality 71/100 (75% covered); valuation 20/100 (100% covered); revisions 78/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 53.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:04.685202+00:00
+  revenue_yoy_change: 53.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:33.890599+00:00
   eps_yoy_change: N/A
-  fcf_margin: 39.43 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:04.685202+00:00
-  net_debt_to_ebitda: -3.90 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:04.685202+00:00
+  fcf_margin: 39.43 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:33.890599+00:00
+  net_debt_to_ebitda: -3.90 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:33.890599+00:00
   shares_yoy_change: N/A
-  forward_pe: 35.56 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 3.04 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 26.56 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 6.49 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 1.02 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_pe: 36.72 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.94 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 26.56 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 6.49 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 1.02 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/HNGE/analysis/
   Source: https://finance.yahoo.com/quote/HNGE/financials/
   Source: https://finance.yahoo.com/quote/HNGE/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 1 prior daily observations (20 required)
-  ev_ebitda history: 1 prior daily observations (20 required)
+  forward_pe history: 2 prior daily observations (20 required)
+  ev_ebitda history: 2 prior daily observations (20 required)
+  News (2026-11-09T16:20:02+00:00): Earnings Estimates Rising for Hinge Health Inc. (HNGE): Will It Gain? | https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-rising-hinge-health-162002243.html
+  News (2026-11-09T14:15:00+00:00): Best Momentum Stocks to Buy for November 9th | https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-141500419.html
   News (2026-11-05T01:52:05+00:00): 5 Best Mid-Cap US Stocks to Buy Now | https://finance.yahoo.com/markets/stocks/articles/5-best-mid-cap-us-015205107.html
-  News (2026-11-04T07:11:31+00:00): Hinge Health (HNGE) Stock Looks Stretched On Its 156% YTD Run | https://finance.yahoo.com/markets/stocks/articles/hinge-health-hnge-stock-looks-071131203.html
-  News (2026-11-04T04:32:48+00:00): Why Everyone Is Watching Hinge Health (HNGE) Now | https://finance.yahoo.com/markets/stocks/articles/why-everyone-watching-hinge-health-043248689.html
   Filing: 8-K | 2026-11-02 | https://finance.yahoo.com/sec-filing/HNGE/0001628280-26-068872_1673743
   Filing: 8-K | 2026-08-21 | https://finance.yahoo.com/sec-filing/HNGE/0001628280-26-058439_1673743
 
@@ -785,23 +784,23 @@ HGV | $43.95 | price date 2026-11-06 | phase 1
   Components: technical 48/100 (100% covered); growth 50/100 (100% covered); quality 51/100 (100% covered); valuation 99/100 (100% covered); revisions 5/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
   Review: Net debt exceeds 4x EBITDA
-  revenue_yoy_change: 50.85 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:05.761576+00:00
-  eps_yoy_change: 1221.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:05.761576+00:00
-  fcf_margin: 6.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:05.761576+00:00
-  net_debt_to_ebitda: 6.42 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:05.761576+00:00
-  shares_yoy_change: -12.76 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:05.761576+00:00
-  forward_pe: 8.68 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 11.94 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -12.39 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: -4.06 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: -11.29 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 50.85 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:36.153883+00:00
+  eps_yoy_change: 1221.43 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:36.153883+00:00
+  fcf_margin: 6.70 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:36.153883+00:00
+  net_debt_to_ebitda: 6.42 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:36.153883+00:00
+  shares_yoy_change: -12.76 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:36.153883+00:00
+  forward_pe: 8.80 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 11.79 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -12.39 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: -4.06 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: -11.29 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/HGV/analysis/
   Source: https://finance.yahoo.com/quote/HGV/financials/
   Source: https://finance.yahoo.com/quote/HGV/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 8 prior daily observations (20 required)
-  ev_ebitda history: 8 prior daily observations (20 required)
+  forward_pe history: 9 prior daily observations (20 required)
+  ev_ebitda history: 9 prior daily observations (20 required)
   News (2026-11-07T10:17:58+00:00): Hilton Grand Vacations (HGV) Stock Still Looks Reasonable After Buyback News | https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-hgv-stock-101758116.html
   News (2026-11-06T21:09:46+00:00): Hilton Grand Vacations Insider Sold Shares Worth $2,621,736, According to a Recent SEC Filing | https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-insider-sold-210946766.html
   News (2026-11-04T22:12:41+00:00): Hilton Grand Vacations Insider Bought Shares Worth $499,224, According to a Recent SEC Filing | https://finance.yahoo.com/markets/stocks/articles/hilton-grand-vacations-insider-bought-221241787.html
@@ -811,52 +810,53 @@ HGV | $43.95 | price date 2026-11-06 | phase 1
   Filing: 10-Q | 2026-10-29 | https://finance.yahoo.com/sec-filing/HGV/0001674168-26-000108_1674168
 
 FAST | $52.99 | price date 2026-11-06 | phase 2
-  weeks_to_months: 64.4/100 | data coverage 100% | candidate
-  months_to_18m: 58.4/100 | data coverage 100% | watchlist
-  Components: technical 81/100 (100% covered); growth 44/100 (100% covered); quality 77/100 (100% covered); valuation 34/100 (100% covered); revisions 57/100 (100% covered); catalysts 69/100 (100% covered)
-  revenue_yoy_change: 15.47 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:06.772597+00:00
-  eps_yoy_change: 20.69 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:06.772597+00:00
-  fcf_margin: 12.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:06.772597+00:00
-  net_debt_to_ebitda: 0.12 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:06.772597+00:00
-  shares_yoy_change: -0.08 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:06.772597+00:00
-  forward_pe: 37.56 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 1.94 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 10.60 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.69 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 1.25 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 72.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 64.3/100 | data coverage 100% | candidate
+  months_to_18m: 58.2/100 | data coverage 100% | watchlist
+  Components: technical 81/100 (100% covered); growth 44/100 (100% covered); quality 77/100 (100% covered); valuation 32/100 (100% covered); revisions 57/100 (100% covered); catalysts 69/100 (100% covered)
+  revenue_yoy_change: 15.47 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:38.520737+00:00
+  eps_yoy_change: 20.69 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:38.520737+00:00
+  fcf_margin: 12.96 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:38.520737+00:00
+  net_debt_to_ebitda: 0.12 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:38.520737+00:00
+  shares_yoy_change: -0.08 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:38.520737+00:00
+  forward_pe: 38.84 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 1.87 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 10.60 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.69 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 1.25 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 71.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/FAST/analysis/
   Source: https://finance.yahoo.com/quote/FAST/calendar/
   Source: https://finance.yahoo.com/quote/FAST/financials/
   Source: https://finance.yahoo.com/quote/FAST/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T13:17:08+00:00): Fastenal Stock Is Up 35% in 2026. Is Its Dividend Still Worth Buying? | https://finance.yahoo.com/markets/stocks/articles/fastenal-stock-35-2026-dividend-131708043.html
   Filing: 10-Q | 2026-10-19 | https://finance.yahoo.com/sec-filing/FAST/0000815556-26-000049_815556
   Filing: 8-K | 2026-10-14 | https://finance.yahoo.com/sec-filing/FAST/0000815556-26-000046_815556
 
 HRMY | $33.11 | price date 2026-11-06 | phase 1
-  weeks_to_months: 62.0/100 | data coverage 95% | watchlist
-  months_to_18m: 73.2/100 | data coverage 100% | candidate
-  Components: technical 34/100 (100% covered); growth 53/100 (100% covered); quality 85/100 (100% covered); valuation 97/100 (100% covered); revisions 99/100 (100% covered); catalysts 0/100 (0% covered)
+  weeks_to_months: 42.0/100 | data coverage 95% | watchlist
+  months_to_18m: 62.4/100 | data coverage 100% | candidate
+  Components: technical 34/100 (100% covered); growth 51/100 (100% covered); quality 85/100 (100% covered); valuation 94/100 (100% covered); revisions 2/100 (100% covered); catalysts 0/100 (0% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 12.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:07.848250+00:00
-  eps_yoy_change: -6.90 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:07.848250+00:00
-  fcf_margin: 32.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:07.848250+00:00
-  net_debt_to_ebitda: -2.29 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:07.848250+00:00
-  shares_yoy_change: 1.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:07.848250+00:00
-  forward_pe: 4.73 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 16.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 34.14 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 4.76 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 16.36 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 12.30 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:41.431071+00:00
+  eps_yoy_change: -6.90 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:41.431071+00:00
+  fcf_margin: 32.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:41.431071+00:00
+  net_debt_to_ebitda: -2.29 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:41.431071+00:00
+  shares_yoy_change: 1.64 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:41.431071+00:00
+  forward_pe: 5.55 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 16.34 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 27.34 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: -13.44 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: -9.32 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/HRMY/analysis/
   Source: https://finance.yahoo.com/quote/HRMY/financials/
   Source: https://finance.yahoo.com/quote/HRMY/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
   News (2026-11-07T04:25:39+00:00): Harmony Biosciences (HRMY) Stock May Be Undervalued On Earnings Power | https://finance.yahoo.com/markets/stocks/articles/harmony-biosciences-hrmy-stock-may-042539001.html
   News (2026-11-05T18:04:00+00:00): HRMY Q3 Earnings Miss Estimates on Higher Costs Despite Wakix Growth | https://finance.yahoo.com/healthcare/articles/hrmy-q3-earnings-miss-estimates-180400892.html
   News (2026-11-05T13:19:30+00:00): Deutsche Bank Adjusts Harmony Biosciences Price Target to $38 From $42, Maintains Hold Rating | https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-harmony-biosciences-131930779.html
@@ -866,169 +866,169 @@ HRMY | $33.11 | price date 2026-11-06 | phase 1
 
 LLY | $1354.00 | price date 2026-11-06 | phase 2
   weeks_to_months: 82.0/100 | data coverage 100% | watchlist
-  months_to_18m: 71.5/100 | data coverage 100% | candidate
-  Components: technical 91/100 (100% covered); growth 77/100 (100% covered); quality 81/100 (100% covered); valuation 23/100 (100% covered); revisions 96/100 (100% covered); catalysts 100/100 (100% covered)
+  months_to_18m: 71.3/100 | data coverage 100% | candidate
+  Components: technical 91/100 (100% covered); growth 77/100 (100% covered); quality 81/100 (100% covered); valuation 22/100 (100% covered); revisions 96/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 38.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:09.206239+00:00
-  eps_yoy_change: 16.26 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:09.206239+00:00
-  fcf_margin: 13.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:09.206239+00:00
-  net_debt_to_ebitda: 0.91 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:09.206239+00:00
-  shares_yoy_change: -0.60 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:09.206239+00:00
-  forward_pe: 26.89 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 0.97 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 42.44 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 5.77 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 8.38 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 38.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:43.867733+00:00
+  eps_yoy_change: 16.26 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:43.867733+00:00
+  fcf_margin: 13.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:43.867733+00:00
+  net_debt_to_ebitda: 0.91 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:43.867733+00:00
+  shares_yoy_change: -0.60 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:43.867733+00:00
+  forward_pe: 28.02 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 0.93 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 42.98 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 6.09 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 8.55 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/LLY/analysis/
   Source: https://finance.yahoo.com/quote/LLY/financials/
   Source: https://finance.yahoo.com/quote/LLY/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
-  News (2026-11-08T15:42:04+00:00): Democrats Win Midterms: 5 Best Healthcare and Insurance Stocks To Buy | https://finance.yahoo.com/healthcare/articles/democrats-win-midterms-5-best-154204119.html
-  News (2026-11-07T21:35:00+00:00): Forget Lilly and Novo: Pfizer Is Planning a Wave of Phase 3 Obesity Trials | https://finance.yahoo.com/healthcare/articles/forget-lilly-novo-pfizer-planning-213500817.html
-  News (2026-11-07T18:50:00+00:00): Eli Lilly Just Raised Its 2026 Revenue Forecast by $5.5 Billion. Is the Stock Still a Buy? | https://finance.yahoo.com/markets/stocks/articles/eli-lilly-just-raised-2026-185000009.html
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T19:27:00+00:00): Eli Lilly’s Weight-Loss Pill Shows Sleep Apnea Benefits. Can It Gain on Novo? | https://finance.yahoo.com/m/363c8fec-d17a-3593-8227-dab89791fbc9/eli-lilly%E2%80%99s-weight-loss-pill.html
+  News (2026-11-09T18:36:36+00:00): Sector Update: Healthcare Stocks Rise Monday Afternoon | https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-monday-183636704.html
+  News (2026-11-09T18:17:01+00:00): Eli Lilly Stocks Rise 3.40% as Jefferies Sets Street-High $1,700 Target | https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-rise-3-181701651.html
   Filing: 8-K | 2026-10-29 | https://finance.yahoo.com/sec-filing/LLY/0000059478-26-000104_59478
 
 KEYS | $272.13 | price date 2026-11-06 | phase 1
-  weeks_to_months: 60.3/100 | data coverage 100% | watchlist
-  months_to_18m: 72.1/100 | data coverage 100% | candidate
-  Components: technical 20/100 (100% covered); growth 83/100 (100% covered); quality 89/100 (100% covered); valuation 70/100 (100% covered); revisions 77/100 (100% covered); catalysts 100/100 (100% covered)
-  revenue_yoy_change: 36.54 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:10.331542+00:00
-  eps_yoy_change: 109.09 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:10.331542+00:00
-  fcf_margin: 22.32 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:10.331542+00:00
-  net_debt_to_ebitda: 0.07 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:10.331542+00:00
-  shares_yoy_change: 0.00 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:17:10.331542+00:00
-  forward_pe: 19.53 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 3.17 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 21.17 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 0.45 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 16.90 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 11.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 60.0/100 | data coverage 100% | watchlist
+  months_to_18m: 71.6/100 | data coverage 100% | candidate
+  Components: technical 20/100 (100% covered); growth 83/100 (100% covered); quality 89/100 (100% covered); valuation 67/100 (100% covered); revisions 77/100 (100% covered); catalysts 100/100 (100% covered)
+  revenue_yoy_change: 36.54 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:46.492164+00:00
+  eps_yoy_change: 109.09 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:46.492164+00:00
+  fcf_margin: 22.32 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:46.492164+00:00
+  net_debt_to_ebitda: 0.07 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:46.492164+00:00
+  shares_yoy_change: 0.00 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:53:46.492164+00:00
+  forward_pe: 20.79 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.98 | Yahoo Finance | period 2026-07-31 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 21.17 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 0.45 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 16.90 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 10.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/KEYS/analysis/
   Source: https://finance.yahoo.com/quote/KEYS/calendar/
   Source: https://finance.yahoo.com/quote/KEYS/financials/
   Source: https://finance.yahoo.com/quote/KEYS/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T16:00:00+00:00): Keysight Brings Radio Frequency and Photonic Design Together for Tower Semiconductor | https://finance.yahoo.com/technology/articles/keysight-brings-radio-frequency-photonic-160000843.html
   News (2026-11-08T07:10:07+00:00): 3 Cash Rich AI Stocks Investors Are Watching As Debt Costs Rise | https://finance.yahoo.com/technology/ai/articles/3-cash-rich-ai-stocks-071007742.html
   News (2026-11-05T14:00:00+00:00): ServiceNow CPQ helps Keysight accelerate sales and digital commerce, generating quotes 40% faster | https://finance.yahoo.com/technology/articles/servicenow-cpq-helps-keysight-accelerate-140000753.html
-  News (2026-11-05T12:47:00+00:00): Motorola Beats Q3 Earnings Estimates on Strong Demand, Record Orders | https://finance.yahoo.com/markets/stocks/articles/motorola-beats-q3-earnings-estimates-124700638.html
   Filing: 8-K | 2026-11-02 | https://finance.yahoo.com/sec-filing/KEYS/0001601046-26-000038_1601046
   Filing: 10-Q | 2026-09-02 | https://finance.yahoo.com/sec-filing/KEYS/0001601046-26-000036_1601046
   Filing: 8-K | 2026-08-26 | https://finance.yahoo.com/sec-filing/KEYS/0001601046-26-000032_1601046
 
 AMGN | $460.42 | price date 2026-11-06 | phase 2
-  weeks_to_months: 73.8/100 | data coverage 100% | candidate
+  weeks_to_months: 73.7/100 | data coverage 100% | candidate
   months_to_18m: 65.3/100 | data coverage 100% | candidate
-  Components: technical 91/100 (100% covered); growth 29/100 (100% covered); quality 81/100 (100% covered); valuation 66/100 (100% covered); revisions 69/100 (100% covered); catalysts 100/100 (100% covered)
-  revenue_yoy_change: 8.45 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:11.371298+00:00
-  eps_yoy_change: 19.39 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:11.371298+00:00
-  fcf_margin: 24.63 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:11.371298+00:00
-  net_debt_to_ebitda: 2.25 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:11.371298+00:00
-  shares_yoy_change: 0.74 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:11.371298+00:00
-  forward_pe: 18.42 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 3.85 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 6.33 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 2.08 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 3.46 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 86.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  Components: technical 91/100 (100% covered); growth 29/100 (100% covered); quality 81/100 (100% covered); valuation 66/100 (100% covered); revisions 68/100 (100% covered); catalysts 100/100 (100% covered)
+  revenue_yoy_change: 8.45 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:48.586049+00:00
+  eps_yoy_change: 19.39 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:48.586049+00:00
+  fcf_margin: 24.63 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:48.586049+00:00
+  net_debt_to_ebitda: 2.25 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:48.586049+00:00
+  shares_yoy_change: 0.74 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:48.586049+00:00
+  forward_pe: 18.58 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 3.82 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 6.33 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 2.08 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 3.19 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 85.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/AMGN/analysis/
   Source: https://finance.yahoo.com/quote/AMGN/calendar/
   Source: https://finance.yahoo.com/quote/AMGN/financials/
   Source: https://finance.yahoo.com/quote/AMGN/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
-  News (2026-11-08T14:09:43+00:00): Amgen’s Dividend Has Grown 800% Since 2011. Here’s What It Pays Today | https://finance.yahoo.com/markets/stocks/articles/amgen-dividend-grown-800-since-140943595.html
-  News (2026-11-07T23:20:28+00:00): 5 Worst Dow Stocks To Buy According to Analysts | https://finance.yahoo.com/markets/stocks/articles/5-worst-dow-stocks-buy-232028142.html
-  News (2026-11-07T05:17:12+00:00): Top 3 Biotech Stocks To Watch In November 2026 | https://finance.yahoo.com/healthcare/articles/top-3-biotech-stocks-watch-051712732.html
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T16:08:00+00:00): Indices Hunt for Support After Steep Weekly Losses as Volatility Gauge Stays Elevated | https://finance.yahoo.com/markets/stocks/articles/indices-hunt-support-steep-weekly-160800955.html
+  News (2026-11-09T13:00:02+00:00): Here is What to Know Beyond Why Amgen Inc. (AMGN) is a Trending Stock | https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-amgen-inc-130002160.html
+  News (2026-11-09T11:04:45+00:00): What SPDR Dow Jones Industrial Avg ETF (DIA) Sold: Goldman Leads on Nov. 5 | https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-industrial-avg-110445805.html
   Filing: 10-Q | 2026-11-04 | https://finance.yahoo.com/sec-filing/AMGN/0000318154-26-000155_318154
   Filing: 8-K | 2026-11-03 | https://finance.yahoo.com/sec-filing/AMGN/0000318154-26-000153_318154
   Filing: 8-K | 2026-10-27 | https://finance.yahoo.com/sec-filing/AMGN/0000318154-26-000144_318154
 
 LITE | $538.59 | price date 2026-11-06 | phase 1
-  weeks_to_months: 58.5/100 | data coverage 96% | watchlist
-  months_to_18m: 59.1/100 | data coverage 92% | watchlist
-  Components: technical 25/100 (100% covered); growth 100/100 (100% covered); quality 37/100 (75% covered); valuation 46/100 (100% covered); revisions 100/100 (100% covered); catalysts 91/100 (100% covered)
+  weeks_to_months: 58.4/100 | data coverage 96% | watchlist
+  months_to_18m: 58.9/100 | data coverage 92% | watchlist
+  Components: technical 25/100 (100% covered); growth 100/100 (100% covered); quality 37/100 (75% covered); valuation 45/100 (100% covered); revisions 100/100 (100% covered); catalysts 91/100 (100% covered)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 136.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:12.436889+00:00
-  eps_yoy_change: 6980.00 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:12.436889+00:00
-  fcf_margin: 9.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:12.436889+00:00
+  revenue_yoy_change: 136.53 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:50.885377+00:00
+  eps_yoy_change: 6980.00 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:50.885377+00:00
+  fcf_margin: 9.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:50.885377+00:00
   net_debt_to_ebitda: N/A
-  shares_yoy_change: 29.89 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:12.436889+00:00
-  forward_pe: 13.55 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 0.73 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 59.08 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 11.76 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 33.17 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 86.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: 29.89 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:50.885377+00:00
+  forward_pe: 14.97 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 0.66 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 59.12 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 11.49 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 32.99 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 85.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/LITE/analysis/
   Source: https://finance.yahoo.com/quote/LITE/calendar/
   Source: https://finance.yahoo.com/quote/LITE/financials/
   Source: https://finance.yahoo.com/quote/LITE/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 3 prior daily observations (20 required)
-  ev_ebitda history: 3 prior daily observations (20 required)
-  News (2026-11-08T11:24:55+00:00): Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now? | https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-drops-26-112455818.html
-  News (2026-11-08T09:36:17+00:00): Coherent Is Up 21% in a Year as AI Goes “From Copper to Optical.” Is It a Buy? | https://finance.yahoo.com/markets/stocks/articles/coherent-21-ai-goes-copper-093617822.html
-  News (2026-11-07T18:40:16+00:00): Here’s Why Lumentum (LITE) Was Downgraded | https://finance.yahoo.com/markets/stocks/articles/why-lumentum-lite-downgraded-184016295.html
+  forward_pe history: 4 prior daily observations (20 required)
+  ev_ebitda history: 4 prior daily observations (20 required)
+  News (2026-11-09T19:33:43+00:00): Marvell Sinks 36%, Lumentum Drops 31% on $115 Billion Deal: Is the Selloff Overdone? | https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-36-lumentum-drops-193343092.html
+  News (2026-11-09T19:16:47+00:00): Marvell (MRVL) Stock Looks Undervalued After Its 166% Three Year Run | https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-looks-undervalued-191647901.html
+  News (2026-11-09T18:55:16+00:00): Seagate Soars 10% in AI Rebound as Morgan Stanley Sees “Strong Fundamentals and Weak Sentiment” | https://finance.yahoo.com/markets/stocks/articles/seagate-soars-10-ai-rebound-185516979.html
   Filing: 425 | 2026-11-05 | https://finance.yahoo.com/sec-filing/LITE/0001193125-26-448735_1633978
   Filing: 10-Q | 2026-11-03 | https://finance.yahoo.com/sec-filing/LITE/0001628280-26-069615_1633978
-  Filing: 425 | 2026-11-02 | https://finance.yahoo.com/sec-filing/LITE/0001193125-26-443871_1633978
+  Filing: 425 | 2026-11-02 | https://finance.yahoo.com/sec-filing/LITE/0001193125-26-443823_1633978
 
 PAYS | $14.69 | price date 2026-11-06 | phase 2
-  weeks_to_months: 84.1/100 | data coverage 100% | watchlist
-  months_to_18m: 82.5/100 | data coverage 100% | candidate
-  Components: technical 84/100 (100% covered); growth 88/100 (100% covered); quality 80/100 (100% covered); valuation 79/100 (100% covered); revisions 83/100 (100% covered); catalysts 100/100 (100% covered)
-  Review: Earnings within 1 days (provider estimate; verify date)
+  weeks_to_months: 84.4/100 | data coverage 100% | watchlist
+  months_to_18m: 83.2/100 | data coverage 100% | candidate
+  Components: technical 84/100 (100% covered); growth 88/100 (100% covered); quality 80/100 (100% covered); valuation 82/100 (100% covered); revisions 83/100 (100% covered); catalysts 100/100 (100% covered)
+  Review: Earnings within 0 days (provider estimate; verify date)
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 48.08 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:13.523327+00:00
-  eps_yoy_change: 450.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:13.523327+00:00
-  fcf_margin: 67.13 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:13.523327+00:00
-  net_debt_to_ebitda: -0.82 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:13.523327+00:00
-  shares_yoy_change: 7.09 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:13.523327+00:00
-  forward_pe: 23.89 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 8.15 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 25.51 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 1.65 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 40.84 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 1.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 48.08 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:53.244195+00:00
+  eps_yoy_change: 450.00 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:53.244195+00:00
+  fcf_margin: 67.13 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:53.244195+00:00
+  net_debt_to_ebitda: -0.82 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:53.244195+00:00
+  shares_yoy_change: 7.09 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:53:53.244195+00:00
+  forward_pe: 21.87 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 8.90 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 25.51 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 1.65 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 40.84 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 0.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/PAYS/analysis/
   Source: https://finance.yahoo.com/quote/PAYS/calendar/
   Source: https://finance.yahoo.com/quote/PAYS/financials/
   Source: https://finance.yahoo.com/quote/PAYS/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 9 prior daily observations (20 required)
-  ev_ebitda history: 9 prior daily observations (20 required)
+  forward_pe history: 10 prior daily observations (20 required)
+  ev_ebitda history: 10 prior daily observations (20 required)
 
 LRCX | $200.44 | price date 2026-11-06 | phase 1
-  weeks_to_months: 61.5/100 | data coverage 100% | watchlist
-  months_to_18m: 77.0/100 | data coverage 100% | candidate
-  Components: technical 13/100 (100% covered); growth 93/100 (100% covered); quality 96/100 (100% covered); valuation 67/100 (100% covered); revisions 96/100 (100% covered); catalysts 55/100 (100% covered)
-  revenue_yoy_change: 54.38 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:14.527207+00:00
-  eps_yoy_change: 76.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:14.527207+00:00
-  fcf_margin: 25.02 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:14.527207+00:00
-  net_debt_to_ebitda: -0.36 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:14.527207+00:00
-  shares_yoy_change: -1.07 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:14.527207+00:00
-  forward_pe: 16.38 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 2.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 26.80 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 4.23 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 20.47 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 80.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 61.3/100 | data coverage 100% | watchlist
+  months_to_18m: 76.7/100 | data coverage 100% | candidate
+  Components: technical 13/100 (100% covered); growth 93/100 (100% covered); quality 96/100 (100% covered); valuation 66/100 (100% covered); revisions 96/100 (100% covered); catalysts 55/100 (100% covered)
+  revenue_yoy_change: 54.38 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:55.419908+00:00
+  eps_yoy_change: 76.61 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:55.419908+00:00
+  fcf_margin: 25.02 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:55.419908+00:00
+  net_debt_to_ebitda: -0.36 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:55.419908+00:00
+  shares_yoy_change: -1.07 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:55.419908+00:00
+  forward_pe: 17.78 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 2.41 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 26.80 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 4.23 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 20.47 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 79.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/LRCX/analysis/
   Source: https://finance.yahoo.com/quote/LRCX/calendar/
   Source: https://finance.yahoo.com/quote/LRCX/financials/
   Source: https://finance.yahoo.com/quote/LRCX/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 10 prior daily observations (20 required)
-  ev_ebitda history: 10 prior daily observations (20 required)
-  News (2026-11-08T12:51:44+00:00): Brad Gerstner Bought Applied Materials. A $16 Billion Hedge Fund Sold Nearly All of It. Who’s Right? | https://finance.yahoo.com/markets/stocks/articles/brad-gerstner-bought-applied-materials-125144100.html
-  News (2026-11-08T11:57:01+00:00): Buy the dip or wait? BofA maps out 3 scenarios for chip stocks and top picks | https://finance.yahoo.com/markets/stocks/articles/buy-dip-wait-bofa-maps-115701295.html
-  News (2026-11-07T12:49:52+00:00): What Just Lifted Lam Research Stock? | https://finance.yahoo.com/markets/stocks/articles/just-lifted-lam-research-stock-124952001.html
+  forward_pe history: 11 prior daily observations (20 required)
+  ev_ebitda history: 11 prior daily observations (20 required)
+  News (2026-11-09T13:51:03+00:00): A $5.4 Billion Fund Bought These 3 Stocks | https://finance.yahoo.com/markets/stocks/articles/5-4-billion-fund-bought-135103151.html
+  News (2026-11-09T13:33:39+00:00): Cathie Wood and 73 Other Funds Bought Chip Stocks. Cerebras Is Down 59% Since. Time to Buy? | https://finance.yahoo.com/markets/stocks/articles/cathie-wood-73-other-funds-133339495.html
+  News (2026-11-09T12:50:56+00:00): B. Riley Adjusts Price Target on Lam Research to $310 From $338, Maintains Buy Rating | https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-price-target-125056985.html
   Filing: 8-K | 2026-11-05 | https://finance.yahoo.com/sec-filing/LRCX/0000707549-26-000057_707549
   Filing: 10-Q | 2026-10-22 | https://finance.yahoo.com/sec-filing/LRCX/0000707549-26-000054_707549
   Filing: 8-K | 2026-10-21 | https://finance.yahoo.com/sec-filing/LRCX/0000707549-26-000052_707549
@@ -1039,79 +1039,81 @@ WELL | $245.01 | price date 2026-11-06 | phase 2
   Components: technical 81/100 (100% covered); growth 70/100 (100% covered); quality 26/100 (100% covered); valuation 0/100 (100% covered); revisions 41/100 (100% covered); catalysts 19/100 (100% covered)
   Review: Next earnings date unknown
   Review: Share count increased more than 5% YoY
-  revenue_yoy_change: 40.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:15.610221+00:00
-  eps_yoy_change: 31.71 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:15.610221+00:00
+  revenue_yoy_change: 40.52 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:57.393607+00:00
+  eps_yoy_change: 31.71 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:57.393607+00:00
   fcf_margin: N/A
   net_debt_to_ebitda: N/A
-  shares_yoy_change: 10.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:15.610221+00:00
-  forward_pe: 78.03 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  shares_yoy_change: 10.14 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:57.393607+00:00
+  forward_pe: 78.51 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   fcf_yield: N/A
-  forward_eps_growth: 14.60 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: -1.88 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 0.32 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  forward_eps_growth: 14.60 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: -1.88 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 0.32 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/WELL/analysis/
   Source: https://finance.yahoo.com/quote/WELL/financials/
   Source: https://finance.yahoo.com/quote/WELL/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T18:10:34+00:00): RBC Capital Adjusts Welltower Price Target to $266 From $260 | https://finance.yahoo.com/markets/stocks/articles/rbc-capital-adjusts-welltower-price-181034487.html
+  News (2026-11-09T11:34:19+00:00): BMO Capital Adjusts Price Target on Welltower to $275 From $270 | https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-113419252.html
   Insider cash purchase label: GUNDLACH ANDREW | 2026-08-26 | value 2,407,650 | Yahoo transaction label; Form 4 not independently verified | https://finance.yahoo.com/quote/WELL/insider-transactions/
   Filing: 8-K | 2026-10-26 | https://finance.yahoo.com/sec-filing/WELL/0000766704-26-000043_766704
 
 MPC | $372.74 | price date 2026-11-06 | phase 1
-  weeks_to_months: 76.2/100 | data coverage 100% | watchlist
-  months_to_18m: 74.8/100 | data coverage 100% | candidate
-  Components: technical 70/100 (100% covered); growth 50/100 (100% covered); quality 75/100 (100% covered); valuation 96/100 (100% covered); revisions 100/100 (100% covered); catalysts 68/100 (100% covered)
-  revenue_yoy_change: 60.97 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:17.075190+00:00
-  eps_yoy_change: 489.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:17.075190+00:00
-  fcf_margin: 11.92 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:17.075190+00:00
-  net_debt_to_ebitda: 0.82 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:17.075190+00:00
-  shares_yoy_change: -7.89 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:17.075190+00:00
-  forward_pe: 6.07 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 20.54 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -10.79 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 17.83 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 95.44 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 86.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  weeks_to_months: 76.1/100 | data coverage 100% | watchlist
+  months_to_18m: 74.6/100 | data coverage 100% | candidate
+  Components: technical 70/100 (100% covered); growth 50/100 (100% covered); quality 75/100 (100% covered); valuation 95/100 (100% covered); revisions 100/100 (100% covered); catalysts 68/100 (100% covered)
+  revenue_yoy_change: 60.97 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:59.841982+00:00
+  eps_yoy_change: 489.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:59.841982+00:00
+  fcf_margin: 11.92 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:59.841982+00:00
+  net_debt_to_ebitda: 0.82 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:59.841982+00:00
+  shares_yoy_change: -7.89 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:53:59.841982+00:00
+  forward_pe: 6.24 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 19.98 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -10.79 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 17.83 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 95.44 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 85.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/MPC/analysis/
   Source: https://finance.yahoo.com/quote/MPC/calendar/
   Source: https://finance.yahoo.com/quote/MPC/financials/
   Source: https://finance.yahoo.com/quote/MPC/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 23 prior daily observations (20 required)
-  News (2026-11-06T16:13:09+00:00): Marathon Petroleum And 2 Top Pipeline Stocks | https://finance.yahoo.com/energy/articles/marathon-petroleum-2-top-pipeline-161309722.html
-  News (2026-11-06T14:43:00+00:00): Petrobras Strengthens Oil Spill Response With New Vessel Charter | https://finance.yahoo.com/energy/articles/petrobras-strengthens-oil-spill-response-144300173.html
-  News (2026-11-06T13:09:00+00:00): 3 Refining Stocks That Have Doubled in 2026: What's Next? | https://finance.yahoo.com/energy/articles/3-refining-stocks-doubled-2026-130900865.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 24 prior daily observations (20 required)
+  News (2026-11-09T16:15:00+00:00): Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower | https://finance.yahoo.com/energy/articles/seven-opec-producers-keep-december-161500934.html
+  News (2026-11-09T15:28:00+00:00): CNQ Q3 Earnings Beat on Strong Pricing and Record Thermal Output | https://finance.yahoo.com/energy/articles/cnq-q3-earnings-beat-strong-152800153.html
+  News (2026-11-09T14:48:00+00:00): Can Cenovus Improve Refining Margins Through Market Expansion? | https://finance.yahoo.com/energy/articles/cenovus-improve-refining-margins-market-144800178.html
   Filing: 8-K | 2026-11-03 | https://finance.yahoo.com/sec-filing/MPC/0001510295-26-000069_1510295
   Filing: 8-K | 2026-10-29 | https://finance.yahoo.com/sec-filing/MPC/0001510295-26-000063_1510295
 
 REGN | $904.35 | price date 2026-11-06 | phase 2
   weeks_to_months: 85.6/100 | data coverage 100% | candidate
-  months_to_18m: 79.2/100 | data coverage 100% | candidate
+  months_to_18m: 79.1/100 | data coverage 100% | candidate
   Components: technical 90/100 (100% covered); growth 50/100 (100% covered); quality 94/100 (100% covered); valuation 75/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
-  revenue_yoy_change: 36.27 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:18.102733+00:00
-  eps_yoy_change: 35.46 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:18.102733+00:00
-  fcf_margin: 21.47 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:18.102733+00:00
-  net_debt_to_ebitda: -1.06 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:18.102733+00:00
-  shares_yoy_change: -1.49 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:18.102733+00:00
-  forward_pe: 12.79 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 3.88 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -9.64 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 22.71 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 23.26 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 81.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 36.27 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:01.930624+00:00
+  eps_yoy_change: 35.46 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:01.930624+00:00
+  fcf_margin: 21.47 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:01.930624+00:00
+  net_debt_to_ebitda: -1.06 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:01.930624+00:00
+  shares_yoy_change: -1.49 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:01.930624+00:00
+  forward_pe: 13.11 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 3.78 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -9.64 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 22.71 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 23.26 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 80.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/REGN/analysis/
   Source: https://finance.yahoo.com/quote/REGN/calendar/
   Source: https://finance.yahoo.com/quote/REGN/financials/
   Source: https://finance.yahoo.com/quote/REGN/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T14:31:00+00:00): Global Gene Therapy for Hearing Loss Market Report 2026 | Capture Growth to $1.71B by 2030 as Regeneron, Lilly, Sensorion and Astellas Advance AAV, CRISPR and Cochlear Delivery | https://finance.yahoo.com/healthcare/articles/global-gene-therapy-hearing-loss-143100941.html
+  News (2026-11-08T21:00:00+00:00): CIDEB siRNA Normalizes Liver Fat and Improves Liver Injury Markers in MASLD Patients, as Highlighted at AASLD | https://finance.yahoo.com/healthcare/articles/cideb-sirna-normalizes-liver-fat-210000365.html
   News (2026-11-08T14:10:07+00:00): Regeneron Pharmaceuticals (REGN) Extends BARDA Deal As Libtayo Long Term Data Holds Up | https://finance.yahoo.com/healthcare/articles/regeneron-pharmaceuticals-regn-extends-barda-141007536.html
-  News (2026-11-06T21:18:19+00:00): Regeneron Pharmaceuticals Insider Sold Shares Worth $3,827,159, According to a Recent SEC Filing | https://finance.yahoo.com/markets/stocks/articles/regeneron-pharmaceuticals-insider-sold-shares-211819226.html
-  News (2026-11-06T17:24:00+00:00): Intellia's Q3 Loss Wider Than Expected, Stock Down, Pipeline in Focus | https://finance.yahoo.com/healthcare/articles/intellias-q3-loss-wider-expected-172400892.html
   Filing: 10-Q | 2026-10-30 | https://finance.yahoo.com/sec-filing/REGN/0000872589-26-000034_872589
   Filing: 8-K | 2026-10-06 | https://finance.yahoo.com/sec-filing/REGN/0001104659-26-113895_872589
   Filing: 8-K | 2026-09-30 | https://finance.yahoo.com/sec-filing/REGN/0001104659-26-112340_872589
@@ -1120,57 +1122,57 @@ OXY | $56.38 | price date 2026-11-06 | phase 1
   weeks_to_months: 72.6/100 | data coverage 100% | watchlist
   months_to_18m: 73.5/100 | data coverage 100% | candidate
   Components: technical 53/100 (100% covered); growth 50/100 (100% covered); quality 88/100 (100% covered); valuation 84/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
-  Review: Earnings within 1 days (provider estimate; verify date)
-  revenue_yoy_change: 53.39 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:19.130205+00:00
-  eps_yoy_change: 957.69 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:19.130205+00:00
-  fcf_margin: 22.12 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:19.130205+00:00
-  net_debt_to_ebitda: 0.76 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:19.130205+00:00
-  shares_yoy_change: 0.18 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:19.130205+00:00
-  forward_pe: 11.24 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 8.50 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -27.01 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 24.80 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 27.67 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  days_to_earnings: 1.00 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
+  Review: Earnings within 0 days (provider estimate; verify date)
+  revenue_yoy_change: 53.39 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:03.976728+00:00
+  eps_yoy_change: 957.69 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:03.976728+00:00
+  fcf_margin: 22.12 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:03.976728+00:00
+  net_debt_to_ebitda: 0.76 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:03.976728+00:00
+  shares_yoy_change: 0.18 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:03.976728+00:00
+  forward_pe: 11.04 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 8.66 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -27.01 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 24.80 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 27.67 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  days_to_earnings: 0.00 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
   Source: https://finance.yahoo.com/quote/OXY/analysis/
   Source: https://finance.yahoo.com/quote/OXY/calendar/
   Source: https://finance.yahoo.com/quote/OXY/financials/
   Source: https://finance.yahoo.com/quote/OXY/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 24 prior daily observations (20 required)
-  ev_ebitda history: 24 prior daily observations (20 required)
-  News (2026-11-06T13:57:00+00:00): Occidental Petroleum to Release Q3 Earnings: What's in the Cards? | https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-release-q3-earnings-135700931.html
-  News (2026-11-05T21:50:02+00:00): Occidental Petroleum (OXY) Stock Moves -1.69%: What You Should Know | https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-oxy-stock-moves-215002287.html
-  News (2026-11-05T13:15:11+00:00): What Analyst Projections for Key Metrics Reveal About Occidental (OXY) Q3 Earnings | https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131511988.html
+  forward_pe history: 25 prior daily observations (20 required)
+  ev_ebitda history: 25 prior daily observations (20 required)
+  News (2026-11-09T14:37:20+00:00): 5 Oil Stocks Could Turn $500,000 Into $14,000 a Year in Dividend Income | https://finance.yahoo.com/markets/stocks/articles/5-oil-stocks-could-turn-143720430.html
+  News (2026-11-09T14:28:18+00:00): Stock Market Today: Nvidia Pressures Indexes to Maintain Rebound | https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nvidia-pressures-142818338.html
+  News (2026-11-09T12:00:04+00:00): Option Volatility and Earnings Report For Nov 9-13 | https://finance.yahoo.com/markets/options/articles/option-volatility-earnings-report-nov-120004544.html
   Filing: 8-K | 2026-10-13 | https://finance.yahoo.com/sec-filing/OXY/0001628280-26-065586_797468
   Filing: SD | 2026-09-25 | https://finance.yahoo.com/sec-filing/OXY/0001628280-26-063582_797468
 
 CON | $42.22 | price date 2026-11-06 | phase 2
-  weeks_to_months: 76.6/100 | data coverage 100% | watchlist
-  months_to_18m: 62.1/100 | data coverage 100% | candidate
+  weeks_to_months: 76.5/100 | data coverage 100% | watchlist
+  months_to_18m: 62.0/100 | data coverage 100% | candidate
   Components: technical 99/100 (100% covered); growth 44/100 (100% covered); quality 50/100 (100% covered); valuation 65/100 (100% covered); revisions 81/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
   Review: Net debt exceeds 4x EBITDA
-  revenue_yoy_change: 10.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:20.104893+00:00
-  eps_yoy_change: 45.71 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:20.104893+00:00
-  fcf_margin: 11.69 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:20.104893+00:00
-  net_debt_to_ebitda: 4.37 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:20.104893+00:00
-  shares_yoy_change: -0.30 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:17:20.104893+00:00
-  forward_pe: 22.43 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 5.01 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: 11.11 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 2.21 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 7.87 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 10.03 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:06.404164+00:00
+  eps_yoy_change: 45.71 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:06.404164+00:00
+  fcf_margin: 11.69 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:06.404164+00:00
+  net_debt_to_ebitda: 4.37 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:06.404164+00:00
+  shares_yoy_change: -0.30 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:54:06.404164+00:00
+  forward_pe: 22.65 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 4.96 | Yahoo Finance | period 2026-06-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: 11.11 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 2.21 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 7.87 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/CON/analysis/
   Source: https://finance.yahoo.com/quote/CON/financials/
   Source: https://finance.yahoo.com/quote/CON/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 2 prior daily observations (20 required)
-  ev_ebitda history: 2 prior daily observations (20 required)
+  forward_pe history: 3 prior daily observations (20 required)
+  ev_ebitda history: 3 prior daily observations (20 required)
+  News (2026-11-09T11:03:00+00:00): Take the Zacks Approach to Beat the Markets: Ulta Beauty, Accenture, HCA in Focus | https://finance.yahoo.com/markets/stocks/articles/zacks-approach-beat-markets-ulta-110300678.html
   News (2026-11-07T20:14:11+00:00): U.S. Physical Therapy Q3 Earnings Call Highlights | https://finance.yahoo.com/healthcare/articles/u-physical-therapy-q3-earnings-201411457.html
   News (2026-11-07T04:14:51+00:00): Concentra Group Holdings Parent Q3 Earnings Call Highlights | https://finance.yahoo.com/healthcare/articles/concentra-group-holdings-parent-q3-041451177.html
-  News (2026-11-07T01:14:56+00:00): Concentra Group Holdings Parent Inc (CON) Q3 2026 Earnings Call Highlights: Revenue Jumps 8. ... | https://finance.yahoo.com/healthcare/articles/concentra-group-holdings-parent-inc-011456948.html
   Filing: 10-Q | 2026-11-05 | https://finance.yahoo.com/sec-filing/CON/0002014596-26-000077_2014596
   Filing: 8-K | 2026-09-08 | https://finance.yahoo.com/sec-filing/CON/0002014596-26-000064_2014596
   Filing: 8-K | 2026-08-27 | https://finance.yahoo.com/sec-filing/CON/0002014596-26-000060_2014596
@@ -1180,26 +1182,26 @@ PBF | $67.27 | price date 2026-11-06 | phase 1
   months_to_18m: 69.8/100 | data coverage 100% | candidate
   Components: technical 61/100 (100% covered); growth 50/100 (100% covered); quality 61/100 (100% covered); valuation 100/100 (100% covered); revisions 100/100 (100% covered); catalysts 100/100 (100% covered)
   Review: Next earnings date unknown
-  revenue_yoy_change: 58.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:21.235662+00:00
-  eps_yoy_change: 764.83 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:21.235662+00:00
-  fcf_margin: 6.76 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:21.235662+00:00
-  net_debt_to_ebitda: 0.04 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:21.235662+00:00
-  shares_yoy_change: 4.07 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:17:21.235662+00:00
-  forward_pe: 3.55 | Yahoo Finance | period None | fetched 2026-11-08T16:16:39.300268+00:00
-  fcf_yield: 32.92 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-08T16:16:39.300268+00:00
-  forward_eps_growth: -29.58 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_30d: 10.03 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
-  eps_revision_90d: 111.43 | Yahoo Finance | period +1y | fetched 2026-11-08T16:16:39.300268+00:00
+  revenue_yoy_change: 58.58 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:08.539693+00:00
+  eps_yoy_change: 764.83 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:08.539693+00:00
+  fcf_margin: 6.76 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:08.539693+00:00
+  net_debt_to_ebitda: 0.04 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:08.539693+00:00
+  shares_yoy_change: 4.07 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:54:08.539693+00:00
+  forward_pe: 3.62 | Yahoo Finance | period None | fetched 2026-11-09T19:52:35.721424+00:00
+  fcf_yield: 32.31 | Yahoo Finance | period 2026-09-30 | fetched 2026-11-09T19:52:35.721424+00:00
+  forward_eps_growth: -29.58 | Yahoo Finance | period +1y vs 0y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_30d: 10.03 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
+  eps_revision_90d: 111.43 | Yahoo Finance | period +1y | fetched 2026-11-09T19:52:35.721424+00:00
   days_to_earnings: N/A
   Source: https://finance.yahoo.com/quote/PBF/analysis/
   Source: https://finance.yahoo.com/quote/PBF/financials/
   Source: https://finance.yahoo.com/quote/PBF/key-statistics/
   Provider status: income=ok, balance=ok, cashflow=ok, info=ok, estimates=ok, revenue_estimates=ok, revisions=ok, earnings_history=ok, calendar=ok, news=unavailable, news_search=ok, insiders=ok, filings=ok
-  forward_pe history: 3 prior daily observations (20 required)
-  ev_ebitda history: 3 prior daily observations (20 required)
+  forward_pe history: 4 prior daily observations (20 required)
+  ev_ebitda history: 4 prior daily observations (20 required)
+  News (2026-11-09T12:54:00+00:00): Delek Targets Another $1 Per Barrel at El Dorado: Can Margins Climb? | https://finance.yahoo.com/energy/articles/delek-targets-another-1-per-125400155.html
   News (2026-11-06T17:34:00+00:00): EOG Q3 Earnings Beat Estimates on Record Production, Strong Pricing | https://finance.yahoo.com/energy/articles/eog-q3-earnings-beat-estimates-173400832.html
   News (2026-11-06T17:06:00+00:00): Baker Hughes Sharpens Portfolio Focus With $1.45B Waygate Sale | https://finance.yahoo.com/energy/articles/baker-hughes-sharpens-portfolio-focus-170600313.html
-  News (2026-11-06T17:04:00+00:00): NESR to Report Q3 Earnings: Here's What Investors Should Know | https://finance.yahoo.com/markets/stocks/articles/nesr-report-q3-earnings-heres-170400655.html
   Filing: 8-K | 2026-10-30 | https://finance.yahoo.com/sec-filing/PBF/0001534504-26-000043_1534504
   Filing: 8-K | 2026-10-29 | https://finance.yahoo.com/sec-filing/PBF/0001534504-26-000039_1534504
   Filing: 8-K | 2026-10-14 | https://finance.yahoo.com/sec-filing/PBF/0001534504-26-000035_1534504
@@ -1207,7 +1209,7 @@ PBF | $67.27 | price date 2026-11-06 | phase 1
 LEGACY TECHNICAL/GROWTH SIGNALS — see research ranks above for horizon-specific candidates
 
 ================================================================================
-🟢 TOP BUY SIGNALS (Score >= 70) - 272 Total
+🟢 TOP BUY SIGNALS (Score >= 70) - 270 Total
 ================================================================================
 
 
@@ -1255,7 +1257,7 @@ Stop Loss: $33.19
 🟢 Risk/Reward: 4.2:1 (Risk $2.59, Reward $10.73)
 Breakout: $33.10
 🟡 RS: 0.491
-🟢 VCP: 4 contractions: 7.1% → 6.2% → 5.6% → 5.7% (quality: 66/100)
+🟢 VCP: 4 contractions: 7.1% → 6.2% → 5.6% → 5.7% (quality: 71/100)
 
 Key Reasons:
   • Good Stage 2: 8.6% above 50 SMA
@@ -1449,7 +1451,7 @@ Overall Assessment:
 
 
 ################################################################################
-⭐ BUY #8: CXT | Score: 93.6/125
+⭐ BUY #8: CXT | Score: 93.8/125
 ################################################################################
 Phase: 2
 🟢 Entry Quality: Good
@@ -1524,7 +1526,7 @@ Stop Loss: $254.04
 🟢 Risk/Reward: 10.0:1 (Risk $7.86, Reward $78.57)
 Breakout: $255.87
 🟡 RS: 0.227
-🟢 VCP: 4 contractions: 4.3% → 4.3% → 5.2% → 4.8% (quality: 60/100)
+🟢 VCP: 4 contractions: 4.3% → 4.3% → 5.2% → 4.8% (quality: 65/100)
 
 Key Reasons:
   • Weak Stage 2: 2.6% above 50 SMA
@@ -2121,7 +2123,7 @@ Stop Loss: $170.74
 🟢 Risk/Reward: 6.6:1 (Risk $8.11, Reward $53.66)
 Breakout: $177.50
 🟢 RS: 0.562
-🟢 VCP: 2 contractions: 9.0% → 6.1% (quality: 72/100)
+🟢 VCP: 2 contractions: 9.0% → 6.1% (quality: 62/100)
 
 Key Reasons:
   • Good Stage 2: 3.7% above 50 SMA
@@ -2861,7 +2863,7 @@ Overall Assessment:
 
 
 ================================================================================
-ADDITIONAL BUYS (222 more)
+ADDITIONAL BUYS (220 more)
 ================================================================================
 
 CCNE, AFG, HBT, CSX, ANF, BKH, VSXY, CBOE, TTC, NDAQ
@@ -2872,25 +2874,24 @@ WTRG, PM, KDP, BWIN, MSI, KSS, QTWO, APOG, CHD, PDLB
 APPF, EXLS, IOT, SBH, ADP, ANDG, CBLL, CTAS, A, MSGK
 AGYS, CPA, AIZ, BIO, ECPG, LFST, PFE, TMO, WEST, LQDT
 GDYN, CME, CRCT, HAE, INTA, MSFT, ASO, ALRM, COKE, RCEL
-RLGT, MAS, SIBN, SCL, ADUS, MET, SKWD, UNH, GDDY, OUT
-DV, EXPO, TASK, MEDP, PCTY, BALL, CPK, NTWK, CDNA, DSP
-PVH, CHT, CNK, BDX, HLT, HZO, FDS, XERS, RYZ, CB
-FTRE, TDC, WMG, SMA, ABM, BUD, AII, CART, CBC, MANH
-PRTH, EBAY, MGRC, NCNO, APPN, GKOS, PK, WAT, LH, MCK
-VRNS, INN, KIDS, AWK, BIIB, BWMN, GILD, TENB, BSY, PCRX
-CBNK, MO, TD, BLLN, MTN, CL, RXO, IBEX, CRVL, MRSH
-AJG, RVTY, LIND, OGN, M, VIA, EVTC, CI, VLTO, BRZE
-VRSN, AZTA, ROP, SAFT, WMK, UVE, GME, WLY, TREX, ADT
-PUBM, UCB, SAIC, SYNA, PAYO, V, TMP, HST, IDT, VTRS
-TBCH, CNC, VSTS, EG, THG, MD, PD, CNNE, CRL, EHC
-GCO, USPH, EGBN, JANX, SGRY, ARHS, SIGI, APD, ULBI, HOG
-DFIN, JNJ, HCSG, HBNC, MRK, FIZZ, UTL, TRV, SLAB, PRGS
-CNO, J, PTC, MCB, ACHC, FRBA, CATY, PSO, SWKS, MOH
-SMP, ZYME
+RLGT, MAS, SIBN, SCL, ADUS, MET, SKWD, GDDY, OUT, DV
+EXPO, MEDP, PCTY, BALL, CPK, NTWK, CDNA, DSP, PVH, CHT
+CNK, BDX, HLT, HZO, FDS, XERS, RYZ, UNH, CB, FTRE
+TDC, WMG, SMA, ABM, BUD, AII, CART, CBC, MANH, PRTH
+EBAY, MGRC, NCNO, APPN, GKOS, PK, WAT, LH, MCK, VRNS
+INN, KIDS, AWK, BIIB, GILD, TENB, BSY, PCRX, CBNK, MO
+TD, BLLN, MTN, CL, RXO, IBEX, CRVL, MRSH, AJG, RVTY
+LIND, OGN, TASK, M, VIA, EVTC, CI, VLTO, BRZE, VRSN
+AZTA, ROP, SAFT, WMK, UVE, GME, WLY, TREX, ADT, PUBM
+UCB, SAIC, SYNA, PAYO, V, TMP, HST, IDT, VTRS, TBCH
+CNC, VSTS, EG, THG, MD, PD, CNNE, CRL, EHC, GCO
+USPH, EGBN, JANX, SGRY, ARHS, SIGI, APD, ULBI, HOG, DFIN
+JNJ, HCSG, HBNC, MRK, FIZZ, UTL, TRV, SLAB, PRGS, CNO
+J, PTC, MCB, ACHC, FRBA, CATY, SWKS, MOH, SMP, ZYME
 
 
 ================================================================================
-🔴 TOP SELL SIGNALS (Score >= 60) - 463 Total
+🔴 TOP SELL SIGNALS (Score >= 60) - 464 Total
 ================================================================================
 
 
@@ -3375,7 +3376,7 @@ FUNDAMENTAL SNAPSHOT - NFG
 No data available
 
 ================================================================================
-ADDITIONAL SELLS (433 more)
+ADDITIONAL SELLS (434 more)
 ================================================================================
 
 NGVT, NPO, NRG, OFIX, PBH, POWI, PRDO, PRIM, REAX, ROCK
@@ -3419,9 +3420,9 @@ CRUS, CTGO, CTNM, DNLI, DRVN, DX, EFC, EVMN, FHB, FSS
 FUL, GLPI, GLSI, GRBK, GS, HAL, HESM, HSAI, HTLD, HUBG
 HWM, IMNM, IPX, JBHT, JEF, KEY, LQDA, MCFT, NBHC, NBTX
 NMFC, NMRK, NVO, OC, OCUL, OIS, ORA, OSIS, OWL, PCG
-PEN, REFI, RF, RFIL, RUSHA, SAH, SF, SFD, SHEN, SNA
-SOFI, STOK, TTI, UFPI, UNFI, USGO, VKTX, VSNT, WAFD, WAL
-WLFC, WYY, XRN
+PEN, REFI, RF, RFIL, RUSHA, SAFE, SAH, SF, SFD, SHEN
+SNA, SOFI, STOK, TTI, UFPI, UNFI, USGO, VKTX, VSNT, WAFD
+WAL, WLFC, WYY, XRN
 
 
 ================================================================================
