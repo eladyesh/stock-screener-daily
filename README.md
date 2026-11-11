@@ -5,6 +5,8 @@ and **months to 18 months**, with financial quality, estimates/revisions,
 valuation, event risk, news and insider context. See
 [the implementation, configuration and validation guide](docs/MULTIFACTOR_RESEARCH.md).
 Ranking weights are heuristic; investment performance has not been established.
+See [universe selection and technical risk policy](docs/UNIVERSE_AND_RISK.md)
+for current scoring thresholds, risk gates, missing-target behavior and file responsibilities.
 
 # Intelligent Stock Screener
 
@@ -57,7 +59,7 @@ This system was built to eliminate emotional decision-making and provide objecti
 1. **Screens 3,800+ stocks every market day** using GitHub Actions automation
 2. **Identifies buy signals** for stocks in confirmed Phase 2 uptrends that pass Minervini's 8-criteria Trend Template
 3. **Identifies sell signals** when stocks enter Phase 3 (distribution) or Phase 4 (downtrend) with weakening momentum
-4. **Calculates precise stop losses** with risk/reward ratios for every buy signal (max 10% risk, min 2:1 R:R)
+4. **Estimates support stops and observed resistance**; rejects stop distances above 10% and observed R:R below 2:1, and labels missing targets explicitly
 5. **Generates daily reports** with ranked opportunities and full technical analysis
 6. **Manages existing positions** with automated stop-loss trailing recommendations
 
@@ -124,8 +126,8 @@ We've automated Minervini's manual screening process with additional enhancement
 - **Smooth linear scoring** instead of binary pass/fail (reduces false signals)
 - **Market regime filtering** (SPY phase + breadth checks - only buy in healthy markets)
 - **Automated fundamental screening** (growth, profitability, financial health)
-- **Precise stop-loss calculation** (ATR-based + swing lows, max 10% risk)
-- **R:R validation** (only include signals with ≥2:1 reward/risk ratio)
+- **Support-based stop estimates** (recent lows and SMA50, with an explicit distance budget)
+- **R:R validation** (observed ratios below 2:1 block buys; missing targets receive zero R:R points)
 
 The system stays true to Minervini's core principle: **Buy confirmed Stage 2 breakouts with strong fundamentals and clear risk management.**
 
@@ -155,8 +157,8 @@ graph TB
     end
 
     subgraph "Risk Management"
-        I --> K[Stop Loss Calculator<br/>ATR + Swing Lows]
-        K --> L[R:R Analysis<br/>Min 2:1 Ratio]
+        I --> K[Support stop and distance budget]
+        K --> L[Support and observed R:R gates]
     end
 
     subgraph "Outputs"
@@ -233,10 +235,10 @@ Stocks are classified into 4 phases based on moving average slopes and price pos
 
 Every buy signal includes:
 - **Entry price**: Current market price or breakout level
-- **Stop loss**: ATR-based or swing low-based
+- **Stop loss**: Recent-low/SMA50 support with a named minimum-distance buffer
 - **Risk amount**: $ per share risked
-- **Reward target**: 2-3x risk minimum
-- **R:R ratio**: Always ≥ 2:1 for inclusion
+- **Reward target**: Nearest confirmed prior resistance above entry, or unavailable
+- **R:R ratio**: Must be ≥ 2:1 when observed; unknown targets earn zero R:R points
 
 ### 🔄 **Smart Caching Strategy**
 
@@ -713,76 +715,39 @@ Interpretation:
 - RS slope 0.0 = 5 points (matching market)
 - RS slope -0.3 = 0 points (strong underperformance)
 
-### Buy Signal Scoring (110 points max)
+### Buy Signal Scoring (125 points max)
 
-| Component | Max Points | Criteria |
-|-----------|------------|----------|
-| **Phase** | 30 | Phase 2 = 30, Phase 1 = 20 |
-| **RS Momentum** | 10 | Linear scale from RS slope |
-| **Volume** | 10 | Breakout on high volume |
-| **Proximity to Breakout** | 10 | Close to resistance level |
-| **Fundamentals** | 50 | Growth (20) + Profitability (15) + Health (15) |
+| Component | Max points |
+| --- | ---: |
+| Trend structure | 40 |
+| Fundamentals | 40 |
+| Observed reward/risk | 15 |
+| Relative strength | 10 |
+| Volume | 10 |
+| Entry quality | 5 |
+| VCP bonus | 5 |
 
-**Threshold:** Buy signal score ≥ 70 for inclusion in report.
+**Threshold:** 60 points, with the Stage 2, trend-template and risk gates also passing.
+Thresholds and maximum scores live in `src/screening/signal_policy.py`.
 
-### Sell Signal Scoring (110 points max)
+### Sell Signal Scoring (100 points max)
 
-| Component | Max Points | Criteria |
-|-----------|------------|----------|
-| **Phase** | 30 | Phase 4 = 30, Phase 3 = 20 |
-| **RS Momentum** | 10 | Negative RS (underperformance) |
-| **Volume** | 10 | Breakdown on high volume |
-| **SMA Breakdown** | 15 | Broke below 50/200 SMA |
-| **Price Action** | 15 | Lower highs, lower lows |
-| **Severity** | 30 | Combination of above factors |
+Breakdown structure contributes up to 60 points, volume up to 30, and relative
+strength weakness up to 10. A failed breakout can add 10 before the final 100-point
+cap. The inclusion threshold remains 60.
 
-**Threshold:** Sell signal score ≥ 60 for inclusion in report.
+### Stop and Reward/Risk Calculation
 
-### Stop Loss Calculation
+The Stage 2 stop uses recent-low/SMA50 support and a minimum 3% distance buffer.
+A support stop beyond the 10% distance budget blocks a buy instead of being
+artificially tightened. The target is the nearest higher prior swing high,
+confirmed by two bars on each side before the entry bar, within 252 prior bars.
 
-```python
-def calculate_stop_loss(
-    entry_price: float,
-    price_data: pd.DataFrame,
-    atr_period: int = 14,
-    atr_multiplier: float = 2.0
-) -> Dict:
-    """
-    Calculates stop loss using ATR or swing lows.
+When a target exists, `reward / risk` must be at least 2. When it does not exist,
+target and ratio are null, R/R earns zero points, and the other components may
+still qualify the stock. Historical resistance is not a return forecast.
 
-    Returns:
-        {
-            'stop_price': float,
-            'risk_amount': float,
-            'stop_type': str ('atr' or 'swing_low')
-        }
-    """
-```
-
-**Method 1: ATR-Based**
-```
-ATR = Average True Range (14 days)
-Stop = Entry - (ATR × 2.0)
-```
-
-**Method 2: Swing Low-Based**
-```
-Swing_Low = Lowest low in last 20 days
-Stop = Swing_Low × 0.98  (2% buffer)
-```
-
-Uses whichever is **higher** (more conservative).
-
-### Risk/Reward Validation
-
-Every buy signal calculates:
-```python
-risk = entry_price - stop_loss
-reward = (entry_price × 1.20) - entry_price  # 20% target
-r_r_ratio = reward / risk
-```
-
-**Filter:** Only include signals with R:R ≥ 2:1.
+See [the full policy and regression-test guide](docs/UNIVERSE_AND_RISK.md).
 
 ---
 

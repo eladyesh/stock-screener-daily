@@ -120,6 +120,8 @@ def main():
                 records.append(
                     {
                         "observed_at": s["generated_at"],
+                        "strategy_version": s["strategy_version"],
+                        "signal_policy_version": s.get("signal_policy_version"),
                         "profile": profile,
                         **cohort_returns(s, histories, horizon, profile, args.cost_bps),
                     }

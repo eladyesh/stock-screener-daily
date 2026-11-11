@@ -16,6 +16,14 @@ from datetime import datetime, timedelta
 import pandas as pd
 import yfinance as yf
 
+from src.screening.signal_policy import (
+    BUY_MAX_SCORE,
+    BUY_SCORE_THRESHOLD,
+    SELL_MAX_SCORE,
+    SELL_SCORE_THRESHOLD,
+)
+from src.screening.trade_risk import format_trade_risk
+
 from src.data.fetcher import YahooFinanceFetcher
 from src.data.fundamentals_fetcher import (
     fetch_quarterly_financials,
@@ -267,7 +275,7 @@ class QuantAnalysisEngine:
 
         # Buy List
         output.append("\n" + "="*60)
-        output.append("BUY LIST (Score >= 70)")
+        output.append(f"BUY LIST (Score >= {BUY_SCORE_THRESHOLD})")
         output.append("="*60)
 
         if results['buys']:
@@ -275,14 +283,17 @@ class QuantAnalysisEngine:
 
             for i, buy in enumerate(results['buys'], 1):
                 output.append(f"\n{'#'*60}")
-                output.append(f"BUY #{i}: {buy['ticker']} | Score: {buy['score']}/100")
+                output.append(
+                    f"BUY #{i}: {buy['ticker']} | Score: {buy['score']}/{BUY_MAX_SCORE}"
+                )
                 output.append(f"{'#'*60}")
                 output.append(f"Phase: {buy['phase']}")
                 output.append(f"Breakout Price: ${buy['breakout_price']:.2f}" if buy['breakout_price'] else "Breakout Price: N/A")
 
                 # Details
+                output.append(format_trade_risk(buy))
                 details = buy.get('details', {})
-                if 'rs_slope' in details:
+                if details.get("rs_slope") is not None:
                     output.append(f"RS Slope (3-week): {details['rs_slope']:.3f}")
                 if 'volume_ratio' in details:
                     output.append(f"Volume vs Avg: {details['volume_ratio']:.1f}x")
@@ -309,7 +320,7 @@ class QuantAnalysisEngine:
 
         # Sell List
         output.append("\n" + "="*60)
-        output.append("SELL LIST (Score >= 60)")
+        output.append(f"SELL LIST (Score >= {SELL_SCORE_THRESHOLD})")
         output.append("="*60)
 
         if results['sells']:
@@ -317,14 +328,16 @@ class QuantAnalysisEngine:
 
             for i, sell in enumerate(results['sells'], 1):
                 output.append(f"\n{'#'*60}")
-                output.append(f"SELL #{i}: {sell['ticker']} | Score: {sell['score']}/100 | Severity: {sell['severity'].upper()}")
+                output.append(
+                    f"SELL #{i}: {sell['ticker']} | Score: {sell['score']}/{SELL_MAX_SCORE} | Severity: {sell['severity'].upper()}"
+                )
                 output.append(f"{'#'*60}")
                 output.append(f"Phase: {sell['phase']}")
                 output.append(f"Breakdown Level: ${sell['breakdown_level']:.2f}" if sell['breakdown_level'] else "Breakdown Level: N/A")
 
                 # Details
                 details = sell.get('details', {})
-                if 'rs_slope' in details:
+                if details.get("rs_slope") is not None:
                     output.append(f"RS Rollover: {details['rs_slope']:.3f}")
                 if 'volume_ratio' in details:
                     output.append(f"Volume vs Avg: {details['volume_ratio']:.1f}x")
