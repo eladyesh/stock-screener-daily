@@ -121,6 +121,15 @@ def save_report(
                 output.append(
                     "WARNING: incomplete exchange coverage; inspect universe audit sources"
                 )
+            output.append(
+                f"Type confirmation: {summary.get('resolved_by_profile', 0)} added via company profiles; "
+                f"{summary.get('unresolved_security_types', 0)} unresolved security types"
+            )
+            deferred = summary.get("profile_resolution", {}).get("deferred", 0)
+            if deferred:
+                output.append(
+                    f"Profile lookups deferred/unavailable: {deferred}; see audit"
+                )
         output.append("Universe audit: latest_universe_audit.json")
         (Path(output_dir) / "latest_universe_audit.json").write_text(
             json.dumps(universe_audit, indent=2), encoding="utf-8"

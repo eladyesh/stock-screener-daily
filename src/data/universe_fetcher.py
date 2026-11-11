@@ -12,25 +12,28 @@ from typing import Dict, List
 import pandas as pd
 import requests
 
+from .security_profiles import SecurityProfileResolver
+
 logger = logging.getLogger(__name__)
-UNIVERSE_POLICY_VERSION = "common-equity-v2"
+UNIVERSE_POLICY_VERSION = "common-equity-v3"
 
 
 class USStockUniverseFetcher:
     """Select common/ordinary shares, ADRs and common REIT shares.
 
     Directory ETF/test flags take precedence over security-name classification.
-    Names are still a heuristic, so ambiguous instruments are excluded explicitly
-    and every decision is retained in ``audit`` for inspection.
+    Ambiguous names require additional operating-company evidence. Unresolved
+    instruments remain excluded, and every decision is retained in ``audit``.
     """
 
-    def __init__(self, cache_dir: str = "./data/cache") -> None:
+    def __init__(self, cache_dir: str = "./data/cache", profile_resolver=None) -> None:
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         # Deliberately ignore legacy pickle caches made by the suffix filter.
         self.cache_file = self.cache_dir / "us_stock_universe.json"
         self.source_status: Dict = {}
         self.audit: Dict = {}
+        self.profile_resolver = profile_resolver
 
     def _fetch_directory(self, filename: str, symbol_column: str) -> pd.DataFrame:
         """Preserve directory fields used to classify securities and audit gaps."""
@@ -115,9 +118,20 @@ class USStockUniverseFetcher:
             row["symbol"] = original
             reason = self._classification(row)
             symbol = original.replace(".", "-")
-            if reason == "common_equity" and symbol in seen:
+            initial_reason = reason
+            profile = None
+            if (
+                reason == "ambiguous_security_type"
+                and self.profile_resolver is not None
+            ):
+                profile = self.profile_resolver.resolve(
+                    symbol, str(row.get("name", ""))
+                )
+                reason = profile["reason"]
+            included = reason in {"common_equity", "profile_supported_equity"}
+            if included and symbol in seen:
                 reason = "duplicate_symbol"
-            included = reason == "common_equity"
+                included = False
             decisions.append(
                 {
                     "source": row.get("source", "unknown"),
@@ -126,6 +140,8 @@ class USStockUniverseFetcher:
                     "name": str(row.get("name", "")),
                     "included": included,
                     "reason": reason,
+                    "directory_reason": initial_reason,
+                    **({"profile": profile} if profile is not None else {}),
                 }
             )
             if included:
@@ -141,6 +157,20 @@ class USStockUniverseFetcher:
             "included": len(accepted),
             "excluded": len(decisions) - len(accepted),
             "reason_counts": dict(Counter(d["reason"] for d in decisions)),
+            "resolved_by_profile": sum(
+                d["included"] and d["reason"] == "profile_supported_equity"
+                for d in decisions
+            ),
+            "unresolved_security_types": sum(
+                d["reason"] == "ambiguous_security_type"
+                or d.get("profile", {}).get("decision") == "unresolved"
+                for d in decisions
+            ),
+            "profile_resolution": (
+                self.profile_resolver.statistics()
+                if self.profile_resolver is not None
+                else {"enabled": False}
+            ),
             "decisions": decisions,
         }
         return pd.DataFrame(accepted, columns=df.columns)
@@ -176,11 +206,17 @@ class USStockUniverseFetcher:
             self.source_status = self.audit["sources"]
             return cached["symbols"]
         self.source_status = {}
+        if self.profile_resolver is None:
+            self.profile_resolver = SecurityProfileResolver()
         frames = [self._fetch_nasdaq_listed(), self._fetch_other_listed()]
         all_stocks = pd.concat(frames, ignore_index=True)
         filtered = self._filter_stocks(all_stocks)
         symbols = sorted(filtered["symbol"].tolist()) if not filtered.empty else []
-        if self.audit["complete"] and symbols:
+        if (
+            self.audit["complete"]
+            and symbols
+            and not self.audit["profile_resolution"].get("deferred")
+        ):
             cached = {
                 "policy_version": UNIVERSE_POLICY_VERSION,
                 "symbols": symbols,
@@ -192,7 +228,9 @@ class USStockUniverseFetcher:
             temporary.write_text(json.dumps(cached, indent=2), encoding="utf-8")
             temporary.replace(self.cache_file)
         else:
-            logger.warning("Universe is incomplete or empty; no cache written")
+            logger.warning(
+                "Incomplete exchange/profile evidence or empty universe; no universe cache written"
+            )
         logger.info(
             "Universe: %s symbols; %s", len(symbols), self.audit["reason_counts"]
         )

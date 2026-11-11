@@ -326,7 +326,7 @@ def build_research(
     }
     return {
         "schema_version": 1,
-        "strategy_version": "multifactor-v2",
+        "strategy_version": "multifactor-v3",
         "signal_policy_version": SIGNAL_POLICY_VERSION,
         "generated_at": now.isoformat(),
         "scope": "Liquidity/drawdown-filtered Stage 1/2 shortlist; not an unbiased whole-market rank",

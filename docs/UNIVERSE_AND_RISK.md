@@ -1,8 +1,8 @@
 # Universe selection and technical risk policy
 
-The daily scanner uses policy versions `common-equity-v2` and
-`observed-risk-v2`. Research snapshots now use `multifactor-v2`
-because the eligible universe and short-horizon technical gate changed.
+The daily scanner uses policy versions `common-equity-v3` and
+`observed-risk-v2`. Research snapshots now use `multifactor-v3`
+because the eligible universe changed. The technical risk policy remains v2.
 Historical files are not rewritten. Forward-evaluation rows retain the strategy
 and signal-policy versions so different policies can be compared explicitly.
 
@@ -11,6 +11,7 @@ and signal-policy versions so different policies can be compared explicitly.
 | File | Responsibility |
 | --- | --- |
 | `src/data/universe_fetcher.py` | Read exchange directories, classify securities, normalize class symbols, cache and audit decisions |
+| `src/data/security_profiles.py` | Resolve ambiguous directory names using dated company-profile evidence |
 | `src/screening/signal_policy.py` | Shared thresholds, maximum scores and risk-budget assumptions |
 | `src/screening/trade_risk.py` | Derive support stops and prior resistance, apply risk gates, format missing evidence |
 | `src/screening/signal_engine.py` | Combine component scores with trend and risk gates |
@@ -30,11 +31,31 @@ Source: Nasdaq Trader's
   eligible when their descriptions identify common stock.
 - Dot-separated share classes are converted to Yahoo format: BRK.B -> BRK-B.
   The original exchange symbol remains in the audit, including duplicate rows.
-- Description classification is a heuristic, not an authoritative security
-  master. Ambiguous descriptions are excluded with `ambiguous_security_type`.
-  For example, an issuer-only name may omit the share type; this can exclude
-  legitimate equities. Review these audit rows rather than silently assuming
-  either that every ETF=N entry is common stock or that coverage is exhaustive.
+- Ambiguous descriptions receive a second check through Yahoo Finance company
+  profiles using [yfinance get_info](https://ranaroussi.github.io/yfinance/reference/api/yfinance.Ticker.get_info.html).
+  An EQUITY label alone is insufficient: closed-end funds and debt can carry it.
+  Inclusion requires a compatible issuer name, company description, sector,
+  industry, and positive employee count, market capitalization and shares
+  outstanding. Explicit fund/debt/preferred/derivative descriptions and generic
+  depositary shares cannot pass this fallback. No ticker-specific allowlist is used.
+- This remains a conservative heuristic, not an authoritative security master.
+  Companies without sufficient profile evidence remain excluded. The fallback
+  only handles ambiguous directory entries; it cannot certify every security
+  already accepted by a directory description.
+- Each fallback records the original directory reason, provider URL, fetch date,
+  fields used and final decision in the audit. The report separates recovered
+  equities, unresolved types and provider/budget deferrals.
+- Company profiles are cached in `data/universe_profiles/` for up to seven days;
+  unresolved profiles are retried after one day. A changed directory name,
+  incompatible cache schema or invalid/future timestamp forces a fresh read.
+  The daily workflow persists this cache. Whole-universe caches remain valid for
+  at most 24 hours under the current selection policy.
+- A fresh run permits at most 100 new profile lookups, pauses one second between
+  lookups, and checks a 180-second budget between provider calls. An in-flight call uses yfinance's own transport
+  timeout. A provider exception stops further live lookups, while valid cached
+  evidence remains usable. A malformed/missing profile affects its own symbol.
+  Deferred lookups remain explicitly unresolved and prevent writing a new
+  whole-universe cache, allowing a later run to retry.
 - `latest_universe_audit.json` contains each inclusion/exclusion reason,
   source status, fetch time, counts and policy version. The report/manifest
   distinguish exchange selection from explicit `--tickers` runs and test subsets.
@@ -90,8 +111,13 @@ python -m pytest tests/ --ignore=tests/test_email_full.py -q
 ```
 
 Regression tests cover legitimate ticker suffixes/share classes, excluded
-instruments, source outages, cache age/version, new highs without targets,
+instruments, secondary profile evidence, provider/budget failures, cache age/version, new highs without targets,
 confirmed pivot timing, wide stops, low R/R vetoes, invalid inputs, and report
 serialization/delivery validation. These verify software behavior, not investment
 performance. A historical portfolio backtest, position sizing and forward
 performance evidence remain separate work.
+
+The PR smoke workflow also reads eight live directory entries and their needed
+profiles: TSM, Visa, BRK-B, PLTR and MU must remain eligible while QQQ, BDJ and
+TVE must be excluded. The sample saves its audit as an artifact and sends no
+notifications; it is not evidence of full-market coverage.
