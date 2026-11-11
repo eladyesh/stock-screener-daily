@@ -109,7 +109,7 @@ def parse_scan_file(filepath):
 
     # Buy signals — extract each signal as header+details block
     buy_pattern = re.compile(
-        r"BUY #(\d+):\s*(\w+)\s*\|\s*Score:\s*([\d.]+)/(\d+)"
+        r"BUY #(\d+):\s*([A-Z][A-Z0-9.-]*)\s*\|\s*Score:\s*([\d.]+)/(\d+)"
         r".*?(?=BUY #\d+:|SELL #\d+:|={50,}.*(?:TOP SELL|END OF|ADDITIONAL)|\Z)",
         re.DOTALL,
     )
@@ -160,7 +160,7 @@ def parse_scan_file(filepath):
 
     # Sell signals
     sell_pattern = re.compile(
-        r"SELL #(\d+):\s*(\w+)\s*\|\s*Score:\s*([\d.]+)/(\d+)"
+        r"SELL #(\d+):\s*([A-Z][A-Z0-9.-]*)\s*\|\s*Score:\s*([\d.]+)/(\d+)"
         r".*?(?=SELL #\d+:|={50,}.*(?:END OF|ADDITIONAL)|\Z)",
         re.DOTALL,
     )

@@ -24,6 +24,14 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from src.screening.signal_policy import (
+    BUY_MAX_SCORE,
+    BUY_SCORE_THRESHOLD,
+    SELL_MAX_SCORE,
+    SELL_SCORE_THRESHOLD,
+)
+from src.screening.trade_risk import format_trade_risk
+
 from src.data.universe_fetcher import USStockUniverseFetcher
 from src.screening.batch_processor import BatchStockProcessor
 from src.screening.benchmark import (
@@ -92,7 +100,9 @@ def save_daily_report(
 
     # Top buy signals
     output.append("="*80)
-    output.append(f"TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
+    output.append(
+        f"TOP BUY SIGNALS (Score >= {BUY_SCORE_THRESHOLD}) - {len(buy_signals)} Total"
+    )
     output.append("="*80)
     output.append("")
 
@@ -102,15 +112,18 @@ def save_daily_report(
 
         for i, signal in enumerate(buy_signals[:top_n], 1):
             output.append(f"\n{'#'*80}")
-            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/100")
+            output.append(
+                f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/{BUY_MAX_SCORE}"
+            )
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
 
             if signal.get('breakout_price'):
                 output.append(f"Breakout Price: ${signal['breakout_price']:.2f}")
 
+            output.append(format_trade_risk(signal))
             details = signal.get('details', {})
-            if 'rs_slope' in details:
+            if details.get("rs_slope") is not None:
                 output.append(f"RS Slope: {details['rs_slope']:.3f}")
             if 'volume_ratio' in details:
                 output.append(f"Volume: {details['volume_ratio']:.1f}x average")
@@ -139,7 +152,9 @@ def save_daily_report(
 
     # Top sell signals
     output.append(f"\n\n{'='*80}")
-    output.append(f"TOP SELL SIGNALS (Score >= 60) - {len(sell_signals)} Total")
+    output.append(
+        f"TOP SELL SIGNALS (Score >= {SELL_SCORE_THRESHOLD}) - {len(sell_signals)} Total"
+    )
     output.append(f"{'='*80}")
     output.append("")
 
@@ -149,7 +164,9 @@ def save_daily_report(
 
         for i, signal in enumerate(sell_signals[:top_n], 1):
             output.append(f"\n{'#'*80}")
-            output.append(f"SELL #{i}: {signal['ticker']} | Score: {signal['score']}/100 | Severity: {signal['severity'].upper()}")
+            output.append(
+                f"SELL #{i}: {signal['ticker']} | Score: {signal['score']}/{SELL_MAX_SCORE} | Severity: {signal['severity'].upper()}"
+            )
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
 
@@ -157,7 +174,7 @@ def save_daily_report(
                 output.append(f"Breakdown Level: ${signal['breakdown_level']:.2f}")
 
             details = signal.get('details', {})
-            if 'rs_slope' in details:
+            if details.get("rs_slope") is not None:
                 output.append(f"RS Rollover: {details['rs_slope']:.3f}")
             if 'volume_ratio' in details:
                 output.append(f"Volume: {details['volume_ratio']:.1f}x average")

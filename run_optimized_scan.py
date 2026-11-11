@@ -34,6 +34,14 @@ from src.screening.benchmark import (
     should_generate_signals,
 )
 from src.screening.signal_engine import score_buy_signal, score_sell_signal
+from src.screening.signal_policy import (
+    BUY_MAX_SCORE,
+    BUY_SCORE_THRESHOLD,
+    SELL_MAX_SCORE,
+    SELL_SCORE_THRESHOLD,
+    SIGNAL_POLICY_VERSION,
+)
+from src.screening.trade_risk import format_trade_risk
 from src.data.enhanced_fundamentals import EnhancedFundamentalsFetcher
 from src.screening.research_engine import build_research, format_research, save_research
 
@@ -51,6 +59,7 @@ def save_report(
     breadth,
     output_dir="./data/daily_scans",
     research=None,
+    universe_audit=None,
 ):
     """Save comprehensive report."""
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -62,6 +71,7 @@ def save_report(
     output.append("=" * 80)
     output.append("OPTIMIZED FULL MARKET SCAN - ALL US STOCKS")
     output.append(f"Scan Date: {date_str}")
+    output.append(f"Signal policy: {SIGNAL_POLICY_VERSION}")
     output.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     output.append("=" * 80)
     output.append("")
@@ -99,6 +109,23 @@ def save_report(
         error_emoji = "🔴"
     output.append(f"{error_emoji} Error Rate: {error_rate:.2f}%")
 
+    if universe_audit is not None:
+        summary = {k: v for k, v in universe_audit.items() if k != "decisions"}
+        output.append(f"Universe selection: {summary['mode']}")
+        if summary["mode"] == "exchange_directories":
+            output.append(
+                f"Directory selection: {summary['included']:,} included, "
+                f"{summary['excluded']:,} excluded; policy {summary['policy_version']}"
+            )
+            if not summary["complete"]:
+                output.append(
+                    "WARNING: incomplete exchange coverage; inspect universe audit sources"
+                )
+        output.append("Universe audit: latest_universe_audit.json")
+        (Path(output_dir) / "latest_universe_audit.json").write_text(
+            json.dumps(universe_audit, indent=2), encoding="utf-8"
+        )
+
     # Buy/Sell signal counts with emoji
     if len(buy_signals) > 0:
         output.append(f"🟢 Buy Signals: {len(buy_signals)}")
@@ -124,7 +151,9 @@ def save_report(
 
     # Buy signals
     output.append("=" * 80)
-    output.append(f"🟢 TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
+    output.append(
+        f"🟢 TOP BUY SIGNALS (Score >= {BUY_SCORE_THRESHOLD}) - {len(buy_signals)} Total"
+    )
     output.append("=" * 80)
     output.append("")
 
@@ -143,7 +172,7 @@ def save_report(
 
             output.append(f"\n{'#'*80}")
             output.append(
-                f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/125"
+                f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/{BUY_MAX_SCORE}"
             )
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
@@ -157,29 +186,13 @@ def save_report(
             else:
                 output.append(f"🔴 Entry Quality: {entry_quality}")
 
-            # CRITICAL: Stop loss and R/R ratio
-            if signal.get("stop_loss"):
-                output.append(f"Stop Loss: ${signal['stop_loss']:.2f}")
-                details = signal.get("details", {})
-                risk_amt = details.get("risk_amount", 0)
-                reward_amt = details.get("reward_amount", 0)
-                rr_ratio = signal.get("risk_reward_ratio", 0)
-                # R/R ratio emoji
-                if rr_ratio >= 3:
-                    rr_emoji = "🟢"  # Excellent R/R
-                elif rr_ratio >= 2:
-                    rr_emoji = "🟢"  # Good R/R
-                else:
-                    rr_emoji = "🟡"  # Poor R/R
-                output.append(
-                    f"{rr_emoji} Risk/Reward: {rr_ratio:.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})"
-                )
+            output.append(format_trade_risk(signal))
 
             if signal.get("breakout_price"):
                 output.append(f"Breakout: ${signal['breakout_price']:.2f}")
 
             details = signal.get("details", {})
-            if "rs_slope" in details:
+            if details.get("rs_slope") is not None:
                 rs_slope = details["rs_slope"]
                 # RS emoji (green = good, yellow = ok, red = bad)
                 if rs_slope > 0.5:
@@ -240,7 +253,9 @@ def save_report(
 
     # Sell signals
     output.append(f"\n\n{'='*80}")
-    output.append(f"🔴 TOP SELL SIGNALS (Score >= 60) - {len(sell_signals)} Total")
+    output.append(
+        f"🔴 TOP SELL SIGNALS (Score >= {SELL_SCORE_THRESHOLD}) - {len(sell_signals)} Total"
+    )
     output.append(f"{'='*80}")
     output.append("")
 
@@ -267,7 +282,7 @@ def save_report(
 
             output.append(f"\n{'#'*80}")
             output.append(
-                f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110"
+                f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/{SELL_MAX_SCORE}"
             )
             output.append(f"{'#'*80}")
             output.append(
@@ -276,7 +291,7 @@ def save_report(
             if signal.get("breakdown_level"):
                 output.append(f"Breakdown: ${signal['breakdown_level']:.2f}")
             details = signal.get("details", {})
-            if "rs_slope" in details:
+            if details.get("rs_slope") is not None:
                 rs_slope = details["rs_slope"]
                 # RS emoji for sell signals (negative is expected)
                 if rs_slope < -0.5:
@@ -330,7 +345,10 @@ def save_report(
         "buy_signals": len(buy_signals),
         "sell_signals": len(sell_signals),
         "price_dates": price_dates,
+        "signal_policy_version": SIGNAL_POLICY_VERSION,
     }
+    if universe_audit is not None:
+        manifest["universe_selection"] = summary
     if research is not None:
         manifest["research_enriched"] = research["enriched"]
         manifest["research_rankings"] = research["rankings"]
@@ -438,6 +456,16 @@ def main():
         else:
             tickers = universe_fetcher.fetch_universe()
 
+        universe_audit = (
+            {
+                "mode": "explicit_tickers",
+                "symbols": tickers.copy(),
+                "included": len(tickers),
+            }
+            if args.tickers
+            else universe_fetcher.audit.copy()
+        )
+
         if not tickers:
             logger.error("Failed to fetch universe")
             sys.exit(1)
@@ -447,6 +475,9 @@ def main():
         if args.test_mode:
             tickers = tickers[:100]
             logger.info(f"TEST MODE: {len(tickers)} stocks")
+
+        universe_audit["scan_requested_count"] = len(tickers)
+        universe_audit["test_mode"] = args.test_mode
 
         # Initialize processor
         processor = OptimizedBatchProcessor(
@@ -561,6 +592,7 @@ def main():
             breadth,
             output_dir=args.output_dir,
             research=research,
+            universe_audit=universe_audit,
         )
 
         # Show FMP usage if enabled

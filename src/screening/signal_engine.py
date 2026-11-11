@@ -10,6 +10,17 @@ from typing import Dict, List, Optional
 import numpy as np
 import pandas as pd
 
+from .signal_policy import (
+    BUY_MAX_SCORE,
+    BUY_SCORE_THRESHOLD,
+    SELL_MAX_SCORE,
+    SELL_SCORE_THRESHOLD,
+    SIGNAL_POLICY_VERSION,
+    MIN_REWARD_RISK,
+    MAX_STOP_DISTANCE,
+)
+from .trade_risk import assess_trade_risk, calculate_stop_loss, format_trade_risk
+
 from .phase_indicators import (
     calculate_volume_ratio,
     calculate_rs_slope,
@@ -23,70 +34,6 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
-
-
-def calculate_stop_loss(
-    price_data: pd.DataFrame, current_price: float, phase_info: Dict, phase: int
-) -> float:
-    """Calculate logical stop loss level for swing trading.
-
-    Stop loss placement rules:
-    - Phase 2: Below recent swing low or 50 SMA (whichever is closer), typically 6-8% risk
-    - Phase 1: Below base/consolidation low, typically 7-10% risk
-    - Maximum risk: 10% from current price (wider stops = don't take trade)
-
-    Args:
-        price_data: OHLCV data
-        current_price: Current price
-        phase_info: Phase classification dict
-        phase: Phase number (1 or 2)
-
-    Returns:
-        Stop loss price level
-    """
-    sma_50 = phase_info.get("sma_50", 0)
-
-    if phase == 2:
-        # Stage 2: Use 50 SMA or recent swing low, whichever is higher (tighter stop)
-        # Look for lowest low in last 10 days (recent pullback low)
-        if len(price_data) >= 10:
-            recent_low = price_data["Low"].iloc[-10:].min()
-        else:
-            recent_low = price_data["Low"].min()
-
-        # Stop should be below recent low with buffer (0.5%)
-        swing_low_stop = recent_low * 0.995
-
-        # Or below 50 SMA with buffer (1%)
-        sma_stop = sma_50 * 0.99 if sma_50 > 0 else swing_low_stop
-
-        # Use the higher of the two (tighter stop = less risk)
-        stop_loss = max(swing_low_stop, sma_stop)
-
-        # But don't place stop too tight (min 3% risk) or too loose (max 10% risk)
-        risk_pct = (current_price - stop_loss) / current_price
-        if risk_pct < 0.03:  # Too tight
-            stop_loss = current_price * 0.97
-        elif risk_pct > 0.10:  # Too loose
-            stop_loss = current_price * 0.90
-
-    else:  # Phase 1
-        # Stage 1: Stop below base/consolidation low
-        # Use lowest low in last 30 days (base low)
-        if len(price_data) >= 30:
-            base_low = price_data["Low"].iloc[-30:].min()
-        else:
-            base_low = price_data["Low"].min()
-
-        # Stop below base low with buffer (1%)
-        stop_loss = base_low * 0.99
-
-        # Max 10% risk rule
-        risk_pct = (current_price - stop_loss) / current_price
-        if risk_pct > 0.10:
-            stop_loss = current_price * 0.90
-
-    return stop_loss
 
 
 def score_buy_signal(
@@ -111,7 +58,7 @@ def score_buy_signal(
     - Entry quality: 5 points
     - VCP pattern bonus: +5 points (if valid VCP detected)
 
-    Threshold: >= 70 for signals
+    Threshold: BUY_SCORE_THRESHOLD, subject to the trend and risk gates
 
     Args:
         ticker: Stock ticker
@@ -158,7 +105,7 @@ def score_buy_signal(
     reasons = []
 
     # ========================================================================
-    # 1. TREND STRUCTURE / STAGE QUALITY (50 points) - GRADUAL, NOT BINARY
+    # 1. TREND STRUCTURE / STAGE QUALITY (40 points) - GRADUAL, NOT BINARY
     # ========================================================================
     trend_score = 0
 
@@ -369,73 +316,32 @@ def score_buy_signal(
     details["rs_score"] = round(rs_score, 2)
 
     # ========================================================================
-    # 5. STOP LOSS CALCULATION (not scored, but critical for risk mgmt)
+    # 5-6. SUPPORT STOP AND OBSERVED RESISTANCE (up to 15 R/R points)
     # ========================================================================
-    stop_loss = calculate_stop_loss(price_data, current_price, phase_info, phase)
-    details["stop_loss"] = stop_loss
-
-    # ========================================================================
-    # 6. RISK/REWARD RATIO (15 points) - CRITICAL for growth stocks!
-    # ========================================================================
-    # For growth stocks, asymmetric upside is essential
-    # We want stocks with 3:1+ R/R ratios for maximum growth potential
+    risk = assess_trade_risk(price_data, current_price, phase_info, phase)
+    details.update(risk)
+    stop_loss = risk["stop_loss"]
+    rr_ratio = risk["risk_reward_ratio"]
     rr_score = 0
-    risk_amount = current_price - stop_loss if stop_loss else 0
-
-    # Calculate reward potential (more aggressive for growth stocks)
-    if phase == 2:
-        # Stage 2: Use 30% upside as target (aggressive growth target)
-        reward_target = current_price * 1.30
-    else:  # Phase 1
-        # Stage 1: Use breakout level + 25% as target
-        if breakout_info.get("is_breakout"):
-            reward_target = breakout_info["breakout_level"] * 1.25
-        else:
-            reward_target = sma_50 * 1.25  # Target 50 SMA + 25%
-
-    reward_amount = reward_target - current_price
-
-    # Calculate R/R ratio
-    if risk_amount > 0:
-        rr_ratio = reward_amount / risk_amount
-
-        # AGGRESSIVE LINEAR scoring for growth stocks:
-        # < 2:1 = 0 pts (reject - not enough upside)
-        # 2:1 = 3 pts (minimum acceptable)
-        # 3:1 = 9 pts (good)
-        # 4:1 = 12 pts (excellent)
-        # 5:1+ = 15 pts (outstanding - maximum)
-        # Formula: For R/R >= 2, score = min(15, (rr_ratio - 2) * 6 + 3)
-        if rr_ratio < 2.0:
-            rr_score = 0  # Reject poor R/R
-        else:
-            rr_score = min(15, ((rr_ratio - 2.0) * 6) + 3)
-
-        details["risk_reward_ratio"] = round(rr_ratio, 2)
-        details["risk_amount"] = round(risk_amount, 2)
-        details["reward_amount"] = round(reward_amount, 2)
-        details["reward_target"] = round(reward_target, 2)
-
-        if rr_ratio >= 5.0:
-            reasons.append(
-                f"🟢 Outstanding R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside, ${risk_amount:.2f} risk)"
-            )
-        elif rr_ratio >= 4.0:
-            reasons.append(
-                f"🟢 Excellent R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside, ${risk_amount:.2f} risk)"
-            )
-        elif rr_ratio >= 3.0:
-            reasons.append(
-                f"🟢 Good R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside)"
-            )
-        elif rr_ratio >= 2.0:
-            reasons.append(f"🟡 Acceptable R/R: {rr_ratio:.1f}:1")
-        else:
-            reasons.append(f"🔴 Poor R/R: {rr_ratio:.1f}:1 (need 2:1+ for growth)")
+    if risk["risk_status"] == "eligible":
+        rr_score = min(15, (rr_ratio - MIN_REWARD_RISK) * 6 + 3)
+        reasons.append(
+            f"Observed resistance R/R: {rr_ratio:.1f}:1 (not a return forecast)"
+        )
+    elif risk["risk_status"] == "target_unavailable":
+        reasons.append(
+            "R/R unavailable: no confirmed prior resistance above entry; 0 R/R points"
+        )
+    elif risk["risk_status"] == "stop_too_wide":
+        reasons.append(
+            f"Buy blocked: support stop risks {risk['risk_pct']:.1%}, above {MAX_STOP_DISTANCE:.0%} budget"
+        )
+    elif risk["risk_status"] == "insufficient_reward_risk":
+        reasons.append(
+            f"Buy blocked: observed R/R {rr_ratio:.1f}:1 is below {MIN_REWARD_RISK:g}:1"
+        )
     else:
-        details["risk_reward_ratio"] = 0
-        rr_score = 0
-
+        reasons.append("Buy blocked: no valid support stop")
     score += rr_score
     details["rr_score"] = round(rr_score, 2)
 
@@ -579,10 +485,10 @@ def score_buy_signal(
     details["vcp_bonus"] = round(vcp_bonus, 2)
 
     # Final score (out of 125: 40 technical + 40 fundamental + 15 R/R + 10 RS + 10 volume + 5 entry + 5 VCP)
-    final_score = max(0, min(score, 125))
+    final_score = max(0, min(score, BUY_MAX_SCORE))
 
     # Determine if this is a valid buy signal (>= 60)
-    is_buy = final_score >= 60
+    is_buy = final_score >= BUY_SCORE_THRESHOLD and risk["risk_eligible"]
 
     # Add Minervini template details
     details["minervini_template"] = minervini
@@ -600,7 +506,13 @@ def score_buy_signal(
             else None
         ),
         "stop_loss": round(stop_loss, 2) if stop_loss else None,
-        "risk_reward_ratio": details.get("risk_reward_ratio", 0),
+        "risk_reward_ratio": rr_ratio,
+        "reward_target": risk["reward_target"],
+        "target_date": risk["target_date"],
+        "target_basis": risk["target_basis"],
+        "stop_basis": risk["stop_basis"],
+        "risk_status": risk["risk_status"],
+        "signal_policy_version": SIGNAL_POLICY_VERSION,
         "entry_quality": (
             "Good" if entry_score >= 3 else "Extended" if entry_score >= 1.5 else "Poor"
         ),
@@ -756,7 +668,7 @@ def score_sell_signal(
             reasons.append("Failed breakout - closed back inside base")
 
     # Final score
-    final_score = max(0, min(score, 100))
+    final_score = max(0, min(score, SELL_MAX_SCORE))
 
     # Determine severity
     if final_score >= 80:
@@ -769,7 +681,7 @@ def score_sell_signal(
         severity = "low"
 
     # Determine if this is a valid sell signal (>= 60)
-    is_sell = final_score >= 60
+    is_sell = final_score >= SELL_SCORE_THRESHOLD
 
     return {
         "ticker": ticker,
@@ -799,14 +711,18 @@ def format_signal_output(signal: Dict, signal_type: str = "buy") -> str:
 
     if signal_type == "buy":
         output = f"\n{'='*60}\n"
-        output += f"BUY SIGNAL: {ticker} | Score: {score}/100 | Phase {phase}\n"
+        output += (
+            f"BUY SIGNAL: {ticker} | Score: {score}/{BUY_MAX_SCORE} | Phase {phase}\n"
+        )
         output += f"{'='*60}\n"
+
+        output += format_trade_risk(signal) + "\n"
 
         if "breakout_price" in signal and signal["breakout_price"]:
             output += f"Breakout Level: ${signal['breakout_price']:.2f}\n"
 
         details = signal.get("details", {})
-        if "rs_slope" in details:
+        if details.get("rs_slope") is not None:
             output += f"RS Slope: {details['rs_slope']:.3f}\n"
         if "volume_ratio" in details:
             output += f"Volume vs Avg: {details['volume_ratio']:.1f}x\n"
@@ -820,14 +736,14 @@ def format_signal_output(signal: Dict, signal_type: str = "buy") -> str:
     else:  # sell
         severity = signal.get("severity", "unknown")
         output = f"\n{'='*60}\n"
-        output += f"SELL SIGNAL: {ticker} | Score: {score}/100 | Severity: {severity.upper()} | Phase {phase}\n"
+        output += f"SELL SIGNAL: {ticker} | Score: {score}/{SELL_MAX_SCORE} | Severity: {severity.upper()} | Phase {phase}\n"
         output += f"{'='*60}\n"
 
         if "breakdown_level" in signal and signal["breakdown_level"]:
             output += f"Breakdown Level: ${signal['breakdown_level']:.2f}\n"
 
         details = signal.get("details", {})
-        if "rs_slope" in details:
+        if details.get("rs_slope") is not None:
             output += f"RS Slope: {details['rs_slope']:.3f}\n"
         if "volume_ratio" in details:
             output += f"Volume vs Avg: {details['volume_ratio']:.1f}x\n"

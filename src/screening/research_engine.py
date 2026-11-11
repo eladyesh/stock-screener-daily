@@ -10,6 +10,7 @@ import yaml
 from src.data.financial_metrics import number
 from src.data.research_fetcher import ResearchFetcher, utc_date, json_safe
 from .fundamental_score import scale, score_fundamentals
+from .signal_policy import SIGNAL_POLICY_VERSION
 
 GROUPS = {"technical", "growth", "quality", "valuation", "revisions", "catalysts"}
 
@@ -271,7 +272,18 @@ def score_record(analysis, record, signal, config, now, allow_buys=True):
         "research": record,
         "technical_signal": {
             k: signal.get(k)
-            for k in ("is_buy", "score", "stop_loss", "risk_reward_ratio")
+            for k in (
+                "is_buy",
+                "score",
+                "stop_loss",
+                "risk_reward_ratio",
+                "reward_target",
+                "target_date",
+                "target_basis",
+                "stop_basis",
+                "risk_status",
+                "signal_policy_version",
+            )
         },
     }
 
@@ -314,7 +326,8 @@ def build_research(
     }
     return {
         "schema_version": 1,
-        "strategy_version": "multifactor-v1",
+        "strategy_version": "multifactor-v2",
+        "signal_policy_version": SIGNAL_POLICY_VERSION,
         "generated_at": now.isoformat(),
         "scope": "Liquidity/drawdown-filtered Stage 1/2 shortlist; not an unbiased whole-market rank",
         "score_meaning": "Heuristic research evidence, not probability or expected return; not backtested",
