@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "ticker": "DOCU",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.381291872960995,
+    "revenue_qoq_change": 5.481700964184832,
+    "eps_yoy_change": 33.33333333333335,
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.4,
+    "gross_margin": 79.68908793188892,
+    "operating_margin": 13.430949156490582,
+    "net_margin": 8.874148440301182,
+    "shares_yoy_change": -8.456265761580617,
+    "free_cash_flow_ttm": 1198291000.0,
+    "operating_cash_flow_ttm": 1323729000.0,
+    "revenue_ttm": 3361191000.0,
+    "net_income_ttm": 329940000.0,
+    "ebitda_ttm": 564996000.0,
+    "total_debt": 183098000.0,
+    "cash": 777677000.0,
+    "total_assets": 3960790000.0,
+    "margin_change": 0.31818692193391485,
+    "operating_margin_yoy_change": 5.284050940572238,
+    "fcf_margin": 35.6507856887633,
+    "net_debt": -594579000.0,
+    "net_debt_to_ebitda": -1.0523596627232759,
+    "debt_to_assets": 4.622764650486393,
+    "market_cap": 14742864896.0,
+    "enterprise_value": 13920265216.0,
+    "forward_pe": 15.1216545,
+    "trailing_pe": 48.09756,
+    "ev_ebitda": 31.519,
+    "fcf_yield": 8.127938555043785,
+    "eps_fy0": 4.62106,
+    "revenue_fy0": 3504628520.0,
+    "analysts_fy0": 19.0,
+    "eps_fy1": 5.21004,
+    "revenue_fy1": 3783557980.0,
+    "analysts_fy1": 20.0,
+    "forward_eps_growth": 12.74556054238638,
+    "forward_revenue_growth": 7.95888803644158,
+    "eps_revision_30d": 0.0,
+    "eps_revision_90d": 2.2223879044963812,
+    "eps_surprise_pct": 6.849416012674547,
+    "days_to_earnings": 22.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/financials/",
+      "retrieved_at": "2026-11-11T17:46:01.273948+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DOCU/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Aviat Networks, Inc. (AVNW) Q1 Earnings and Revenues Miss Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aviat-networks-inc-avnw-q1-131002820.html",
+      "published_at": "2026-11-10T13:10:02+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Parry Labs Welcomes Matthew J. Schiltz to Board of Directors; David Gross Transitions to Chairman Emeritus",
+      "url": "https://finance.yahoo.com/technology/articles/parry-labs-welcomes-matthew-j-130000180.html",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Docusign vs. Monday.com: Absolute Scale vs. Faster Growth in Tech Revenues",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-vs-monday-com-absolute-155702564.html",
+      "published_at": "2026-11-07T15:57:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Datadog vs. Docusign: Which Technology Stock Is a Better Buy for 2027?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-vs-docusign-technology-stock-152702926.html",
+      "published_at": "2026-11-07T15:27:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is DocuSign (DOCU) Fully Valued As SAP Branded Deal Expands Its Reach?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-fully-valued-sap-031646005.html",
+      "published_at": "2026-11-07T03:16:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "DocuSign (DOCU) Stock Trades At A Premium To Its Earnings Base",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-trades-premium-071638806.html",
+      "published_at": "2026-11-06T07:16:38+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Docusign vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-vs-monday-com-technology-223302828.html",
+      "published_at": "2026-11-05T22:33:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "GC AI and Docusign Partner to Turn Agreements into Legal Intelligence",
+      "url": "https://finance.yahoo.com/technology/ai/articles/gc-ai-docusign-partner-turn-204700156.html",
+      "published_at": "2026-11-05T20:47:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/DOCU/0001261333-26-000099_1261333"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DOCU/0001261333-26-000088_1261333"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:01.273948+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 9.381291872960995,
+    "revenue_qoq_change": 5.481700964184832,
+    "eps_yoy_change": 33.33333333333335,
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.4,
+    "gross_margin": 79.68908793188892,
+    "operating_margin": 13.430949156490582,
+    "net_margin": 8.874148440301182,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -8.456265761580617,
+    "free_cash_flow_ttm": 1198291000.0,
+    "operating_cash_flow_ttm": 1323729000.0,
+    "revenue_ttm": 3361191000.0,
+    "net_income_ttm": 329940000.0,
+    "ebitda_ttm": 564996000.0,
+    "total_debt": 183098000.0,
+    "cash": 777677000.0,
+    "total_assets": 3960790000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-04-30": null,
+      "2025-07-31": 800636000.0,
+      "2025-10-31": 818350000.0,
+      "2026-01-31": 836860000.0,
+      "2026-04-30": 830235000.0,
+      "2026-07-31": 875746000.0
+    },
+    "quarterly_eps": {
+      "2025-04-30": null,
+      "2025-07-31": 0.3,
+      "2025-10-31": 0.4,
+      "2026-01-31": 0.44,
+      "2026-04-30": 0.4,
+      "2026-07-31": 0.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.31818692193391485,
+    "operating_margin_yoy_change": 5.284050940572238,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.6507856887633,
+    "net_debt": -594579000.0,
+    "net_debt_to_ebitda": -1.0523596627232759,
+    "debt_to_assets": 4.622764650486393
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-12-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/DOCU/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

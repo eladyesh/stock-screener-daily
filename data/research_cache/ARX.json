@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "ticker": "ARX",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 77.989518818485,
+    "revenue_qoq_change": 33.858831959871004,
+    "eps_yoy_change": 799.9550022498875,
+    "latest_eps": 0.36,
+    "net_margin": 21.065310492505354,
+    "shares_yoy_change": -0.1344523028890654,
+    "free_cash_flow_ttm": 1800000.0,
+    "operating_cash_flow_ttm": 45800000.0,
+    "revenue_ttm": 1142800000.0,
+    "net_income_ttm": -1295900000.0,
+    "total_debt": 120100000.0,
+    "cash": 2318500000.0,
+    "total_assets": 8943300000.0,
+    "fcf_margin": 0.1575078753937697,
+    "net_debt": -2198400000.0,
+    "debt_to_assets": 1.342904744333747,
+    "market_cap": 4322052096.0,
+    "enterprise_value": 2812524032.0,
+    "forward_pe": 21.245476,
+    "trailing_pe": null,
+    "ev_ebitda": 25.709,
+    "fcf_yield": 0.041646883471531386,
+    "eps_fy0": 0.89125,
+    "revenue_fy0": 1143579550.0,
+    "analysts_fy0": 8.0,
+    "eps_fy1": 0.93667,
+    "revenue_fy1": 1247615210.0,
+    "analysts_fy1": 9.0,
+    "forward_eps_growth": 5.0962131837307245,
+    "forward_revenue_growth": 9.097369745725171,
+    "eps_revision_30d": -0.3542553191489328,
+    "eps_revision_90d": 1.4810400866738904,
+    "eps_surprise_pct": 96.31901840490798,
+    "days_to_earnings": 1.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/financials/",
+      "retrieved_at": "2026-11-11T17:45:54.482324+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/ARX/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "eToro Group Ltd. (ETOR) Lags Q3 Earnings Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etoro-group-ltd-etor-lags-122502527.html",
+      "published_at": "2026-11-10T12:25:02+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Accelerant Q3 Earnings: Will Underwriting Weakness Spoil the Show?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-q3-earnings-underwriting-weakness-114300293.html",
+      "published_at": "2026-11-10T11:43:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Oxbridge Re Holdings Limited (OXBR) Reports Q3 Loss, Lags Revenue Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oxbridge-holdings-limited-oxbr-reports-223507066.html",
+      "published_at": "2026-11-09T22:35:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exploring Analyst Estimates for Accelerant Holdings (ARX) Q3 Earnings, Beyond Revenue and EPS",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exploring-analyst-estimates-accelerant-holdings-131503754.html",
+      "published_at": "2026-11-09T13:15:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "American Healthcare REIT (AHR) Q3 FFO Beat Estimates",
+      "url": "https://finance.yahoo.com/real-estate/articles/american-healthcare-reit-ahr-q3-214515594.html",
+      "published_at": "2026-11-05T21:45:15+00:00",
+      "categories": []
+    },
+    {
+      "title": "eHealth (EHTH) Reports Q3 Loss, Lags Revenue Estimates",
+      "url": "https://finance.yahoo.com/healthcare/articles/ehealth-ehth-reports-q3-loss-215005435.html",
+      "published_at": "2026-11-04T21:50:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "Accelerant Announces Date of Third Quarter 2026 Financial Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-announces-date-third-quarter-211500611.html",
+      "published_at": "2026-11-02T21:15:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Erie Indemnity (ERIE) Q3 Earnings Surpass Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-erie-q3-earnings-203503917.html",
+      "published_at": "2026-10-29T20:35:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "SC 13E3",
+      "url": "https://finance.yahoo.com/sec-filing/ARX/0001104659-26-120740_1997350"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/ARX/0001997350-26-000018_1997350"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "DEFA14A",
+      "url": "https://finance.yahoo.com/sec-filing/ARX/0001193125-26-349966_1997350"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/ARX/0001997350-26-000015_1997350"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:45:54.482324+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 77.989518818485,
+    "revenue_qoq_change": 33.858831959871004,
+    "eps_yoy_change": 799.9550022498875,
+    "eps_qoq_change": null,
+    "latest_eps": 0.36,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 21.065310492505354,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.1344523028890654,
+    "free_cash_flow_ttm": 1800000.0,
+    "operating_cash_flow_ttm": 45800000.0,
+    "revenue_ttm": 1142800000.0,
+    "net_income_ttm": -1295900000.0,
+    "ebitda_ttm": null,
+    "total_debt": 120100000.0,
+    "cash": 2318500000.0,
+    "total_assets": 8943300000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 209900000.0,
+      "2025-09-30": 280700000.0,
+      "2025-12-31": 209400000.0,
+      "2026-03-31": 279100000.0,
+      "2026-06-30": 373600000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.040002,
+      "2025-09-30": -6.99,
+      "2025-12-31": 0.0,
+      "2026-03-31": -0.02,
+      "2026-06-30": 0.36
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 0.1575078753937697,
+    "net_debt": -2198400000.0,
+    "debt_to_assets": 1.342904744333747
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-12"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/ARX/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

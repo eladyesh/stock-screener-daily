@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "ticker": "AYA",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 150.66424964392078,
+    "revenue_qoq_change": -17.46337636645804,
+    "eps_yoy_change": 283.33333333333337,
+    "eps_qoq_change": -30.303030303030297,
+    "latest_eps": 0.23,
+    "gross_margin": 65.51335826600823,
+    "operating_margin": 54.91559394177325,
+    "net_margin": 36.198524701944336,
+    "inventory_yoy_change": 33.85944802045675,
+    "inventory_qoq_change": 28.765302948910065,
+    "shares_yoy_change": 5.778819336236962,
+    "free_cash_flow_ttm": 88371000.0,
+    "operating_cash_flow_ttm": 174816000.0,
+    "revenue_ttm": 343724000.0,
+    "net_income_ttm": 113169000.0,
+    "ebitda_ttm": 217299000.0,
+    "total_debt": 86344000.0,
+    "cash": 183098000.0,
+    "total_assets": 702294000.0,
+    "margin_change": -5.908269716323744,
+    "operating_margin_yoy_change": 35.05543597207236,
+    "inventory_to_sales_ratio": 0.47051470132446227,
+    "fcf_margin": 25.70987187394537,
+    "net_debt": -96754000.0,
+    "net_debt_to_ebitda": -0.44525745631595176,
+    "debt_to_assets": 12.294566093402478,
+    "market_cap": 3607385600.0,
+    "enterprise_value": 3539462400.0,
+    "forward_pe": 10.889131,
+    "trailing_pe": 32.525974,
+    "ev_ebitda": 17.019,
+    "fcf_yield": 2.4497242545959046,
+    "eps_fy0": null,
+    "revenue_fy0": 421750000.0,
+    "analysts_fy0": null,
+    "eps_fy1": null,
+    "revenue_fy1": 447000000.0,
+    "analysts_fy1": null,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 5.986959098992295,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "days_to_earnings": 1.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/financials/",
+      "retrieved_at": "2026-11-11T17:45:55.943512+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AYA/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "missing",
+    "revenue_estimates": "ok",
+    "revisions": "missing",
+    "earnings_history": "missing",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok",
+    "fmp_estimates": "not_configured"
+  },
+  "news": [
+    {
+      "title": "Aya Gold & Silver Plans Sale of Morocco Project to Sama Resources",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-plans-sale-153659338.html",
+      "published_at": "2026-11-05T15:36:59+00:00",
+      "categories": []
+    },
+    {
+      "title": "Aya Gold & Silver Enters Into an Agreement to Sell Azegour to Sama Resources",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/aya-gold-silver-enters-agreement-120000362.html",
+      "published_at": "2026-11-05T12:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Aya Gold & Silver (TSX:AYA) Secures New Permits, Is The Stock Still Cheap?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-111629372.html",
+      "published_at": "2026-11-05T11:16:29+00:00",
+      "categories": []
+    },
+    {
+      "title": "Aya Gold And Silver (TSX:AYA) Stock May Trade At A Premium Despite Boumadine Permit News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-051548816.html",
+      "published_at": "2026-11-05T05:15:48+00:00",
+      "categories": []
+    },
+    {
+      "title": "Basic Materials Roundup: Market Talk",
+      "url": "https://finance.yahoo.com/m/84ebfd9c-3d84-3779-8706-acaa6b1ce7cf/basic-materials-roundup%3A.html",
+      "published_at": "2026-11-04T22:03:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Aya Gold & Silver Posts Drill Results from Boumadine Project, Secures More Permits",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/aya-gold-silver-posts-drill-150758107.html",
+      "published_at": "2026-11-04T15:07:58+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Aya Gold & Silver Drill Results Confirm High-Grade Continuity at Boumadine; New Permits Secured",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/aya-gold-silver-drill-results-120000440.html",
+      "published_at": "2026-11-04T12:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-070808_1826836"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-066623_1826836"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-066240_1826836"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-061028_1826836"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-059717_1826836"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/AYA/0001628280-26-056782_1826836"
+    }
+  ],
+  "warnings": [],
+  "sector": "Basic Materials",
+  "industry": "Silver",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:45:55.943512+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 150.66424964392078,
+    "revenue_qoq_change": -17.46337636645804,
+    "eps_yoy_change": 283.33333333333337,
+    "eps_qoq_change": -30.303030303030297,
+    "latest_eps": 0.23,
+    "gross_margin": 65.51335826600823,
+    "operating_margin": 54.91559394177325,
+    "net_margin": 36.198524701944336,
+    "inventory_yoy_change": 33.85944802045675,
+    "inventory_qoq_change": 28.765302948910065,
+    "shares_yoy_change": 5.778819336236962,
+    "free_cash_flow_ttm": 88371000.0,
+    "operating_cash_flow_ttm": 174816000.0,
+    "revenue_ttm": 343724000.0,
+    "net_income_ttm": 113169000.0,
+    "ebitda_ttm": 217299000.0,
+    "total_debt": 86344000.0,
+    "cash": 183098000.0,
+    "total_assets": 702294000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 38615000.0,
+      "2025-09-30": 54337000.0,
+      "2025-12-31": 75319000.0,
+      "2026-03-31": 117274000.0,
+      "2026-06-30": 96794000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.05,
+      "2025-06-30": 0.06,
+      "2025-09-30": 0.09,
+      "2025-12-31": null,
+      "2026-03-31": 0.33,
+      "2026-06-30": 0.23
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 34023000.0,
+      "2025-09-30": 30943000.0,
+      "2025-12-31": 34595000.0,
+      "2026-03-31": 35369000.0,
+      "2026-06-30": 45543000.0
+    },
+    "margin_change": -5.908269716323744,
+    "operating_margin_yoy_change": 35.05543597207236,
+    "inventory_to_sales_ratio": 0.47051470132446227,
+    "fcf_margin": 25.70987187394537,
+    "net_debt": -96754000.0,
+    "net_debt_to_ebitda": -0.44525745631595176,
+    "debt_to_assets": 12.294566093402478
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-12"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/AYA/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

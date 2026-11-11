@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "ticker": "GRAL",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 3.7050339835331902,
+    "revenue_qoq_change": -16.004654597533964,
+    "latest_eps": -2.21,
+    "gross_margin": -48.250965765285734,
+    "operating_margin": -385.2910616757693,
+    "net_margin": -275.92380444918075,
+    "inventory_yoy_change": 0.4622077215878262,
+    "inventory_qoq_change": 4.008331925913411,
+    "shares_yoy_change": 29.491190074613584,
+    "free_cash_flow_ttm": -312004000.0,
+    "operating_cash_flow_ttm": -306244000.0,
+    "revenue_ttm": 166604000.0,
+    "net_income_ttm": -406178000.0,
+    "ebitda_ttm": -398290000.0,
+    "total_debt": 85848000.0,
+    "cash": 788676000.0,
+    "total_assets": 2730562000.0,
+    "margin_change": -20.130930855804227,
+    "operating_margin_yoy_change": -39.1259514365031,
+    "inventory_to_sales_ratio": 0.4922072732116691,
+    "fcf_margin": -187.27281457828144,
+    "net_debt": -702828000.0,
+    "debt_to_assets": 3.143968164795379,
+    "market_cap": 5770670080.0,
+    "enterprise_value": 4905753088.0,
+    "forward_pe": -15.7617,
+    "trailing_pe": null,
+    "ev_ebitda": -12.316,
+    "fcf_yield": -5.406720461828932,
+    "eps_fy0": -5.53738,
+    "revenue_fy0": 168445150.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": -8.14284,
+    "revenue_fy1": 212650700.0,
+    "analysts_fy1": 4.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 26.243290471705482,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": null
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/financials/",
+      "retrieved_at": "2026-11-11T17:46:11.452803+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Got $10,000? 3 Hot Stocks to Buy That Could Make You a Fortune",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/got-10-000-3-hot-215000577.html",
+      "published_at": "2026-11-10T21:50:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "GRAIL Inc (GRAL) (Q3 2026) Earnings Call Highlights: FDA Nod on the Horizon as Galleri Gains ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/grail-inc-gral-q3-2026-010555245.html",
+      "published_at": "2026-11-10T01:05:55+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "A Bloody Bad Time: Grail Gutted On Light Blood Test Sales",
+      "url": "https://finance.yahoo.com/m/d696c51d-2453-3315-aa3a-e27610b0d4e1/a-bloody-bad-time%3A-grail.html",
+      "published_at": "2026-11-05T21:16:23+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is GRAIL (GRAL) Fully Valued As Fresh Earnings Reignite Questions Over Galleri?",
+      "url": "https://finance.yahoo.com/healthcare/articles/grail-gral-fully-valued-fresh-161653661.html",
+      "published_at": "2026-11-05T16:16:53+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "GRAIL (GRAL) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/healthcare/articles/grail-gral-q3-2026-earnings-155833653.html",
+      "published_at": "2026-11-05T15:58:33+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "RBC Raises Price Target on GRAIL to $100 From $84, Keeps Sector Perform Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-grail-142145625.html",
+      "published_at": "2026-11-05T14:21:45+00:00",
+      "categories": []
+    },
+    {
+      "title": "GRAIL Q3 Earnings Call Ties FDA Review to Pricing and Sales Growth",
+      "url": "https://finance.yahoo.com/healthcare/articles/grail-q3-earnings-call-ties-140000933.html",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "GRAIL, Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/grail-inc-q3-2026-earnings-133000296.html",
+      "published_at": "2026-11-05T13:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/GRAL/0001628280-26-071041_1699031"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/GRAL/0001628280-26-070118_1699031"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:11.452803+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 3.7050339835331902,
+    "revenue_qoq_change": -16.004654597533964,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -2.21,
+    "gross_margin": -48.250965765285734,
+    "operating_margin": -385.2910616757693,
+    "net_margin": -275.92380444918075,
+    "inventory_yoy_change": 0.4622077215878262,
+    "inventory_qoq_change": 4.008331925913411,
+    "shares_yoy_change": 29.491190074613584,
+    "free_cash_flow_ttm": -312004000.0,
+    "operating_cash_flow_ttm": -306244000.0,
+    "revenue_ttm": 166604000.0,
+    "net_income_ttm": -406178000.0,
+    "ebitda_ttm": -398290000.0,
+    "total_debt": 85848000.0,
+    "cash": 788676000.0,
+    "total_assets": 2730562000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 36194000.0,
+      "2025-12-31": 43597000.0,
+      "2026-03-31": 40785000.0,
+      "2026-06-30": 44687000.0,
+      "2026-09-30": 37535000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": -2.46,
+      "2025-12-31": -2.44,
+      "2026-03-31": -2.29,
+      "2026-06-30": -2.56,
+      "2026-09-30": -2.21
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 18390000.0,
+      "2025-12-31": 16017000.0,
+      "2026-03-31": 17194000.0,
+      "2026-06-30": 17763000.0,
+      "2026-09-30": 18475000.0
+    },
+    "margin_change": -20.130930855804227,
+    "operating_margin_yoy_change": -39.1259514365031,
+    "inventory_to_sales_ratio": 0.4922072732116691,
+    "fcf_margin": -187.27281457828144,
+    "net_debt": -702828000.0,
+    "debt_to_assets": 3.143968164795379
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/GRAL/insider-transactions/",
+  "fmp_configured": false
+}

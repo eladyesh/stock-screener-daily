@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "ticker": "TMO",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.126056464664622,
+    "revenue_qoq_change": 1.192262798065702,
+    "eps_yoy_change": 8.665105386416872,
+    "eps_qoq_change": -0.8547008547008517,
+    "latest_eps": 4.64,
+    "gross_margin": 42.275685919090385,
+    "operating_margin": 20.28507868501277,
+    "net_margin": 14.179780835461811,
+    "inventory_yoy_change": -1.7754569190600478,
+    "inventory_qoq_change": 0.2843433445886001,
+    "shares_yoy_change": -1.851851851851849,
+    "free_cash_flow_ttm": 7596000000.0,
+    "operating_cash_flow_ttm": 9324000000.0,
+    "revenue_ttm": 47351000000.0,
+    "net_income_ttm": 7072000000.0,
+    "ebitda_ttm": 12542000000.0,
+    "total_debt": 41370000000.0,
+    "cash": 6061000000.0,
+    "total_assets": 114233000000.0,
+    "margin_change": 1.5720007431690917,
+    "operating_margin_yoy_change": 1.6283622671023217,
+    "inventory_to_sales_ratio": 0.46494191315811156,
+    "fcf_margin": 16.04189985427974,
+    "net_debt": 35309000000.0,
+    "net_debt_to_ebitda": 2.8152607239674694,
+    "debt_to_assets": 36.215454378332005,
+    "market_cap": 267873697792.0,
+    "enterprise_value": 301547487232.0,
+    "forward_pe": 26.022066,
+    "trailing_pe": 38.13159,
+    "ev_ebitda": 24.856,
+    "fcf_yield": 2.8356647414850644,
+    "eps_fy0": 25.28326,
+    "revenue_fy0": 48007607360.0,
+    "analysts_fy0": 26.0,
+    "eps_fy1": 27.78315,
+    "revenue_fy1": 50537751720.0,
+    "analysts_fy1": 27.0,
+    "forward_eps_growth": 9.887530326389872,
+    "forward_revenue_growth": 5.270298811242413,
+    "eps_revision_30d": 0.8526857422885392,
+    "eps_revision_90d": 0.9900849739938211,
+    "eps_surprise_pct": 4.3262600753710245,
+    "days_to_earnings": 78.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/financials/",
+      "retrieved_at": "2026-11-11T17:46:34.032518+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TMO/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Is Illumina Stock Worth The Wait?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/illumina-stock-worth-wait-152943449.html",
+      "published_at": "2026-11-11T15:29:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Global Biotechnology Market to Reach $5 Trillion by 2032, Driven by Biopharmaceuticals, Gene Editing and Sustainable Innovation | Features Profiles of Danaher, Roche, Illumina, Merck, Thermo Fisher and More",
+      "url": "https://finance.yahoo.com/healthcare/articles/global-biotechnology-market-reach-5-144400591.html",
+      "published_at": "2026-11-11T14:44:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Mass Spectrometry - Global Strategic Business Report 2026-2032 Featuring Thermo Fisher, Agilent, Bruker, Shimadzu, Waters and More",
+      "url": "https://finance.yahoo.com/healthcare/articles/mass-spectrometry-global-strategic-business-144200615.html",
+      "published_at": "2026-11-11T14:42:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Transfection Technologies - Global Strategic Business Report 2026: Capitalize on a $2.5 Billion Market by 2032 as Thermo Fisher, Lonza, Bio-Rad, Qiagen and MilliporeSigma Accelerate",
+      "url": "https://finance.yahoo.com/healthcare/articles/transfection-technologies-global-strategic-business-142100342.html",
+      "published_at": "2026-11-11T14:21:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Whole Exome Sequencing - Global Strategic Business Report 2026: Capitalize on 19.5% CAGR to $2.3 Billion by 2032 as Illumina, Thermo Fisher Scientific, BGI Genomics, and QIAGEN Accelerate",
+      "url": "https://finance.yahoo.com/healthcare/articles/whole-exome-sequencing-global-strategic-142000636.html",
+      "published_at": "2026-11-11T14:20:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Single-Cell Analysis - Global Strategic Business Report 2026: Capitalize on 20.4% CAGR as Illumina, Thermo Fisher Scientific, Bio-Rad and Agilent Battle for Shares in the $26.1 Billion Market by 2032",
+      "url": "https://finance.yahoo.com/healthcare/articles/single-cell-analysis-global-strategic-141800797.html",
+      "published_at": "2026-11-11T14:18:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Human Identification - Global Strategic Business Report 2026: Capitalize on 10.1% CAGR to $1.9 Billion by 2032 | Thermo Fisher, Illumina, Qiagen and Bio-Rad Vie for Shares",
+      "url": "https://finance.yahoo.com/healthcare/articles/human-identification-global-strategic-business-141500541.html",
+      "published_at": "2026-11-11T14:15:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Genomics - Global Strategic Business Report 2026: Capitalize on the $117.3 Billion Market by 2032, Featuring Strategic Intelligence on Illumina, Thermo Fisher Scientific, Danaher, and Oxford Nanopore",
+      "url": "https://finance.yahoo.com/healthcare/articles/genomics-global-strategic-business-report-141400144.html",
+      "published_at": "2026-11-11T14:14:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/TMO/0000097745-26-000181_97745"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/TMO/0000097745-26-000173_97745"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:34.032518+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 9.126056464664622,
+    "revenue_qoq_change": 1.192262798065702,
+    "eps_yoy_change": 8.665105386416872,
+    "eps_qoq_change": -0.8547008547008517,
+    "latest_eps": 4.64,
+    "gross_margin": 42.275685919090385,
+    "operating_margin": 20.28507868501277,
+    "net_margin": 14.179780835461811,
+    "inventory_yoy_change": -1.7754569190600478,
+    "inventory_qoq_change": 0.2843433445886001,
+    "shares_yoy_change": -1.851851851851849,
+    "free_cash_flow_ttm": 7596000000.0,
+    "operating_cash_flow_ttm": 9324000000.0,
+    "revenue_ttm": 47351000000.0,
+    "net_income_ttm": 7072000000.0,
+    "ebitda_ttm": 12542000000.0,
+    "total_debt": 41370000000.0,
+    "cash": 6061000000.0,
+    "total_assets": 114233000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 11122000000.0,
+      "2025-12-31": 12215000000.0,
+      "2026-03-31": 11005000000.0,
+      "2026-06-30": 11994000000.0,
+      "2026-09-30": 12137000000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 4.27,
+      "2025-12-31": 5.21,
+      "2026-03-31": 4.43,
+      "2026-06-30": 4.68,
+      "2026-09-30": 4.64
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 5745000000.0,
+      "2025-12-31": 5425000000.0,
+      "2026-03-31": 5496000000.0,
+      "2026-06-30": 5627000000.0,
+      "2026-09-30": 5643000000.0
+    },
+    "margin_change": 1.5720007431690917,
+    "operating_margin_yoy_change": 1.6283622671023217,
+    "inventory_to_sales_ratio": 0.46494191315811156,
+    "fcf_margin": 16.04189985427974,
+    "net_debt": 35309000000.0,
+    "net_debt_to_ebitda": 2.8152607239674694,
+    "debt_to_assets": 36.215454378332005
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-28"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/TMO/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

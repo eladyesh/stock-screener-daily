@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "ticker": "NTSK",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 29.1541245505335,
+    "revenue_qoq_change": 9.399678558672964,
+    "latest_eps": -0.27,
+    "gross_margin": 73.9173214957763,
+    "operating_margin": -40.71759899519817,
+    "net_margin": -50.247799728848605,
+    "inventory_yoy_change": -10.945548197203825,
+    "inventory_qoq_change": -7.367011098354381,
+    "shares_yoy_change": 6.012627470437293,
+    "free_cash_flow_ttm": -74693000.0,
+    "operating_cash_flow_ttm": -41093000.0,
+    "revenue_ttm": 802636000.0,
+    "net_income_ttm": -737158000.0,
+    "ebitda_ttm": -718740000.0,
+    "total_debt": 732232000.0,
+    "cash": 1067363000.0,
+    "total_assets": 1712214000.0,
+    "margin_change": 0.37521665034593354,
+    "operating_margin_yoy_change": -13.79938725694872,
+    "inventory_to_sales_ratio": 0.02195056701475009,
+    "fcf_margin": -9.305961855685515,
+    "net_debt": -335131000.0,
+    "debt_to_assets": 42.76521509577658,
+    "market_cap": 9213652992.0,
+    "enterprise_value": 8424990208.0,
+    "forward_pe": 824.49725,
+    "trailing_pe": null,
+    "ev_ebitda": -11.689,
+    "fcf_yield": -0.810677372643122,
+    "eps_fy0": -0.14853,
+    "revenue_fy0": 890498330.0,
+    "analysts_fy0": 19.0,
+    "eps_fy1": -0.8269,
+    "revenue_fy1": 1078932460.0,
+    "analysts_fy1": 6.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 21.16052592709523,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": null,
+    "days_to_earnings": 21.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/financials/",
+      "retrieved_at": "2026-11-11T17:46:04.275912+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NTSK/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Netskope (NTSK) Gains Momentum as AI Agent Proliferation Multiplies Enterprise Security Demands",
+      "url": "https://finance.yahoo.com/technology/ai/articles/netskope-ntsk-gains-momentum-ai-163243423.html",
+      "published_at": "2026-11-11T16:32:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Neo Appoints Anton Mayr as Chief Operating Officer",
+      "url": "https://finance.yahoo.com/technology/ai/articles/neo-appoints-anton-mayr-chief-140000250.html",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Netskope Appoints Carrie Francey as Global Channel Chief",
+      "url": "https://finance.yahoo.com/technology/ai/articles/netskope-appoints-carrie-francey-global-140000535.html",
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "PubMatic, Inc. (PUBM) Q3 Earnings and Revenues Surpass Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pubmatic-inc-pubm-q3-earnings-223507696.html",
+      "published_at": "2026-11-09T22:35:07+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Netskope (NTSK) Stock Sees Modest Fair Value Lift As Analysts Raise Targets",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netskope-ntsk-stock-sees-modest-180808763.html",
+      "published_at": "2026-11-09T18:08:08+00:00",
+      "categories": []
+    },
+    {
+      "title": "RBC Lifts Price Target on Netskope to $23 From $20, Keeps Outperform Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-lifts-price-target-netskope-112812583.html",
+      "published_at": "2026-11-09T11:28:12+00:00",
+      "categories": []
+    },
+    {
+      "title": "VTEX (VTEX) Q3 Earnings Lag Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vtex-vtex-q3-earnings-lag-212003923.html",
+      "published_at": "2026-11-05T21:20:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Netskope to Report Fiscal Third Quarter 2027 Financial Results on December 2, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netskope-report-fiscal-third-quarter-140000930.html",
+      "published_at": "2026-11-04T14:00:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-02",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/NTSK/0001193125-26-380428_2063196"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:04.275912+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 29.1541245505335,
+    "revenue_qoq_change": 9.399678558672964,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.27,
+    "gross_margin": 73.9173214957763,
+    "operating_margin": -40.71759899519817,
+    "net_margin": -50.247799728848605,
+    "inventory_yoy_change": -10.945548197203825,
+    "inventory_qoq_change": -7.367011098354381,
+    "shares_yoy_change": 6.012627470437293,
+    "free_cash_flow_ttm": -74693000.0,
+    "operating_cash_flow_ttm": -41093000.0,
+    "revenue_ttm": 802636000.0,
+    "net_income_ttm": -737158000.0,
+    "ebitda_ttm": -718740000.0,
+    "total_debt": 732232000.0,
+    "cash": 1067363000.0,
+    "total_assets": 1712214000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-07-31": 170758000.0,
+      "2025-10-31": 184173000.0,
+      "2026-01-31": 196330000.0,
+      "2026-04-30": 201592000.0,
+      "2026-07-31": 220541000.0
+    },
+    "quarterly_eps": {
+      "2025-07-31": -0.236345,
+      "2025-10-31": -1.85,
+      "2026-01-31": -0.14,
+      "2026-04-30": -0.29,
+      "2026-07-31": -0.27
+    },
+    "quarterly_inventory": {
+      "2025-04-30": null,
+      "2025-07-31": 5436000.0,
+      "2025-10-31": 5377000.0,
+      "2026-01-31": 4902000.0,
+      "2026-04-30": 5226000.0,
+      "2026-07-31": 4841000.0
+    },
+    "margin_change": 0.37521665034593354,
+    "operating_margin_yoy_change": -13.79938725694872,
+    "inventory_to_sales_ratio": 0.02195056701475009,
+    "fcf_margin": -9.305961855685515,
+    "net_debt": -335131000.0,
+    "debt_to_assets": 42.76521509577658
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-12-02"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/NTSK/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -1,29 +1,51 @@
 {
   "data": {
-    "ticker": "EVMN",
-    "fetch_date": "2026-09-23T13:06:27.974713",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": NaN,
-      "2025-09-30 00:00:00": 10000000.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T16:42:12.364321+00:00",
+    "report_period": "2026-06-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.451001,
-      "2025-09-30 00:00:00": -0.414761,
-      "2025-12-31 00:00:00": -1.43,
-      "2026-03-31 00:00:00": -0.64,
-      "2026-06-30 00:00:00": -0.89
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.89,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 20.141540736682106,
+    "free_cash_flow_ttm": -74654000.0,
+    "operating_cash_flow_ttm": -74153000.0,
+    "revenue_ttm": 10000000.0,
+    "net_income_ttm": -94668000.0,
+    "ebitda_ttm": -100355000.0,
+    "total_debt": 8111000.0,
+    "cash": 200793000.0,
+    "total_assets": 301947000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 10000000.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0
     },
-    "eps_qoq_change": -39.0625,
-    "eps_yoy_change": -97.33880856140009,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-06-30": -0.451001,
+      "2025-09-30": -0.414761,
+      "2025-12-31": -1.43,
+      "2026-03-31": -0.64,
+      "2026-06-30": -0.89
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -746.54,
+    "net_debt": -192682000.0,
+    "debt_to_assets": 2.6862330144031903,
+    "ticker": "EVMN"
   },
-  "fetched_at": "2026-09-23T13:06:27.975703"
+  "fetched_at": "2026-11-11T16:42:12.369107"
 }

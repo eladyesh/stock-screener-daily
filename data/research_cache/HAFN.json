@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "ticker": "HAFN",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 47.211339787604544,
+    "revenue_qoq_change": 21.536391834594216,
+    "eps_yoy_change": 266.6666666666667,
+    "eps_qoq_change": 52.77777777777779,
+    "latest_eps": 0.55,
+    "gross_margin": 30.919158252418853,
+    "operating_margin": 29.43554565636036,
+    "net_margin": 34.05370817341461,
+    "inventory_yoy_change": 33.34710291955727,
+    "inventory_qoq_change": 28.09159236263479,
+    "shares_yoy_change": 0.40566920145967966,
+    "free_cash_flow_ttm": 584415000.0,
+    "operating_cash_flow_ttm": 703606000.0,
+    "revenue_ttm": 2666845000.0,
+    "net_income_ttm": 658690000.0,
+    "ebitda_ttm": 901441000.0,
+    "total_debt": 885363000.0,
+    "cash": 270983000.0,
+    "total_assets": 3963757000.0,
+    "margin_change": 7.1866226680667324,
+    "operating_margin_yoy_change": 14.441545782678809,
+    "inventory_to_sales_ratio": 0.1345388885960536,
+    "fcf_margin": 21.914096994763472,
+    "net_debt": 614380000.0,
+    "net_debt_to_ebitda": 0.681553202039845,
+    "debt_to_assets": 22.336460080675984,
+    "market_cap": 5034789376.0,
+    "enterprise_value": 5162390016.0,
+    "forward_pe": 13.246479,
+    "trailing_pe": 7.2906976,
+    "ev_ebitda": 7.176,
+    "fcf_yield": 11.60753621165979,
+    "eps_fy0": 1.37,
+    "revenue_fy0": 1431656870.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 0.71,
+    "revenue_fy1": 1263590100.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": -48.17518248175183,
+    "forward_revenue_growth": -11.73931921271052,
+    "eps_revision_30d": 4.411764705882337,
+    "eps_revision_90d": 10.9375,
+    "eps_surprise_pct": -7.352941176470596,
+    "days_to_earnings": 7.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/financials/",
+      "retrieved_at": "2026-11-11T17:46:38.539964+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-06-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HAFN/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Hafnia\u2019s Q3 2026 Financial Results Presentation to Be Held on 18 November 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hafnia-q3-2026-financial-results-064200503.html",
+      "published_at": "2026-11-11T06:42:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-039363_1815779"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-038559_1815779"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-037499_1815779"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-037384_1815779"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-036707_1815779"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-035845_1815779"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-035525_1815779"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-035149_1815779"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-034767_1815779"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/HAFN/0001140361-26-033955_1815779"
+    }
+  ],
+  "warnings": [],
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:38.539964+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 47.211339787604544,
+    "revenue_qoq_change": 21.536391834594216,
+    "eps_yoy_change": 266.6666666666667,
+    "eps_qoq_change": 52.77777777777779,
+    "latest_eps": 0.55,
+    "gross_margin": 30.919158252418853,
+    "operating_margin": 29.43554565636036,
+    "net_margin": 34.05370817341461,
+    "inventory_yoy_change": 33.34710291955727,
+    "inventory_qoq_change": 28.09159236263479,
+    "shares_yoy_change": 0.40566920145967966,
+    "free_cash_flow_ttm": 584415000.0,
+    "operating_cash_flow_ttm": 703606000.0,
+    "revenue_ttm": 2666845000.0,
+    "net_income_ttm": 658690000.0,
+    "ebitda_ttm": 901441000.0,
+    "total_debt": 885363000.0,
+    "cash": 270983000.0,
+    "total_assets": 3963757000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 554155000.0,
+      "2025-09-30": 586882000.0,
+      "2025-12-31": 592962000.0,
+      "2026-03-31": 671222000.0,
+      "2026-06-30": 815779000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": 0.15,
+      "2025-09-30": 0.18,
+      "2025-12-31": 0.22,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.55
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 82307000.0,
+      "2025-09-30": 78233000.0,
+      "2025-12-31": 69027000.0,
+      "2026-03-31": 85684000.0,
+      "2026-06-30": 109754000.0
+    },
+    "margin_change": 7.1866226680667324,
+    "operating_margin_yoy_change": 14.441545782678809,
+    "inventory_to_sales_ratio": 0.1345388885960536,
+    "fcf_margin": 21.914096994763472,
+    "net_debt": 614380000.0,
+    "net_debt_to_ebitda": 0.681553202039845,
+    "debt_to_assets": 22.336460080675984
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-18"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/HAFN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

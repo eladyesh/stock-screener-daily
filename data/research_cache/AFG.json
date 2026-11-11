@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "ticker": "AFG",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.20408163265305,
+    "revenue_qoq_change": 27.409638554216876,
+    "eps_yoy_change": 31.782945736434097,
+    "eps_qoq_change": 13.712374581939791,
+    "latest_eps": 3.4,
+    "net_margin": 11.11111111111111,
+    "shares_yoy_change": -0.5995203836930418,
+    "free_cash_flow_ttm": 1755000000.0,
+    "operating_cash_flow_ttm": 1755000000.0,
+    "revenue_ttm": 8407000000.0,
+    "net_income_ttm": 1020000000.0,
+    "total_debt": 1821000000.0,
+    "cash": 2023000000.0,
+    "total_assets": 35738000000.0,
+    "fcf_margin": 20.875460925419294,
+    "net_debt": -202000000.0,
+    "debt_to_assets": 5.095416643348816,
+    "market_cap": 13230455808.0,
+    "enterprise_value": 13935731712.0,
+    "forward_pe": 13.144113,
+    "trailing_pe": 13.039967,
+    "ev_ebitda": 9.247,
+    "fcf_yield": 13.264849113806132,
+    "eps_fy0": 12.992,
+    "revenue_fy0": 7392200000.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 12.16286,
+    "revenue_fy1": 7702020000.0,
+    "analysts_fy1": 7.0,
+    "forward_eps_growth": -6.381927339901483,
+    "forward_revenue_growth": 4.191174481209914,
+    "eps_revision_30d": 0.5551555055470114,
+    "eps_revision_90d": 0.023519736842114725,
+    "eps_surprise_pct": 4.0173764040380755,
+    "days_to_earnings": 83.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/financials/",
+      "retrieved_at": "2026-11-11T17:45:57.564002+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AFG/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "American Financial Group, Inc. Management to Participate in Meetings Hosted by Dowling & Partners",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-group-inc-management-220000832.html",
+      "published_at": "2026-11-09T22:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "American Financial: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-3-key-takeaways-212019048.html",
+      "published_at": "2026-11-06T21:20:19+00:00",
+      "categories": []
+    },
+    {
+      "title": "American Financial Group, Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-group-inc-q3-133000426.html",
+      "published_at": "2026-11-05T13:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "American Financial Group Inc (AFG) (Q3 2026) Earnings Call Highlights: Record Q3 Earnings, 26% ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-group-inc-afg-031107311.html",
+      "published_at": "2026-11-05T03:11:07+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "American Financial Group Q3 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-group-q3-earnings-211416903.html",
+      "published_at": "2026-11-04T21:14:16+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-afg-q3-2026-210325868.html",
+      "published_at": "2026-11-04T21:03:25+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Record Earnings Could Be A Game Changer For American Financial Group Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/record-earnings-could-game-changer-161533544.html",
+      "published_at": "2026-11-04T16:15:33+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "American Financial Group (AFG) Beat Expectations, Is The Stock Still Slightly Undervalued?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-group-afg-beat-141447700.html",
+      "published_at": "2026-11-04T14:14:47+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AFG/0001042046-26-000033_1042046"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AFG/0001193125-26-446243_1042046"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "N-PX",
+      "url": "https://finance.yahoo.com/sec-filing/AFG/0001140361-26-034421_1042046"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:45:57.564002+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 10.20408163265305,
+    "revenue_qoq_change": 27.409638554216876,
+    "eps_yoy_change": 31.782945736434097,
+    "eps_qoq_change": 13.712374581939791,
+    "latest_eps": 3.4,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 11.11111111111111,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -0.5995203836930418,
+    "free_cash_flow_ttm": 1755000000.0,
+    "operating_cash_flow_ttm": 1755000000.0,
+    "revenue_ttm": 8407000000.0,
+    "net_income_ttm": 1020000000.0,
+    "ebitda_ttm": null,
+    "total_debt": 1821000000.0,
+    "cash": 2023000000.0,
+    "total_assets": 35738000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 2303000000.0,
+      "2025-12-31": 2041000000.0,
+      "2026-03-31": 1836000000.0,
+      "2026-06-30": 1992000000.0,
+      "2026-09-30": 2538000000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 2.58,
+      "2025-12-31": 3.58,
+      "2026-03-31": 2.29,
+      "2026-06-30": 2.99,
+      "2026-09-30": 3.4
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.875460925419294,
+    "net_debt": -202000000.0,
+    "debt_to_assets": 5.095416643348816
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-02"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/AFG/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

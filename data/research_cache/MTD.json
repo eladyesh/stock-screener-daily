@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "ticker": "MTD",
+  "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+  "metrics": {
+    "revenue_yoy_change": 6.273192457213228,
+    "revenue_qoq_change": 6.519915040581559,
+    "eps_yoy_change": 16.272469252601685,
+    "eps_qoq_change": 6.406926406926394,
+    "latest_eps": 12.29,
+    "gross_margin": 59.785030348334175,
+    "operating_margin": 28.70142758710182,
+    "net_margin": 22.47595253195211,
+    "inventory_yoy_change": 9.420170827858087,
+    "inventory_qoq_change": 6.8266583730801855,
+    "shares_yoy_change": -2.6852656652569196,
+    "free_cash_flow_ttm": 870567000.0,
+    "operating_cash_flow_ttm": 984365000.0,
+    "revenue_ttm": 4198470000.0,
+    "net_income_ttm": 934071000.0,
+    "ebitda_ttm": 1326554000.0,
+    "total_debt": 2023684000.0,
+    "cash": 52237000.0,
+    "total_assets": 3695474000.0,
+    "margin_change": -3.5079842509022754,
+    "operating_margin_yoy_change": 0.5475690323202755,
+    "inventory_to_sales_ratio": 0.40177411189314755,
+    "fcf_margin": 20.735339302174363,
+    "net_debt": 1971447000.0,
+    "net_debt_to_ebitda": 1.4861415366430617,
+    "debt_to_assets": 54.761148366894204,
+    "market_cap": 35071156224.0,
+    "enterprise_value": 36807102464.0,
+    "forward_pe": 33.128456,
+    "trailing_pe": 38.27263,
+    "ev_ebitda": 29.438,
+    "fcf_yield": 2.482287707994785,
+    "eps_fy0": 47.81607,
+    "revenue_fy0": 4264003880.0,
+    "analysts_fy0": 13.0,
+    "eps_fy1": 53.22373,
+    "revenue_fy1": 4450849080.0,
+    "analysts_fy1": 13.0,
+    "forward_eps_growth": 11.309294134796112,
+    "forward_revenue_growth": 4.381919089623332,
+    "eps_revision_30d": 2.8141915366399095,
+    "eps_revision_90d": 2.9650382551570376,
+    "eps_surprise_pct": 3.943485174615957,
+    "days_to_earnings": 85.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/financials/",
+      "retrieved_at": "2026-11-11T17:46:14.793749+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/key-statistics/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/analysis/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MTD/calendar/",
+      "retrieved_at": "2026-11-11T17:45:37.723497+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Rothschild & Co Redburn Adjusts Price Target on Mettler-Toledo International to $1,500 From $1,200",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rothschild-co-redburn-adjusts-price-131516567.html",
+      "published_at": "2026-11-10T13:15:16+00:00",
+      "categories": []
+    },
+    {
+      "title": "JPMorgan Adjusts Price Target on Mettler-Toledo International to $1,725 From $1,550",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-mettler-111224641.html",
+      "published_at": "2026-11-10T11:12:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "MTD Q3 2026 deep dive: broad-based demand and innovation drive strong performance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mtd-q3-2026-deep-dive-055736201.html",
+      "published_at": "2026-11-10T05:57:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "Stifel Adjusts Price Target on Mettler-Toledo International to $1,900 From $1,600",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-adjusts-price-target-mettler-112627344.html",
+      "published_at": "2026-11-09T11:26:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Goldman Sachs Adjusts Price Target on Mettler-Toledo International to $1,640 From $1,510",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-104220058.html",
+      "published_at": "2026-11-09T10:42:20+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Mettler-Toledo International (MTD) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mettler-toledo-international-mtd-said-021412452.html",
+      "published_at": "2026-11-08T02:14:12+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Is Earnings Beat Altering The Investment Case For Mettler Toledo International Stock (MTD)?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-altering-investment-case-221442297.html",
+      "published_at": "2026-11-07T22:14:42+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Mettler Toledo (MTD) Stock Could Be 21% Overvalued As Strong Q3 Results Land",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mettler-toledo-mtd-stock-could-121058836.html",
+      "published_at": "2026-11-07T12:10:58+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/MTD/0001037646-26-000074_1037646"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/MTD/0001037646-26-000072_1037646"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T17:46:14.793749+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 6.273192457213228,
+    "revenue_qoq_change": 6.519915040581559,
+    "eps_yoy_change": 16.272469252601685,
+    "eps_qoq_change": 6.406926406926394,
+    "latest_eps": 12.29,
+    "gross_margin": 59.785030348334175,
+    "operating_margin": 28.70142758710182,
+    "net_margin": 22.47595253195211,
+    "inventory_yoy_change": 9.420170827858087,
+    "inventory_qoq_change": 6.8266583730801855,
+    "shares_yoy_change": -2.6852656652569196,
+    "free_cash_flow_ttm": 870567000.0,
+    "operating_cash_flow_ttm": 984365000.0,
+    "revenue_ttm": 4198470000.0,
+    "net_income_ttm": 934071000.0,
+    "ebitda_ttm": 1326554000.0,
+    "total_debt": 2023684000.0,
+    "cash": 52237000.0,
+    "total_assets": 3695474000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 1029699000.0,
+      "2025-12-31": 1129735000.0,
+      "2026-03-31": 947127000.0,
+      "2026-06-30": 1027314000.0,
+      "2026-09-30": 1094294000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 10.57,
+      "2025-12-31": 13.98,
+      "2026-03-31": 8.33,
+      "2026-06-30": 11.55,
+      "2026-09-30": 12.29
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 401808000.0,
+      "2025-12-31": 387228000.0,
+      "2026-03-31": 404826000.0,
+      "2026-06-30": 411563000.0,
+      "2026-09-30": 439659000.0
+    },
+    "margin_change": -3.5079842509022754,
+    "operating_margin_yoy_change": 0.5475690323202755,
+    "inventory_to_sales_ratio": 0.40177411189314755,
+    "fcf_margin": 20.735339302174363,
+    "net_debt": 1971447000.0,
+    "net_debt_to_ebitda": 1.4861415366430617,
+    "debt_to_assets": 54.761148366894204
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-04"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/MTD/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

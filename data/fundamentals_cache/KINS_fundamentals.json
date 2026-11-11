@@ -1,26 +1,53 @@
 {
   "data": {
-    "ticker": "KINS",
-    "fetch_date": "2026-08-13T13:58:25.681161",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-11T16:59:04.778369+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 21.38015567677205,
+    "revenue_qoq_change": 2.5777397013670322,
+    "eps_yoy_change": 60.810810810810814,
+    "eps_qoq_change": 13.33333333333333,
+    "latest_eps": 1.19,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.031344369791636,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.7867207999648906,
+    "free_cash_flow_ttm": 78759209.0,
+    "operating_cash_flow_ttm": 82096577.0,
+    "revenue_ttm": 249601618.0,
+    "net_income_ttm": 42006036.0,
+    "ebitda_ttm": null,
+    "total_debt": 3474589.0,
+    "cash": 171984697.0,
+    "total_assets": 488731370.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 52294779.0,
-      "2025-09-30 00:00:00": 55652490.0,
-      "2025-12-31 00:00:00": 56421257.0,
-      "2026-03-31 00:00:00": 59775736.0,
-      "2026-06-30 00:00:00": 65853546.0
+      "2025-06-30": null,
+      "2025-09-30": 55652490.0,
+      "2025-12-31": 56421257.0,
+      "2026-03-31": 59775736.0,
+      "2026-06-30": 65853546.0,
+      "2026-09-30": 67551079.0
     },
-    "revenue_qoq_change": 10.167687437591734,
-    "revenue_yoy_change": 25.927572999208966,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.78,
-      "2025-09-30 00:00:00": 0.74,
-      "2025-12-31 00:00:00": 1.03,
-      "2026-03-31 00:00:00": -0.4,
-      "2026-06-30 00:00:00": 1.05
+      "2025-06-30": null,
+      "2025-09-30": 0.74,
+      "2025-12-31": 1.03,
+      "2026-03-31": -0.4,
+      "2026-06-30": 1.05,
+      "2026-09-30": 1.19
     },
-    "eps_qoq_change": 362.50000000000006,
-    "eps_yoy_change": 34.61538461538461,
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.553965727898447,
+    "net_debt": -168510108.0,
+    "debt_to_assets": 0.7109404497607755,
+    "ticker": "KINS"
   },
-  "fetched_at": "2026-08-13T13:58:25.681851"
+  "fetched_at": "2026-11-11T16:59:04.782011"
 }
