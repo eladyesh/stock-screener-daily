@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "ticker": "CBC",
+  "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+  "metrics": {
+    "revenue_yoy_change": 15.183051704865335,
+    "revenue_qoq_change": 3.15449114923001,
+    "eps_yoy_change": 14.634146341463406,
+    "eps_qoq_change": 2.1739130434782483,
+    "latest_eps": 0.47,
+    "net_margin": 40.29659381098609,
+    "shares_yoy_change": 8.91579076520388,
+    "free_cash_flow_ttm": 478109000.0,
+    "operating_cash_flow_ttm": 501692000.0,
+    "revenue_ttm": 1084219000.0,
+    "net_income_ttm": 429551000.0,
+    "cash": 769302000.0,
+    "total_assets": 20294827000.0,
+    "fcf_margin": 44.09708739654996,
+    "market_cap": 9094122496.0,
+    "enterprise_value": 9940463616.0,
+    "forward_pe": 18.45967,
+    "trailing_pe": 20.535135,
+    "ev_ebitda": null,
+    "fcf_yield": 5.257340663822085,
+    "eps_fy0": 1.904,
+    "revenue_fy0": 1134213430.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 2.058,
+    "revenue_fy1": 1199912060.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 8.088235294117641,
+    "forward_revenue_growth": 5.792439787985937,
+    "eps_revision_30d": 1.179941002949847,
+    "eps_revision_90d": 0.5865102639296182,
+    "eps_surprise_pct": -1.2345679012345734,
+    "days_to_earnings": 75.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/financials/",
+      "retrieved_at": "2026-11-12T18:23:32.691797+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBC/calendar/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Central Bancompany: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/central-bancompany-3-key-takeaways-182001393.html",
+      "published_at": "2026-11-05T18:20:01+00:00",
+      "categories": []
+    },
+    {
+      "title": "Mid-Cap Banks to Benefit From Asset Repricing, BofA Says",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mid-cap-banks-benefit-asset-162446153.html",
+      "published_at": "2026-11-04T16:24:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "BofA Securities Adjusts Price Target on Central Bancompany to $36.50 From $33",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-145308750.html",
+      "published_at": "2026-11-04T14:53:08+00:00",
+      "categories": []
+    },
+    {
+      "title": "BofA Adjusts Price Target on Central Bancompany to $36.50 From $33",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-central-143243918.html",
+      "published_at": "2026-11-04T14:32:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "How Investors Are Reacting To Central Bancompany Stock After Earnings Beat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-central-bancompany-stock-100935594.html",
+      "published_at": "2026-10-30T10:09:35+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-02",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CBC/0001628280-26-068943_2065601"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CBC/0001628280-26-067416_2065601"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CBC/0001628280-26-057081_2065601"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-12T18:23:32.691797+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 15.183051704865335,
+    "revenue_qoq_change": 3.15449114923001,
+    "eps_yoy_change": 14.634146341463406,
+    "eps_qoq_change": 2.1739130434782483,
+    "latest_eps": 0.47,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 40.29659381098609,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 8.91579076520388,
+    "free_cash_flow_ttm": 478109000.0,
+    "operating_cash_flow_ttm": 501692000.0,
+    "revenue_ttm": 1084219000.0,
+    "net_income_ttm": 429551000.0,
+    "ebitda_ttm": null,
+    "total_debt": null,
+    "cash": 769302000.0,
+    "total_assets": 20294827000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 245122000.0,
+      "2025-09-30": 255942000.0,
+      "2025-12-31": 272233000.0,
+      "2026-03-31": 273705000.0,
+      "2026-06-30": 282339000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": 0.43,
+      "2025-06-30": 0.41,
+      "2025-09-30": null,
+      "2025-12-31": 0.446239,
+      "2026-03-31": 0.46,
+      "2026-06-30": 0.47
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 44.09708739654996
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-26"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/CBC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

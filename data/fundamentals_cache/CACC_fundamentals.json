@@ -2,10 +2,10 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-04T16:30:41.206689+00:00",
+    "fetch_date": "2026-11-12T17:04:51.745075+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 2.1859819569743255,
-    "revenue_qoq_change": 1.1679835108210135,
+    "revenue_qoq_change": null,
     "eps_yoy_change": -157.58218451749735,
     "eps_qoq_change": null,
     "latest_eps": -5.43,
@@ -15,22 +15,22 @@
     "inventory_yoy_change": null,
     "inventory_qoq_change": null,
     "shares_yoy_change": -9.205351228988324,
-    "free_cash_flow_ttm": 1256400000.0,
-    "operating_cash_flow_ttm": 1261100000.0,
-    "revenue_ttm": 2319600000.0,
-    "net_income_ttm": 337100000.0,
-    "ebitda_ttm": 510400000.0,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
     "total_debt": 6723700000.0,
     "cash": 1300000.0,
     "total_assets": 8877900000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
       "2025-03-31": null,
-      "2025-06-30": null,
+      "2025-06-30": 575600000.0,
       "2025-09-30": 576400000.0,
       "2025-12-31": 573600000.0,
       "2026-03-31": 574800000.0,
-      "2026-06-30": 582200000.0,
+      "2026-06-30": null,
       "2026-09-30": 589000000.0
     },
     "quarterly_eps": {
@@ -43,14 +43,12 @@
       "2026-09-30": -5.43
     },
     "quarterly_inventory": {},
-    "margin_change": 0.930053383366996,
+    "margin_change": null,
     "operating_margin_yoy_change": -38.22135283811822,
     "inventory_to_sales_ratio": null,
-    "fcf_margin": 54.16451112260735,
     "net_debt": 6722400000.0,
-    "net_debt_to_ebitda": 13.170846394984325,
     "debt_to_assets": 75.73525270615798,
     "ticker": "CACC"
   },
-  "fetched_at": "2026-11-04T16:30:41.211549"
+  "fetched_at": "2026-11-12T17:04:51.748271"
 }

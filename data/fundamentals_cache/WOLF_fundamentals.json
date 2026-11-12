@@ -1,35 +1,60 @@
 {
   "data": {
-    "ticker": "WOLF",
-    "fetch_date": "2026-08-10T14:25:45.269365",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-12T18:19:25.825168+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": -21.239837398373986,
+    "revenue_qoq_change": 3.609625668449201,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -2.61,
+    "gross_margin": -21.935483870967744,
+    "operating_margin": -65.61290322580645,
+    "net_margin": -92.7741935483871,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -64.78535070589365,
+    "free_cash_flow_ttm": -277300000.0,
+    "operating_cash_flow_ttm": -265000000.0,
+    "revenue_ttm": 623300000.0,
+    "net_income_ttm": -559600000.0,
+    "ebitda_ttm": -255400000.0,
+    "total_debt": 1786600000.0,
+    "cash": 995100000.0,
+    "total_assets": 2875500000.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 180500000.0,
-      "2025-03-31 00:00:00": 185400000.0,
-      "2025-09-30 00:00:00": 196800000.0,
-      "2025-12-31 00:00:00": 168500000.0,
-      "2026-03-31 00:00:00": 150200000.0
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 196800000.0,
+      "2025-12-31": 168500000.0,
+      "2026-03-31": 150200000.0,
+      "2026-06-30": 149600000.0,
+      "2026-09-30": 155000000.0
     },
-    "revenue_qoq_change": -10.86053412462908,
-    "revenue_yoy_change": -16.786703601108034,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": -2.383071,
-      "2025-03-31 00:00:00": -1.86,
-      "2025-09-30 00:00:00": 2.22,
-      "2025-12-31 00:00:00": -5.50338,
-      "2026-03-31 00:00:00": -3.05
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": -4.12,
+      "2025-12-31": -5.50338,
+      "2026-03-31": -3.05,
+      "2026-06-30": -2.81,
+      "2026-09-30": -2.61
     },
-    "eps_qoq_change": 44.579512953857446,
-    "eps_yoy_change": -27.986115394799384,
-    "gross_margin": -26.63,
-    "margin_change": 19.84,
-    "operating_margin": -71.97,
     "quarterly_inventory": {
-      "2025-12-31 00:00:00": 348800000.0,
-      "2026-03-31 00:00:00": 314900000.0
+      "2025-06-30": 451200000.0,
+      "2025-12-31": 348800000.0,
+      "2026-03-31": 314900000.0,
+      "2026-09-30": 229600000.0
     },
-    "inventory_qoq_change": -9.72,
-    "inventory_to_sales_ratio": 2.097,
-    "inventory_breakdown_available": false
+    "margin_change": 2.5966016905295817,
+    "operating_margin_yoy_change": 8.929779701022824,
+    "inventory_to_sales_ratio": 1.481290322580645,
+    "fcf_margin": -44.489010107492376,
+    "net_debt": 791500000.0,
+    "debt_to_assets": 62.13180316466701,
+    "ticker": "WOLF"
   },
-  "fetched_at": "2026-08-10T14:25:45.270831"
+  "fetched_at": "2026-11-12T18:19:25.830386"
 }

@@ -2,12 +2,12 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-05T17:04:50.873487+00:00",
+    "fetch_date": "2026-11-12T17:42:34.808209+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": -3.852035939590903,
     "revenue_qoq_change": -8.387978142076502,
     "eps_yoy_change": 33.33333333333333,
-    "eps_qoq_change": -16.279069767441868,
+    "eps_qoq_change": null,
     "latest_eps": 1.44,
     "gross_margin": 16.164628690724726,
     "operating_margin": 6.272989362759718,
@@ -35,11 +35,11 @@
     },
     "quarterly_eps": {
       "2025-03-31": null,
-      "2025-06-30": null,
+      "2025-06-30": 1.35,
       "2025-09-30": 1.08,
       "2025-12-31": 0.0,
       "2026-03-31": -0.04,
-      "2026-06-30": 1.72,
+      "2026-06-30": null,
       "2026-09-30": 1.44
     },
     "quarterly_inventory": {
@@ -60,5 +60,5 @@
     "debt_to_assets": 20.755204131031142,
     "ticker": "MGA"
   },
-  "fetched_at": "2026-11-05T17:04:50.876741"
+  "fetched_at": "2026-11-12T17:42:34.813265"
 }

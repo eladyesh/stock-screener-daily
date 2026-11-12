@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "ticker": "DIOD",
+  "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+  "metrics": {
+    "revenue_yoy_change": 35.805135527959806,
+    "revenue_qoq_change": 19.540366620354675,
+    "eps_yoy_change": 206.4516129032258,
+    "eps_qoq_change": -5.000000000000004,
+    "latest_eps": 0.95,
+    "gross_margin": 36.13775777478609,
+    "operating_margin": 11.871863188549476,
+    "net_margin": 8.207485349811392,
+    "inventory_yoy_change": 13.616769162815977,
+    "inventory_qoq_change": 6.038865161079343,
+    "shares_yoy_change": -0.4091564915907564,
+    "free_cash_flow_ttm": 123620000.0,
+    "operating_cash_flow_ttm": 268064000.0,
+    "revenue_ttm": 1775161000.0,
+    "net_income_ttm": 115524000.0,
+    "ebitda_ttm": 302592000.0,
+    "total_debt": 470726000.0,
+    "cash": 574850000.0,
+    "total_assets": 3090892000.0,
+    "margin_change": 3.016232576650843,
+    "operating_margin_yoy_change": 8.742863010055455,
+    "inventory_to_sales_ratio": 1.004596432132215,
+    "fcf_margin": 6.963875389330883,
+    "net_debt": -104124000.0,
+    "net_debt_to_ebitda": -0.3441069162436548,
+    "debt_to_assets": 15.229454798161827,
+    "market_cap": 4236756736.0,
+    "enterprise_value": 4139764736.0,
+    "forward_pe": 14.488189,
+    "trailing_pe": 36.8,
+    "ev_ebitda": 15.251,
+    "fcf_yield": 2.9177979219243992,
+    "eps_fy0": 3.655,
+    "revenue_fy0": 1933673510.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 6.35,
+    "revenue_fy1": 2346607440.0,
+    "analysts_fy1": 4.0,
+    "forward_eps_growth": 73.73461012311901,
+    "forward_revenue_growth": 21.35489408447242,
+    "eps_revision_30d": 8.919382504288166,
+    "eps_revision_90d": 8.547008547008538,
+    "eps_surprise_pct": 12.11401425178147
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/financials/",
+      "retrieved_at": "2026-11-12T18:23:27.259359+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DIOD/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Wall Street Analysts Think Diodes (DIOD) Could Surge 38.87%: Read This Before Placing a Bet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-diodes-135502283.html",
+      "published_at": "2026-11-12T13:55:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Compact Hall Effect Current Sensors from Diodes Incorporated Reduce Power Loss and PCB Space in EV Charging Applications",
+      "url": "https://finance.yahoo.com/technology/articles/compact-hall-effect-current-sensors-130000439.html",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Intelligent High-Side Switches from Diodes Incorporated Deliver Combined Protection and Diagnostics to Safely Drive 12V Automotive Loads",
+      "url": "https://finance.yahoo.com/technology/articles/intelligent-high-side-switches-diodes-080000768.html",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Dual-Channel Isolated Gate Drivers from Diodes Incorporated Enable Flexible, Reliable Half-Bridge and Independent Gate-Drive Topologies for Switching Applications",
+      "url": "https://finance.yahoo.com/technology/articles/dual-channel-isolated-gate-drivers-140000832.html",
+      "published_at": "2026-11-06T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Diodes Incorporated Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diodes-incorporated-q3-2026-earnings-133000554.html",
+      "published_at": "2026-11-06T13:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Truist Securities Adjusts Price Target on Diodes to $105 From $133, Keeps Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-110604313.html",
+      "published_at": "2026-11-06T11:06:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Diodes Inc (DIOD) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diodes-inc-diod-q3-2026-091559351.html",
+      "published_at": "2026-11-06T09:15:59+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Diodes Q3 Adjusted Earnings, Revenue Rise; Q4 Adjusted EPS, Revenue Guidance Set",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diodes-q3-adjusted-earnings-revenue-085619605.html",
+      "published_at": "2026-11-06T08:56:19+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DIOD/0001193125-26-450100_29002"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DIOD/0001193125-26-423028_29002"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DIOD/0001193125-26-371294_29002"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/DIOD/0001193125-26-355410_29002"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-12T18:23:27.259359+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 35.805135527959806,
+    "revenue_qoq_change": 19.540366620354675,
+    "eps_yoy_change": 206.4516129032258,
+    "eps_qoq_change": -5.000000000000004,
+    "latest_eps": 0.95,
+    "gross_margin": 36.13775777478609,
+    "operating_margin": 11.871863188549476,
+    "net_margin": 8.207485349811392,
+    "inventory_yoy_change": 13.616769162815977,
+    "inventory_qoq_change": 6.038865161079343,
+    "shares_yoy_change": -0.4091564915907564,
+    "free_cash_flow_ttm": 123620000.0,
+    "operating_cash_flow_ttm": 268064000.0,
+    "revenue_ttm": 1775161000.0,
+    "net_income_ttm": 115524000.0,
+    "ebitda_ttm": 302592000.0,
+    "total_debt": 470726000.0,
+    "cash": 574850000.0,
+    "total_assets": 3090892000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 392170000.0,
+      "2025-12-31": 391578000.0,
+      "2026-03-31": 405467000.0,
+      "2026-06-30": 445529000.0,
+      "2026-09-30": 532587000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.31,
+      "2025-12-31": 0.22,
+      "2026-03-31": 0.32,
+      "2026-06-30": 1.0,
+      "2026-09-30": 0.95
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 470912000.0,
+      "2025-12-31": 471546000.0,
+      "2026-03-31": 492761000.0,
+      "2026-06-30": 504565000.0,
+      "2026-09-30": 535035000.0
+    },
+    "margin_change": 3.016232576650843,
+    "operating_margin_yoy_change": 8.742863010055455,
+    "inventory_to_sales_ratio": 1.004596432132215,
+    "fcf_margin": 6.963875389330883,
+    "net_debt": -104124000.0,
+    "net_debt_to_ebitda": -0.3441069162436548,
+    "debt_to_assets": 15.229454798161827
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/DIOD/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

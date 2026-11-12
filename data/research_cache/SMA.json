@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "ticker": "SMA",
+  "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+  "metrics": {
+    "revenue_yoy_change": 16.115520595209354,
+    "revenue_qoq_change": 3.157323780210919,
+    "eps_yoy_change": 77.77777777777779,
+    "eps_qoq_change": -20.000000000000007,
+    "latest_eps": 0.16,
+    "gross_margin": 60.5253182357329,
+    "operating_margin": 25.683855268467454,
+    "net_margin": 10.991819415742428,
+    "shares_yoy_change": 127.59921801681232,
+    "free_cash_flow_ttm": 93164000.0,
+    "operating_cash_flow_ttm": 93164000.0,
+    "revenue_ttm": 317811000.0,
+    "net_income_ttm": 32593000.0,
+    "ebitda_ttm": 168498000.0,
+    "total_debt": 1137847000.0,
+    "cash": 30989000.0,
+    "total_assets": 2456037000.0,
+    "margin_change": 0.4226389885458559,
+    "operating_margin_yoy_change": 6.8620631089876944,
+    "fcf_margin": 29.31427798282627,
+    "net_debt": 1106858000.0,
+    "net_debt_to_ebitda": 6.56896817766383,
+    "debt_to_assets": 46.328577297491854,
+    "market_cap": 2267160064.0,
+    "enterprise_value": 3365716992.0,
+    "forward_pe": 64.002205,
+    "trailing_pe": 65.816666,
+    "ev_ebitda": 22.451,
+    "fcf_yield": 4.109281981424316,
+    "eps_fy0": 0.73,
+    "revenue_fy0": 325750000.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 0.61701,
+    "revenue_fy1": 345025000.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": -15.478082191780828,
+    "forward_revenue_growth": 5.917114351496555,
+    "eps_revision_30d": 2.03740759728126,
+    "eps_revision_90d": 14.326743130315545,
+    "eps_surprise_pct": 8.598990127364537
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/financials/",
+      "retrieved_at": "2026-11-12T18:22:58.561728+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SMA/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "SmartStop Prices Upsized Public Offering of 8.2 Million Shares",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-prices-upsized-public-offering-090136145.html",
+      "published_at": "2026-11-10T09:01:36+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "SmartStop Self Storage REIT Announces Pricing of Upsized Offering of Common Stock",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-self-storage-reit-announces-025100941.html",
+      "published_at": "2026-11-10T02:51:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "SmartStop Self Storage REIT Announces Public Offering of Common Stock",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-self-storage-reit-announces-210300084.html",
+      "published_at": "2026-11-09T21:03:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "Smartstop Self Storage REIT Q3 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-self-storage-reit-q3-181414523.html",
+      "published_at": "2026-11-08T18:14:14+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SmartStop Self Storage REIT (SMA) Earnings And Dividend Put Fair Value Back In Focus",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-self-storage-reit-sma-120916490.html",
+      "published_at": "2026-11-08T12:09:16+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Is SmartStop Self Storage REIT (SMA) Cheap Or Already Priced In?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/smartstop-self-storage-reit-sma-101318477.html",
+      "published_at": "2026-11-08T10:13:18+00:00",
+      "categories": []
+    },
+    {
+      "title": "Smartstop Self Storage REIT Inc (SMA) (Q3 2026) Earnings Call Highlights: Sector-Leading NOI ...",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-self-storage-reit-inc-012010898.html",
+      "published_at": "2026-11-06T01:20:10+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "SmartStop (SMA) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/real-estate/articles/smartstop-sma-q3-2026-earnings-215255469.html",
+      "published_at": "2026-11-05T21:52:55+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001585389-26-000020_1585389"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001585389-26-000018_1585389"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-444076_1585389"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-410701_1585389"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-406164_1585389"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-385565_1585389"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-382053_1585389"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/SMA/0001193125-26-355549_1585389"
+    }
+  ],
+  "warnings": [],
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-12T18:22:58.561728+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 16.115520595209354,
+    "revenue_qoq_change": 3.157323780210919,
+    "eps_yoy_change": 77.77777777777779,
+    "eps_qoq_change": -20.000000000000007,
+    "latest_eps": 0.16,
+    "gross_margin": 60.5253182357329,
+    "operating_margin": 25.683855268467454,
+    "net_margin": 10.991819415742428,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 127.59921801681232,
+    "free_cash_flow_ttm": 93164000.0,
+    "operating_cash_flow_ttm": 93164000.0,
+    "revenue_ttm": 317811000.0,
+    "net_income_ttm": 32593000.0,
+    "ebitda_ttm": 168498000.0,
+    "total_debt": 1137847000.0,
+    "cash": 30989000.0,
+    "total_assets": 2456037000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 70429000.0,
+      "2025-12-31": 78446000.0,
+      "2026-03-31": 78310000.0,
+      "2026-06-30": 79276000.0,
+      "2026-09-30": 81779000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.09,
+      "2025-12-31": 0.05,
+      "2026-03-31": 0.17,
+      "2026-06-30": 0.2,
+      "2026-09-30": 0.16
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.4226389885458559,
+    "operating_margin_yoy_change": 6.8620631089876944,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 29.31427798282627,
+    "net_debt": 1106858000.0,
+    "net_debt_to_ebitda": 6.56896817766383,
+    "debt_to_assets": 46.328577297491854
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/SMA/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

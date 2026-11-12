@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "ticker": "LH",
+  "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+  "metrics": {
+    "revenue_yoy_change": 6.917356531499941,
+    "revenue_qoq_change": 2.114657875693493,
+    "eps_yoy_change": 3.205128205128216,
+    "eps_qoq_change": -11.538461538461531,
+    "latest_eps": 3.22,
+    "gross_margin": 29.083989501312335,
+    "operating_margin": 10.971128608923884,
+    "net_margin": 6.897637795275591,
+    "inventory_yoy_change": 3.240651965484176,
+    "inventory_qoq_change": -4.233368907861967,
+    "shares_yoy_change": -2.508960573476704,
+    "free_cash_flow_ttm": 1286900000.0,
+    "operating_cash_flow_ttm": 1815000000.0,
+    "revenue_ttm": 14594500000.0,
+    "net_income_ttm": 1004000000.0,
+    "ebitda_ttm": 2163300000.0,
+    "total_debt": 6775900000.0,
+    "cash": 261800000.0,
+    "total_assets": 18924600000.0,
+    "margin_change": -0.7195536897037158,
+    "operating_margin_yoy_change": -0.32394645772407493,
+    "inventory_to_sales_ratio": 0.14131233595800524,
+    "fcf_margin": 8.817705299941759,
+    "net_debt": 6514100000.0,
+    "net_debt_to_ebitda": 3.011186613044885,
+    "debt_to_assets": 35.804719782716674,
+    "market_cap": 30269329408.0,
+    "enterprise_value": 36827176960.0,
+    "forward_pe": 19.019444,
+    "trailing_pe": 30.555328,
+    "ev_ebitda": 15.706,
+    "fcf_yield": 4.251498216739087,
+    "eps_fy0": 18.49316,
+    "revenue_fy0": 14827166660.0,
+    "analysts_fy0": 18.0,
+    "eps_fy1": 19.59968,
+    "revenue_fy1": 15625201160.0,
+    "analysts_fy1": 18.0,
+    "forward_eps_growth": 5.98340143058298,
+    "forward_revenue_growth": 5.382245430294508,
+    "eps_revision_30d": -1.082308433426038,
+    "eps_revision_90d": -0.8192162869650521,
+    "eps_surprise_pct": 2.9364894780818496
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/financials/",
+      "retrieved_at": "2026-11-12T18:23:21.419734+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/key-statistics/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LH/analysis/",
+      "retrieved_at": "2026-11-12T18:22:37.562660+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Who Is Paying For GeneDx's Cash Burn?",
+      "url": "https://finance.yahoo.com/healthcare/articles/paying-genedxs-cash-burn-174416532.html",
+      "published_at": "2026-11-12T17:44:16+00:00",
+      "categories": []
+    },
+    {
+      "title": "Which Dates Could Move Hims & Hers Stock Most?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dates-could-move-hims-hers-151300676.html",
+      "published_at": "2026-11-12T15:13:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Labcorp Holdings Insider Sold Shares Worth $744,080, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/labcorp-holdings-insider-sold-shares-150706525.html",
+      "published_at": "2026-11-12T15:07:06+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Happened To People Who Bought Quest Stock At A High?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/happened-people-bought-quest-stock-174121494.html",
+      "published_at": "2026-11-11T17:41:21+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Now the Right Time to Hold Labcorp Stock in Your Portfolio?",
+      "url": "https://finance.yahoo.com/healthcare/articles/now-time-hold-labcorp-stock-175700208.html",
+      "published_at": "2026-11-10T17:57:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Here\u2019s Why Wall Street Still Sees Room in Labcorp (LH) Even After Its Run",
+      "url": "https://finance.yahoo.com/healthcare/articles/why-wall-street-still-sees-184700870.html",
+      "published_at": "2026-11-09T18:47:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Labcorp completes $375M Millennium Health takeover",
+      "url": "https://finance.yahoo.com/healthcare/articles/labcorp-completes-375m-millennium-health-180000172.html",
+      "published_at": "2026-11-09T18:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Global Cardiovascular Genetic Testing Market Report 2026 | Capitalize on 11% CAGR and AI Genomics with Labcorp, Quest Diagnostics, Illumina, and Fulgent Genetics",
+      "url": "https://finance.yahoo.com/healthcare/articles/global-cardiovascular-genetic-testing-market-140800640.html",
+      "published_at": "2026-11-09T14:08:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000227_920148"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000213_920148"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000210_920148"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000207_920148"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000205_920148"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000201_920148"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000189_920148"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000185_920148"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LH/0000920148-26-000182_920148"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-12T18:23:21.419734+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 6.917356531499941,
+    "revenue_qoq_change": 2.114657875693493,
+    "eps_yoy_change": 3.205128205128216,
+    "eps_qoq_change": -11.538461538461531,
+    "latest_eps": 3.22,
+    "gross_margin": 29.083989501312335,
+    "operating_margin": 10.971128608923884,
+    "net_margin": 6.897637795275591,
+    "inventory_yoy_change": 3.240651965484176,
+    "inventory_qoq_change": -4.233368907861967,
+    "shares_yoy_change": -2.508960573476704,
+    "free_cash_flow_ttm": 1286900000.0,
+    "operating_cash_flow_ttm": 1815000000.0,
+    "revenue_ttm": 14594500000.0,
+    "net_income_ttm": 1004000000.0,
+    "ebitda_ttm": 2163300000.0,
+    "total_debt": 6775900000.0,
+    "cash": 261800000.0,
+    "total_assets": 18924600000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3563500000.0,
+      "2025-12-31": 3515800000.0,
+      "2026-03-31": 3537600000.0,
+      "2026-06-30": 3731100000.0,
+      "2026-09-30": 3810000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3.12,
+      "2025-12-31": 1.98,
+      "2026-03-31": 3.35,
+      "2026-06-30": 3.64,
+      "2026-09-30": 3.22
+    },
+    "quarterly_inventory": {
+      "2025-09-30": 521500000.0,
+      "2025-12-31": 534700000.0,
+      "2026-03-31": 497700000.0,
+      "2026-06-30": 562200000.0,
+      "2026-09-30": 538400000.0
+    },
+    "margin_change": -0.7195536897037158,
+    "operating_margin_yoy_change": -0.32394645772407493,
+    "inventory_to_sales_ratio": 0.14131233595800524,
+    "fcf_margin": 8.817705299941759,
+    "net_debt": 6514100000.0,
+    "net_debt_to_ebitda": 3.011186613044885,
+    "debt_to_assets": 35.804719782716674
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/LH/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

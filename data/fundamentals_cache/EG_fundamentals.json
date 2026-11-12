@@ -2,10 +2,10 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-05T16:47:41.466409+00:00",
+    "fetch_date": "2026-11-12T17:16:44.134605+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": -14.927127409496943,
-    "revenue_qoq_change": -7.44245524296675,
+    "revenue_qoq_change": null,
     "eps_yoy_change": 0.49261083743843415,
     "eps_qoq_change": -56.9620253164557,
     "latest_eps": 6.12,
@@ -15,23 +15,25 @@
     "inventory_yoy_change": null,
     "inventory_qoq_change": null,
     "shares_yoy_change": -9.075356251269195,
-    "free_cash_flow_ttm": 1208000000.0,
-    "operating_cash_flow_ttm": 1208000000.0,
-    "revenue_ttm": 15800000000.0,
-    "net_income_ttm": 1891000000.0,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
     "ebitda_ttm": null,
     "total_debt": 3590000000.0,
     "cash": 18620000000.0,
     "total_assets": 62052000000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
+      "2025-06-30": 4404000000.0,
       "2025-09-30": 4254000000.0,
       "2025-12-31": 4321000000.0,
       "2026-03-31": 3950000000.0,
-      "2026-06-30": 3910000000.0,
+      "2026-06-30": null,
       "2026-09-30": 3619000000.0
     },
     "quarterly_eps": {
+      "2025-06-30": null,
       "2025-09-30": 6.09,
       "2025-12-31": 10.77,
       "2026-03-31": 16.21,
@@ -42,10 +44,9 @@
     "margin_change": null,
     "operating_margin_yoy_change": null,
     "inventory_to_sales_ratio": null,
-    "fcf_margin": 7.6455696202531644,
     "net_debt": -15030000000.0,
     "debt_to_assets": 5.785470250757429,
     "ticker": "EG"
   },
-  "fetched_at": "2026-11-05T16:47:41.469412"
+  "fetched_at": "2026-11-12T17:16:44.137233"
 }

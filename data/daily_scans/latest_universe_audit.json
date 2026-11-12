@@ -1,23 +1,23 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-11T16:13:02.186236+00:00",
+  "fetched_at": "2026-11-12T16:50:02.264535+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
-      "rows": 5605
+      "rows": 5604
     },
     "otherlisted": {
       "status": "ok",
-      "rows": 7676
+      "rows": 7680
     }
   },
   "complete": true,
-  "included": 5552,
-  "excluded": 7729,
+  "included": 5550,
+  "excluded": 7734,
   "reason_counts": {
-    "exchange_traded_fund": 5788,
-    "common_equity": 5512,
+    "exchange_traded_fund": 5792,
+    "common_equity": 5510,
     "unit": 313,
     "warrant": 458,
     "right": 142,
@@ -26,7 +26,7 @@
     "fund_by_name": 282,
     "unspecified_depositary_security": 3,
     "profile_supported_equity": 40,
-    "test_issue": 37,
+    "test_issue": 38,
     "profile_fund": 16,
     "profile_incomplete": 8,
     "profile_name_mismatch": 13,
@@ -36,8 +36,8 @@
   "resolved_by_profile": 40,
   "unresolved_security_types": 24,
   "profile_resolution": {
-    "calls": 90,
-    "cache_hits": 0,
+    "calls": 24,
+    "cache_hits": 66,
     "deferred": 0,
     "provider_blocked": false
   },
@@ -9119,7 +9119,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CDZIP",
@@ -11279,6 +11279,15 @@
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "CRMN",
+      "symbol": "CRMN",
+      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
     },
     {
       "source": "nasdaqlisted",
@@ -24710,15 +24719,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "KAZR",
-      "symbol": "KAZR",
-      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "KBON",
       "symbol": "KBON",
       "name": "Karbon Capital Partners Corp. - Class A Ordinary Shares",
@@ -27873,7 +27873,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MDBH",
           "quoteType": "EQUITY",
@@ -28850,7 +28850,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "MNSBP",
@@ -32174,15 +32174,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "NXXT",
-      "symbol": "NXXT",
-      "name": "NextNRG, Inc. - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "NYAX",
       "symbol": "NYAX",
       "name": "Nayax Ltd. - Ordinary Shares",
@@ -33276,7 +33267,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ORGO",
           "quoteType": "EQUITY",
@@ -48149,7 +48140,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "WAFDP",
@@ -50766,7 +50757,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AAP",
           "quoteType": "EQUITY",
@@ -51096,7 +51087,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ACEL",
           "quoteType": "EQUITY",
@@ -53118,7 +53109,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AME",
           "quoteType": "EQUITY",
@@ -53241,7 +53232,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AMN",
           "quoteType": "EQUITY",
@@ -54408,7 +54399,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ASA",
           "quoteType": "EQUITY",
@@ -55692,7 +55683,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AZZ",
           "quoteType": "EQUITY",
@@ -56517,7 +56508,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BBWI",
           "quoteType": "EQUITY",
@@ -56901,7 +56892,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BDJ",
           "quoteType": "EQUITY",
@@ -57483,7 +57474,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGR",
           "quoteType": "EQUITY",
@@ -57552,7 +57543,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGT",
           "quoteType": "EQUITY",
@@ -57594,7 +57585,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGY",
           "quoteType": "EQUITY",
@@ -57941,7 +57932,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "BIPC",
@@ -57951,7 +57942,7 @@
           "sector": "Utilities",
           "industry": "Utilities - Regulated Gas",
           "fullTimeEmployees": null,
-          "marketCap": 4824886272.0,
+          "marketCap": 4862407680.0,
           "sharesOutstanding": 123021062.0,
           "category": null,
           "fundFamily": null,
@@ -58335,7 +58326,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BKT",
           "quoteType": "EQUITY",
@@ -58575,7 +58566,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BLW",
           "quoteType": "EQUITY",
@@ -58644,7 +58635,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BME",
           "quoteType": "EQUITY",
@@ -59829,7 +59820,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BTT",
           "quoteType": "EQUITY",
@@ -59880,7 +59871,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BTZ",
           "quoteType": "EQUITY",
@@ -60066,7 +60057,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BUI",
           "quoteType": "EQUITY",
@@ -60242,7 +60233,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "BVN",
@@ -60252,7 +60243,7 @@
           "sector": "Basic Materials",
           "industry": "Other Precious Metals & Mining",
           "fullTimeEmployees": null,
-          "marketCap": 6649376256.0,
+          "marketCap": 6576990208.0,
           "sharesOutstanding": 253715190.0,
           "category": null,
           "fundFamily": null,
@@ -61284,7 +61275,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CCK",
           "quoteType": "EQUITY",
@@ -61398,7 +61389,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CCZ",
           "quoteType": "EQUITY",
@@ -62061,7 +62052,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CHE",
           "quoteType": "EQUITY",
@@ -62192,7 +62183,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CHT",
@@ -62202,7 +62193,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": null,
-          "marketCap": 37751615488.0,
+          "marketCap": 38244208640.0,
           "sharesOutstanding": 775744655.0,
           "category": null,
           "fundFamily": null,
@@ -63378,7 +63369,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "COHN",
           "quoteType": "EQUITY",
@@ -63789,7 +63780,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CPF",
           "quoteType": "EQUITY",
@@ -65963,7 +65954,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "DDT",
@@ -66951,7 +66942,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "DHT",
           "quoteType": "EQUITY",
@@ -70404,7 +70395,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "EOT",
           "quoteType": "EQUITY",
@@ -70752,7 +70743,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "EQNR",
           "quoteType": "EQUITY",
@@ -74582,7 +74573,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "FNV",
@@ -74592,8 +74583,8 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 49165463552.0,
-          "sharesOutstanding": 192873810.0,
+          "marketCap": 48119382016.0,
+          "sharesOutstanding": 192855530.0,
           "category": null,
           "fundFamily": null,
           "legalType": null,
@@ -75974,7 +75965,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "GAU",
@@ -75984,7 +75975,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 644680064.0,
+          "marketCap": 601414912.0,
           "sharesOutstanding": 262054430.0,
           "category": null,
           "fundFamily": null,
@@ -76674,7 +76665,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GGN",
           "quoteType": "EQUITY",
@@ -76968,7 +76959,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJH",
           "quoteType": "EQUITY",
@@ -77001,7 +76992,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJO",
           "quoteType": "EQUITY",
@@ -77034,7 +77025,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJP",
           "quoteType": "EQUITY",
@@ -77067,7 +77058,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJR",
           "quoteType": "EQUITY",
@@ -77100,7 +77091,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJS",
           "quoteType": "EQUITY",
@@ -77133,7 +77124,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJT",
           "quoteType": "EQUITY",
@@ -77327,6 +77318,15 @@
       "directory_symbol": "GLL",
       "symbol": "GLL",
       "name": "ProShares UltraShort Gold",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "GLLD",
+      "symbol": "GLLD",
+      "name": "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -77814,7 +77814,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GNT",
           "quoteType": "EQUITY",
@@ -78099,7 +78099,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GPK",
           "quoteType": "EQUITY",
@@ -79571,7 +79571,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HESM",
@@ -79581,7 +79581,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas Midstream",
           "fullTimeEmployees": null,
-          "marketCap": 6343077376.0,
+          "marketCap": 6350293504.0,
           "sharesOutstanding": 128350881.0,
           "category": null,
           "fundFamily": null,
@@ -80081,7 +80081,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HMY",
@@ -80091,7 +80091,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 10098374656.0,
+          "marketCap": 9803669504.0,
           "sharesOutstanding": 627033514.0,
           "category": null,
           "fundFamily": null,
@@ -80547,7 +80547,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HTH",
           "quoteType": "EQUITY",
@@ -83118,7 +83118,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "INUV",
           "quoteType": "EQUITY",
@@ -84717,7 +84717,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "JBK",
           "quoteType": "EQUITY",
@@ -86198,7 +86198,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "KB",
@@ -86208,7 +86208,7 @@
           "sector": "Financial Services",
           "industry": "Banks - Regional",
           "fullTimeEmployees": null,
-          "marketCap": 39623258112.0,
+          "marketCap": 39503491072.0,
           "sharesOutstanding": 347146111.0,
           "category": null,
           "fundFamily": null,
@@ -86270,6 +86270,15 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "KBTY",
+      "symbol": "KBTY",
+      "name": "Guinness Atkinson K-Beauty ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "otherlisted",
@@ -86871,7 +86880,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KMPR",
           "quoteType": "EQUITY",
@@ -86913,7 +86922,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KMX",
           "quoteType": "EQUITY",
@@ -87014,15 +87023,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "KNRX",
-      "symbol": "KNRX",
-      "name": "KNOREX LTD. Class A Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "KNSL",
       "symbol": "KNSL",
       "name": "Kinsale Capital Group, Inc. Common Stock",
@@ -87054,7 +87054,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KNX",
           "quoteType": "EQUITY",
@@ -87105,7 +87105,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KODK",
           "quoteType": "EQUITY",
@@ -87498,7 +87498,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KTF",
           "quoteType": "EQUITY",
@@ -87540,7 +87540,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KTN",
           "quoteType": "EQUITY",
@@ -87924,7 +87924,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "LCII",
           "quoteType": "EQUITY",
@@ -88181,7 +88181,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "LEN-B",
@@ -88191,7 +88191,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Residential Construction",
           "fullTimeEmployees": 12532.0,
-          "marketCap": 19657695232.0,
+          "marketCap": 19688624128.0,
           "sharesOutstanding": 30024017.0,
           "category": null,
           "fundFamily": null,
@@ -89597,6 +89597,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "MAGP",
+      "symbol": "MAGP",
+      "name": "Roundhill Magnificent Seven Plus ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "MAGS",
       "symbol": "MAGS",
       "name": "Roundhill Magnificent Seven ETF",
@@ -90447,7 +90456,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MFA",
           "quoteType": "EQUITY",
@@ -91677,7 +91686,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MO",
           "quoteType": "EQUITY",
@@ -92736,7 +92745,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MTRN",
           "quoteType": "EQUITY",
@@ -93561,7 +93570,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NBR",
           "quoteType": "EQUITY",
@@ -93900,7 +93909,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NEM",
           "quoteType": "EQUITY",
@@ -94104,7 +94113,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NG",
           "quoteType": "EQUITY",
@@ -94352,6 +94361,15 @@
       "directory_symbol": "NJNK",
       "symbol": "NJNK",
       "name": "Columbia U.S. High Yield ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "NJPN",
+      "symbol": "NJPN",
+      "name": "Nomura Japan Equity ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -95027,7 +95045,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NRP",
@@ -95037,8 +95055,8 @@
           "sector": "Energy",
           "industry": "Thermal Coal",
           "fullTimeEmployees": null,
-          "marketCap": null,
-          "sharesOutstanding": null,
+          "marketCap": 1636492160.0,
+          "sharesOutstanding": 13250412.0,
           "category": null,
           "fundFamily": null,
           "legalType": null,
@@ -95843,7 +95861,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NXB",
@@ -95853,7 +95871,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Auto & Truck Dealerships",
           "fullTimeEmployees": 40.0,
-          "marketCap": 33940396.0,
+          "marketCap": 31956622.0,
           "sharesOutstanding": 25142895.0,
           "category": null,
           "fundFamily": null,
@@ -97110,7 +97128,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ORN",
           "quoteType": "EQUITY",
@@ -97385,7 +97403,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "OVV",
@@ -97395,7 +97413,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 1465.0,
-          "marketCap": 16907110400.0,
+          "marketCap": 17423030272.0,
           "sharesOutstanding": 268708063.0,
           "category": null,
           "fundFamily": null,
@@ -97544,7 +97562,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAC",
@@ -97554,7 +97572,7 @@
           "sector": "Industrials",
           "industry": "Airports & Air Services",
           "fullTimeEmployees": 3892.0,
-          "marketCap": 14313757696.0,
+          "marketCap": 14383077376.0,
           "sharesOutstanding": 51922658.0,
           "category": null,
           "fundFamily": null,
@@ -97667,7 +97685,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAM",
@@ -97677,7 +97695,7 @@
           "sector": "Industrials",
           "industry": "Conglomerates",
           "fullTimeEmployees": null,
-          "marketCap": 3468834304.0,
+          "marketCap": 3430105344.0,
           "sharesOutstanding": 53603771.0,
           "category": null,
           "fundFamily": null,
@@ -100955,6 +100973,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "PTEST",
+      "symbol": "PTEST",
+      "name": "Nyse Arca Test Symbol",
+      "included": false,
+      "reason": "test_issue",
+      "directory_reason": "test_issue"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "PTEU",
       "symbol": "PTEU",
       "name": "Pacer TrendpilotTM European Index ETF",
@@ -101300,7 +101327,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PYT",
@@ -103035,7 +103062,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "REX",
           "quoteType": "EQUITY",
@@ -105137,7 +105164,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SAR",
@@ -105147,7 +105174,7 @@
           "sector": "Financial Services",
           "industry": "Asset Management",
           "fullTimeEmployees": null,
-          "marketCap": 194184272.0,
+          "marketCap": 181850160.0,
           "sharesOutstanding": 15559638.0,
           "category": null,
           "fundFamily": null,
@@ -106512,7 +106539,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SFL",
           "quoteType": "EQUITY",
@@ -106778,15 +106805,6 @@
       "directory_symbol": "SHM",
       "symbol": "SHM",
       "name": "State Street SPDR Nuveen ICE Short Term Municipal Bond ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "SHNY",
-      "symbol": "SHNY",
-      "name": "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -108416,7 +108434,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SOR",
@@ -108426,8 +108444,8 @@
           "sector": "Financial Services",
           "industry": "Asset Management",
           "fullTimeEmployees": null,
-          "marketCap": null,
-          "sharesOutstanding": null,
+          "marketCap": 388378368.0,
+          "sharesOutstanding": 8230971.0,
           "category": null,
           "fundFamily": null,
           "legalType": null,
@@ -109530,7 +109548,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SRL",
           "quoteType": "EQUITY",
@@ -110076,7 +110094,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "STWD",
           "quoteType": "EQUITY",
@@ -110568,7 +110586,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "T",
           "quoteType": "EQUITY",
@@ -111410,7 +111428,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TEO",
@@ -111420,8 +111438,8 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": 17289.0,
-          "marketCap": null,
-          "sharesOutstanding": null,
+          "marketCap": 4615353344.0,
+          "sharesOutstanding": 125611604.0,
           "category": null,
           "fundFamily": null,
           "legalType": null,
@@ -111795,7 +111813,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "THG",
           "quoteType": "EQUITY",
@@ -112286,7 +112304,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TLK",
@@ -112296,7 +112314,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": 17442.0,
-          "marketCap": 11166253056.0,
+          "marketCap": 11377958912.0,
           "sharesOutstanding": 979518173.0,
           "category": null,
           "fundFamily": null,
@@ -112617,7 +112635,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TNK",
           "quoteType": "EQUITY",
@@ -113613,7 +113631,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TSM",
           "quoteType": "EQUITY",
@@ -113763,7 +113781,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TT",
           "quoteType": "EQUITY",
@@ -113967,7 +113985,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TVE",
           "quoteType": "EQUITY",
@@ -115863,7 +115881,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "V",
           "quoteType": "EQUITY",
@@ -116261,6 +116279,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "VEMB",
+      "symbol": "VEMB",
+      "name": "Vanguard Emerging Markets Bond Active ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "VEMY",
       "symbol": "VEMY",
       "name": "Virtus Stone Harbor Emerging Markets High Yield Bond ETF",
@@ -116291,7 +116318,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
+        "fetched_at": "2026-11-12T16:49:31.090814+00:00",
         "cached": false,
         "evidence": {
           "symbol": "VET",
@@ -116301,7 +116328,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 636.0,
-          "marketCap": 1604855040.0,
+          "marketCap": 1643446912.0,
           "sharesOutstanding": 151400000.0,
           "category": null,
           "fundFamily": null,
@@ -116775,7 +116802,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "VLT",
           "quoteType": "EQUITY",
@@ -121173,7 +121200,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "YUM",
           "quoteType": "EQUITY",
@@ -121732,6 +121759,6 @@
       "directory_reason": "test_issue"
     }
   ],
-  "scan_requested_count": 5552,
+  "scan_requested_count": 5550,
   "test_mode": false
 }

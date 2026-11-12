@@ -2,19 +2,19 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-05T16:34:42.116315+00:00",
+    "fetch_date": "2026-11-12T16:57:48.544926+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 15.0302750448726,
     "revenue_qoq_change": 0.5507669071117993,
     "eps_yoy_change": null,
-    "eps_qoq_change": null,
-    "latest_eps": null,
+    "eps_qoq_change": -55.55555555555556,
+    "latest_eps": 0.08,
     "gross_margin": 77.27419876982843,
     "operating_margin": 2.8183878277759793,
     "net_margin": 2.6312722563936553,
     "inventory_yoy_change": 10.58757963800332,
     "inventory_qoq_change": 4.033363121834976,
-    "shares_yoy_change": null,
+    "shares_yoy_change": 3.9878964941569173,
     "free_cash_flow_ttm": 47437000.0,
     "operating_cash_flow_ttm": 68545000.0,
     "revenue_ttm": 589803000.0,
@@ -35,12 +35,12 @@
     },
     "quarterly_eps": {
       "2025-03-31": null,
-      "2025-06-30": -0.13,
+      "2025-06-30": null,
       "2025-09-30": -0.01,
       "2025-12-31": 0.04,
       "2026-03-31": 0.0,
       "2026-06-30": 0.18,
-      "2026-09-30": null
+      "2026-09-30": 0.08
     },
     "quarterly_inventory": {
       "2025-03-31": null,
@@ -60,5 +60,5 @@
     "debt_to_assets": 12.975655576863044,
     "ticker": "ATRC"
   },
-  "fetched_at": "2026-11-05T16:34:42.119536"
+  "fetched_at": "2026-11-12T16:57:48.549807"
 }

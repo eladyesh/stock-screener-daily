@@ -2,19 +2,19 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-05T16:55:12.730041+00:00",
+    "fetch_date": "2026-11-12T17:28:03.570563+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": -4.542408119161278,
     "revenue_qoq_change": 0.6663974151857932,
-    "eps_yoy_change": null,
-    "eps_qoq_change": null,
-    "latest_eps": null,
+    "eps_yoy_change": 55.55555555555558,
+    "eps_qoq_change": -22.22222222222221,
+    "latest_eps": 0.14,
     "gross_margin": 39.704828772030375,
     "operating_margin": 12.778335005015046,
     "net_margin": 5.096718727611406,
     "inventory_yoy_change": null,
     "inventory_qoq_change": null,
-    "shares_yoy_change": null,
+    "shares_yoy_change": -9.639688575049787,
     "free_cash_flow_ttm": 20814000.0,
     "operating_cash_flow_ttm": 30962000.0,
     "revenue_ttm": 283666000.0,
@@ -25,7 +25,6 @@
     "total_assets": 215165000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30": null,
       "2025-09-30": 73111000.0,
       "2025-12-31": 75751000.0,
       "2026-03-31": 68797000.0,
@@ -33,12 +32,11 @@
       "2026-09-30": 69790000.0
     },
     "quarterly_eps": {
-      "2025-06-30": 0.06,
       "2025-09-30": 0.09,
       "2025-12-31": 0.21,
       "2026-03-31": 0.17,
       "2026-06-30": 0.18,
-      "2026-09-30": null
+      "2026-09-30": 0.14
     },
     "quarterly_inventory": {},
     "margin_change": -0.26459195264075674,
@@ -50,5 +48,5 @@
     "debt_to_assets": 40.89791555318012,
     "ticker": "HCKT"
   },
-  "fetched_at": "2026-11-05T16:55:12.733304"
+  "fetched_at": "2026-11-12T17:28:03.575417"
 }
