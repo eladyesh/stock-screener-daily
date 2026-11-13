@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "ticker": "AIZ",
+  "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.221723657744075,
+    "revenue_qoq_change": 2.1799548375890154,
+    "eps_yoy_change": 6.189555125725343,
+    "eps_qoq_change": -7.731092436974785,
+    "latest_eps": 5.49,
+    "net_margin": 7.797138404873212,
+    "shares_yoy_change": -2.294845545273927,
+    "free_cash_flow_ttm": 1833800000.0,
+    "operating_cash_flow_ttm": 2051600000.0,
+    "revenue_ttm": 13754200000.0,
+    "net_income_ttm": 1073100000.0,
+    "total_debt": 2208700000.0,
+    "cash": 4716800000.0,
+    "total_assets": 36493500000.0,
+    "fcf_margin": 13.332654752730075,
+    "net_debt": -2508100000.0,
+    "debt_to_assets": 6.052310685464535,
+    "market_cap": 15794129920.0,
+    "enterprise_value": 15884975104.0,
+    "forward_pe": 13.153003,
+    "trailing_pe": 15.183491,
+    "ev_ebitda": 9.021,
+    "fcf_yield": 11.610642746947848,
+    "eps_fy0": 24.3114,
+    "revenue_fy0": 14047533330.0,
+    "analysts_fy0": 6.0,
+    "eps_fy1": 24.47274,
+    "revenue_fy1": 15080233330.0,
+    "analysts_fy1": 7.0,
+    "forward_eps_growth": 0.6636392803376356,
+    "forward_revenue_growth": 7.351468586976462,
+    "eps_revision_30d": 4.435025813516225,
+    "eps_revision_90d": 5.6671309685313975,
+    "eps_surprise_pct": 30.531400761114824
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/financials/",
+      "retrieved_at": "2026-11-13T18:00:02.160336+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AIZ/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Assurant Insider Sold Shares Worth $1,046,505, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-insider-sold-shares-worth-211524067.html",
+      "published_at": "2026-11-12T21:15:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "HLI to Acquire Vicente & Partners to Expand Consumer Advisory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hli-acquire-vicente-partners-expand-150000212.html",
+      "published_at": "2026-11-12T15:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Why Assurant (AIZ) Might be Well Poised for a Surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-assurant-aiz-might-well-162002800.html",
+      "published_at": "2026-11-11T16:20:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Assurant Continues Commitment to Wounded Veterans with Sixth Mobility-Modified Vehicle",
+      "url": "https://finance.yahoo.com/healthcare/articles/assurant-continues-commitment-wounded-veterans-140000549.html",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Best Momentum Stocks to Buy for November 11th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-140000514.html",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "New Strong Buy Stocks for November 11th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-11th-081100212.html",
+      "published_at": "2026-11-11T08:11:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Best Value Stocks to Buy for November 11th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-november-071100604.html",
+      "published_at": "2026-11-11T07:11:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "UBS Adjusts Price Target on Assurant to $377 From $331, Maintains Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-assurant-132621511.html",
+      "published_at": "2026-11-10T13:26:21+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AIZ/0001267238-26-000046_1267238"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AIZ/0001267238-26-000043_1267238"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-13T18:00:02.160336+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 9.221723657744075,
+    "revenue_qoq_change": 2.1799548375890154,
+    "eps_yoy_change": 6.189555125725343,
+    "eps_qoq_change": -7.731092436974785,
+    "latest_eps": 5.49,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 7.797138404873212,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -2.294845545273927,
+    "free_cash_flow_ttm": 1833800000.0,
+    "operating_cash_flow_ttm": 2051600000.0,
+    "revenue_ttm": 13754200000.0,
+    "net_income_ttm": 1073100000.0,
+    "ebitda_ttm": null,
+    "total_debt": 2208700000.0,
+    "cash": 4716800000.0,
+    "total_assets": 36493500000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 3231500000.0,
+      "2025-12-31": 3350400000.0,
+      "2026-03-31": 3420100000.0,
+      "2026-06-30": 3454200000.0,
+      "2026-09-30": 3529500000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 5.17,
+      "2025-12-31": 4.41,
+      "2026-03-31": 5.41,
+      "2026-06-30": 5.95,
+      "2026-09-30": 5.49
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 13.332654752730075,
+    "net_debt": -2508100000.0,
+    "debt_to_assets": 6.052310685464535
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/AIZ/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

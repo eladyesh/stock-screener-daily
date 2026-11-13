@@ -1,42 +1,41 @@
 {
-  "generated_at": "2026-11-12T18:23:56.391032+00:00",
-  "github_run_id": "43262766766",
+  "generated_at": "2026-11-13T18:00:28.645304+00:00",
+  "github_run_id": "43462634990",
   "github_run_attempt": "1",
-  "report_sha256": "494a6cebd712fcf97ec32402911aaa9e224538c9e5b52793b0d68d8db5e96bd3",
-  "universe": 5550,
-  "analyzed": 2696,
+  "report_sha256": "4a11d5220f354b97bf6fda2582d79f59499bfee34d8b4b4e62eeb73c2b14af9e",
+  "universe": 5554,
+  "analyzed": 2684,
   "error_rate": 0.0,
-  "buy_signals": 17,
-  "sell_signals": 577,
+  "buy_signals": 20,
+  "sell_signals": 670,
   "price_dates": [
-    "2026-11-06",
-    "2026-11-11"
+    "2026-11-12"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-12T16:50:02.264535+00:00",
+    "fetched_at": "2026-11-13T16:26:17.828575+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
-        "rows": 5604
+        "rows": 5603
       },
       "otherlisted": {
         "status": "ok",
-        "rows": 7680
+        "rows": 7682
       }
     },
     "complete": true,
-    "included": 5550,
-    "excluded": 7734,
+    "included": 5554,
+    "excluded": 7731,
     "reason_counts": {
-      "exchange_traded_fund": 5792,
-      "common_equity": 5510,
+      "exchange_traded_fund": 5787,
+      "common_equity": 5514,
       "unit": 313,
-      "warrant": 458,
+      "warrant": 459,
       "right": 142,
-      "preferred": 466,
+      "preferred": 467,
       "debt": 186,
       "fund_by_name": 282,
       "unspecified_depositary_security": 3,
@@ -51,35 +50,33 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 24,
     "profile_resolution": {
-      "calls": 24,
-      "cache_hits": 66,
+      "calls": 0,
+      "cache_hits": 90,
       "deferred": 0,
       "provider_blocked": false
     },
-    "scan_requested_count": 5550,
+    "scan_requested_count": 5554,
     "test_mode": false
   },
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
-      "CBC",
-      "AFG",
-      "TMO",
+      "CBRL",
       "FAST",
       "BKH",
-      "AAPL"
+      "AFG"
     ],
     "months_to_18m": [
       "APA",
+      "EOG",
       "ADI",
-      "HAS",
       "DIOD",
+      "DK",
       "CORT",
       "ERO",
       "ASML",
-      "DK",
-      "FANG",
-      "ACN"
+      "DHT",
+      "FANG"
     ]
   },
   "strategy_version": "multifactor-v3"

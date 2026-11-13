@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "ticker": "KDP",
+  "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+  "metrics": {
+    "revenue_yoy_change": 70.55271713887599,
+    "revenue_qoq_change": 0.47886167738404595,
+    "eps_yoy_change": 20.408163265306122,
+    "eps_qoq_change": 1374.9999999999998,
+    "latest_eps": 0.59,
+    "gross_margin": 47.998366013071895,
+    "operating_margin": 18.15087145969499,
+    "net_margin": 12.009803921568627,
+    "inventory_yoy_change": 104.72826086956522,
+    "inventory_qoq_change": -2.3334197562872694,
+    "shares_yoy_change": 0.23479345513244265,
+    "free_cash_flow_ttm": 2322000000.0,
+    "operating_cash_flow_ttm": 2932000000.0,
+    "revenue_ttm": 23128000000.0,
+    "net_income_ttm": 1647000000.0,
+    "ebitda_ttm": 5158000000.0,
+    "total_debt": 28865000000.0,
+    "cash": 1290000000.0,
+    "total_assets": 86872000000.0,
+    "margin_change": 6.05008307422937,
+    "operating_margin_yoy_change": -4.956420690792701,
+    "inventory_to_sales_ratio": 0.5129357298474946,
+    "fcf_margin": 10.039778623313731,
+    "net_debt": 27575000000.0,
+    "net_debt_to_ebitda": 5.346064366033346,
+    "debt_to_assets": 33.22704668938208,
+    "market_cap": 49654202368.0,
+    "enterprise_value": 87873789952.0,
+    "forward_pe": 14.413656,
+    "trailing_pe": 32.86937,
+    "ev_ebitda": 16.397,
+    "fcf_yield": 4.676341355342019,
+    "eps_fy0": 2.29662,
+    "revenue_fy0": 26264916230.0,
+    "analysts_fy0": 20.0,
+    "eps_fy1": 2.53128,
+    "revenue_fy1": 29886272850.0,
+    "analysts_fy1": 20.0,
+    "forward_eps_growth": 10.21762416072316,
+    "forward_revenue_growth": 13.78780951855334,
+    "eps_revision_30d": 0.03200986378024684,
+    "eps_revision_90d": -0.09590679280579995,
+    "eps_surprise_pct": 6.39155315547677
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/financials/",
+      "retrieved_at": "2026-11-13T17:59:57.316801+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KDP/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "BC-Most Active Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html",
+      "published_at": "2026-11-13T15:30:18+00:00",
+      "categories": []
+    },
+    {
+      "title": "Sector Update: Consumer Stocks Advance Premarket Friday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-premarket-141157868.html",
+      "published_at": "2026-11-13T14:11:57+00:00",
+      "categories": []
+    },
+    {
+      "title": "BNP Paribas Adjusts Price Target on Keurig Dr Pepper to $35 From $36",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-price-target-112448448.html",
+      "published_at": "2026-11-13T11:24:48+00:00",
+      "categories": []
+    },
+    {
+      "title": "Keurig Dr Pepper Shares Decline 1.1% Premarket Following Pricing of $2 Billion Share Offering",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-shares-decline-110900934.html",
+      "published_at": "2026-11-13T11:09:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "Keurig Dr Pepper Prices Stock Offering at $34.50 per Share",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-prices-stock-083904521.html",
+      "published_at": "2026-11-13T08:39:04+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "Keurig Dr Pepper Announces Pricing of Public Offering of Common Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-announces-pricing-022100253.html",
+      "published_at": "2026-11-13T02:21:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "Keurig Is Paying Down Debt Ahead of Coffee Split. What That Means for the Stock.",
+      "url": "https://finance.yahoo.com/m/53996aec-5d2f-3dd8-8bf4-c14d039dd84f/keurig-is-paying-down-debt.html",
+      "published_at": "2026-11-12T21:24:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "A $2 Billion Reason Keurig Dr Pepper Stock Is Plunging Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-keurig-dr-192752180.html",
+      "published_at": "2026-11-12T19:27:52+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "ALT AARON E.",
+      "date": "2026-08-25",
+      "value": 250247.0,
+      "description": "Purchase at price 31.83 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-11-09",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001418135-26-000066_1418135"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001418135-26-000064_1418135"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001193125-26-409799_1418135"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001418135-26-000060_1418135"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001418135-26-000058_1418135"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KDP/0001418135-26-000055_1418135"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-13T17:59:57.316801+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 70.55271713887599,
+    "revenue_qoq_change": 0.47886167738404595,
+    "eps_yoy_change": 20.408163265306122,
+    "eps_qoq_change": 1374.9999999999998,
+    "latest_eps": 0.59,
+    "gross_margin": 47.998366013071895,
+    "operating_margin": 18.15087145969499,
+    "net_margin": 12.009803921568627,
+    "inventory_yoy_change": 104.72826086956522,
+    "inventory_qoq_change": -2.3334197562872694,
+    "shares_yoy_change": 0.23479345513244265,
+    "free_cash_flow_ttm": 2322000000.0,
+    "operating_cash_flow_ttm": 2932000000.0,
+    "revenue_ttm": 23128000000.0,
+    "net_income_ttm": 1647000000.0,
+    "ebitda_ttm": 5158000000.0,
+    "total_debt": 28865000000.0,
+    "cash": 1290000000.0,
+    "total_assets": 86872000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 4306000000.0,
+      "2025-12-31": 4499000000.0,
+      "2026-03-31": 3976000000.0,
+      "2026-06-30": 7309000000.0,
+      "2026-09-30": 7344000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.49,
+      "2025-12-31": 0.26,
+      "2026-03-31": 0.2,
+      "2026-06-30": 0.04,
+      "2026-09-30": 0.59
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 1840000000.0,
+      "2025-12-31": 1733000000.0,
+      "2026-03-31": 1829000000.0,
+      "2026-06-30": 3857000000.0,
+      "2026-09-30": 3767000000.0
+    },
+    "margin_change": 6.05008307422937,
+    "operating_margin_yoy_change": -4.956420690792701,
+    "inventory_to_sales_ratio": 0.5129357298474946,
+    "fcf_margin": 10.039778623313731,
+    "net_debt": 27575000000.0,
+    "net_debt_to_ebitda": 5.346064366033346,
+    "debt_to_assets": 33.22704668938208
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/KDP/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

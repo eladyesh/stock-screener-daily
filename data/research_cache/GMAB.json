@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "ticker": "GMAB",
+  "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+  "metrics": {
+    "revenue_yoy_change": 16.144814090019576,
+    "revenue_qoq_change": 2.770562770562779,
+    "eps_yoy_change": -14.705882352941169,
+    "eps_qoq_change": 12.21995926680246,
+    "latest_eps": 0.551,
+    "gross_margin": 92.58635214827295,
+    "operating_margin": 37.1524852569503,
+    "net_margin": 28.81213142375737,
+    "inventory_yoy_change": 114.28571428571428,
+    "inventory_qoq_change": 66.66666666666667,
+    "shares_yoy_change": -0.008599210474591334,
+    "free_cash_flow_ttm": 843000000.0,
+    "operating_cash_flow_ttm": 875000000.0,
+    "revenue_ttm": 4296000000.0,
+    "net_income_ttm": 729000000.0,
+    "ebitda_ttm": 1258000000.0,
+    "total_debt": 5198000000.0,
+    "cash": 1860000000.0,
+    "total_assets": 12936000000.0,
+    "margin_change": -0.1409205789997685,
+    "operating_margin_yoy_change": -7.759452120740505,
+    "inventory_to_sales_ratio": 0.02527379949452401,
+    "fcf_margin": 19.622905027932962,
+    "net_debt": 3338000000.0,
+    "net_debt_to_ebitda": 2.6534181240063592,
+    "debt_to_assets": 40.182436611008036,
+    "market_cap": 31483273216.0,
+    "enterprise_value": 36075847680.0,
+    "forward_pe": 32.316456,
+    "trailing_pe": 43.64103,
+    "ev_ebitda": 26.605,
+    "fcf_yield": 2.6776123124694102,
+    "eps_fy0": 1.25529,
+    "revenue_fy0": 29925713500.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 1.72727,
+    "revenue_fy1": 36342411770.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 37.599279847684606,
+    "forward_revenue_growth": 21.44208949270332,
+    "eps_revision_30d": -1.0132095475514968,
+    "eps_revision_90d": -5.403273948070297,
+    "eps_surprise_pct": 55.30313706699739
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/financials/",
+      "retrieved_at": "2026-11-13T18:00:07.449888+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GMAB/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "missing",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Genmab (CPSE:GMAB) Stock Could Be 47% Undervalued As Epcoritamab Approvals Expand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/genmab-cpse-gmab-stock-could-131340843.html",
+      "published_at": "2026-11-13T13:13:40+00:00",
+      "categories": []
+    },
+    {
+      "title": "Transactions with shares and linked securities in Genmab A/S made by managerial employees and their closely associated persons",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/transactions-shares-linked-securities-genmab-190900666.html",
+      "published_at": "2026-11-12T19:09:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Capital Increase in Genmab as a Result of Employee Warrant Exercise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/capital-increase-genmab-result-employee-203200270.html",
+      "published_at": "2026-11-10T20:32:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Genmab (CPSE:GMAB) Fully Priced After Holding 2026 Guidance Steady?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/genmab-cpse-gmab-fully-priced-131352220.html",
+      "published_at": "2026-11-08T13:13:52+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What Is Genmab (CPSE:GMAB) Signaling With New Cancer Trial Data?",
+      "url": "https://finance.yahoo.com/healthcare/articles/genmab-cpse-gmab-signaling-cancer-121311617.html",
+      "published_at": "2026-11-08T12:13:11+00:00",
+      "categories": []
+    },
+    {
+      "title": "Genmab (GMAB) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/healthcare/articles/genmab-gmab-q3-2026-earnings-161623599.html",
+      "published_at": "2026-11-06T16:16:23+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Moody\u2019s lifts Genmab outlook to positive on pipeline progress, debt reduction",
+      "url": "https://finance.yahoo.com/healthcare/articles/moody-lifts-genmab-outlook-positive-160217292.html",
+      "published_at": "2026-11-06T16:02:17+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Genmab AS (GMAB) (Q3 2026) Earnings Call Highlights: Revenue Jumps 22% as Epkinly and Pipeline ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/genmab-gmab-q3-2026-earnings-071548251.html",
+      "published_at": "2026-11-06T07:15:48+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-12",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000155_1434265"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000146_1434265"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000140_1434265"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000138_1434265"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000136_1434265"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000134_1434265"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000132_1434265"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000129_1434265"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000127_1434265"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000125_1434265"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000123_1434265"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/GMAB/0001434265-26-000116_1434265"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-13T18:00:07.449888+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 16.144814090019576,
+    "revenue_qoq_change": 2.770562770562779,
+    "eps_yoy_change": -14.705882352941169,
+    "eps_qoq_change": 12.21995926680246,
+    "latest_eps": 0.551,
+    "gross_margin": 92.58635214827295,
+    "operating_margin": 37.1524852569503,
+    "net_margin": 28.81213142375737,
+    "inventory_yoy_change": 114.28571428571428,
+    "inventory_qoq_change": 66.66666666666667,
+    "shares_yoy_change": -0.008599210474591334,
+    "free_cash_flow_ttm": 843000000.0,
+    "operating_cash_flow_ttm": 875000000.0,
+    "revenue_ttm": 4296000000.0,
+    "net_income_ttm": 729000000.0,
+    "ebitda_ttm": 1258000000.0,
+    "total_debt": 5198000000.0,
+    "cash": 1860000000.0,
+    "total_assets": 12936000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 1022000000.0,
+      "2025-12-31": 1058000000.0,
+      "2026-03-31": 896000000.0,
+      "2026-06-30": 1155000000.0,
+      "2026-09-30": 1187000000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": 0.542,
+      "2025-09-30": 0.646,
+      "2025-12-31": null,
+      "2026-03-31": 0.083,
+      "2026-06-30": 0.491,
+      "2026-09-30": 0.551
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 14000000.0,
+      "2025-12-31": 18000000.0,
+      "2026-03-31": 21000000.0,
+      "2026-06-30": 18000000.0,
+      "2026-09-30": 30000000.0
+    },
+    "margin_change": -0.1409205789997685,
+    "operating_margin_yoy_change": -7.759452120740505,
+    "inventory_to_sales_ratio": 0.02527379949452401,
+    "fcf_margin": 19.622905027932962,
+    "net_debt": 3338000000.0,
+    "net_debt_to_ebitda": 2.6534181240063592,
+    "debt_to_assets": 40.182436611008036
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/GMAB/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

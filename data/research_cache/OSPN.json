@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "ticker": "OSPN",
+  "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+  "metrics": {
+    "revenue_yoy_change": 1.0410574336179756,
+    "revenue_qoq_change": -8.31121961575204,
+    "eps_qoq_change": -40.0,
+    "latest_eps": 0.18,
+    "gross_margin": 73.56696325207554,
+    "operating_margin": 14.507326431382925,
+    "net_margin": 11.214566864022757,
+    "inventory_yoy_change": -16.903992312396266,
+    "inventory_qoq_change": 4.104191747838448,
+    "free_cash_flow_ttm": 39963000.0,
+    "operating_cash_flow_ttm": 51940000.0,
+    "revenue_ttm": 246384000.0,
+    "net_income_ttm": 68403000.0,
+    "ebitda_ttm": 57841000.0,
+    "total_debt": 12418000.0,
+    "cash": 43337000.0,
+    "total_assets": 387022000.0,
+    "margin_change": 0.001827612850092919,
+    "operating_margin_yoy_change": -3.128821489008768,
+    "inventory_to_sales_ratio": 0.1573115469850825,
+    "fcf_margin": 16.219803233976233,
+    "net_debt": -30919000.0,
+    "net_debt_to_ebitda": -0.5345516156359675,
+    "debt_to_assets": 3.208603128504323,
+    "market_cap": 812054272.0,
+    "enterprise_value": 789548096.0,
+    "forward_pe": 15.949276,
+    "trailing_pe": 12.227778,
+    "ev_ebitda": 13.293,
+    "fcf_yield": 4.921222802211919,
+    "eps_fy0": 1.354,
+    "revenue_fy0": 256016800.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 1.38,
+    "revenue_fy1": 262261400.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 1.9202363367798903,
+    "forward_revenue_growth": 2.4391368066470687,
+    "eps_revision_30d": 5.828220858895694,
+    "eps_revision_90d": 5.182926829268286,
+    "eps_surprise_pct": 48.30508474576271
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/financials/",
+      "retrieved_at": "2026-11-13T17:59:47.704334+00:00",
+      "period": "2026-06-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-06-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OSPN/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "3 Dividend Stocks With Recurring Revenue and Room to Keep Raising Payouts",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-recurring-revenue-134754880.html",
+      "published_at": "2026-11-12T13:47:54+00:00",
+      "categories": []
+    },
+    {
+      "title": "OneSpan\u2019s FIDO Authentication Technology to Support Japan's TSUBASA Alliance Banking Security Initiative",
+      "url": "https://finance.yahoo.com/technology/ai/articles/onespan-fido-authentication-technology-support-130000472.html",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "ONESPAN INC (OSPN) is Attracting Investor Attention: Here is What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onespan-inc-ospn-attracting-investor-130005331.html",
+      "published_at": "2026-11-06T13:00:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "OSPN vs. ADYEY: Which Stock Should Value Investors Buy Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ospn-vs-adyey-stock-value-154003978.html",
+      "published_at": "2026-11-05T15:40:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "OneSpan (OSPN) Stock Gets Fair Value Boost After Guidance Raises And Analyst Target Hikes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onespan-ospn-stock-gets-fair-042831851.html",
+      "published_at": "2026-11-02T04:28:31+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "OneSpan (OSPN) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onespan-ospn-q3-2026-earnings-151713506.html",
+      "published_at": "2026-10-30T15:17:13+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "B. Riley Raises Price Target on OneSpan to $32 From $22, Keeps Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-raises-price-target-125856237.html",
+      "published_at": "2026-10-30T12:58:56+00:00",
+      "categories": []
+    },
+    {
+      "title": "OneSpan Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onespan-inc-q3-2026-earnings-123000354.html",
+      "published_at": "2026-10-30T12:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-29",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/OSPN/0001044777-26-000053_1044777"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-13T17:59:47.704334+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 1.0410574336179756,
+    "revenue_qoq_change": -8.31121961575204,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -40.0,
+    "latest_eps": 0.18,
+    "gross_margin": 73.56696325207554,
+    "operating_margin": 14.507326431382925,
+    "net_margin": 11.214566864022757,
+    "inventory_yoy_change": -16.903992312396266,
+    "inventory_qoq_change": 4.104191747838448,
+    "shares_yoy_change": null,
+    "free_cash_flow_ttm": 39963000.0,
+    "operating_cash_flow_ttm": 51940000.0,
+    "revenue_ttm": 246384000.0,
+    "net_income_ttm": 68403000.0,
+    "ebitda_ttm": 57841000.0,
+    "total_debt": 12418000.0,
+    "cash": 43337000.0,
+    "total_assets": 387022000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": 59843000.0,
+      "2025-09-30": 57056000.0,
+      "2025-12-31": 62915000.0,
+      "2026-03-31": 65947000.0,
+      "2026-06-30": 60466000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.17,
+      "2025-12-31": 1.13,
+      "2026-03-31": 0.3,
+      "2026-06-30": 0.18
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 11447000.0,
+      "2025-09-30": 11236000.0,
+      "2025-12-31": 10466000.0,
+      "2026-03-31": 9137000.0,
+      "2026-06-30": 9512000.0
+    },
+    "margin_change": 0.001827612850092919,
+    "operating_margin_yoy_change": -3.128821489008768,
+    "inventory_to_sales_ratio": 0.1573115469850825,
+    "fcf_margin": 16.219803233976233,
+    "net_debt": -30919000.0,
+    "net_debt_to_ebitda": -0.5345516156359675,
+    "debt_to_assets": 3.208603128504323
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/OSPN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

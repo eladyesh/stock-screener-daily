@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "ticker": "TREX",
+  "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+  "metrics": {
+    "revenue_yoy_change": 25.98791650896448,
+    "revenue_qoq_change": -13.998167547408135,
+    "eps_yoy_change": 8.333333333333348,
+    "eps_qoq_change": -13.33333333333333,
+    "latest_eps": 0.52,
+    "gross_margin": 36.01434198228671,
+    "operating_margin": 20.17279362677467,
+    "net_margin": 14.60150652009435,
+    "inventory_yoy_change": 21.15451481758852,
+    "inventory_qoq_change": -4.458353546645288,
+    "shares_yoy_change": -5.129175941920594,
+    "free_cash_flow_ttm": 193446000.0,
+    "operating_cash_flow_ttm": 313849000.0,
+    "revenue_ttm": 1282051000.0,
+    "net_income_ttm": 178074000.0,
+    "ebitda_ttm": 322513000.0,
+    "total_debt": 217685000.0,
+    "cash": 3271000.0,
+    "total_assets": 1567641000.0,
+    "margin_change": -1.8652759298177628,
+    "operating_margin_yoy_change": -4.497784053811841,
+    "inventory_to_sales_ratio": 0.503997173884018,
+    "fcf_margin": 15.088791319534089,
+    "net_debt": 214414000.0,
+    "net_debt_to_ebitda": 0.6648228133439582,
+    "debt_to_assets": 13.886151229777735,
+    "market_cap": 5301652480.0,
+    "enterprise_value": 5492081152.0,
+    "forward_pe": 25.538202,
+    "trailing_pe": 30.66474,
+    "ev_ebitda": 17.125,
+    "fcf_yield": 3.648786877860391,
+    "eps_fy0": 1.87823,
+    "revenue_fy0": 1298515000.0,
+    "analysts_fy0": 20.0,
+    "eps_fy1": 2.07728,
+    "revenue_fy1": 1360638710.0,
+    "analysts_fy1": 21.0,
+    "forward_eps_growth": 10.597743620323396,
+    "forward_revenue_growth": 4.78421196520642,
+    "eps_revision_30d": 2.7923893411188505,
+    "eps_revision_90d": 3.006471127860566,
+    "eps_surprise_pct": 15.41044149739803
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/financials/",
+      "retrieved_at": "2026-11-13T17:59:20.751295+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/key-statistics/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TREX/analysis/",
+      "retrieved_at": "2026-11-13T17:58:55.270097+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "5 Stocks Analysts Are Downgrading Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-analysts-downgrading-now-205623990.html",
+      "published_at": "2026-11-12T20:56:23+00:00",
+      "categories": []
+    },
+    {
+      "title": "If You Think Mortgage Rates Will Come Down Further, Add Trex Stock to Your Watchlist",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/think-mortgage-rates-come-down-165004843.html",
+      "published_at": "2026-11-11T16:50:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-downgraded-sarepta-upgraded-wall-144658393.html",
+      "published_at": "2026-11-10T14:46:58+00:00",
+      "categories": []
+    },
+    {
+      "title": "Trex\u00ae Refuge\u2122 Decking Selected as a Good Housekeeping 2027 Home Reno Awards Winner",
+      "url": "https://finance.yahoo.com/real-estate/articles/trex-refuge-decking-selected-good-142800211.html",
+      "published_at": "2026-11-10T14:28:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Buy, Sell, or Hold? Tuesday\u2019s Top Upgrades and Downgrades: Cloudflare, Deckers Outdoors, DraftKings, MongoDB, Nike, Oneok, Philip Morris International, Riot Platforms, Wix.com, and More",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-tuesday-top-124706526.html",
+      "published_at": "2026-11-10T12:47:06+00:00",
+      "categories": []
+    },
+    {
+      "title": "DA Davidson Downgrades Trex to Neutral From Buy, Price Target is $55",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/da-davidson-downgrades-trex-neutral-112906782.html",
+      "published_at": "2026-11-10T11:29:06+00:00",
+      "categories": []
+    },
+    {
+      "title": "Trex: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trex-3-key-takeaways-long-010430306.html",
+      "published_at": "2026-11-10T01:04:30+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Trex (TREX) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trex-trex-said-q3-earnings-151425621.html",
+      "published_at": "2026-11-08T15:14:25+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/TREX/0001193125-26-447251_1069878"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "8-K/A",
+      "url": "https://finance.yahoo.com/sec-filing/TREX/0001193125-26-379434_1069878"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/TREX/0001193125-26-362066_1069878"
+    }
+  ],
+  "warnings": [],
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-13T17:59:20.751295+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 25.98791650896448,
+    "revenue_qoq_change": -13.998167547408135,
+    "eps_yoy_change": 8.333333333333348,
+    "eps_qoq_change": -13.33333333333333,
+    "latest_eps": 0.52,
+    "gross_margin": 36.01434198228671,
+    "operating_margin": 20.17279362677467,
+    "net_margin": 14.60150652009435,
+    "inventory_yoy_change": 21.15451481758852,
+    "inventory_qoq_change": -4.458353546645288,
+    "shares_yoy_change": -5.129175941920594,
+    "free_cash_flow_ttm": 193446000.0,
+    "operating_cash_flow_ttm": 313849000.0,
+    "revenue_ttm": 1282051000.0,
+    "net_income_ttm": 178074000.0,
+    "ebitda_ttm": 322513000.0,
+    "total_debt": 217685000.0,
+    "cash": 3271000.0,
+    "total_assets": 1567641000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 285348000.0,
+      "2025-12-31": 161125000.0,
+      "2026-03-31": 343403000.0,
+      "2026-06-30": 418019000.0,
+      "2026-09-30": 359504000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.48,
+      "2025-12-31": 0.02,
+      "2026-03-31": 0.58,
+      "2026-06-30": 0.6,
+      "2026-09-30": 0.52
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 149552000.0,
+      "2025-12-31": 238665000.0,
+      "2026-03-31": 229580000.0,
+      "2026-06-30": 189644000.0,
+      "2026-09-30": 181189000.0
+    },
+    "margin_change": -1.8652759298177628,
+    "operating_margin_yoy_change": -4.497784053811841,
+    "inventory_to_sales_ratio": 0.503997173884018,
+    "fcf_margin": 15.088791319534089,
+    "net_debt": 214414000.0,
+    "net_debt_to_ebitda": 0.6648228133439582,
+    "debt_to_assets": 13.886151229777735
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/TREX/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

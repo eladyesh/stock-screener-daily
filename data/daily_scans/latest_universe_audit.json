@@ -1,27 +1,27 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-12T16:50:02.264535+00:00",
+  "fetched_at": "2026-11-13T16:26:17.828575+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
-      "rows": 5604
+      "rows": 5603
     },
     "otherlisted": {
       "status": "ok",
-      "rows": 7680
+      "rows": 7682
     }
   },
   "complete": true,
-  "included": 5550,
-  "excluded": 7734,
+  "included": 5554,
+  "excluded": 7731,
   "reason_counts": {
-    "exchange_traded_fund": 5792,
-    "common_equity": 5510,
+    "exchange_traded_fund": 5787,
+    "common_equity": 5514,
     "unit": 313,
-    "warrant": 458,
+    "warrant": 459,
     "right": 142,
-    "preferred": 466,
+    "preferred": 467,
     "debt": 186,
     "fund_by_name": 282,
     "unspecified_depositary_security": 3,
@@ -36,8 +36,8 @@
   "resolved_by_profile": 40,
   "unresolved_security_types": 24,
   "profile_resolution": {
-    "calls": 24,
-    "cache_hits": 66,
+    "calls": 0,
+    "cache_hits": 90,
     "deferred": 0,
     "provider_blocked": false
   },
@@ -9120,7 +9120,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CDZIP",
           "quoteType": "EQUITY",
@@ -10070,15 +10070,6 @@
       "directory_symbol": "CLFD",
       "symbol": "CLFD",
       "name": "Clearfield, Inc. - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "CLGN",
-      "symbol": "CLGN",
-      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -15917,24 +15908,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "FDFF",
-      "symbol": "FDFF",
-      "name": "Fidelity Disruptive Finance ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "FDIF",
-      "symbol": "FDIF",
-      "name": "Fidelity Disruptors ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "FDIG",
       "symbol": "FDIG",
       "name": "Fidelity Crypto Industry and Digital Payments ETF",
@@ -16895,24 +16868,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "FMED",
-      "symbol": "FMED",
-      "name": "Fidelity Disruptive Medicine ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "FMET",
-      "symbol": "FMET",
-      "name": "Fidelity Metaverse ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "nasdaqlisted",
@@ -26744,12 +26699,30 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "LOVI",
+      "symbol": "LOVI",
+      "name": "Live Oak Acquisition Corp. VI - Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "LOVIU",
       "symbol": "LOVIU",
       "name": "Live Oak Acquisition Corp. VI - Units",
       "included": false,
       "reason": "unit",
       "directory_reason": "unit"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "LOVIW",
+      "symbol": "LOVIW",
+      "name": "Live Oak Acquisition Corp. VI - Warrants",
+      "included": false,
+      "reason": "warrant",
+      "directory_reason": "warrant"
     },
     {
       "source": "nasdaqlisted",
@@ -28851,7 +28824,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MNSBP",
           "quoteType": "EQUITY",
@@ -32761,7 +32734,7 @@
       "source": "nasdaqlisted",
       "directory_symbol": "OLMA",
       "symbol": "OLMA",
-      "name": "Olema Pharmaceuticals, Inc. - Common Stock",
+      "name": "Olema Oncology, Inc. - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -33098,6 +33071,15 @@
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "OPHI",
+      "symbol": "OPHI",
+      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
     },
     {
       "source": "nasdaqlisted",
@@ -36353,15 +36335,6 @@
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "PTLE",
-      "symbol": "PTLE",
-      "name": "PTL LTD - Class A Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
     },
     {
       "source": "nasdaqlisted",
@@ -48141,7 +48114,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "WAFDP",
           "quoteType": "EQUITY",
@@ -48451,7 +48424,7 @@
       "source": "nasdaqlisted",
       "directory_symbol": "WFRD",
       "symbol": "WFRD",
-      "name": "Weatherford International plc - Ordinary shares",
+      "name": "Weatherford International Corp - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -49109,6 +49082,15 @@
       "directory_symbol": "WW",
       "symbol": "WW",
       "name": "WW International, Inc.  - Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "WWB",
+      "symbol": "WWB",
+      "name": "Windward Bio Group AG - Common shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -50594,6 +50576,15 @@
       "directory_symbol": "ZYME",
       "symbol": "ZYME",
       "name": "Zymeworks Inc. - Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ZYN",
+      "symbol": "ZYN",
+      "name": "PTL LTD - Class A Ordinary Shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -57933,7 +57924,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BIPC",
           "quoteType": "EQUITY",
@@ -60234,7 +60225,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BVN",
           "quoteType": "EQUITY",
@@ -60323,6 +60314,15 @@
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "BWLB",
+      "symbol": "BWLB",
+      "name": "Brandywine Large Cap ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "otherlisted",
@@ -62184,7 +62184,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CHT",
           "quoteType": "EQUITY",
@@ -65955,7 +65955,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "DDT",
           "quoteType": "EQUITY",
@@ -74574,7 +74574,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "FNV",
           "quoteType": "EQUITY",
@@ -74789,15 +74789,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "FPRO",
-      "symbol": "FPRO",
-      "name": "Fidelity Real Estate Investment ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "otherlisted",
@@ -75966,7 +75957,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GAU",
           "quoteType": "EQUITY",
@@ -79572,7 +79563,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HESM",
           "quoteType": "EQUITY",
@@ -80082,7 +80073,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HMY",
           "quoteType": "EQUITY",
@@ -86199,7 +86190,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KB",
           "quoteType": "EQUITY",
@@ -88182,7 +88173,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "LEN-B",
           "quoteType": "EQUITY",
@@ -88736,6 +88727,15 @@
       "directory_symbol": "LOB$A",
       "symbol": "LOB$A",
       "name": "Live Oak Bancshares, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 8.375% Fixed Rate Series A Non-Cumulative Perpetual Preferred Stock",
+      "included": false,
+      "reason": "preferred",
+      "directory_reason": "preferred"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "LOB$B",
+      "symbol": "LOB$B",
+      "name": "Live Oak Bancshares, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 8.750% Fixed Rate Series B Non-Cumulative Perpetual Preferred Stock",
       "included": false,
       "reason": "preferred",
       "directory_reason": "preferred"
@@ -90197,6 +90197,15 @@
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "MDRN",
+      "symbol": "MDRN",
+      "name": "Modern Mining Technology Corp. Common Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
     },
     {
       "source": "otherlisted",
@@ -95046,7 +95055,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NRP",
           "quoteType": "EQUITY",
@@ -95862,7 +95871,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NXB",
           "quoteType": "EQUITY",
@@ -97404,7 +97413,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "OVV",
           "quoteType": "EQUITY",
@@ -97563,7 +97572,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAC",
           "quoteType": "EQUITY",
@@ -97686,7 +97695,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAM",
           "quoteType": "EQUITY",
@@ -101328,7 +101337,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PYT",
           "quoteType": "EQUITY",
@@ -105165,7 +105174,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SAR",
           "quoteType": "EQUITY",
@@ -108435,7 +108444,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SOR",
           "quoteType": "EQUITY",
@@ -111429,7 +111438,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TEO",
           "quoteType": "EQUITY",
@@ -112305,7 +112314,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TLK",
           "quoteType": "EQUITY",
@@ -115400,15 +115409,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "USG",
-      "symbol": "USG",
-      "name": "USCF Gold Strategy Plus Income Fund",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "USGX",
       "symbol": "USGX",
       "name": "Corgi U.S. Growth 2x Daily ETF",
@@ -116319,7 +116319,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-12T16:49:31.090814+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "VET",
           "quoteType": "EQUITY",
@@ -117581,6 +117581,15 @@
       "directory_symbol": "VVV",
       "symbol": "VVV",
       "name": "Valvoline Inc. Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "VVVV",
+      "symbol": "VVVV",
+      "name": "vVARDIS Holding AG Class A Ordinary Shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -121759,6 +121768,6 @@
       "directory_reason": "test_issue"
     }
   ],
-  "scan_requested_count": 5550,
+  "scan_requested_count": 5554,
   "test_mode": false
 }
