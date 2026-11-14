@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "ticker": "CLDT",
+  "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+  "metrics": {
+    "revenue_yoy_change": 15.957351834610822,
+    "revenue_qoq_change": 3.5499521661883193,
+    "eps_yoy_change": 266.6666666666667,
+    "eps_qoq_change": -15.384615384615385,
+    "latest_eps": 0.11,
+    "gross_margin": 38.53015255001595,
+    "operating_margin": 15.819227681173768,
+    "net_margin": 7.979454691435422,
+    "shares_yoy_change": -3.0463354519382424,
+    "free_cash_flow_ttm": 79996000.0,
+    "operating_cash_flow_ttm": 80064000.0,
+    "revenue_ttm": 313967000.0,
+    "net_income_ttm": 15777000.0,
+    "ebitda_ttm": 101648000.0,
+    "total_debt": 424163000.0,
+    "cash": 14021000.0,
+    "total_assets": 1229928000.0,
+    "margin_change": -2.1616154787754525,
+    "operating_margin_yoy_change": 3.200778268478796,
+    "fcf_margin": 25.479110861969573,
+    "net_debt": 410142000.0,
+    "net_debt_to_ebitda": 4.034924445144027,
+    "debt_to_assets": 34.48681548838631,
+    "market_cap": 796256704.0,
+    "enterprise_value": 1208471680.0,
+    "forward_pe": -135.5,
+    "trailing_pe": 101.625,
+    "ev_ebitda": 12.569,
+    "fcf_yield": 10.046508820351482,
+    "eps_fy0": 0.0,
+    "revenue_fy0": 322434500.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 0.07,
+    "revenue_fy1": 337425750.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 4.649393907909971,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": 119.99999999999997
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/financials/",
+      "retrieved_at": "2026-11-14T16:39:46.982231+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLDT/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Chatham Lodging (CLDT) Is Up 5.13% in One Week: What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chatham-lodging-cldt-5-13-160002523.html",
+      "published_at": "2026-11-06T16:00:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chatham Lodging Trust (REIT) (CLDT) Hit a 52 Week High, Can the Run Continue?",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-trust-reit-cldt-131515499.html",
+      "published_at": "2026-11-06T13:15:15+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chatham Lodging Trust Q3 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-trust-q3-earnings-121438931.html",
+      "published_at": "2026-11-06T12:14:38+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chatham Lodging Trust (CLDT) (Q3 2026) Earnings Call Highlights: Silicon Valley Surge Drives ...",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-trust-cldt-q3-011124012.html",
+      "published_at": "2026-11-06T01:11:24+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chatham Lodging (CLDT) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chatham-lodging-cldt-q3-2026-211813781.html",
+      "published_at": "2026-11-05T21:18:13+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chatham Lodging (CLDT) Q3 FFO and Revenues Surpass Estimates",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-cldt-q3-ffo-121504691.html",
+      "published_at": "2026-11-05T12:15:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chatham Lodging: Q3 Earnings Snapshot",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-q3-earnings-snapshot-114617781.html",
+      "published_at": "2026-11-05T11:46:17+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Chatham Lodging Announces Third Quarter 2026 Results",
+      "url": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-announces-third-quarter-113000194.html",
+      "published_at": "2026-11-05T11:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CLDT/0001437749-26-035103_1476045"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CLDT/0001437749-26-030271_1476045"
+    }
+  ],
+  "warnings": [],
+  "sector": "Real Estate",
+  "industry": "REIT - Hotel & Motel",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T16:39:46.982231+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 15.957351834610822,
+    "revenue_qoq_change": 3.5499521661883193,
+    "eps_yoy_change": 266.6666666666667,
+    "eps_qoq_change": -15.384615384615385,
+    "latest_eps": 0.11,
+    "gross_margin": 38.53015255001595,
+    "operating_margin": 15.819227681173768,
+    "net_margin": 7.979454691435422,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -3.0463354519382424,
+    "free_cash_flow_ttm": 79996000.0,
+    "operating_cash_flow_ttm": 80064000.0,
+    "revenue_ttm": 313967000.0,
+    "net_income_ttm": 15777000.0,
+    "ebitda_ttm": 101648000.0,
+    "total_debt": 424163000.0,
+    "cash": 14021000.0,
+    "total_assets": 1229928000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 78409000.0,
+      "2025-12-31": 67738000.0,
+      "2026-03-31": 67504000.0,
+      "2026-06-30": 87804000.0,
+      "2026-09-30": 90921000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.03,
+      "2025-12-31": 0.05,
+      "2026-03-31": -0.13,
+      "2026-06-30": 0.13,
+      "2026-09-30": 0.11
+    },
+    "quarterly_inventory": {},
+    "margin_change": -2.1616154787754525,
+    "operating_margin_yoy_change": 3.200778268478796,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.479110861969573,
+    "net_debt": 410142000.0,
+    "net_debt_to_ebitda": 4.034924445144027,
+    "debt_to_assets": 34.48681548838631
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CLDT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

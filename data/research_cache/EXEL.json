@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "ticker": "EXEL",
+  "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.194979548477212,
+    "revenue_qoq_change": 4.772781498035594,
+    "eps_yoy_change": 23.188405797101463,
+    "eps_qoq_change": 3.658536585365857,
+    "latest_eps": 0.85,
+    "gross_margin": 96.01743444623924,
+    "operating_margin": 40.75066495014392,
+    "net_margin": 33.11011452931246,
+    "inventory_yoy_change": 9.010291219619004,
+    "inventory_qoq_change": 3.975077447874975,
+    "shares_yoy_change": -8.178864415603071,
+    "free_cash_flow_ttm": 1144486000.0,
+    "operating_cash_flow_ttm": 1173057000.0,
+    "revenue_ttm": 2496861000.0,
+    "net_income_ttm": 885140000.0,
+    "ebitda_ttm": 1031901000.0,
+    "total_debt": 162201000.0,
+    "cash": 892018000.0,
+    "total_assets": 2513489000.0,
+    "margin_change": -0.6968444511505822,
+    "operating_margin_yoy_change": -2.1358019133703934,
+    "inventory_to_sales_ratio": 0.045348688924784726,
+    "fcf_margin": 45.836992928320804,
+    "net_debt": -729817000.0,
+    "net_debt_to_ebitda": -0.7072548626273257,
+    "debt_to_assets": 6.453221000768254,
+    "market_cap": 16836751360.0,
+    "enterprise_value": 16106934272.0,
+    "forward_pe": 16.142466,
+    "trailing_pe": 20.658684,
+    "ev_ebitda": 15.609,
+    "fcf_yield": 6.797546483456533,
+    "eps_fy0": 3.75111,
+    "revenue_fy0": 2555399790.0,
+    "analysts_fy0": 9.0,
+    "eps_fy1": 4.27444,
+    "revenue_fy1": 2876405910.0,
+    "analysts_fy1": 9.0,
+    "forward_eps_growth": 13.951337070893688,
+    "forward_revenue_growth": 12.561874711588672,
+    "eps_revision_30d": 0.4568742655699287,
+    "eps_revision_90d": 5.558930591158062,
+    "eps_surprise_pct": 3.9823008849557473
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:45.756051+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Exelixis Has 2 Major Catalysts Coming by March 2027. Here's What Investors Should Watch.",
+      "url": "https://finance.yahoo.com/healthcare/articles/exelixis-2-major-catalysts-coming-122500002.html",
+      "published_at": "2026-11-13T12:25:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Forget clinical cash burns: Why Exelixis is up 38% since June",
+      "url": "https://finance.yahoo.com/healthcare/articles/forget-clinical-cash-burns-why-071511362.html",
+      "published_at": "2026-11-12T07:15:11+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exelixis Nears FDA Decision, Key Kidney Cancer Data for Zanzalintinib",
+      "url": "https://finance.yahoo.com/healthcare/articles/exelixis-nears-fda-decision-key-221230473.html",
+      "published_at": "2026-11-11T22:12:30+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exelixis Bets on Zanza as Next Cancer Franchise as FDA Decision Nears",
+      "url": "https://finance.yahoo.com/healthcare/articles/exelixis-bets-zanza-next-cancer-051426085.html",
+      "published_at": "2026-11-11T05:14:26+00:00",
+      "categories": []
+    },
+    {
+      "title": "Short Sellers Are Betting Against This Biotech Stock at All-Time Highs, But You Should Still Add it to Your Watchlist",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/short-sellers-betting-against-biotech-163503748.html",
+      "published_at": "2026-11-09T16:35:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exelixis to Webcast Fireside Chats as Part of Upcoming Investor Conferences in November",
+      "url": "https://finance.yahoo.com/healthcare/articles/exelixis-webcast-fireside-chats-part-210500391.html",
+      "published_at": "2026-11-03T21:05:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exelixis (EXEL) International Revenue in Focus: Trends and Expectations",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exelixis-exel-international-revenue-focus-131503844.html",
+      "published_at": "2026-11-02T13:15:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Earnings Beat Could Be A Game Changer For Exelixis Stock (EXEL)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-could-game-changer-120812770.html",
+      "published_at": "2026-10-31T12:08:12+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/EXEL/0000939767-26-000114_939767"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/EXEL/0000939767-26-000108_939767"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/EXEL/0000939767-26-000104_939767"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T16:39:45.756051+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 10.194979548477212,
+    "revenue_qoq_change": 4.772781498035594,
+    "eps_yoy_change": 23.188405797101463,
+    "eps_qoq_change": 3.658536585365857,
+    "latest_eps": 0.85,
+    "gross_margin": 96.01743444623924,
+    "operating_margin": 40.75066495014392,
+    "net_margin": 33.11011452931246,
+    "inventory_yoy_change": 9.010291219619004,
+    "inventory_qoq_change": 3.975077447874975,
+    "shares_yoy_change": -8.178864415603071,
+    "free_cash_flow_ttm": 1144486000.0,
+    "operating_cash_flow_ttm": 1173057000.0,
+    "revenue_ttm": 2496861000.0,
+    "net_income_ttm": 885140000.0,
+    "ebitda_ttm": 1031901000.0,
+    "total_debt": 162201000.0,
+    "cash": 892018000.0,
+    "total_assets": 2513489000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 597755000.0,
+      "2025-12-31": 598663000.0,
+      "2026-03-31": 610812000.0,
+      "2026-06-30": 628690000.0,
+      "2026-09-30": 658696000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.69,
+      "2025-12-31": 0.88,
+      "2026-03-31": 0.79,
+      "2026-06-30": 0.82,
+      "2026-09-30": 0.85
+    },
+    "quarterly_inventory": {
+      "2025-06-30": null,
+      "2025-09-30": 27402000.0,
+      "2025-12-31": 21686000.0,
+      "2026-03-31": 26605000.0,
+      "2026-06-30": 28729000.0,
+      "2026-09-30": 29871000.0
+    },
+    "margin_change": -0.6968444511505822,
+    "operating_margin_yoy_change": -2.1358019133703934,
+    "inventory_to_sales_ratio": 0.045348688924784726,
+    "fcf_margin": 45.836992928320804,
+    "net_debt": -729817000.0,
+    "net_debt_to_ebitda": -0.7072548626273257,
+    "debt_to_assets": 6.453221000768254
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/EXEL/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

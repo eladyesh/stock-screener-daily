@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "ticker": "COLM",
+  "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+  "metrics": {
+    "revenue_yoy_change": 2.030580067307941,
+    "revenue_qoq_change": 56.679937886783364,
+    "eps_yoy_change": 74.73684210526316,
+    "eps_qoq_change": 219.2307692307692,
+    "latest_eps": 1.66,
+    "gross_margin": 49.763968160634626,
+    "operating_margin": 11.386977940580646,
+    "net_margin": 8.80340583971028,
+    "inventory_yoy_change": 11.106640844630466,
+    "inventory_qoq_change": 1.6547263442722393,
+    "shares_yoy_change": -6.620477290223247,
+    "free_cash_flow_ttm": 275516000.0,
+    "operating_cash_flow_ttm": 335823000.0,
+    "revenue_ttm": 3426185000.0,
+    "net_income_ttm": 238768000.0,
+    "ebitda_ttm": 355004000.0,
+    "total_debt": 458135000.0,
+    "cash": 229579000.0,
+    "total_assets": 2790366000.0,
+    "margin_change": -8.578181907240662,
+    "operating_margin_yoy_change": 1.1703735470146501,
+    "inventory_to_sales_ratio": 0.9238090884724626,
+    "fcf_margin": 8.041480538850063,
+    "net_debt": 228556000.0,
+    "net_debt_to_ebitda": 0.6438124640849118,
+    "debt_to_assets": 16.418455500102855,
+    "market_cap": 3700572160.0,
+    "enterprise_value": 3929128192.0,
+    "forward_pe": 16.945087,
+    "trailing_pe": 16.218542,
+    "ev_ebitda": 13.097,
+    "fcf_yield": 7.445227064562903,
+    "eps_fy0": 4.8187,
+    "revenue_fy0": 3482658310.0,
+    "analysts_fy0": 6.0,
+    "eps_fy1": 4.33577,
+    "revenue_fy1": 3618823610.0,
+    "analysts_fy1": 7.0,
+    "forward_eps_growth": -10.021997634216696,
+    "forward_revenue_growth": 3.9098093433116654,
+    "eps_revision_30d": 3.7374747581085055,
+    "eps_revision_90d": 3.572187863543097,
+    "eps_surprise_pct": 29.316724703389486
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/financials/",
+      "retrieved_at": "2026-11-14T16:40:17.001664+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COLM/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Columbia Sportswear Insider Sold Shares Worth $1,348,021, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-insider-sold-shares-085729863.html",
+      "published_at": "2026-11-05T08:57:29+00:00",
+      "categories": []
+    },
+    {
+      "title": "Columbia Sportswear raises FY26 outlook after Q3 profit growth",
+      "url": "https://finance.yahoo.com/news/columbia-sportswear-raises-fy26-outlook-114833036.html",
+      "published_at": "2026-11-02T11:48:33+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Columbia Sportswear (COLM) Stock Gets Fair Value Bump After Split Analyst Views",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-colm-stock-gets-050922091.html",
+      "published_at": "2026-11-02T05:09:22+00:00",
+      "categories": []
+    },
+    {
+      "title": "Columbia Sportswear Stock Earnings Beat Raises Full Year Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-stock-earnings-beat-131632467.html",
+      "published_at": "2026-11-01T13:16:32+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Columbia Sportswear (COLM) Raises Guidance After Q3 Beat But Is The Stock Already Fully Valued",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-colm-raises-guidance-101142424.html",
+      "published_at": "2026-11-01T10:11:42+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "COLM Q3 deep dive: growth in international markets and DTC channel drive outperformance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/colm-q3-deep-dive-growth-041900376.html",
+      "published_at": "2026-11-01T04:19:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Columbia Sportswear: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-3-key-takeaways-164635221.html",
+      "published_at": "2026-10-31T16:46:35+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/COLM/0001050797-26-000162_1050797"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/COLM/0001050797-26-000148_1050797"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Manufacturing",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T16:40:17.001664+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 2.030580067307941,
+    "revenue_qoq_change": 56.679937886783364,
+    "eps_yoy_change": 74.73684210526316,
+    "eps_qoq_change": 219.2307692307692,
+    "latest_eps": 1.66,
+    "gross_margin": 49.763968160634626,
+    "operating_margin": 11.386977940580646,
+    "net_margin": 8.80340583971028,
+    "inventory_yoy_change": 11.106640844630466,
+    "inventory_qoq_change": 1.6547263442722393,
+    "shares_yoy_change": -6.620477290223247,
+    "free_cash_flow_ttm": 275516000.0,
+    "operating_cash_flow_ttm": 335823000.0,
+    "revenue_ttm": 3426185000.0,
+    "net_income_ttm": 238768000.0,
+    "ebitda_ttm": 355004000.0,
+    "total_debt": 458135000.0,
+    "cash": 229579000.0,
+    "total_assets": 2790366000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 943425000.0,
+      "2025-12-31": 1070228000.0,
+      "2026-03-31": 779013000.0,
+      "2026-06-30": 614362000.0,
+      "2026-09-30": 962582000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 0.95,
+      "2025-12-31": 1.73,
+      "2026-03-31": 0.65,
+      "2026-06-30": 0.52,
+      "2026-09-30": 1.66
+    },
+    "quarterly_inventory": {
+      "2025-09-30": 800350000.0,
+      "2025-12-31": 689456000.0,
+      "2026-03-31": 623971000.0,
+      "2026-06-30": 874767000.0,
+      "2026-09-30": 889242000.0
+    },
+    "margin_change": -8.578181907240662,
+    "operating_margin_yoy_change": 1.1703735470146501,
+    "inventory_to_sales_ratio": 0.9238090884724626,
+    "fcf_margin": 8.041480538850063,
+    "net_debt": 228556000.0,
+    "net_debt_to_ebitda": 0.6438124640849118,
+    "debt_to_assets": 16.418455500102855
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/COLM/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

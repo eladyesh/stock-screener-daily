@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "ticker": "CROX",
+  "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+  "metrics": {
+    "revenue_yoy_change": 4.6453832727258115,
+    "revenue_qoq_change": -11.60565610936456,
+    "eps_yoy_change": 67.40740740740738,
+    "eps_qoq_change": 9.443099273607736,
+    "latest_eps": 4.52,
+    "gross_margin": 66.15626765446972,
+    "operating_margin": 28.00036064274979,
+    "net_margin": 20.790191284530824,
+    "inventory_yoy_change": 4.018656519078356,
+    "inventory_qoq_change": 6.119544104498309,
+    "shares_yoy_change": -11.178202967271112,
+    "free_cash_flow_ttm": 753993000.0,
+    "operating_cash_flow_ttm": 813719000.0,
+    "revenue_ttm": 4101148000.0,
+    "net_income_ttm": 664363000.0,
+    "ebitda_ttm": 1009953000.0,
+    "total_debt": 1663118000.0,
+    "cash": 163457000.0,
+    "total_assets": 4280671000.0,
+    "margin_change": 6.74753422550004,
+    "operating_margin_yoy_change": 7.157262020947744,
+    "inventory_to_sales_ratio": 0.39616030570227984,
+    "fcf_margin": 18.384925391622055,
+    "net_debt": 1499661000.0,
+    "net_debt_to_ebitda": 1.4848819697550282,
+    "debt_to_assets": 38.85180617711569,
+    "market_cap": 7486103552.0,
+    "enterprise_value": 8985764864.0,
+    "forward_pe": 10.22549,
+    "trailing_pe": 12.40303,
+    "ev_ebitda": 9.488,
+    "fcf_yield": 10.071901821322815,
+    "eps_fy0": 14.63451,
+    "revenue_fy0": 4176796150.0,
+    "analysts_fy0": 14.0,
+    "eps_fy1": 16.01097,
+    "revenue_fy1": 4335597190.0,
+    "analysts_fy1": 15.0,
+    "forward_eps_growth": 9.405576271429661,
+    "forward_revenue_growth": 3.801982052679298,
+    "eps_revision_30d": 7.120219606562772,
+    "eps_revision_90d": 7.287682431617459,
+    "eps_surprise_pct": 11.497878820841944
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/financials/",
+      "retrieved_at": "2026-11-14T16:39:55.199170+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Is It Worth Investing in Crocs (CROX) Based on Wall Street's Bullish Views?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-crocs-crox-based-133005024.html",
+      "published_at": "2026-11-13T13:30:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Undervalued Stocks To Own In November 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-undervalued-stocks-own-november-043427585.html",
+      "published_at": "2026-11-13T04:34:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Shoe Shipments and Manufacturing Revenue Down at Yue Yuen",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shoe-shipments-manufacturing-revenue-down-190747505.html",
+      "published_at": "2026-11-12T19:07:47+00:00",
+      "categories": []
+    },
+    {
+      "title": "G-III's DTC Strategy Gains Traction as DKNY & Donna Karan Grow Online",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/g-iiis-dtc-strategy-gains-160000366.html",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Crocs Product Innovation Pipeline: Can Newness Revive U.S. Growth?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crocs-product-innovation-pipeline-newness-185400805.html",
+      "published_at": "2026-11-10T18:54:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Want to Escape the AI Sell-Off? This ETF Offers a Surprising Alternative",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/want-escape-ai-sell-off-180000908.html",
+      "published_at": "2026-11-09T18:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Under Armour's Q2 Earnings Beat Estimates on Cost Discipline",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/under-armours-q2-earnings-beat-134000338.html",
+      "published_at": "2026-11-09T13:40:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Crocs Heads 3 Undervalued Stocks To Watch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crocs-heads-3-undervalued-stocks-091429717.html",
+      "published_at": "2026-11-09T09:14:29+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "SMACH THOMAS J",
+      "date": "2026-09-15",
+      "value": 75813.0,
+      "description": "Purchase at price 111.49 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "KAPLAN BETH JANELL",
+      "date": "2026-09-15",
+      "value": 99228.0,
+      "description": "Purchase at price 112.12 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    },
+    {
+      "name": "SMACH THOMAS J",
+      "date": "2026-09-10",
+      "value": 437530.0,
+      "description": "Purchase at price 109.26 - 109.42 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-10-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CROX/0001334036-26-000058_1334036"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Cyclical",
+  "industry": "Footwear & Accessories",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T16:39:55.199170+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 4.6453832727258115,
+    "revenue_qoq_change": -11.60565610936456,
+    "eps_yoy_change": 67.40740740740738,
+    "eps_qoq_change": 9.443099273607736,
+    "latest_eps": 4.52,
+    "gross_margin": 66.15626765446972,
+    "operating_margin": 28.00036064274979,
+    "net_margin": 20.790191284530824,
+    "inventory_yoy_change": 4.018656519078356,
+    "inventory_qoq_change": 6.119544104498309,
+    "shares_yoy_change": -11.178202967271112,
+    "free_cash_flow_ttm": 753993000.0,
+    "operating_cash_flow_ttm": 813719000.0,
+    "revenue_ttm": 4101148000.0,
+    "net_income_ttm": 664363000.0,
+    "ebitda_ttm": 1009953000.0,
+    "total_debt": 1663118000.0,
+    "cash": 163457000.0,
+    "total_assets": 4280671000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 996301000.0,
+      "2025-12-31": 957640000.0,
+      "2026-03-31": 921457000.0,
+      "2026-06-30": 1179468000.0,
+      "2026-09-30": 1042583000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 2.7,
+      "2025-12-31": 2.03,
+      "2026-03-31": 2.71,
+      "2026-06-30": 4.13,
+      "2026-09-30": 4.52
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 397073000.0,
+      "2025-12-31": 368687000.0,
+      "2026-03-31": 397557000.0,
+      "2026-06-30": 389212000.0,
+      "2026-09-30": 413030000.0
+    },
+    "margin_change": 6.74753422550004,
+    "operating_margin_yoy_change": 7.157262020947744,
+    "inventory_to_sales_ratio": 0.39616030570227984,
+    "fcf_margin": 18.384925391622055,
+    "net_debt": 1499661000.0,
+    "net_debt_to_ebitda": 1.4848819697550282,
+    "debt_to_assets": 38.85180617711569
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CROX/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

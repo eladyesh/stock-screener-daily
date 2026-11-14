@@ -1,14 +1,42 @@
 {
   "data": {
-    "ticker": "EIC",
-    "fetch_date": "2026-05-11T15:48:36.389723",
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T15:33:44.137042+00:00",
+    "report_period": "2026-06-30",
+    "revenue_yoy_change": 44.28077487735986,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 839.2233333333334,
+    "eps_qoq_change": null,
+    "latest_eps": 0.845301,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 96.53966267118162,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -13.089649891743726,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": null,
+    "cash": 5518045.0,
+    "total_assets": 336849814.0,
+    "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 13984613.0
+      "2025-06-30": 13984613.0,
+      "2026-06-30": 20177108.0
     },
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.09
+      "2025-06-30": 0.09,
+      "2026-06-30": 0.845301
     },
-    "inventory_breakdown_available": false
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "ticker": "EIC"
   },
-  "fetched_at": "2026-05-11T15:48:36.390045"
+  "fetched_at": "2026-11-14T15:33:44.137855"
 }

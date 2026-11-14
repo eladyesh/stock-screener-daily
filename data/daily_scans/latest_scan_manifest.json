@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-13T18:00:28.645304+00:00",
-  "github_run_id": "43462634990",
+  "generated_at": "2026-11-14T16:40:25.825802+00:00",
+  "github_run_id": "43608315105",
   "github_run_attempt": "1",
-  "report_sha256": "4a11d5220f354b97bf6fda2582d79f59499bfee34d8b4b4e62eeb73c2b14af9e",
+  "report_sha256": "279a3721de9fea28af2848f89065f279ff80795c0f0e3b590d4902d58dc8a431",
   "universe": 5554,
-  "analyzed": 2684,
+  "analyzed": 2687,
   "error_rate": 0.0,
-  "buy_signals": 20,
-  "sell_signals": 670,
+  "buy_signals": 29,
+  "sell_signals": 665,
   "price_dates": [
-    "2026-11-12"
+    "2026-11-13"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-13T16:26:17.828575+00:00",
+    "fetched_at": "2026-11-14T15:06:49.988230+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
@@ -50,8 +50,8 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 24,
     "profile_resolution": {
-      "calls": 0,
-      "cache_hits": 90,
+      "calls": 24,
+      "cache_hits": 66,
       "deferred": 0,
       "provider_blocked": false
     },
@@ -61,22 +61,22 @@
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
-      "CBRL",
+      "CVX",
       "FAST",
       "BKH",
-      "AFG"
+      "AAPL"
     ],
     "months_to_18m": [
       "APA",
       "EOG",
       "ADI",
+      "EXEL",
+      "CROX",
       "DIOD",
+      "ICE",
+      "SHEL",
       "DK",
-      "CORT",
-      "ERO",
-      "ASML",
-      "DHT",
-      "FANG"
+      "CORT"
     ]
   },
   "strategy_version": "multifactor-v3"

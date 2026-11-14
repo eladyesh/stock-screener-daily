@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "ticker": "SHEL",
+  "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+  "metrics": {
+    "revenue_yoy_change": 36.2346485114375,
+    "revenue_qoq_change": -1.918363897574582,
+    "eps_yoy_change": 136.66666666666666,
+    "eps_qoq_change": 10.9375,
+    "latest_eps": 4.26,
+    "gross_margin": 22.457134240909873,
+    "operating_margin": 18.76292434947441,
+    "net_margin": 12.985740134413234,
+    "inventory_yoy_change": 29.939335748265172,
+    "inventory_qoq_change": 11.764705882352944,
+    "shares_yoy_change": -4.312563494751098,
+    "free_cash_flow_ttm": 37360000000.0,
+    "operating_cash_flow_ttm": 57975000000.0,
+    "revenue_ttm": 321296000000.0,
+    "net_income_ttm": 32706000000.0,
+    "ebitda_ttm": 77699000000.0,
+    "total_debt": 76075000000.0,
+    "cash": 36425000000.0,
+    "total_assets": 420574000000.0,
+    "margin_change": 2.940739412886547,
+    "operating_margin_yoy_change": 7.414927929654299,
+    "inventory_to_sales_ratio": 0.3206638807513355,
+    "fcf_margin": 11.627906976744185,
+    "net_debt": 39650000000.0,
+    "net_debt_to_ebitda": 0.5103025778967555,
+    "debt_to_assets": 18.088374459667026,
+    "market_cap": 280064360448.0,
+    "enterprise_value": 324567302144.0,
+    "forward_pe": 8.834329,
+    "trailing_pe": 8.600695,
+    "ev_ebitda": 4.804,
+    "fcf_yield": 13.33979087529657,
+    "eps_fy0": 13.42419,
+    "revenue_fy0": 351266650100.0,
+    "analysts_fy0": 12.0,
+    "eps_fy1": 11.21534,
+    "revenue_fy1": 328940947670.0,
+    "analysts_fy1": 12.0,
+    "forward_eps_growth": -16.454251615926175,
+    "forward_revenue_growth": -6.355770587285825,
+    "eps_revision_30d": 6.600170707180153,
+    "eps_revision_90d": 27.165258801519364,
+    "eps_surprise_pct": 5.045161255208042
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/financials/",
+      "retrieved_at": "2026-11-14T16:39:34.455304+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/key-statistics/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SHEL/analysis/",
+      "retrieved_at": "2026-11-14T16:39:27.490779+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "LNG Prices Soar. These Exporters Could Benefit as Europe Faces a Tough Winter.",
+      "url": "https://finance.yahoo.com/m/5fef9226-3cb9-3b45-a586-360f6a74b7d9/lng-prices-soar.-these.html",
+      "published_at": "2026-11-13T20:18:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Transaction in Own Shares",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/transaction-own-shares-154100485.html",
+      "published_at": "2026-11-13T15:41:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Global Hydrogen Refueling Station Construction Market Report 2026 | Capitalize on 24.0% CAGR as Shell, Linde, Air Liquide and Nel accelerate fast, smart and on-site stations",
+      "url": "https://finance.yahoo.com/energy/articles/global-hydrogen-refueling-station-construction-143400316.html",
+      "published_at": "2026-11-13T14:34:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Hornbeck Offshore Is 48% Below Its High. Its CEO Scrapped a Stock Sale, Then Bought $1.5 Million",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hornbeck-offshore-48-below-high-114659847.html",
+      "published_at": "2026-11-13T11:46:59+00:00",
+      "categories": []
+    },
+    {
+      "title": "FTSE 100 today: Stocks edge up as energy names track oil on U.S.-Iran tension",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-edge-084813171.html",
+      "published_at": "2026-11-13T08:48:13+00:00",
+      "categories": []
+    },
+    {
+      "title": "Seplat Energy And 2 British Energy Stocks To Watch",
+      "url": "https://finance.yahoo.com/energy/articles/seplat-energy-2-british-energy-232020296.html",
+      "published_at": "2026-11-12T23:20:20+00:00",
+      "categories": []
+    },
+    {
+      "title": "5 Stocks Analysts Are Downgrading Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-analysts-downgrading-now-205623990.html",
+      "published_at": "2026-11-12T20:56:23+00:00",
+      "categories": []
+    },
+    {
+      "title": "Chevron Q3 Earnings Surge on Strong Refining: Is the Stock a Buy Now?",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-q3-earnings-surge-strong-123000894.html",
+      "published_at": "2026-11-12T12:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-02",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-007013_1306965"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001628280-26-068044_1306965"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-006591_1306965"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-006483_1306965"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-006351_1306965"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-006246_1306965"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "25-NSE",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0000876661-26-000740_1306965"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-005865_1306965"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SHEL/0001171843-26-005830_1306965"
+    }
+  ],
+  "warnings": [],
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-14T16:39:34.455304+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 36.2346485114375,
+    "revenue_qoq_change": -1.918363897574582,
+    "eps_yoy_change": 136.66666666666666,
+    "eps_qoq_change": 10.9375,
+    "latest_eps": 4.26,
+    "gross_margin": 22.457134240909873,
+    "operating_margin": 18.76292434947441,
+    "net_margin": 12.985740134413234,
+    "inventory_yoy_change": 29.939335748265172,
+    "inventory_qoq_change": 11.764705882352944,
+    "shares_yoy_change": -4.312563494751098,
+    "free_cash_flow_ttm": 37360000000.0,
+    "operating_cash_flow_ttm": 57975000000.0,
+    "revenue_ttm": 321296000000.0,
+    "net_income_ttm": 32706000000.0,
+    "ebitda_ttm": 77699000000.0,
+    "total_debt": 76075000000.0,
+    "cash": 36425000000.0,
+    "total_assets": 420574000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 68153000000.0,
+      "2025-12-31": 64093000000.0,
+      "2026-03-31": 69691000000.0,
+      "2026-06-30": 94664000000.0,
+      "2026-09-30": 92848000000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 1.8,
+      "2025-12-31": 1.42,
+      "2026-03-31": 2.0,
+      "2026-06-30": 3.84,
+      "2026-09-30": 4.26
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 22913000000.0,
+      "2025-12-31": 22216000000.0,
+      "2026-03-31": 28700000000.0,
+      "2026-06-30": 26639000000.0,
+      "2026-09-30": 29773000000.0
+    },
+    "margin_change": 2.940739412886547,
+    "operating_margin_yoy_change": 7.414927929654299,
+    "inventory_to_sales_ratio": 0.3206638807513355,
+    "fcf_margin": 11.627906976744185,
+    "net_debt": 39650000000.0,
+    "net_debt_to_ebitda": 0.5103025778967555,
+    "debt_to_assets": 18.088374459667026
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/SHEL/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
