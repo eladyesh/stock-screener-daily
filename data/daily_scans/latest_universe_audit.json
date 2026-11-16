@@ -1,25 +1,25 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-15T15:40:56.898528+00:00",
+  "fetched_at": "2026-11-16T18:34:34.696048+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
-      "rows": 5603
+      "rows": 5601
     },
     "otherlisted": {
       "status": "ok",
-      "rows": 7682
+      "rows": 7681
     }
   },
   "complete": true,
-  "included": 5554,
-  "excluded": 7731,
+  "included": 5553,
+  "excluded": 7729,
   "reason_counts": {
-    "exchange_traded_fund": 5787,
-    "common_equity": 5514,
+    "exchange_traded_fund": 5788,
+    "common_equity": 5513,
     "unit": 313,
-    "warrant": 459,
+    "warrant": 457,
     "right": 142,
     "preferred": 467,
     "debt": 186,
@@ -27,7 +27,7 @@
     "unspecified_depositary_security": 3,
     "profile_supported_equity": 40,
     "test_issue": 38,
-    "profile_fund": 16,
+    "profile_fund": 15,
     "profile_incomplete": 8,
     "profile_name_mismatch": 13,
     "profile_non_common_instrument": 10,
@@ -37,7 +37,7 @@
   "unresolved_security_types": 24,
   "profile_resolution": {
     "calls": 24,
-    "cache_hits": 66,
+    "cache_hits": 65,
     "deferred": 0,
     "provider_blocked": false
   },
@@ -5561,15 +5561,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "BEATW",
-      "symbol": "BEATW",
-      "name": "Heartbeam, Inc. - Warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "BEDY",
       "symbol": "BEDY",
       "name": "BNY Mellon Enhanced Dividend and Income ETF",
@@ -7190,12 +7181,30 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "BRRK",
+      "symbol": "BRRK",
+      "name": "Bluerock Acquisition Corp. II - Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "BRRKU",
       "symbol": "BRRKU",
       "name": "Bluerock Acquisition Corp. II - Units",
       "included": false,
       "reason": "unit",
       "directory_reason": "unit"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "BRRKW",
+      "symbol": "BRRKW",
+      "name": "Bluerock Acquisition Corp. II - Warrants",
+      "included": false,
+      "reason": "warrant",
+      "directory_reason": "warrant"
     },
     {
       "source": "nasdaqlisted",
@@ -7718,15 +7727,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "BTBDW",
-      "symbol": "BTBDW",
-      "name": "BT Brands, Inc. - Warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
     },
     {
       "source": "nasdaqlisted",
@@ -9119,7 +9119,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CDZIP",
@@ -17044,7 +17044,7 @@
       "source": "nasdaqlisted",
       "directory_symbol": "FOFO",
       "symbol": "FOFO",
-      "name": "Hang Feng Technology Innovation Co., Ltd. - Ordinary Shares",
+      "name": "Hang Feng Technology Innovation Co., Ltd. - Class A Ordinary Shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -20468,6 +20468,15 @@
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "HCOP",
+      "symbol": "HCOP",
+      "name": "Hartford Hybrid and Credit Opportunities ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "nasdaqlisted",
@@ -28823,7 +28832,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "MNSBP",
@@ -31937,15 +31946,6 @@
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "NWE",
-      "symbol": "NWE",
-      "name": "NorthWestern Energy Group, Inc.  - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
     },
     {
       "source": "nasdaqlisted",
@@ -35099,15 +35099,6 @@
       "directory_symbol": "PLBY",
       "symbol": "PLBY",
       "name": "Playboy, Inc. - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "PLCE",
-      "symbol": "PLCE",
-      "name": "Children's Place, Inc. (The) - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -42593,15 +42584,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "STLNW",
-      "symbol": "STLNW",
-      "name": "Starling Oncology, Inc. - Warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "STNC",
       "symbol": "STNC",
       "name": "Hennessy Sustainable ETF",
@@ -48113,7 +48095,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "WAFDP",
@@ -57923,7 +57905,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "BIPC",
@@ -57933,7 +57915,7 @@
           "sector": "Utilities",
           "industry": "Utilities - Regulated Gas",
           "fullTimeEmployees": null,
-          "marketCap": 4866713600.0,
+          "marketCap": 4845799424.0,
           "sharesOutstanding": 123021062.0,
           "category": null,
           "fundFamily": null,
@@ -58211,15 +58193,6 @@
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "BKH",
-      "symbol": "BKH",
-      "name": "Black Hills Corporation Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
     },
     {
       "source": "otherlisted",
@@ -60224,7 +60197,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "BVN",
@@ -60234,7 +60207,7 @@
           "sector": "Basic Materials",
           "industry": "Other Precious Metals & Mining",
           "fullTimeEmployees": null,
-          "marketCap": 6306493952.0,
+          "marketCap": 6103304704.0,
           "sharesOutstanding": 253715190.0,
           "category": null,
           "fundFamily": null,
@@ -62183,7 +62156,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CHT",
@@ -62193,7 +62166,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": null,
-          "marketCap": 38686384128.0,
+          "marketCap": 38666993664.0,
           "sharesOutstanding": 775744655.0,
           "category": null,
           "fundFamily": null,
@@ -65954,7 +65927,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "DDT",
@@ -74573,7 +74546,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "FNV",
@@ -74583,7 +74556,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 47652048896.0,
+          "marketCap": 46756921344.0,
           "sharesOutstanding": 192915469.0,
           "category": null,
           "fundFamily": null,
@@ -75956,7 +75929,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "GAU",
@@ -75966,7 +75939,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 597484096.0,
+          "marketCap": 577830016.0,
           "sharesOutstanding": 262054430.0,
           "category": null,
           "fundFamily": null,
@@ -79562,7 +79535,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HESM",
@@ -79572,7 +79545,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas Midstream",
           "fullTimeEmployees": null,
-          "marketCap": 6381220864.0,
+          "marketCap": 6298748928.0,
           "sharesOutstanding": 128350881.0,
           "category": null,
           "fundFamily": null,
@@ -80072,7 +80045,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HMY",
@@ -80082,7 +80055,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 9461936128.0,
+          "marketCap": 9233069056.0,
           "sharesOutstanding": 627033514.0,
           "category": null,
           "fundFamily": null,
@@ -81059,6 +81032,15 @@
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "HZN",
+      "symbol": "HZN",
+      "name": "Bright Horizon Energy Corporation Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
     },
     {
       "source": "otherlisted",
@@ -83849,15 +83831,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "ITGR",
-      "symbol": "ITGR",
-      "name": "Integer Holdings Corporation Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "ITM",
       "symbol": "ITM",
       "name": "VanEck Intermediate Muni ETF",
@@ -86189,7 +86162,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "KB",
@@ -86199,7 +86172,7 @@
           "sector": "Financial Services",
           "industry": "Banks - Regional",
           "fullTimeEmployees": null,
-          "marketCap": 40761896960.0,
+          "marketCap": 40938942464.0,
           "sharesOutstanding": 347146111.0,
           "category": null,
           "fundFamily": null,
@@ -87476,39 +87449,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "KTF",
-      "symbol": "KTF",
-      "name": "DWS Municipal Income Trust",
-      "included": false,
-      "reason": "profile_fund",
-      "directory_reason": "ambiguous_security_type",
-      "profile": {
-        "source": "Yahoo Finance via yfinance",
-        "source_url": "https://finance.yahoo.com/quote/KTF/profile/",
-        "decision": "excluded",
-        "reason": "profile_fund",
-        "status": "ok",
-        "fetched_at": "2026-11-11T16:11:14.977977+00:00",
-        "cached": true,
-        "evidence": {
-          "symbol": "KTF",
-          "quoteType": "EQUITY",
-          "longName": "DWS Municipal Income Trust",
-          "shortName": "DWS Municipal Income Trust",
-          "sector": "Financial Services",
-          "industry": "Asset Management",
-          "fullTimeEmployees": null,
-          "marketCap": 323265600.0,
-          "sharesOutstanding": 39183709.0,
-          "category": null,
-          "fundFamily": null,
-          "legalType": null,
-          "longBusinessSummary": "Deutsche Municipal Income Trust is a closed-ended fixed income mutual fund launched and managed by Deutsche Investment Management Americas, Inc. It invests in the fixed income markets of the United States. The fund primarily invests in investment-grade tax-exempt municipal securities which are exempt from federal income tax. It seeks to invest in securities that are rated Baa or BBB or better by Moody's or S&P. The fund benchmarks the performance of its portfolio against the Barclays Municipal Bond Index. It was formerly known as DWS Municipal Income Trust. Deutsche Municipal Income Trust was formed on October 20, 1988 and is domiciled in the United States."
-        }
-      }
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "KTH",
       "symbol": "KTH",
       "name": "Structures Products Cp 8% CorTS Issued by Peco Energy Cap Tr II Preferred Stock",
@@ -88172,7 +88112,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "LEN-B",
@@ -88182,7 +88122,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Residential Construction",
           "fullTimeEmployees": 12532.0,
-          "marketCap": 19398385664.0,
+          "marketCap": 19424555008.0,
           "sharesOutstanding": 30024017.0,
           "category": null,
           "fundFamily": null,
@@ -89369,15 +89309,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "LVWR.W",
-      "symbol": "LVWR-W",
-      "name": "LiveWire Group, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
     },
     {
       "source": "otherlisted",
@@ -95054,7 +94985,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NRP",
@@ -95870,7 +95801,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NXB",
@@ -95880,7 +95811,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Auto & Truck Dealerships",
           "fullTimeEmployees": 40.0,
-          "marketCap": 35200052.0,
+          "marketCap": 34194340.0,
           "sharesOutstanding": 25142895.0,
           "category": null,
           "fundFamily": null,
@@ -97412,7 +97343,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "OVV",
@@ -97422,7 +97353,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 1465.0,
-          "marketCap": 17570820096.0,
+          "marketCap": 17284644864.0,
           "sharesOutstanding": 268708063.0,
           "category": null,
           "fundFamily": null,
@@ -97571,7 +97502,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAC",
@@ -97581,7 +97512,7 @@
           "sector": "Industrials",
           "industry": "Airports & Air Services",
           "fullTimeEmployees": 3892.0,
-          "marketCap": 14087056384.0,
+          "marketCap": 13991853056.0,
           "sharesOutstanding": 51922658.0,
           "category": null,
           "fundFamily": null,
@@ -97694,7 +97625,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAM",
@@ -97704,7 +97635,7 @@
           "sector": "Industrials",
           "industry": "Conglomerates",
           "fullTimeEmployees": null,
-          "marketCap": 3495501824.0,
+          "marketCap": 3343503104.0,
           "sharesOutstanding": 53603771.0,
           "category": null,
           "fundFamily": null,
@@ -99983,9 +99914,27 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "PORT",
+      "symbol": "PORT",
+      "name": "Southport Acquisition Corp. II Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "PORT.U",
       "symbol": "PORT-U",
       "name": "Southport Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",
+      "included": false,
+      "reason": "warrant",
+      "directory_reason": "warrant"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "PORT.W",
+      "symbol": "PORT-W",
+      "name": "Southport Acquisition Corp. II Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
       "included": false,
       "reason": "warrant",
       "directory_reason": "warrant"
@@ -101336,7 +101285,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PYT",
@@ -105173,7 +105122,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SAR",
@@ -105183,7 +105132,7 @@
           "sector": "Financial Services",
           "industry": "Asset Management",
           "fullTimeEmployees": null,
-          "marketCap": 178469056.0,
+          "marketCap": 169911248.0,
           "sharesOutstanding": 15559638.0,
           "category": null,
           "fundFamily": null,
@@ -108443,7 +108392,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SOR",
@@ -111437,7 +111386,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TEO",
@@ -112313,7 +112262,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TLK",
@@ -112323,7 +112272,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": 17442.0,
-          "marketCap": 11491196928.0,
+          "marketCap": 11530584064.0,
           "sharesOutstanding": 979518173.0,
           "category": null,
           "fundFamily": null,
@@ -116318,7 +116267,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-15T15:40:28.823684+00:00",
+        "fetched_at": "2026-11-16T18:34:06.028980+00:00",
         "cached": false,
         "evidence": {
           "symbol": "VET",
@@ -116328,7 +116277,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 636.0,
-          "marketCap": 1663885952.0,
+          "marketCap": 1632091904.0,
           "sharesOutstanding": 151400000.0,
           "category": null,
           "fundFamily": null,
@@ -121768,6 +121717,6 @@
       "directory_reason": "test_issue"
     }
   ],
-  "scan_requested_count": 5554,
+  "scan_requested_count": 5553,
   "test_mode": false
 }
