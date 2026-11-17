@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "ticker": "AMN",
+  "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+  "metrics": {
+    "revenue_yoy_change": 13.045945128101666,
+    "revenue_qoq_change": 6.5407872710501636,
+    "eps_yoy_change": 9.210526315789469,
+    "eps_qoq_change": 56.603773584905646,
+    "latest_eps": 0.83,
+    "gross_margin": 31.943669904861753,
+    "operating_margin": 7.042934897779364,
+    "net_margin": 4.6556954683857725,
+    "shares_yoy_change": 3.8043056883674042,
+    "free_cash_flow_ttm": 326523000.0,
+    "operating_cash_flow_ttm": 360566000.0,
+    "revenue_ttm": 3517095000.0,
+    "net_income_ttm": 109024000.0,
+    "ebitda_ttm": 341522000.0,
+    "total_debt": 774929000.0,
+    "cash": 255978000.0,
+    "total_assets": 2292968000.0,
+    "margin_change": 1.3627600618198557,
+    "operating_margin_yoy_change": 5.713060477767261,
+    "fcf_margin": 9.283883432207546,
+    "net_debt": 518951000.0,
+    "net_debt_to_ebitda": 1.5195243644626115,
+    "debt_to_assets": 33.79589248519822,
+    "market_cap": 1491227392.0,
+    "enterprise_value": 2047584512.0,
+    "forward_pe": 41.117737,
+    "trailing_pe": 14.113138,
+    "ev_ebitda": 5.995,
+    "fcf_yield": 21.896258193197138,
+    "eps_fy0": 4.18741,
+    "revenue_fy0": 3431942730.0,
+    "analysts_fy0": 9.0,
+    "eps_fy1": 0.94047,
+    "revenue_fy1": 2719056130.0,
+    "analysts_fy1": 9.0,
+    "forward_eps_growth": -77.5405322144237,
+    "forward_revenue_growth": -20.77210070460587,
+    "eps_revision_30d": 0.1768195907585035,
+    "eps_revision_90d": -0.41191918336227484,
+    "eps_surprise_pct": 407.3921791619281
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/financials/",
+      "retrieved_at": "2026-11-17T19:11:10.560593+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMN/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Here's Why You Should Retain AMN Stock in Your Portfolio for Now",
+      "url": "https://finance.yahoo.com/healthcare/articles/heres-why-retain-amn-stock-151300141.html",
+      "published_at": "2026-11-12T15:13:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Eaton (ETN) Will Supply Hydraulic And Fuel Systems For A New Business Jet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-supply-hydraulic-fuel-161303354.html",
+      "published_at": "2026-11-11T16:13:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "AMN Q3 2026 deep dive: strong Nurse and Allied demand offsets international headwinds",
+      "url": "https://finance.yahoo.com/healthcare/articles/amn-q3-2026-deep-dive-112536784.html",
+      "published_at": "2026-11-10T11:25:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "AMN Healthcare Services (AMN) stock trades down, here is why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amn-healthcare-services-amn-stock-074136264.html",
+      "published_at": "2026-11-10T07:41:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "AMN Healthcare (AMN) Upgraded to Buy: What Does It Mean for the Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amn-healthcare-amn-upgraded-buy-160004309.html",
+      "published_at": "2026-11-09T16:00:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Eaton Wins Hydraulic Power System Contract for Dassault Falcon 10X",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-wins-hydraulic-power-system-141143240.html",
+      "published_at": "2026-11-09T14:11:43+00:00",
+      "categories": [
+        "corporate/regulatory"
+      ]
+    },
+    {
+      "title": "Eaton selected for Dassault Falcon 10X to support fuel-efficiency and performance objectives",
+      "url": "https://finance.yahoo.com/technology/articles/eaton-selected-dassault-falcon-10x-133300777.html",
+      "published_at": "2026-11-09T13:33:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "AMN Healthcare (AMN) Stock May Be 22% Undervalued As Strong Q3 Results Land",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amn-healthcare-amn-stock-may-081315451.html",
+      "published_at": "2026-11-08T08:13:15+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/AMN/0001628280-26-071229_1142750"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AMN/0001142750-26-000011_1142750"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-17T19:11:10.560593+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 13.045945128101666,
+    "revenue_qoq_change": 6.5407872710501636,
+    "eps_yoy_change": 9.210526315789469,
+    "eps_qoq_change": 56.603773584905646,
+    "latest_eps": 0.83,
+    "gross_margin": 31.943669904861753,
+    "operating_margin": 7.042934897779364,
+    "net_margin": 4.6556954683857725,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 3.8043056883674042,
+    "free_cash_flow_ttm": 326523000.0,
+    "operating_cash_flow_ttm": 360566000.0,
+    "revenue_ttm": 3517095000.0,
+    "net_income_ttm": 109024000.0,
+    "ebitda_ttm": 341522000.0,
+    "total_debt": 774929000.0,
+    "cash": 255978000.0,
+    "total_assets": 2292968000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 634496000.0,
+      "2025-12-31": 748225000.0,
+      "2026-03-31": 1378361000.0,
+      "2026-06-30": 673237000.0,
+      "2026-09-30": 717272000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.76,
+      "2025-12-31": -0.2,
+      "2026-03-31": 1.59,
+      "2026-06-30": 0.53,
+      "2026-09-30": 0.83
+    },
+    "quarterly_inventory": {},
+    "margin_change": 1.3627600618198557,
+    "operating_margin_yoy_change": 5.713060477767261,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 9.283883432207546,
+    "net_debt": 518951000.0,
+    "net_debt_to_ebitda": 1.5195243644626115,
+    "debt_to_assets": 33.79589248519822
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/AMN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

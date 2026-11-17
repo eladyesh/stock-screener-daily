@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "ticker": "DCTH",
+  "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+  "metrics": {
+    "revenue_yoy_change": 70.70466371638379,
+    "revenue_qoq_change": 20.488792777949392,
+    "eps_yoy_change": 750.0,
+    "eps_qoq_change": 142.85714285714283,
+    "latest_eps": 0.17,
+    "gross_margin": 88.8382428351661,
+    "operating_margin": 20.272349153894364,
+    "net_margin": 19.805139308301523,
+    "inventory_yoy_change": -2.27082363890182,
+    "inventory_qoq_change": -10.34747716212755,
+    "shares_yoy_change": 2.4034337828265695,
+    "free_cash_flow_ttm": 20110000.0,
+    "operating_cash_flow_ttm": 22993000.0,
+    "revenue_ttm": 109957000.0,
+    "net_income_ttm": 6654000.0,
+    "ebitda_ttm": 6299000.0,
+    "total_debt": 2408000.0,
+    "cash": 104315000.0,
+    "total_assets": 149090000.0,
+    "margin_change": -0.9156445090826963,
+    "operating_margin_yoy_change": 22.15923336339687,
+    "inventory_to_sales_ratio": 0.29915674320551533,
+    "fcf_margin": 18.288967505479413,
+    "net_debt": -101907000.0,
+    "net_debt_to_ebitda": -16.17828226702651,
+    "debt_to_assets": 1.6151317995841439,
+    "market_cap": 677671552.0,
+    "enterprise_value": 589331904.0,
+    "forward_pe": 71.48624,
+    "trailing_pe": 121.75,
+    "ev_ebitda": 96.014,
+    "fcf_yield": 2.9675142686231575,
+    "eps_fy0": 0.18,
+    "revenue_fy0": 116479600.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 0.2725,
+    "revenue_fy1": 139904000.0,
+    "analysts_fy1": 4.0,
+    "forward_eps_growth": 51.38888888888891,
+    "forward_revenue_growth": 20.110302576588523,
+    "eps_revision_30d": 505.5555555555556,
+    "eps_revision_90d": 505.5555555555556,
+    "eps_surprise_pct": null
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/financials/",
+      "retrieved_at": "2026-11-17T19:11:24.032371+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DCTH/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Delcath Systems (DCTH) is on the Move, Here's Why the Trend Could be Sustainable",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/delcath-systems-dcth-move-heres-125501478.html",
+      "published_at": "2026-11-13T12:55:01+00:00",
+      "categories": []
+    },
+    {
+      "title": "Delcath Systems, Inc. (DCTH) is a Great Momentum Stock: Should You Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/delcath-systems-inc-dcth-great-160002465.html",
+      "published_at": "2026-11-12T16:00:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Wall Street Analysts Think Delcath Systems (DCTH) Could Surge 27.7%: Read This Before Placing a Bet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-delcath-135502883.html",
+      "published_at": "2026-11-12T13:55:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Delcath Systems to Be Featured on \"Health Uncensored with Dr. Drew\" in Segment Highlighting Advances in Liver-Directed Cancer Treatment",
+      "url": "https://finance.yahoo.com/healthcare/articles/delcath-systems-featured-health-uncensored-210100051.html",
+      "published_at": "2026-11-11T21:01:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Delcath Systems Inc (DCTH) (Q3 2026) Earnings Call Highlights: Record Revenue, Raised Guidance ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/delcath-systems-inc-dcth-q3-010417531.html",
+      "published_at": "2026-11-10T01:04:17+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Delcath (DCTH) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/delcath-dcth-q3-2026-earnings-181320750.html",
+      "published_at": "2026-11-09T18:13:20+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Delcath Systems, Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/delcath-systems-inc-q3-2026-174849724.html",
+      "published_at": "2026-11-09T17:48:49+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Delcath Systems Reports 70% Revenue Growth in Q3 2026 and Raises Full-Year Guidance to $115 Million\u2013$117 Million",
+      "url": "https://finance.yahoo.com/healthcare/articles/delcath-systems-reports-70-revenue-154457463.html",
+      "published_at": "2026-11-09T15:44:57+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-09",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/DCTH/0001628280-26-071915_872912"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-17T19:11:24.032371+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 70.70466371638379,
+    "revenue_qoq_change": 20.488792777949392,
+    "eps_yoy_change": 750.0,
+    "eps_qoq_change": 142.85714285714283,
+    "latest_eps": 0.17,
+    "gross_margin": 88.8382428351661,
+    "operating_margin": 20.272349153894364,
+    "net_margin": 19.805139308301523,
+    "inventory_yoy_change": -2.27082363890182,
+    "inventory_qoq_change": -10.34747716212755,
+    "shares_yoy_change": 2.4034337828265695,
+    "free_cash_flow_ttm": 20110000.0,
+    "operating_cash_flow_ttm": 22993000.0,
+    "revenue_ttm": 109957000.0,
+    "net_income_ttm": 6654000.0,
+    "ebitda_ttm": 6299000.0,
+    "total_debt": 2408000.0,
+    "cash": 104315000.0,
+    "total_assets": 149090000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 20563000.0,
+      "2025-12-31": 20728000.0,
+      "2026-03-31": 24994000.0,
+      "2026-06-30": 29133000.0,
+      "2026-09-30": 35102000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.02,
+      "2025-12-31": -0.05,
+      "2026-03-31": -0.03,
+      "2026-06-30": 0.07,
+      "2026-09-30": 0.17
+    },
+    "quarterly_inventory": {
+      "2025-09-30": 10745000.0,
+      "2025-12-31": 10252000.0,
+      "2026-03-31": 9808000.0,
+      "2026-06-30": 11713000.0,
+      "2026-09-30": 10501000.0
+    },
+    "margin_change": -0.9156445090826963,
+    "operating_margin_yoy_change": 22.15923336339687,
+    "inventory_to_sales_ratio": 0.29915674320551533,
+    "fcf_margin": 18.288967505479413,
+    "net_debt": -101907000.0,
+    "net_debt_to_ebitda": -16.17828226702651,
+    "debt_to_assets": 1.6151317995841439
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/DCTH/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

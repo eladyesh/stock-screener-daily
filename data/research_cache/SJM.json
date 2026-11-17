@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "ticker": "SJM",
+  "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+  "metrics": {
+    "revenue_yoy_change": 5.015851985047082,
+    "revenue_qoq_change": -2.1515806181385266,
+    "eps_qoq_change": -16.758241758241766,
+    "latest_eps": 3.03,
+    "gross_margin": 44.14004415806786,
+    "operating_margin": 23.07934934438787,
+    "net_margin": 14.612715721173341,
+    "inventory_yoy_change": -14.393939393939393,
+    "inventory_qoq_change": 5.326231691078553,
+    "shares_yoy_change": 0.46904315196998336,
+    "free_cash_flow_ttm": 1588400000.0,
+    "operating_cash_flow_ttm": 1909900000.0,
+    "revenue_ttm": 9156900000.0,
+    "net_income_ttm": 229500000.0,
+    "ebitda_ttm": 1334600000.0,
+    "total_debt": 6897100000.0,
+    "cash": 43200000.0,
+    "total_assets": 16203200000.0,
+    "margin_change": 6.1302562298459975,
+    "operating_margin_yoy_change": 20.637670453553632,
+    "inventory_to_sales_ratio": 0.5346280358671653,
+    "fcf_margin": 17.346481887975187,
+    "net_debt": 6853900000.0,
+    "net_debt_to_ebitda": 5.135546231080474,
+    "debt_to_assets": 42.56628320331786,
+    "market_cap": 14341012480.0,
+    "enterprise_value": 21375813632.0,
+    "forward_pe": 12.207397,
+    "trailing_pe": 62.733643,
+    "ev_ebitda": 9.442,
+    "fcf_yield": 11.075926488559892,
+    "eps_fy0": 10.77667,
+    "revenue_fy0": 8932698270.0,
+    "analysts_fy0": 18.0,
+    "eps_fy1": 9.24333,
+    "revenue_fy1": 9040664490.0,
+    "analysts_fy1": 6.0,
+    "forward_eps_growth": -14.228328416848612,
+    "forward_revenue_growth": 1.2086630124136022,
+    "eps_revision_30d": 2.249225663716836,
+    "eps_revision_90d": 2.521406388642422,
+    "eps_surprise_pct": 46.182339910034685,
+    "days_to_earnings": 7.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/financials/",
+      "retrieved_at": "2026-11-17T19:11:19.120775+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SJM/calendar/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "J. M. Smucker (SJM) Raises Dividend Again With Valuation Still In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/j-m-smucker-sjm-raises-181018021.html",
+      "published_at": "2026-11-17T18:10:18+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Threatens Keurig Dr Pepper Stock Most?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/threatens-keurig-dr-pepper-stock-173814557.html",
+      "published_at": "2026-11-17T17:38:14+00:00",
+      "categories": []
+    },
+    {
+      "title": "How Dividend Raise Will Impact Smucker Stock Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-raise-impact-smucker-stock-171150315.html",
+      "published_at": "2026-11-17T17:11:50+00:00",
+      "categories": []
+    },
+    {
+      "title": "4 Consumer Staples Stocks Yielding Over 3% That Retirees Can Rely On in Any Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/4-consumer-staples-stocks-yielding-120056628.html",
+      "published_at": "2026-11-17T12:00:56+00:00",
+      "categories": []
+    },
+    {
+      "title": "Jefferies Adjusts Price Target on J.M. Smucker to $156 From $152",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-j-104727521.html",
+      "published_at": "2026-11-17T10:47:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Zacks.com featured highlights include NVIDIA, J.M. Smucker, Taiwan Semiconductor, Corning, Lockheed and Cardinal Health",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-nvidia-070800949.html",
+      "published_at": "2026-11-17T07:08:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "$200,000 in These 2 Food Dividend Stocks Could Pay $8,400 a Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/200-000-2-food-dividend-194708761.html",
+      "published_at": "2026-11-16T19:47:08+00:00",
+      "categories": []
+    },
+    {
+      "title": "Meow Mix reimagines iconic cat memes for multichannel campaign",
+      "url": "https://finance.yahoo.com/media-advertising/articles/meow-mix-reimagines-iconic-cat-150800809.html",
+      "published_at": "2026-11-16T15:08:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-09-23",
+      "type": "S-3ASR",
+      "url": "https://finance.yahoo.com/sec-filing/SJM/0001193125-26-399455_91419"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/SJM/0000091419-26-000080_91419"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-17T19:11:19.120775+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 5.015851985047082,
+    "revenue_qoq_change": -2.1515806181385266,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -16.758241758241766,
+    "latest_eps": 3.03,
+    "gross_margin": 44.14004415806786,
+    "operating_margin": 23.07934934438787,
+    "net_margin": 14.612715721173341,
+    "inventory_yoy_change": -14.393939393939393,
+    "inventory_qoq_change": 5.326231691078553,
+    "shares_yoy_change": 0.46904315196998336,
+    "free_cash_flow_ttm": 1588400000.0,
+    "operating_cash_flow_ttm": 1909900000.0,
+    "revenue_ttm": 9156900000.0,
+    "net_income_ttm": 229500000.0,
+    "ebitda_ttm": 1334600000.0,
+    "total_debt": 6897100000.0,
+    "cash": 43200000.0,
+    "total_assets": 16203200000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-04-30": null,
+      "2025-07-31": 2113300000.0,
+      "2025-10-31": 2330100000.0,
+      "2026-01-31": 2339400000.0,
+      "2026-04-30": 2268100000.0,
+      "2026-07-31": 2219300000.0
+    },
+    "quarterly_eps": {
+      "2025-04-30": null,
+      "2025-07-31": -0.41,
+      "2025-10-31": 2.26,
+      "2026-01-31": -6.79,
+      "2026-04-30": 3.64,
+      "2026-07-31": 3.03
+    },
+    "quarterly_inventory": {
+      "2025-04-30": null,
+      "2025-07-31": 1386000000.0,
+      "2025-10-31": 1354200000.0,
+      "2026-01-31": 1171100000.0,
+      "2026-04-30": 1126500000.0,
+      "2026-07-31": 1186500000.0
+    },
+    "margin_change": 6.1302562298459975,
+    "operating_margin_yoy_change": 20.637670453553632,
+    "inventory_to_sales_ratio": 0.5346280358671653,
+    "fcf_margin": 17.346481887975187,
+    "net_debt": 6853900000.0,
+    "net_debt_to_ebitda": 5.135546231080474,
+    "debt_to_assets": 42.56628320331786
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-11-24"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/SJM/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "ticker": "CHD",
+  "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+  "metrics": {
+    "revenue_yoy_change": 1.0406155398587247,
+    "eps_yoy_change": 18.666666666666675,
+    "eps_qoq_change": 4.705882352941182,
+    "latest_eps": 0.89,
+    "gross_margin": 46.77610636040197,
+    "operating_margin": 18.188627426502716,
+    "net_margin": 13.245115785531489,
+    "inventory_yoy_change": -2.3324065492740242,
+    "shares_yoy_change": -1.8503289473684181,
+    "total_debt": 2206900000.0,
+    "cash": 446900000.0,
+    "total_assets": 9338900000.0,
+    "operating_margin_yoy_change": 2.1316143084401524,
+    "inventory_to_sales_ratio": 0.39466949628612447,
+    "net_debt": 1760000000.0,
+    "debt_to_assets": 23.63126278255469,
+    "market_cap": 26579568640.0,
+    "enterprise_value": 29009317888.0,
+    "forward_pe": 27.775312,
+    "trailing_pe": 34.542946,
+    "ev_ebitda": 20.854,
+    "eps_fy0": 3.77419,
+    "revenue_fy0": 6245192250.0,
+    "analysts_fy0": 19.0,
+    "eps_fy1": 4.05432,
+    "revenue_fy1": 6516438390.0,
+    "analysts_fy1": 18.0,
+    "forward_eps_growth": 7.422254841436171,
+    "forward_revenue_growth": 4.343279264141153,
+    "eps_revision_30d": 0.5528232676840217,
+    "eps_revision_90d": 0.34899089653532833,
+    "eps_surprise_pct": 2.2733589016730615,
+    "days_to_earnings": 73.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/financials/",
+      "retrieved_at": "2026-11-17T19:11:33.639796+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHD/calendar/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Can PG's Health Care Segment Extend Its Sales Momentum Ahead?",
+      "url": "https://finance.yahoo.com/healthcare/articles/pgs-health-care-segment-extend-152500050.html",
+      "published_at": "2026-11-17T15:25:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Church & Dwight Expands Hair Care Portfolio With BALI CARE Investment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-expands-hair-care-150500696.html",
+      "published_at": "2026-11-17T15:05:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Church & Dwight Co Inc /de/ Insider Sold Shares Worth $990,382, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-co-inc-insider-144726632.html",
+      "published_at": "2026-11-17T14:47:26+00:00",
+      "categories": []
+    },
+    {
+      "title": "BofA Securities Adjusts Price Target on Church & Dwight to $125 From $115",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-125709716.html",
+      "published_at": "2026-11-17T12:57:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "Wells Fargo Adjusts Price Target on Church & Dwight to $125 From $115",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-adjusts-price-target-104313987.html",
+      "published_at": "2026-11-17T10:43:13+00:00",
+      "categories": []
+    },
+    {
+      "title": "Sector Update: Consumer Stocks Mixed Pre-Bell Monday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-pre-141449093.html",
+      "published_at": "2026-11-16T14:14:49+00:00",
+      "categories": []
+    },
+    {
+      "title": "Church & Dwight Acquires 45% of BALI Treatment for $225 Million",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-acquires-45-bali-130209674.html",
+      "published_at": "2026-11-16T13:02:09+00:00",
+      "categories": []
+    },
+    {
+      "title": "Church & Dwight Announces Strategic Investment in BALI CURLS\u2122 and BALI GENTS\u2122",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-announces-strategic-investment-120000274.html",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-30",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CHD/0001193125-26-439864_313927"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CHD/0001193125-26-437814_313927"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-17T19:11:33.639796+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 1.0406155398587247,
+    "revenue_qoq_change": null,
+    "eps_yoy_change": 18.666666666666675,
+    "eps_qoq_change": 4.705882352941182,
+    "latest_eps": 0.89,
+    "gross_margin": 46.77610636040197,
+    "operating_margin": 18.188627426502716,
+    "net_margin": 13.245115785531489,
+    "inventory_yoy_change": -2.3324065492740242,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.8503289473684181,
+    "free_cash_flow_ttm": null,
+    "operating_cash_flow_ttm": null,
+    "revenue_ttm": null,
+    "net_income_ttm": null,
+    "ebitda_ttm": null,
+    "total_debt": 2206900000.0,
+    "cash": 446900000.0,
+    "total_assets": 9338900000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": 1506300000.0,
+      "2025-09-30": 1585600000.0,
+      "2025-12-31": 1644200000.0,
+      "2026-03-31": 1469300000.0,
+      "2026-06-30": null,
+      "2026-09-30": 1602100000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.75,
+      "2025-12-31": 0.6,
+      "2026-03-31": 0.91,
+      "2026-06-30": 0.85,
+      "2026-09-30": 0.89
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": 622400000.0,
+      "2025-09-30": 647400000.0,
+      "2025-12-31": 534800000.0,
+      "2026-03-31": 578400000.0,
+      "2026-09-30": 632300000.0
+    },
+    "margin_change": null,
+    "operating_margin_yoy_change": 2.1316143084401524,
+    "inventory_to_sales_ratio": 0.39466949628612447,
+    "net_debt": 1760000000.0,
+    "debt_to_assets": 23.63126278255469
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-29"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/CHD/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

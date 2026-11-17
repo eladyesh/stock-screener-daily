@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-16T20:08:13.505476+00:00",
-  "github_run_id": "43930104799",
+  "generated_at": "2026-11-17T19:11:46.659744+00:00",
+  "github_run_id": "44139121198",
   "github_run_attempt": "1",
-  "report_sha256": "c431e679749ab203b1c1639b8b44687c5924586bacb1da78b65bcaf787bf43fd",
-  "universe": 5553,
-  "analyzed": 2682,
+  "report_sha256": "862ccedbc6ab2fc2fa83b5d22ba460cf4d9666d1b7aebafbf2bc1ee263b90980",
+  "universe": 5552,
+  "analyzed": 2668,
   "error_rate": 0.0,
-  "buy_signals": 28,
-  "sell_signals": 666,
+  "buy_signals": 34,
+  "sell_signals": 723,
   "price_dates": [
-    "2026-11-13"
+    "2026-11-16"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-16T18:34:34.696048+00:00",
+    "fetched_at": "2026-11-17T17:38:26.611544+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
-        "rows": 5601
+        "rows": 5608
       },
       "otherlisted": {
         "status": "ok",
-        "rows": 7681
+        "rows": 7680
       }
     },
     "complete": true,
-    "included": 5553,
-    "excluded": 7729,
+    "included": 5552,
+    "excluded": 7736,
     "reason_counts": {
-      "exchange_traded_fund": 5788,
-      "common_equity": 5513,
+      "exchange_traded_fund": 5795,
+      "common_equity": 5512,
       "unit": 313,
       "warrant": 457,
       "right": 142,
@@ -50,32 +50,30 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 24,
     "profile_resolution": {
-      "calls": 24,
-      "cache_hits": 65,
+      "calls": 0,
+      "cache_hits": 89,
       "deferred": 0,
       "provider_blocked": false
     },
-    "scan_requested_count": 5553,
+    "scan_requested_count": 5552,
     "test_mode": false
   },
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
-      "CVX",
-      "FAST",
-      "AAPL"
+      "CVCO"
     ],
     "months_to_18m": [
+      "ECPG",
       "APA",
-      "EOG",
-      "ADI",
       "EXEL",
-      "CROX",
-      "DIOD",
+      "ADI",
+      "DCTH",
       "ICE",
-      "SHEL",
-      "CORT",
-      "DK"
+      "DK",
+      "TW",
+      "DIOD",
+      "CORT"
     ]
   },
   "strategy_version": "multifactor-v3"

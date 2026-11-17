@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "ticker": "SDGR",
+  "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+  "metrics": {
+    "revenue_yoy_change": 18.715484868566378,
+    "revenue_qoq_change": 9.51281223997691,
+    "eps_qoq_change": -725.0,
+    "latest_eps": -0.5,
+    "gross_margin": 59.315253291156914,
+    "operating_margin": -40.51573087717666,
+    "net_margin": -58.474825944705465,
+    "shares_yoy_change": 1.7012381901099438,
+    "free_cash_flow_ttm": -116774000.0,
+    "operating_cash_flow_ttm": -112575000.0,
+    "revenue_ttm": 269202000.0,
+    "net_income_ttm": -59251000.0,
+    "ebitda_ttm": -127765000.0,
+    "total_debt": 104627000.0,
+    "cash": 366358000.0,
+    "total_assets": 611940000.0,
+    "margin_change": 4.242149655503397,
+    "operating_margin_yoy_change": 44.06382880178659,
+    "fcf_margin": -43.377835231536174,
+    "net_debt": -261731000.0,
+    "debt_to_assets": 17.09759126711769,
+    "market_cap": 1931000704.0,
+    "enterprise_value": 1792397440.0,
+    "forward_pe": -21.256197,
+    "trailing_pe": null,
+    "ev_ebitda": -14.029,
+    "fcf_yield": -6.04733078336568,
+    "eps_fy0": -1.52,
+    "revenue_fy0": 254149580.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": -1.21,
+    "revenue_fy1": 245274670.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": -3.492002623022239,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": null
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/financials/",
+      "retrieved_at": "2026-11-17T19:11:25.021058+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/key-statistics/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SDGR/analysis/",
+      "retrieved_at": "2026-11-17T19:11:01.962480+00:00",
+      "period": "+1y vs 0y"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Schr\u00f6dinger (SDGR) Stock Could Be Undervalued On Its 67% Run",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schr-dinger-sdgr-stock-could-210657096.html",
+      "published_at": "2026-11-14T21:06:57+00:00",
+      "categories": []
+    },
+    {
+      "title": "Schrodinger Eyes Growth From AI Assistant Bunsen and Hosted Software Shift",
+      "url": "https://finance.yahoo.com/technology/ai/articles/schrodinger-eyes-growth-ai-assistant-221426055.html",
+      "published_at": "2026-11-13T22:14:26+00:00",
+      "categories": []
+    },
+    {
+      "title": "Iambic Therapeutics' Cancer Trial Data, Partnerships Validate AI Platform, BofA Says",
+      "url": "https://finance.yahoo.com/healthcare/articles/iambic-therapeutics-apos-cancer-trial-163727892.html",
+      "published_at": "2026-11-09T16:37:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Schr\u00f6dinger (SDGR) Still Below Fair Value After Strong Q3 Revenue Growth?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schr-dinger-sdgr-still-below-002033486.html",
+      "published_at": "2026-11-08T00:20:33+00:00",
+      "categories": []
+    },
+    {
+      "title": "Raised Guidance Could Change The Case For Schr\u00f6dinger Stock (SDGR)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-could-change-case-201207373.html",
+      "published_at": "2026-11-07T20:12:07+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Schr\u00f6dinger, Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/schr-dinger-inc-q3-2026-133000235.html",
+      "published_at": "2026-11-05T13:30:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Schrodinger Inc (SDGR) (Q3 2026) Earnings Call Highlights: Raised Guidance and Strong ACV ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/schrodinger-inc-sdgr-q3-2026-051749755.html",
+      "published_at": "2026-11-05T05:17:49+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "What Schrodinger (SDGR) Said on Its Q3 Earnings Call",
+      "url": "https://finance.yahoo.com/healthcare/articles/schrodinger-sdgr-said-q3-earnings-041423824.html",
+      "published_at": "2026-11-05T04:14:23+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/SDGR/0001490978-26-000076_1490978"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-17T19:11:25.021058+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 18.715484868566378,
+    "revenue_qoq_change": 9.51281223997691,
+    "eps_yoy_change": null,
+    "eps_qoq_change": -725.0,
+    "latest_eps": -0.5,
+    "gross_margin": 59.315253291156914,
+    "operating_margin": -40.51573087717666,
+    "net_margin": -58.474825944705465,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 1.7012381901099438,
+    "free_cash_flow_ttm": -116774000.0,
+    "operating_cash_flow_ttm": -112575000.0,
+    "revenue_ttm": 269202000.0,
+    "net_income_ttm": -59251000.0,
+    "ebitda_ttm": -127765000.0,
+    "total_debt": 104627000.0,
+    "cash": 366358000.0,
+    "total_assets": 611940000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 54324000.0,
+      "2025-12-31": 87235000.0,
+      "2026-03-31": 58587000.0,
+      "2026-06-30": 58889000.0,
+      "2026-09-30": 64491000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.59,
+      "2025-09-30": -0.45,
+      "2025-12-31": null,
+      "2026-03-31": -0.81,
+      "2026-06-30": 0.08,
+      "2026-09-30": -0.5
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.242149655503397,
+    "operating_margin_yoy_change": 44.06382880178659,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": -43.377835231536174,
+    "net_debt": -261731000.0,
+    "debt_to_assets": 17.09759126711769
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/SDGR/insider-transactions/",
+  "fmp_configured": false
+}
