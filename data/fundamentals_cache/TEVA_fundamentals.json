@@ -2,13 +2,13 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-11T17:33:32.192035+00:00",
+    "fetch_date": "2026-11-18T18:38:57.030494+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": -1.9196428571428559,
     "revenue_qoq_change": 6.084017382906803,
     "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "latest_eps": 0.2,
+    "latest_eps": null,
     "gross_margin": 55.530268548020025,
     "operating_margin": 25.85343650432408,
     "net_margin": 5.302685480200274,
@@ -36,11 +36,11 @@
     "quarterly_eps": {
       "2025-03-31": null,
       "2025-06-30": 0.24,
-      "2025-09-30": null,
+      "2025-09-30": 0.37,
       "2025-12-31": 0.41,
       "2026-03-31": 0.31,
       "2026-06-30": -0.49,
-      "2026-09-30": 0.2
+      "2026-09-30": null
     },
     "quarterly_inventory": {
       "2025-03-31": null,
@@ -60,5 +60,5 @@
     "debt_to_assets": 42.4154637630488,
     "ticker": "TEVA"
   },
-  "fetched_at": "2026-11-11T17:33:32.196985"
+  "fetched_at": "2026-11-18T18:38:57.035218"
 }

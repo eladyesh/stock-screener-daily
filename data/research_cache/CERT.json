@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "ticker": "CERT",
+  "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+  "metrics": {
+    "revenue_yoy_change": 4.416473202988325,
+    "revenue_qoq_change": 1.7475957157101263,
+    "eps_yoy_change": 300.0,
+    "latest_eps": 0.04,
+    "gross_margin": 66.87284643997428,
+    "operating_margin": 2.448867767462935,
+    "net_margin": 5.892456349248164,
+    "shares_yoy_change": -4.805828738464268,
+    "free_cash_flow_ttm": 51481000.0,
+    "operating_cash_flow_ttm": 81229000.0,
+    "revenue_ttm": 398735000.0,
+    "net_income_ttm": -64336000.0,
+    "ebitda_ttm": 69427000.0,
+    "total_debt": 298226000.0,
+    "cash": 214932000.0,
+    "total_assets": 1414918000.0,
+    "margin_change": 4.528709462778799,
+    "operating_margin_yoy_change": 3.0672180265758993,
+    "fcf_margin": 12.911081294594155,
+    "net_debt": 83294000.0,
+    "net_debt_to_ebitda": 1.1997349734253244,
+    "debt_to_assets": 21.077263841438164,
+    "market_cap": 1714587904.0,
+    "enterprise_value": 1771561984.0,
+    "forward_pe": 28.726233,
+    "trailing_pe": null,
+    "ev_ebitda": 17.455,
+    "fcf_yield": 3.0025290555181705,
+    "eps_fy0": 0.33276,
+    "revenue_fy0": 380795720.0,
+    "analysts_fy0": 13.0,
+    "eps_fy1": 0.39128,
+    "revenue_fy1": 394370140.0,
+    "analysts_fy1": 13.0,
+    "forward_eps_growth": 17.586248347157117,
+    "forward_revenue_growth": 3.5647512004599147,
+    "eps_revision_30d": 0.41059330732908794,
+    "eps_revision_90d": -0.8036506528077081,
+    "eps_surprise_pct": 4.166666666666652
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/financials/",
+      "retrieved_at": "2026-11-18T18:51:32.085946+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/key-statistics/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/key-statistics/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/key-statistics/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/key-statistics/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/key-statistics/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CERT/analysis/",
+      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "UBS Downgrades Certara to Neutral From Buy, Price Target is $13",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-downgrades-certara-neutral-buy-122634318.html",
+      "published_at": "2026-11-06T12:26:34+00:00",
+      "categories": []
+    },
+    {
+      "title": "Why Did Certara (CERT) Shares Climb After Its Latest Update?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-certara-cert-shares-091937051.html",
+      "published_at": "2026-11-06T09:19:37+00:00",
+      "categories": []
+    },
+    {
+      "title": "Certara Inc (CERT) Q3 2026 Earnings Call Highlights: Software Growth Accelerates as Margins Expand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/certara-inc-cert-q3-2026-231612419.html",
+      "published_at": "2026-11-05T23:16:12+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Certara, Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/certara-inc-q3-2026-earnings-214945096.html",
+      "published_at": "2026-11-05T21:49:45+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Certara (CERT) Q3 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/healthcare/articles/certara-cert-q3-2026-earnings-194922174.html",
+      "published_at": "2026-11-05T19:49:22+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Certara Q3 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/healthcare/articles/certara-q3-earnings-call-highlights-191439519.html",
+      "published_at": "2026-11-05T19:14:39+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Certara Shares Rise After Q3 Revenue Beat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/certara-shares-rise-q3-revenue-152910141.html",
+      "published_at": "2026-11-05T15:29:10+00:00",
+      "categories": []
+    },
+    {
+      "title": "Certara, Inc. (CERT) Tops Q3 Earnings and Revenue Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/certara-inc-cert-tops-q3-133511010.html",
+      "published_at": "2026-11-05T13:35:11+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CERT/0001827090-26-000035_1827090"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-18T18:51:32.085946+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 4.416473202988325,
+    "revenue_qoq_change": 1.7475957157101263,
+    "eps_yoy_change": 300.0,
+    "eps_qoq_change": null,
+    "latest_eps": 0.04,
+    "gross_margin": 66.87284643997428,
+    "operating_margin": 2.448867767462935,
+    "net_margin": 5.892456349248164,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.805828738464268,
+    "free_cash_flow_ttm": 51481000.0,
+    "operating_cash_flow_ttm": 81229000.0,
+    "revenue_ttm": 398735000.0,
+    "net_income_ttm": -64336000.0,
+    "ebitda_ttm": 69427000.0,
+    "total_debt": 298226000.0,
+    "cash": 214932000.0,
+    "total_assets": 1414918000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 90887000.0,
+      "2025-12-31": 103648000.0,
+      "2026-03-31": 106915000.0,
+      "2026-06-30": 93271000.0,
+      "2026-09-30": 94901000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.01,
+      "2025-12-31": -0.04,
+      "2026-03-31": -0.06,
+      "2026-06-30": -0.36,
+      "2026-09-30": 0.04
+    },
+    "quarterly_inventory": {},
+    "margin_change": 4.528709462778799,
+    "operating_margin_yoy_change": 3.0672180265758993,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.911081294594155,
+    "net_debt": 83294000.0,
+    "net_debt_to_ebitda": 1.1997349734253244,
+    "debt_to_assets": 21.077263841438164
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CERT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
