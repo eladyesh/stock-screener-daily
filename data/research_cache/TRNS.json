@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "ticker": "TRNS",
+  "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+  "metrics": {
+    "revenue_yoy_change": 18.010987942434852,
+    "revenue_qoq_change": 4.459626660928495,
+    "eps_yoy_change": 78.57142857142856,
+    "eps_qoq_change": 78.57142857142856,
+    "latest_eps": 0.25,
+    "gross_margin": 33.607992584200225,
+    "operating_margin": 5.1838500360490265,
+    "net_margin": 2.4853228962818004,
+    "inventory_yoy_change": 13.731343283582099,
+    "inventory_qoq_change": 0.5549164241726912,
+    "shares_yoy_change": 1.5746355995318595,
+    "free_cash_flow_ttm": 22973000.0,
+    "operating_cash_flow_ttm": 37311000.0,
+    "revenue_ttm": 363216000.0,
+    "net_income_ttm": 4590000.0,
+    "ebitda_ttm": 40629000.0,
+    "total_debt": 150953000.0,
+    "cash": 5758000.0,
+    "total_assets": 507056000.0,
+    "margin_change": 0.5411250819139326,
+    "operating_margin_yoy_change": 0.9235913818288788,
+    "inventory_to_sales_ratio": 0.15304356782366876,
+    "fcf_margin": 6.324886568873618,
+    "net_debt": 145195000.0,
+    "net_debt_to_ebitda": 3.573678899308376,
+    "debt_to_assets": 29.7704790003471,
+    "market_cap": 925154752.0,
+    "enterprise_value": 1086808192.0,
+    "forward_pe": 42.002563,
+    "trailing_pe": 204.93752,
+    "ev_ebitda": 23.634,
+    "fcf_yield": 2.4831521375571985,
+    "eps_fy0": 2.122,
+    "revenue_fy0": 381866600.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 2.342,
+    "revenue_fy1": 409814400.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 10.36757775683319,
+    "forward_revenue_growth": 7.318733819611345,
+    "eps_revision_30d": 8.050749711649363,
+    "eps_revision_90d": 8.050749711649363,
+    "eps_surprise_pct": 42.85714285714286,
+    "days_to_earnings": 75.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/financials/",
+      "retrieved_at": "2026-11-19T18:56:35.726671+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TRNS/calendar/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Recent Price Trend in Transcat (TRNS) is Your Friend, Here's Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/recent-price-trend-transcat-trns-125501127.html",
+      "published_at": "2026-11-09T12:55:01+00:00",
+      "categories": []
+    },
+    {
+      "title": "Transcat (TRNS) Stock Could Be 42% Overvalued As Service Growth Lifts Q2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/transcat-trns-stock-could-42-120939868.html",
+      "published_at": "2026-11-08T12:09:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Transcat (TRNS) Expensive As Strong Q2 Growth Fuels Its Calibration And M And A Story?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/transcat-trns-expensive-strong-q2-001239794.html",
+      "published_at": "2026-11-07T00:12:39+00:00",
+      "categories": []
+    },
+    {
+      "title": "All You Need to Know About Transcat (TRNS) Rating Upgrade to Strong Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/know-transcat-trns-rating-upgrade-160003116.html",
+      "published_at": "2026-11-06T16:00:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Are You Looking for a Top Momentum Pick? Why Transcat, Inc. (TRNS) is a Great Choice",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160002381.html",
+      "published_at": "2026-11-06T16:00:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Best Momentum Stocks to Buy for November 6th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-140000231.html",
+      "published_at": "2026-11-06T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "New Strong Buy Stocks for November 6th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-6th-074800659.html",
+      "published_at": "2026-11-06T07:48:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Why Transcat (TRNS) Is Up 20.8% And What's Next After Earnings Beat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-transcat-trns-20-8-101233696.html",
+      "published_at": "2026-11-05T10:12:33+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-03",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/TRNS/0001628280-26-069462_99302"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/TRNS/0001628280-26-061346_99302"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "S-3ASR",
+      "url": "https://finance.yahoo.com/sec-filing/TRNS/0001206774-26-000516_99302"
+    }
+  ],
+  "warnings": [],
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-19T18:56:35.726671+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 18.010987942434852,
+    "revenue_qoq_change": 4.459626660928495,
+    "eps_yoy_change": 78.57142857142856,
+    "eps_qoq_change": 78.57142857142856,
+    "latest_eps": 0.25,
+    "gross_margin": 33.607992584200225,
+    "operating_margin": 5.1838500360490265,
+    "net_margin": 2.4853228962818004,
+    "inventory_yoy_change": 13.731343283582099,
+    "inventory_qoq_change": 0.5549164241726912,
+    "shares_yoy_change": 1.5746355995318595,
+    "free_cash_flow_ttm": 22973000.0,
+    "operating_cash_flow_ttm": 37311000.0,
+    "revenue_ttm": 363216000.0,
+    "net_income_ttm": 4590000.0,
+    "ebitda_ttm": 40629000.0,
+    "total_debt": 150953000.0,
+    "cash": 5758000.0,
+    "total_assets": 507056000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 82272000.0,
+      "2025-12-31": 83856000.0,
+      "2026-03-31": 89325000.0,
+      "2026-06-30": 92945000.0,
+      "2026-09-30": 97090000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 0.14,
+      "2025-12-31": -0.12,
+      "2026-03-31": 0.21,
+      "2026-06-30": 0.14,
+      "2026-09-30": 0.25
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 13065000.0,
+      "2025-12-31": 12911000.0,
+      "2026-03-31": 13705000.0,
+      "2026-06-30": 14777000.0,
+      "2026-09-30": 14859000.0
+    },
+    "margin_change": 0.5411250819139326,
+    "operating_margin_yoy_change": 0.9235913818288788,
+    "inventory_to_sales_ratio": 0.15304356782366876,
+    "fcf_margin": 6.324886568873618,
+    "net_debt": 145195000.0,
+    "net_debt_to_ebitda": 3.573678899308376,
+    "debt_to_assets": 29.7704790003471
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-02"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/TRNS/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

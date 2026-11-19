@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "EOG",
-  "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+  "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
   "metrics": {
     "revenue_yoy_change": 42.72505233775297,
     "eps_yoy_change": 97.40740740740739,
@@ -19,11 +19,11 @@
     "inventory_to_sales_ratio": 0.11465591003544799,
     "net_debt": 2515000000.0,
     "debt_to_assets": 14.63129560104838,
-    "market_cap": 78042660864.0,
-    "enterprise_value": 82833391616.0,
-    "forward_pe": 8.848543,
-    "trailing_pe": 9.717289,
-    "ev_ebitda": 5.157,
+    "market_cap": 77417472000.0,
+    "enterprise_value": 80126902272.0,
+    "forward_pe": 8.777659,
+    "trailing_pe": 9.639445,
+    "ev_ebitda": 4.989,
     "eps_fy0": 18.77928,
     "revenue_fy0": 32434792960.0,
     "analysts_fy0": 27.0,
@@ -34,200 +34,220 @@
     "forward_revenue_growth": -10.36404691759747,
     "eps_revision_30d": 6.653792740234055,
     "eps_revision_90d": 17.433538573480867,
-    "eps_surprise_pct": 9.343847107215364
+    "eps_surprise_pct": 9.343847107215364,
+    "forward_pe_historical_relative": 0.9453703500017516,
+    "ev_ebitda_historical_relative": 0.9470387243735763
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-18T18:51:55.659693+00:00",
+      "retrieved_at": "2026-11-19T18:57:10.890496+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": null
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-18T18:51:07.413365+00:00",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
       "period": "2026-09-30 00:00:00"
+    },
+    "forward_pe_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": [
+        "2026-10-29",
+        "2026-11-18"
+      ]
+    },
+    "ev_ebitda_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": [
+        "2026-10-29",
+        "2026-11-18"
+      ]
     }
   },
   "status": {
@@ -246,6 +266,32 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "E&P stocks outlook: valuations, cash flow, and the OPEC+ wildcard",
+      "url": "https://finance.yahoo.com/energy/articles/e-p-stocks-outlook-valuations-150522308.html",
+      "published_at": "2026-11-19T15:05:22+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Vanguard\u2019s Little-Known Value ETF Skips the Index and Goes Straight for the Cheapest Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-little-known-value-etf-133706981.html",
+      "published_at": "2026-11-19T13:37:06+00:00",
+      "categories": []
+    },
+    {
+      "title": "How XOM's Strong Balance Sheet Helps Manage Oil Market Volatility",
+      "url": "https://finance.yahoo.com/energy/articles/xoms-strong-balance-sheet-helps-131400951.html",
+      "published_at": "2026-11-19T13:14:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Should You Buy Occidental Stock For Its Cash Flow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-occidental-stock-cash-flow-113901476.html",
+      "published_at": "2026-11-19T11:39:01+00:00",
+      "categories": []
+    },
     {
       "title": "Why You Should Think About Occidental Petroleum Differently Now",
       "url": "https://finance.yahoo.com/energy/articles/why-think-occidental-petroleum-differently-172147996.html",
@@ -268,30 +314,6 @@
       "title": "Morgan Stanley Adjusts Price Target on EOG Resources to $167 From $163",
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-111848378.html",
       "published_at": "2026-11-18T11:18:48+00:00",
-      "categories": []
-    },
-    {
-      "title": "EOG Resources (EOG) Stock May Be 50% Undervalued As Record Output Lifts Dividend",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eog-resources-eog-stock-may-070730112.html",
-      "published_at": "2026-11-18T07:07:30+00:00",
-      "categories": []
-    },
-    {
-      "title": "EOG Resources (EOG) Lifts Dividend And Output On An Undervalued View",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eog-resources-eog-lifts-dividend-061638768.html",
-      "published_at": "2026-11-18T06:16:38+00:00",
-      "categories": []
-    },
-    {
-      "title": "EOG vs. ConocoPhillips: The Better Bet as Oil Prices Stay Elevated",
-      "url": "https://finance.yahoo.com/energy/articles/eog-vs-conocophillips-better-bet-143500446.html",
-      "published_at": "2026-11-17T14:35:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "What Occidental's Debt Cut Means For Its Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/occidentals-debt-cut-means-stock-141342973.html",
-      "published_at": "2026-11-17T14:13:42+00:00",
       "categories": []
     }
   ],
@@ -324,7 +346,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-18T18:51:55.659693+00:00",
+    "fetch_date": "2026-11-19T18:57:10.890496+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 42.72505233775297,
     "revenue_qoq_change": null,
@@ -384,12 +406,14 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 9.284889249999999
     },
     "ev_ebitda": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 5.268
     }
   }
 }

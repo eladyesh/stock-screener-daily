@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "ticker": "LFST",
+  "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+  "metrics": {
+    "revenue_yoy_change": 25.30311234741307,
+    "revenue_qoq_change": 4.711108660997709,
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.06,
+    "gross_margin": 35.405735043784986,
+    "operating_margin": 7.255892108172612,
+    "net_margin": 4.910455749960514,
+    "shares_yoy_change": 0.5986191645559913,
+    "free_cash_flow_ttm": 179271000.0,
+    "operating_cash_flow_ttm": 227597000.0,
+    "revenue_ttm": 1676889000.0,
+    "net_income_ttm": 71908000.0,
+    "ebitda_ttm": 155551000.0,
+    "total_debt": 461021000.0,
+    "cash": 218818000.0,
+    "total_assets": 2186283000.0,
+    "margin_change": 0.2525034207839312,
+    "operating_margin_yoy_change": 5.219109070919549,
+    "fcf_margin": 10.690689723648973,
+    "net_debt": 242203000.0,
+    "net_debt_to_ebitda": 1.557064885471646,
+    "debt_to_assets": 21.08697730348724,
+    "market_cap": 5041329152.0,
+    "enterprise_value": 5491929088.0,
+    "forward_pe": 29.52506,
+    "trailing_pe": 73.666664,
+    "ev_ebitda": 33.53,
+    "fcf_yield": 3.5560264881510357,
+    "eps_fy0": 0.40346,
+    "revenue_fy0": 1746979360.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 0.44911,
+    "revenue_fy1": 1984928040.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 11.314628463788235,
+    "forward_revenue_growth": 13.620577635216025,
+    "eps_revision_30d": 4.262333139872321,
+    "eps_revision_90d": -14.087039693926362,
+    "eps_surprise_pct": 26.72865999046259
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/financials/",
+      "retrieved_at": "2026-11-19T18:57:07.150290+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/key-statistics/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/LFST/analysis/",
+      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "LifeStance, Private Equity Rollup Turned Organic Growth Stock, Targets A Profound Void",
+      "url": "https://finance.yahoo.com/m/377022e7-c606-39d9-b7eb-6519bf197d9a/lifestance%2C-private-equity.html",
+      "published_at": "2026-11-13T21:19:10+00:00",
+      "categories": []
+    },
+    {
+      "title": "What iShares Russell 2000 Index Fund (IWM) Bought: LifeStance Leads on Nov. 11",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110412446.html",
+      "published_at": "2026-11-13T11:04:12+00:00",
+      "categories": []
+    },
+    {
+      "title": "Barclays Adjusts Lifestance Health Group Price Target to $18 From $15, Maintains Overweight Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-lifestance-health-group-180712477.html",
+      "published_at": "2026-11-11T18:07:12+00:00",
+      "categories": []
+    },
+    {
+      "title": "LFST Q3 2026 deep dive: specialty services, clinician expansion, and EHR transition shape outlook",
+      "url": "https://finance.yahoo.com/healthcare/articles/lfst-q3-2026-deep-dive-102936681.html",
+      "published_at": "2026-11-10T10:29:36+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Surging Earnings Estimates Signal Upside for LifeStance Health (LFST) Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-162002277.html",
+      "published_at": "2026-11-09T16:20:02+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "LifeStance Health Prices Secondary Offering of 45 Million Shares at $13.12 per Share",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lifestance-health-prices-secondary-offering-150041312.html",
+      "published_at": "2026-11-09T15:00:41+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "LifeStance Health Group Announces Pricing of Secondary Public Offering",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lifestance-health-group-announces-pricing-140000848.html",
+      "published_at": "2026-11-09T14:00:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    },
+    {
+      "title": "LifeStance Health Group Announces Launch of Secondary Public Offering",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lifestance-health-group-announces-launch-115400776.html",
+      "published_at": "2026-11-09T11:54:00+00:00",
+      "categories": [
+        "financing/dilution"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LFST/0001193125-26-447943_1845257"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LFST/0001193125-26-424294_1845257"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/LFST/0001193125-26-389315_1845257"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-19T18:57:07.150290+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 25.30311234741307,
+    "revenue_qoq_change": 4.711108660997709,
+    "eps_yoy_change": null,
+    "eps_qoq_change": 0.0,
+    "latest_eps": 0.06,
+    "gross_margin": 35.405735043784986,
+    "operating_margin": 7.255892108172612,
+    "net_margin": 4.910455749960514,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.5986191645559913,
+    "free_cash_flow_ttm": 179271000.0,
+    "operating_cash_flow_ttm": 227597000.0,
+    "revenue_ttm": 1676889000.0,
+    "net_income_ttm": 71908000.0,
+    "ebitda_ttm": 155551000.0,
+    "total_debt": 461021000.0,
+    "cash": 218818000.0,
+    "total_assets": 2186283000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 363809000.0,
+      "2025-12-31": 382195000.0,
+      "2026-03-31": 403476000.0,
+      "2026-06-30": 435354000.0,
+      "2026-09-30": 455864000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": -0.01,
+      "2025-09-30": 0.0,
+      "2025-12-31": null,
+      "2026-03-31": 0.04,
+      "2026-06-30": 0.06,
+      "2026-09-30": 0.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.2525034207839312,
+    "operating_margin_yoy_change": 5.219109070919549,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 10.690689723648973,
+    "net_debt": 242203000.0,
+    "net_debt_to_ebitda": 1.557064885471646,
+    "debt_to_assets": 21.08697730348724
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/LFST/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
