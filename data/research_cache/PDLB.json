@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "ticker": "PDLB",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 30.712807974421665,
+    "revenue_qoq_change": 10.665265437406447,
+    "eps_yoy_change": 181.4814814814815,
+    "eps_qoq_change": 117.14285714285717,
+    "latest_eps": 0.76,
+    "net_margin": 52.51510791366907,
+    "shares_yoy_change": 2.225684153598406,
+    "free_cash_flow_ttm": 70239000.0,
+    "operating_cash_flow_ttm": 70299000.0,
+    "revenue_ttm": 127595000.0,
+    "net_income_ttm": 45503000.0,
+    "total_debt": 724271000.0,
+    "cash": 132460000.0,
+    "total_assets": 3686677000.0,
+    "fcf_margin": 55.04839531329597,
+    "net_debt": 591811000.0,
+    "debt_to_assets": 19.645632096329567,
+    "market_cap": 509651680.0,
+    "enterprise_value": 1334686848.0,
+    "forward_pe": 10.129807,
+    "trailing_pe": 11.089474,
+    "ev_ebitda": null,
+    "fcf_yield": 13.781765616862089,
+    "eps_fy0": 1.59,
+    "revenue_fy0": 0.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 2.08,
+    "revenue_fy1": 0.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": 30.817610062893074,
+    "forward_revenue_growth": null,
+    "eps_revision_30d": 17.514124293785315,
+    "eps_revision_90d": 17.514124293785315,
+    "eps_surprise_pct": -91.91489361702128,
+    "days_to_earnings": 67.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/financials/",
+      "retrieved_at": "2026-11-20T18:31:35.261355+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PDLB/calendar/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/PDLB/0001193125-26-447306_1874071"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/PDLB/0001193125-26-431222_1874071"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:31:35.261355+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 30.712807974421665,
+    "revenue_qoq_change": 10.665265437406447,
+    "eps_yoy_change": 181.4814814814815,
+    "eps_qoq_change": 117.14285714285717,
+    "latest_eps": 0.76,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 52.51510791366907,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 2.225684153598406,
+    "free_cash_flow_ttm": 70239000.0,
+    "operating_cash_flow_ttm": 70299000.0,
+    "revenue_ttm": 127595000.0,
+    "net_income_ttm": 45503000.0,
+    "ebitda_ttm": null,
+    "total_debt": 724271000.0,
+    "cash": 132460000.0,
+    "total_assets": 3686677000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-09-30": 26585000.0,
+      "2025-12-31": 31297000.0,
+      "2026-03-31": 30147000.0,
+      "2026-06-30": 31401000.0,
+      "2026-09-30": 34750000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-09-30": 0.27,
+      "2025-12-31": 0.42,
+      "2026-03-31": 0.36,
+      "2026-06-30": 0.35,
+      "2026-09-30": 0.76
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 55.04839531329597,
+    "net_debt": 591811000.0,
+    "debt_to_assets": 19.645632096329567
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-01-26"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/PDLB/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

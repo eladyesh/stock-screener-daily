@@ -1,11 +1,11 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-19T17:23:59.087634+00:00",
+  "fetched_at": "2026-11-20T16:58:39.468369+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
-      "rows": 5609
+      "rows": 5607
     },
     "otherlisted": {
       "status": "ok",
@@ -13,14 +13,14 @@
     }
   },
   "complete": true,
-  "included": 5550,
+  "included": 5548,
   "excluded": 7751,
   "reason_counts": {
-    "exchange_traded_fund": 5810,
-    "common_equity": 5510,
-    "unit": 313,
-    "warrant": 457,
-    "right": 142,
+    "exchange_traded_fund": 5813,
+    "common_equity": 5508,
+    "unit": 314,
+    "warrant": 454,
+    "right": 141,
     "preferred": 467,
     "debt": 186,
     "fund_by_name": 282,
@@ -36,8 +36,8 @@
   "resolved_by_profile": 40,
   "unresolved_security_types": 24,
   "profile_resolution": {
-    "calls": 24,
-    "cache_hits": 65,
+    "calls": 0,
+    "cache_hits": 89,
     "deferred": 0,
     "provider_blocked": false
   },
@@ -272,6 +272,15 @@
       "directory_symbol": "AAUB",
       "symbol": "AAUB",
       "name": "Alpha Architect US Equity 4 ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "AAUD",
+      "symbol": "AAUD",
+      "name": "Alpha Architect US Equity 5 ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -2777,15 +2786,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "AMPGZ",
-      "symbol": "AMPGZ",
-      "name": "Amplitech Group, Inc. - Series B Right",
-      "included": false,
-      "reason": "right",
-      "directory_reason": "right"
     },
     {
       "source": "nasdaqlisted",
@@ -9138,7 +9138,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CDZIP",
           "quoteType": "EQUITY",
@@ -12185,6 +12185,15 @@
       "directory_symbol": "CZWI",
       "symbol": "CZWI",
       "name": "Citizens Community Bancorp, Inc. - Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "CZZL",
+      "symbol": "CZZL",
+      "name": "Cizzle Brands Corporation - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -23864,6 +23873,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "ISMH",
+      "symbol": "ISMH",
+      "name": "xETFs International Semiconductor ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "ISNR",
       "symbol": "ISNR",
       "name": "Snow Rothschild Acquisition Corp. - Class A Ordinary Shares",
@@ -28145,15 +28163,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "MERC",
-      "symbol": "MERC",
-      "name": "Mercer International Inc. - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "MESH",
       "symbol": "MESH",
       "name": "Meshflow Acquisition Corp. - Class A Ordinary Shares",
@@ -28923,7 +28932,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MNSBP",
           "quoteType": "EQUITY",
@@ -33143,33 +33152,6 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "OPENL",
-      "symbol": "OPENL",
-      "name": "Opendoor Technologies Inc  - Series A Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $13.00 per warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "OPENW",
-      "symbol": "OPENW",
-      "name": "Opendoor Technologies Inc  - Series K Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $9.00 per warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "OPENZ",
-      "symbol": "OPENZ",
-      "name": "Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
     },
     {
       "source": "nasdaqlisted",
@@ -48168,7 +48150,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "WAFDP",
           "quoteType": "EQUITY",
@@ -57978,7 +57960,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BIPC",
           "quoteType": "EQUITY",
@@ -60270,7 +60252,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BVN",
           "quoteType": "EQUITY",
@@ -62247,7 +62229,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CHT",
           "quoteType": "EQUITY",
@@ -66018,7 +66000,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "DDT",
           "quoteType": "EQUITY",
@@ -74646,7 +74628,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "FNV",
           "quoteType": "EQUITY",
@@ -76029,7 +76011,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GAU",
           "quoteType": "EQUITY",
@@ -79644,7 +79626,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HESM",
           "quoteType": "EQUITY",
@@ -80154,7 +80136,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HMY",
           "quoteType": "EQUITY",
@@ -85576,7 +85558,7 @@
       "source": "otherlisted",
       "directory_symbol": "JOET",
       "symbol": "JOET",
-      "name": "Virtus Terranova U.S. Quality Momentum ETF",
+      "name": "Virtus NYSE Terranova U.S. Quality Momentum ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -86271,7 +86253,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KB",
           "quoteType": "EQUITY",
@@ -88221,7 +88203,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "LEN-B",
           "quoteType": "EQUITY",
@@ -95085,7 +95067,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NRP",
           "quoteType": "EQUITY",
@@ -95901,7 +95883,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NXB",
           "quoteType": "EQUITY",
@@ -96938,15 +96920,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "OPAY",
-      "symbol": "OPAY",
-      "name": "OPay Limited American Depositary Shares, each representing ten Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "OPER",
       "symbol": "OPER",
       "name": "ETF ClearShares Ultra-Short Maturity ETF",
@@ -97443,7 +97416,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "OVV",
           "quoteType": "EQUITY",
@@ -97602,7 +97575,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAC",
           "quoteType": "EQUITY",
@@ -97725,7 +97698,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAM",
           "quoteType": "EQUITY",
@@ -101385,7 +101358,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PYT",
           "quoteType": "EQUITY",
@@ -105222,7 +105195,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SAR",
           "quoteType": "EQUITY",
@@ -108488,6 +108461,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "SONN",
+      "symbol": "SONN",
+      "name": "Southern Company (The) 2026 Series A Corporate Units",
+      "included": false,
+      "reason": "unit",
+      "directory_reason": "unit"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "SONY",
       "symbol": "SONY",
       "name": "Sony Group Corporation American Depositary Shares ",
@@ -108510,7 +108492,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SOR",
           "quoteType": "EQUITY",
@@ -111495,7 +111477,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TEO",
           "quoteType": "EQUITY",
@@ -112380,7 +112362,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TLK",
           "quoteType": "EQUITY",
@@ -115736,15 +115718,6 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "UTZ",
-      "symbol": "UTZ",
-      "name": "Utz Brands Inc Class A Common Stock ",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "otherlisted",
       "directory_symbol": "UUP",
       "symbol": "UUP",
       "name": "Invesco DB USD Index Bullish Fund ETF",
@@ -116403,7 +116376,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-19T17:23:31.809222+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "VET",
           "quoteType": "EQUITY",
@@ -121163,6 +121136,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "YLDS",
+      "symbol": "YLDS",
+      "name": "Harbor Arena Structured Income ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "YLDW",
       "symbol": "YLDW",
       "name": "Westwood Enhanced Income Opportunity ETF",
@@ -121888,6 +121870,6 @@
       "directory_reason": "test_issue"
     }
   ],
-  "scan_requested_count": 5550,
+  "scan_requested_count": 5548,
   "test_mode": false
 }

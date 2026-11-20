@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "ticker": "CBLL",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 29.8906547434592,
+    "revenue_qoq_change": 4.427518952201304,
+    "latest_eps": -0.55,
+    "gross_margin": 89.77199141133568,
+    "operating_margin": -70.03169626120446,
+    "net_margin": -72.76848096520227,
+    "inventory_yoy_change": 15.45484727755644,
+    "inventory_qoq_change": 3.235861659492345,
+    "shares_yoy_change": 4.599974928626183,
+    "free_cash_flow_ttm": -56433000.0,
+    "operating_cash_flow_ttm": -56012000.0,
+    "revenue_ttm": 108716000.0,
+    "net_income_ttm": -73883000.0,
+    "ebitda_ttm": -71258000.0,
+    "total_debt": 21650000.0,
+    "cash": 117467000.0,
+    "total_assets": 156370000.0,
+    "margin_change": -2.5439142013631937,
+    "operating_margin_yoy_change": -5.190401825859823,
+    "inventory_to_sales_ratio": 0.2370403190075321,
+    "fcf_margin": -51.90864270208617,
+    "net_debt": -95817000.0,
+    "debt_to_assets": 13.845366758329602,
+    "market_cap": 1030292800.0,
+    "enterprise_value": 904184512.0,
+    "forward_pe": -15.529332,
+    "trailing_pe": null,
+    "ev_ebitda": -12.081,
+    "fcf_yield": -5.477374975346814,
+    "eps_fy0": -2.00442,
+    "revenue_fy0": 115839410.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": -1.70838,
+    "revenue_fy1": 147706240.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": null,
+    "forward_revenue_growth": 27.509489214421933,
+    "eps_revision_30d": null,
+    "eps_revision_90d": null,
+    "eps_surprise_pct": null
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/financials/",
+      "retrieved_at": "2026-11-20T18:31:51.676175+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CBLL/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Ceribell (CBLL) Stock Looks Stretched Despite New AI Monitoring Launch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ceribell-cbll-stock-looks-stretched-081030013.html",
+      "published_at": "2026-11-14T08:10:30+00:00",
+      "categories": []
+    },
+    {
+      "title": "CeriBell (CBLL) Climbed, What Is Behind The Fresh Attention?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ceribell-cbll-climbed-behind-fresh-211103772.html",
+      "published_at": "2026-11-07T21:11:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Ceribell (CBLL) Stock Gets Fair Value Bump As Analysts Back Rapid EEG Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ceribell-cbll-stock-gets-fair-081454261.html",
+      "published_at": "2026-11-06T08:14:54+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-03",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CBLL/0001193125-26-445555_1861107"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:31:51.676175+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 29.8906547434592,
+    "revenue_qoq_change": 4.427518952201304,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -0.55,
+    "gross_margin": 89.77199141133568,
+    "operating_margin": -70.03169626120446,
+    "net_margin": -72.76848096520227,
+    "inventory_yoy_change": 15.45484727755644,
+    "inventory_qoq_change": 3.235861659492345,
+    "shares_yoy_change": 4.599974928626183,
+    "free_cash_flow_ttm": -56433000.0,
+    "operating_cash_flow_ttm": -56012000.0,
+    "revenue_ttm": 108716000.0,
+    "net_income_ttm": -73883000.0,
+    "ebitda_ttm": -71258000.0,
+    "total_debt": 21650000.0,
+    "cash": 117467000.0,
+    "total_assets": 156370000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 22589000.0,
+      "2025-12-31": 24784000.0,
+      "2026-03-31": 26494000.0,
+      "2026-06-30": 28097000.0,
+      "2026-09-30": 29341000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": -0.37,
+      "2025-12-31": -0.36,
+      "2026-03-31": -0.52,
+      "2026-06-30": -0.51,
+      "2026-09-30": -0.55
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 6024000.0,
+      "2025-12-31": 7288000.0,
+      "2026-03-31": 6902000.0,
+      "2026-06-30": 6737000.0,
+      "2026-09-30": 6955000.0
+    },
+    "margin_change": -2.5439142013631937,
+    "operating_margin_yoy_change": -5.190401825859823,
+    "inventory_to_sales_ratio": 0.2370403190075321,
+    "fcf_margin": -51.90864270208617,
+    "net_debt": -95817000.0,
+    "debt_to_assets": 13.845366758329602
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CBLL/insider-transactions/",
+  "fmp_configured": false
+}

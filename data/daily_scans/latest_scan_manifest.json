@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-19T18:57:19.862404+00:00",
-  "github_run_id": "44576591996",
+  "generated_at": "2026-11-20T18:32:16.947045+00:00",
+  "github_run_id": "44778641943",
   "github_run_attempt": "1",
-  "report_sha256": "83a0753cc99117521ca930662cfa1447c1fd7d1fed2c139d9c43239ea3d36c95",
-  "universe": 5550,
-  "analyzed": 2668,
+  "report_sha256": "e817b172be7dfdcb13d73eeadaff6c22f38d32abf03ec2d9f3d20f501ca5f386",
+  "universe": 5548,
+  "analyzed": 2660,
   "error_rate": 0.0,
-  "buy_signals": 35,
-  "sell_signals": 798,
+  "buy_signals": 39,
+  "sell_signals": 860,
   "price_dates": [
-    "2026-11-18"
+    "2026-11-19"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-19T17:23:59.087634+00:00",
+    "fetched_at": "2026-11-20T16:58:39.468369+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
-        "rows": 5609
+        "rows": 5607
       },
       "otherlisted": {
         "status": "ok",
@@ -27,14 +27,14 @@
       }
     },
     "complete": true,
-    "included": 5550,
+    "included": 5548,
     "excluded": 7751,
     "reason_counts": {
-      "exchange_traded_fund": 5810,
-      "common_equity": 5510,
-      "unit": 313,
-      "warrant": 457,
-      "right": 142,
+      "exchange_traded_fund": 5813,
+      "common_equity": 5508,
+      "unit": 314,
+      "warrant": 454,
+      "right": 141,
       "preferred": 467,
       "debt": 186,
       "fund_by_name": 282,
@@ -50,33 +50,33 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 24,
     "profile_resolution": {
-      "calls": 24,
-      "cache_hits": 65,
+      "calls": 0,
+      "cache_hits": 89,
       "deferred": 0,
       "provider_blocked": false
     },
-    "scan_requested_count": 5550,
+    "scan_requested_count": 5548,
     "test_mode": false
   },
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
+      "PDLB",
+      "VSXY",
       "SWK",
-      "DIS",
-      "ROP",
-      "TRNS"
+      "GWW"
     ],
     "months_to_18m": [
+      "PDLB",
       "EXEL",
       "APA",
-      "CROX",
+      "EOG",
       "ADI",
+      "MORN",
+      "LLY",
       "DCTH",
-      "CORT",
-      "ASML",
-      "DK",
-      "ECO",
-      "FANG"
+      "ONC",
+      "CORT"
     ]
   },
   "strategy_version": "multifactor-v3"

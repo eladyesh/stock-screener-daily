@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "ADI",
-  "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
   "metrics": {
     "revenue_yoy_change": 39.63239858517096,
     "revenue_qoq_change": 10.995938970019026,
@@ -29,12 +29,12 @@
     "net_debt": 6796649000.0,
     "net_debt_to_ebitda": 0.9674098281787431,
     "debt_to_assets": 18.836743042254902,
-    "market_cap": 184716361728.0,
-    "enterprise_value": 191933448192.0,
-    "forward_pe": 23.12683,
-    "trailing_pe": 45.27316,
-    "ev_ebitda": 27.725,
-    "fcf_yield": 2.673014428072484,
+    "market_cap": 171111497728.0,
+    "enterprise_value": 189733519360.0,
+    "forward_pe": 21.423475,
+    "trailing_pe": 41.938667,
+    "ev_ebitda": 27.407,
+    "fcf_yield": 2.885542506236884,
     "eps_fy0": 12.83633,
     "revenue_fy0": 15124956420.0,
     "analysts_fy0": 31.0,
@@ -46,291 +46,291 @@
     "eps_revision_30d": 0.4667066915755802,
     "eps_revision_90d": 0.9782311708265379,
     "eps_surprise_pct": 3.321563659559934,
-    "days_to_earnings": 5.0,
-    "forward_pe_historical_relative": 0.9604957053145785,
-    "ev_ebitda_historical_relative": 0.9612051033143808
+    "days_to_earnings": 4.0,
+    "forward_pe_historical_relative": 0.8902314114033277,
+    "ev_ebitda_historical_relative": 0.9501802801275828
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/financials/",
-      "retrieved_at": "2026-11-19T18:56:34.631096+00:00",
+      "retrieved_at": "2026-11-20T18:31:13.672815+00:00",
       "period": "2026-07-31"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "2026-07-31"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": "2026-07-31 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/ADI/calendar/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": null
     },
     "forward_pe_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": [
         "2026-10-15",
-        "2026-11-18"
+        "2026-11-19"
       ]
     },
     "ev_ebitda_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/ADI/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
       "period": [
         "2026-10-15",
-        "2026-11-18"
+        "2026-11-19"
       ]
     }
   },
@@ -351,6 +351,40 @@
   },
   "news": [
     {
+      "title": "Earnings Calendar and Analysis for This Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-calendar-analysis-week-june-162434561.html",
+      "published_at": "2026-11-20T16:09:54+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Power-Over-Ethernet (PoE) Chipsets - Global Strategic Business Report 2026: Capitalize on 13% CAGR and $2.2B by 2032; Benchmark Cisco, Analog Devices, NXP, Microchip and Texas Instruments",
+      "url": "https://finance.yahoo.com/technology/articles/power-over-ethernet-poe-chipsets-150600919.html",
+      "published_at": "2026-11-20T15:06:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Power Monitoring - Global Strategic Business Report: Capitalize on the $4.5B Market by 2030 as ABB, Eaton, Analog Devices, Advantech, and Delta Electronics Reshape Energy ROI",
+      "url": "https://finance.yahoo.com/energy/articles/power-monitoring-global-strategic-business-145600196.html",
+      "published_at": "2026-11-20T14:56:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "ADI Set to Report Q4 Earnings: What's in the Cards for the Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/adi-set-report-q4-earnings-143600086.html",
+      "published_at": "2026-11-20T14:36:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Analog Devices (ADI) Stock Moves -1.19%: What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-moves-220002459.html",
+      "published_at": "2026-11-19T22:00:02+00:00",
+      "categories": []
+    },
+    {
       "title": "What Have Lattice Stock Holders Had To Sit Through?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-stock-holders-had-sit-170446338.html",
       "published_at": "2026-11-19T17:04:46+00:00",
@@ -367,40 +401,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-sales-boom-biggest-144049737.html",
       "published_at": "2026-11-19T14:40:49+00:00",
       "categories": []
-    },
-    {
-      "title": "Unveiling Analog Devices (ADI) Q4 Outlook: Wall Street Estimates for Key Metrics",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unveiling-analog-devices-adi-q4-131504032.html",
-      "published_at": "2026-11-19T13:15:04+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Where Did Texas Instruments Fall Behind Analog Devices?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/where-did-texas-instruments-fall-143023738.html",
-      "published_at": "2026-11-18T14:30:23+00:00",
-      "categories": []
-    },
-    {
-      "title": "What iShares PHLX SOX Semi Index Fund (SOXX) Sold: AMD Leads on Nov. 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semi-index-110432199.html",
-      "published_at": "2026-11-18T11:04:32+00:00",
-      "categories": []
-    },
-    {
-      "title": "ETFs Are Net Sellers of Analog Devices (ADI) on Nov. 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-analog-devices-110310828.html",
-      "published_at": "2026-11-18T11:03:10+00:00",
-      "categories": []
-    },
-    {
-      "title": "Analog Devices (ADI) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-earnings-expected-140002541.html",
-      "published_at": "2026-11-17T14:00:02+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
     }
   ],
   "insider_purchases": [],
@@ -422,7 +422,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-19T18:56:34.631096+00:00",
+    "fetch_date": "2026-11-20T18:31:13.672815+00:00",
     "report_period": "2026-07-31",
     "revenue_yoy_change": 39.63239858517096,
     "revenue_qoq_change": 10.995938970019026,
@@ -485,12 +485,12 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 34,
+      "prior_observations": 35,
       "required": 20,
-      "median": 24.078015
+      "median": 24.065063
     },
     "ev_ebitda": {
-      "prior_observations": 34,
+      "prior_observations": 35,
       "required": 20,
       "median": 28.844
     }

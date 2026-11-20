@@ -1,27 +1,54 @@
 {
   "data": {
-    "ticker": "SVRA",
-    "fetch_date": "2026-08-14T14:15:46.630079",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:17:26.678873+00:00",
+    "report_period": "2026-09-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.12,
-      "2025-06-30 00:00:00": -0.14,
-      "2025-09-30 00:00:00": -0.14,
-      "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": -0.15
-    },
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
     "eps_qoq_change": null,
-    "eps_yoy_change": -25.0,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "latest_eps": -0.17,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 17.443029223015106,
+    "free_cash_flow_ttm": -130945000.0,
+    "operating_cash_flow_ttm": -130314000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -152737000.0,
+    "ebitda_ttm": -155813000.0,
+    "total_debt": 30363000.0,
+    "cash": 129649000.0,
+    "total_assets": 155933000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0,
+      "2026-09-30": 0.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": -0.14,
+      "2025-09-30": -0.14,
+      "2025-12-31": null,
+      "2026-03-31": -0.15,
+      "2026-06-30": -0.16,
+      "2026-09-30": -0.17
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -99286000.0,
+    "debt_to_assets": 19.471824437418636,
+    "ticker": "SVRA"
   },
-  "fetched_at": "2026-08-14T14:15:46.631063"
+  "fetched_at": "2026-11-20T18:17:26.682942"
 }

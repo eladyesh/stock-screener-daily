@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "ticker": "GDYN",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 9.726102358803024,
+    "revenue_qoq_change": 5.667319995562292,
+    "eps_yoy_change": 700.0,
+    "eps_qoq_change": 166.66666666666669,
+    "latest_eps": 0.08,
+    "gross_margin": 40.31882688505083,
+    "operating_margin": 7.994295413582515,
+    "net_margin": 5.393108999597529,
+    "shares_yoy_change": -4.595813091951206,
+    "free_cash_flow_ttm": 26312000.0,
+    "operating_cash_flow_ttm": 40405000.0,
+    "revenue_ttm": 432712000.0,
+    "net_income_ttm": 7849000.0,
+    "ebitda_ttm": 34452000.0,
+    "total_debt": 15576000.0,
+    "cash": 304287000.0,
+    "total_assets": 602343000.0,
+    "margin_change": 3.6901888908938147,
+    "operating_margin_yoy_change": 8.22566355774119,
+    "fcf_margin": 6.080718815285917,
+    "net_debt": -288711000.0,
+    "net_debt_to_ebitda": -8.380094043887148,
+    "debt_to_assets": 2.585902052485046,
+    "market_cap": 1023120832.0,
+    "enterprise_value": 715111936.0,
+    "forward_pe": 20.934744,
+    "trailing_pe": 141.44443,
+    "ev_ebitda": 18.966,
+    "fcf_yield": 2.5717392488788655,
+    "eps_fy0": 0.53952,
+    "revenue_fy0": 440347430.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 0.60808,
+    "revenue_fy1": 483775740.0,
+    "analysts_fy1": 6.0,
+    "forward_eps_growth": 12.707591933570583,
+    "forward_revenue_growth": 9.862283061354526,
+    "eps_revision_30d": 15.586982968369822,
+    "eps_revision_90d": 17.548811134738052,
+    "eps_surprise_pct": 37.74104683195594
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/financials/",
+      "retrieved_at": "2026-11-20T18:31:38.333525+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GDYN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Grid Dynamics (GDYN) Stock Sees Fair Value Lift After Higher Analyst Targets",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-gdyn-stock-sees-100829194.html",
+      "published_at": "2026-11-13T10:08:29+00:00",
+      "categories": []
+    },
+    {
+      "title": "Grid Dynamics Holdings Insider Sold Shares Worth $745,581, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-holdings-insider-sold-220142795.html",
+      "published_at": "2026-11-12T22:01:42+00:00",
+      "categories": []
+    },
+    {
+      "title": "Grid Dynamics Holdings Insider Sold Shares Worth $268,000, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-holdings-insider-sold-211140459.html",
+      "published_at": "2026-11-12T21:11:40+00:00",
+      "categories": []
+    },
+    {
+      "title": "Telos Corporation (TLS) Hit a 52 Week High, Can the Run Continue?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/telos-corporation-tls-hit-52-131502512.html",
+      "published_at": "2026-11-12T13:15:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Grid Dynamics Holdings, Inc. (GDYN) Hits Fresh High: Is There Still Room to Run?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-holdings-inc-gdyn-200600841.html",
+      "published_at": "2026-11-11T20:06:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Zacks.com featured highlights include Grid Dynamics, Vera Bradley, Hasbro, Climb Global and Vince",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-grid-054400771.html",
+      "published_at": "2026-11-10T05:44:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "5 Stocks With Recent Price Strength Amid Market Bloodbath This Month",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-recent-price-strength-125600118.html",
+      "published_at": "2026-11-09T12:56:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Grid Dynamics (GDYN) Stock May Be 11% Undervalued After Record AI Led Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-gdyn-stock-may-141541679.html",
+      "published_at": "2026-11-07T14:15:41+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:31:38.333525+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 9.726102358803024,
+    "revenue_qoq_change": 5.667319995562292,
+    "eps_yoy_change": 700.0,
+    "eps_qoq_change": 166.66666666666669,
+    "latest_eps": 0.08,
+    "gross_margin": 40.31882688505083,
+    "operating_margin": 7.994295413582515,
+    "net_margin": 5.393108999597529,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -4.595813091951206,
+    "free_cash_flow_ttm": 26312000.0,
+    "operating_cash_flow_ttm": 40405000.0,
+    "revenue_ttm": 432712000.0,
+    "net_income_ttm": 7849000.0,
+    "ebitda_ttm": 34452000.0,
+    "total_debt": 15576000.0,
+    "cash": 304287000.0,
+    "total_assets": 602343000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 104163000.0,
+      "2025-12-31": 106154000.0,
+      "2026-03-31": 104100000.0,
+      "2026-06-30": 108164000.0,
+      "2026-09-30": 114294000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.01,
+      "2025-12-31": 0.0,
+      "2026-03-31": -0.02,
+      "2026-06-30": 0.03,
+      "2026-09-30": 0.08
+    },
+    "quarterly_inventory": {},
+    "margin_change": 3.6901888908938147,
+    "operating_margin_yoy_change": 8.22566355774119,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 6.080718815285917,
+    "net_debt": -288711000.0,
+    "net_debt_to_ebitda": -8.380094043887148,
+    "debt_to_assets": 2.585902052485046
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/GDYN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

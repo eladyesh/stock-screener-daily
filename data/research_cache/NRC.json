@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "ticker": "NRC",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.954114655570969,
+    "revenue_qoq_change": 8.49627034358047,
+    "eps_yoy_change": 16.666666666666675,
+    "latest_eps": 0.21,
+    "gross_margin": 59.952082085470984,
+    "operating_margin": 23.198520794812367,
+    "net_margin": 12.250319018724445,
+    "shares_yoy_change": -1.0980569362855852,
+    "free_cash_flow_ttm": 18448000.0,
+    "operating_cash_flow_ttm": 23765000.0,
+    "revenue_ttm": 143788000.0,
+    "net_income_ttm": 6441000.0,
+    "ebitda_ttm": 24492000.0,
+    "total_debt": 102900000.0,
+    "cash": 3626000.0,
+    "total_assets": 139213000.0,
+    "margin_change": -1.7228727065724172,
+    "operating_margin_yoy_change": 0.8395286542668288,
+    "fcf_margin": 12.82999972181267,
+    "net_debt": 99274000.0,
+    "net_debt_to_ebitda": 4.053323534215254,
+    "debt_to_assets": 73.91551076408093,
+    "market_cap": 527779680.0,
+    "enterprise_value": 629940224.0,
+    "forward_pe": 23.462267,
+    "trailing_pe": 92.11111,
+    "ev_ebitda": 22.726,
+    "fcf_yield": 3.495397928165783,
+    "eps_fy0": 0.39,
+    "revenue_fy0": 147400000.0,
+    "analysts_fy0": 1.0,
+    "eps_fy1": 1.06,
+    "revenue_fy1": 155000000.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": 171.7948717948718,
+    "forward_revenue_growth": 5.156037991858886,
+    "eps_revision_30d": 0.952380952380949,
+    "eps_revision_90d": 0.952380952380949,
+    "eps_surprise_pct": 16.666666666666675
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/financials/",
+      "retrieved_at": "2026-11-20T18:32:07.822255+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NRC/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "NRC Health: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nrc-health-3-key-takeaways-233502711.html",
+      "published_at": "2026-11-08T23:35:02+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/NRC/0001437749-26-034887_70487"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NRC/0001437749-26-033639_70487"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/NRC/0001437749-26-032899_70487"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:32:07.822255+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 10.954114655570969,
+    "revenue_qoq_change": 8.49627034358047,
+    "eps_yoy_change": 16.666666666666675,
+    "eps_qoq_change": null,
+    "latest_eps": 0.21,
+    "gross_margin": 59.952082085470984,
+    "operating_margin": 23.198520794812367,
+    "net_margin": 12.250319018724445,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.0980569362855852,
+    "free_cash_flow_ttm": 18448000.0,
+    "operating_cash_flow_ttm": 23765000.0,
+    "revenue_ttm": 143788000.0,
+    "net_income_ttm": 6441000.0,
+    "ebitda_ttm": 24492000.0,
+    "total_debt": 102900000.0,
+    "cash": 3626000.0,
+    "total_assets": 139213000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 34608000.0,
+      "2025-12-31": 35194000.0,
+      "2026-03-31": 34803000.0,
+      "2026-06-30": 35392000.0,
+      "2026-09-30": 38399000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.18,
+      "2025-12-31": 0.08,
+      "2026-03-31": 0.14,
+      "2026-06-30": -0.15,
+      "2026-09-30": 0.21
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.7228727065724172,
+    "operating_margin_yoy_change": 0.8395286542668288,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 12.82999972181267,
+    "net_debt": 99274000.0,
+    "net_debt_to_ebitda": 4.053323534215254,
+    "debt_to_assets": 73.91551076408093
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/NRC/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

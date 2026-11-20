@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "ticker": "VSXY",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.418094585332426,
+    "revenue_qoq_change": 3.26923076923078,
+    "eps_yoy_change": 1001.8783338145676,
+    "eps_qoq_change": 288.42982142857136,
+    "latest_eps": 2.175207,
+    "gross_margin": 47.113594040968344,
+    "operating_margin": 15.9528243327126,
+    "net_margin": 11.359404096834265,
+    "inventory_yoy_change": 8.31758034026464,
+    "inventory_qoq_change": 4.371584699453557,
+    "shares_yoy_change": 2.3684690712243883,
+    "free_cash_flow_ttm": 554000000.0,
+    "operating_cash_flow_ttm": 758000000.0,
+    "revenue_ttm": 6912000000.0,
+    "net_income_ttm": 378000000.0,
+    "ebitda_ttm": 773000000.0,
+    "total_debt": 2899000000.0,
+    "cash": 522000000.0,
+    "total_assets": 5155000000.0,
+    "margin_change": 9.613594040968344,
+    "operating_margin_yoy_change": 13.142680398511093,
+    "inventory_to_sales_ratio": 0.7113594040968343,
+    "fcf_margin": 8.015046296296296,
+    "net_debt": 2377000000.0,
+    "net_debt_to_ebitda": 3.07503234152652,
+    "debt_to_assets": 56.236663433559656,
+    "market_cap": 7486644736.0,
+    "enterprise_value": 10132836352.0,
+    "forward_pe": 16.210943,
+    "trailing_pe": 20.95087,
+    "ev_ebitda": 13.786,
+    "fcf_yield": 7.3998435819460795,
+    "eps_fy0": 4.81563,
+    "revenue_fy0": 7192950910.0,
+    "analysts_fy0": 13.0,
+    "eps_fy1": 5.78991,
+    "revenue_fy1": 7590156200.0,
+    "analysts_fy1": 13.0,
+    "forward_eps_growth": 20.231620784819437,
+    "forward_revenue_growth": 5.5221465427740535,
+    "eps_revision_30d": 3.055216383720216,
+    "eps_revision_90d": 4.792475095563531,
+    "eps_surprise_pct": 22.68512539711236,
+    "days_to_earnings": 13.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+      "retrieved_at": "2026-11-20T18:31:57.702996+00:00",
+      "period": "2026-07-31"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-07-31"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-07-31 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VSXY/calendar/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Victoria's Secret (VSXY) Upgraded to Strong Buy: Here's Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-vsxy-upgraded-strong-160004177.html",
+      "published_at": "2026-11-19T16:00:04+00:00",
+      "categories": []
+    },
+    {
+      "title": "Bath & Body Works: Fiscal Q3 Earnings Snapshot",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bath-body-works-fiscal-q3-120458736.html",
+      "published_at": "2026-11-19T12:04:58+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Build-A-Bear Workshop Appoints Holly Tybor as SVP Chief Product and Innovation Officer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/build-bear-workshop-appoints-holly-170700039.html",
+      "published_at": "2026-11-18T17:07:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Victoria's Secret (VSXY) Could Be 6% Overvalued On Raised Full Year Guidance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-vsxy-could-6-002136652.html",
+      "published_at": "2026-11-17T00:21:36+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Dives As Nvidia Makes Huang Decision; Warren Buffett Does This",
+      "url": "https://finance.yahoo.com/m/befe3344-5a22-304e-a07d-6ff7ad87bf49/stock-market-today%3A-dow-dives.html",
+      "published_at": "2026-11-16T21:37:46+00:00",
+      "categories": []
+    },
+    {
+      "title": "BofA Securities Raised Its Target but Downgraded Victoria\u2019s Secret (VSXY)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-raised-target-downgraded-030512754.html",
+      "published_at": "2026-11-16T03:05:12+00:00",
+      "categories": []
+    },
+    {
+      "title": "Victoria's Secret shoppers may see fewer deals this holiday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-shoppers-may-see-034700971.html",
+      "published_at": "2026-11-15T03:47:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "VSXY vs. IDEXY: Which Stock Is the Better Value Option?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vsxy-vs-idexy-stock-better-154002274.html",
+      "published_at": "2026-11-13T15:40:02+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-09",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/VSXY/0001856437-26-000023_1856437"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/VSXY/0001856437-26-000021_1856437"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/VSXY/0001856437-26-000019_1856437"
+    }
+  ],
+  "warnings": [],
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:31:57.702996+00:00",
+    "report_period": "2026-07-31",
+    "revenue_yoy_change": 10.418094585332426,
+    "revenue_qoq_change": 3.26923076923078,
+    "eps_yoy_change": 1001.8783338145676,
+    "eps_qoq_change": 288.42982142857136,
+    "latest_eps": 2.175207,
+    "gross_margin": 47.113594040968344,
+    "operating_margin": 15.9528243327126,
+    "net_margin": 11.359404096834265,
+    "inventory_yoy_change": 8.31758034026464,
+    "inventory_qoq_change": 4.371584699453557,
+    "shares_yoy_change": 2.3684690712243883,
+    "free_cash_flow_ttm": 554000000.0,
+    "operating_cash_flow_ttm": 758000000.0,
+    "revenue_ttm": 6912000000.0,
+    "net_income_ttm": 378000000.0,
+    "ebitda_ttm": 773000000.0,
+    "total_debt": 2899000000.0,
+    "cash": 522000000.0,
+    "total_assets": 5155000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-04-30": null,
+      "2025-07-31": 1459000000.0,
+      "2025-10-31": 1472000000.0,
+      "2026-01-31": 2269000000.0,
+      "2026-04-30": 1560000000.0,
+      "2026-07-31": 1611000000.0
+    },
+    "quarterly_eps": {
+      "2025-04-30": null,
+      "2025-07-31": 0.197409,
+      "2025-10-31": -0.463191,
+      "2026-01-31": 2.13901,
+      "2026-04-30": 0.56,
+      "2026-07-31": 2.175207
+    },
+    "quarterly_inventory": {
+      "2025-07-31": 1058000000.0,
+      "2025-10-31": 1377000000.0,
+      "2026-01-31": 1071000000.0,
+      "2026-04-30": 1098000000.0,
+      "2026-07-31": 1146000000.0
+    },
+    "margin_change": 9.613594040968344,
+    "operating_margin_yoy_change": 13.142680398511093,
+    "inventory_to_sales_ratio": 0.7113594040968343,
+    "fcf_margin": 8.015046296296296,
+    "net_debt": 2377000000.0,
+    "net_debt_to_ebitda": 3.07503234152652,
+    "debt_to_assets": 56.236663433559656
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2026-12-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/VSXY/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

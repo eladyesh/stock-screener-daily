@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "ticker": "CRCT",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.669631594078744,
+    "revenue_qoq_change": 20.69104520587388,
+    "eps_yoy_change": 30.000000000000004,
+    "eps_qoq_change": -31.57894736842105,
+    "latest_eps": 0.13,
+    "gross_margin": 57.72285311363468,
+    "operating_margin": 17.966090911982697,
+    "net_margin": 14.760738408032998,
+    "inventory_yoy_change": 8.899991845751277,
+    "inventory_qoq_change": 38.79650800249428,
+    "shares_yoy_change": -1.1511477878563547,
+    "free_cash_flow_ttm": 147612000.0,
+    "operating_cash_flow_ttm": 183310000.0,
+    "revenue_ttm": 707975000.0,
+    "net_income_ttm": 95005000.0,
+    "ebitda_ttm": 152539000.0,
+    "total_debt": 9439000.0,
+    "cash": 272702000.0,
+    "total_assets": 650573000.0,
+    "margin_change": -16.761582372816356,
+    "operating_margin_yoy_change": 4.676136265984468,
+    "inventory_to_sales_ratio": 0.778832797870874,
+    "fcf_margin": 20.849888767258733,
+    "net_debt": -263263000.0,
+    "net_debt_to_ebitda": -1.7258733832003619,
+    "debt_to_assets": 1.4508748441758266,
+    "market_cap": 1749688448.0,
+    "enterprise_value": 1465596032.0,
+    "forward_pe": 29.336777,
+    "trailing_pe": 19.090908,
+    "ev_ebitda": 12.792,
+    "fcf_yield": 8.436473371515337,
+    "eps_fy0": 0.454,
+    "revenue_fy0": 714001000.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": 0.28633,
+    "revenue_fy1": 713911380.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": -36.93171806167401,
+    "forward_revenue_growth": -0.01255180314873039,
+    "eps_revision_30d": 21.15685693733338,
+    "eps_revision_90d": 26.509963327884044,
+    "eps_surprise_pct": 186.78579307302007
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/financials/",
+      "retrieved_at": "2026-11-20T18:31:48.663998+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CRCT/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "CRCT Stock Rises 58% in 3 Months: Here's What Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crct-stock-rises-58-3-150900442.html",
+      "published_at": "2026-11-19T15:09:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-04",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CRCT/0001828962-26-000058_1828962"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CRCT/0001828962-26-000057_1828962"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CRCT/0001828962-26-000054_1828962"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:31:48.663998+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 10.669631594078744,
+    "revenue_qoq_change": 20.69104520587388,
+    "eps_yoy_change": 30.000000000000004,
+    "eps_qoq_change": -31.57894736842105,
+    "latest_eps": 0.13,
+    "gross_margin": 57.72285311363468,
+    "operating_margin": 17.966090911982697,
+    "net_margin": 14.760738408032998,
+    "inventory_yoy_change": 8.899991845751277,
+    "inventory_qoq_change": 38.79650800249428,
+    "shares_yoy_change": -1.1511477878563547,
+    "free_cash_flow_ttm": 147612000.0,
+    "operating_cash_flow_ttm": 183310000.0,
+    "revenue_ttm": 707975000.0,
+    "net_income_ttm": 95005000.0,
+    "ebitda_ttm": 152539000.0,
+    "total_debt": 9439000.0,
+    "cash": 272702000.0,
+    "total_assets": 650573000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 170437000.0,
+      "2025-12-31": 203597000.0,
+      "2026-03-31": 159471000.0,
+      "2026-06-30": 156285000.0,
+      "2026-09-30": 188622000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 0.1,
+      "2025-12-31": 0.04,
+      "2026-03-31": 0.1,
+      "2026-06-30": 0.19,
+      "2026-09-30": 0.13
+    },
+    "quarterly_inventory": {
+      "2025-06-30": null,
+      "2025-09-30": 134899000.0,
+      "2025-12-31": 102664000.0,
+      "2026-03-31": 106038000.0,
+      "2026-06-30": 105842000.0,
+      "2026-09-30": 146905000.0
+    },
+    "margin_change": -16.761582372816356,
+    "operating_margin_yoy_change": 4.676136265984468,
+    "inventory_to_sales_ratio": 0.778832797870874,
+    "fcf_margin": 20.849888767258733,
+    "net_debt": -263263000.0,
+    "net_debt_to_ebitda": -1.7258733832003619,
+    "debt_to_assets": 1.4508748441758266
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CRCT/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "ticker": "MORN",
+  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "metrics": {
+    "revenue_yoy_change": 8.859734369938455,
+    "revenue_qoq_change": 1.341978287092882,
+    "eps_yoy_change": 41.01382488479264,
+    "eps_qoq_change": 8.127208480565361,
+    "latest_eps": 3.06,
+    "gross_margin": 64.18687695283441,
+    "operating_margin": 24.90700788573129,
+    "net_margin": 17.18494271685761,
+    "shares_yoy_change": -10.63829787234043,
+    "free_cash_flow_ttm": 492800000.0,
+    "operating_cash_flow_ttm": 641900000.0,
+    "revenue_ttm": 2621200000.0,
+    "net_income_ttm": 445500000.0,
+    "ebitda_ttm": 864700000.0,
+    "total_debt": 1877600000.0,
+    "cash": 524600000.0,
+    "total_assets": 3951100000.0,
+    "margin_change": 0.26950662714079954,
+    "operating_margin_yoy_change": 4.207299430920795,
+    "fcf_margin": 18.800549366702274,
+    "net_debt": 1353000000.0,
+    "net_debt_to_ebitda": 1.564704521799468,
+    "debt_to_assets": 47.520943534711854,
+    "market_cap": 8900767744.0,
+    "enterprise_value": 9976393728.0,
+    "forward_pe": 16.039242,
+    "trailing_pe": 21.042543,
+    "ev_ebitda": 13.868,
+    "fcf_yield": 5.536601045816481,
+    "eps_fy0": 13.12057,
+    "revenue_fy0": 2674120070.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 14.95613,
+    "revenue_fy1": 2830066540.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": 13.98994098579558,
+    "forward_revenue_growth": 5.831692890289708,
+    "eps_revision_30d": 7.3048605321574644,
+    "eps_revision_90d": 7.3048605321574644,
+    "eps_surprise_pct": 14.49251521631847
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/financials/",
+      "retrieved_at": "2026-11-20T18:32:04.406891+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/key-statistics/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MORN/analysis/",
+      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Robinhood Markets vs. Nu: Which Financial Stock Is a Better Buy for 2027?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-vs-nu-financial-151502976.html",
+      "published_at": "2026-11-20T15:15:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Moody's Ratings Gain From AI Infrastructure and Private Credit Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/moodys-ratings-gain-ai-infrastructure-131100021.html",
+      "published_at": "2026-11-20T13:11:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Michigan Education Savings Program Receives Gold Rating from Morningstar",
+      "url": "https://finance.yahoo.com/small-business/articles/michigan-education-savings-program-receives-140000527.html",
+      "published_at": "2026-11-19T14:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Palo Alto\u2019s AI Ambitions Come With A Catch \u2014 Why Morningstar Calls PANW\u2019s $4.5B Deal 'Risky'",
+      "url": "https://finance.yahoo.com/technology/ai/articles/palo-alto-ai-ambitions-come-105653211.html",
+      "published_at": "2026-11-19T10:56:53+00:00",
+      "categories": []
+    },
+    {
+      "title": "Anthropic IPO: Here Are 3 Critical Questions Morningstar Wants Investors To Ask",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-3-critical-questions-090927689.html",
+      "published_at": "2026-11-19T09:09:27+00:00",
+      "categories": []
+    },
+    {
+      "title": "We Saved $3 Million for Retirement: Is It Enough to Live the Life We\u2019ve Always Imagined?",
+      "url": "https://finance.yahoo.com/markets/options/articles/saved-3-million-retirement-enough-185113612.html",
+      "published_at": "2026-11-18T18:51:13+00:00",
+      "categories": []
+    },
+    {
+      "title": "U.Fund Receives Morningstar Gold Rating for Third Consecutive Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-fund-receives-morningstar-gold-123000723.html",
+      "published_at": "2026-11-18T12:30:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy for 2027?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cme-vs-morningstar-financial-stock-115602799.html",
+      "published_at": "2026-11-16T11:56:02+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-28",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/MORN/0001289419-26-000054_1289419"
+    },
+    {
+      "date": "2026-09-25",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/MORN/0001289419-26-000048_1289419"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/MORN/0001289419-26-000046_1289419"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/MORN/0001289419-26-000044_1289419"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-20T18:32:04.406891+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 8.859734369938455,
+    "revenue_qoq_change": 1.341978287092882,
+    "eps_yoy_change": 41.01382488479264,
+    "eps_qoq_change": 8.127208480565361,
+    "latest_eps": 3.06,
+    "gross_margin": 64.18687695283441,
+    "operating_margin": 24.90700788573129,
+    "net_margin": 17.18494271685761,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -10.63829787234043,
+    "free_cash_flow_ttm": 492800000.0,
+    "operating_cash_flow_ttm": 641900000.0,
+    "revenue_ttm": 2621200000.0,
+    "net_income_ttm": 445500000.0,
+    "ebitda_ttm": 864700000.0,
+    "total_debt": 1877600000.0,
+    "cash": 524600000.0,
+    "total_assets": 3951100000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 617400000.0,
+      "2025-12-31": 641100000.0,
+      "2026-03-31": 644800000.0,
+      "2026-06-30": 663200000.0,
+      "2026-09-30": 672100000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 2.17,
+      "2025-12-31": 2.83,
+      "2026-03-31": 2.73,
+      "2026-06-30": 2.83,
+      "2026-09-30": 3.06
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.26950662714079954,
+    "operating_margin_yoy_change": 4.207299430920795,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 18.800549366702274,
+    "net_debt": 1353000000.0,
+    "net_debt_to_ebitda": 1.564704521799468,
+    "debt_to_assets": 47.520943534711854
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/MORN/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
