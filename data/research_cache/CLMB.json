@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "ticker": "CLMB",
+  "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+  "metrics": {
+    "revenue_yoy_change": 36.54512436238324,
+    "revenue_qoq_change": 26.4607454264705,
+    "eps_yoy_change": 72.0,
+    "eps_qoq_change": 43.333333333333336,
+    "latest_eps": 0.43,
+    "gross_margin": 14.983704483763493,
+    "operating_margin": 4.5709150000453915,
+    "net_margin": 3.6027162219821522,
+    "inventory_yoy_change": 22.591779102604328,
+    "inventory_qoq_change": -14.675693382834677,
+    "shares_yoy_change": 0.9865520282186901,
+    "free_cash_flow_ttm": 30102000.0,
+    "operating_cash_flow_ttm": 32203000.0,
+    "revenue_ttm": 770737000.0,
+    "net_income_ttm": 23775000.0,
+    "ebitda_ttm": 40060000.0,
+    "total_debt": 1862000.0,
+    "cash": 66949000.0,
+    "total_assets": 518409000.0,
+    "margin_change": -2.3271118345667894,
+    "operating_margin_yoy_change": -0.0967805305943008,
+    "inventory_to_sales_ratio": 0.017734423937614045,
+    "fcf_margin": 3.905612420319772,
+    "net_debt": -65087000.0,
+    "net_debt_to_ebitda": -1.6247378931602596,
+    "debt_to_assets": 0.35917586307336485,
+    "market_cap": 748930688.0,
+    "enterprise_value": 683843648.0,
+    "forward_pe": 19.871286,
+    "trailing_pe": 31.359375,
+    "ev_ebitda": 17.35,
+    "fcf_yield": 4.01933055786332,
+    "eps_fy0": 1.44333,
+    "revenue_fy0": 804036070.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 2.02,
+    "revenue_fy1": 915082700.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": 39.954133843265225,
+    "forward_revenue_growth": 13.811150288319784,
+    "eps_revision_30d": 15.648634258331562,
+    "eps_revision_90d": 15.648634258331562,
+    "eps_surprise_pct": 14.158281785116934
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/financials/",
+      "retrieved_at": "2026-11-21T17:43:20.157417+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CLMB/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Recent Price Trend in Climb Global (CLMB) is Your Friend, Here's Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/recent-price-trend-climb-global-194935403.html",
+      "published_at": "2026-11-20T19:49:35+00:00",
+      "categories": []
+    },
+    {
+      "title": "MAX Stock Surges 67% in 6 Months: Here's What Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/max-stock-surges-67-6-145600310.html",
+      "published_at": "2026-11-20T14:56:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "FISV Stock Rises 17% in a Month: Here's What Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fisv-stock-rises-17-month-135500840.html",
+      "published_at": "2026-11-20T13:55:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is Climb Global Solutions, Inc. (CLMB) Stock Outpacing Its Business Services Peers This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/climb-global-solutions-inc-clmb-134003255.html",
+      "published_at": "2026-11-20T13:40:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Climb Global Solutions (CLMB) Stock Sees Fair Value Lift After Q3 Driven Analyst Revisions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/climb-global-solutions-clmb-stock-181152098.html",
+      "published_at": "2026-11-19T18:11:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "Climb adds Archer to its Security Portfolio, Bringing AI-Powered Risk, Compliance and Regulatory Change Management to VARs and MSPs",
+      "url": "https://finance.yahoo.com/technology/ai/articles/climb-adds-archer-security-portfolio-120000859.html",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Buy 5 Stocks at 52-Week High With More Upside for the Short Term",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-5-stocks-52-week-131400177.html",
+      "published_at": "2026-11-18T13:14:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Here's Why Investors Should Hold NSP Stock in Their Portfolios Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-hold-nsp-121700840.html",
+      "published_at": "2026-11-18T12:17:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-29",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CLMB/0001437749-26-033931_945983"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CLMB/0001437749-26-033785_945983"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CLMB/0001437749-26-033185_945983"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Electronics & Computer Distribution",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-21T17:43:20.157417+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 36.54512436238324,
+    "revenue_qoq_change": 26.4607454264705,
+    "eps_yoy_change": 72.0,
+    "eps_qoq_change": 43.333333333333336,
+    "latest_eps": 0.43,
+    "gross_margin": 14.983704483763493,
+    "operating_margin": 4.5709150000453915,
+    "net_margin": 3.6027162219821522,
+    "inventory_yoy_change": 22.591779102604328,
+    "inventory_qoq_change": -14.675693382834677,
+    "shares_yoy_change": 0.9865520282186901,
+    "free_cash_flow_ttm": 30102000.0,
+    "operating_cash_flow_ttm": 32203000.0,
+    "revenue_ttm": 770737000.0,
+    "net_income_ttm": 23775000.0,
+    "ebitda_ttm": 40060000.0,
+    "total_debt": 1862000.0,
+    "cash": 66949000.0,
+    "total_assets": 518409000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 161343000.0,
+      "2025-12-31": 193846000.0,
+      "2026-03-31": 182376000.0,
+      "2026-06-30": 174209000.0,
+      "2026-09-30": 220306000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 0.25,
+      "2025-12-31": 0.38,
+      "2026-03-31": 0.18,
+      "2026-06-30": 0.3,
+      "2026-09-30": 0.43
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3187000.0,
+      "2025-12-31": 2502000.0,
+      "2026-03-31": 4862000.0,
+      "2026-06-30": 4579000.0,
+      "2026-09-30": 3907000.0
+    },
+    "margin_change": -2.3271118345667894,
+    "operating_margin_yoy_change": -0.0967805305943008,
+    "inventory_to_sales_ratio": 0.017734423937614045,
+    "fcf_margin": 3.905612420319772,
+    "net_debt": -65087000.0,
+    "net_debt_to_ebitda": -1.6247378931602596,
+    "debt_to_assets": 0.35917586307336485
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/CLMB/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

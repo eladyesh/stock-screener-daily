@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "ticker": "PLMR",
+  "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+  "metrics": {
+    "revenue_yoy_change": 58.01111746914085,
+    "revenue_qoq_change": 22.95220133387188,
+    "eps_yoy_change": 29.411764705882337,
+    "eps_qoq_change": 24.742268041237114,
+    "latest_eps": 2.42,
+    "net_margin": 16.900333686851702,
+    "shares_yoy_change": -1.6429952373923973,
+    "free_cash_flow_ttm": 443265000.0,
+    "operating_cash_flow_ttm": 452175000.0,
+    "revenue_ttm": 1235582000.0,
+    "net_income_ttm": 217039000.0,
+    "total_debt": 315038000.0,
+    "cash": 838772000.0,
+    "total_assets": 4169244000.0,
+    "fcf_margin": 35.874996560325414,
+    "net_debt": -523734000.0,
+    "debt_to_assets": 7.556238013414422,
+    "market_cap": 4301590528.0,
+    "enterprise_value": 4561001472.0,
+    "forward_pe": 14.027443,
+    "trailing_pe": 20.5,
+    "ev_ebitda": 14.392,
+    "fcf_yield": 10.304676772805093,
+    "eps_fy0": 10.38626,
+    "revenue_fy0": 1240194400.0,
+    "analysts_fy0": 7.0,
+    "eps_fy1": 11.66214,
+    "revenue_fy1": 1520758200.0,
+    "analysts_fy1": 7.0,
+    "forward_eps_growth": 12.28430638170044,
+    "forward_revenue_growth": 22.62256626864305,
+    "eps_revision_30d": 3.242878124051085,
+    "eps_revision_90d": 3.308269877434755,
+    "eps_surprise_pct": 16.308724313546662
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/financials/",
+      "retrieved_at": "2026-11-21T17:44:00.183674+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/key-statistics/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
+      "retrieved_at": "2026-11-21T17:43:19.307221+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Insurer Tops Alternative Buy Point As Investors Play Defense",
+      "url": "https://finance.yahoo.com/m/21f027a9-f6d5-392c-94e8-0099d15acb81/insurer-tops-alternative-buy.html",
+      "published_at": "2026-11-20T18:59:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "Palomar Holdings, Inc. Announces 2027 Investor Day",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palomar-holdings-inc-announces-2027-211500610.html",
+      "published_at": "2026-11-19T21:15:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can PLMR Balance Rapid Premium Growth With Underwriting Discipline?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/plmr-balance-rapid-premium-growth-134100435.html",
+      "published_at": "2026-11-12T13:41:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "4 Insurance Dividend Stocks With Two Ways to Make Money and Pay Shareholders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/4-insurance-dividend-stocks-two-164707532.html",
+      "published_at": "2026-11-11T16:47:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Insurance Stocks for Rising AI Risk in Cyber and Specialty Cover",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-rising-ai-191152337.html",
+      "published_at": "2026-11-10T19:11:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "PLMR Q3 2026 deep dive: diversified specialty lines fuel growth, margin trends shift",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/plmr-q3-2026-deep-dive-082136552.html",
+      "published_at": "2026-11-10T08:21:36+00:00",
+      "categories": []
+    },
+    {
+      "title": "BRK.B Q3 Earnings Decline Year Over Year, Revenues Top Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brk-b-q3-earnings-decline-124200269.html",
+      "published_at": "2026-11-09T12:42:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Palomar Holdings (PLMR) Stock Could Be 47% Undervalued Following Strong Q3 Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palomar-holdings-plmr-stock-could-220708679.html",
+      "published_at": "2026-11-08T22:07:08+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    }
+  ],
+  "insider_purchases": [
+    {
+      "name": "BRADLEY DARYL",
+      "date": "2026-09-02",
+      "value": 135.0,
+      "description": "Purchase at price 131.96 per share.",
+      "verification": "Yahoo transaction label; Form 4 not independently verified"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-11-12",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/PLMR/0001193125-26-457164_1761312"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/PLMR/0001193125-26-450504_1761312"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/PLMR/0001193125-26-447298_1761312"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-21T17:44:00.183674+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 58.01111746914085,
+    "revenue_qoq_change": 22.95220133387188,
+    "eps_yoy_change": 29.411764705882337,
+    "eps_qoq_change": 24.742268041237114,
+    "latest_eps": 2.42,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 16.900333686851702,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -1.6429952373923973,
+    "free_cash_flow_ttm": 443265000.0,
+    "operating_cash_flow_ttm": 452175000.0,
+    "revenue_ttm": 1235582000.0,
+    "net_income_ttm": 217039000.0,
+    "ebitda_ttm": null,
+    "total_debt": 315038000.0,
+    "cash": 838772000.0,
+    "total_assets": 4169244000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 244660000.0,
+      "2025-12-31": 255631000.0,
+      "2026-03-31": 278938000.0,
+      "2026-06-30": 314423000.0,
+      "2026-09-30": 386590000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 1.87,
+      "2025-12-31": 2.06,
+      "2026-03-31": 1.57,
+      "2026-06-30": 1.94,
+      "2026-09-30": 2.42
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 35.874996560325414,
+    "net_debt": -523734000.0,
+    "debt_to_assets": 7.556238013414422
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/PLMR/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
