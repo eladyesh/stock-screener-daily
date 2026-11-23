@@ -1,40 +1,41 @@
 {
-  "generated_at": "2026-11-22T17:51:40.934490+00:00",
-  "github_run_id": "45042923321",
+  "generated_at": "2026-11-23T21:49:30.076266+00:00",
+  "github_run_id": "45257420665",
   "github_run_attempt": "1",
-  "report_sha256": "a865fe7f3fa28d035bc1230ef51603f9fb7d29d2de59b266cdb8970331ebda0e",
-  "universe": 5548,
-  "analyzed": 2651,
+  "report_sha256": "1f79f80578d0b02149263cf24e9791005008f3b7e9f5912b576880fd97b81619",
+  "universe": 5550,
+  "analyzed": 2653,
   "error_rate": 0.0,
-  "buy_signals": 46,
-  "sell_signals": 919,
+  "buy_signals": 41,
+  "sell_signals": 890,
   "price_dates": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-23"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-22T16:17:39.286379+00:00",
+    "fetched_at": "2026-11-23T20:16:01.095911+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
-        "rows": 5607
+        "rows": 5613
       },
       "otherlisted": {
         "status": "ok",
-        "rows": 7692
+        "rows": 7701
       }
     },
     "complete": true,
-    "included": 5548,
-    "excluded": 7751,
+    "included": 5550,
+    "excluded": 7764,
     "reason_counts": {
-      "exchange_traded_fund": 5813,
-      "common_equity": 5508,
-      "unit": 314,
+      "exchange_traded_fund": 5831,
+      "common_equity": 5510,
+      "unit": 311,
       "warrant": 454,
-      "right": 141,
+      "right": 140,
       "preferred": 467,
       "debt": 186,
       "fund_by_name": 282,
@@ -42,34 +43,34 @@
       "profile_supported_equity": 40,
       "test_issue": 38,
       "profile_fund": 15,
-      "profile_incomplete": 8,
       "profile_name_mismatch": 13,
       "profile_non_common_instrument": 10,
+      "profile_incomplete": 7,
       "unsupported_symbol": 7
     },
     "resolved_by_profile": 40,
-    "unresolved_security_types": 24,
+    "unresolved_security_types": 23,
     "profile_resolution": {
-      "calls": 24,
+      "calls": 23,
       "cache_hits": 65,
       "deferred": 0,
       "provider_blocked": false
     },
-    "scan_requested_count": 5548,
+    "scan_requested_count": 5550,
     "test_mode": false
   },
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
-      "REGN",
-      "VSXY",
-      "SWK"
+      "PDLB",
+      "SWK",
+      "VSXY"
     ],
     "months_to_18m": [
+      "PDLB",
       "PLMR",
       "EXEL",
       "APA",
-      "REGN",
       "EOG",
       "CLMB",
       "JAKK",

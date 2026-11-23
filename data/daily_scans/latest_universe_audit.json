@@ -1,26 +1,26 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-22T16:17:39.286379+00:00",
+  "fetched_at": "2026-11-23T20:16:01.095911+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
-      "rows": 5607
+      "rows": 5613
     },
     "otherlisted": {
       "status": "ok",
-      "rows": 7692
+      "rows": 7701
     }
   },
   "complete": true,
-  "included": 5548,
-  "excluded": 7751,
+  "included": 5550,
+  "excluded": 7764,
   "reason_counts": {
-    "exchange_traded_fund": 5813,
-    "common_equity": 5508,
-    "unit": 314,
+    "exchange_traded_fund": 5831,
+    "common_equity": 5510,
+    "unit": 311,
     "warrant": 454,
-    "right": 141,
+    "right": 140,
     "preferred": 467,
     "debt": 186,
     "fund_by_name": 282,
@@ -28,15 +28,15 @@
     "profile_supported_equity": 40,
     "test_issue": 38,
     "profile_fund": 15,
-    "profile_incomplete": 8,
     "profile_name_mismatch": 13,
     "profile_non_common_instrument": 10,
+    "profile_incomplete": 7,
     "unsupported_symbol": 7
   },
   "resolved_by_profile": 40,
-  "unresolved_security_types": 24,
+  "unresolved_security_types": 23,
   "profile_resolution": {
-    "calls": 24,
+    "calls": 23,
     "cache_hits": 65,
     "deferred": 0,
     "provider_blocked": false
@@ -1844,6 +1844,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "AIL",
+      "symbol": "AIL",
+      "name": "GraniteShares 2x Long Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "AIMD",
       "symbol": "AIMD",
       "name": "Ainos, Inc. - Common Stock",
@@ -3095,6 +3104,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "ANS",
+      "symbol": "ANS",
+      "name": "GraniteShares 2x Short Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "ANT",
       "symbol": "ANT",
       "name": "Anthropic, PBC - Class A Common Stock",
@@ -3113,12 +3131,66 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "ANTC",
+      "symbol": "ANTC",
+      "name": "Defiance 2X ANT Long Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ANTD",
+      "symbol": "ANTD",
+      "name": "Direxion Daily Anthropic Bear 2X ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ANTO",
+      "symbol": "ANTO",
+      "name": "Direxion Daily Anthropic Bull 2X ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ANTQ",
+      "symbol": "ANTQ",
+      "name": "Defiance 2X ANT Short Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ANTU",
+      "symbol": "ANTU",
+      "name": "ProShares Ultra Anthropic",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "ANTX",
       "symbol": "ANTX",
       "name": "AN2 Therapeutics, Inc. - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "ANTY",
+      "symbol": "ANTY",
+      "name": "ProShares UltraShort Anthropic",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "nasdaqlisted",
@@ -4742,6 +4814,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "AVZO",
+      "symbol": "AVZO",
+      "name": "Avenzo Therapeutics, Inc. - Common Stock",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "AWRE",
       "symbol": "AWRE",
       "name": "Aware, Inc. - Common Stock",
@@ -6242,33 +6323,6 @@
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "BKHA",
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation - Class A Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "BKHAR",
-      "symbol": "BKHAR",
-      "name": "Black Hawk Acquisition Corporation - Rights",
-      "included": false,
-      "reason": "right",
-      "directory_reason": "right"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "BKHAU",
-      "symbol": "BKHAU",
-      "name": "Black Hawk Acquisition Corporation - Units",
-      "included": false,
-      "reason": "unit",
-      "directory_reason": "unit"
     },
     {
       "source": "nasdaqlisted",
@@ -9137,7 +9191,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CDZIP",
@@ -10268,6 +10322,15 @@
       "directory_symbol": "CLWT",
       "symbol": "CLWT",
       "name": "Euro Tech Holdings Company Limited - Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "CLYD",
+      "symbol": "CLYD",
+      "name": "Clywedog Therapeutics Holdings, Inc. - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -14567,6 +14630,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "ENHV",
+      "symbol": "ENHV",
+      "name": "iShares Enhanced Large Cap Value Active ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "ENLT",
       "symbol": "ENLT",
       "name": "Enlight Renewable Energy Ltd. - Ordinary Shares",
@@ -15248,6 +15320,24 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "EVRL",
+      "symbol": "EVRL",
+      "name": "Everli Global Holdings - Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
+      "directory_symbol": "EVRLW",
+      "symbol": "EVRLW",
+      "name": "Everli Global Holdings - Warrant",
+      "included": false,
+      "reason": "warrant",
+      "directory_reason": "warrant"
     },
     {
       "source": "nasdaqlisted",
@@ -18682,7 +18772,7 @@
       "source": "nasdaqlisted",
       "directory_symbol": "GFAI",
       "symbol": "GFAI",
-      "name": "Guardforce AI Co., Limited - Ordinary Shares",
+      "name": "Guardforce AI Co., Limited - Class A Ordinary Shares",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -27401,33 +27491,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "MACI",
-      "symbol": "MACI",
-      "name": "Melar Acquisition Corp. I - Class A Ordinary Shares",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "MACIU",
-      "symbol": "MACIU",
-      "name": "Melar Acquisition Corp. I - Unit",
-      "included": false,
-      "reason": "unit",
-      "directory_reason": "unit"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "MACIW",
-      "symbol": "MACIW",
-      "name": "Melar Acquisition Corp. I - Warrant",
-      "included": false,
-      "reason": "warrant",
-      "directory_reason": "warrant"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "MAGH",
       "symbol": "MAGH",
       "name": "Magnitude International Ltd - Ordinary Shares",
@@ -28931,7 +28994,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "MNSBP",
@@ -38642,15 +38705,6 @@
     },
     {
       "source": "nasdaqlisted",
-      "directory_symbol": "RKNG",
-      "symbol": "RKNG",
-      "name": "Defiance Retail Kings ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "nasdaqlisted",
       "directory_symbol": "RKTO",
       "symbol": "RKTO",
       "name": "Rocket One Inc. - Common Stock",
@@ -38672,15 +38726,6 @@
       "directory_symbol": "RLMD",
       "symbol": "RLMD",
       "name": "Relmada Therapeutics, Inc. - Common Stock",
-      "included": true,
-      "reason": "common_equity",
-      "directory_reason": "common_equity"
-    },
-    {
-      "source": "nasdaqlisted",
-      "directory_symbol": "RLYB",
-      "symbol": "RLYB",
-      "name": "Rallybio Corporation - Common Stock",
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
@@ -47129,6 +47174,15 @@
     },
     {
       "source": "nasdaqlisted",
+      "directory_symbol": "VESI",
+      "symbol": "VESI",
+      "name": "Vesicor Therapeutics Holdings, Inc. - Class A Ordinary Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
+    },
+    {
+      "source": "nasdaqlisted",
       "directory_symbol": "VFF",
       "symbol": "VFF",
       "name": "Village Farms International, Inc. - Common Shares",
@@ -48149,7 +48203,7 @@
         "decision": "unresolved",
         "reason": "unspecified_depositary_security",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "WAFDP",
@@ -52916,6 +52970,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "ALLZ",
+      "symbol": "ALLZ",
+      "name": "Zacks All-Cap Core ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "ALRG",
       "symbol": "ALRG",
       "name": "Allspring LT Large Core ETF",
@@ -53477,6 +53540,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "ANDD",
+      "symbol": "ANDD",
+      "name": "Leverage Shares 2X Short Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "ANDG",
       "symbol": "ANDG",
       "name": "Andersen Group Inc. Class A Common Stock",
@@ -53540,9 +53612,45 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "ANSS",
+      "symbol": "ANSS",
+      "name": "Leverage Shares 1X Short Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "ANTT",
+      "symbol": "ANTT",
+      "name": "Tradr 2X Long Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "ANTW",
       "symbol": "ANTW",
       "name": "Anthropic AI Lab Ecosystem ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "ANTZ",
+      "symbol": "ANTZ",
+      "name": "Tradr 2X Short Anthropic Daily ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "ANUU",
+      "symbol": "ANUU",
+      "name": "Leverage Shares 2X Long Anthropic Daily ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -54857,6 +54965,15 @@
       "included": false,
       "reason": "debt",
       "directory_reason": "debt"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "ATHX",
+      "symbol": "ATHX",
+      "name": "2x Anthropic ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "otherlisted",
@@ -57922,15 +58039,15 @@
       "source": "otherlisted",
       "directory_symbol": "BIP",
       "symbol": "BIP",
-      "name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
-      "included": false,
-      "reason": "unit",
-      "directory_reason": "unit"
+      "name": "Brookfield Infrastructure Partners Inc. Class A Subordinate Voting Shares",
+      "included": true,
+      "reason": "common_equity",
+      "directory_reason": "common_equity"
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "BIP$A",
-      "symbol": "BIP$A",
+      "directory_symbol": "BIPF$A",
+      "symbol": "BIPF$A",
       "name": "Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units, Series 13",
       "included": false,
       "reason": "unit",
@@ -57938,45 +58055,12 @@
     },
     {
       "source": "otherlisted",
-      "directory_symbol": "BIP$B",
-      "symbol": "BIP$B",
+      "directory_symbol": "BIPF$B",
+      "symbol": "BIPF$B",
       "name": "Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units, Series 14",
       "included": false,
       "reason": "unit",
       "directory_reason": "unit"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "BIPC",
-      "symbol": "BIPC",
-      "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
-      "included": false,
-      "reason": "profile_incomplete",
-      "directory_reason": "ambiguous_security_type",
-      "profile": {
-        "source": "Yahoo Finance via yfinance",
-        "source_url": "https://finance.yahoo.com/quote/BIPC/profile/",
-        "decision": "unresolved",
-        "reason": "profile_incomplete",
-        "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
-        "cached": false,
-        "evidence": {
-          "symbol": "BIPC",
-          "quoteType": "EQUITY",
-          "longName": "Brookfield Infrastructure Corporation",
-          "shortName": "Brookfield Infrastructure Corpo",
-          "sector": "Utilities",
-          "industry": "Utilities - Regulated Gas",
-          "fullTimeEmployees": null,
-          "marketCap": 5267762176.0,
-          "sharesOutstanding": 123021062.0,
-          "category": null,
-          "fundFamily": null,
-          "legalType": null,
-          "longBusinessSummary": "Brookfield Infrastructure Corporation, together with its subsidiaries, owns and operates utility investments in Brazil, the United Kingdom, and internationally. It also engages in the regulated gas and electricity business; and operation of regulated natural gas transmission systems. The company operates approximately 2,000 kilometers of natural gas transportation pipelines in the states of Rio de Janeiro, Sao Paulo, and Minas Gerais, Brazil; gas and electricity connections in the United Kingdom; and a global fleet of twenty-foot equivalent units intermodal containers under long-term contracts. The company was incorporated in 2019 and is headquartered in New York, New York. Brookfield Infrastructure Corporation operates as a subsidiary of Brookfield Infrastructure Partners L.P."
-        }
-      }
     },
     {
       "source": "otherlisted",
@@ -60251,7 +60335,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "BVN",
@@ -60261,7 +60345,7 @@
           "sector": "Basic Materials",
           "industry": "Other Precious Metals & Mining",
           "fullTimeEmployees": null,
-          "marketCap": 4980682752.0,
+          "marketCap": 5251177984.0,
           "sharesOutstanding": 253715190.0,
           "category": null,
           "fundFamily": null,
@@ -62228,7 +62312,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "CHT",
@@ -62238,7 +62322,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": null,
-          "marketCap": 38073548800.0,
+          "marketCap": 38602993664.0,
           "sharesOutstanding": 775744655.0,
           "category": null,
           "fundFamily": null,
@@ -62561,6 +62645,15 @@
       "included": true,
       "reason": "common_equity",
       "directory_reason": "common_equity"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "CLAU",
+      "symbol": "CLAU",
+      "name": "T-REX 2X Long Anthropic Daily Target ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
     },
     {
       "source": "otherlisted",
@@ -65999,7 +66092,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "DDT",
@@ -67172,6 +67265,15 @@
       "directory_symbol": "DIV",
       "symbol": "DIV",
       "name": "Global X Super Dividend ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "DIVA",
+      "symbol": "DIVA",
+      "name": "AB Equity Income ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -74627,7 +74729,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "FNV",
@@ -74637,7 +74739,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 43060662272.0,
+          "marketCap": 45737365504.0,
           "sharesOutstanding": 192915469.0,
           "category": null,
           "fundFamily": null,
@@ -76010,7 +76112,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "GAU",
@@ -76020,7 +76122,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 450733632.0,
+          "marketCap": 480869888.0,
           "sharesOutstanding": 262054430.0,
           "category": null,
           "fundFamily": null,
@@ -79625,7 +79727,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HESM",
@@ -79635,7 +79737,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas Midstream",
           "fullTimeEmployees": null,
-          "marketCap": 5989481472.0,
+          "marketCap": 6019377152.0,
           "sharesOutstanding": 128350881.0,
           "category": null,
           "fundFamily": null,
@@ -80135,7 +80237,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "HMY",
@@ -80145,7 +80247,7 @@
           "sector": "Basic Materials",
           "industry": "Gold",
           "fullTimeEmployees": null,
-          "marketCap": 8038569984.0,
+          "marketCap": 8690684928.0,
           "sharesOutstanding": 627033514.0,
           "category": null,
           "fundFamily": null,
@@ -86252,7 +86354,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "KB",
@@ -86262,7 +86364,7 @@
           "sector": "Financial Services",
           "industry": "Banks - Regional",
           "fullTimeEmployees": null,
-          "marketCap": 37766025216.0,
+          "marketCap": 38137470976.0,
           "sharesOutstanding": 347146111.0,
           "category": null,
           "fundFamily": null,
@@ -88202,7 +88304,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "LEN-B",
@@ -88212,7 +88314,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Residential Construction",
           "fullTimeEmployees": 12532.0,
-          "marketCap": 18656137216.0,
+          "marketCap": 18748917760.0,
           "sharesOutstanding": 30024017.0,
           "category": null,
           "fundFamily": null,
@@ -95066,7 +95168,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NRP",
@@ -95882,7 +95984,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "NXB",
@@ -95892,7 +95994,7 @@
           "sector": "Consumer Cyclical",
           "industry": "Auto & Truck Dealerships",
           "fullTimeEmployees": 40.0,
-          "marketCap": 31680048.0,
+          "marketCap": 31682564.0,
           "sharesOutstanding": 25142895.0,
           "category": null,
           "fundFamily": null,
@@ -97415,7 +97517,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "OVV",
@@ -97425,7 +97527,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 1465.0,
-          "marketCap": 16350884864.0,
+          "marketCap": 16017687552.0,
           "sharesOutstanding": 268708063.0,
           "category": null,
           "fundFamily": null,
@@ -97574,7 +97676,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAC",
@@ -97584,7 +97686,7 @@
           "sector": "Industrials",
           "industry": "Airports & Air Services",
           "fullTimeEmployees": 3892.0,
-          "marketCap": 13120151552.0,
+          "marketCap": 13232015360.0,
           "sharesOutstanding": 51922658.0,
           "category": null,
           "fundFamily": null,
@@ -97697,7 +97799,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PAM",
@@ -97707,7 +97809,7 @@
           "sector": "Industrials",
           "industry": "Conglomerates",
           "fullTimeEmployees": null,
-          "marketCap": 3249996800.0,
+          "marketCap": 3340587008.0,
           "sharesOutstanding": 53603771.0,
           "category": null,
           "fundFamily": null,
@@ -101357,7 +101459,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "PYT",
@@ -105194,7 +105296,7 @@
         "decision": "unresolved",
         "reason": "profile_incomplete",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SAR",
@@ -105204,7 +105306,7 @@
           "sector": "Financial Services",
           "industry": "Asset Management",
           "fullTimeEmployees": null,
-          "marketCap": 167110512.0,
+          "marketCap": 164620976.0,
           "sharesOutstanding": 15559638.0,
           "category": null,
           "fundFamily": null,
@@ -108491,7 +108593,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "SOR",
@@ -109628,15 +109730,6 @@
       "directory_symbol": "SRLN",
       "symbol": "SRLN",
       "name": "State Street Blackstone Senior Loan ETF",
-      "included": false,
-      "reason": "exchange_traded_fund",
-      "directory_reason": "exchange_traded_fund"
-    },
-    {
-      "source": "otherlisted",
-      "directory_symbol": "SROI",
-      "symbol": "SROI",
-      "name": "Calamos Antetokounmpo Global Sustainable Equities ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -111476,7 +111569,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TEO",
@@ -112361,7 +112454,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "TLK",
@@ -112371,7 +112464,7 @@
           "sector": "Communication Services",
           "industry": "Telecom Services",
           "fullTimeEmployees": 17442.0,
-          "marketCap": 10811768832.0,
+          "marketCap": 10782228480.0,
           "sharesOutstanding": 979518173.0,
           "category": null,
           "fundFamily": null,
@@ -116375,7 +116468,7 @@
         "decision": "unresolved",
         "reason": "profile_name_mismatch",
         "status": "ok",
-        "fetched_at": "2026-11-22T16:17:08.483061+00:00",
+        "fetched_at": "2026-11-23T20:15:34.239508+00:00",
         "cached": false,
         "evidence": {
           "symbol": "VET",
@@ -116385,7 +116478,7 @@
           "sector": "Energy",
           "industry": "Oil & Gas E&P",
           "fullTimeEmployees": 636.0,
-          "marketCap": 1551849984.0,
+          "marketCap": 1501963648.0,
           "sharesOutstanding": 151400000.0,
           "category": null,
           "fundFamily": null,
@@ -121403,6 +121496,15 @@
     },
     {
       "source": "otherlisted",
+      "directory_symbol": "ZCAP",
+      "symbol": "ZCAP",
+      "name": "Zacks Small-Cap Core ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
       "directory_symbol": "ZCBA",
       "symbol": "ZCBA",
       "name": "Global X Zero Coupon Bond 2030 ETF",
@@ -121505,6 +121607,15 @@
       "directory_symbol": "ZECP",
       "symbol": "ZECP",
       "name": "Zacks Earnings Consistent Portfolio ETF",
+      "included": false,
+      "reason": "exchange_traded_fund",
+      "directory_reason": "exchange_traded_fund"
+    },
+    {
+      "source": "otherlisted",
+      "directory_symbol": "ZECX",
+      "symbol": "ZECX",
+      "name": "2x ZCSH ETF",
       "included": false,
       "reason": "exchange_traded_fund",
       "directory_reason": "exchange_traded_fund"
@@ -121870,6 +121981,6 @@
       "directory_reason": "test_issue"
     }
   ],
-  "scan_requested_count": 5548,
+  "scan_requested_count": 5550,
   "test_mode": false
 }
