@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "ticker": "CPAY",
+  "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+  "metrics": {
+    "revenue_yoy_change": 17.86392944868995,
+    "revenue_qoq_change": 3.220922476619137,
+    "eps_yoy_change": 44.75703324808185,
+    "eps_qoq_change": 52.97297297297297,
+    "latest_eps": 5.66,
+    "gross_margin": 78.4283730519107,
+    "operating_margin": 44.738051320941494,
+    "net_margin": 27.38356690746499,
+    "shares_yoy_change": -6.672196370077743,
+    "free_cash_flow_ttm": 1333198000.0,
+    "operating_cash_flow_ttm": 1529021000.0,
+    "revenue_ttm": 5229953000.0,
+    "net_income_ttm": 1241279000.0,
+    "ebitda_ttm": 2663416000.0,
+    "total_debt": 11233107000.0,
+    "cash": 3072988000.0,
+    "total_assets": 28087233000.0,
+    "margin_change": -1.0186578539168067,
+    "operating_margin_yoy_change": -0.8312547653030506,
+    "fcf_margin": 25.491586635673396,
+    "net_debt": 8160119000.0,
+    "net_debt_to_ebitda": 3.0637793720545345,
+    "debt_to_assets": 39.993640526996735,
+    "market_cap": 28645945344.0,
+    "enterprise_value": 36744425472.0,
+    "forward_pe": 14.065444,
+    "trailing_pe": 24.617373,
+    "ev_ebitda": 12.388,
+    "fcf_yield": 4.654054819940663,
+    "eps_fy0": 28.0015,
+    "revenue_fy0": 5354884520.0,
+    "analysts_fy0": 14.0,
+    "eps_fy1": 31.83618,
+    "revenue_fy1": 5799897420.0,
+    "analysts_fy1": 15.0,
+    "forward_eps_growth": 13.694552077567268,
+    "forward_revenue_growth": 8.310410772406351,
+    "eps_revision_30d": 0.9131453241240983,
+    "eps_revision_90d": 1.8935462344632947,
+    "eps_surprise_pct": 4.675845007559154,
+    "days_to_earnings": 71.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/financials/",
+      "retrieved_at": "2026-11-24T21:03:58.625925+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/calendar/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "UBS downgrades BILL after Corpay\u2019s $1.1B investment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-downgrades-bill-corpay-1-192900874.html",
+      "published_at": "2026-11-23T19:29:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "BILL Holdings (BILL) Just Gave Investors a Billion-Dollar Reason to Cheer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-just-gave-043940220.html",
+      "published_at": "2026-11-23T04:39:40+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is BILL Holdings (BILL) Fully Valued After Its $6b Go Private Deal?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-fully-valued-110952400.html",
+      "published_at": "2026-11-21T11:09:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "This Payments Stock Is a Triple Threat with Profitability, Momentum, and Robust Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/payments-stock-triple-threat-profitability-195003076.html",
+      "published_at": "2026-11-20T19:50:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-private-6-billion-acquisition-171000924.html",
+      "published_at": "2026-11-20T17:10:00+00:00",
+      "categories": [
+        "corporate/regulatory"
+      ]
+    },
+    {
+      "title": "BILL's Acquisition Price 'Modestly Below' Expectations, KeyBanc Says",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-apos-acquisition-price-apos-163418955.html",
+      "published_at": "2026-11-20T16:34:18+00:00",
+      "categories": [
+        "corporate/regulatory"
+      ]
+    },
+    {
+      "title": "Is Corpay (CPAY) A Bargain Or Fully Priced After Its BILL Deal?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-cpay-bargain-fully-priced-161008976.html",
+      "published_at": "2026-11-20T16:10:08+00:00",
+      "categories": []
+    },
+    {
+      "title": "Bill sells for $6B to TPG, Corpay",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-sells-6b-tpg-corpay-155400695.html",
+      "published_at": "2026-11-20T15:54:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-20",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CPAY/0001175454-26-000066_1175454"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/CPAY/0001175454-26-000059_1175454"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/CPAY/0001175454-26-000054_1175454"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-24T21:03:58.625925+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 17.86392944868995,
+    "revenue_qoq_change": 3.220922476619137,
+    "eps_yoy_change": 44.75703324808185,
+    "eps_qoq_change": 52.97297297297297,
+    "latest_eps": 5.66,
+    "gross_margin": 78.4283730519107,
+    "operating_margin": 44.738051320941494,
+    "net_margin": 27.38356690746499,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -6.672196370077743,
+    "free_cash_flow_ttm": 1333198000.0,
+    "operating_cash_flow_ttm": 1529021000.0,
+    "revenue_ttm": 5229953000.0,
+    "net_income_ttm": 1241279000.0,
+    "ebitda_ttm": 2663416000.0,
+    "total_debt": 11233107000.0,
+    "cash": 3072988000.0,
+    "total_assets": 28087233000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 1172480000.0,
+      "2025-12-31": 1248226000.0,
+      "2026-03-31": 1260987000.0,
+      "2026-06-30": 1338809000.0,
+      "2026-09-30": 1381931000.0
+    },
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 3.91,
+      "2025-12-31": 3.75,
+      "2026-03-31": 5.07,
+      "2026-06-30": 3.7,
+      "2026-09-30": 5.66
+    },
+    "quarterly_inventory": {},
+    "margin_change": -1.0186578539168067,
+    "operating_margin_yoy_change": -0.8312547653030506,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 25.491586635673396,
+    "net_debt": 8160119000.0,
+    "net_debt_to_ebitda": 3.0637793720545345,
+    "debt_to_assets": 39.993640526996735
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-03"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/CPAY/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

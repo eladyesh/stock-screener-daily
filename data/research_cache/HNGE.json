@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "HNGE",
-  "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+  "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
   "metrics": {
     "revenue_yoy_change": 52.369156545252935,
     "revenue_qoq_change": 10.40941278187364,
@@ -28,276 +28,283 @@
     "net_debt": -260777000.0,
     "net_debt_to_ebitda": -1.6741371783678292,
     "debt_to_assets": 3.8758421702336507,
-    "market_cap": 8675712000.0,
-    "enterprise_value": 8524650496.0,
-    "forward_pe": 32.788548,
-    "trailing_pe": 28.929539,
-    "ev_ebitda": 55.699,
-    "fcf_yield": 3.6342838489797726,
-    "eps_fy0": 2.5725,
-    "revenue_fy0": 877952030.0,
+    "market_cap": 8859384832.0,
+    "enterprise_value": 8731892736.0,
+    "forward_pe": 33.482716,
+    "trailing_pe": 29.542006,
+    "ev_ebitda": 57.053,
+    "fcf_yield": 3.5589378492865547,
+    "eps_fy0": 2.57964,
+    "revenue_fy0": 877933280.0,
     "analysts_fy0": 14.0,
-    "eps_fy1": 3.25571,
-    "revenue_fy1": 1115193330.0,
+    "eps_fy1": 3.27143,
+    "revenue_fy1": 1115174580.0,
     "analysts_fy1": 14.0,
-    "forward_eps_growth": 26.55821185617104,
-    "forward_revenue_growth": 27.02212557102921,
-    "eps_revision_30d": 6.489364833791789,
-    "eps_revision_90d": 4.028923639291682,
-    "eps_surprise_pct": 19.035643630754784
+    "forward_eps_growth": 26.817307841404237,
+    "forward_revenue_growth": 27.022702681916776,
+    "eps_revision_30d": 7.003542329695045,
+    "eps_revision_90d": 4.531221042810318,
+    "eps_surprise_pct": 19.035643630754784,
+    "days_to_earnings": 77.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/financials/",
-      "retrieved_at": "2026-11-20T18:31:21.611930+00:00",
+      "retrieved_at": "2026-11-24T21:03:13.241191+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/key-statistics/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "2026-09-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-      "retrieved_at": "2026-11-20T18:31:10.863215+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/HNGE/calendar/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
     }
   },
   "status": {
@@ -317,9 +324,15 @@
   },
   "news": [
     {
-      "title": "Welltower, Stock Of The Day, Offers A Buy Point \u2014 And Defensive Growth",
+      "title": "Welltower, Stock Of The Day, Flashes A Bullish Signal, Offers Defensive Growth",
       "url": "https://finance.yahoo.com/m/548ee0bb-be37-3fb3-93d9-c4498dde87c0/welltower%2C-stock-of-the-day%2C.html",
-      "published_at": "2026-11-20T18:17:44+00:00",
+      "published_at": "2026-11-20T21:20:05+00:00",
+      "categories": []
+    },
+    {
+      "title": "IPO Stock Of The Week: Hinge Pulls Back To Key Support Level Amid Market Sell-Off",
+      "url": "https://finance.yahoo.com/m/428311c5-d0ab-366d-bd64-5c2d3f242495/ipo-stock-of-the-week%3A-hinge.html",
+      "published_at": "2026-11-20T20:09:28+00:00",
       "categories": []
     },
     {
@@ -357,12 +370,6 @@
       "url": "https://finance.yahoo.com/healthcare/articles/bull-day-hinge-health-inc-080000087.html",
       "published_at": "2026-11-10T08:00:00+00:00",
       "categories": []
-    },
-    {
-      "title": "Hinge Health and Tripadvisor have been highlighted as Zacks Bull and Bear of the Day",
-      "url": "https://finance.yahoo.com/healthcare/articles/hinge-health-tripadvisor-highlighted-zacks-052900190.html",
-      "published_at": "2026-11-10T05:29:00+00:00",
-      "categories": []
     }
   ],
   "insider_purchases": [],
@@ -384,7 +391,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-20T18:31:21.611930+00:00",
+    "fetch_date": "2026-11-24T21:03:13.241191+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 52.369156545252935,
     "revenue_qoq_change": 10.40941278187364,
@@ -439,17 +446,19 @@
   },
   "currency": "USD",
   "financial_currency": "USD",
-  "earnings_dates": [],
-  "earnings_date_status": "unknown",
+  "earnings_dates": [
+    "2027-02-09"
+  ],
+  "earnings_date_status": "provider_estimate",
   "insider_source": "https://finance.yahoo.com/quote/HNGE/insider-transactions/",
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 5,
+      "prior_observations": 6,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 5,
+      "prior_observations": 6,
       "required": 20
     }
   }

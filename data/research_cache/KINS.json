@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "ticker": "KINS",
+  "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+  "metrics": {
+    "revenue_yoy_change": 21.38015567677205,
+    "revenue_qoq_change": 2.5777397013670322,
+    "eps_yoy_change": 60.810810810810814,
+    "eps_qoq_change": 13.33333333333333,
+    "latest_eps": 1.19,
+    "net_margin": 26.031344369791636,
+    "shares_yoy_change": 0.7867207999648906,
+    "free_cash_flow_ttm": 78759209.0,
+    "operating_cash_flow_ttm": 82096577.0,
+    "revenue_ttm": 249601618.0,
+    "net_income_ttm": 42006036.0,
+    "total_debt": 3474589.0,
+    "cash": 171984697.0,
+    "total_assets": 488731370.0,
+    "fcf_margin": 31.553965727898447,
+    "net_debt": -168510108.0,
+    "debt_to_assets": 0.7109404497607755,
+    "market_cap": 311355424.0,
+    "enterprise_value": 289501088.0,
+    "forward_pe": 7.818182,
+    "trailing_pe": 7.3630137,
+    "ev_ebitda": 5.162,
+    "fcf_yield": 25.29559562129228,
+    "eps_fy0": 2.92,
+    "revenue_fy0": 246371000.0,
+    "analysts_fy0": 2.0,
+    "eps_fy1": 2.8,
+    "revenue_fy1": 286995500.0,
+    "analysts_fy1": 2.0,
+    "forward_eps_growth": -4.109589041095896,
+    "forward_revenue_growth": 16.489156597164435,
+    "eps_revision_30d": -3.4482758620689724,
+    "eps_revision_90d": -3.4482758620689724,
+    "eps_surprise_pct": 32.6086956521739
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/financials/",
+      "retrieved_at": "2026-11-24T21:03:22.814533+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/key-statistics/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KINS/analysis/",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "How Reinsurance Strengthens Heritage Insurance's Financial Resilience",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reinsurance-strengthens-heritage-insurances-financial-165900801.html",
+      "published_at": "2026-11-17T16:59:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-06",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/KINS/0000033992-26-000044_33992"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KINS/0000033992-26-000041_33992"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KINS/0001021771-26-000118_33992"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KINS/0001021771-26-000115_33992"
+    }
+  ],
+  "warnings": [],
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-24T21:03:22.814533+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 21.38015567677205,
+    "revenue_qoq_change": 2.5777397013670322,
+    "eps_yoy_change": 60.810810810810814,
+    "eps_qoq_change": 13.33333333333333,
+    "latest_eps": 1.19,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 26.031344369791636,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 0.7867207999648906,
+    "free_cash_flow_ttm": 78759209.0,
+    "operating_cash_flow_ttm": 82096577.0,
+    "revenue_ttm": 249601618.0,
+    "net_income_ttm": 42006036.0,
+    "ebitda_ttm": null,
+    "total_debt": 3474589.0,
+    "cash": 171984697.0,
+    "total_assets": 488731370.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 55652490.0,
+      "2025-12-31": 56421257.0,
+      "2026-03-31": 59775736.0,
+      "2026-06-30": 65853546.0,
+      "2026-09-30": 67551079.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.74,
+      "2025-12-31": 1.03,
+      "2026-03-31": -0.4,
+      "2026-06-30": 1.05,
+      "2026-09-30": 1.19
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 31.553965727898447,
+    "net_debt": -168510108.0,
+    "debt_to_assets": 0.7109404497607755
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/KINS/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

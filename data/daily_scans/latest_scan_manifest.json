@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-23T21:49:30.076266+00:00",
-  "github_run_id": "45257420665",
+  "generated_at": "2026-11-24T21:04:08.323899+00:00",
+  "github_run_id": "45470855162",
   "github_run_attempt": "1",
-  "report_sha256": "1f79f80578d0b02149263cf24e9791005008f3b7e9f5912b576880fd97b81619",
+  "report_sha256": "52a8b0075e90ba0e80c82e2ede48ff55fb2a563b776ab769243044b911902498",
   "universe": 5550,
-  "analyzed": 2653,
+  "analyzed": 2670,
   "error_rate": 0.0,
-  "buy_signals": 41,
-  "sell_signals": 890,
+  "buy_signals": 26,
+  "sell_signals": 864,
   "price_dates": [
     "2026-11-20",
     "2026-11-23"
@@ -16,24 +16,24 @@
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-23T20:16:01.095911+00:00",
+    "fetched_at": "2026-11-24T19:30:33.069208+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
-        "rows": 5613
+        "rows": 5608
       },
       "otherlisted": {
         "status": "ok",
-        "rows": 7701
+        "rows": 7703
       }
     },
     "complete": true,
     "included": 5550,
-    "excluded": 7764,
+    "excluded": 7761,
     "reason_counts": {
-      "exchange_traded_fund": 5831,
+      "exchange_traded_fund": 5829,
       "common_equity": 5510,
-      "unit": 311,
+      "unit": 310,
       "warrant": 454,
       "right": 140,
       "preferred": 467,
@@ -51,8 +51,8 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 23,
     "profile_resolution": {
-      "calls": 23,
-      "cache_hits": 65,
+      "calls": 0,
+      "cache_hits": 88,
       "deferred": 0,
       "provider_blocked": false
     },
@@ -62,21 +62,28 @@
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
+      "JAKK",
+      "PLMR",
+      "MORN",
+      "LLY",
       "PDLB",
+      "EXEL",
+      "HNGE",
       "SWK",
-      "VSXY"
+      "MCK",
+      "CPAY"
     ],
     "months_to_18m": [
       "PDLB",
       "PLMR",
       "EXEL",
       "APA",
-      "EOG",
-      "CLMB",
       "JAKK",
+      "EOG",
+      "MORN",
+      "KINS",
       "LLY",
-      "FRO",
-      "HAS"
+      "ADI"
     ]
   },
   "strategy_version": "multifactor-v3"

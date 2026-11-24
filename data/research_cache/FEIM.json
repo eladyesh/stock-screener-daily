@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "FEIM",
-  "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+  "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
   "metrics": {
     "revenue_yoy_change": 69.78714161598609,
     "revenue_qoq_change": 52.29899987011299,
@@ -28,12 +28,12 @@
     "net_debt": -54445000.0,
     "net_debt_to_ebitda": -29.287251210328133,
     "debt_to_assets": 4.533230887437572,
-    "market_cap": 656668992.0,
-    "enterprise_value": 557356288.0,
-    "forward_pe": 30.338543,
-    "trailing_pe": 233.0,
-    "ev_ebitda": 72.01,
-    "fcf_yield": -0.028020205345709395,
+    "market_cap": 604135424.0,
+    "enterprise_value": 602223936.0,
+    "forward_pe": 27.911459,
+    "trailing_pe": 214.36,
+    "ev_ebitda": 77.807,
+    "fcf_yield": -0.030456747393114297,
     "eps_fy0": 1.23,
     "revenue_fy0": 82700500.0,
     "analysts_fy0": 1.0,
@@ -45,279 +45,279 @@
     "eps_revision_30d": null,
     "eps_revision_90d": 23.076923076923062,
     "eps_surprise_pct": 173.33333333333334,
-    "days_to_earnings": 17.0,
-    "forward_pe_historical_relative": 0.8987810208029806,
-    "ev_ebitda_historical_relative": 0.8260348377697863
+    "days_to_earnings": 16.0,
+    "forward_pe_historical_relative": 0.8316262398061838,
+    "ev_ebitda_historical_relative": 0.8991079063532784
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/financials/",
-      "retrieved_at": "2026-11-23T21:49:24.774331+00:00",
+      "retrieved_at": "2026-11-24T21:04:05.794755+00:00",
       "period": "2026-07-31"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "2026-07-31"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/analysis/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": "2026-07-31 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/FEIM/calendar/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": null
     },
     "forward_pe_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": [
         "2026-10-15",
-        "2026-11-22"
+        "2026-11-23"
       ]
     },
     "ev_ebitda_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/FEIM/key-statistics/",
-      "retrieved_at": "2026-11-23T21:48:33.497285+00:00",
+      "retrieved_at": "2026-11-24T21:03:05.876156+00:00",
       "period": [
         "2026-10-15",
-        "2026-11-22"
+        "2026-11-23"
       ]
     }
   },
@@ -388,7 +388,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-23T21:49:24.774331+00:00",
+    "fetch_date": "2026-11-24T21:04:05.794755+00:00",
     "report_period": "2026-07-31",
     "revenue_yoy_change": 69.78714161598609,
     "revenue_qoq_change": 52.29899987011299,
@@ -452,14 +452,14 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 34,
+      "prior_observations": 35,
       "required": 20,
-      "median": 33.755211
+      "median": 33.562504
     },
     "ev_ebitda": {
-      "prior_observations": 34,
+      "prior_observations": 35,
       "required": 20,
-      "median": 87.1755
+      "median": 86.538
     }
   }
 }
