@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "ticker": "VCEL",
+  "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+  "metrics": {
+    "revenue_yoy_change": 26.46993466957024,
+    "revenue_qoq_change": 10.217281846702031,
+    "eps_yoy_change": 170.00000000000003,
+    "eps_qoq_change": 575.0,
+    "latest_eps": 0.27,
+    "gross_margin": 73.33872157992761,
+    "operating_margin": 14.274168043012263,
+    "net_margin": 16.58760000468543,
+    "inventory_yoy_change": -6.053428807491046,
+    "inventory_qoq_change": -7.213578500707218,
+    "shares_yoy_change": 2.030515527471688,
+    "free_cash_flow_ttm": 57893000.0,
+    "operating_cash_flow_ttm": 65311000.0,
+    "revenue_ttm": 324171000.0,
+    "net_income_ttm": 33308000.0,
+    "ebitda_ttm": 48411000.0,
+    "total_debt": 90689000.0,
+    "cash": 170268000.0,
+    "total_assets": 517110000.0,
+    "margin_change": 0.5215455984152868,
+    "operating_margin_yoy_change": 9.163284082299405,
+    "inventory_to_sales_ratio": 0.19978681285213948,
+    "fcf_margin": 17.858784406995074,
+    "net_debt": -79579000.0,
+    "net_debt_to_ebitda": -1.643820619280742,
+    "debt_to_assets": 17.537661232619755,
+    "market_cap": 3106181888.0,
+    "enterprise_value": 3042880256.0,
+    "forward_pe": 64.617836,
+    "trailing_pe": 95.109375,
+    "ev_ebitda": 74.998,
+    "fcf_yield": 1.8637994195914904,
+    "eps_fy0": 0.746,
+    "revenue_fy0": 345271890.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 0.942,
+    "revenue_fy1": 398336810.0,
+    "analysts_fy1": 5.0,
+    "forward_eps_growth": 26.27345844504021,
+    "forward_revenue_growth": 15.369024104452865,
+    "eps_revision_30d": 11.347517730496449,
+    "eps_revision_90d": 11.347517730496449,
+    "eps_surprise_pct": 382.1428571428572
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/financials/",
+      "retrieved_at": "2026-11-25T20:13:56.237864+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/VCEL/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "TGTX Rises as FDA Accepts sBLA for Simplified Briumvi Dosing Schedule",
+      "url": "https://finance.yahoo.com/healthcare/articles/tgtx-rises-fda-accepts-sbla-141500049.html",
+      "published_at": "2026-11-25T14:15:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "5 Stocks With Recent Price Strength Despite a Capricious Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-recent-price-strength-123400116.html",
+      "published_at": "2026-11-25T12:34:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Vericel Sees Strong MACI Momentum Into 2027, Plans U.K. Launch",
+      "url": "https://finance.yahoo.com/healthcare/articles/vericel-sees-strong-maci-momentum-061216428.html",
+      "published_at": "2026-11-25T06:12:16+00:00",
+      "categories": []
+    },
+    {
+      "title": "AbbVie Gets FDA Approval for Rinvoq in Nonsegmental Vitiligo",
+      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-gets-fda-approval-rinvoq-145000786.html",
+      "published_at": "2026-11-24T14:50:00+00:00",
+      "categories": [
+        "corporate/regulatory"
+      ]
+    },
+    {
+      "title": "Biotech Loses Ground In November\u2019s Market Slide \u2014 These 5 Stocks Bucked The Selloff As Lilly, AbbVie And Amgen Fell",
+      "url": "https://finance.yahoo.com/healthcare/articles/biotech-loses-ground-november-market-064155115.html",
+      "published_at": "2026-11-24T06:41:55+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Healthcare Stocks To Watch In November 2026",
+      "url": "https://finance.yahoo.com/healthcare/articles/3-healthcare-stocks-watch-november-211025090.html",
+      "published_at": "2026-11-21T21:10:25+00:00",
+      "categories": []
+    },
+    {
+      "title": "REGN Gets FDA Nod for Livsayis in Generalized Myasthenia Gravis",
+      "url": "https://finance.yahoo.com/healthcare/articles/regn-gets-fda-nod-livsayis-144200585.html",
+      "published_at": "2026-11-19T14:42:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "NVS Gets FDA Nod for Cosentyx in Adults With Polymyalgia Rheumatica",
+      "url": "https://finance.yahoo.com/healthcare/articles/nvs-gets-fda-nod-cosentyx-144500037.html",
+      "published_at": "2026-11-18T14:45:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/VCEL/0001628280-26-070657_887359"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-25T20:13:56.237864+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 26.46993466957024,
+    "revenue_qoq_change": 10.217281846702031,
+    "eps_yoy_change": 170.00000000000003,
+    "eps_qoq_change": 575.0,
+    "latest_eps": 0.27,
+    "gross_margin": 73.33872157992761,
+    "operating_margin": 14.274168043012263,
+    "net_margin": 16.58760000468543,
+    "inventory_yoy_change": -6.053428807491046,
+    "inventory_qoq_change": -7.213578500707218,
+    "shares_yoy_change": 2.030515527471688,
+    "free_cash_flow_ttm": 57893000.0,
+    "operating_cash_flow_ttm": 65311000.0,
+    "revenue_ttm": 324171000.0,
+    "net_income_ttm": 33308000.0,
+    "ebitda_ttm": 48411000.0,
+    "total_debt": 90689000.0,
+    "cash": 170268000.0,
+    "total_assets": 517110000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 67503000.0,
+      "2025-12-31": 92918000.0,
+      "2026-03-31": 68425000.0,
+      "2026-06-30": 77457000.0,
+      "2026-09-30": 85371000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.1,
+      "2025-12-31": 0.45,
+      "2026-03-31": -0.12,
+      "2026-06-30": 0.04,
+      "2026-09-30": 0.27
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 18155000.0,
+      "2025-12-31": 17560000.0,
+      "2026-03-31": 18351000.0,
+      "2026-06-30": 18382000.0,
+      "2026-09-30": 17056000.0
+    },
+    "margin_change": 0.5215455984152868,
+    "operating_margin_yoy_change": 9.163284082299405,
+    "inventory_to_sales_ratio": 0.19978681285213948,
+    "fcf_margin": 17.858784406995074,
+    "net_debt": -79579000.0,
+    "net_debt_to_ebitda": -1.643820619280742,
+    "debt_to_assets": 17.537661232619755
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/VCEL/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

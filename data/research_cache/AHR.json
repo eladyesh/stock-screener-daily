@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "ticker": "AHR",
+  "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+  "metrics": {
+    "revenue_yoy_change": 29.53413726116485,
+    "revenue_qoq_change": 10.070300333704107,
+    "eps_yoy_change": -57.57575757575757,
+    "eps_qoq_change": -12.49999999999999,
+    "latest_eps": 0.14,
+    "gross_margin": 23.90544216862113,
+    "operating_margin": 7.053031129867453,
+    "net_margin": 4.205759220857267,
+    "inventory_yoy_change": 5.483647860883312,
+    "inventory_qoq_change": 4.100238896202035,
+    "shares_yoy_change": 28.21490183071362,
+    "free_cash_flow_ttm": 222243000.0,
+    "operating_cash_flow_ttm": 421744000.0,
+    "revenue_ttm": 2671253000.0,
+    "net_income_ttm": 96307000.0,
+    "ebitda_ttm": 492331000.0,
+    "total_debt": 1519522000.0,
+    "cash": 222767000.0,
+    "total_assets": 7609357000.0,
+    "margin_change": 1.745709131913678,
+    "operating_margin_yoy_change": -0.36942544040118097,
+    "inventory_to_sales_ratio": 0.028770502958300827,
+    "fcf_margin": 8.319803477993286,
+    "net_debt": 1296755000.0,
+    "net_debt_to_ebitda": 2.6339088946257703,
+    "debt_to_assets": 19.969124855096165,
+    "market_cap": 14027376640.0,
+    "enterprise_value": 15275785216.0,
+    "forward_pe": 67.16111,
+    "trailing_pe": 123.35714,
+    "ev_ebitda": 30.758,
+    "fcf_yield": 1.5843518407159558,
+    "eps_fy0": 0.62546,
+    "revenue_fy0": 2849845540.0,
+    "analysts_fy0": 5.0,
+    "eps_fy1": 0.9,
+    "revenue_fy1": 3414088520.0,
+    "analysts_fy1": 1.0,
+    "forward_eps_growth": 43.89409394685511,
+    "forward_revenue_growth": 19.79907233849594,
+    "eps_revision_30d": -9.090909090909083,
+    "eps_revision_90d": 0.0,
+    "eps_surprise_pct": -16.812500000000007
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/financials/",
+      "retrieved_at": "2026-11-25T20:14:29.676569+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/key-statistics/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AHR/analysis/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": "2026-09-30 00:00:00"
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Chiron Real Estate (XRN) Stock Is Up 4.6% Today Without Company News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chiron-real-estate-xrn-stock-210016220.html",
+      "published_at": "2026-11-24T21:00:16+00:00",
+      "categories": []
+    },
+    {
+      "title": "Is American Healthcare REIT, Inc. (AHR) Stock Outpacing Its Finance Peers This Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-inc-ahr-134002649.html",
+      "published_at": "2026-11-20T13:40:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "Cohen & Steers Announces Changes to Realty Indexes",
+      "url": "https://finance.yahoo.com/real-estate/articles/cohen-steers-announces-changes-realty-002900092.html",
+      "published_at": "2026-11-14T00:29:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Zacks Investment Ideas feature highlights: American Healthcare REIT, RenaissanceRe and Cheniere Energy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-065300177.html",
+      "published_at": "2026-11-13T06:53:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "If the AI Boom Stalls, What Stocks Should You Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-stalls-stocks-buy-174700934.html",
+      "published_at": "2026-11-12T17:47:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "American Healthcare REIT (AHR) Upgraded to Strong Buy: Here's Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-ahr-upgraded-160002243.html",
+      "published_at": "2026-11-12T16:00:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "SPGI Stock Jumps 13% in 3 Months: Here's What You Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spgi-stock-jumps-13-3-153100815.html",
+      "published_at": "2026-11-12T15:31:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Best Momentum Stocks to Buy for November 12th",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-140000812.html",
+      "published_at": "2026-11-12T14:00:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-05",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AHR/0001193125-26-449893_1632970"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AHR/0001193125-26-395604_1632970"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AHR/0001193125-26-389802_1632970"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AHR/0001193125-26-380473_1632970"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/AHR/0001193125-26-378483_1632970"
+    }
+  ],
+  "warnings": [],
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-25T20:14:29.676569+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 29.53413726116485,
+    "revenue_qoq_change": 10.070300333704107,
+    "eps_yoy_change": -57.57575757575757,
+    "eps_qoq_change": -12.49999999999999,
+    "latest_eps": 0.14,
+    "gross_margin": 23.90544216862113,
+    "operating_margin": 7.053031129867453,
+    "net_margin": 4.205759220857267,
+    "inventory_yoy_change": 5.483647860883312,
+    "inventory_qoq_change": 4.100238896202035,
+    "shares_yoy_change": 28.21490183071362,
+    "free_cash_flow_ttm": 222243000.0,
+    "operating_cash_flow_ttm": 421744000.0,
+    "revenue_ttm": 2671253000.0,
+    "net_income_ttm": 96307000.0,
+    "ebitda_ttm": 492331000.0,
+    "total_debt": 1519522000.0,
+    "cash": 222767000.0,
+    "total_assets": 7609357000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 572937000.0,
+      "2025-12-31": 604080000.0,
+      "2026-03-31": 650774000.0,
+      "2026-06-30": 674250000.0,
+      "2026-09-30": 742149000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.33,
+      "2025-12-31": 0.06,
+      "2026-03-31": 0.13,
+      "2026-06-30": 0.16,
+      "2026-09-30": 0.14
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-09-30": 20242000.0,
+      "2025-12-31": 18838000.0,
+      "2026-03-31": 20441000.0,
+      "2026-06-30": 20511000.0,
+      "2026-09-30": 21352000.0
+    },
+    "margin_change": 1.745709131913678,
+    "operating_margin_yoy_change": -0.36942544040118097,
+    "inventory_to_sales_ratio": 0.028770502958300827,
+    "fcf_margin": 8.319803477993286,
+    "net_debt": 1296755000.0,
+    "net_debt_to_ebitda": 2.6339088946257703,
+    "debt_to_assets": 19.969124855096165
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [],
+  "earnings_date_status": "unknown",
+  "insider_source": "https://finance.yahoo.com/quote/AHR/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

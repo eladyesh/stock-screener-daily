@@ -1,27 +1,52 @@
 {
   "data": {
-    "ticker": "COGT",
-    "fetch_date": "2026-08-13T13:40:44.156297",
-    "quarterly_revenue": {
-      "2025-03-31 00:00:00": 0.0,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-25T19:00:58.808643+00:00",
+    "report_period": "2026-09-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.632252,
-      "2025-06-30 00:00:00": -0.645396,
-      "2025-09-30 00:00:00": -0.578784,
-      "2025-12-31 00:00:00": -0.636675,
-      "2026-03-31 00:00:00": -0.570064
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -148.58,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 25.86361241501727,
+    "free_cash_flow_ttm": -325784000.0,
+    "operating_cash_flow_ttm": -324046000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -407675000.0,
+    "ebitda_ttm": -397798000.0,
+    "total_debt": 244220000.0,
+    "cash": 791134000.0,
+    "total_assets": 832142000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0,
+      "2026-09-30": 0.0
     },
-    "eps_qoq_change": 10.462323791573406,
-    "eps_yoy_change": 9.835951487697946,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-09-30": -125.45,
+      "2025-12-31": -0.636675,
+      "2026-03-31": -0.53,
+      "2026-06-30": -0.52,
+      "2026-09-30": -148.58
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -546914000.0,
+    "debt_to_assets": 29.3483564103242,
+    "ticker": "COGT"
   },
-  "fetched_at": "2026-08-13T13:40:44.157238"
+  "fetched_at": "2026-11-25T19:00:58.813303"
 }

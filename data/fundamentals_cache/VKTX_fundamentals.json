@@ -1,31 +1,54 @@
 {
   "data": {
-    "ticker": "VKTX",
-    "fetch_date": "2026-08-14T14:21:01.715896",
-    "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.0,
-      "2025-09-30 00:00:00": 0.0,
-      "2025-12-31 00:00:00": 0.0,
-      "2026-03-31 00:00:00": 0.0,
-      "2026-06-30 00:00:00": 0.0
-    },
-    "revenue_qoq_change": null,
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-25T20:07:48.515105+00:00",
+    "report_period": "2026-09-30",
     "revenue_yoy_change": null,
-    "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": -0.58,
-      "2025-09-30 00:00:00": -0.81,
-      "2025-12-31 00:00:00": -1.38,
-      "2026-03-31 00:00:00": -1.37,
-      "2026-06-30 00:00:00": -1.1
+    "revenue_qoq_change": null,
+    "eps_yoy_change": null,
+    "eps_qoq_change": null,
+    "latest_eps": -1.55,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": 5.1014957264957195,
+    "free_cash_flow_ttm": -462632000.0,
+    "operating_cash_flow_ttm": -462632000.0,
+    "revenue_ttm": 0.0,
+    "net_income_ttm": -627195000.0,
+    "ebitda_ttm": -644064000.0,
+    "total_debt": 254694000.0,
+    "cash": 959813000.0,
+    "total_assets": 977167000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 0.0,
+      "2025-12-31": 0.0,
+      "2026-03-31": 0.0,
+      "2026-06-30": 0.0,
+      "2026-09-30": 0.0
     },
-    "eps_qoq_change": 19.708029197080293,
-    "eps_yoy_change": -89.65517241379312,
-    "operating_margin": 0,
-    "inventory_breakdown_available": false
+    "quarterly_eps": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": -0.81,
+      "2025-12-31": -1.38,
+      "2026-03-31": -1.37,
+      "2026-06-30": -1.1,
+      "2026-09-30": -1.55
+    },
+    "quarterly_inventory": {},
+    "margin_change": null,
+    "operating_margin_yoy_change": null,
+    "inventory_to_sales_ratio": null,
+    "net_debt": -705119000.0,
+    "debt_to_assets": 26.06453144651835,
+    "ticker": "VKTX"
   },
-  "fetched_at": "2026-08-14T14:21:01.716905"
+  "fetched_at": "2026-11-25T20:07:48.519879"
 }

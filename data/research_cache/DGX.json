@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "DGX",
-  "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+  "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
   "metrics": {
     "revenue_yoy_change": 9.978693181818187,
     "revenue_qoq_change": 1.774564574433124,
@@ -29,282 +29,289 @@
     "net_debt": 5488000000.0,
     "net_debt_to_ebitda": 2.3412969283276452,
     "debt_to_assets": 36.49613843563092,
-    "market_cap": 28504840192.0,
-    "enterprise_value": 34569854976.0,
-    "forward_pe": 21.619461,
-    "trailing_pe": 25.805777,
-    "ev_ebitda": 14.698,
-    "fcf_yield": 4.823742181111752,
+    "market_cap": 29285976064.0,
+    "enterprise_value": 35221164032.0,
+    "forward_pe": 22.211912,
+    "trailing_pe": 26.512949,
+    "ev_ebitda": 14.975,
+    "fcf_yield": 4.695079982975978,
     "eps_fy0": 11.31672,
     "revenue_fy0": 12084030660.0,
     "analysts_fy0": 16.0,
     "eps_fy1": 11.98411,
-    "revenue_fy1": 12621699230.0,
+    "revenue_fy1": 12621712570.0,
     "analysts_fy1": 16.0,
     "forward_eps_growth": 5.897380159622223,
-    "forward_revenue_growth": 4.449414149367947,
-    "eps_revision_30d": -0.4070442421688858,
+    "forward_revenue_growth": 4.449524542997141,
+    "eps_revision_30d": 0.028545935167345604,
     "eps_revision_90d": -0.6103978284433875,
-    "eps_surprise_pct": 4.364524410862258
+    "eps_surprise_pct": 4.364524410862258,
+    "days_to_earnings": 76.0
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "revenue_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "inventory_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "free_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "operating_cash_flow_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "revenue_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "net_income_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "ebitda_ttm": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "margin_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "fcf_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "net_debt_to_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/financials/",
-      "retrieved_at": "2026-11-19T18:57:18.988846+00:00",
+      "retrieved_at": "2026-11-25T20:14:32.389648+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": null
     },
     "fcf_yield": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/key-statistics/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "2026-09-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DGX/analysis/",
-      "retrieved_at": "2026-11-19T18:56:31.913037+00:00",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
       "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DGX/calendar/",
+      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "period": null
     }
   },
   "status": {
@@ -324,53 +331,51 @@
   },
   "news": [
     {
+      "title": "The Next Big Healthcare Revolution Is Already Here. This Stock Could Cash In.",
+      "url": "https://finance.yahoo.com/healthcare/articles/next-big-healthcare-revolution-already-152702042.html",
+      "published_at": "2026-11-25T15:27:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "What Are Wall Street Analysts' Target Price for Quest Diagnostics Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-132745106.html",
+      "published_at": "2026-11-25T13:27:45+00:00",
+      "categories": []
+    },
+    {
+      "title": "Baird Adjusts Quest Diagnostics Price Target to $266 From $262",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-quest-diagnostics-price-124633630.html",
+      "published_at": "2026-11-25T12:46:33+00:00",
+      "categories": []
+    },
+    {
+      "title": "DJO Whistleblower Law Group Helps Score a $13 Million Touchdown in Quest Diagnostics Kickback Case",
+      "url": "https://finance.yahoo.com/healthcare/articles/djo-whistleblower-law-group-helps-180000091.html",
+      "published_at": "2026-11-24T18:00:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Can Sales Abroad Lift Hims & Hers Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sales-abroad-lift-hims-hers-050642120.html",
+      "published_at": "2026-11-24T05:06:42+00:00",
+      "categories": []
+    },
+    {
+      "title": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom",
+      "url": "https://finance.yahoo.com/healthcare/articles/quest-diagnostics-sees-hospital-deal-041210499.html",
+      "published_at": "2026-11-22T04:12:10+00:00",
+      "categories": []
+    },
+    {
+      "title": "Quest Diagnostics Stock Gains 49.3% YTD: What's Behind the Rally?",
+      "url": "https://finance.yahoo.com/healthcare/articles/quest-diagnostics-stock-gains-49-135200578.html",
+      "published_at": "2026-11-20T13:52:00+00:00",
+      "categories": []
+    },
+    {
       "title": "Could Hims & Hers Stock Fall 63% Again?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/could-hims-hers-stock-fall-124140272.html",
       "published_at": "2026-11-19T12:41:40+00:00",
-      "categories": []
-    },
-    {
-      "title": "What Explains Natera Stock's Nearly 10% Drop?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/explains-natera-stocks-nearly-10-234838696.html",
-      "published_at": "2026-11-18T23:48:38+00:00",
-      "categories": []
-    },
-    {
-      "title": "Hims & Hers Stock Fell 32% As Profit Slipped",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hims-hers-stock-fell-32-112945424.html",
-      "published_at": "2026-11-17T14:13:41+00:00",
-      "categories": []
-    },
-    {
-      "title": "Why Is Natera Stock Up Nearly 41% Since May?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-natera-stock-nearly-41-112945479.html",
-      "published_at": "2026-11-17T14:13:41+00:00",
-      "categories": []
-    },
-    {
-      "title": "Mammogen Launches Leadership Council to Unite Industry Experts and Survivors, Names Former Quest Diagnostics CMO Dr. Yuri Fesko as Founding Member",
-      "url": "https://finance.yahoo.com/healthcare/articles/mammogen-launches-leadership-council-unite-120200298.html",
-      "published_at": "2026-11-17T12:02:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "Should Hims & Hers Stock's Drop After Earnings Worry You?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hims-hers-stocks-drop-earnings-202304131.html",
-      "published_at": "2026-11-13T20:23:04+00:00",
-      "categories": [
-        "earnings/guidance"
-      ]
-    },
-    {
-      "title": "Should Labcorp Stock Holders Look At Quest Diagnostics Instead?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/labcorp-stock-holders-look-quest-172537682.html",
-      "published_at": "2026-11-13T17:25:37+00:00",
-      "categories": []
-    },
-    {
-      "title": "Quest Diagnostics (DGX) Reaffirms Dividend, Is The Stock Already Fully Valued?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/quest-diagnostics-dgx-reaffirms-dividend-111024695.html",
-      "published_at": "2026-11-13T11:10:24+00:00",
       "categories": []
     }
   ],
@@ -398,7 +403,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-19T18:57:18.988846+00:00",
+    "fetch_date": "2026-11-25T20:14:32.389648+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 9.978693181818187,
     "revenue_qoq_change": 1.774564574433124,
@@ -455,17 +460,19 @@
   },
   "currency": "USD",
   "financial_currency": "USD",
-  "earnings_dates": [],
-  "earnings_date_status": "unknown",
+  "earnings_dates": [
+    "2027-02-09"
+  ],
+  "earnings_date_status": "provider_estimate",
   "insider_source": "https://finance.yahoo.com/quote/DGX/insider-transactions/",
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 7,
+      "prior_observations": 8,
       "required": 20
     },
     "ev_ebitda": {
-      "prior_observations": 7,
+      "prior_observations": 8,
       "required": 20
     }
   }
