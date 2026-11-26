@@ -2,10 +2,10 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-19T18:07:50.350729+00:00",
+    "fetch_date": "2026-11-26T19:10:06.537460+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": -1.2650977119191165,
-    "revenue_qoq_change": null,
+    "revenue_qoq_change": -10.212280489252912,
     "eps_yoy_change": 612.7659574468086,
     "eps_qoq_change": -19.082125603864732,
     "latest_eps": 3.35,
@@ -15,22 +15,22 @@
     "inventory_yoy_change": null,
     "inventory_qoq_change": null,
     "shares_yoy_change": -14.736000000000004,
-    "free_cash_flow_ttm": null,
-    "operating_cash_flow_ttm": null,
-    "revenue_ttm": null,
-    "net_income_ttm": null,
-    "ebitda_ttm": null,
+    "free_cash_flow_ttm": 1294853000.0,
+    "operating_cash_flow_ttm": 1378304000.0,
+    "revenue_ttm": 6444345000.0,
+    "net_income_ttm": 954413000.0,
+    "ebitda_ttm": 1550842000.0,
     "total_debt": 3216238000.0,
     "cash": 1633137000.0,
     "total_assets": 7151675000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
       "2025-03-31": null,
-      "2025-06-30": 1686454000.0,
+      "2025-06-30": null,
       "2025-09-30": 1524072000.0,
       "2025-12-31": 1752570000.0,
       "2026-03-31": 1511041000.0,
-      "2026-06-30": null,
+      "2026-06-30": 1675943000.0,
       "2026-09-30": 1504791000.0
     },
     "quarterly_eps": {
@@ -43,12 +43,14 @@
       "2026-09-30": 3.35
     },
     "quarterly_inventory": {},
-    "margin_change": null,
+    "margin_change": 0.26857465206687436,
     "operating_margin_yoy_change": 3.0815563447853,
     "inventory_to_sales_ratio": null,
+    "fcf_margin": 20.09285660528727,
     "net_debt": 1583101000.0,
+    "net_debt_to_ebitda": 1.0208009584470887,
     "debt_to_assets": 44.97181429525251,
     "ticker": "IT"
   },
-  "fetched_at": "2026-11-19T18:07:50.353138"
+  "fetched_at": "2026-11-26T19:10:06.542218"
 }

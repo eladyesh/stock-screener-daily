@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-11-25T20:14:43.621652+00:00",
-  "github_run_id": "45677296946",
+  "generated_at": "2026-11-26T19:59:40.083104+00:00",
+  "github_run_id": "45875842532",
   "github_run_attempt": "1",
-  "report_sha256": "e64a1c322e8c12d45c50a0b8a157fa12598971f186517d855ae54f1b7819e182",
+  "report_sha256": "aa72b1bb982498d510911727418cfa8d4f521e5a32937ff689c0d54203b578c3",
   "universe": 5549,
-  "analyzed": 2672,
+  "analyzed": 2680,
   "error_rate": 0.0,
-  "buy_signals": 28,
-  "sell_signals": 839,
+  "buy_signals": 35,
+  "sell_signals": 803,
   "price_dates": [
-    "2026-11-20",
-    "2026-11-24"
+    "2026-11-25"
   ],
   "signal_policy_version": "observed-risk-v2",
   "universe_selection": {
     "policy_version": "common-equity-v3",
     "mode": "exchange_directories",
-    "fetched_at": "2026-11-25T18:41:10.765016+00:00",
+    "fetched_at": "2026-11-26T18:26:12.997209+00:00",
     "sources": {
       "nasdaqlisted": {
         "status": "ok",
@@ -51,8 +50,8 @@
     "resolved_by_profile": 40,
     "unresolved_security_types": 23,
     "profile_resolution": {
-      "calls": 88,
-      "cache_hits": 0,
+      "calls": 0,
+      "cache_hits": 88,
       "deferred": 0,
       "provider_blocked": false
     },
@@ -62,27 +61,28 @@
   "research_enriched": 40,
   "research_rankings": {
     "weeks_to_months": [
+      "KNSA",
       "PLMR",
-      "PDLB",
       "HNGE",
       "EXPO",
+      "EXLS",
       "HAS",
-      "COLM",
+      "PDLB",
+      "RGA",
       "SWK",
-      "AER",
-      "DGX"
+      "DIS"
     ],
     "months_to_18m": [
       "PDLB",
       "PLMR",
       "APA",
+      "KNSA",
+      "EOG",
       "KINS",
       "CORT",
       "DCTH",
       "HAS",
-      "ECO",
-      "VCEL",
-      "ASML"
+      "HNGE"
     ]
   },
   "strategy_version": "multifactor-v3"

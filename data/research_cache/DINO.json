@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "DINO",
-  "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+  "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
   "metrics": {
     "revenue_yoy_change": 49.731071576334294,
     "eps_yoy_change": 429.3023255813954,
@@ -19,222 +19,242 @@
     "inventory_to_sales_ratio": 0.3161094224924012,
     "net_debt": -79000000.0,
     "debt_to_assets": 15.722085326375804,
-    "market_cap": 14597945344.0,
-    "enterprise_value": 14884758528.0,
-    "forward_pe": 5.0657682,
-    "trailing_pe": 4.3955145,
-    "ev_ebitda": 2.775,
-    "eps_fy0": 24.4128,
+    "market_cap": 14516696064.0,
+    "enterprise_value": 14788791296.0,
+    "forward_pe": 4.894363,
+    "trailing_pe": 4.37105,
+    "ev_ebitda": 2.758,
+    "eps_fy0": 24.41146,
     "revenue_fy0": 36955026610.0,
     "analysts_fy0": 15.0,
-    "eps_fy1": 16.82157,
+    "eps_fy1": 16.8297,
     "revenue_fy1": 32943222900.0,
     "analysts_fy1": 16.0,
-    "forward_eps_growth": -31.095286079433738,
+    "forward_eps_growth": -31.05819971439644,
     "forward_revenue_growth": -10.855908053694673,
-    "eps_revision_30d": 12.347523509296865,
-    "eps_revision_90d": 79.45841050107114,
+    "eps_revision_30d": 11.159620927707303,
+    "eps_revision_90d": 79.54514419343002,
     "eps_surprise_pct": 50.05619125459746,
-    "days_to_earnings": 84.0
+    "days_to_earnings": 83.0,
+    "forward_pe_historical_relative": 0.8923960332711036,
+    "ev_ebitda_historical_relative": 0.8898209388611067
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/financials/",
-      "retrieved_at": "2026-11-25T20:14:19.202446+00:00",
+      "retrieved_at": "2026-11-26T19:59:15.878865+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "2026-09-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/DINO/calendar/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
+    },
+    "forward_pe_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": [
+        "2026-11-05",
+        "2026-11-25"
+      ]
+    },
+    "ev_ebitda_historical_relative": {
+      "provider": "Derived from archived daily Yahoo observations",
+      "url": "https://finance.yahoo.com/quote/DINO/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": [
+        "2026-11-05",
+        "2026-11-25"
+      ]
     }
   },
   "status": {
@@ -253,6 +273,12 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Down 23.4% in 4 Weeks, Here's Why HF Sinclair (DINO) Looks Ripe for a Turnaround",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/down-23-4-4-weeks-133501888.html",
+      "published_at": "2026-11-26T13:35:01+00:00",
+      "categories": []
+    },
     {
       "title": "Down 24.4% in 4 Weeks, Here's Why HF Sinclair (DINO) Looks Ripe for a Turnaround",
       "url": "https://finance.yahoo.com/markets/stocks/articles/down-24-4-4-weeks-133502581.html",
@@ -293,12 +319,6 @@
       "title": "HF Sinclair (DINO) Names Shawn J. Carsten As CFO",
       "url": "https://finance.yahoo.com/markets/stocks/articles/hf-sinclair-dino-names-shawn-201212839.html",
       "published_at": "2026-11-19T20:12:12+00:00",
-      "categories": []
-    },
-    {
-      "title": "HF Sinclair (DINO) Stock Looks Fairly Valued Despite Its 218% Run",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hf-sinclair-dino-stock-looks-190845778.html",
-      "published_at": "2026-11-19T19:08:45+00:00",
       "categories": []
     }
   ],
@@ -354,7 +374,7 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-25T20:14:19.202446+00:00",
+    "fetch_date": "2026-11-26T19:59:15.878865+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 49.731071576334294,
     "revenue_qoq_change": null,
@@ -418,12 +438,14 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 5.484519000000001
     },
     "ev_ebitda": {
-      "prior_observations": 19,
-      "required": 20
+      "prior_observations": 20,
+      "required": 20,
+      "median": 3.0995
     }
   }
 }

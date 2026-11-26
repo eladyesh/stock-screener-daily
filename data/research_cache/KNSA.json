@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "ticker": "KNSA",
+  "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+  "metrics": {
+    "revenue_yoy_change": 58.121146775040785,
+    "revenue_qoq_change": 17.393267651888333,
+    "eps_yoy_change": 143.47826086956525,
+    "eps_qoq_change": 86.66666666666669,
+    "latest_eps": 0.56,
+    "gross_margin": 53.28635870895548,
+    "operating_margin": 18.965625764940377,
+    "net_margin": 16.555932440465785,
+    "inventory_yoy_change": 160.9624118272297,
+    "inventory_qoq_change": 52.30226984350767,
+    "shares_yoy_change": 6.103124367467405,
+    "free_cash_flow_ttm": 197198000.0,
+    "operating_cash_flow_ttm": 198835000.0,
+    "revenue_ttm": 945963000.0,
+    "net_income_ttm": 109568000.0,
+    "ebitda_ttm": 132362000.0,
+    "total_debt": 7884000.0,
+    "cash": 568758000.0,
+    "total_assets": 983243000.0,
+    "margin_change": -0.8840025389919717,
+    "operating_margin_yoy_change": 5.683714841825173,
+    "inventory_to_sales_ratio": 0.3777599048851278,
+    "fcf_margin": 20.84626988582006,
+    "net_debt": -560874000.0,
+    "net_debt_to_ebitda": -4.23742463849141,
+    "debt_to_assets": 0.8018363720870629,
+    "market_cap": 7934563328.0,
+    "enterprise_value": 7373689856.0,
+    "forward_pe": 49.381416,
+    "trailing_pe": 76.503784,
+    "ev_ebitda": 55.709,
+    "fcf_yield": 2.485303750795144,
+    "eps_fy0": 1.4725,
+    "revenue_fy0": 1048878390.0,
+    "analysts_fy0": 4.0,
+    "eps_fy1": 2.045,
+    "revenue_fy1": 1347850530.0,
+    "analysts_fy1": 4.0,
+    "forward_eps_growth": 38.879456706281836,
+    "forward_revenue_growth": 28.50398509974068,
+    "eps_revision_30d": 26.429675425038646,
+    "eps_revision_90d": 26.429675425038646,
+    "eps_surprise_pct": 79.20000000000003,
+    "days_to_earnings": 89.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/financials/",
+      "retrieved_at": "2026-11-26T19:58:52.236606+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KNSA/calendar/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "How Investors Are Reacting To Kiniksa Pharmaceuticals International (KNSA) Raised Revenue Guidance",
+      "url": "https://finance.yahoo.com/healthcare/articles/investors-reacting-kiniksa-pharmaceuticals-international-191103152.html",
+      "published_at": "2026-11-26T19:11:03+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Kiniksa Pharmaceuticals International, plc (KNSA) Up 6.1% Since Last Earnings Report: Can It Continue?",
+      "url": "https://finance.yahoo.com/healthcare/articles/kiniksa-pharmaceuticals-international-plc-knsa-153013420.html",
+      "published_at": "2026-11-26T15:30:13+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "Kiniksa Pharmaceuticals to Present at Citi\u2019s 2026 Global Healthcare Conference",
+      "url": "https://finance.yahoo.com/healthcare/articles/kiniksa-pharmaceuticals-present-citi-2026-210100607.html",
+      "published_at": "2026-11-25T21:01:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Alkermes (ALKS) Stock Is Up 7.9% Today Without Company News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alkermes-alks-stock-7-9-210107695.html",
+      "published_at": "2026-11-24T21:01:07+00:00",
+      "categories": []
+    },
+    {
+      "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
+      "url": "https://finance.yahoo.com/markets/options/articles/options-traders-betting-big-move-131300584.html",
+      "published_at": "2026-11-20T13:13:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "TD Cowen highlights catalysts for a 2027 Best Idea stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-highlights-catalysts-2027-213252909.html",
+      "published_at": "2026-11-19T21:32:52+00:00",
+      "categories": []
+    },
+    {
+      "title": "Top pharma stock to watch: TD Cowen\u2019s pick",
+      "url": "https://finance.yahoo.com/healthcare/articles/top-pharma-stock-watch-td-202024062.html",
+      "published_at": "2026-11-18T20:20:24+00:00",
+      "categories": []
+    },
+    {
+      "title": "Kiniksa Pharmaceuticals International Insider Sold Shares Worth $1,111,531, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kiniksa-pharmaceuticals-international-insider-sold-213723439.html",
+      "published_at": "2026-11-12T21:37:23+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-27",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/KNSA/0001104659-26-119186_1730430"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/KNSA/0001730430-26-000034_1730430"
+    }
+  ],
+  "warnings": [],
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-26T19:58:52.236606+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 58.121146775040785,
+    "revenue_qoq_change": 17.393267651888333,
+    "eps_yoy_change": 143.47826086956525,
+    "eps_qoq_change": 86.66666666666669,
+    "latest_eps": 0.56,
+    "gross_margin": 53.28635870895548,
+    "operating_margin": 18.965625764940377,
+    "net_margin": 16.555932440465785,
+    "inventory_yoy_change": 160.9624118272297,
+    "inventory_qoq_change": 52.30226984350767,
+    "shares_yoy_change": 6.103124367467405,
+    "free_cash_flow_ttm": 197198000.0,
+    "operating_cash_flow_ttm": 198835000.0,
+    "revenue_ttm": 945963000.0,
+    "net_income_ttm": 109568000.0,
+    "ebitda_ttm": 132362000.0,
+    "total_debt": 7884000.0,
+    "cash": 568758000.0,
+    "total_assets": 983243000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 180855000.0,
+      "2025-12-31": 202127000.0,
+      "2026-03-31": 214266000.0,
+      "2026-06-30": 243600000.0,
+      "2026-09-30": 285970000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 0.23,
+      "2025-12-31": 0.17,
+      "2026-03-31": 0.27,
+      "2026-06-30": 0.3,
+      "2026-09-30": 0.56
+    },
+    "quarterly_inventory": {
+      "2025-09-30": 41396000.0,
+      "2025-12-31": 54895000.0,
+      "2026-03-31": 73141000.0,
+      "2026-06-30": 70930000.0,
+      "2026-09-30": 108028000.0
+    },
+    "margin_change": -0.8840025389919717,
+    "operating_margin_yoy_change": 5.683714841825173,
+    "inventory_to_sales_ratio": 0.3777599048851278,
+    "fcf_margin": 20.84626988582006,
+    "net_debt": -560874000.0,
+    "net_debt_to_ebitda": -4.23742463849141,
+    "debt_to_assets": 0.8018363720870629
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-23"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/KNSA/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}

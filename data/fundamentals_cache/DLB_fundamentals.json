@@ -2,7 +2,7 @@
   "data": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-19T17:48:20.144524+00:00",
+    "fetch_date": "2026-11-26T18:50:38.396072+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 21.663453019959356,
     "revenue_qoq_change": 22.472827423400375,
@@ -18,13 +18,14 @@
     "free_cash_flow_ttm": 298739000.0,
     "operating_cash_flow_ttm": 399545000.0,
     "revenue_ttm": 1420867000.0,
-    "net_income_ttm": 257737000.0,
+    "net_income_ttm": null,
     "ebitda_ttm": 425257000.0,
     "total_debt": 45795000.0,
     "cash": 623376000.0,
     "total_assets": 3168507000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
+      "2025-06-30": null,
       "2025-09-30": 307024000.0,
       "2025-12-31": 346706000.0,
       "2026-03-31": 395630000.0,
@@ -32,6 +33,7 @@
       "2026-09-30": 373536000.0
     },
     "quarterly_eps": {
+      "2025-06-30": null,
       "2025-09-30": 0.51,
       "2025-12-31": 0.55,
       "2026-03-31": 0.99,
@@ -54,5 +56,5 @@
     "debt_to_assets": 1.4453179368074618,
     "ticker": "DLB"
   },
-  "fetched_at": "2026-11-19T17:48:20.148239"
+  "fetched_at": "2026-11-26T18:50:38.400387"
 }

@@ -1,7 +1,7 @@
 {
   "policy_version": "common-equity-v3",
   "mode": "exchange_directories",
-  "fetched_at": "2026-11-25T18:41:10.765016+00:00",
+  "fetched_at": "2026-11-26T18:26:12.997209+00:00",
   "sources": {
     "nasdaqlisted": {
       "status": "ok",
@@ -36,8 +36,8 @@
   "resolved_by_profile": 40,
   "unresolved_security_types": 23,
   "profile_resolution": {
-    "calls": 88,
-    "cache_hits": 0,
+    "calls": 0,
+    "cache_hits": 88,
     "deferred": 0,
     "provider_blocked": false
   },
@@ -9201,7 +9201,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CDZIP",
           "quoteType": "EQUITY",
@@ -27981,7 +27981,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MDBH",
           "quoteType": "EQUITY",
@@ -28959,7 +28959,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MNSBP",
           "quoteType": "EQUITY",
@@ -33366,7 +33366,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ORGO",
           "quoteType": "EQUITY",
@@ -48159,7 +48159,7 @@
         "reason": "unspecified_depositary_security",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "WAFDP",
           "quoteType": "EQUITY",
@@ -50793,7 +50793,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AAP",
           "quoteType": "EQUITY",
@@ -51123,7 +51123,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ACEL",
           "quoteType": "EQUITY",
@@ -53145,7 +53145,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AME",
           "quoteType": "EQUITY",
@@ -53268,7 +53268,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AMN",
           "quoteType": "EQUITY",
@@ -54498,7 +54498,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ASA",
           "quoteType": "EQUITY",
@@ -55782,7 +55782,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "AZZ",
           "quoteType": "EQUITY",
@@ -56607,7 +56607,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BBWI",
           "quoteType": "EQUITY",
@@ -56991,7 +56991,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BDJ",
           "quoteType": "EQUITY",
@@ -57573,7 +57573,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGR",
           "quoteType": "EQUITY",
@@ -57642,7 +57642,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGT",
           "quoteType": "EQUITY",
@@ -57684,7 +57684,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BGY",
           "quoteType": "EQUITY",
@@ -58383,7 +58383,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BKT",
           "quoteType": "EQUITY",
@@ -58623,7 +58623,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BLW",
           "quoteType": "EQUITY",
@@ -58692,7 +58692,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BME",
           "quoteType": "EQUITY",
@@ -59877,7 +59877,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BTT",
           "quoteType": "EQUITY",
@@ -59928,7 +59928,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BTZ",
           "quoteType": "EQUITY",
@@ -60114,7 +60114,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BUI",
           "quoteType": "EQUITY",
@@ -60291,7 +60291,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "BVN",
           "quoteType": "EQUITY",
@@ -61341,7 +61341,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CCK",
           "quoteType": "EQUITY",
@@ -61455,7 +61455,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CCZ",
           "quoteType": "EQUITY",
@@ -62136,7 +62136,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CHE",
           "quoteType": "EQUITY",
@@ -62268,7 +62268,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CHT",
           "quoteType": "EQUITY",
@@ -63462,7 +63462,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "COHN",
           "quoteType": "EQUITY",
@@ -63864,7 +63864,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "CPF",
           "quoteType": "EQUITY",
@@ -66039,7 +66039,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "DDT",
           "quoteType": "EQUITY",
@@ -67026,7 +67026,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "DHT",
           "quoteType": "EQUITY",
@@ -70488,7 +70488,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "EOT",
           "quoteType": "EQUITY",
@@ -70836,7 +70836,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "EQNR",
           "quoteType": "EQUITY",
@@ -74676,7 +74676,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "FNV",
           "quoteType": "EQUITY",
@@ -76059,7 +76059,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GAU",
           "quoteType": "EQUITY",
@@ -76758,7 +76758,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GGN",
           "quoteType": "EQUITY",
@@ -77052,7 +77052,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJH",
           "quoteType": "EQUITY",
@@ -77085,7 +77085,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJO",
           "quoteType": "EQUITY",
@@ -77118,7 +77118,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJP",
           "quoteType": "EQUITY",
@@ -77151,7 +77151,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJR",
           "quoteType": "EQUITY",
@@ -77184,7 +77184,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJS",
           "quoteType": "EQUITY",
@@ -77217,7 +77217,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GJT",
           "quoteType": "EQUITY",
@@ -77898,7 +77898,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GNT",
           "quoteType": "EQUITY",
@@ -78183,7 +78183,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "GPK",
           "quoteType": "EQUITY",
@@ -79674,7 +79674,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HESM",
           "quoteType": "EQUITY",
@@ -80184,7 +80184,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HMY",
           "quoteType": "EQUITY",
@@ -80649,7 +80649,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "HTH",
           "quoteType": "EQUITY",
@@ -83220,7 +83220,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "INUV",
           "quoteType": "EQUITY",
@@ -84828,7 +84828,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "JBK",
           "quoteType": "EQUITY",
@@ -86310,7 +86310,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KB",
           "quoteType": "EQUITY",
@@ -86982,7 +86982,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KMPR",
           "quoteType": "EQUITY",
@@ -87024,7 +87024,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KMX",
           "quoteType": "EQUITY",
@@ -87156,7 +87156,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KNX",
           "quoteType": "EQUITY",
@@ -87207,7 +87207,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KODK",
           "quoteType": "EQUITY",
@@ -87609,7 +87609,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "KTN",
           "quoteType": "EQUITY",
@@ -87993,7 +87993,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "LCII",
           "quoteType": "EQUITY",
@@ -88251,7 +88251,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "LEN-B",
           "quoteType": "EQUITY",
@@ -90525,7 +90525,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MFA",
           "quoteType": "EQUITY",
@@ -91755,7 +91755,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MO",
           "quoteType": "EQUITY",
@@ -92814,7 +92814,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "MTRN",
           "quoteType": "EQUITY",
@@ -93639,7 +93639,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NBR",
           "quoteType": "EQUITY",
@@ -93978,7 +93978,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NEM",
           "quoteType": "EQUITY",
@@ -94182,7 +94182,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NG",
           "quoteType": "EQUITY",
@@ -95115,7 +95115,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NRP",
           "quoteType": "EQUITY",
@@ -95931,7 +95931,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "NXB",
           "quoteType": "EQUITY",
@@ -97188,7 +97188,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "ORN",
           "quoteType": "EQUITY",
@@ -97464,7 +97464,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "OVV",
           "quoteType": "EQUITY",
@@ -97623,7 +97623,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAC",
           "quoteType": "EQUITY",
@@ -97746,7 +97746,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PAM",
           "quoteType": "EQUITY",
@@ -101406,7 +101406,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "PYT",
           "quoteType": "EQUITY",
@@ -103158,7 +103158,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "REX",
           "quoteType": "EQUITY",
@@ -105261,7 +105261,7 @@
         "reason": "profile_incomplete",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SAR",
           "quoteType": "EQUITY",
@@ -106635,7 +106635,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SFL",
           "quoteType": "EQUITY",
@@ -108558,7 +108558,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SOR",
           "quoteType": "EQUITY",
@@ -109671,7 +109671,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "SRL",
           "quoteType": "EQUITY",
@@ -110199,7 +110199,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "STWD",
           "quoteType": "EQUITY",
@@ -110691,7 +110691,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "T",
           "quoteType": "EQUITY",
@@ -111534,7 +111534,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TEO",
           "quoteType": "EQUITY",
@@ -111927,7 +111927,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "THG",
           "quoteType": "EQUITY",
@@ -112419,7 +112419,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TLK",
           "quoteType": "EQUITY",
@@ -112749,7 +112749,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TNK",
           "quoteType": "EQUITY",
@@ -113754,7 +113754,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TSM",
           "quoteType": "EQUITY",
@@ -113904,7 +113904,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TT",
           "quoteType": "EQUITY",
@@ -114108,7 +114108,7 @@
         "reason": "profile_non_common_instrument",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "TVE",
           "quoteType": "EQUITY",
@@ -115986,7 +115986,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "V",
           "quoteType": "EQUITY",
@@ -116433,7 +116433,7 @@
         "reason": "profile_name_mismatch",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "VET",
           "quoteType": "EQUITY",
@@ -116916,7 +116916,7 @@
         "reason": "profile_fund",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "VLT",
           "quoteType": "EQUITY",
@@ -121359,7 +121359,7 @@
         "reason": "profile_supported_equity",
         "status": "ok",
         "fetched_at": "2026-11-25T18:39:25.791682+00:00",
-        "cached": false,
+        "cached": true,
         "evidence": {
           "symbol": "YUM",
           "quoteType": "EQUITY",

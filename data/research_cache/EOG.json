@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
   "ticker": "EOG",
-  "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+  "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
   "metrics": {
     "revenue_yoy_change": 42.72505233775297,
+    "revenue_qoq_change": -3.684954085236636,
     "eps_yoy_change": 97.40740740740739,
     "eps_qoq_change": 3.495145631067964,
     "latest_eps": 5.33,
@@ -11,19 +12,29 @@
     "operating_margin": 39.885099621073216,
     "net_margin": 33.993399339933994,
     "inventory_yoy_change": -0.7407407407407418,
+    "inventory_qoq_change": 0.8602150537634357,
     "shares_yoy_change": -4.044117647058821,
+    "free_cash_flow_ttm": 7382000000.0,
+    "operating_cash_flow_ttm": 14060000000.0,
+    "revenue_ttm": 29086000000.0,
+    "net_income_ttm": 8186000000.0,
+    "ebitda_ttm": 15764000000.0,
     "total_debt": 8262000000.0,
     "cash": 5747000000.0,
     "total_assets": 56468000000.0,
+    "margin_change": -2.010910611506958,
     "operating_margin_yoy_change": 8.325434582692196,
     "inventory_to_sales_ratio": 0.11465591003544799,
+    "fcf_margin": 25.379907859451283,
     "net_debt": 2515000000.0,
+    "net_debt_to_ebitda": 0.159540725704136,
     "debt_to_assets": 14.63129560104838,
-    "market_cap": 77151748096.0,
-    "enterprise_value": 78519599104.0,
-    "forward_pe": 8.747532,
-    "trailing_pe": 9.6063595,
-    "ev_ebitda": 4.889,
+    "market_cap": 76896395264.0,
+    "enterprise_value": 79411396608.0,
+    "forward_pe": 8.718579,
+    "trailing_pe": 9.574564,
+    "ev_ebitda": 4.944,
+    "fcf_yield": 9.599929846719322,
     "eps_fy0": 18.80891,
     "revenue_fy0": 32501761830.0,
     "analysts_fy0": 27.0,
@@ -35,225 +46,291 @@
     "eps_revision_30d": 6.653792740234055,
     "eps_revision_90d": 17.433538573480867,
     "eps_surprise_pct": 9.343847107215364,
-    "days_to_earnings": 90.0,
-    "forward_pe_historical_relative": 0.9586811839162437,
-    "ev_ebitda_historical_relative": 0.9462885899545147
+    "days_to_earnings": 89.0,
+    "forward_pe_historical_relative": 0.955863379597937,
+    "ev_ebitda_historical_relative": 0.9586969168121
   },
   "sources": {
     "revenue_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "eps_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "eps_qoq_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "latest_eps": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "gross_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "operating_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "net_margin": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "inventory_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "shares_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "total_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "cash": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "total_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "operating_margin_yoy_change": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "inventory_to_sales_ratio": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "net_debt": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/financials/",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "debt_to_assets": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/financials/",
-      "retrieved_at": "2026-11-25T20:14:31.101253+00:00",
+      "retrieved_at": "2026-11-26T19:59:26.587769+00:00",
       "period": "2026-09-30"
     },
     "market_cap": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "enterprise_value": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "forward_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "trailing_pe": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "ev_ebitda": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "2026-09-30"
     },
     "eps_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "revenue_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "analysts_fy0": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "0y"
     },
     "eps_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "revenue_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "analysts_fy1": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "forward_eps_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y vs 0y"
     },
     "forward_revenue_growth": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y vs 0y"
     },
     "eps_revision_30d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "eps_revision_90d": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "+1y"
     },
     "eps_surprise_pct": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/analysis/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": "2026-09-30 00:00:00"
     },
     "days_to_earnings": {
       "provider": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/EOG/calendar/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": null
     },
     "forward_pe_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": [
         "2026-10-29",
-        "2026-11-24"
+        "2026-11-25"
       ]
     },
     "ev_ebitda_historical_relative": {
       "provider": "Derived from archived daily Yahoo observations",
       "url": "https://finance.yahoo.com/quote/EOG/key-statistics/",
-      "retrieved_at": "2026-11-25T20:13:43.263183+00:00",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
       "period": [
         "2026-10-29",
-        "2026-11-24"
+        "2026-11-25"
       ]
     }
   },
@@ -273,6 +350,18 @@
     "filings": "ok"
   },
   "news": [
+    {
+      "title": "Saipem's $650M Aramco Deal Strengthens Offshore Growth Prospects",
+      "url": "https://finance.yahoo.com/energy/articles/saipems-650m-aramco-deal-strengthens-144800123.html",
+      "published_at": "2026-11-26T14:48:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Oil Stocks With Direct Exposure To Higher Crude Prices",
+      "url": "https://finance.yahoo.com/energy/articles/3-oil-stocks-direct-exposure-061445059.html",
+      "published_at": "2026-11-26T06:14:45+00:00",
+      "categories": []
+    },
     {
       "title": "Favorable Crude Oil Outlook: What Lies Ahead for COP, EOG & FANG?",
       "url": "https://finance.yahoo.com/energy/articles/favorable-crude-oil-outlook-lies-113500340.html",
@@ -312,18 +401,6 @@
       "url": "https://finance.yahoo.com/energy/articles/elevated-oil-prices-drive-equinors-162800056.html",
       "published_at": "2026-11-24T16:28:00+00:00",
       "categories": []
-    },
-    {
-      "title": "APA Leads Alaska Oil Lease Sales as Bids Hit a 12-Year High",
-      "url": "https://finance.yahoo.com/energy/articles/apa-leads-alaska-oil-lease-162600222.html",
-      "published_at": "2026-11-24T16:26:00+00:00",
-      "categories": []
-    },
-    {
-      "title": "CHRD vs. EOG: Which Oil Stock is the Better Bet Right Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chrd-vs-eog-oil-stock-142700576.html",
-      "published_at": "2026-11-24T14:27:00+00:00",
-      "categories": []
     }
   ],
   "insider_purchases": [],
@@ -355,10 +432,10 @@
   "statements": {
     "schema_version": 2,
     "data_source": "yahoo_finance",
-    "fetch_date": "2026-11-25T20:14:31.101253+00:00",
+    "fetch_date": "2026-11-26T19:59:26.587769+00:00",
     "report_period": "2026-09-30",
     "revenue_yoy_change": 42.72505233775297,
-    "revenue_qoq_change": null,
+    "revenue_qoq_change": -3.684954085236636,
     "eps_yoy_change": 97.40740740740739,
     "eps_qoq_change": 3.495145631067964,
     "latest_eps": 5.33,
@@ -366,27 +443,25 @@
     "operating_margin": 39.885099621073216,
     "net_margin": 33.993399339933994,
     "inventory_yoy_change": -0.7407407407407418,
-    "inventory_qoq_change": null,
+    "inventory_qoq_change": 0.8602150537634357,
     "shares_yoy_change": -4.044117647058821,
-    "free_cash_flow_ttm": null,
-    "operating_cash_flow_ttm": null,
-    "revenue_ttm": null,
-    "net_income_ttm": null,
-    "ebitda_ttm": null,
+    "free_cash_flow_ttm": 7382000000.0,
+    "operating_cash_flow_ttm": 14060000000.0,
+    "revenue_ttm": 29086000000.0,
+    "net_income_ttm": 8186000000.0,
+    "ebitda_ttm": 15764000000.0,
     "total_debt": 8262000000.0,
     "cash": 5747000000.0,
     "total_assets": 56468000000.0,
     "inventory_breakdown_available": false,
     "quarterly_revenue": {
-      "2025-06-30": 5355000000.0,
       "2025-09-30": 5732000000.0,
       "2025-12-31": 5653000000.0,
       "2026-03-31": 6758000000.0,
-      "2026-06-30": null,
+      "2026-06-30": 8494000000.0,
       "2026-09-30": 8181000000.0
     },
     "quarterly_eps": {
-      "2025-06-30": null,
       "2025-09-30": 2.7,
       "2025-12-31": 1.3,
       "2026-03-31": 3.7,
@@ -395,16 +470,19 @@
     },
     "quarterly_inventory": {
       "2025-03-31": null,
-      "2025-06-30": 934000000.0,
+      "2025-06-30": null,
       "2025-09-30": 945000000.0,
       "2025-12-31": 1014000000.0,
       "2026-03-31": 955000000.0,
+      "2026-06-30": 930000000.0,
       "2026-09-30": 938000000.0
     },
-    "margin_change": null,
+    "margin_change": -2.010910611506958,
     "operating_margin_yoy_change": 8.325434582692196,
     "inventory_to_sales_ratio": 0.11465591003544799,
+    "fcf_margin": 25.379907859451283,
     "net_debt": 2515000000.0,
+    "net_debt_to_ebitda": 0.159540725704136,
     "debt_to_assets": 14.63129560104838
   },
   "currency": "USD",
@@ -417,14 +495,14 @@
   "fmp_configured": false,
   "valuation_history": {
     "forward_pe": {
-      "prior_observations": 26,
+      "prior_observations": 27,
       "required": 20,
-      "median": 9.124547499999998
+      "median": 9.121156
     },
     "ev_ebitda": {
-      "prior_observations": 26,
+      "prior_observations": 27,
       "required": 20,
-      "median": 5.1665
+      "median": 5.157
     }
   }
 }

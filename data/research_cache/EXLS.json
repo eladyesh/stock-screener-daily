@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "ticker": "EXLS",
+  "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+  "metrics": {
+    "revenue_yoy_change": 19.70863978398181,
+    "revenue_qoq_change": 6.59018802447362,
+    "eps_yoy_change": 25.0,
+    "eps_qoq_change": 7.14285714285714,
+    "latest_eps": 0.45,
+    "gross_margin": 38.0363714372696,
+    "operating_margin": 14.016048356439454,
+    "net_margin": 10.847862401196291,
+    "shares_yoy_change": -5.654664109682795,
+    "free_cash_flow_ttm": 271189000.0,
+    "operating_cash_flow_ttm": 326185000.0,
+    "revenue_ttm": 2341688000.0,
+    "net_income_ttm": 260609000.0,
+    "ebitda_ttm": 455313000.0,
+    "total_debt": 615347000.0,
+    "cash": 332678000.0,
+    "total_assets": 2073409000.0,
+    "margin_change": 0.044263656523320094,
+    "operating_margin_yoy_change": -0.36766719441640383,
+    "fcf_margin": 11.580919405147057,
+    "net_debt": 282669000.0,
+    "net_debt_to_ebitda": 0.6208234774759341,
+    "debt_to_assets": 29.678032650576903,
+    "market_cap": 6800571904.0,
+    "enterprise_value": 7085672960.0,
+    "forward_pe": 16.943167,
+    "trailing_pe": 27.005987,
+    "ev_ebitda": 17.81,
+    "fcf_yield": 3.9877381465592694,
+    "eps_fy0": 2.35029,
+    "revenue_fy0": 2439950280.0,
+    "analysts_fy0": 10.0,
+    "eps_fy1": 2.66184,
+    "revenue_fy1": 2754951160.0,
+    "analysts_fy1": 10.0,
+    "forward_eps_growth": 13.255810985027372,
+    "forward_revenue_growth": 12.910135201607464,
+    "eps_revision_30d": 2.4521482758753654,
+    "eps_revision_90d": 2.495937651616087,
+    "eps_surprise_pct": 11.015613808909897,
+    "days_to_earnings": 89.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/financials/",
+      "retrieved_at": "2026-11-26T19:59:22.541545+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    },
+    "fcf_yield": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/key-statistics/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/analysis/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/EXLS/calendar/",
+      "retrieved_at": "2026-11-26T19:58:45.656906+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "ok",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Is ExlService Holdings (EXLS) Fully Priced As AI Recognition Lifts Investor Confidence?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exlservice-holdings-exls-fully-priced-181243396.html",
+      "published_at": "2026-11-26T18:12:43+00:00",
+      "categories": []
+    },
+    {
+      "title": "Innodata vs. Cognizant: Which AI Services Stock Is a Better Buy?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/innodata-vs-cognizant-ai-services-162300683.html",
+      "published_at": "2026-11-26T16:23:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Exlservice Holdings Insider Sold Shares Worth $4,378,000, According to a Recent SEC Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exlservice-holdings-insider-sold-shares-212306126.html",
+      "published_at": "2026-11-25T21:23:06+00:00",
+      "categories": []
+    },
+    {
+      "title": "EXL named a Leader in 2026 ISG Provider Lens Generative AI and Agentic AI Services Global Reports",
+      "url": "https://finance.yahoo.com/technology/ai/articles/exl-named-leader-2026-isg-150200996.html",
+      "published_at": "2026-11-25T15:02:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "ExlService Holdings, Inc. (EXLS) Hits Fresh High: Is There Still Room to Run?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exlservice-holdings-inc-exls-hits-133502568.html",
+      "published_at": "2026-11-25T13:35:02+00:00",
+      "categories": []
+    },
+    {
+      "title": "ExlService Holdings (EXLS) is an Incredible Growth Stock: 3 Reasons Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exlservice-holdings-exls-incredible-growth-164503121.html",
+      "published_at": "2026-11-19T16:45:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "EXL Recognized as a Leader in the Everest Group Fraud Management Operations Services PEAK Matrix\u00ae Assessment 2026",
+      "url": "https://finance.yahoo.com/technology/ai/articles/exl-recognized-leader-everest-group-182400839.html",
+      "published_at": "2026-11-18T18:24:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Innodata Stock Plummets 40% in a Month: Should Investors Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-stock-plummets-40-month-164100313.html",
+      "published_at": "2026-11-18T16:41:00+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-10-27",
+      "type": "10-Q",
+      "url": "https://finance.yahoo.com/sec-filing/EXLS/0001297989-26-000031_1297989"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "8-K",
+      "url": "https://finance.yahoo.com/sec-filing/EXLS/0001104659-26-104527_1297989"
+    }
+  ],
+  "warnings": [],
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-26T19:59:22.541545+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 19.70863978398181,
+    "revenue_qoq_change": 6.59018802447362,
+    "eps_yoy_change": 25.0,
+    "eps_qoq_change": 7.14285714285714,
+    "latest_eps": 0.45,
+    "gross_margin": 38.0363714372696,
+    "operating_margin": 14.016048356439454,
+    "net_margin": 10.847862401196291,
+    "inventory_yoy_change": null,
+    "inventory_qoq_change": null,
+    "shares_yoy_change": -5.654664109682795,
+    "free_cash_flow_ttm": 271189000.0,
+    "operating_cash_flow_ttm": 326185000.0,
+    "revenue_ttm": 2341688000.0,
+    "net_income_ttm": 260609000.0,
+    "ebitda_ttm": 455313000.0,
+    "total_debt": 615347000.0,
+    "cash": 332678000.0,
+    "total_assets": 2073409000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-06-30": null,
+      "2025-09-30": 529585000.0,
+      "2025-12-31": 542615000.0,
+      "2026-03-31": 570351000.0,
+      "2026-06-30": 594763000.0,
+      "2026-09-30": 633959000.0
+    },
+    "quarterly_eps": {
+      "2025-06-30": null,
+      "2025-09-30": 0.36,
+      "2025-12-31": 0.38,
+      "2026-03-31": 0.43,
+      "2026-06-30": 0.42,
+      "2026-09-30": 0.45
+    },
+    "quarterly_inventory": {},
+    "margin_change": 0.044263656523320094,
+    "operating_margin_yoy_change": -0.36766719441640383,
+    "inventory_to_sales_ratio": null,
+    "fcf_margin": 11.580919405147057,
+    "net_debt": 282669000.0,
+    "net_debt_to_ebitda": 0.6208234774759341,
+    "debt_to_assets": 29.678032650576903
+  },
+  "currency": "USD",
+  "financial_currency": "USD",
+  "earnings_dates": [
+    "2027-02-23"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/EXLS/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
