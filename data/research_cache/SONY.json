@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "ticker": "SONY",
+  "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+  "metrics": {
+    "revenue_yoy_change": 10.345837246738721,
+    "revenue_qoq_change": 20.84999106693246,
+    "eps_yoy_change": 27.271214642262876,
+    "eps_qoq_change": 32.28986509858181,
+    "latest_eps": 76.49,
+    "gross_margin": 36.95451102014728,
+    "operating_margin": 18.811084939083457,
+    "net_margin": 13.110076671275769,
+    "inventory_yoy_change": -13.344401815740191,
+    "inventory_qoq_change": 6.407614504362025,
+    "shares_yoy_change": -2.407200781047636,
+    "free_cash_flow_ttm": 1614348000000.0,
+    "operating_cash_flow_ttm": 2129361000000.0,
+    "revenue_ttm": 13017315000000.0,
+    "net_income_ttm": -133978000000.0,
+    "ebitda_ttm": 2932173000000.0,
+    "total_debt": 2086850000000.0,
+    "cash": 2041451000000.0,
+    "total_assets": 16667715000000.0,
+    "margin_change": 0.25391044314511646,
+    "operating_margin_yoy_change": 4.9554258090000936,
+    "inventory_to_sales_ratio": 0.42355179233030643,
+    "fcf_margin": 12.401543636302877,
+    "net_debt": 45399000000.0,
+    "net_debt_to_ebitda": 0.015483056422659918,
+    "debt_to_assets": 12.520312472345491,
+    "market_cap": 163016245248.0,
+    "enterprise_value": 697079234560.0,
+    "forward_pe": 23.5042,
+    "trailing_pe": 20.873133,
+    "ev_ebitda": 0.303,
+    "eps_fy0": 1.51799,
+    "revenue_fy0": 13266633187810.0,
+    "analysts_fy0": 3.0,
+    "eps_fy1": 1.4851,
+    "revenue_fy1": 12981709750140.0,
+    "analysts_fy1": 3.0,
+    "forward_eps_growth": -2.1666809399271347,
+    "forward_revenue_growth": -2.147669522752771,
+    "eps_revision_30d": 3.6697311749143147,
+    "eps_revision_90d": 4.758612905956383,
+    "eps_surprise_pct": 28.05673683932488,
+    "days_to_earnings": 69.0
+  },
+  "sources": {
+    "revenue_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "eps_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "latest_eps": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "gross_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "net_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_qoq_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "shares_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "free_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_cash_flow_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "revenue_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "net_income_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "ebitda_ttm": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "total_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "cash": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "total_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "margin_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "operating_margin_yoy_change": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "inventory_to_sales_ratio": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "fcf_margin": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "net_debt_to_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "debt_to_assets": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/financials/",
+      "retrieved_at": "2026-11-27T19:45:54.589279+00:00",
+      "period": "2026-09-30"
+    },
+    "market_cap": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/key-statistics/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    },
+    "enterprise_value": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/key-statistics/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    },
+    "forward_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/key-statistics/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    },
+    "trailing_pe": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/key-statistics/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    },
+    "ev_ebitda": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/key-statistics/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    },
+    "eps_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "0y"
+    },
+    "revenue_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "0y"
+    },
+    "analysts_fy0": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "0y"
+    },
+    "eps_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y"
+    },
+    "revenue_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y"
+    },
+    "analysts_fy1": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y"
+    },
+    "forward_eps_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y vs 0y"
+    },
+    "forward_revenue_growth": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y vs 0y"
+    },
+    "eps_revision_30d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y"
+    },
+    "eps_revision_90d": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "+1y"
+    },
+    "eps_surprise_pct": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/analysis/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": "2026-09-30 00:00:00"
+    },
+    "days_to_earnings": {
+      "provider": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SONY/calendar/",
+      "retrieved_at": "2026-11-27T19:45:08.948546+00:00",
+      "period": null
+    }
+  },
+  "status": {
+    "income": "ok",
+    "balance": "ok",
+    "cashflow": "ok",
+    "info": "ok",
+    "estimates": "ok",
+    "revenue_estimates": "ok",
+    "revisions": "ok",
+    "earnings_history": "ok",
+    "calendar": "ok",
+    "news": "unavailable",
+    "news_search": "ok",
+    "insiders": "missing",
+    "filings": "ok"
+  },
+  "news": [
+    {
+      "title": "Zacks Industry Outlook Highlights Sony, Dolby Laboratories and Sonos",
+      "url": "https://finance.yahoo.com/media-advertising/articles/zacks-industry-outlook-highlights-sony-144300942.html",
+      "published_at": "2026-11-24T14:43:00+00:00",
+      "categories": [
+        "earnings/guidance"
+      ]
+    },
+    {
+      "title": "GTA VI Broke Every Record in 24 Hours, So Why Did Take-Two Shareholders Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gta-vi-broke-every-record-192803953.html",
+      "published_at": "2026-11-23T19:28:03+00:00",
+      "categories": []
+    },
+    {
+      "title": "3 Audio Video Stocks to Watch Amid Favorable Industry Trends",
+      "url": "https://finance.yahoo.com/media-advertising/articles/3-audio-video-stocks-watch-132900276.html",
+      "published_at": "2026-11-23T13:29:00+00:00",
+      "categories": []
+    },
+    {
+      "title": "Take-Two Smashes Sales Records With 'Grand Theft Auto 6'",
+      "url": "https://finance.yahoo.com/m/3c42b1d1-621c-33f2-a790-3a224aa2698d/take-two-smashes-sales.html",
+      "published_at": "2026-11-20T21:32:20+00:00",
+      "categories": []
+    },
+    {
+      "title": "Market Chatter: Sony Withdraws From Talks to Anchor NYC Hudson Yards Tower",
+      "url": "https://finance.yahoo.com/real-estate/articles/market-chatter-sony-withdraws-talks-211715847.html",
+      "published_at": "2026-11-20T21:17:15+00:00",
+      "categories": []
+    }
+  ],
+  "insider_purchases": [],
+  "filings": [
+    {
+      "date": "2026-11-13",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-126552_313838"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-125990_313838"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001193125-26-454312_313838"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-123129_313838"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "S-8",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001999371-26-024171_313838"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-120456_313838"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-115761_313838"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-113566_313838"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-107340_313838"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "6-K",
+      "url": "https://finance.yahoo.com/sec-filing/SONY/0001104659-26-104960_313838"
+    }
+  ],
+  "warnings": [
+    "FCF yield omitted: quote/statement currency match unverified"
+  ],
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "statements": {
+    "schema_version": 2,
+    "data_source": "yahoo_finance",
+    "fetch_date": "2026-11-27T19:45:54.589279+00:00",
+    "report_period": "2026-09-30",
+    "revenue_yoy_change": 10.345837246738721,
+    "revenue_qoq_change": 20.84999106693246,
+    "eps_yoy_change": 27.271214642262876,
+    "eps_qoq_change": 32.28986509858181,
+    "latest_eps": 76.49,
+    "gross_margin": 36.95451102014728,
+    "operating_margin": 18.811084939083457,
+    "net_margin": 13.110076671275769,
+    "inventory_yoy_change": -13.344401815740191,
+    "inventory_qoq_change": 6.407614504362025,
+    "shares_yoy_change": -2.407200781047636,
+    "free_cash_flow_ttm": 1614348000000.0,
+    "operating_cash_flow_ttm": 2129361000000.0,
+    "revenue_ttm": 13017315000000.0,
+    "net_income_ttm": -133978000000.0,
+    "ebitda_ttm": 2932173000000.0,
+    "total_debt": 2086850000000.0,
+    "cash": 2041451000000.0,
+    "total_assets": 16667715000000.0,
+    "inventory_breakdown_available": false,
+    "quarterly_revenue": {
+      "2025-09-30": 3107907000000.0,
+      "2025-12-31": 3713681000000.0,
+      "2026-03-31": 3036417000000.0,
+      "2026-06-30": 2837771000000.0,
+      "2026-09-30": 3429446000000.0
+    },
+    "quarterly_eps": {
+      "2025-09-30": 60.1,
+      "2025-12-31": -169.03,
+      "2026-03-31": 13.89,
+      "2026-06-30": 57.82,
+      "2026-09-30": 76.49
+    },
+    "quarterly_inventory": {
+      "2025-03-31": null,
+      "2025-06-30": null,
+      "2025-09-30": 1676231000000.0,
+      "2025-12-31": 1263689000000.0,
+      "2026-03-31": 1227351000000.0,
+      "2026-06-30": 1365079000000.0,
+      "2026-09-30": 1452548000000.0
+    },
+    "margin_change": 0.25391044314511646,
+    "operating_margin_yoy_change": 4.9554258090000936,
+    "inventory_to_sales_ratio": 0.42355179233030643,
+    "fcf_margin": 12.401543636302877,
+    "net_debt": 45399000000.0,
+    "net_debt_to_ebitda": 0.015483056422659918,
+    "debt_to_assets": 12.520312472345491
+  },
+  "currency": "USD",
+  "financial_currency": "JPY",
+  "earnings_dates": [
+    "2027-02-04"
+  ],
+  "earnings_date_status": "provider_estimate",
+  "insider_source": "https://finance.yahoo.com/quote/SONY/insider-transactions/",
+  "fmp_configured": false,
+  "valuation_history": {
+    "forward_pe": {
+      "prior_observations": 0,
+      "required": 20
+    },
+    "ev_ebitda": {
+      "prior_observations": 0,
+      "required": 20
+    }
+  }
+}
